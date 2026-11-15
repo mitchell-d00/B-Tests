@@ -1,10 +1,22 @@
-# OOCC versus MPLPB: Reciprocal Acceptance-Test Protocol
+# B-Tests: Falsification Protocol for OOCC, CAD, and Functional Layers
 
 **Authored proposal, November 15, 2026.** Not an executed OOCC benchmark, an audited implementation comparison, or an independently sealed holdout. The synthetic fixture is newly written for test design and must remain development material; independent final-test questions must be acquired separately.
 
 **MPLPB source:** https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages at pinned revision `257e54a51edac272eb6b2441457f38a40485ee4d`. It supplies the test-method precedents, not a claim that OOCC must adopt MPLPB's internal code or product purpose.
 
 **OOCC sources:** the supplied *CAD*, *Artificial Tangibility*, *Canonical Tokens*, *The Object as Filter*, *From Work Exhaust to Source-Governed Collaborative Continuity*, and November 2026 OOCC research volume. Their reported tests, proposed algorithms, and unverified current-native integration must be kept separate.
+
+## Research stance — falsify, do not fix
+
+Mitchell D. McPhetridge reports that Ben asked for diagnostics and actual test harnesses. This protocol evaluates Benjamin Gelhaus's OOCC against **his own dated, version-specific claims and explicit limits**. It does not undertake to implement Ben's roadmap, remediate defects, or score an out-of-scope feature as an automatic failure.
+
+The motivating issue in *When the Map Becomes the Authority* is **governance-enforced monism**: a continuity map or CAD label could be promoted from a useful organizing tool into purported proof of one causal order across unrelated domains. The tests must induce and detect this failure, while allowing OOCC to reject it successfully. An elegant relation, retrospective storyline, repeated citation, approved summary, or high-weight orientation is not independent evidence of causation or universal law.
+
+Gelhaus's criticism of MPLPB includes capabilities beyond MPLPB's declared source-bounded mission. Such requests are legitimate as possible **extensions**, but missing optional functions must be classified as OUT_OF_SCOPE rather than failure of a contract that was never claimed. In exchange, source-bounded OOCC claims must be tested without conferring credit for undocumented autonomy, unverified independent receipt, or predicted cross-domain advantage. The standard is symmetrical.
+
+**Decision codes:** EXPAND (held-out positive evidence beyond a strong baseline); RETAIN_BOUNDED (reproduced within declared scope); NARROW (failed declared acceptance, measurable harm, or unjustified overclaim); NOT_ESTABLISHED (proposal or insufficient access); OUT_OF_SCOPE (not promised by this version). Do not promote an independent CAD reference implementation's test passes into Ben's native implementation results.
+
+The primary reported retrieval counterexample already appears in Ben's own research: November 1 V3 CP005, seven queries and 35 top-five slots, B function expansion 6/35 direct, C unconditional graph-hop 3/35 direct, with post-hoc non-blind labels and no independent holdout (Unified Intersection PDF pp. 351–353). His *No More First Dates With AI* pp. 151–153 also warns that a mature ontology can rewrite history. Test the real implementation against these documented safeguards rather than arguing he never identified the danger.
 
 ## Research objective
 
