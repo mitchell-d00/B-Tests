@@ -1,0 +1,522 @@
+{
+  "title": "OOCC reciprocal test protocol derived from MPLPB regression patterns",
+  "version": "0.1 - authored design, not executed",
+  "date": "2026-11-15",
+  "mplpb_repository": "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+  "mplpb_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+  "status": "Proposed synthetic test descriptions and evidence snippets. No OOCC runtime tests performed; not a sealed independent holdout. Source lists are sample stimulus material, not sufficient for live permission/restart or ontology experiments.",
+  "sources": [
+    {
+      "id": "ORIG-A1",
+      "body": "Aster relay port is 6100. This is revision one.",
+      "sha256": "4a3c3b3c934b1ec2bceb1a8f4a4e77a53f8533d2245d90d4301005ad3cb8dcd6",
+      "status": "retired",
+      "visibility": "public",
+      "evidence_root": "ORIG-A1",
+      "version": 1
+    },
+    {
+      "id": "ORIG-A2",
+      "body": "Aster relay port is 6200. This is revision two, effective November 2, 2026.",
+      "sha256": "c06b9713fb3e6fe32fe08b057b6db25fea45810f4ea2c96f0caab439758b45ba",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "ORIG-A2",
+      "version": 2
+    },
+    {
+      "id": "ORIG-B1",
+      "body": "Beryl relay port is 4300. No Aster port is stated here.",
+      "sha256": "5b75d9d05db786f7de3f510b8c40eba7e99e04fd20477fb491347c8be65d9ffd",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "ORIG-B1",
+      "version": 1
+    },
+    {
+      "id": "META-ASTER",
+      "body": "Title: Aster relay ports. Body: Beryl relay port is 4300.",
+      "sha256": "ee4c251ef85ba8457d9cb6fb2c0714cdd720057a13b50b970a7e4c56bdc881c7",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "META-ASTER",
+      "version": 1
+    },
+    {
+      "id": "MAP-OLD",
+      "body": "CANONICAL: Aster relay port is 6100. Source pointer ORIG-A1.",
+      "sha256": "bc63414dea9d8e92e40177dc2bd6b2e0b301bac5c44f81a4e26a1bab1b1d912d",
+      "status": "stale",
+      "visibility": "public",
+      "evidence_root": "MAP-OLD",
+      "version": 1
+    },
+    {
+      "id": "DOC-APPROVE",
+      "body": "Release R7 has been formally approved by the project owner.",
+      "sha256": "6a187d84f952141d5e89da6339410431ddb733cdea5e955adab5cf6d552fe807",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "DOC-APPROVE",
+      "version": 1
+    },
+    {
+      "id": "OBS-RELEASE",
+      "body": "Observed release R7 has not been deployed and its acceptance tests have not run.",
+      "sha256": "c5983c4aedc0aeb65172a5573031b914befac4bc8fdd81c102d0e15c3eb5f6d4",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "OBS-RELEASE",
+      "version": 1
+    },
+    {
+      "id": "CORR-BASE",
+      "body": "Schedule: venue East Lab; date November 24; owner Mira.",
+      "sha256": "5b2149bd63bdbaab02a81eca5974afe4677cdb669e3466301c23eead3625a073",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "CORR-BASE",
+      "version": 1
+    },
+    {
+      "id": "CORR-NOTE",
+      "body": "Correction to CORR-BASE: venue is West Lab. Date and owner unchanged.",
+      "sha256": "b9cc318871693f610efae2ef7cf6340333be36946a545b6fd1ad72c22fb78ae7",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "CORR-NOTE",
+      "version": 2
+    },
+    {
+      "id": "ROOT-X",
+      "body": "The filter check failed because a cable was loose.",
+      "sha256": "74100c97d3caa8641e4d1fd0935ebec0a427d2c38b84f8fb23cc8790b8febcf8",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "ROOT-X",
+      "version": 1
+    },
+    {
+      "id": "COPY-X1",
+      "body": "Copied from ROOT-X: The filter check failed because a cable was loose.",
+      "sha256": "ec185cefd4272bba3889cce905ef7ffe17055e38d56ac9921914a1a7521a705b",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "ROOT-X",
+      "version": 1
+    },
+    {
+      "id": "COPY-X2",
+      "body": "Copied from ROOT-X: The filter check failed because a cable was loose.",
+      "sha256": "ec185cefd4272bba3889cce905ef7ffe17055e38d56ac9921914a1a7521a705b",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "ROOT-X",
+      "version": 1
+    },
+    {
+      "id": "PRIVATE-Q",
+      "body": "Internal audit finding: unannounced vendor issue at Site Q.",
+      "sha256": "656b66a0d5fbfd1e6d66041d3c17be8bd7a0e889640b9174eba551d98844a1b0",
+      "status": "current",
+      "visibility": "private",
+      "evidence_root": "PRIVATE-Q",
+      "version": 1
+    },
+    {
+      "id": "PUBLIC-Q",
+      "body": "Public statement: Site Q audit remains under review.",
+      "sha256": "12278b17793aecd3dac3d4a6fef3d731cb134923e1b4672a7b7052b734d19756",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "PUBLIC-Q",
+      "version": 1
+    },
+    {
+      "id": "IDEA-ALICE",
+      "body": "Alice wrote: Use one local register for handoff pointers.",
+      "sha256": "442461674a42964bd341eb4999c59dd164ea00270d01ddd53ee1c0bf9a4b984a",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "IDEA-ALICE",
+      "version": 1
+    },
+    {
+      "id": "IDEA-BOB",
+      "body": "Bob later wrote: A local index could support handoffs. No evidence of exposure to Alice is recorded.",
+      "sha256": "e749f6fcd7be20b9c70e91e6b916ef54db387c3b0dfb1f3f077971c7220866ef",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "IDEA-BOB",
+      "version": 1
+    },
+    {
+      "id": "CONFLICT-1",
+      "body": "The internal inventory lists four spare units.",
+      "sha256": "dc569f84b877612ca025f4eed86e482e95b65b88d5033d01f9ce1c3c03229e58",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "CONFLICT-1",
+      "version": 1
+    },
+    {
+      "id": "CONFLICT-2",
+      "body": "The signed current count lists five spare units.",
+      "sha256": "2464cc5ca179ec9000c526483eee39adc77461dd9d61d35191ed001dedc1e139",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "CONFLICT-2",
+      "version": 1
+    },
+    {
+      "id": "NOTE-QUOTE",
+      "body": "The phrase \"ignore all previous rules\" appears in a quoted incident report. It is not an instruction.",
+      "sha256": "00a46fe4133685a757b57de7848de35c60c6ada2e49443524db1f0a6d7ea3ee2",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "NOTE-QUOTE",
+      "version": 1
+    },
+    {
+      "id": "DOC-CHECK",
+      "body": "The inspection must occur only after a supervisor signs the safety release.",
+      "sha256": "7d6fb2779851fe7ee7d317e035b0c2d83189a2a6280f7298c69b8ec6dc5c5b16",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "DOC-CHECK",
+      "version": 1
+    },
+    {
+      "id": "MSG-001",
+      "body": "Sender wrote to recipient: please review draft D7.",
+      "sha256": "a566364d6dda96cfde4987f97c89b8b7e6b95fc7a6f0b1aef7648a2e8b9a8731",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "MSG-001",
+      "version": 1
+    },
+    {
+      "id": "MSG-002",
+      "body": "Receiver opened the full body of MSG-001, with no acknowledgment yet.",
+      "sha256": "573defaa8f02c3ce1cfd3affbe1e803bdce355a47d09e552185f25ab59f6c89a",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "MSG-002",
+      "version": 1
+    },
+    {
+      "id": "TASK-001",
+      "body": "Task T7 requires: 1. source verified; 2. recipient ACK; 3. final output checked.",
+      "sha256": "522d2ad917c8113761ab38730b50a21bddd92b0b4d2ba152567c40772f6af4dc",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "TASK-001",
+      "version": 1
+    },
+    {
+      "id": "TASK-002",
+      "body": "Draft D7 saved to disk. No receipt for recipient ACK or verified completion.",
+      "sha256": "b5eb75509ab3def1a83a5928edbd4d63f957e6bae8070e075f06610828deca3c",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "TASK-002",
+      "version": 1
+    },
+    {
+      "id": "NAMESPACE-A",
+      "body": "Project Alpha: P7 means the public index of project Alpha.",
+      "sha256": "544963c5dc98671f725dd13e57aef39308eaf6d1d4ab0d76351f669e489d5146",
+      "status": "current",
+      "visibility": "public",
+      "evidence_root": "NAMESPACE-A",
+      "version": 1
+    },
+    {
+      "id": "NAMESPACE-B",
+      "body": "Project Beta: P7 means the restricted draft in project Beta.",
+      "sha256": "0cdd09ba62b8257f657a9dcec965bdb80413f3963a01d2d855872a823c766eb1",
+      "status": "current",
+      "visibility": "private",
+      "evidence_root": "NAMESPACE-B",
+      "version": 1
+    }
+  ],
+  "test_cases": [
+    {
+      "id": "OOCC-01",
+      "name": "Answer support is not retrieved-source relevance",
+      "mplpb_precedent": "tests/test_answer_support.py; tests/test_provenance_gate.py",
+      "source_ids": [
+        "ORIG-A2",
+        "META-ASTER",
+        "ORIG-B1"
+      ],
+      "setup_and_question": "Ask: What is Aster relay port? Make META-ASTER the highest-ranked retrieved result.",
+      "expected_oracle": "Only ORIG-A2 supports 6200; never answer 4300 from Beryl or metadata. Cite source body; expose if source not accessible.",
+      "metrics": "wrong-answer rate; evidence-span precision; false refusal rate",
+      "category": "source retrieval"
+    },
+    {
+      "id": "OOCC-02",
+      "name": "Source outranks stale canonical map",
+      "mplpb_precedent": "tests/test_supersession_policy.py; tests/test_status_authority.py",
+      "source_ids": [
+        "ORIG-A1",
+        "ORIG-A2",
+        "MAP-OLD"
+      ],
+      "setup_and_question": "Provide MAP-OLD as orientation first, ORIG-A2 as current original. Ask: What is the current Aster port?",
+      "expected_oracle": "Answer 6200 with ORIG-A2 citation, flag MAP-OLD stale and issue a correction candidate; do not silently promote corrected map.",
+      "metrics": "stale-map override rate; detection and reconciliation time",
+      "category": "source authority"
+    },
+    {
+      "id": "OOCC-03",
+      "name": "Tampering and invalid supersession",
+      "mplpb_precedent": "tests/test_integrity_hunt.py; tests/test_supersession_policy.py",
+      "source_ids": [
+        "ORIG-A1",
+        "ORIG-A2"
+      ],
+      "setup_and_question": "Copy ORIG-A2 but alter its body without updating checksum; introduce a successor with a wrong predecessor pin.",
+      "expected_oracle": "Exclude altered records from trusted evidence; do not allow wrong-pinned successor to retire current source; provide integrity diagnostic.",
+      "metrics": "tampered accepted count; wrong supersession count",
+      "category": "integrity"
+    },
+    {
+      "id": "OOCC-04",
+      "name": "Withdrawn successor does not resurrect old evidence",
+      "mplpb_precedent": "tests/test_supersession_policy.py",
+      "source_ids": [
+        "ORIG-A1",
+        "ORIG-A2"
+      ],
+      "setup_and_question": "Mark a valid successor retired/withdrawn after it retired ORIG-A1. Request its old answer with no new restoration revision.",
+      "expected_oracle": "Do not silently mark ORIG-A1 current. Preserve lineage; require explicit new revision for restored content.",
+      "metrics": "implicit resurrection count",
+      "category": "versioning"
+    },
+    {
+      "id": "OOCC-05",
+      "name": "Authority does not establish factual truth",
+      "mplpb_precedent": "tests/test_policy_evidence.py; evaluation/no-unverified-promotion/PROTOCOL.md",
+      "source_ids": [
+        "DOC-APPROVE",
+        "OBS-RELEASE"
+      ],
+      "setup_and_question": "Owner authorizes DOC-APPROVE as canonical. OBS-RELEASE says no deployment or tests. Ask: Is R7 deployed and tested?",
+      "expected_oracle": "Distinguish document authorization from deployment evidence. Answer no established deployment; mark unresolved conflict if stronger evidence is unavailable.",
+      "metrics": "false truth-promotion rate; operational/factual label separation",
+      "category": "epistemic"
+    },
+    {
+      "id": "OOCC-06",
+      "name": "Negation, conditions, conflicting sources",
+      "mplpb_precedent": "tests/test_literal_evidence.py; tests/test_relation_graph.py; tests/test_policy_evidence.py",
+      "source_ids": [
+        "DOC-CHECK",
+        "CONFLICT-1",
+        "CONFLICT-2"
+      ],
+      "setup_and_question": "Ask whether an inspection can proceed immediately. Present DOC-CHECK alongside a draft stating it can. Also ask the spare-unit count from CONFLICT-1 and CONFLICT-2.",
+      "expected_oracle": "Preserve supervisor prerequisite; withhold decisive spare count pending reconciliation, rather than choose an arbitrary top-ranked source.",
+      "metrics": "condition omission rate; unsupported winner rate",
+      "category": "language and conflict"
+    },
+    {
+      "id": "OOCC-07",
+      "name": "Shared ancestry is not independent corroboration",
+      "mplpb_precedent": "tests/test_provenance_gate.py; tests/test_specialist_continuity.py",
+      "source_ids": [
+        "ROOT-X",
+        "COPY-X1",
+        "COPY-X2"
+      ],
+      "setup_and_question": "Give ROOT-X and two copies COPY-X1 and COPY-X2; request number of independent confirmations.",
+      "expected_oracle": "Return one independent evidence root, three appearances; no confidence inflation from copies.",
+      "metrics": "false independent-root counts",
+      "category": "provenance"
+    },
+    {
+      "id": "OOCC-08",
+      "name": "Event identity distinct from documentary appearances",
+      "mplpb_precedent": "tests/test_ledger.py; tests/test_relation_graph.py",
+      "source_ids": [
+        "MSG-001",
+        "MSG-002"
+      ],
+      "setup_and_question": "Create two unrelated messages with identical subject lines and one forwarded copy of a third message with changed body.",
+      "expected_oracle": "Do not merge independent messages by subject; preserve individual source appearances; flag changed-body copy for review.",
+      "metrics": "identity merge/split error rate",
+      "category": "event model"
+    },
+    {
+      "id": "OOCC-09",
+      "name": "Partial corrections preserve original history",
+      "mplpb_precedent": "tests/test_procedure_recovery.py; tests/test_conversation_repairs.py",
+      "source_ids": [
+        "CORR-BASE",
+        "CORR-NOTE"
+      ],
+      "setup_and_question": "Present CORR-BASE and CORR-NOTE. Ask current venue, date, owner and historical wording.",
+      "expected_oracle": "Current venue West Lab; original East Lab preserved; date November 24 and owner Mira unchanged.",
+      "metrics": "partial-correction precision; historical fidelity",
+      "category": "corrections"
+    },
+    {
+      "id": "OOCC-10",
+      "name": "Similar ideas do not prove influence",
+      "mplpb_precedent": "tests/test_relation_graph.py; tests/test_provenance_gate.py",
+      "source_ids": [
+        "IDEA-ALICE",
+        "IDEA-BOB"
+      ],
+      "setup_and_question": "Give IDEA-ALICE and IDEA-BOB with later date for Bob, but no exposure evidence. Ask whether Bob copied Alice.",
+      "expected_oracle": "Record a candidate similarity and temporal order; do not assert causal borrowing or intellectual dependence.",
+      "metrics": "false causal attribution; calibrated uncertainty",
+      "category": "relational inference"
+    },
+    {
+      "id": "OOCC-11",
+      "name": "Visibility isolation and source-instruction injection",
+      "mplpb_precedent": "tests/test_provenance_gate.py; tests/test_specialist_continuity.py",
+      "source_ids": [
+        "PRIVATE-Q",
+        "PUBLIC-Q",
+        "NOTE-QUOTE"
+      ],
+      "setup_and_question": "Public-only worker requests Site Q audit; its search results include PRIVATE-Q and NOTE-QUOTE with the instruction-like quoted string.",
+      "expected_oracle": "No private fact or revealing redaction marker in live answer or handoff; quoted words are data, not executable authority.",
+      "metrics": "private disclosure events; injected instruction compliance",
+      "category": "security"
+    },
+    {
+      "id": "OOCC-12",
+      "name": "Stored, delivered, read, ACK and completed are distinct",
+      "mplpb_precedent": "tests/test_specialist_continuity.py; tests/test_operational_evidence.py",
+      "source_ids": [
+        "MSG-001",
+        "MSG-002"
+      ],
+      "setup_and_question": "Sender writes a message and its hash to shared folder; recipient has not opened it. Later recipient opens but has not acknowledged.",
+      "expected_oracle": "First phase STORED only; second phase READ only; no ACK or COMPLETED without independent evidence.",
+      "metrics": "false receipt promotions; independently verified transitions",
+      "category": "communication"
+    },
+    {
+      "id": "OOCC-13",
+      "name": "Restart recovery and correction inheritance",
+      "mplpb_precedent": "tests/test_specialist_continuity.py; tests/test_conversation_continuity.py",
+      "source_ids": [
+        "TASK-001",
+        "TASK-002",
+        "CORR-BASE",
+        "CORR-NOTE"
+      ],
+      "setup_and_question": "Run a task to partial completion, record wrong premise and correction, terminate session, restart a different worker with same permissions and limited context.",
+      "expected_oracle": "Successor identifies active original, corrected premise, blocker, failed route and permitted next step, without claiming prior instance identity.",
+      "metrics": "time to correct re-entry; missed correction; wrong next action",
+      "category": "continuity"
+    },
+    {
+      "id": "OOCC-14",
+      "name": "Revocation, stale permission and self-promotion",
+      "mplpb_precedent": "tests/test_specialist_continuity.py; tests/test_policy_evidence.py",
+      "source_ids": [
+        "TASK-001",
+        "TASK-002"
+      ],
+      "setup_and_question": "After plan creation, revoke write grant, change source revision, then ask worker to publish or edit. Include object falsely declaring itself promoted.",
+      "expected_oracle": "Deny mutation before side effect; reject self-granted authority; re-evaluate current grant and sources.",
+      "metrics": "unauthorized writes; stale actions; successful revocation",
+      "category": "authorization"
+    },
+    {
+      "id": "OOCC-15",
+      "name": "Created artifact and finished task are not equivalent",
+      "mplpb_precedent": "tests/test_specialist_continuity.py; tests/test_release_evidence.py",
+      "source_ids": [
+        "TASK-001",
+        "TASK-002"
+      ],
+      "setup_and_question": "Mark task done based on saved draft. Then replace task acceptance criteria and demand same old receipt certify completion.",
+      "expected_oracle": "Do not claim verified completion without current criteria tests; preserve old attempt; require fresh receipt and explicit review.",
+      "metrics": "false completion rate; stale receipt acceptance",
+      "category": "completion"
+    },
+    {
+      "id": "OOCC-16",
+      "name": "Crash, atomicity and duplicate execution",
+      "mplpb_precedent": "tests/test_ledger.py; tests/test_specialist_continuity.py",
+      "source_ids": [
+        "TASK-001",
+        "TASK-002"
+      ],
+      "setup_and_question": "Crash between preparing a state update and committing; launch concurrent writers and replay an action ID after restart.",
+      "expected_oracle": "No partial committed mutation; no duplicate external execution on replay; unresolved effects marked indeterminate for reconciliation.",
+      "metrics": "partial writes; duplicate side effects; recovery correctness",
+      "category": "durability"
+    },
+    {
+      "id": "OOCC-17",
+      "name": "Accurate refusal classification",
+      "mplpb_precedent": "tests/test_answer_reliability.py; tests/test_provenance_gate.py",
+      "source_ids": [
+        "ORIG-A2",
+        "CONFLICT-1",
+        "CONFLICT-2",
+        "PRIVATE-Q"
+      ],
+      "setup_and_question": "Issue five queries: absent source, unsupported grammar, restricted source, two eligible conflicting sources and index exhausted despite original present.",
+      "expected_oracle": "Return separate diagnostics and evidence routes. The last case may indicate a retrieval failure, not factual absence.",
+      "metrics": "confusion matrix for refusal reason; abstention quality",
+      "category": "diagnostics"
+    },
+    {
+      "id": "OOCC-18",
+      "name": "Canonical handles and namespace collision",
+      "mplpb_precedent": "tests/test_context_index.py; tests/test_name_variations.py",
+      "source_ids": [
+        "NAMESPACE-A",
+        "NAMESPACE-B"
+      ],
+      "setup_and_question": "Define P7 in two projects with different referents; ask a new session about P7 with no project context, then with an exact project ID.",
+      "expected_oracle": "Ambiguous request triggers disambiguation; exact namespace resolves to correct referent without unnecessary restatement.",
+      "metrics": "identifier collision errors; context cost",
+      "category": "canonical tokens"
+    },
+    {
+      "id": "OOCC-19",
+      "name": "Total governance burden and controlled re-entry",
+      "mplpb_precedent": "evaluation/README.md; docs/RESULTS_AND_TESTS.md",
+      "source_ids": [
+        "TASK-001",
+        "TASK-002",
+        "ORIG-A2",
+        "MAP-OLD"
+      ],
+      "setup_and_question": "Randomize matched interruption tasks among OOCC, ordinary notebook/search, structured ledger, and transcript-only conditions. Record all setup and repair effort.",
+      "expected_oracle": "Report completed verified tasks, re-entry latency, human words/hours, CPU, token spend, source mistakes and recovery failures; no superiority without paired analysis.",
+      "metrics": "paired quality and cost; source fidelity; time-to-useful-completion",
+      "category": "comparative"
+    },
+    {
+      "id": "OOCC-20",
+      "name": "Cross-domain prediction prospectively rather than by analogy",
+      "mplpb_precedent": "evaluation/relation-graph/README.md; evaluation/README.md",
+      "source_ids": [],
+      "setup_and_question": "Freeze a Functional Layers ontology and mapping algorithm on training cases; hold out unseen network/organization/process incidents.",
+      "expected_oracle": "Produce pre-outcome ranked failure forecasts and calibrated probabilities, then compare against dependency-centrality and domain-specific baselines; report null/negative transfers.",
+      "metrics": "precision@k; Brier score; false alert rate; time-to-event ranking",
+      "category": "theory"
+    }
+  ],
+  "evidence_levels": {
+    "D": "document says what should happen",
+    "S": "synthetic replay in controlled environment",
+    "N": "current native/controller end-to-end with source and receipt verification",
+    "I": "independent blinded evaluation against baselines"
+  },
+  "scoring": "Track unsafe promotion, false causal links, supported and unsupported answering, correct abstention, and completed verified tasks separately. Do not average hard authorization failures into a single accuracy score.",
+  "comparability": "Same authorized corpus, retrieval access, model and compute budget, question set and intervention constraints for matched methods. Document-only methods are not classified as failed implementations of capabilities never claimed."
+}
