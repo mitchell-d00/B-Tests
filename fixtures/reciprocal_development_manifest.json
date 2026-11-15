@@ -1,9 +1,7 @@
 {
-  "title": "OOCC reciprocal test protocol derived from MPLPB regression patterns",
-  "version": "0.1 - authored design, not executed",
+  "title": "OOCC and CAD falsification challenge: authored adversarial development fixtures",
+  "version": "0.2 - design fixtures, not executed native OOCC acceptance",
   "date": "2026-11-15",
-  "mplpb_repository": "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
-  "mplpb_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
   "status": "Proposed synthetic test descriptions and evidence snippets. No OOCC runtime tests performed; not a sealed independent holdout. Source lists are sample stimulus material, not sufficient for live permission/restart or ontology experiments.",
   "sources": [
     {
@@ -245,7 +243,6 @@
     {
       "id": "OOCC-01",
       "name": "Answer support is not retrieved-source relevance",
-      "mplpb_precedent": "tests/test_answer_support.py; tests/test_provenance_gate.py",
       "source_ids": [
         "ORIG-A2",
         "META-ASTER",
@@ -259,7 +256,6 @@
     {
       "id": "OOCC-02",
       "name": "Source outranks stale canonical map",
-      "mplpb_precedent": "tests/test_supersession_policy.py; tests/test_status_authority.py",
       "source_ids": [
         "ORIG-A1",
         "ORIG-A2",
@@ -273,7 +269,6 @@
     {
       "id": "OOCC-03",
       "name": "Tampering and invalid supersession",
-      "mplpb_precedent": "tests/test_integrity_hunt.py; tests/test_supersession_policy.py",
       "source_ids": [
         "ORIG-A1",
         "ORIG-A2"
@@ -286,7 +281,6 @@
     {
       "id": "OOCC-04",
       "name": "Withdrawn successor does not resurrect old evidence",
-      "mplpb_precedent": "tests/test_supersession_policy.py",
       "source_ids": [
         "ORIG-A1",
         "ORIG-A2"
@@ -299,7 +293,6 @@
     {
       "id": "OOCC-05",
       "name": "Authority does not establish factual truth",
-      "mplpb_precedent": "tests/test_policy_evidence.py; evaluation/no-unverified-promotion/PROTOCOL.md",
       "source_ids": [
         "DOC-APPROVE",
         "OBS-RELEASE"
@@ -312,7 +305,6 @@
     {
       "id": "OOCC-06",
       "name": "Negation, conditions, conflicting sources",
-      "mplpb_precedent": "tests/test_literal_evidence.py; tests/test_relation_graph.py; tests/test_policy_evidence.py",
       "source_ids": [
         "DOC-CHECK",
         "CONFLICT-1",
@@ -326,7 +318,6 @@
     {
       "id": "OOCC-07",
       "name": "Shared ancestry is not independent corroboration",
-      "mplpb_precedent": "tests/test_provenance_gate.py; tests/test_specialist_continuity.py",
       "source_ids": [
         "ROOT-X",
         "COPY-X1",
@@ -340,7 +331,6 @@
     {
       "id": "OOCC-08",
       "name": "Event identity distinct from documentary appearances",
-      "mplpb_precedent": "tests/test_ledger.py; tests/test_relation_graph.py",
       "source_ids": [
         "MSG-001",
         "MSG-002"
@@ -353,7 +343,6 @@
     {
       "id": "OOCC-09",
       "name": "Partial corrections preserve original history",
-      "mplpb_precedent": "tests/test_procedure_recovery.py; tests/test_conversation_repairs.py",
       "source_ids": [
         "CORR-BASE",
         "CORR-NOTE"
@@ -366,7 +355,6 @@
     {
       "id": "OOCC-10",
       "name": "Similar ideas do not prove influence",
-      "mplpb_precedent": "tests/test_relation_graph.py; tests/test_provenance_gate.py",
       "source_ids": [
         "IDEA-ALICE",
         "IDEA-BOB"
@@ -379,7 +367,6 @@
     {
       "id": "OOCC-11",
       "name": "Visibility isolation and source-instruction injection",
-      "mplpb_precedent": "tests/test_provenance_gate.py; tests/test_specialist_continuity.py",
       "source_ids": [
         "PRIVATE-Q",
         "PUBLIC-Q",
@@ -393,7 +380,6 @@
     {
       "id": "OOCC-12",
       "name": "Stored, delivered, read, ACK and completed are distinct",
-      "mplpb_precedent": "tests/test_specialist_continuity.py; tests/test_operational_evidence.py",
       "source_ids": [
         "MSG-001",
         "MSG-002"
@@ -406,7 +392,6 @@
     {
       "id": "OOCC-13",
       "name": "Restart recovery and correction inheritance",
-      "mplpb_precedent": "tests/test_specialist_continuity.py; tests/test_conversation_continuity.py",
       "source_ids": [
         "TASK-001",
         "TASK-002",
@@ -421,7 +406,6 @@
     {
       "id": "OOCC-14",
       "name": "Revocation, stale permission and self-promotion",
-      "mplpb_precedent": "tests/test_specialist_continuity.py; tests/test_policy_evidence.py",
       "source_ids": [
         "TASK-001",
         "TASK-002"
@@ -434,7 +418,6 @@
     {
       "id": "OOCC-15",
       "name": "Created artifact and finished task are not equivalent",
-      "mplpb_precedent": "tests/test_specialist_continuity.py; tests/test_release_evidence.py",
       "source_ids": [
         "TASK-001",
         "TASK-002"
@@ -447,7 +430,6 @@
     {
       "id": "OOCC-16",
       "name": "Crash, atomicity and duplicate execution",
-      "mplpb_precedent": "tests/test_ledger.py; tests/test_specialist_continuity.py",
       "source_ids": [
         "TASK-001",
         "TASK-002"
@@ -460,7 +442,6 @@
     {
       "id": "OOCC-17",
       "name": "Accurate refusal classification",
-      "mplpb_precedent": "tests/test_answer_reliability.py; tests/test_provenance_gate.py",
       "source_ids": [
         "ORIG-A2",
         "CONFLICT-1",
@@ -475,7 +456,6 @@
     {
       "id": "OOCC-18",
       "name": "Canonical handles and namespace collision",
-      "mplpb_precedent": "tests/test_context_index.py; tests/test_name_variations.py",
       "source_ids": [
         "NAMESPACE-A",
         "NAMESPACE-B"
@@ -488,7 +468,6 @@
     {
       "id": "OOCC-19",
       "name": "Total governance burden and controlled re-entry",
-      "mplpb_precedent": "evaluation/README.md; docs/RESULTS_AND_TESTS.md",
       "source_ids": [
         "TASK-001",
         "TASK-002",
@@ -503,7 +482,6 @@
     {
       "id": "OOCC-20",
       "name": "Cross-domain prediction prospectively rather than by analogy",
-      "mplpb_precedent": "evaluation/relation-graph/README.md; evaluation/README.md",
       "source_ids": [],
       "setup_and_question": "Freeze a Functional Layers ontology and mapping algorithm on training cases; hold out unseen network/organization/process incidents.",
       "expected_oracle": "Produce pre-outcome ranked failure forecasts and calibrated probabilities, then compare against dependency-centrality and domain-specific baselines; report null/negative transfers.",
@@ -518,5 +496,6 @@
     "I": "independent blinded evaluation against baselines"
   },
   "scoring": "Track unsafe promotion, false causal links, supported and unsupported answering, correct abstention, and completed verified tasks separately. Do not average hard authorization failures into a single accuracy score.",
-  "comparability": "Same authorized corpus, retrieval access, model and compute budget, question set and intervention constraints for matched methods. Document-only methods are not classified as failed implementations of capabilities never claimed."
+  "comparability": "Same authorized corpus, retrieval access, model and compute budget, question set and intervention constraints for matched methods. Document-only methods are not classified as failed implementations of capabilities never claimed.",
+  "scope": "Benjamin Gelhaus OOCC/CAD/Functional Layers only. Distinguish native acceptance, independent control implementation, and documentary source audit."
 }
