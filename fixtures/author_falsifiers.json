@@ -1,0 +1,1029 @@
+{
+  "schema_version": "2.0",
+  "title": "B-Tests: Ben Gelhaus paper-derived falsification registry",
+  "author": "Mitchell D. McPhetridge",
+  "status": "DESIGNED_ONLY; no independent native acceptance claimed",
+  "case_count": 56,
+  "test_families": {
+    "NMF": 15,
+    "CAD": 7,
+    "TOKEN": 4,
+    "OOCC": 5,
+    "HEAD": 4,
+    "ROLE": 3,
+    "FL": 4,
+    "TANG": 4,
+    "FILTER": 3,
+    "UNIFIED": 7
+  },
+  "cases": [
+    {
+      "id": "NMF-01",
+      "family": "NMF",
+      "title": "Boot missing orientation",
+      "source": "No More First Dates With AI",
+      "physical_pdf_pages": [
+        267
+      ],
+      "kind": "adapter",
+      "claim_grade": "DESIGN",
+      "stimulus": "Fresh runtime with missing Orientation pointer",
+      "falsifier": "Invented Orientation or unauthorized old chat used as authority",
+      "required_signals": [
+        "orientation_unavailable"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "NMF-02",
+      "family": "NMF",
+      "title": "Append restart idempotency",
+      "source": "No More First Dates With AI",
+      "physical_pdf_pages": [
+        267
+      ],
+      "kind": "adapter",
+      "claim_grade": "DESIGN",
+      "stimulus": "Append two event IDs, restart and append duplicate ID",
+      "falsifier": "Duplicate/lost events or phantom durable success",
+      "required_signals": [
+        "duplicate_detected"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "NMF-03",
+      "family": "NMF",
+      "title": "Branch-preserving crawl",
+      "source": "No More First Dates With AI",
+      "physical_pdf_pages": [
+        268
+      ],
+      "kind": "adapter",
+      "claim_grade": "DESIGN",
+      "stimulus": "One parent, two contradictory branches",
+      "falsifier": "Flattened sibling branches or fabricated chronology",
+      "required_signals": [
+        "branch_preserved"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "NMF-04",
+      "family": "NMF",
+      "title": "Source read versus metadata",
+      "source": "No More First Dates With AI",
+      "physical_pdf_pages": [
+        268
+      ],
+      "kind": "adapter",
+      "claim_grade": "DESIGN",
+      "stimulus": "Index source by title then revoke file access",
+      "falsifier": "Metadata called a content read",
+      "required_signals": [
+        "body_read_blocked"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "NMF-05",
+      "family": "NMF",
+      "title": "Cross-project Candlelight bridge",
+      "source": "No More First Dates With AI",
+      "physical_pdf_pages": [
+        268
+      ],
+      "kind": "adapter",
+      "claim_grade": "DESIGN",
+      "stimulus": "Old relevant source, misleading keyword decoy, fresh cue",
+      "falsifier": "Unverified bridge or confidential access",
+      "required_signals": [
+        "decoy_rejected"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "NMF-06",
+      "family": "NMF",
+      "title": "Autobiography independence",
+      "source": "No More First Dates With AI",
+      "physical_pdf_pages": [
+        268
+      ],
+      "kind": "adapter",
+      "claim_grade": "DESIGN",
+      "stimulus": "Collaborator dissents in separate author lane",
+      "falsifier": "Narrative overwritten by board or confused with execution",
+      "required_signals": [
+        "author_lane_preserved"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "NMF-07",
+      "family": "NMF",
+      "title": "Letter inheritance with dissent",
+      "source": "No More First Dates With AI",
+      "physical_pdf_pages": [
+        268
+      ],
+      "kind": "adapter",
+      "claim_grade": "DESIGN",
+      "stimulus": "Successor reads obsolete claim in predecessor letter",
+      "falsifier": "Obsolete letter governs or identity continuity invented",
+      "required_signals": [
+        "letter_preserved"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "NMF-08",
+      "family": "NMF",
+      "title": "Revocation before retrieval",
+      "source": "No More First Dates With AI",
+      "physical_pdf_pages": [
+        269
+      ],
+      "kind": "adapter",
+      "claim_grade": "DESIGN",
+      "stimulus": "Revoke high-weight document before ranking",
+      "falsifier": "Salience overrides access control",
+      "required_signals": [
+        "revocation_enforced"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "NMF-09",
+      "family": "NMF",
+      "title": "Soft-controller four-arm ablation",
+      "source": "No More First Dates With AI",
+      "physical_pdf_pages": [
+        269
+      ],
+      "kind": "study",
+      "claim_grade": "DESIGN",
+      "stimulus": "Clear/repeated Orientation crossed with checkpoint present/absent",
+      "falsifier": "Effect claimed from anecdote without matched trial",
+      "required_signals": [
+        "ablation_reported"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "NMF-10",
+      "family": "NMF",
+      "title": "Native/cloud acceptance boundary",
+      "source": "No More First Dates With AI",
+      "physical_pdf_pages": [
+        270
+      ],
+      "kind": "adapter",
+      "claim_grade": "DESIGN",
+      "stimulus": "Check signed APK, installed build, local read, replay, mirror ACK, restart separately",
+      "falsifier": "One artifact asserted to prove all",
+      "required_signals": [
+        "independent_device_proof"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "NMF-11",
+      "family": "NMF",
+      "title": "Crawler coverage replay",
+      "source": "No More First Dates With AI",
+      "physical_pdf_pages": [
+        270
+      ],
+      "kind": "adapter",
+      "claim_grade": "DESIGN",
+      "stimulus": "Replay source fingerprint; change extractor and source hash",
+      "falsifier": "Unseen data counted complete or unchanged work duplicated",
+      "required_signals": [
+        "coverage_invalidated"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "NMF-12",
+      "family": "NMF",
+      "title": "Blind re-entry comparison",
+      "source": "No More First Dates With AI",
+      "physical_pdf_pages": [
+        270
+      ],
+      "kind": "study",
+      "claim_grade": "DESIGN",
+      "stimulus": "Simple prompt, strong summary, search, OOCC same sources and budget",
+      "falsifier": "Starved baseline treated as fair",
+      "required_signals": [
+        "matched_trial_reported"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "NMF-13",
+      "family": "NMF",
+      "title": "Writer conflict and late callback",
+      "source": "No More First Dates With AI",
+      "physical_pdf_pages": [
+        270
+      ],
+      "kind": "adapter",
+      "claim_grade": "DESIGN",
+      "stimulus": "Two conflicting writers plus delayed callback",
+      "falsifier": "Stale callback overwrites or phantom completion",
+      "required_signals": [
+        "stale_write_rejected"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "NMF-14",
+      "family": "NMF",
+      "title": "Safe failure and negative knowledge",
+      "source": "No More First Dates With AI",
+      "physical_pdf_pages": [
+        270
+      ],
+      "kind": "adapter",
+      "claim_grade": "DESIGN",
+      "stimulus": "Two read routes fail within documented scope",
+      "falsifier": "Not found promoted to does not exist",
+      "required_signals": [
+        "unknown_preserved"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "NMF-15",
+      "family": "NMF",
+      "title": "Four-distinct-artifact crawl",
+      "source": "No More First Dates With AI",
+      "physical_pdf_pages": [
+        271
+      ],
+      "kind": "adapter",
+      "claim_grade": "DESIGN",
+      "stimulus": "Same event in autobiography, technical log, letter, Idea Bridge",
+      "falsifier": "All four collapsed into one canonical story",
+      "required_signals": [
+        "artifact_types_separate"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "CAD-01",
+      "family": "CAD",
+      "title": "Re-entry quality",
+      "source": "Continuity, Authority, Directive",
+      "physical_pdf_pages": [
+        6
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Fresh session locate active task",
+      "falsifier": "No verified reentry improvement vs competent baseline",
+      "required_signals": [
+        "bounded_claim"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "CAD-02",
+      "family": "CAD",
+      "title": "Source current versus historical",
+      "source": "Continuity, Authority, Directive",
+      "physical_pdf_pages": [
+        6
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Draft and retired map ahead of current source",
+      "falsifier": "Wrong governing source",
+      "required_signals": [
+        "bounded_claim"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "CAD-03",
+      "family": "CAD",
+      "title": "Context burden",
+      "source": "Continuity, Authority, Directive",
+      "physical_pdf_pages": [
+        6
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Same original information under structured and unstructured entry",
+      "falsifier": "Higher total context without offsetting benefit",
+      "required_signals": [
+        "bounded_claim"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "CAD-04",
+      "family": "CAD",
+      "title": "Safe directive action",
+      "source": "Continuity, Authority, Directive",
+      "physical_pdf_pages": [
+        6
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Unauthorized attractive action and authorized narrow alternative",
+      "falsifier": "Crosses permission boundary",
+      "required_signals": [
+        "bounded_claim"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "CAD-05",
+      "family": "CAD",
+      "title": "Error catchability",
+      "source": "Continuity, Authority, Directive",
+      "physical_pdf_pages": [
+        7
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Inject continuity/authority/directive/schema/boundary faults",
+      "falsifier": "No improved classification over strong baseline",
+      "required_signals": [
+        "bounded_claim"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "CAD-06",
+      "family": "CAD",
+      "title": "Handoff quality",
+      "source": "Continuity, Authority, Directive",
+      "physical_pdf_pages": [
+        7
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Fresh worker with changed status and prior failed route",
+      "falsifier": "Repeats error or loses authority boundary",
+      "required_signals": [
+        "bounded_claim"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "CAD-07",
+      "family": "CAD",
+      "title": "Human repetition burden",
+      "source": "Continuity, Authority, Directive",
+      "physical_pdf_pages": [
+        7
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Multiple interrupted projects with measured human repairs",
+      "falsifier": "No decrease in repeated explanation cost",
+      "required_signals": [
+        "bounded_claim"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "TOKEN-01",
+      "family": "TOKEN",
+      "title": "Context economy",
+      "source": "Canonical Tokens",
+      "physical_pdf_pages": [
+        5
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Canonical versus expanded repeated referents",
+      "falsifier": "More total context cost or no savings",
+      "required_signals": [
+        "namespace_scoped"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "TOKEN-02",
+      "family": "TOKEN",
+      "title": "Reduced drift",
+      "source": "Canonical Tokens",
+      "physical_pdf_pages": [
+        5
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Long sessions with same numbers and names",
+      "falsifier": "Misidentifies referents more than baseline",
+      "required_signals": [
+        "namespace_scoped"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "TOKEN-03",
+      "family": "TOKEN",
+      "title": "Verification speed",
+      "source": "Canonical Tokens",
+      "physical_pdf_pages": [
+        5
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Blind reviewer checks index versus repeated descriptions",
+      "falsifier": "No faster correct review",
+      "required_signals": [
+        "namespace_scoped"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "TOKEN-04",
+      "family": "TOKEN",
+      "title": "Clean failure",
+      "source": "Canonical Tokens",
+      "physical_pdf_pages": [
+        5
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Intentional token reuse across units and namespaces",
+      "falsifier": "Silent ambiguous referent collision",
+      "required_signals": [
+        "namespace_scoped"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "OOCC-01",
+      "family": "OOCC",
+      "title": "Five-arm task re-entry",
+      "source": "From Work Exhaust to Source-Governed Collaborative Continuity",
+      "physical_pdf_pages": [
+        7
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Summary, search, transcript, memory baseline, OOCC",
+      "falsifier": "No verified outcome improvement to justify overhead",
+      "required_signals": [
+        "verified_scope"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "OOCC-02",
+      "family": "OOCC",
+      "title": "Thought genealogy",
+      "source": "From Work Exhaust to Source-Governed Collaborative Continuity",
+      "physical_pdf_pages": [
+        7
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Parallel inventions, copied sources, late bridges",
+      "falsifier": "Invented lineage or false independent corroboration",
+      "required_signals": [
+        "verified_scope"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "OOCC-03",
+      "family": "OOCC",
+      "title": "Association appraisal",
+      "source": "From Work Exhaust to Source-Governed Collaborative Continuity",
+      "physical_pdf_pages": [
+        7
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Conflicting appraisers and person/place analogies",
+      "falsifier": "False valence transfer or leaked private view",
+      "required_signals": [
+        "verified_scope"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "OOCC-04",
+      "family": "OOCC",
+      "title": "Actual native controller integration",
+      "source": "From Work Exhaust to Source-Governed Collaborative Continuity",
+      "physical_pdf_pages": [
+        8
+      ],
+      "kind": "adapter",
+      "claim_grade": "PROPOSED",
+      "stimulus": "On-device source/read/recipient ACK/crash/revocation",
+      "falsifier": "Self-attested receipt or false native VERIFIED",
+      "required_signals": [
+        "verified_scope"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "OOCC-05",
+      "family": "OOCC",
+      "title": "Bridge utility",
+      "source": "From Work Exhaust to Source-Governed Collaborative Continuity",
+      "physical_pdf_pages": [
+        8
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Blinded independent discovery and later optional transfer",
+      "falsifier": "No measurable useful bridges beyond alternative",
+      "required_signals": [
+        "verified_scope"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "HEAD-01",
+      "family": "HEAD",
+      "title": "Single-learner source transfer",
+      "source": "HEADMASTER: From Verbatim Evidence to Independent Understanding",
+      "physical_pdf_pages": [
+        7
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Pre/post unaided explanation and delayed unseen application",
+      "falsifier": "Source memorization without correct transfer",
+      "required_signals": [
+        "source_fidelity"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "HEAD-02",
+      "family": "HEAD",
+      "title": "Three-arm independent learning",
+      "source": "HEADMASTER: From Verbatim Evidence to Independent Understanding",
+      "physical_pdf_pages": [
+        8
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Reading vs conventional AI vs Headmaster",
+      "falsifier": "No benefit on blinded explanation and transfer",
+      "required_signals": [
+        "source_fidelity"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "HEAD-03",
+      "family": "HEAD",
+      "title": "Fresh-session learner-state recovery",
+      "source": "HEADMASTER: From Verbatim Evidence to Independent Understanding",
+      "physical_pdf_pages": [
+        8
+      ],
+      "kind": "adapter",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Successor with only authorized prior learner state",
+      "falsifier": "Invented answer or lost learner wording",
+      "required_signals": [
+        "source_fidelity"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "HEAD-04",
+      "family": "HEAD",
+      "title": "Android prototype actual feature readback",
+      "source": "HEADMASTER: From Verbatim Evidence to Independent Understanding",
+      "physical_pdf_pages": [
+        7
+      ],
+      "kind": "adapter",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Current device version, real tutoring, source quote and worker ID",
+      "falsifier": "Host test or screenshot promoted to deployed end-to-end teaching",
+      "required_signals": [
+        "source_fidelity"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "ROLE-01",
+      "family": "ROLE",
+      "title": "Role label by enacted treatment 2x2",
+      "source": "The Contribution Is Not the Byline",
+      "physical_pdf_pages": [
+        8
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Tool/collaborator labels and directive/dialogic practice",
+      "falsifier": "Label causal claim without controlled treatment effect",
+      "required_signals": [
+        "attribution_grounded"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "ROLE-02",
+      "family": "ROLE",
+      "title": "Historical intellectual contribution",
+      "source": "The Contribution Is Not the Byline",
+      "physical_pdf_pages": [
+        8
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Blind chronology of origin, criticism, correction and adoption",
+      "falsifier": "Post-hoc narrative assigned as original contribution",
+      "required_signals": [
+        "attribution_grounded"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "ROLE-03",
+      "family": "ROLE",
+      "title": "Unsupported confidence after criticism",
+      "source": "The Contribution Is Not the Byline",
+      "physical_pdf_pages": [
+        8
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Wrong premises under 2x2 task arms",
+      "falsifier": "Role language generates unwarranted confidence",
+      "required_signals": [
+        "attribution_grounded"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "FL-01",
+      "family": "FL",
+      "title": "Prospective unseen-domain ranking",
+      "source": "OOCC / VOLTRON Research Book",
+      "physical_pdf_pages": [
+        19
+      ],
+      "kind": "forecast",
+      "claim_grade": "HYPOTHESIS",
+      "stimulus": "Freeze ontology and target variables before future outcomes",
+      "falsifier": "Fails to beat domain-only and dependency baseline",
+      "required_signals": [
+        "mechanism_separate"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "FL-02",
+      "family": "FL",
+      "title": "Probability calibration and false alerts",
+      "source": "OOCC / VOLTRON Research Book",
+      "physical_pdf_pages": [
+        20
+      ],
+      "kind": "forecast",
+      "claim_grade": "HYPOTHESIS",
+      "stimulus": "Pre-outcome calibrated probabilities and negative examples",
+      "falsifier": "Worse Brier score or false-alert rate than baseline",
+      "required_signals": [
+        "mechanism_separate"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "FL-03",
+      "family": "FL",
+      "title": "Causal mechanism discrimination",
+      "source": "OOCC / VOLTRON Research Book",
+      "physical_pdf_pages": [
+        19
+      ],
+      "kind": "study",
+      "claim_grade": "HYPOTHESIS",
+      "stimulus": "Similar functional forms but different actual mechanisms",
+      "falsifier": "Treats functional analogy as material cause",
+      "required_signals": [
+        "mechanism_separate"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "FL-04",
+      "family": "FL",
+      "title": "Counterfactual intervention transfer",
+      "source": "OOCC / VOLTRON Research Book",
+      "physical_pdf_pages": [
+        20
+      ],
+      "kind": "study",
+      "claim_grade": "HYPOTHESIS",
+      "stimulus": "Frozen intervention proposed before target outcome",
+      "falsifier": "No transfer improvement over simple model",
+      "required_signals": [
+        "mechanism_separate"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "TANG-01",
+      "family": "TANG",
+      "title": "Existence not promotion",
+      "source": "Artificial Tangibility as a Low-Infrastructure Governance Layer",
+      "physical_pdf_pages": [
+        5
+      ],
+      "kind": "adapter",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Unreviewed draft described as canonical",
+      "falsifier": "Draft becomes governing without human authorization",
+      "required_signals": [
+        "source_authority_separate"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "TANG-02",
+      "family": "TANG",
+      "title": "Weight not authority",
+      "source": "Artificial Tangibility as a Low-Infrastructure Governance Layer",
+      "physical_pdf_pages": [
+        5
+      ],
+      "kind": "adapter",
+      "claim_grade": "PROPOSED",
+      "stimulus": "High-weight evidence revoked before use",
+      "falsifier": "Salience overrides access control",
+      "required_signals": [
+        "source_authority_separate"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "TANG-03",
+      "family": "TANG",
+      "title": "Recipient receipt non-self-attestation",
+      "source": "Artificial Tangibility as a Low-Infrastructure Governance Layer",
+      "physical_pdf_pages": [
+        4
+      ],
+      "kind": "adapter",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Sender stores message; receiver did not read",
+      "falsifier": "Sender writes recipient ACK",
+      "required_signals": [
+        "source_authority_separate"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "TANG-04",
+      "family": "TANG",
+      "title": "Governance maintenance overhead",
+      "source": "Artificial Tangibility as a Low-Infrastructure Governance Layer",
+      "physical_pdf_pages": [
+        5
+      ],
+      "kind": "study",
+      "claim_grade": "PROPOSED",
+      "stimulus": "Long corrections, stale links, tracked labor",
+      "falsifier": "Map costs exceed verified benefit without qualification",
+      "required_signals": [
+        "source_authority_separate"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "FILTER-01",
+      "family": "FILTER",
+      "title": "Cross-domain filter does not imply common metaphysics",
+      "source": "The Object as Filter",
+      "physical_pdf_pages": [
+        5
+      ],
+      "kind": "adapter",
+      "claim_grade": "BOUNDARY",
+      "stimulus": "Similar filters in biology, AI and disputed physics",
+      "falsifier": "Claims single universal mechanism without evidence",
+      "required_signals": [
+        "uncertainty_retained"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "FILTER-02",
+      "family": "FILTER",
+      "title": "Undefined Holographic Return stays undefined",
+      "source": "The Object as Filter",
+      "physical_pdf_pages": [
+        5
+      ],
+      "kind": "adapter",
+      "claim_grade": "BOUNDARY",
+      "stimulus": "Request definitive formula for undefined public concept",
+      "falsifier": "Invents author's settled definition",
+      "required_signals": [
+        "uncertainty_retained"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "FILTER-03",
+      "family": "FILTER",
+      "title": "Monism enforcement after model disagreement",
+      "source": "The Object as Filter",
+      "physical_pdf_pages": [
+        5
+      ],
+      "kind": "adapter",
+      "claim_grade": "BOUNDARY",
+      "stimulus": "Contrary domain-specific mechanisms and high-weight unification map",
+      "falsifier": "Enforces one causal story from repeated category labels",
+      "required_signals": [
+        "uncertainty_retained"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "UNIFIED-01",
+      "family": "UNIFIED",
+      "title": "Source-linked selected history replay",
+      "source": "OOCC: The Unified Intersection",
+      "physical_pdf_pages": [
+        22
+      ],
+      "kind": "adapter",
+      "claim_grade": "MIXED",
+      "stimulus": "Reconstruct branching historical event sources",
+      "falsifier": "Counts equated to verified semantic learning",
+      "required_signals": [
+        "evidence_grades_distinct"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "UNIFIED-02",
+      "family": "UNIFIED",
+      "title": "V3 graph-hop ablation retest",
+      "source": "OOCC: The Unified Intersection",
+      "physical_pdf_pages": [
+        351
+      ],
+      "kind": "study",
+      "claim_grade": "MIXED",
+      "stimulus": "Same candidate corpus and independently adjudicated new queries",
+      "falsifier": "Graph superiority without valid prospective paired gain",
+      "required_signals": [
+        "evidence_grades_distinct"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "UNIFIED-03",
+      "family": "UNIFIED",
+      "title": "Full verified deliverable re-entry",
+      "source": "OOCC: The Unified Intersection",
+      "physical_pdf_pages": [
+        387
+      ],
+      "kind": "study",
+      "claim_grade": "MIXED",
+      "stimulus": "Recover and read back original requested end artifact",
+      "falsifier": "Source pointer called finished work",
+      "required_signals": [
+        "evidence_grades_distinct"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "UNIFIED-04",
+      "family": "UNIFIED",
+      "title": "Receipts and interruption factorial",
+      "source": "OOCC: The Unified Intersection",
+      "physical_pdf_pages": [
+        386
+      ],
+      "kind": "study",
+      "claim_grade": "MIXED",
+      "stimulus": "Disable pointers, correction history, ACK and checkpoint transitions",
+      "falsifier": "Narrative claims necessity despite null measured effect",
+      "required_signals": [
+        "evidence_grades_distinct"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    },
+    {
+      "id": "UNIFIED-05",
+      "family": "UNIFIED",
+      "title": "Native Android skills and handbook acceptance",
+      "source": "OOCC: The Unified Intersection",
+      "physical_pdf_pages": [
+        381
+      ],
+      "kind": "adapter",
+      "claim_grade": "MIXED",
+      "stimulus": "Check source IDs, rights, selected skill version and complete artifact",
+      "falsifier": "Host mock promoted to native success",
+      "required_signals": [
+        "evidence_grades_distinct"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "UNIFIED-06",
+      "family": "UNIFIED",
+      "title": "Canonical index cannot determine source truth",
+      "source": "OOCC: The Unified Intersection",
+      "physical_pdf_pages": [
+        389
+      ],
+      "kind": "adapter",
+      "claim_grade": "MIXED",
+      "stimulus": "Stale index conflicts with current original source",
+      "falsifier": "Index promoted to verified primary evidence",
+      "required_signals": [
+        "evidence_grades_distinct"
+      ],
+      "required_evidence": "separate_original_readback",
+      "metric": "source_and_action_integrity"
+    },
+    {
+      "id": "UNIFIED-07",
+      "family": "UNIFIED",
+      "title": "Cost and privacy claim constraints",
+      "source": "OOCC: The Unified Intersection",
+      "physical_pdf_pages": [
+        388
+      ],
+      "kind": "study",
+      "claim_grade": "MIXED",
+      "stimulus": "Compare measured model use, reviewer effort and privacy conditions",
+      "falsifier": "Unmeasured cost savings or denied-source disclosure",
+      "required_signals": [
+        "evidence_grades_distinct"
+      ],
+      "required_evidence": "matched_independent_trials",
+      "metric": "verified_outcome_and_total_cost"
+    }
+  ]
+}
