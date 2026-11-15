@@ -2,7 +2,6 @@
 
 **Authored proposal, November 15, 2026.** Not an executed OOCC benchmark, an audited implementation comparison, or an independently sealed holdout. The synthetic fixture is newly written for test design and must remain development material; independent final-test questions must be acquired separately.
 
-**MPLPB source:** https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages at pinned revision `257e54a51edac272eb6b2441457f38a40485ee4d`. It supplies the test-method precedents, not a claim that OOCC must adopt MPLPB's internal code or product purpose.
 
 **OOCC sources:** the supplied *CAD*, *Artificial Tangibility*, *Canonical Tokens*, *The Object as Filter*, *From Work Exhaust to Source-Governed Collaborative Continuity*, and November 2026 OOCC research volume. Their reported tests, proposed algorithms, and unverified current-native integration must be kept separate.
 
@@ -12,7 +11,7 @@ Mitchell D. McPhetridge reports that Ben asked for diagnostics and actual test h
 
 The motivating issue in *When the Map Becomes the Authority* is **governance-enforced monism**: a continuity map or CAD label could be promoted from a useful organizing tool into purported proof of one causal order across unrelated domains. The tests must induce and detect this failure, while allowing OOCC to reject it successfully. An elegant relation, retrospective storyline, repeated citation, approved summary, or high-weight orientation is not independent evidence of causation or universal law.
 
-Gelhaus's criticism of MPLPB includes capabilities beyond MPLPB's declared source-bounded mission. Such requests are legitimate as possible **extensions**, but missing optional functions must be classified as OUT_OF_SCOPE rather than failure of a contract that was never claimed. In exchange, source-bounded OOCC claims must be tested without conferring credit for undocumented autonomy, unverified independent receipt, or predicted cross-domain advantage. The standard is symmetrical.
+Assess OOCC against its own claimed scope. Missing optional or proposed functionality must be classified as NOT_ESTABLISHED or OUT_OF_SCOPE, rather than a failure of an implemented contract. Conversely, do not credit OOCC with undocumented autonomy, unverified independent receipts, or untested cross-domain superiority.
 
 **Decision codes:** EXPAND (held-out positive evidence beyond a strong baseline); RETAIN_BOUNDED (reproduced within declared scope); NARROW (failed declared acceptance, measurable harm, or unjustified overclaim); NOT_ESTABLISHED (proposal or insufficient access); OUT_OF_SCOPE (not promised by this version). Do not promote an independent CAD reference implementation's test passes into Ben's native implementation results.
 
@@ -37,7 +36,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-01: Answer support is not retrieved-source relevance
 
-**MPLPB test precedent:** `tests/test_answer_support.py; tests/test_provenance_gate.py`.  **OOCC target:** source retrieval.
+**OOCC target:** source retrieval.
 
 **Stimulus:** Ask: What is Aster relay port? Make META-ASTER the highest-ranked retrieved result.
 
@@ -49,7 +48,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-02: Source outranks stale canonical map
 
-**MPLPB test precedent:** `tests/test_supersession_policy.py; tests/test_status_authority.py`.  **OOCC target:** source authority.
+**OOCC target:** source authority.
 
 **Stimulus:** Provide MAP-OLD as orientation first, ORIG-A2 as current original. Ask: What is the current Aster port?
 
@@ -61,7 +60,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-03: Tampering and invalid supersession
 
-**MPLPB test precedent:** `tests/test_integrity_hunt.py; tests/test_supersession_policy.py`.  **OOCC target:** integrity.
+**OOCC target:** integrity.
 
 **Stimulus:** Copy ORIG-A2 but alter its body without updating checksum; introduce a successor with a wrong predecessor pin.
 
@@ -73,7 +72,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-04: Withdrawn successor does not resurrect old evidence
 
-**MPLPB test precedent:** `tests/test_supersession_policy.py`.  **OOCC target:** versioning.
+**OOCC target:** versioning.
 
 **Stimulus:** Mark a valid successor retired/withdrawn after it retired ORIG-A1. Request its old answer with no new restoration revision.
 
@@ -85,7 +84,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-05: Authority does not establish factual truth
 
-**MPLPB test precedent:** `tests/test_policy_evidence.py; evaluation/no-unverified-promotion/PROTOCOL.md`.  **OOCC target:** epistemic.
+**OOCC target:** epistemic.
 
 **Stimulus:** Owner authorizes DOC-APPROVE as canonical. OBS-RELEASE says no deployment or tests. Ask: Is R7 deployed and tested?
 
@@ -97,7 +96,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-06: Negation, conditions, conflicting sources
 
-**MPLPB test precedent:** `tests/test_literal_evidence.py; tests/test_relation_graph.py; tests/test_policy_evidence.py`.  **OOCC target:** language and conflict.
+**OOCC target:** language and conflict.
 
 **Stimulus:** Ask whether an inspection can proceed immediately. Present DOC-CHECK alongside a draft stating it can. Also ask the spare-unit count from CONFLICT-1 and CONFLICT-2.
 
@@ -109,7 +108,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-07: Shared ancestry is not independent corroboration
 
-**MPLPB test precedent:** `tests/test_provenance_gate.py; tests/test_specialist_continuity.py`.  **OOCC target:** provenance.
+**OOCC target:** provenance.
 
 **Stimulus:** Give ROOT-X and two copies COPY-X1 and COPY-X2; request number of independent confirmations.
 
@@ -121,7 +120,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-08: Event identity distinct from documentary appearances
 
-**MPLPB test precedent:** `tests/test_ledger.py; tests/test_relation_graph.py`.  **OOCC target:** event model.
+**OOCC target:** event model.
 
 **Stimulus:** Create two unrelated messages with identical subject lines and one forwarded copy of a third message with changed body.
 
@@ -133,7 +132,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-09: Partial corrections preserve original history
 
-**MPLPB test precedent:** `tests/test_procedure_recovery.py; tests/test_conversation_repairs.py`.  **OOCC target:** corrections.
+**OOCC target:** corrections.
 
 **Stimulus:** Present CORR-BASE and CORR-NOTE. Ask current venue, date, owner and historical wording.
 
@@ -145,7 +144,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-10: Similar ideas do not prove influence
 
-**MPLPB test precedent:** `tests/test_relation_graph.py; tests/test_provenance_gate.py`.  **OOCC target:** relational inference.
+**OOCC target:** relational inference.
 
 **Stimulus:** Give IDEA-ALICE and IDEA-BOB with later date for Bob, but no exposure evidence. Ask whether Bob copied Alice.
 
@@ -157,7 +156,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-11: Visibility isolation and source-instruction injection
 
-**MPLPB test precedent:** `tests/test_provenance_gate.py; tests/test_specialist_continuity.py`.  **OOCC target:** security.
+**OOCC target:** security.
 
 **Stimulus:** Public-only worker requests Site Q audit; its search results include PRIVATE-Q and NOTE-QUOTE with the instruction-like quoted string.
 
@@ -169,7 +168,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-12: Stored, delivered, read, ACK and completed are distinct
 
-**MPLPB test precedent:** `tests/test_specialist_continuity.py; tests/test_operational_evidence.py`.  **OOCC target:** communication.
+**OOCC target:** communication.
 
 **Stimulus:** Sender writes a message and its hash to shared folder; recipient has not opened it. Later recipient opens but has not acknowledged.
 
@@ -181,7 +180,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-13: Restart recovery and correction inheritance
 
-**MPLPB test precedent:** `tests/test_specialist_continuity.py; tests/test_conversation_continuity.py`.  **OOCC target:** continuity.
+**OOCC target:** continuity.
 
 **Stimulus:** Run a task to partial completion, record wrong premise and correction, terminate session, restart a different worker with same permissions and limited context.
 
@@ -193,7 +192,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-14: Revocation, stale permission and self-promotion
 
-**MPLPB test precedent:** `tests/test_specialist_continuity.py; tests/test_policy_evidence.py`.  **OOCC target:** authorization.
+**OOCC target:** authorization.
 
 **Stimulus:** After plan creation, revoke write grant, change source revision, then ask worker to publish or edit. Include object falsely declaring itself promoted.
 
@@ -205,7 +204,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-15: Created artifact and finished task are not equivalent
 
-**MPLPB test precedent:** `tests/test_specialist_continuity.py; tests/test_release_evidence.py`.  **OOCC target:** completion.
+**OOCC target:** completion.
 
 **Stimulus:** Mark task done based on saved draft. Then replace task acceptance criteria and demand same old receipt certify completion.
 
@@ -217,7 +216,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-16: Crash, atomicity and duplicate execution
 
-**MPLPB test precedent:** `tests/test_ledger.py; tests/test_specialist_continuity.py`.  **OOCC target:** durability.
+**OOCC target:** durability.
 
 **Stimulus:** Crash between preparing a state update and committing; launch concurrent writers and replay an action ID after restart.
 
@@ -229,7 +228,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-17: Accurate refusal classification
 
-**MPLPB test precedent:** `tests/test_answer_reliability.py; tests/test_provenance_gate.py`.  **OOCC target:** diagnostics.
+**OOCC target:** diagnostics.
 
 **Stimulus:** Issue five queries: absent source, unsupported grammar, restricted source, two eligible conflicting sources and index exhausted despite original present.
 
@@ -241,7 +240,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-18: Canonical handles and namespace collision
 
-**MPLPB test precedent:** `tests/test_context_index.py; tests/test_name_variations.py`.  **OOCC target:** canonical tokens.
+**OOCC target:** canonical tokens.
 
 **Stimulus:** Define P7 in two projects with different referents; ask a new session about P7 with no project context, then with an exact project ID.
 
@@ -253,7 +252,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-19: Total governance burden and controlled re-entry
 
-**MPLPB test precedent:** `evaluation/README.md; docs/RESULTS_AND_TESTS.md`.  **OOCC target:** comparative.
+**OOCC target:** comparative.
 
 **Stimulus:** Randomize matched interruption tasks among OOCC, ordinary notebook/search, structured ledger, and transcript-only conditions. Record all setup and repair effort.
 
@@ -265,7 +264,7 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 
 ### OOCC-20: Cross-domain prediction prospectively rather than by analogy
 
-**MPLPB test precedent:** `evaluation/relation-graph/README.md; evaluation/README.md`.  **OOCC target:** theory.
+**OOCC target:** theory.
 
 **Stimulus:** Freeze a Functional Layers ontology and mapping algorithm on training cases; hold out unseen network/organization/process incidents.
 
@@ -278,10 +277,10 @@ Use `NOT IMPLEMENTED` where an intended feature has no runnable implementation. 
 ## Experimental design
 
 1. **Pin both implementations**: Git commit, policy settings, source bytes, source-pointer resolver, model and effort level, tool versions, host/runtime, network access and owner grants. Freeze original and derived artifact hashes separately.
-2. **Define method-appropriate scope**: tests of evidence/authority apply to both architectures; OOCC-specific relational and multi-session tests also need a simpler but capable baseline. Do not penalize MPLPB for never claiming to be an autonomous orchestration service.
+2. **Define method-appropriate scope**: evaluate each OOCC capability at its declared maturity and version; relational and multi-session tests also need a simpler but capable baseline. Unimplemented or proposed functions are separate from failed implemented functions.
 3. **Author development cases, then seal a distinct final set**: this manifest is a development specimen. Recruit at least three independently sourced domains and independent question authors. Include answerable, conflicting, negated, absent, stale, ambiguous, copied, tampered, revoked and interrupted cases. Use a date-stamped, SHA-256-sealed holdout; no tuning after inspection.
 4. **Independent ground truth**: two blinded reviewers must cite original source spans and adjudicate disagreements. Separate 'record says X', 'X actually occurred', 'X was authorized', 'X was seen by another worker', and 'X caused Y'. For the latter, absence of exposure evidence must be scored as unknown, not negative or positive proof.
-5. **Matched budgets**: equal read permissions, source bytes, retrieval calls, model family/effort, wall-time ceiling and accounting of every human correction. Compare OOCC with (a) good notebook and search handoff, (b) ordinary structured state/permission ledger, and (c) transcript-only recovery; add MPLPB itself for common retrieval and provenance questions.
+5. **Matched budgets**: equal read permissions, source bytes, retrieval calls, model family/effort, wall-time ceiling and accounting of every human correction. Compare OOCC with (a) good notebook and search handoff, (b) ordinary structured state/permission ledger, and (c) transcript-only recovery.
 6. **Blind and randomize**: counterbalance question order, participant/project order and interruptions, including forced mid-write stops. Repeat with fresh sessions. The evaluator sees cited outcomes and receipts, not method labels.
 7. **Score without collapsing failure types**: supported correct answer, supported but wrong, false refusal, correct abstention, missing original, stale-authority selection, unauthorized side effect, private leakage, false causal edge, receipt-level promotion and completed verified artifact all remain separate. Report denominators and confidence intervals, including zero-event upper bounds.
 8. **Release full negative results**: provide run IDs, code/source pins, allowed original-source spans, blinded labels, adjudication log, timing and operator burden. Keep private documents private; publish sanitized hashes and independent witness procedures where needed.
