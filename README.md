@@ -8,7 +8,7 @@
 
 Mitchell reports that Benjamin Gelhaus asked him to run diagnostics and develop real test harnesses in the context of their critical exchange. **B-Tests is an independent attempt to falsify and delimit claims, not a project to repair, implement on Ben's behalf, or advocate for OOCC.** The request is described from Mitchell's account; private correspondence has not been independently authenticated here.
 
-Gelhaus's *Beyond Guarded Retrieval* challenges MPLPB with additional relational and event-reconstruction capabilities. Mitchell's concern is that a system must first be judged against **the capabilities it actually declares**. The absence of a capability that MPLPB was not designed or claimed to provide may motivate an extension; it is not automatically a defect in its stated source-bounded contract. The reciprocal requirement is that OOCC be judged against its own dated, version-specific claims, not against either an imaginary omnipotent version or a charitable substitute implementation.
+Ben's research must be judged against its own **dated, version-specific claims**. A capability explicitly presented as unimplemented, proposed, or unvalidated is not scored as an established operational result. Conversely, a strong claim of real functionality must survive a reproducible test of the actual system, not simply a demonstration with a substitute implementation.
 
 The research question is **not** whether CAD vocabulary can be used to organize arbitrary topics. It is whether **Gelhaus's claimed mechanisms**, as implemented or experimentally demonstrated, produce outcomes that survive adversarial testing and outperform appropriately matched simpler methods where a comparative advantage is claimed.
 
@@ -23,7 +23,7 @@ A good test tries to break both possibilities: a map that genuinely preserves ac
 ## Non-negotiable evidence discipline
 
 - **Quote the exact claim and pin its version.** Label it demonstrated, bounded report, proposed mechanism, or explicitly not established. Test only the level actually asserted.
-- **Challenge claimed behavior, not a different product's mission.** Separate functional coverage gaps from failures of declared contracts. Apply this standard to MPLPB and OOCC symmetrically.
+- **Challenge exactly what OOCC claims.** Separate its implemented contracts, historical field reports, proposed extensions, and speculative theoretical generalizations. Test the promised version and scope.
 - **Original evidence can overturn orientation.** An approved or canonical object grants documentary/operational authority, not empirical truth; stale maps must not silence current originals.
 - **Do not promote relations into causes.** Shared titles, chronology, similar functions, copied summaries, and repeated AI agreement are not independently proven influence or a universal mechanism.
 - **Use controls that could beat OOCC.** Compare strong summary-and-search, current-source selection, conventional permissioned ledgers, and generic dependency baselines at matched access and effort.
