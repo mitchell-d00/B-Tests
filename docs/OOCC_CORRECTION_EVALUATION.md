@@ -1,3 +1,5 @@
+> Current execution: see the [critical benchmark](CRITICAL_BENCHMARK_RESULTS.md) and [historical simplified check](HISTORICAL_SIMPLIFIED_CHECK.md). The earlier HTTP NOT_RUN findings below are historical, not the status of later agent execution. No live OOCC access is available.
+
 # OOCC/CAD correction evaluation
 
 Last reviewed: 16 November 2026. See the [execution report](OOCC_CORRECTION_RESULTS.md)
@@ -139,7 +141,7 @@ new OOCC or MPLPB observations.
 
 ## What remains unknown
 
-The hypothesis is unresolved without target completions. A complete study still
+The general hypothesis remains unresolved; later bounded target completions are reported separately. A complete study still
 needs repeated valid model trials, a separately authored held-out set, blind
 semantic review, longer compression/handoff chains, actual current-source access
 and native controller readbacks, and measured human maintenance cost. Source text

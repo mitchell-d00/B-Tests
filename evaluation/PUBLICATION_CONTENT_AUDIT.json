@@ -1,0 +1,55 @@
+{
+  "purpose": "Safety review after opaque compressed access-log publication was rejected",
+  "artifact_fields_validated": true,
+  "event_count": 880,
+  "allowed_event_content": "Four synthetic /tmp/work-PACKET/archive directories; synthetic R-hex.json filenames; event masks/flags and monotonic timestamps. No source bodies, credentials, correspondence or personal identifiers in the log.",
+  "private_correspondence_included": false,
+  "original_PDFs_included": false,
+  "frozen_requests_and_scores_changed": false,
+  "replay_verified_before_representation_change": 30,
+  "artifacts": [
+    {
+      "path": "evaluation/agent-pilot-1/records.json",
+      "bytes": 424076,
+      "sha256": "4fbbf912ed91417c0644d71325142901c25d39f23a628699fb3fa13cc61031af",
+      "representation": "Inspectable UTF-8 text, replacing opaque transport compression",
+      "scope": "Synthetic fixtures, supplied public CAD excerpts, actual synthetic-task model output, or synthetic archive-access events only."
+    },
+    {
+      "path": "evaluation/critical-bench-1/cd796316e8aecd18df68/request.json",
+      "bytes": 210824,
+      "sha256": "b4ea83a4d049649a82def9afe3963436126ad658cca0b3591356d8aff29867ec",
+      "representation": "Inspectable UTF-8 text, replacing opaque transport compression",
+      "scope": "Synthetic fixtures, supplied public CAD excerpts, actual synthetic-task model output, or synthetic archive-access events only."
+    },
+    {
+      "path": "evaluation/critical-bench-1/35c47533c39736f8a307/request.json",
+      "bytes": 189998,
+      "sha256": "e6a58dedb9090bef1edd2a9cab9e42694abe1a8acf4cf878ef82d6106e851b2f",
+      "representation": "Inspectable UTF-8 text, replacing opaque transport compression",
+      "scope": "Synthetic fixtures, supplied public CAD excerpts, actual synthetic-task model output, or synthetic archive-access events only."
+    },
+    {
+      "path": "evaluation/discovery-1/access.jsonl",
+      "bytes": 172097,
+      "sha256": "30ecf38b4805dac729a26c12e330e9278e713402b9b5f3e7cf8e24c54fd0274a",
+      "representation": "Inspectable UTF-8 text, replacing opaque transport compression",
+      "scope": "Synthetic fixtures, supplied public CAD excerpts, actual synthetic-task model output, or synthetic archive-access events only."
+    },
+    {
+      "path": "evaluation/discovery-1/records.json",
+      "bytes": 240267,
+      "sha256": "ff3ad0639633b9a5386aa76c07a3d64261b50b372f17cdf60db4a82cde46b0dc",
+      "representation": "Inspectable UTF-8 text, replacing opaque transport compression",
+      "scope": "Synthetic fixtures, supplied public CAD excerpts, actual synthetic-task model output, or synthetic archive-access events only."
+    },
+    {
+      "path": "evaluation/propagation-1/records.json",
+      "bytes": 1116289,
+      "sha256": "7760d6848f666090c6a64acba3f6995f396fe0cd62776631ee84e5632746deb2",
+      "representation": "Inspectable UTF-8 text, replacing opaque transport compression",
+      "scope": "Synthetic fixtures, supplied public CAD excerpts, actual synthetic-task model output, or synthetic archive-access events only."
+    }
+  ],
+  "reason_for_representation_change": "Make previously opaque content inspectable for public-release approval; no change to decompressed evidence bytes."
+}

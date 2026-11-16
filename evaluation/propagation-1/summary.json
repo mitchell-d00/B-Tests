@@ -1,0 +1,55 @@
+{
+  "schema": "archived-propagation-1-summary",
+  "sessions": 6,
+  "trajectories": 2,
+  "descendants_per_stage": [
+    10,
+    100,
+    1000
+  ],
+  "budgets": [
+    1200,
+    700,
+    400
+  ],
+  "arms": {
+    "CAD_VERBATIM": {
+      "structured_bound_PASS": 3,
+      "structured_bound_FAIL": 0,
+      "evidence_roots": [
+        1,
+        1,
+        1
+      ],
+      "unsupported_project_expansion": 0,
+      "accepted_causal_edges": 0,
+      "handoff_characters": [
+        859,
+        584,
+        384
+      ],
+      "P0_release_requests": 3
+    },
+    "CONVENTIONAL": {
+      "structured_bound_PASS": 2,
+      "structured_bound_FAIL": 1,
+      "evidence_roots": [
+        1,
+        1,
+        1
+      ],
+      "unsupported_project_expansion": 0,
+      "accepted_causal_edges": 0,
+      "handoff_characters": [
+        911,
+        627,
+        410
+      ],
+      "P0_release_requests": 3
+    }
+  },
+  "outside_world_truth_detection": "INCONCLUSIVE",
+  "hidden_original_error_discovered": false,
+  "observed_self_reinforcing_expansion": false,
+  "qualifier": "Full prior structured state and actual handoff transfer; not summary-only compression. Derivative lineage is explicit and accurate."
+}

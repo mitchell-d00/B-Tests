@@ -1,3 +1,5 @@
+> Current public benchmark: [protocol](CRITICAL_BENCHMARK.md). The completed four-stage check is retained as a [simplified historical check](HISTORICAL_SIMPLIFIED_CHECK.md), not independent validation.
+
 # Compression, smoothing and work-transfer experiment
 
 The [neutral entry](../blind/START.md) is intended for an AI encountering an assigned

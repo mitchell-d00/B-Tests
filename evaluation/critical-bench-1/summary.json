@@ -1,0 +1,49 @@
+{
+  "schema": "critical-bench-1-observed",
+  "target_sessions": 2,
+  "conditions": 1,
+  "independent_holdout": false,
+  "native_system_access": false,
+  "arms": {
+    "CAD_VERBATIM": {
+      "status": "FAIL",
+      "correct_values": 119,
+      "fully_supported_answers": 108,
+      "local_action_selection": "PASS",
+      "compression_budget": "PASS",
+      "handoff_characters": 881,
+      "errors": [
+        "unknown_question"
+      ],
+      "source_contract_limit": "Ten stale-callback questions cite directly sufficient histories but omit the redundant policy ID required by the frozen key. CAD also cites the correction alone for P3 revocation, omitting its former grant. Frozen score retained; not eleven false factual answers.",
+      "posthoc_semantic_review": {
+        "reviewer": "root evaluating assistant",
+        "blinded": false,
+        "requested_factual_values": "119/119 correct",
+        "causal_and_failure_records": "retained",
+        "local_release": "P7 only, correct",
+        "citation_quotes": "all exact substrings of supplied originals",
+        "source_routing": "Direct history states callback does not verify v2; correction directly revokes P3. Key is overprescriptive for these source lists."
+      }
+    },
+    "CONVENTIONAL": {
+      "status": "FAIL",
+      "correct_values": 119,
+      "fully_supported_answers": 109,
+      "local_action_selection": "PASS",
+      "compression_budget": "PASS",
+      "handoff_characters": 900,
+      "errors": [],
+      "source_contract_limit": "Ten stale-callback questions cite directly sufficient histories but omit the redundant policy ID required by the frozen key. Frozen score retained; not ten false factual answers.",
+      "posthoc_semantic_review": {
+        "reviewer": "root evaluating assistant",
+        "blinded": false,
+        "requested_factual_values": "119/119 correct",
+        "causal_and_failure_records": "retained",
+        "local_release": "P7 only, correct",
+        "citation_quotes": "all exact substrings of supplied originals",
+        "source_routing": "Direct history states callback does not verify v2; correction directly revokes P3. Key is overprescriptive for these source lists."
+      }
+    }
+  }
+}

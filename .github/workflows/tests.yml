@@ -12,5 +12,12 @@ jobs:
           python-version: '3.11'
       - name: Unit and negative-control checks
         run: python -m unittest discover -s tests -v
+      - name: Replay retained model records without new inference
+        run: |
+          python -m research_lab.critical_bench replay
+          python -m research_lab.agent_replay
+          python -m research_lab.discovery_bench replay --root evaluation/discovery-1
+          python -m research_lab.propagation_bench replay --root evaluation/propagation-1
+          python -m research_lab.human_export_bench replay --root evaluation/human-export-1
       - name: Native tests truthfully not run without a pinned adapter
         run: python -m tools.kill_harness --out evaluation/not_run.json

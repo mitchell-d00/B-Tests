@@ -1,5 +1,6 @@
 from __future__ import annotations
 import hashlib
+import gzip
 import json
 from pathlib import Path
 
@@ -8,6 +9,17 @@ PIN = '257e54a51edac272eb6b2441457f38a40485ee4d'
 
 def sha(data):
     return hashlib.sha256(data).hexdigest()
+
+def read_bytes(path):
+    """Read retained bytes, accepting a losslessly compressed evidence artifact."""
+    path=Path(path)
+    if path.exists():
+        data=path.read_bytes()
+        return gzip.decompress(data) if path.suffix=='.gz' else data
+    return gzip.decompress(Path(str(path)+'.gz').read_bytes())
+
+def read_json(path):
+    return json.loads(read_bytes(path))
 
 def save(path, value):
     path = Path(path)

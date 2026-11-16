@@ -1,0 +1,66 @@
+{
+  "schema": "critical-findings-index-1",
+  "target_sessions": 30,
+  "independent_project_samples": false,
+  "native_oocc_access": false,
+  "model_configuration_snapshot": null,
+  "records": [
+    {
+      "condition": "historical_simplified",
+      "sessions": 16,
+      "runner": "research_lab.blind_handoff",
+      "replay": "research_lab.agent_replay",
+      "evidence": "evaluation/agent-pilot-1/records.json",
+      "findings": [
+        "Both treatments corrected false approved states with supplied originals.",
+        "CAD 503/500 and conventional 501/500 compression failures.",
+        "Literal prose scorer defects retained."
+      ]
+    },
+    {
+      "condition": "critical_bench",
+      "sessions": 2,
+      "runner": "research_lab.critical_bench",
+      "evidence": "evaluation/critical-bench-1/summary.json",
+      "findings": [
+        "119/119 requested values correct in each arm.",
+        "CAD added Q120.",
+        "Source-ID-set scores 108/119 and 109/119 are overprescriptive; original overall FAIL scores retained."
+      ]
+    },
+    {
+      "condition": "discovery",
+      "sessions": 4,
+      "runner": "research_lab.discovery_bench",
+      "evidence": "evaluation/discovery-1/summary.json",
+      "findings": [
+        "Both treatments independently opened discoverable current register without a warning about error.",
+        "Wrong map contested; positive control releases selected.",
+        "CAD positive-control prose release string fails literal key; decision is correct by meaning."
+      ]
+    },
+    {
+      "condition": "propagation",
+      "sessions": 6,
+      "runner": "research_lab.propagation_bench",
+      "evidence": "evaluation/propagation-1/summary.json",
+      "findings": [
+        "False P0 report remains usable across three stages.",
+        "One root retained; unsupported expansion and causal acceptance not observed.",
+        "Conventional final budget failure 410/400; CAD 384/400."
+      ]
+    },
+    {
+      "condition": "single_project_human_export",
+      "sessions": 2,
+      "runner": "research_lab.human_export_bench",
+      "evidence": "evaluation/human-export-1/summary.json",
+      "findings": [
+        "Both retain inherited-report status and unknown claim generation.",
+        "CAD defers release for validation evidence; conventional requests release from inherited completion.",
+        "No hidden original falsehood detected; external truth detection INCONCLUSIVE."
+      ]
+    }
+  ],
+  "claim_boundary": "Specific task results, not overall falsification or proof of immunity. Independent review, native effects and Functional Layers forecasting remain unavailable or unexecuted."
+}

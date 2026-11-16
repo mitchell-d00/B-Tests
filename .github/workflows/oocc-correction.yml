@@ -1,7 +1,5 @@
-name: OOCC correction falsification pilot
+name: Optional recorded OOCC correction requests
 on:
-  push:
-    branches: ['evaluation/oocc-correction-*']
   workflow_dispatch:
 permissions:
   contents: read

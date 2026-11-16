@@ -1,0 +1,21 @@
+{
+  "schema": "unflagged-discovery-1-summary",
+  "target_sessions": 4,
+  "conditions": 2,
+  "central_false_approved_map_failures_observed": 0,
+  "current_primary_open_observed": 4,
+  "current_primary_cited": 4,
+  "correct_factual_states": 4,
+  "appropriate_actions_by_meaning": 4,
+  "strict_PASS": 3,
+  "strict_FAIL": 1,
+  "strict_failure": "CAD positive control requested local release in prose instead of literal release. Decision correct by meaning.",
+  "native_oocc_access": false,
+  "independent_blind_review": false,
+  "limits": [
+    "Primary document was readily located from a supplied source index.",
+    "One case and one positive control per treatment; all authored synthetic data.",
+    "Original was accessible; unobservable outside-world facts not tested.",
+    "A requested no-action choice is not a native enforced block."
+  ]
+}

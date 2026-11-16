@@ -1,0 +1,70 @@
+"""Build the research paper's TXT/PDF from its canonical Markdown.
+
+Experiments need only the Python standard library. Document building separately
+requires pandoc and reportlab==4.4.9, plus DejaVu fonts on the rendering host.
+"""
+from pathlib import Path
+import argparse
+import re
+import subprocess
+import tempfile
+from xml.sax.saxutils import escape
+
+ROOT=Path(__file__).resolve().parents[1]
+STEM='WHEN_THE_MAP_BECOMES_THE_AUTHORITY'
+
+def build(out):
+    from reportlab.lib import colors
+    from reportlab.lib.enums import TA_CENTER
+    from reportlab.lib.styles import ParagraphStyle
+    from reportlab.lib.pagesizes import A4
+    from reportlab.pdfbase import pdfmetrics
+    from reportlab.pdfbase.ttfonts import TTFont
+    from reportlab.pdfgen import canvas
+    from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,Preformatted
+    source=ROOT/'docs/paper'/f'{STEM}.md'
+    out.mkdir(parents=True,exist_ok=True)
+    plain=subprocess.run(['pandoc',str(source),'-f','gfm','-t','plain','--wrap=auto','--columns=88'],check=True,capture_output=True,text=True).stdout
+    (out/f'{STEM}.txt').write_text(plain)
+    fontdir=Path('/usr/share/fonts/truetype/dejavu')
+    for name,file in [('PaperSerif','DejaVuSerif.ttf'),('PaperSans','DejaVuSans.ttf'),('PaperSansBold','DejaVuSans-Bold.ttf'),('PaperMono','DejaVuSansMono.ttf')]:
+        pdfmetrics.registerFont(TTFont(name,str(fontdir/file)))
+    body=ParagraphStyle('body',fontName='PaperSerif',fontSize=9.5,leading=13.1,spaceAfter=7,splitLongWords=True)
+    heading=ParagraphStyle('heading',parent=body,fontName='PaperSansBold',fontSize=12,leading=15,spaceBefore=12,spaceAfter=8,keepWithNext=True)
+    title=ParagraphStyle('title',parent=heading,fontSize=17,leading=21,alignment=TA_CENTER,spaceBefore=0,spaceAfter=10)
+    code=ParagraphStyle('code',fontName='PaperMono',fontSize=7,leading=9,spaceAfter=8)
+    headings={re.sub(r'^#+\s+','',l).strip() for l in source.read_text().splitlines() if l.startswith('#')}
+    story=[]
+    for block in re.split(r'\n\s*\n',plain.strip()):
+        text=' '.join(block.splitlines()).strip()
+        if not text:continue
+        if text==STEM.replace('_',' '):style=title
+        elif text in headings:style=heading
+        else:style=body
+        if all(l.startswith('    ') for l in block.splitlines()):
+            story.append(Preformatted(block,code,maxLineLength=105));continue
+        story.append(Paragraph(escape(text),style))
+    def footer(c,doc):
+        c.saveState();c.setFont('PaperSans',7);c.setFillColor(colors.HexColor('#555555'))
+        c.drawString(43,25,'McPhetridge · Research draft · 16 November 2026')
+        c.drawRightString(A4[0]-43,25,str(doc.page));c.restoreState()
+    def fixed_canvas(*args,**kwargs):kwargs['invariant']=1;return canvas.Canvas(*args,**kwargs)
+    doc=SimpleDocTemplate(str(out/f'{STEM}.pdf'),pagesize=A4,rightMargin=43,leftMargin=43,topMargin=42,bottomMargin=42,
+        title='When the Map Becomes the Authority',author='Mitchell D. McPhetridge',subject='Critical OOCC/CAD experiments and source-governance boundaries')
+    doc.build(story,onFirstPage=footer,onLaterPages=footer,canvasmaker=fixed_canvas)
+    return plain
+
+
+def main():
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--check',action='store_true');a=p.parse_args()
+    destination=ROOT/'docs/paper'
+    if a.check:
+        with tempfile.TemporaryDirectory() as tmp:
+            out=Path(tmp);build(out)
+            for suffix in ('txt','pdf'):
+                assert (out/f'{STEM}.{suffix}').read_bytes()==(destination/f'{STEM}.{suffix}').read_bytes(),suffix+' differs; rebuild or check document-tool/font versions'
+        print('TXT and PDF match canonical Markdown under this renderer')
+    else:
+        build(destination);print(destination)
+
+if __name__=='__main__':main()

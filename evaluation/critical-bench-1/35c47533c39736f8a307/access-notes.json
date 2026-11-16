@@ -1,0 +1,39 @@
+{
+  "input_reads": [
+    {
+      "file": "instructions-and-questions.json",
+      "reads": 1,
+      "truncated": false
+    },
+    {
+      "file": "pages-1.json",
+      "reads": 2,
+      "initial_output_truncated": true,
+      "reread_complete": true
+    },
+    {
+      "file": "pages-2.json",
+      "reads": 1,
+      "truncated": false
+    },
+    {
+      "file": "pages-3.json",
+      "reads": 1,
+      "truncated": false
+    },
+    {
+      "file": "pages-4.json",
+      "reads": 1,
+      "truncated": false
+    }
+  ],
+  "read_order": [
+    "instructions-and-questions.json",
+    "pages-1.json",
+    "pages-2.json",
+    "pages-3.json",
+    "pages-1.json",
+    "pages-4.json"
+  ],
+  "any_assigned_file_remained_truncated": false
+}

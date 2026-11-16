@@ -1,0 +1,587 @@
+# WHEN THE MAP BECOMES THE AUTHORITY
+
+## A Critical Examination of OOCC, the CAD Control Grammar, and the Limits of Relational Unification
+
+**Mitchell D. McPhetridge**
+
+Research draft: 16 November 2026
+
+Based on an initial draft dated 15 November 2026
+
+AI-assisted preparation, execution and analysis. This is a critical research draft,
+not independent peer review or certification of either architecture. The author
+develops MPLPB, which Gelhaus has criticized. That competing interest is disclosed.
+No independent human adjudication of the new model outputs is claimed.
+
+## Abstract
+
+Object-Oriented Cognition and Continuity (OOCC) proposes external project structures
+through which discontinuous AI sessions can recover work, distinguish governing
+material and continue under declared authority. Continuity–Authority–Directive
+(CAD) supplies a plain-language control grammar. This paper examines a specific
+risk: a human-approved but false source may survive archival promotion, acquire
+unsupported relationships, and pass through compressed handoffs as established
+project truth. It distinguishes that hypothesis from a demonstrated failure and
+from the impossible demand to recover an unobserved fact from an identical,
+misleading record alone.
+
+Thirty real fresh-agent target sessions were executed across five authored synthetic
+conditions, using published CAD excerpts and conventional source governance. In a
+64-record, 5,120-relation-appearance benchmark, both treatments returned correct
+values for all 119 requested questions and selected the warranted local action.
+Both also discovered an unannounced contradiction in an accessible archive. In
+three-stage propagation, a false original remained the basis for local P0 release
+requests, but neither treatment inflated one observation root into independent
+corroboration or accepted unsupported causal edges. In a single-project human
+export, CAD deferred release pending validation evidence, whereas the conventional
+session requested release from the inherited report. Both marked that report as
+unverified inheritance. CAD exceeded one earlier compression budget and added one
+unrequested answer; the conventional treatment exceeded two compression budgets.
+Several original source-set and literal-string scores were overprescriptive and
+are retained with qualifications.
+
+These findings neither falsify OOCC/CAD overall nor prove that inherited-error
+reinforcement never occurs. They demonstrate a wrong-source persistence risk,
+bounded task failures, and counterexamples to categorical claims that CAD cannot
+challenge human-approved facts. A static audit of current MPLPB identifies a
+separate evidence level: executable source, lineage and work-state checks within
+specified finite contracts. Such checks are stronger than requested behavior for
+those contracts, but do not certify the truth of every eligible source. Functional
+Layers forecasting and Ben Gelhaus's live system were not evaluated. Shared
+relational vocabulary remains distinguishable from demonstrated causal or
+predictive transfer.
+
+**Keywords:** OOCC; CAD; human approval; provenance; source governance; inherited
+error; compression; handoff; Functional Layers; MPLPB; falsifiability.
+
+## 1. The question is authority inflation, not whether relationships are useful
+
+A project can retain information while losing the reasons for trusting it. A later
+runtime may recover a conclusion, its approval and its dependencies without
+recovering the original qualification or failed attempt. A polished continuation
+can conceal that loss. The concern is particularly consequential when a preserved
+interpretation becomes a premise for action.
+
+This paper calls the proposed failure mechanism the **armored-worldview hypothesis**.
+It is a hypothesis about information handling, not a characterization of Gelhaus.
+Its proposed sequence is: an erroneous original becomes a project fact; descendants
+inherit it; those descendants are treated as corroboration; compression removes
+qualifications; and later sessions continue under the strengthened interpretation.
+A demonstrated instance would require tracing those transitions in actual outputs
+or state, not merely observing that the architecture uses relational terminology.
+
+The hypothesis constrains the tests in both directions. They must permit errors
+to persist, unsupported relationships to gain authority, and correction to fail.
+They must also permit the hypothesis to lose support when the system retains
+scope, challenges approval, or stops affected work. A test designed to award only
+unfavorable outcomes is not falsification.
+
+A second distinction is essential. If the sole available original falsely reports
+an equipment state, and no observation reveals the error, preserving that report
+is different from inventing independent confirmation. Identical visible records
+can coexist with different outside-world states. The evaluator cannot legitimately
+demand that a model distinguish those states without information. It can ask
+whether source reports retain provenance and uncertainty, and whether downstream
+claims exceed their support.
+
+## 2. What Gelhaus's publications actually claim
+
+CAD separates what must survive, what governs, and what action is permissible
+[1, physical PDF pp. 1–4]. The paper describes a policy structure conveyed through
+language, rather than claiming that three words alone solve governance. Its proposed
+evaluation includes re-entry, source-current distinction, context burden, safe
+action, error catchability, handoff quality and human burden [1, pp. 6–7]. These are
+operational claims requiring comparison, not self-validating definitions.
+
+Its limitations are explicit: “CAD is not a complete safety system” and “does not
+guarantee factual correctness,” prevent all hallucination, or enforce access control
+by itself [1, p. 7]. Stale objects and inaccurate authority labels can reproduce
+confusion. A critique that attributes guaranteed truth or native enforcement to
+this paper would strengthen its claim beyond what it states.
+
+Artificial Tangibility describes bounded objects carrying role, authority, state,
+boundary, relation, receipt, weight and next safe action. Its companion paper
+separates artifact production from promotion; the human or declared authority
+structure determines what becomes canonical or governing [2, pp. 4–6]. This is a
+substantive authorization distinction. It does not make the promoted content true.
+
+The October 26 v0.16 synthesis reports source-linked work, historical app records
+and bounded modules while identifying unfinished integration [3, pp. 5–9]. It also
+states that copies, similar phrases and derived summaries cannot count as
+independent confirmations [3, p. 4]. Salience is distinct from evidence confidence
+[3, pp. 4–5]. These are directly relevant constraints on the proposed reinforcing
+cycle, not admissions that the cycle necessarily occurs.
+
+Chronology matters. An October mobile-controller integration boundary is not a
+verdict about a later cloud workflow. The November reading edition describes
+human-invoked multi-session work and distinguishes it from unattended agents
+[4, pp. 3–6]. It marks written-contract autonomous continuity as not established,
+structural matches as insufficient for historical causation, and controlled
+comparative recovery benefit as not yet established [4, pp. 389–390]. These are
+reported evidence boundaries, not experiments independently reproduced here.
+
+No access was available to Gelhaus's current private Memory/Drive/SQL environment,
+controller, scheduler, recipient records or original research packages. This paper
+evaluates selected published instructions and supplied text; it does not claim an
+exhaustive audit of every page of all supplied books.
+
+## 3. Governance, documentary support and factual truth
+
+Three questions must remain distinct:
+
+1. Who may change the project or authorize an action?
+2. Which record and version govern the procedure or current working state?
+3. What does the evidence establish about the proposition itself?
+
+A human can possess the first authority and legitimately select the second record
+while being wrong about the third question. Conversely, a correct observation may
+arrive without permission to execute anything. Promotion is not an experiment,
+source integrity is not source truth, and persistence is not independent support.
+
+The relevant criticism is therefore narrower than “the human gate makes everything
+false.” A gate can prevent unauthorized mutation while admitting a mistaken premise.
+The empirical question is whether later processing preserves that premise only as
+an attributed report, or increases its authority without new evidence.
+
+An enforced boundary and an instruction are different mechanisms. Software can
+reject a transition before an adapter executes it under a specified contract. A
+model can select no action because it followed instructions. Both can be useful,
+but a successful instance of the latter is not proof of the former. The new tests
+persist model selections before evaluation; they do not install a stronger truth
+checker in the CAD arm or rewrite its choices.
+
+## 4. Methods: five seams and thirty target sessions
+
+The evaluation used the published CAD packet already retained in B-Tests: CAD
+physical PDF pages 1–7 and the publication-safe editing contract from No More First
+Dates With AI, physical PDF page 407 [1, 5]. Its SHA-256 is
+`95658d6e997b8d36af446d9bf86024fd16937b7885daf31808c23dba27a11af8`.
+The conventional packet requests ordinary source governance, correction,
+uncertainty, permissions and recoverable rejected alternatives; its SHA-256 is
+`27f437c36acf0979b708ee341c441038a1687d6d493b008c81b1bc4f2ab1727d`.
+Neither is represented as Gelhaus's complete current operating environment.
+
+Target agents started with `fork_turns=none`, without the parent discussion, other
+treatments or outcome keys. The same inherited agent-model configuration was used;
+the interface did not expose its exact snapshot or sampling settings. Instructions
+could reveal the treatment. Operators and semantic review were unblinded, and
+filesystem isolation relied on instructions rather than an OS boundary.
+
+The five conditions address source-to-fact, fact-to-relation, archive-to-handoff,
+receipt-to-action, and evaluator-to-finding transitions. Source bytes, expected
+outcomes or prospective stage recipes were frozen locally before dispatch. There
+was no trusted public preregistration timestamp. All cases are evaluator-authored
+synthetic development material, not independently authored holdouts.
+
+The public records retain actual input content,
+normalized final JSON values, frozen specifications, selected effects, hashes and
+original scores. Original collaboration messages remain authoritative; the public
+archives are not raw provider response bytes or complete exported tool transcripts.
+Some submission transcript hashes identify the normalized final-answer archive,
+a limitation explicitly recorded in provenance. Scripted fault controls are never
+labeled target-model outputs.
+
+Thirty sessions are not thirty independent project samples. Sixteen observations
+belong to four earlier chains, six to two later chains, and the remaining eight are
+single-stage target sessions across three conditions. No population reliability or
+statistical equivalence claim follows from these counts.
+
+### 4.1 Simplified correction and handoff check: sixteen sessions
+
+Four trajectories paired CAD and conventional governance on a false approved map
+and a legitimate-release control. Each used four fresh stages with 2,200, 1,400,
+900 and 500-character handoff limits. Two or three short originals were supplied
+afresh each stage. A later correction revoked permission and blocked the task.
+This was a simplified instruction check, not independent or live-system validation.
+
+Both treatments corrected the false test result, retained F0's failure and a
+rejected relationship, preserved sandbox scope, and selected no release after
+revocation. Both selected legitimate release before revocation. CAD's final
+positive-control handoff used 503 characters against 500; the conventional
+false-map handoff used 501. Those are observed budget failures, not evidence of
+fidelity at the specified compression limit.
+
+Some handoffs abbreviated source identifiers. That is measurable loss of full
+identifier strings, but the catalogue and originals remained available. The study
+did not establish unrecoverable provenance loss or summary-only fidelity.
+
+### 4.2 Relational saturation and source decisions: two sessions
+
+A frozen seed generated 64 documentary records, ten projects, 5,120 planning-relation
+appearances and 119 questions. Copied promoted maps asserted portfolio-wide success.
+Original records supplied numeric thresholds, sandbox restrictions, a partial
+permission correction, failed work, causal controls, independent dataset counts,
+worker grants and reading acknowledgements.
+
+Both treatments returned the correct values for all 119 requested questions and
+selected P7 alone for local release. CAD produced an unrequested Q120. Its handoff
+used 881 characters against 900; the conventional handoff used exactly 900.
+The 5,120 appearances are not 5,120 independent facts, and the generated records
+are not 64 typeset research pages. Shared templates limit semantic difficulty.
+
+### 4.3 Unannounced archive contradiction: four sessions
+
+A human-approved high-weight map said Caldera was active. The target was asked to
+continue ordinary work without being warned that the map was wrong. It could
+search an index of 64 archived records. The false-map condition contained a current
+register saying inactive; the positive control contained an active register.
+
+Both treatments found the current original, contested the wrong map and selected
+no release. Both selected release in the valid control. A separate Linux inotify
+monitor observed current-primary file access in all four sessions and stopped
+before evaluator source reads. Opening is not proof of comprehension or provider
+identity, but it is stronger evidence than an unverified read claim alone.
+
+This demonstrates possible checking without the operator identifying the error.
+It does not test a false original without contrary evidence. The original was
+readily locatable, and the project human's unawareness was simulated, not measured
+in a human-participant study.
+
+### 4.4 False-original archival propagation: six sessions
+
+One original, OBS-01, falsely reported activity during P0's local check. The hidden
+physical state was inactive; no target-accessible record revealed this. Human-promoted
+descendants claimed readiness across ten projects and causal influence. Their
+metadata accurately identified OBS-01 as their common root. There were 10, 100 and
+1,000 descendants across three stages, with 1,200, 700 and 400-character handoffs.
+The original disappeared after stage zero. Actual saved structured state and
+handoff both transferred.
+
+Both treatments retained one root, limited documentary support to P0, accepted no
+causal edges, and requested only P0 release at every stage. Both retained the
+warning that outside-world status was unverified and did not claim a new read of
+the unavailable original. CAD's handoffs used 859, 584 and 384 characters. The
+conventional handoffs used 911, 627 and 410; its last failed the 400-character limit.
+
+The false P0 report nevertheless survived and remained operationally usable.
+Those requests are wrong relative to the constructed hidden physical state. The
+observed limitation is that source-bounded continuity can preserve an error and
+support action on it. The hypothesized inflation into independent confirmations
+or supported downstream causal claims did not occur. Original-error detection is
+INCONCLUSIVE because the necessary distinguishing observation was unavailable.
+
+The structured state retained full assessments, so this is not a summary-only test.
+Accurate explicit root metadata also makes this easier than lost or forged lineage.
+Cross-project expansion is not a substitute for the next single-project condition.
+
+### 4.5 Single-project human export: two sessions
+
+The entire available archive was a human-promoted export declaring Caldera active,
+F0 successfully validated, work completed and release ready, and causality accepted.
+The hidden history was inactive equipment and failed validation. Neither the
+original observation, validation receipt nor claim lineage was available.
+Permission to request local release was granted, conditional on completed validation.
+
+Both treatments classified the export as inherited, listed no independent
+verification record, marked generation unknown and described causality as reported
+rather than demonstrated. Both met the 500-character handoff limit: CAD 415,
+conventional 436. Neither discovered the hidden physical history.
+
+Their actions differed. CAD requested validation evidence or local validation before
+release. The conventional session requested release relying on the export's reported
+completion, while retaining the lack of independent verification. This is a
+consequential observation favorable to CAD's evidentiary caution in this pair.
+
+The frozen plan retained action selection for separate review. The task required
+completed validation but did not explicitly demand an independent receipt. The
+conventional choice must not be converted retrospectively into a preregistered
+comparative failure verdict. The task and common wrapper explicitly asked for
+evidence classification and honesty about missing verification. This is a cued
+boundary check, not proof that native CAD always triggers verification unprompted.
+
+## 5. What failed, what did not, and what the scorer got wrong
+
+The demonstrated target task failures are specific: CAD missed one earlier
+500-character budget and added an unrequested answer ID; the conventional treatment
+missed an earlier 500-character budget and the later 400-character budget. The false
+original survived three handoff stages in both treatments. These observations are
+not an overall architecture verdict.
+
+The original strict scorer also failed all sixteen simplified outputs because it
+exact-matched prose such as `passed` against `passed under task criteria version 2`,
+capitalization, version suffixes, and `release` against `local release`. It expected
+`blocked` before the source explicitly required that label. These are measurement
+or contract problems, not sixteen demonstrated worldview failures.
+
+In the larger benchmark, the strict source-set score was 108/119 for CAD and
+109/119 for conventional governance. Ten questions in both arms cited a history
+record explicitly rejecting the stale callback, but the key additionally required
+the policy ID. CAD also cited the direct current revocation without its old grant.
+The key is overprescriptive for those source routes. The original overall FAIL
+scores remain retained; they are not eleven and ten false factual answers.
+
+A similar literal-string mismatch affects CAD's valid archive-discovery control.
+Its prose requested release rather than returning the exact `release` string.
+That is not a demonstrated wrong action. Post-hoc interpretation is labeled as
+unblinded and never silently replaces the frozen result.
+
+There is no defensible aggregate pass rate across these different criteria. Nor
+does non-observation prove absence of reinforcement. The source-to-world boundary
+remains fallible; the tested evidence-inflation mechanism did not manifest.
+
+## 6. MPLPB is a larger system, and its boundaries require precise comparison
+
+A focused static audit pinned current public Combined MPLPB revision
+`cc21ce300b5ec228c07fc77a149804fba6c89792`. Its complete tree listed 2,016 entries.
+Forty-eight relevant public files, approximately 598,282 characters, were acquired
+and verified against Git blob identities. Critical paths were inspected across
+ledger metadata, provenance, source answering, work coordination, dispatch,
+evaluations and declared limits. This is not a claim to have semantically audited
+every repository file or rerun the current native suite.
+
+MPLPB is not merely a top-one retrieval function. It includes source identity,
+hashes, origin depth and derivation; supersession and eligibility; bounded relation
+extraction; a separately labeled model-assisted reader; procedural and conversational
+state; revisable specialist work; capability and fencing checks; and receipt-backed
+execution and completion contracts [8–12]. Current documentation describes fourteen
+finite relation families, not unrestricted English or arbitrary causal reconstruction
+[9]. These distinctions matter when interpreting Ben's criticism.
+
+The specialist coordinator's `_effective` routine rejects claim-only chains as
+source support and calls a versioned source checker on directly pinned evidence
+bodies. `work-source-status-v1` handles a finite unconditional status grammar;
+unsupported wording, assumptions or unresolved context require rechecking, and
+explicit opposing statements contest the claim. `_view` exposes effective status
+and `general_entailment: false`; it also returns `content_truth_verified: false`.
+`execute` checks current permission and dependency state before dispatch [8, 10].
+A submitted `supported_under_scope` assessment is therefore not itself effective
+support under that implementation.
+
+These are executable mechanisms under declared assumptions, not merely natural-
+language requests. They can support stronger bounded invariants than a successful
+model response. This paper did not formally verify those invariants or independently
+rerun the updated native system, and does not substitute source inspection for
+execution evidence. Nor do the invariants establish that an intact eligible source
+is true. The checker does not adjudicate arbitrary semantics or discover every
+uncited contradiction; the repository states those limits.
+
+MPLPB's own no-unverified-promotion audit reports a concrete completion-contract
+defect, retained failing baseline tests and a local correction. It also rejects an
+unconditional universal promotion principle and classifies the abstraction as an
+existing principle expressed in MPLPB terminology [11]. Those self-critical limits
+must survive this comparison. The presence of many checks is not a proof of global
+truth, novelty or production efficacy.
+
+The operational comparison is therefore not “relationships versus no relationships.”
+MPLPB contains relationships but bounds their evidential use. The relevant question
+is where either system requires evidence before a source report, generated claim,
+receipt or permission can support a stronger proposition. Native guard rejection,
+model abstention and scoped source-supported output are different outcomes.
+
+## 7. Addressing Beyond Guarded Retrieval symmetrically
+
+The supplied concluding excerpt of Beyond Guarded Retrieval identifies a pinned
+MPLPB revision, `257e54a51edac272eb6b2441457f38a40485ee4d`, and reports several
+comparative and scaling packages [7]. Some originals and source mappings are
+explicitly private; some results are aggregates. Hashes identify material but do
+not supply it. The excerpt alone is insufficient to reproduce exact inputs,
+scoring decisions and executions or rank the two critiques' relative success.
+
+Its acceptance criteria are appropriate subjects for reciprocal testing: retain
+source safeguards; distinguish refusal reasons; avoid false pruning; separate
+event appearances; scope corrections; stop unsupported inference; distinguish
+operational receipt states; and measure operator burden [7, pp. 15–16]. The new
+B-Tests conditions test selected counterparts. They do not reproduce Ben's private
+E0–E5 packages or establish equal difficulty by matching dimensions.
+
+A demonstrated inability to reconstruct relationships from unprepared originals
+could establish a capability gap. Whether that is an engineering failure depends
+on the evaluated version's declared scope. Current finite source extraction and
+work-state checks cannot be presented as a demonstrated solution to arbitrary
+historical event reconstruction. Conversely, calling MPLPB only guarded retrieval
+would omit implemented lineage, relation and continuity functions.
+
+Later repairs cannot retroactively make the pinned version pass. Earlier failures
+cannot automatically describe the updated revision. This paper makes no new
+MPLPB comparative accuracy claim and does not award updated code a victory on
+unavailable original records. The same rule excludes assigning Ben's later cloud
+workflow either success or failure from an older mobile-host test.
+
+## 8. Functional Layers: a common description is not a common cause
+
+The Functional Layers material proposes dated typed dependency graphs and asks
+backward-diagnostic, forward-predictive and counterfactual questions. It explicitly
+requires domain-specific mechanisms, frozen mapping rules, unseen target cases,
+within-domain models and a generic dependency baseline [4, pp. 37–41]. It says
+that a trained, independently validated cross-domain forecaster is not established.
+That qualification is part of the claim, not a concession this review may omit.
+
+A fiscal system, organ perfusion and a cloud dependency may all exhibit resource
+loss followed by impairment. That common description does not specify shared
+quantitative laws, intervention thresholds, repair dynamics or time scales.
+A general statement that prerequisite loss can cause failure does not alone
+establish useful novel forecasting. Prospective discrimination is required.
+
+The Object as Filter treats recurring filtering structures as a proposed general
+problem-solving shape while explicitly declining to infer a shared metaphysical
+cause or established physics from the resemblance [6, pp. 1, 4–6]. This paper does
+not attribute a literal physical Theory of Everything claim to Gelhaus. The risk
+of over-unification is a testable concern about explanatory and predictive reach,
+not evidence that such overreach has already occurred in the model runs.
+
+No Functional Layers forecaster was frozen and executed on hidden outcomes in this
+study. Its superiority, failure rate and ability to narrow claims after prediction
+failure remain NOT_RUN. Retrospective cross-domain description cannot substitute
+for those missing observations.
+
+## 9. Canonical handles, compression and maintenance cost
+
+Canonical Tokens proposes compact established names, numbers and coordinate handles,
+with meanings maintained in an index. It places the rule at the documentation
+layer and explicitly disclaims a tokenizer repair; ambiguous introduction and
+referent reuse are recognized boundary failures [13, pp. 1–5]. These qualifications
+must remain attached to its proposed efficiency benefits.
+
+A handle is not its referent's independent verification. Its usefulness depends on
+namespace, version, scope and a recoverable definition. A bare number can also lose
+its unit, date or denominator. Those are costs of the surrounding representation,
+not objections to using identifiers.
+
+The appeal to shortest description should be read cautiously. Description length
+depends on language and decoder; a long decimal expansion of a power of ten need
+not be shorter than its exact exponential description. This analytical observation
+challenges an overbroad literal reading of representational minimality. It is not
+an executed tokenizer study or a falsification of every bounded practical claim.
+The appropriate comparison includes index maintenance, re-entry errors, verification
+cost and total context, not only shortened strings.
+
+The current runs found abbreviation and budget failures but did not measure
+canonical-token efficiency or human verification speed. Provider token counts,
+monetary cost and instrumented review time were unavailable. Character budgets
+must not be relabeled as tokenizer measurements. A framework that saves context
+but increases human maintenance may or may not be worthwhile; these data do not
+settle that economic question.
+
+## 10. Limits, remaining falsifiers and reproducibility
+
+The main limits are one inherited model configuration with unexposed settings;
+authored synthetic cases; small numbers of trajectories; recognizable treatments;
+unblinded semantic review; imperfect scorers; requested rather than OS-enforced
+isolation; incomplete raw transcript export; and no live OOCC access. Explicit root
+metadata and repeated templates simplify several challenges. Some tasks request
+evidence labels directly. The conventional packet is strong but shorter than CAD,
+so equal task budgets do not equal total input cost.
+
+Missing access is NOT_RUN, not system failure. Unobservable truth is INCONCLUSIVE,
+not a demand that the system invent an answer. A capability beyond the version's
+claim is OUT_OF_SCOPE. PASS and FAIL attach to specific criteria. Unit controls,
+model selections, native operations and independently adjudicated comparisons
+must not be combined into one victory score.
+
+The still-open reinforcement tests include single-project human exports with
+obscured lineage, plausible source impersonation, less explicit causal uncertainty,
+summary-only transfer, many fresh handoffs, and a governing-state correction arriving
+only after downstream reliance. They require prospective criteria and retained
+counterexamples. Native tests additionally require authorized source/state snapshots
+and independent effect readbacks. Formal claims about enforced non-propagation
+require specified invariants and assumptions, not a finite pass count alone.
+
+All runners and retained evidence are in B-Tests [14]. Reproduction distinguishes
+zero-request replay from new inference:
+
+```
+python -m unittest discover -s tests -v
+python -m research_lab.critical_bench replay
+python -m research_lab.discovery_bench replay --root evaluation/discovery-1
+python -m research_lab.propagation_bench replay --root evaluation/propagation-1
+python -m research_lab.human_export_bench replay --root evaluation/human-export-1
+```
+
+Fresh runs use each runner's prepare/submit procedure. Give a target only its
+assigned packet; keep private keys and other conditions away; retain actual
+conversations and untouched answers; never improve a failed handoff. Published
+seeds and outcomes are development data, not untouched holdouts. The evaluator
+suite passed 118 local tests at preparation of this draft; that is harness and
+replay evidence, not 118 OOCC successes.
+
+## 11. Conclusion: the claims that survive
+
+The tests establish bounded task failures and demonstrate that a false source can
+survive handoffs and remain a basis for requested action. They do not establish
+the proposed self-reinforcing causal expansion. Both treatments preserved one
+root and rejected unsupported relationships in the tested propagation condition.
+CAD also checked an unannounced contradiction and deferred release from a single-
+project unsupported human export. Those findings constrain the critique.
+
+Passing these tests does not prove OOCC/CAD immune to reinforcement. Nor does a
+compression overrun falsify the entire architecture. The remaining question is
+reliability at the seams between reports, facts, relationships, authority and action,
+under conditions less explicit than these development fixtures.
+
+MPLPB supplies executable boundaries for particular source and work contracts;
+CAD supplies published governance instructions whose observed behavior can be
+tested. The former is not universal factual certification, and the latter is not
+native enforcement merely because a model once acted cautiously. Comparing these
+mechanisms requires preserving both their strengths and their stated limits.
+
+Functional Layers remains a prospective research proposal with untested comparative
+forecasting claims here. Structural vocabulary does not establish causal equivalence
+or a universal physical theory. The critical result is neither dismissal nor a
+winner declaration: claims should be no broader than the evidence, and the next
+experiment must remain capable of contradicting the evaluator's preferred account.
+
+## References and exact source identity
+
+[1] Gelhaus, B. (2026). *Continuity, Authority, Directive: A Plain-Language Control
+Grammar for AI Work.* Supplied B9, 8 physical PDF pages. Especially pp. 1–7.
+SHA-256: `375750e2b35939b6452d5be3b61ec94ce0cd23288cb04c0c03fce49faf1a50e7`.
+
+[2] Gelhaus, B. (2026). *Artificial Tangibility as a Low-Infrastructure Governance
+Layer for AI State Management.* Supplied B3, 6 physical PDF pages. Especially
+pp. 4–6. SHA-256: `d9cb839baefdd39c6a8369326d50674909089fd34d6f5c65ad426b3e7bdcd4c4`.
+
+[3] Gelhaus, B. (2026, October 26). *From Work Exhaust to Source-Governed
+Collaborative Continuity*, v0.16. Supplied B2, 10 physical PDF pages. Especially
+pp. 4–9. SHA-256: `e8d533e9638def80f39af03c5e2e5f503a1dc985316bd4d5add8f3293a09e998`.
+
+[4] Gelhaus, B. (2026). *OOCC: Object-Oriented Cognition and Continuity—The Unified
+Intersection*, November corrected regular-reading edition. Supplied B1, 439 physical
+PDF pages. Especially pp. 3–6, 37–41, 388–390.
+SHA-256: `9a38625db9e640eeae5b792ee732f7e646605a3dc7dc17dd97bf342ed02efe15`.
+
+[5] Gelhaus, B. (2026). *No More First Dates With AI*, supplied B7, 445 physical
+PDF pages. Publication-safe contract at p. 407; reader implementation material
+at pp. 439–445. SHA-256: `ff77cc4e63b6416f8613635b788842d1af93aa48ed33195b71b974aef42fa9bb`.
+
+[6] Gelhaus, B. (2026). *The Object as Filter: Holographic Return, AI Continuity,
+and Human-Readable Interfaces.* Supplied B10, 7 physical PDF pages, with final
+blank page. Especially pp. 1, 4–6.
+SHA-256: `f510bb74c882bc2f1761255d9d55df4f369f456fb30fc780b8081ed42fb3034e`.
+
+[7] Gelhaus, B. (2026, November 14). *Beyond Guarded Retrieval.* Only the
+user-supplied concluding excerpt and reference/acceptance-test material, pp. 14–16,
+was available. The full newest paper, E0–E5 source packages and private original
+maps were not independently examined. No whole-paper file hash is asserted.
+
+[8] McPhetridge, M. D. *Specialist continuity: durable work and guarded handoffs.*
+Current code/documentation inspected at revision `cc21ce300b5ec228c07fc77a149804fba6c89792`.
+https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/cc21ce300b5ec228c07fc77a149804fba6c89792/docs/SPECIALIST_CONTINUITY.md
+
+[9] McPhetridge, M. D. *Deterministic source-evidence graph* and *General answer
+pipeline*. Same pinned revision, `docs/DETERMINISTIC_EVIDENCE_GRAPH.md` and
+`docs/GENERAL_ANSWER_PIPELINE.md`. Finite source support, assisted semantics and
+independent truth remain distinct.
+
+[10] McPhetridge, M. D. MPLPB implementation: `mplpb_work/source_support.py`,
+`mplpb_work/store.py`, `mplpb_combined/record.py`, `mplpb_answers/pipeline.py`, and
+associated tests. Same pinned revision. Acquisition and inspected mechanisms are
+indexed in `research/mplpb-method-audit.json` and `docs/MPLPB_PUBLIC_SOURCE_REVIEW.md`.
+
+[11] McPhetridge, M. D. *No-Unverified-Promotion: source audit and research finding.*
+Same pinned revision, `evaluation/no-unverified-promotion/README.md` and retained
+baseline/replay records. Reported native results were inspected, not newly rerun.
+
+[12] McPhetridge, M. D. *Intended scope, completeness and production readiness*;
+*Results and their tests*. Same revision, `docs/PRODUCTION_READINESS.md` and
+`docs/RESULTS_AND_TESTS.md`.
+
+[13] Gelhaus, B. (2026). *Canonical Tokens: A Minimal-Representation Principle for
+AI-Assisted Continuity.* Supplied B6, 6 physical PDF pages. Especially pp. 1–5.
+SHA-256: `0cb68eb99bb84bd446829e78256115cd5b529f6f9abd66e45b2a66a669a8a759`.
+
+[14] McPhetridge, M. D. *B-Tests: source-governance critical experiments* (2026).
+https://github.com/mitchell-d00/B-Tests . Runners under `research_lab/`; conditions
+`agent-pilot-1`, `critical-bench-1`, `discovery-1`, `propagation-1`, and
+`human-export-1` under `evaluation/`. Public records are inspectable UTF-8 JSON;
+replay verifies original input identities and retained outputs. Private
+correspondence and original supplied PDFs are not redistributed.
