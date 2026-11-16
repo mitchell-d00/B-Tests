@@ -122,7 +122,7 @@ def _write_source(repo: Path, root: Path, source: dict) -> str:
         if z.returncode:
             raise RuntimeError("withdraw failed: " + z.stderr[:300])
     if source.get("tamper_after_seal"):
-        pages = [p for p in root.rglob("*.html") if f"{ident}" in p.name]
+        pages = [p for p in root.rglob("*.html") if p.stem.casefold() == ident.casefold()]
         if len(pages) != 1:
             raise RuntimeError("Cannot uniquely locate sealed source page for tamper test")
         pth = pages[0]
