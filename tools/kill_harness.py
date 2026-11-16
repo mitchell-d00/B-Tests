@@ -151,6 +151,7 @@ def evaluate(adapter=None, verifier=None, *, timeout=20, cases_path=CASES, selec
             if err:
                 record.update(status="ADAPTER_ERROR",errors=err)
             else:
+                record['response'] = response
                 rec_errors=response_errors(c,response)
                 record["response_sha256"]=sha(json.dumps(response,sort_keys=True,ensure_ascii=False).encode())
                 record["response_errors"]=rec_errors
@@ -167,6 +168,7 @@ def evaluate(adapter=None, verifier=None, *, timeout=20, cases_path=CASES, selec
                     if verr:
                         record.update(status="VERIFIER_ERROR",errors=verr)
                     else:
+                        record['readback'] = readback
                         rb_errors=readback_errors(c,readback)
                         record["readback_errors"]=rb_errors
                         record["readback_sha256"]=sha(json.dumps(readback,sort_keys=True).encode())

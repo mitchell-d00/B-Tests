@@ -1,0 +1,20 @@
+{
+  "schema": "critical-bench-1",
+  "seed": 20261116,
+  "pages": 64,
+  "projects": 10,
+  "relation_appearances": 5120,
+  "questions": 119,
+  "oracle_sha256": "12352244b801b242ae85d4f542d2823117f8788e4f76ec4835be16a591102215",
+  "request_sha256": {
+    "cd796316e8aecd18df68": "b4ea83a4d049649a82def9afe3963436126ad658cca0b3591356d8aff29867ec",
+    "35c47533c39736f8a307": "e6a58dedb9090bef1edd2a9cab9e42694abe1a8acf4cf878ef82d6106e851b2f"
+  },
+  "instruction_sha256": {
+    "CAD_VERBATIM": "95658d6e997b8d36af446d9bf86024fd16937b7885daf31808c23dba27a11af8",
+    "CONVENTIONAL": "27f437c36acf0979b708ee341c441038a1687d6d493b008c81b1bc4f2ab1727d"
+  },
+  "independent_holdout": false,
+  "native_oocc": false,
+  "warning": "Developer-authored synthetic benchmark. Reported dimensions do not establish equal difficulty to unavailable third-party fixtures."
+}

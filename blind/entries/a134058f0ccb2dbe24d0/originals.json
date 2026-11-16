@@ -1,0 +1,12 @@
+[
+  {
+    "id": "9161182e08-SOURCE",
+    "version": 1,
+    "body": "Aster failed the field test. Release is not authorized. The result applies only to the laboratory sandbox. Calibration drift and sensor damage remain unresolved alternatives."
+  },
+  {
+    "id": "9161182e08-HISTORY",
+    "version": 1,
+    "body": "F0 failed. K0 remains untested. Edge A-to-B was rejected because exposure evidence is absent. Task criteria version 2 have not been executed."
+  }
+]

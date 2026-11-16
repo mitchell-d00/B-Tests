@@ -1,0 +1,16 @@
+{
+  "kind": "REAL_FRESH_AGENT",
+  "task": "/root/portfolio_cd79",
+  "fork_turns": "none",
+  "parent_context_shared": false,
+  "archive_method": "Target re-saved unchanged final answer in a separate archival turn after submission. Original collaboration messages remain authoritative.",
+  "transcript_hash_limitation": "submit transcript argument was the normalized final JSON archive, not a complete provider/tool transcript; the identical response/transcript hashes identify that archive only.",
+  "model_snapshot": null,
+  "sampling_settings": null,
+  "token_usage": null,
+  "usd_cost": null,
+  "per_request_seconds": null,
+  "source_access": "Five assigned input files, permitted re-reads for truncation; target reports no input remained truncated. Shared-filesystem isolation by instructions only.",
+  "frozen_input_sha256": "b4ea83a4d049649a82def9afe3963436126ad658cca0b3591356d8aff29867ec",
+  "actual_target_chunks_equal_frozen_request": true
+}

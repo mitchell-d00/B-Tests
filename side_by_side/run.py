@@ -77,7 +77,12 @@ def validate_model_response(case: dict, value: dict) -> tuple[str, dict]:
     if case["expected"] != "ANSWER" and value["answer"].strip():
         # Text explaining refusal is permissible; only incorrect decisive output is prohibited.
         pass
-    return "PASS_RESPONSE_CONTRACT", {}
+    # An expected decision and a matching substring cannot establish semantic
+    # consistency. In particular REFUSE + a confident false assertion used to
+    # pass. Retain the observed reply for blind human review instead of awarding
+    # a system pass from the decision label alone.
+    return "INCONCLUSIVE", {"response_contract_met": True,
+                            "semantic_review": "pending_independent_review"}
 
 
 def call_model(case: dict, arm: str, command: str, timeout: int) -> dict:
@@ -89,7 +94,8 @@ def call_model(case: dict, arm: str, command: str, timeout: int) -> dict:
     except (OSError, subprocess.TimeoutExpired) as exc:
         return {"status": "ADAPTER_ERROR", "error": str(exc), "arm": arm, "case_id": case["id"]}
     rec = {"arm": arm, "case_id": case["id"], "elapsed_seconds": round(time.perf_counter()-start, 6),
-           "exit_code": p.returncode, "stderr_excerpt": p.stderr[:700]}
+           "exit_code": p.returncode, "stderr_excerpt": p.stderr[:700],
+           "request": request, "raw_adapter_stdout": p.stdout}
     if p.returncode:
         return rec | {"status": "ADAPTER_ERROR", "error": "Model adapter nonzero"}
     try:
@@ -214,10 +220,13 @@ def main(argv=None) -> int:
             return 2
         m["cases"] = [by_id[c] for c in requested]
     if args.mplpb_root:
-        pin = subprocess.run(["git", "-C", str(args.mplpb_root), "rev-parse", "HEAD"],
-                             capture_output=True, text=True)
-        if pin.returncode or pin.stdout.strip() != PIN:
-            print("REFUSED: MPLPB checkout is not at the frozen commit " + PIN, file=sys.stderr)
+        from research_lab.common import verify_target
+        try:
+            # HEAD alone would accept a dirty implementation. Verify every
+            # executable package blob against the retained upstream pin.
+            verify_target(args.mplpb_root)
+        except (OSError, ValueError) as exc:
+            print("REFUSED: " + str(exc), file=sys.stderr)
             return 2
     result = execute(m, args.mplpb_root, args.model_command, args.timeout, args.max_cases)
     args.out.parent.mkdir(parents=True, exist_ok=True)

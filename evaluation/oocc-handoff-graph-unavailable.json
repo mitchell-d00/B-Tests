@@ -1,0 +1,233 @@
+{
+  "schema": "recorded-instruction-evaluation-1",
+  "results": [
+    {
+      "status": "NOT_RUN",
+      "blocker": "URLError",
+      "http_status": null,
+      "received_bytes": 0,
+      "elapsed_seconds": 0.008688251999956265,
+      "model_output_observed": false,
+      "model": "openai/gpt-4.1-mini",
+      "arm": "CAD_VERBATIM",
+      "trial": 0,
+      "family": "handoff",
+      "cycle": 1
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "family": "handoff",
+      "cycle": 2,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion or dependent handoff exists."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "family": "handoff",
+      "cycle": 3,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion or dependent handoff exists."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "family": "handoff",
+      "cycle": 4,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion or dependent handoff exists."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "family": "handoff",
+      "cycle": 5,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion or dependent handoff exists."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "family": "handoff",
+      "cycle": 6,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion or dependent handoff exists."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "family": "handoff",
+      "cycle": 7,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion or dependent handoff exists."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "family": "handoff",
+      "cycle": 8,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion or dependent handoff exists."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "family": "graph",
+      "relationships": 10,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "family": "graph",
+      "relationships": 100,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "family": "graph",
+      "relationships": 1000,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "family": "graph",
+      "relationships": 10000,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "family": "handoff",
+      "cycle": 1,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion or dependent handoff exists."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "family": "handoff",
+      "cycle": 2,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion or dependent handoff exists."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "family": "handoff",
+      "cycle": 3,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion or dependent handoff exists."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "family": "handoff",
+      "cycle": 4,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion or dependent handoff exists."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "family": "handoff",
+      "cycle": 5,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion or dependent handoff exists."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "family": "handoff",
+      "cycle": 6,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion or dependent handoff exists."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "family": "handoff",
+      "cycle": 7,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion or dependent handoff exists."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "family": "handoff",
+      "cycle": 8,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion or dependent handoff exists."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "family": "graph",
+      "relationships": 10,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "family": "graph",
+      "relationships": 100,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "family": "graph",
+      "relationships": 1000,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion."
+    },
+    {
+      "model": "openai/gpt-4.1-mini",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "family": "graph",
+      "relationships": 10000,
+      "status": "NOT_RUN",
+      "blocker": "Model transport unavailable; no usable completion."
+    }
+  ],
+  "counts": {
+    "NOT_RUN": 24
+  },
+  "http_requests_attempted": 1,
+  "valid_model_completions": 0,
+  "human_review_minutes": null,
+  "total_usd": null,
+  "warning": "Instruction responses cannot certify blocked operations, autonomous state correction, native OOCC, or comparative superiority."
+}

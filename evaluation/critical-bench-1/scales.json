@@ -1,0 +1,47 @@
+[
+  {
+    "pages": 64,
+    "relation_appearances": 100,
+    "questions": 119,
+    "task_sha256": "62be1b7e03581d001ba7216557b70dd1c679e9f0fceea175f4a6cc99ef3a2fed",
+    "key_sha256": "e91955d446f693ce378fd88b8a9ceb1c1f1826597ae221f4aeb95553b51608b3",
+    "status": "NOT_RUN",
+    "blocker": "Only the first matched condition was dispatched; additional model sessions not executed."
+  },
+  {
+    "pages": 64,
+    "relation_appearances": 1000,
+    "questions": 119,
+    "task_sha256": "654f0c3c84bc1f822363f2946455d813fcd2cf9e106b07c3cea20dda23dda876",
+    "key_sha256": "e91955d446f693ce378fd88b8a9ceb1c1f1826597ae221f4aeb95553b51608b3",
+    "status": "NOT_RUN",
+    "blocker": "Only the first matched condition was dispatched; additional model sessions not executed."
+  },
+  {
+    "pages": 64,
+    "relation_appearances": 5120,
+    "questions": 119,
+    "task_sha256": "0befafa45e7954a232bd73a52edb560faf681035df0ec7214621098480a51c29",
+    "key_sha256": "e91955d446f693ce378fd88b8a9ceb1c1f1826597ae221f4aeb95553b51608b3",
+    "status": "OBSERVED",
+    "blocker": null
+  },
+  {
+    "pages": 64,
+    "relation_appearances": 10000,
+    "questions": 119,
+    "task_sha256": "76d8470ff096518b84c6ced1f09ea3de1c83ecb586aa80d6d7bfe2764b7f25f6",
+    "key_sha256": "e91955d446f693ce378fd88b8a9ceb1c1f1826597ae221f4aeb95553b51608b3",
+    "status": "NOT_RUN",
+    "blocker": "Only the first matched condition was dispatched; additional model sessions not executed."
+  },
+  {
+    "pages": 515,
+    "relation_appearances": 5120,
+    "questions": 119,
+    "task_sha256": "89bac3d435bc42a3a2ebd472f5bd5ec22af5a68258f6990e494397d1cf131455",
+    "key_sha256": "e91955d446f693ce378fd88b8a9ceb1c1f1826597ae221f4aeb95553b51608b3",
+    "status": "NOT_RUN",
+    "blocker": "Only the first matched condition was dispatched; additional model sessions not executed."
+  }
+]

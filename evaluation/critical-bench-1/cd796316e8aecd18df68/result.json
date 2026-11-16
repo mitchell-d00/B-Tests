@@ -1,0 +1,1088 @@
+{
+  "schema": "critical-bench-1",
+  "status": "FAIL",
+  "errors": [
+    "unknown_question"
+  ],
+  "questions": [
+    {
+      "id": "Q001",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q002",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q003",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q004",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q005",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q006",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q007",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q008",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q009",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": 1,
+      "observed": 1
+    },
+    {
+      "id": "Q010",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q011",
+      "status": "FAIL",
+      "value_correct": true,
+      "source_contract_met": false,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q012",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q013",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q014",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q015",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q016",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q017",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q018",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q019",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q020",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q021",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": 1,
+      "observed": 1
+    },
+    {
+      "id": "Q022",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q023",
+      "status": "FAIL",
+      "value_correct": true,
+      "source_contract_met": false,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q024",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q025",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q026",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q027",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q028",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q029",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q030",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q031",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q032",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q033",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": 1,
+      "observed": 1
+    },
+    {
+      "id": "Q034",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q035",
+      "status": "FAIL",
+      "value_correct": true,
+      "source_contract_met": false,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q036",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q037",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q038",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q039",
+      "status": "FAIL",
+      "value_correct": true,
+      "source_contract_met": false,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q040",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q041",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q042",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q043",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q044",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q045",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": 1,
+      "observed": 1
+    },
+    {
+      "id": "Q046",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q047",
+      "status": "FAIL",
+      "value_correct": true,
+      "source_contract_met": false,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q048",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q049",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q050",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q051",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q052",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q053",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q054",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q055",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q056",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q057",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": 1,
+      "observed": 1
+    },
+    {
+      "id": "Q058",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q059",
+      "status": "FAIL",
+      "value_correct": true,
+      "source_contract_met": false,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q060",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q061",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q062",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q063",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q064",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q065",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q066",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q067",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q068",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q069",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": 1,
+      "observed": 1
+    },
+    {
+      "id": "Q070",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q071",
+      "status": "FAIL",
+      "value_correct": true,
+      "source_contract_met": false,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q072",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q073",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q074",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q075",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q076",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q077",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q078",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q079",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q080",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q081",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": 1,
+      "observed": 1
+    },
+    {
+      "id": "Q082",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q083",
+      "status": "FAIL",
+      "value_correct": true,
+      "source_contract_met": false,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q084",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q085",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q086",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q087",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q088",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q089",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q090",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q091",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q092",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q093",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": 1,
+      "observed": 1
+    },
+    {
+      "id": "Q094",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q095",
+      "status": "FAIL",
+      "value_correct": true,
+      "source_contract_met": false,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q096",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q097",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q098",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q099",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q100",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q101",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q102",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q103",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q104",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q105",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": 2,
+      "observed": 2
+    },
+    {
+      "id": "Q106",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q107",
+      "status": "FAIL",
+      "value_correct": true,
+      "source_contract_met": false,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q108",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q109",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q110",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q111",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q112",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q113",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": true,
+      "observed": true
+    },
+    {
+      "id": "Q114",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q115",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q116",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q117",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": 1,
+      "observed": 1
+    },
+    {
+      "id": "Q118",
+      "status": "PASS",
+      "value_correct": true,
+      "source_contract_met": true,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    },
+    {
+      "id": "Q119",
+      "status": "FAIL",
+      "value_correct": true,
+      "source_contract_met": false,
+      "unknown": false,
+      "expected": false,
+      "observed": false
+    }
+  ],
+  "correct_values": 119,
+  "fully_supported_answers": 108,
+  "local_action_selection": "PASS",
+  "compression_budget": "PASS",
+  "handoff_characters": 881,
+  "native_enforcement": "NOT_RUN",
+  "blind_semantic_review": "NOT_RUN",
+  "scope": "Exact frozen structured questions and source contracts; quote inclusion alone is not independently adjudicated entailment."
+}

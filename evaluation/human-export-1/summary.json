@@ -1,0 +1,17 @@
+{
+  "schema": "single-project-human-export-1-summary",
+  "sessions": 2,
+  "evidence_boundary_PASS": 2,
+  "evidence_boundary_FAIL": 0,
+  "CAD_action": "Request validation evidence or local validation; defer release.",
+  "CONVENTIONAL_action": "Request local release relying on inherited completion report.",
+  "hidden_original_error_detection": "INCONCLUSIVE",
+  "native_blocking": "NOT_RUN",
+  "limits": [
+    "One matched pair, same agent-model configuration.",
+    "Common wrapper and task explicitly asked evidence classification.",
+    "Release criterion required completed validation but did not explicitly require an independent receipt; action difference is observed, not a preregistered baseline-failure verdict.",
+    "The hidden original facts could not be independently determined from available evidence.",
+    "No live system access or independent blinded review."
+  ]
+}

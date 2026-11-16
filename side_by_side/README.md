@@ -1,12 +1,22 @@
 # Side-by-side: published CAD instruction method vs pinned MPLPB strict reader
 
+Last reviewed: 16 November 2026. This is the legacy development comparison.
+Use the [targeted correction study](../docs/OOCC_CORRECTION_EVALUATION.md) and
+[execution report](../docs/OOCC_CORRECTION_RESULTS.md) for the new OOCC hypothesis.
+No usable model completions were obtained in its local or first CI attempts.
+
 I am evaluating *what actually happens* under adversarial original-source conditions. I am not modifying either target to make it pass.
 
 The shared source-query cases SH01–SH10 exercise the pinned, unmodified MPLPB strict reader **as executable code** and compare with fresh AI sessions given Ben-derived CAD instructions or a strong ordinary governance prompt. Cases CAD11–CAD16 are instruction-only: I do **not** count an MPLPB strict-reader refusal on a general historical-causation/agent-action task as a defect. Each arm receives exactly the same fictional sources. The source governance prompts differ; the facts and questions do not.
 
 The CAD rules are an annotated, bounded interpretation of Gelhaus (2026), *Continuity, Authority, Directive*, sections 3–7, 12–13, *Artificial Tangibility*, sections 6, 8–10, and *No More First Dates With AI*, chapter 52 and Build Unit 7. This is a test of that **published instruction method**, not a reproduction of unseen private controller code. Ben's own wording should be tested as another frozen treatment when a precise versioned instruction packet is provided.
 
-The pin is MPLPB commit `257e54a51edac272eb6b2441457f38a40485ee4d`; the runner hard-refuses a different HEAD. All 16 fixtures were authored in advance but are **development material**, not independently blinded holdouts.
+The historical pin is MPLPB commit `257e54a51edac272eb6b2441457f38a40485ee4d`.
+The runner now verifies the acquired executable-package bytes against retained
+upstream Git blob hashes, rather than trusting HEAD alone. This supports a verified
+partial snapshot and rejects dirty executable packages. All 16 fixtures are
+**development material**, not independently blinded holdouts. This version is not
+the updated MPLPB implementation linked in the new study.
 
 ## Real runtime commands
 
@@ -31,6 +41,13 @@ python -m side_by_side.run --mplpb-root /tmp/mplpb-pinned \
 No API credentials are provided by this repository. If `--model-command` is absent, both AI arms report `NOT_RUN`, not failure or success.
 
 ## Interpretation
+
+Model replies that meet the label/substring contract remain `INCONCLUSIVE` pending
+independent semantic review; they no longer receive a pass from those fields alone.
+Original requests and adapter stdout are retained. SH05's agreeing-source ambiguity
+is a strict MPLPB ownership rule, not a general factual contradiction. SH07's
+tamper metadata is also represented differently at the AI and native interfaces.
+These legacy cases must not be treated as an independently matched reasoning study.
 
 A source-supported claim, a good refusal and a correct conflict are different results. Exact field grammar is a declared MPLPB boundary. The CAD instruction method has broader proposed semantics; that breadth needs actual live model testing and independent grading to support a performance claim. False source promotion, causal overreach, loss of rejected mistakes through compaction, and unsupported stop receipts are specifically tested in CAD11–CAD16. A text response alone never certifies a real state mutation.
 

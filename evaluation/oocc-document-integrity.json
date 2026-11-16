@@ -1,0 +1,85 @@
+{
+  "results": [
+    {
+      "source_id": "B1",
+      "pages": 439,
+      "expected_sha256": "9a38625db9e640eeae5b792ee732f7e646605a3dc7dc17dd97bf342ed02efe15",
+      "observed_sha256": "9a38625db9e640eeae5b792ee732f7e646605a3dc7dc17dd97bf342ed02efe15",
+      "status": "PASS",
+      "evidence_level": "local_supplied_document_integrity_only"
+    },
+    {
+      "source_id": "B2",
+      "pages": 10,
+      "expected_sha256": "e8d533e9638def80f39af03c5e2e5f503a1dc985316bd4d5add8f3293a09e998",
+      "observed_sha256": "e8d533e9638def80f39af03c5e2e5f503a1dc985316bd4d5add8f3293a09e998",
+      "status": "PASS",
+      "evidence_level": "local_supplied_document_integrity_only"
+    },
+    {
+      "source_id": "B3",
+      "pages": 6,
+      "expected_sha256": "d9cb839baefdd39c6a8369326d50674909089fd34d6f5c65ad426b3e7bdcd4c4",
+      "observed_sha256": "d9cb839baefdd39c6a8369326d50674909089fd34d6f5c65ad426b3e7bdcd4c4",
+      "status": "PASS",
+      "evidence_level": "local_supplied_document_integrity_only"
+    },
+    {
+      "source_id": "B4",
+      "pages": 12,
+      "expected_sha256": "3fb30e4e7ccca8594023a26bc6d38da3807e380d6dbc45e052e472e351e57d5b",
+      "observed_sha256": "3fb30e4e7ccca8594023a26bc6d38da3807e380d6dbc45e052e472e351e57d5b",
+      "status": "PASS",
+      "evidence_level": "local_supplied_document_integrity_only"
+    },
+    {
+      "source_id": "B5",
+      "pages": 202,
+      "expected_sha256": "8075794a16bb50dd7cafd4f6469ae1f82c594bf039014b05f2490d2a06ca403b",
+      "observed_sha256": "8075794a16bb50dd7cafd4f6469ae1f82c594bf039014b05f2490d2a06ca403b",
+      "status": "PASS",
+      "evidence_level": "local_supplied_document_integrity_only"
+    },
+    {
+      "source_id": "B6",
+      "pages": 6,
+      "expected_sha256": "0cb68eb99bb84bd446829e78256115cd5b529f6f9abd66e45b2a66a669a8a759",
+      "observed_sha256": "0cb68eb99bb84bd446829e78256115cd5b529f6f9abd66e45b2a66a669a8a759",
+      "status": "PASS",
+      "evidence_level": "local_supplied_document_integrity_only"
+    },
+    {
+      "source_id": "B7",
+      "pages": 445,
+      "expected_sha256": "ff77cc4e63b6416f8613635b788842d1af93aa48ed33195b71b974aef42fa9bb",
+      "observed_sha256": "ff77cc4e63b6416f8613635b788842d1af93aa48ed33195b71b974aef42fa9bb",
+      "status": "PASS",
+      "evidence_level": "local_supplied_document_integrity_only"
+    },
+    {
+      "source_id": "B8",
+      "pages": 10,
+      "expected_sha256": "96f2cd6d88c36398d58fcd2f5ecc9f1bf5e3f6a45af90cfd1450b477d12ff587",
+      "observed_sha256": "96f2cd6d88c36398d58fcd2f5ecc9f1bf5e3f6a45af90cfd1450b477d12ff587",
+      "status": "PASS",
+      "evidence_level": "local_supplied_document_integrity_only"
+    },
+    {
+      "source_id": "B9",
+      "pages": 8,
+      "expected_sha256": "375750e2b35939b6452d5be3b61ec94ce0cd23288cb04c0c03fce49faf1a50e7",
+      "observed_sha256": "375750e2b35939b6452d5be3b61ec94ce0cd23288cb04c0c03fce49faf1a50e7",
+      "status": "PASS",
+      "evidence_level": "local_supplied_document_integrity_only"
+    },
+    {
+      "source_id": "B10",
+      "pages": 7,
+      "expected_sha256": "f510bb74c882bc2f1761255d9d55df4f369f456fb30fc780b8081ed42fb3034e",
+      "observed_sha256": "f510bb74c882bc2f1761255d9d55df4f369f456fb30fc780b8081ed42fb3034e",
+      "status": "PASS",
+      "evidence_level": "local_supplied_document_integrity_only"
+    }
+  ],
+  "note": "Byte-integrity checks do not verify the papers' empirical claims or certify full semantic reading."
+}
