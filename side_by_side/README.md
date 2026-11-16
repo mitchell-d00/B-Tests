@@ -1,8 +1,8 @@
 # Side-by-side: published CAD instruction method vs pinned MPLPB strict reader
 
 Last reviewed: 16 November 2026. This is the legacy development comparison.
-Use the [targeted correction study](../docs/OOCC_CORRECTION_EVALUATION.md) and
-[execution report](../docs/OOCC_CORRECTION_RESULTS.md) for the new OOCC hypothesis.
+Use the [current comparison](../README.md), [model results](../docs/CRITICAL_BENCHMARK_RESULTS.md)
+and [new native MPLPB runs](../docs/MPLPB_NATIVE_COMPARISON.md) for the current evidence.
 No usable model completions were obtained in its local or first CI attempts.
 
 I am evaluating *what actually happens* under adversarial original-source conditions. I am not modifying either target to make it pass.
