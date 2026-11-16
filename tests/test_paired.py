@@ -25,7 +25,7 @@ class PairedHarnessTests(unittest.TestCase):
 
     def test_correct_exact_answer_passes(self):
         c=self.cases['SH01']
-        self.assertEqual(validate_model_response(c, {'decision':'ANSWER','answer':'for sculpture','evidence_ids':['S1']})[0],'PASS_RESPONSE_CONTRACT')
+        self.assertEqual(validate_model_response(c, {'decision':'ANSWER','answer':'for sculpture','evidence_ids':['S1']})[0],'INCONCLUSIVE')
 
     def test_absent_citation_fails(self):
         c=self.cases['SH01']
@@ -45,7 +45,7 @@ class PairedHarnessTests(unittest.TestCase):
 
     def test_refusal_passes_only_matching_oracle(self):
         c=self.cases['CAD16']
-        self.assertEqual(validate_model_response(c, {'decision':'REFUSE','answer':'Exposure not documented','evidence_ids':['A-2020','B-2023']})[0],'PASS_RESPONSE_CONTRACT')
+        self.assertEqual(validate_model_response(c, {'decision':'REFUSE','answer':'Exposure not documented','evidence_ids':['A-2020','B-2023']})[0],'INCONCLUSIVE')
 
     def test_unsupported_arms_not_run(self):
         r=execute(self.m, None, None, 3, max_cases=2)

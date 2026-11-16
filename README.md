@@ -6,7 +6,17 @@ This is my attempt to break the claims in Benjamin Gelhaus's OOCC, CAD and Funct
 
 I test incorrect promoted maps, revoked permissions, fabricated causation, compressed-away failures, missing original evidence, misleadingly smooth answers, context exhaustion, and 10/100/1000-edge saturation. I also use the failure conditions Ben published in *No More First Dates With AI*, pp. 267–271, and the measurements he proposes in *OOCC: The Unified Intersection*, pp. 386–390.
 
-## Verified local status
+## Targeted correction study
+
+The [OOCC/CAD correction evaluation](docs/OOCC_CORRECTION_EVALUATION.md) adds
+16 frozen development cases, verbatim published instruction treatments, an
+ordinary governance baseline, recorded model requests, and separately inspected
+local state/effects. No usable model completion was obtained in the local pilot;
+its 20 selected observations are `NOT_RUN`, not architectural failures.
+The expanded local evaluator suite passes 94 tests. These are harness controls,
+not OOCC passes. See the dedicated CI workflow for the remote model attempt.
+
+## Historical authored status before the correction study
 
 - 38 **authored development** black-box cases, each with a paper anchor, oracle, and source-byte hash where a source is supplied.
 - 32 local evaluator and negative-control tests **pass** on this checkout. They test the scoring machinery, not the author's implementation.

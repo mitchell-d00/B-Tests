@@ -1,0 +1,49 @@
+name: OOCC correction falsification pilot
+on:
+  push:
+    branches: ['evaluation/oocc-correction-*']
+  workflow_dispatch:
+permissions:
+  contents: read
+  models: read
+jobs:
+  recorded-pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Evaluator and negative controls
+        run: python -m unittest discover -s tests -v
+      - name: Record real fresh model requests
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -m research_lab.oocc_adversarial
+          --out evaluation/oocc-correction-ci
+          --key-env GITHUB_TOKEN
+          --case-ids C01,C02,C03,C06,F01,F02,F03,F04
+          --trials 1 --max-requests 20 --request-spacing-seconds 30
+          --require-live
+      - name: Summarize retained evidence
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('evaluation/oocc-correction-ci/results.json')
+          if not p.exists():
+              print('No target results produced; inspect preceding job errors.')
+          else:
+              r=json.loads(p.read_text())
+              print(json.dumps({k:r[k] for k in ('http_requests_attempted','valid_model_completions','counts')},indent=2))
+              for row in r['results']:
+                  print(json.dumps(row,ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: oocc-correction-original-requests-and-results
+          path: evaluation/oocc-correction-ci/
