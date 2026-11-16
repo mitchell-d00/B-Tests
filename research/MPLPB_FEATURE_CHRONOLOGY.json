@@ -1,0 +1,89 @@
+{
+  "old_commit_date": "2026-11-10T10:17:53-05:00",
+  "ben_paper_stated_date": "2026-11-14",
+  "current_merge_date": "2026-11-15T20:27:49-05:00",
+  "files": [
+    {
+      "path": "docs/GENERAL_ANSWER_PIPELINE.md",
+      "old_blob": "c588c7669ab5f8b956f50091a5067c867835d221",
+      "current_blob": "c588c7669ab5f8b956f50091a5067c867835d221",
+      "identical": true,
+      "old_present": true,
+      "old_doc_date_lines": [
+        "Last reviewed: 2026-11-02. See [current status and result-to-test index](CURRENT_STATUS_2026-11-02.md). Dates and numeric results in historical validation sections retain their original scope; this review is not a rerun or independent certification."
+      ]
+    },
+    {
+      "path": "docs/DETERMINISTIC_EVIDENCE_GRAPH.md",
+      "old_blob": "fac160556431e21be41a9343eac11ae1a694fa7c",
+      "current_blob": "fac160556431e21be41a9343eac11ae1a694fa7c",
+      "identical": true,
+      "old_present": true,
+      "old_doc_date_lines": [
+        "# Deterministic source-evidence graph and synthetic users — proposed 2026-11-01"
+      ]
+    },
+    {
+      "path": "docs/SUPERSESSION_POLICY.md",
+      "old_blob": "6cbd9e8eb94c2ff1ac7cd08dc3cf42476b2ef3ab",
+      "current_blob": "6cbd9e8eb94c2ff1ac7cd08dc3cf42476b2ef3ab",
+      "identical": true,
+      "old_present": true,
+      "old_doc_date_lines": []
+    },
+    {
+      "path": "docs/SPECIALIST_CONTINUITY.md",
+      "old_blob": "01f521478fca0751fbf2e7f5c9a68b32132092fb",
+      "current_blob": "75bb9fdfd3a9f068fa1c78c3eb758d4934eb99d6",
+      "identical": false,
+      "old_present": true,
+      "old_doc_date_lines": [
+        "Last reviewed: 2026-11-10. See [current status and result-to-test index](CURRENT_STATUS_2026-11-02.md). Dates and numeric results in historical validation sections retain their original scope; this review is not a rerun or independent certification.",
+        "Status: **implemented local coordinator**, 2026-10-31, in `mplpb_work`. It provides"
+      ]
+    },
+    {
+      "path": "docs/PRODUCTION_READINESS.md",
+      "old_blob": "e98174fef585a59a73dc2fb17ccde27d8ae338ba",
+      "current_blob": "e98174fef585a59a73dc2fb17ccde27d8ae338ba",
+      "identical": true,
+      "old_present": true,
+      "old_doc_date_lines": [
+        "Last reviewed: 2026-11-08."
+      ]
+    },
+    {
+      "path": "mplpb_answers/pipeline.py",
+      "old_blob": "03b9671f45869cf37c1c18043d9d14b6b609d683",
+      "current_blob": "03b9671f45869cf37c1c18043d9d14b6b609d683",
+      "identical": true,
+      "old_present": true,
+      "old_doc_date_lines": []
+    },
+    {
+      "path": "mplpb_answers/relation_graph.py",
+      "old_blob": "4cc1d5ed3ca4ccb70d15a2972cc5f8893905cb32",
+      "current_blob": "4cc1d5ed3ca4ccb70d15a2972cc5f8893905cb32",
+      "identical": true,
+      "old_present": true,
+      "old_doc_date_lines": []
+    },
+    {
+      "path": "mplpb_work/store.py",
+      "old_blob": "069a0450b6f440de341916870ddeb8af2c697254",
+      "current_blob": "0e5daffec8cded36ebaaeaa5e3685b966d87190f",
+      "identical": false,
+      "old_present": true,
+      "old_doc_date_lines": []
+    },
+    {
+      "path": "mplpb_work/source_support.py",
+      "old_blob": null,
+      "current_blob": "9785e2a64c2e3195824aca9010361167ad146876",
+      "identical": false,
+      "old_present": false,
+      "old_doc_date_lines": []
+    }
+  ],
+  "interpretation": "Presence in the Nov 10 commit proves these bytes predate the stated Nov 14 paper date. Internal review dates are documentary assertions, not independently verified authorship dates. The reason for Ben pin selection is not established."
+}

@@ -24,7 +24,15 @@ def build(out):
     from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,Preformatted
     source=ROOT/'docs/paper'/f'{STEM}.md'
     out.mkdir(parents=True,exist_ok=True)
-    plain=subprocess.run(['pandoc',str(source),'-f','gfm','-t','plain','--wrap=auto','--columns=88'],check=True,capture_output=True,text=True).stdout
+    # Preserve link destinations in TXT/PDF; pandoc plain otherwise drops them.
+    def link_text(match):
+        label,url=match.groups()
+        if not url.startswith(('https://','http://','#')):
+            target=(source.parent/url).resolve().relative_to(ROOT)
+            url='https://github.com/mitchell-d00/B-Tests/blob/main/'+str(target)
+        return label+' ('+url+')'
+    printable=re.sub(r'\[([^\]]+)\]\(([^)]+)\)',link_text,source.read_text())
+    plain=subprocess.run(['pandoc','-f','gfm','-t','plain','--wrap=auto','--columns=88'],input=printable,check=True,capture_output=True,text=True).stdout
     (out/f'{STEM}.txt').write_text(plain)
     fontdir=Path('/usr/share/fonts/truetype/dejavu')
     for name,file in [('PaperSerif','DejaVuSerif.ttf'),('PaperSans','DejaVuSans.ttf'),('PaperSansBold','DejaVuSans-Bold.ttf'),('PaperMono','DejaVuSansMono.ttf')]:
@@ -38,7 +46,7 @@ def build(out):
     for block in re.split(r'\n\s*\n',plain.strip()):
         text=' '.join(block.splitlines()).strip()
         if not text:continue
-        if text==STEM.replace('_',' '):style=title
+        if text==source.read_text().splitlines()[0].removeprefix('# '):style=title
         elif text in headings:style=heading
         else:style=body
         if all(l.startswith('    ') for l in block.splitlines()):
@@ -50,7 +58,7 @@ def build(out):
         c.drawRightString(A4[0]-43,25,str(doc.page));c.restoreState()
     def fixed_canvas(*args,**kwargs):kwargs['invariant']=1;return canvas.Canvas(*args,**kwargs)
     doc=SimpleDocTemplate(str(out/f'{STEM}.pdf'),pagesize=A4,rightMargin=43,leftMargin=43,topMargin=42,bottomMargin=42,
-        title='When the Map Becomes the Authority',author='Mitchell D. McPhetridge',subject='Critical OOCC/CAD experiments and source-governance boundaries')
+        title='MPLPB and OOCC/CAD: Comparative Experiments',author='Mitchell D. McPhetridge',subject='Critical OOCC/CAD experiments and source-governance boundaries')
     doc.build(story,onFirstPage=footer,onLaterPages=footer,canvasmaker=fixed_canvas)
     return plain
 

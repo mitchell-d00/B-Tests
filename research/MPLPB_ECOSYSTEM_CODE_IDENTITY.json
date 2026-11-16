@@ -1,0 +1,313 @@
+{
+  "scope": "Git blob comparisons between pinned upstream Python files and the vendored copies at Combined cc21ce300b5ec228c07fc77a149804fba6c89792. Byte identity is not proof every upstream fixture tree passes. Unmatched Smart Local paths include case normalization; they are not asserted identical here.",
+  "comparisons": [
+    {
+      "repo": "mplpb-swarm-scale",
+      "pin": "58effb11ab35e817862057b8312051a2582cdee6",
+      "part": "swarm",
+      "python_files_in_upstream_tree": 26,
+      "byte_identical_python_files": 26,
+      "different": [],
+      "unmatched_paths": [],
+      "matches": [
+        {
+          "path": "mplpb_swarm/__init__.py",
+          "git_blob_sha": "31a682fdd875020ba56098fa66c38eaff6874605"
+        },
+        {
+          "path": "mplpb_swarm/__main__.py",
+          "git_blob_sha": "0b4cd0940b2e37ae5b5d9c15e9ff92644c74c579"
+        },
+        {
+          "path": "mplpb_swarm/cite.py",
+          "git_blob_sha": "d6f4273fd46c8ff288aa607540ddaee333e714e3"
+        },
+        {
+          "path": "mplpb_swarm/crawl.py",
+          "git_blob_sha": "d7d9643d18e77bb339da5c9f564a7ce59b0ae975"
+        },
+        {
+          "path": "mplpb_swarm/health.py",
+          "git_blob_sha": "bb58f3bda7c2f55ad4ab52790c01f40dd473f368"
+        },
+        {
+          "path": "mplpb_swarm/lease.py",
+          "git_blob_sha": "04ebaf9f99f82599cf38eb05ea4da12f0bb2ba6c"
+        },
+        {
+          "path": "mplpb_swarm/origin.py",
+          "git_blob_sha": "5d1ad480fe22e104c069fb6dc4056cb42503f3b0"
+        },
+        {
+          "path": "mplpb_swarm/page.py",
+          "git_blob_sha": "551053c8c89d64d093b8067251b9a4b92b6be954"
+        },
+        {
+          "path": "mplpb_swarm/profiles.py",
+          "git_blob_sha": "e23478611a7dfb8c7daf992f25882ef7336dd074"
+        },
+        {
+          "path": "mplpb_swarm/registry.py",
+          "git_blob_sha": "a6676543fa3d6f443acf9f365e64dc323a1e6853"
+        },
+        {
+          "path": "mplpb_swarm/supersede.py",
+          "git_blob_sha": "a0c0060b639d1752c0dbcf620d7056c24e1de371"
+        },
+        {
+          "path": "tests/__init__.py",
+          "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+        },
+        {
+          "path": "tests/support.py",
+          "git_blob_sha": "ab77e73de2573481a4b49ea45f7b6b8df744267b"
+        },
+        {
+          "path": "tests/test_ablation.py",
+          "git_blob_sha": "80eaadbeb6dbbcc3dd816ad4c1a63b8771ad3426"
+        },
+        {
+          "path": "tests/test_corpus.py",
+          "git_blob_sha": "e8e309b8b7b53d92d1ba8beddee4c4079d7b5e81"
+        },
+        {
+          "path": "tests/test_federation.py",
+          "git_blob_sha": "ce3a2eac977848ddc063bb11a9da3dd94abf91db"
+        },
+        {
+          "path": "tests/test_profiles.py",
+          "git_blob_sha": "be72fa6fb33d965b9b1f986c72ef2cfc1fd6fce3"
+        },
+        {
+          "path": "tests/test_swarm.py",
+          "git_blob_sha": "f3a86bd30aa432995312dfd58b73d6a6e47aecd1"
+        },
+        {
+          "path": "tools/ablation/generate_corpus.py",
+          "git_blob_sha": "1033a3bb09bdabbc98be7be64fe7122ec710ab5e"
+        },
+        {
+          "path": "tools/ablation/probes.py",
+          "git_blob_sha": "c283e7804e499509ed81ad5b366173a83e25f6a4"
+        },
+        {
+          "path": "tools/ablation/run_ablation.py",
+          "git_blob_sha": "c1f55990575de9287f905e29269b87ea420ae763"
+        },
+        {
+          "path": "tools/ablation/run_graded.py",
+          "git_blob_sha": "5695f872c5e978155c2672b3668b579fa03242ef"
+        },
+        {
+          "path": "tools/build_site.py",
+          "git_blob_sha": "3406ea69821d42a320cf9e7e9bdd279062354628"
+        },
+        {
+          "path": "tools/make_ledger.py",
+          "git_blob_sha": "93694f8551fea77c23a81e356c73d32f5ecb23cf"
+        },
+        {
+          "path": "tools/make_paper.py",
+          "git_blob_sha": "3213349a18745a335345f4291ba821d639642206"
+        },
+        {
+          "path": "tools/make_profiles.py",
+          "git_blob_sha": "11699b4708f90fa7c81bce3d107d4b8f8c315251"
+        }
+      ]
+    },
+    {
+      "repo": "networked-mplpb",
+      "pin": "9caffbb60b45908c8f100eda797492f21b8eb85b",
+      "part": "networked",
+      "python_files_in_upstream_tree": 28,
+      "byte_identical_python_files": 28,
+      "different": [],
+      "unmatched_paths": [],
+      "matches": [
+        {
+          "path": "Tests/__init__.py",
+          "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+        },
+        {
+          "path": "Tests/support.py",
+          "git_blob_sha": "34bd1fcf52bf8cba1907b207e0f1ec54030b7e5e"
+        },
+        {
+          "path": "Tests/test_corpus.py",
+          "git_blob_sha": "afe8ab3f92e41304880aba9ae9c959b73602f08d"
+        },
+        {
+          "path": "Tests/test_ed25519.py",
+          "git_blob_sha": "b995682b5cad67101ab5d9448493c2ad35ff32f0"
+        },
+        {
+          "path": "Tests/test_experiment.py",
+          "git_blob_sha": "c9821a9cfb4c1040d7840c2094763c739c8ac950"
+        },
+        {
+          "path": "Tests/test_network.py",
+          "git_blob_sha": "8e4d1fe4cc4489d6f06d4fc0536ba956fcd5b485"
+        },
+        {
+          "path": "Tools/make_paper.py",
+          "git_blob_sha": "50000f0f23b4c3b75d3170f8da445006150a1bbf"
+        },
+        {
+          "path": "mplpb_net/__init__.py",
+          "git_blob_sha": "0dffacb89f8e91c260ba53fe057c45f62e9ba1af"
+        },
+        {
+          "path": "mplpb_net/__main__.py",
+          "git_blob_sha": "da156bdb145455fbb7d97d6aab86cc512c6ca989"
+        },
+        {
+          "path": "mplpb_net/config.py",
+          "git_blob_sha": "f11979a17346a86dea69c76cc85ecb2b2d323ec7"
+        },
+        {
+          "path": "mplpb_net/connectors/__init__.py",
+          "git_blob_sha": "64cffe2ffd82f749ecba79088b72f32a8a7ba96e"
+        },
+        {
+          "path": "mplpb_net/connectors/archive.py",
+          "git_blob_sha": "b5cede9769050924ac45fb96b04b14082bdfe95a"
+        },
+        {
+          "path": "mplpb_net/connectors/base.py",
+          "git_blob_sha": "9dfe74d0527c37b98b335450fdb537158fd81b4d"
+        },
+        {
+          "path": "mplpb_net/connectors/filesystem.py",
+          "git_blob_sha": "b23868174a1621bcb5887078c64cbf44fcde2196"
+        },
+        {
+          "path": "mplpb_net/connectors/http.py",
+          "git_blob_sha": "4c564682d61f47a32099f4137c879120d6f43be2"
+        },
+        {
+          "path": "mplpb_net/corpus.py",
+          "git_blob_sha": "7cca0bbca19c3d24c75de767102127f2da8c42e3"
+        },
+        {
+          "path": "mplpb_net/ed25519.py",
+          "git_blob_sha": "fdc225b25546fc8791df0af863881a740f63d8a2"
+        },
+        {
+          "path": "mplpb_net/experiment.py",
+          "git_blob_sha": "d63c990aeb96479ec2603888ba8083b5c618175b"
+        },
+        {
+          "path": "mplpb_net/hub.py",
+          "git_blob_sha": "e28f9ce7348a68642bd157ab688395eb3dd87c91"
+        },
+        {
+          "path": "mplpb_net/node.py",
+          "git_blob_sha": "f14860787bc836a0f6149b788589425f0a3b230b"
+        },
+        {
+          "path": "mplpb_net/page.py",
+          "git_blob_sha": "d65a137a36b839b6ab02bded49f33daaee4bca28"
+        },
+        {
+          "path": "mplpb_net/replicate.py",
+          "git_blob_sha": "fdeaaf8eb71a8a450e46a8da373fda8803de3124"
+        },
+        {
+          "path": "mplpb_net/retrieve.py",
+          "git_blob_sha": "ebf5ca4e7ecadfa3926361c11367c89bd31b6cfb"
+        },
+        {
+          "path": "mplpb_net/router.py",
+          "git_blob_sha": "965aa0bb43e37713fce4405800161bcb49ba0d37"
+        },
+        {
+          "path": "mplpb_net/scale.py",
+          "git_blob_sha": "8ee2377e8492295ccdf2d5285d254de7e9db5474"
+        },
+        {
+          "path": "mplpb_net/server.py",
+          "git_blob_sha": "b606e9cd1f94b23aaf3c4086ef93728ce1f7d658"
+        },
+        {
+          "path": "mplpb_net/util.py",
+          "git_blob_sha": "dda1c79c92e7f1c1408ef13fda2cead3f16a1e36"
+        },
+        {
+          "path": "mplpb_net/validate.py",
+          "git_blob_sha": "abd073d6a35441df3d930a141e8d3e68d0462af1"
+        }
+      ]
+    },
+    {
+      "repo": "SMART-LOCAL-MPLPB-A-Retrieval-Bounded-Front-End-for-a-Local-Web",
+      "pin": "984d3cba78f1c01eef3ab1d90321ea3d9f9ea86d",
+      "part": "smart-local",
+      "python_files_in_upstream_tree": 19,
+      "byte_identical_python_files": 13,
+      "different": [],
+      "unmatched_paths": [
+        "Tests/__init__.py",
+        "Tests/support.py",
+        "Tests/test_corpus.py",
+        "Tests/test_frontend.py",
+        "Tools/build_example.py",
+        "Tools/make_paper.py"
+      ],
+      "matches": [
+        {
+          "path": "mplpb/__init__.py",
+          "git_blob_sha": "5be6cc70248a025e95502c0a17080e94ae622d8c"
+        },
+        {
+          "path": "mplpb/__main__.py",
+          "git_blob_sha": "c5afd932fb108806d5ecd8ab262f5c3c618dfde3"
+        },
+        {
+          "path": "mplpb/cite.py",
+          "git_blob_sha": "c8b4ab9a2b07c9f45e8d857215887b0b50f9e167"
+        },
+        {
+          "path": "mplpb/console.py",
+          "git_blob_sha": "3d7d4f3855acee3df1b9907a022fc15c9ac9da6b"
+        },
+        {
+          "path": "mplpb/crawl.py",
+          "git_blob_sha": "5e713ce9591ac527fec12529f84b9f555717ecdd"
+        },
+        {
+          "path": "mplpb/index.py",
+          "git_blob_sha": "c952de3c02ab17763c466bcdcc844baa83b9aeed"
+        },
+        {
+          "path": "mplpb/modes.py",
+          "git_blob_sha": "9510ad48e8af9220c13e2afd8c08d37fe96218c1"
+        },
+        {
+          "path": "mplpb/notebook.py",
+          "git_blob_sha": "9001ef5e02d0a032c0b5f2e3ce4985c65247646f"
+        },
+        {
+          "path": "mplpb/page.py",
+          "git_blob_sha": "9bf1ff414da75817c02ecc9c110c36887c2b0e7b"
+        },
+        {
+          "path": "mplpb/router.py",
+          "git_blob_sha": "09101101346d6ae35b1a0a0fb15d230234167420"
+        },
+        {
+          "path": "mplpb/scaffold.py",
+          "git_blob_sha": "b02e4a0da5aefb2c01b62c882348bc2f42303ae5"
+        },
+        {
+          "path": "mplpb/server.py",
+          "git_blob_sha": "0e0ef21e2028ae1a601641129d6d7ba3314cd7db"
+        },
+        {
+          "path": "mplpb/validate.py",
+          "git_blob_sha": "fe4fc544eb86e51349d8a9fbe0abab2a5ba724ba"
+        }
+      ]
+    }
+  ]
+}

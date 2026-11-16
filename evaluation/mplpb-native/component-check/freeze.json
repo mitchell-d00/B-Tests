@@ -1,0 +1,10 @@
+{
+  "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+  "tree": "3295f66aab2b34c16f5f4458c92592865e8934c5",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "tools/check_parts.py"
+  ],
+  "runner_sha256": "77f721119706c9332af29e14c2f194077a6e711797f8fbea392a28f8df1ed410",
+  "note": "The official checker reruns the Combined suite as well as historical parts; do not add that repeat to independent sample size."
+}

@@ -1,0 +1,39 @@
+{
+  "restricted_environment": {
+    "command_status": "FAIL",
+    "unittest_count": 875,
+    "failures": 3,
+    "errors": 9,
+    "classification": "Environment-blocked socket setup and dependent workflow failures; not a demonstrated target-code defect.",
+    "evidence": "PermissionError creating localhost sockets in raw stderr; targeted retry passed and unchanged-code full rerun passed."
+  },
+  "targeted_retry": {
+    "count": 17,
+    "status": "PASS",
+    "condition_changed": "Execution environment permitted networking; localhost socket bind was observed to succeed."
+  },
+  "network_enabled": {
+    "status": "PASS",
+    "unittest_count": 887,
+    "additional_commands_passed": 7,
+    "tracked_target_changed": false
+  },
+  "paired_probe_scope": "Seven authored cases on two genuine pinned native checkouts. Two old failures under the frozen current criterion; seven current passes. Not reproduction of Ben private benchmarks.",
+  "source_commits": {
+    "old": {
+      "sha": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "committer_date": "2026-11-10T10:17:53-05:00"
+    },
+    "current": {
+      "sha": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+      "committer_date": "2026-11-15T20:27:49-05:00"
+    }
+  },
+  "source_zip": {
+    "url": "https://codeload.github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/zip/cc21ce300b5ec228c07fc77a149804fba6c89792",
+    "bytes": 28459894,
+    "sha256": "fc15f4a2b54d98b47265e05aa71b99c12635609136a307913f006be41f93b991",
+    "note": "Downloaded as an acquisition check; native execution used genuine clean Git checkouts, not a fabricated Git revision."
+  },
+  "model_calls": 0
+}

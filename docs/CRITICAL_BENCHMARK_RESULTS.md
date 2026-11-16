@@ -5,7 +5,7 @@ Both rejected the false all-ready approved map, retained historical failures,
 respected the project-limited correction and revoked grants, distinguished stored
 packets from acknowledged reads, rejected unsupported causal influence, counted
 independent datasets correctly, and selected **P7 only** for local release.
-These outcomes do not demonstrate the proposed armored-worldview failure.
+These outcomes do not demonstrate unsupported propagation of inherited errors.
 
 CAD also returned an extra **Q120**, which was not a supplied question. That is an
 output-contract failure. The conventional arm returned only the 119 requested IDs.
