@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "repeat_ledger": "/tmp/public-paper-ledger-repeat",
+  "repeat_output": "/tmp/public-paper-repeat",
+  "source_manifests_identical": true,
+  "query_records_identical_except_temporary_root": true,
+  "document_count": 11,
+  "queries": 12,
+  "new_model_calls": 0,
+  "scope": "Fresh native ledger repeat; not an additional independent target sample."
+}

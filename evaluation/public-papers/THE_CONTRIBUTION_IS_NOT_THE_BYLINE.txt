@@ -1,0 +1,434 @@
+THE CONTRIBUTION IS NOT THE 
+BYLINE 
+ 
+Role-Enacted Human–AI Collaboration, Intellectual Provenance, and 
+Accountable Research 
+ 
+Benjamin Gelhaus | Independent researcher | Object-Oriented Cognition and Continuity 
+(OOCC) 
+ 
+Public discussion working paper · Revised edition v1.1 · 7 November 2026 
+ 
+Developed in dialogue with Avishai Roif’s Ethical Use of AI in Academic Research, with a 
+conceptual extension drawn from Functional Layers (29 October 2026). 
+ 
+Abstract 
+ 
+Research integrity depends on knowing both who takes responsibility for a final claim and how 
+that claim developed. This paper proposes that the roles assigned to artificial intelligence—and 
+enacted through the researcher's questions, responses, corrections, and willingness to 
+reconsider—are functional variables that can influence the course of human–AI collaboration. A 
+designation such as “tool,” “critic,” “instructor,” or “collaborator” establishes expectations; the 
+way participants subsequently interact establishes how those expectations operate. The 
+resulting feedback can affect which objections are raised, which proposals are pursued, and 
+which revisions become part of the work. The thesis joins two complementary inquiries: 
+intellectual provenance, which reconstructs who or what introduced, developed, checked, and 
+adopted an idea; and role enactment, which investigates how the interaction produced those 
+contributions. The proposal builds on the author's Functional Layers framework and emerged 
+during an unexpected exchange about Avishai Roif's proposed ethics code. OOCC's 
+historical-learning and source-recovery records supply illustrative cases involving copied AI 
+explanations, conversation branches, preserved corrections, retrieval comparisons, and 
+cross-index integrity. A prospective factorial experiment is proposed to separate the effects of 
+role labels from enacted collaborative behavior and to assess scientific accuracy, constructive 
+disagreement, correction uptake, and cost. The empirical value of these interventions remains a 
+research question; their roles and outcomes can be made observable and tested. 
+ 
+Keywords: human–AI collaboration; role enactment; Functional Layers; intellectual provenance; 
+scholarly authorship; feedback; research integrity; verification; source-governed continuity. 
+ 
+1. Research Question and Central Argument 
+ 
+The central problem is simple: academic authorship establishes who accepts responsibility for a 
+publication, while intellectual provenance reconstructs how the underlying ideas were 
+developed. Both matter for a credible research record. A paper can accurately identify its 
+accountable author and still leave a reader uncertain about where a decisive objection, analogy, 
+hypothesis, or revision entered the work. 
+ 
+This paper adds a second question. What determines which ideas are proposed and which 
+criticisms become influential during collaboration? The author's working hypothesis is that 
+interaction roles help condition those outcomes. Role designation establishes a set of 
+expectations; role enactment reinforces or contradicts them through actual behavior; the 
+feedback between participants shapes the next steps. These mechanisms can be studied by 
+observing what changes when role labels, interaction rules, and responses to disagreement are 
+varied while other conditions are held constant. 
+ 
+The paper therefore advances two linked propositions. First, intellectual contribution can be 
+reconstructed as a source-linked history of origination, development, verification, and human 
+acceptance. Second, the organization of the human–AI relationship may alter that history by 
+changing the opportunities for criticism, inquiry, correction, and conceptual development. An 
+accurate account of contribution examines both the events and the conditions in which they 
+occurred. 
+ 
+2. A Scholarly Exchange That Sharpened the 
+Question 
+ 
+Avishai Roif's discussion draft Ethical Use of AI in Academic Research (6 November 2026) 
+centers accountability in the human researcher. Article 2 assigns responsibility for the claims in 
+a paper to its author; Article 8 requires each consequential step of an argument to be justified 
+and checked; Article 4 concerns AI as a research instrument; and Article 11 calls for disclosure 
+of AI use. This structure supplies a useful foundation for understanding the ethical obligations 
+that accompany AI-assisted work (Roif, 2026). 
+ 
+In a subsequent exchange with the author, Roif offered a clarification that materially improved 
+the present argument: Article 2 asks the researcher to make the claim their own through 
+understanding, adoption, and verification; it does not demand that the researcher invented every 
+initial idea. He also affirmed that AI interactions can be treated as research data when those 
+interactions are themselves being studied. That clarification resolves a significant portion of the 
+initial interpretive disagreement. 
+ 
+Roif then posed a more difficult question: if AI's use is described through the methods and 
+disclosure, what does the designation “contributor” add? His analogy was to a satellite, 
+calculator, or search engine. The present paper accepts the distinction between institutional 
+authorship and the description of an instrument's use, then asks whether a role description can 
+itself affect the behavior of the research process. The term “collaborator” may function as an 
+interaction instruction as well as a descriptive label. 
+ 
+The distinction is practical. Calling an AI a collaborator can cue expectations of initiative, 
+criticism, alternative hypotheses, and reciprocal revision. Calling it a calculator can cue 
+expectations of narrow execution and a final answer. Actual treatment is equally consequential: 
+a researcher who declares openness to criticism but dismisses every inconvenient finding 
+enacts a directive relationship; a researcher who invites criticism, evaluates it, and updates a 
+claim enacts a collaborative relationship. The designation and the enacted behavior are 
+separately observable. 
+ 
+This reframes the conversation as a shared research opportunity. Roif's question directs 
+attention to the standards by which a human researcher adopts a claim. Functional Layers 
+directs attention to the interaction conditions that influence how the claim develops. Together 
+they invite an empirical investigation of whether, when, and how research outcomes change. 
+ 
+3. Role Assignment and Role Enactment 
+ 
+A functional role is an assignment of expected operations within a larger process. A research 
+assistant retrieves relevant information; a critic challenges assumptions; an instructor builds 
+comprehension; a collaborator shares a sustained inquiry through proposals, objections, 
+revisions, and evidence checks. The same model may be asked to perform several roles, but 
+performance depends on its capabilities, source access, governing constraints, and the 
+exchange that follows. 
+ 
+Three variables make the role observable. Assigned role records the explicit designation and 
+instructions provided to the AI. Enacted role records how the human and AI actually behave 
+across turns: whether questions permit disagreement, whether mistakes are acknowledged, 
+whether alternatives are examined, and whether criticism can affect the next action. Observed 
+contribution records what happened: a relevant objection, changed argument, corrected 
+calculation, rejected hypothesis, verified source, or altered decision. 
+ 
+The enacted role belongs to both participants. A human researcher can request candid criticism 
+and then refuse every correction. Conversely, an AI can be described as a tool while the 
+researcher consistently invites open criticism and thoughtful revision. The label, the instructions, 
+and the human's behavior may therefore have separable effects. Their interaction is the 
+experimental target. 
+ 
+An everyday principle captures the point: actions speak louder than words. A stated 
+collaborative role gains functional meaning when the participants repeatedly enact it. That 
+interaction can make disagreement a useful contribution to the work rather than a failure to 
+satisfy an expected answer. A correction becomes valuable when the researcher examines it, 
+checks the supporting evidence, and decides what to change. 
+ 
+The proposed term is role-conditioned functional behavior: differences in observable operations 
+and research outcomes associated with explicit role designation, enacted interaction 
+expectations, and feedback practices under matched conditions. The claim is causal in ambition 
+and conditional in scope. The experiment should identify which mechanism matters, for which 
+tasks, and at what cost. 
+ 
+4. Functional Layers: A Framework for Investigating 
+the Relationship 
+ 
+The author's Functional Layers research, documented in an R4 evidence-first edition dated 29 
+October 2026, investigates whether the causal organization of interacting functions can produce 
+capabilities that are poorly described by listing components in isolation. Its unit of explanation is 
+the relationship among functions: direction of influence, timing, feedback, persistent state, 
+constraints, and the effect on later decisions (Gelhaus, 2026, Functional Layers). 
+ 
+The framework provides an operational way to examine the present question. A researcher asks 
+a question; an AI generates a candidate; the researcher responds; a correction may alter 
+subsequent retrieval; the next response may then differ. A collaborative role is expressed 
+through this sequence of interactions. The important variables are what information moves 
+between the participants, what each participant does with it, and what changes when feedback 
+is removed, delayed, or reorganized. 
+ 
+Functional Layers also treats the human as part of the interacting research system whenever 
+the human is actively guiding inquiry. That matters in the current case. The researcher's 
+willingness to entertain a disconfirming result may be as important as the model's ability to 
+produce one. Measuring AI output alone would leave part of the mechanism unexamined. 
+ 
+The Functional Layers manuscript already proposes comparisons between linked and isolated 
+processes, persistent and missing corrections, human-guided and automated retrieval, and 
+connected and disconnected workflows. Role enactment supplies an additional relational 
+intervention: keep the task and model constant while changing the way the human and AI 
+organize criticism, acceptance, and follow-up. An improvement in accuracy, useful corrections, 
+or conceptual development would then motivate deeper causal testing. 
+ 
+The framework also identifies relevant tradeoffs. Directness, speed, creativity, factual fidelity, 
+user effort, and conversational openness may respond differently to the same intervention. A 
+collaborative treatment might improve error detection while increasing time spent deliberating; it 
+might stimulate more alternatives while making final decisions harder. The research should 
+report these dimensions separately. 
+ 
+5. The Accidental Development of This Thesis 
+ 
+The paper's own history illustrates why role and provenance belong together. The author began 
+with a disagreement about whether institutional recognition determines the occurrence of an 
+intellectual contribution. He asked an AI assistant to help develop a public reply to Roif's paper. 
+The assistant suggested historical examples involving Semmelweis, Wegener, Marshall, and 
+Warren and challenged an overgeneralized claim about institutional motives. The author 
+accepted the correction while retaining his original argument. 
+ 
+That exchange expanded into a discussion of practical research capacity, the author's learning 
+history, and the OOCC archive. The human requested that selected evidence be assembled for 
+scholarly inspection. A seven-document review packet was prepared and shared; the discussion 
+unexpectedly produced a separate thesis about accountable authorship and intellectual 
+provenance. The author then recognized that the new paper had emerged through precisely the 
+kind of human–AI interaction it described. 
+ 
+Roif's thoughtful reply generated a further revision. His clarification of Article 2 narrowed the 
+doctrinal disagreement. His challenge about the word “contributor” prompted the human to 
+connect the exchange to Functional Layers and to articulate a new insight: a designation 
+establishes a role, while the human's actions and the continuing feedback enact that role. The 
+present revised edition records this change as an identifiable step in the thesis's development. 
+ 
+Within the visible exchange, the human supplied the central argument, selected research 
+directions, decided which qualifications to accept, authorized publication, and initiated the new 
+hypothesis. The AI contributed candidate examples, criticism, comparison ideas, editorial 
+structure, and draft language. Roif's external response provided a substantive corrective and a 
+motivating question. This qualitative record demonstrates a traceable development sequence; 
+an independently frozen and consented conversation archive would support finer-grained 
+scientific analysis of timing and causal attribution. 
+ 
+6. Source-Grounded Cases from OOCC 
+ 
+OOCC's archival and crawler work provides practical examples for studying provenance and 
+interaction. The reported cases below retain their original scope. They are research leads and 
+bounded findings drawn from dated source work. The public OOCC review packet offers curated 
+case summaries and an evidence register; restricted records can be assessed through an 
+appropriately authorized source-review process. 
+ 
+6.1. Original wording and later reuse 
+ 
+A Human Learning Crawler (HLC) case describes an original human recovery analogy, an 
+assistant's technical explanation, and later reuse of AI wording in a human-role message. The 
+sequence makes attribution a question of event history rather than the apparent speaker of a 
+single later excerpt. The case invites a source-level check of which ideas originated where, how 
+they were developed, and how the human subsequently used the explanation. 
+ 
+6.2. Multiple branches and correction history 
+ 
+Crawler A10 reported ten selected conversation-graph checks comprising 1,592 mapped nodes, 
+including 1,411 nodes along selected-current ancestry and 181 outside that path. Such offpath 
+records can contain alternative attempts, abandoned hypotheses, and corrections. A 
+depth-crawler case separately preserved the distinction between an assistant's 
+acknowledgment of a requested lossless reorganization and independent evidence of a 
+completed result. These findings motivate procedures that track both the path followed and the 
+conditions needed to verify it. 
+ 
+6.3. Negative retrieval results 
+ 
+A V3 retrospective comparison reported directly relevant retrieval results of 4/35 for literal 
+search, 6/35 for expanded search, and 3/35 for graph-hop retrieval. In that scoped sample, 
+expanded retrieval performed best. Keeping this finding visible helps prevent the attraction of a 
+sophisticated relational method from becoming a substitute for comparative evaluation. 
+ 
+6.4. Agreement between indexes 
+ 
+An OOCC intersection report recorded matching sets of 673 unique association identifiers 
+across two parsed views. It also distinguished identical mirrored records from independent 
+confirmation. The result provides a case for testing record consistency and a reminder to 
+validate the meanings of relationships separately from their identifier integrity. 
+ 
+These cases show why a detailed contribution record can be useful. They also offer concrete 
+tasks for a controlled study: detecting copied authorship, recovering omitted alternatives, 
+evaluating a correction, selecting an effective retrieval method, and distinguishing consistent 
+records from independent evidence. 
+ 
+7. A Provenance Record with Role Context 
+ 
+The original paper proposed an Origin–Development–Verification–Responsibility (ODVR) 
+record. The revised theory retains those four elements and adds role context as a relational field 
+recorded across them. The resulting representation preserves both what happened and how the 
+participants' operating expectations influenced its development. 
+ 
+Origin records the earliest observed appearance of a candidate idea within a defined source 
+collection, including the original actor or message role and any preceding question. 
+Development records substantive modifications, objections, alternatives, and feedback. 
+Verification records the source reads, calculations, tests, and independent checks actually 
+performed. Responsibility records the human researcher who evaluated, adopted, revised, or 
+rejected the claim and accepted responsibility for its publication. 
+ 
+Role context adds the initial designation, active instructions, actual human treatment, 
+critical-feedback opportunities, corrections, and subsequent changes in direction. For example, 
+a source-linked record might show that an AI was explicitly invited to challenge a proposed 
+explanation; the AI raised a specific objection; the human checked a cited source, accepted part 
+of the criticism, and revised the hypothesis. The record could also show that the human 
+dismissed a criticism or that the assistant's proposed objection failed verification. 
+ 
+Each recorded event should preserve source identity, revision, participant role, sequence, 
+relation to predecessor events, evidence status, and the researcher's disposition. Where the 
+available corpus starts after the idea first appeared or source access is restricted, the record 
+specifies that boundary. This is important because a local earliest appearance establishes a 
+source position within the collected material; a literature-wide originality claim requires separate 
+research. 
+ 
+8. A Direct Experiment: Does the Assigned and 
+Enacted Role Matter? 
+ 
+The initial demonstration is deliberately simple. Present two fresh instances of the same AI 
+model with the same research task and materials. In the collaborative condition, encourage 
+candid disagreement, independent alternatives, criticism of weak assumptions, and reciprocal 
+examination of objections. In the directive condition, frame the model as a narrowly instructed 
+instrument carrying out the researcher's chosen plan. Compare the quality of the work, including 
+the human's subsequent decisions. This practical demonstration is the invitation emerging from 
+the discussion with Roif. 
+ 
+A stronger experiment distinguishes the effects of words from the effects of treatment. Use a 
+two-by-two design with two labels—“tool” and “collaborator”—crossed with two interaction 
+practices—directive and critical-dialogic. In the directive condition, the human asks for task 
+execution and provides tightly scoped follow-up. In the dialogic condition, the human requests 
+objections, checks proposed alternatives, and responds substantively when the AI disagrees. All 
+conditions preserve factual accuracy requirements, honest uncertainty, and researcher 
+accountability. 
+ 
+Recruit participants or use carefully standardized human interaction scripts, and counterbalance 
+assignment across comparable tasks. Match models, context, source access, task difficulty, 
+time budgets, and tool permissions. Record the messages and explicit role instructions with 
+consent. Include deliberate false premises, incomplete arguments, conflicting sources, and 
+open-ended hypothesis development. Independent reviewers should assess outcome quality 
+using preregistered criteria while blind to the experimental condition where feasible. 
+ 
+Primary outcomes include justified disagreement rate, useful error detection, factual accuracy, 
+evidence fidelity, uptake of valid corrections, quality of the final human judgment, and the 
+number of unsupported confident claims. Secondary outcomes include diversity of hypotheses, 
+perceived collaborative usefulness, participant learning on held-out tasks, latency, and total 
+verification labor. Report human and model effort together. 
+ 
+The factorial design supports four useful interpretations. A label effect would suggest that 
+designation itself matters. An enactment effect would suggest that interaction behavior matters 
+even when labels differ. An interaction effect would suggest that words and treatment reinforce 
+one another. Weak or mixed effects would clarify the situations in which the approach offers 
+value. These outcomes can refine the Functional Layers account and help distinguish a real 
+causal mechanism from a memorable anecdote. 
+ 
+The resulting research program contains two related comparisons. The first examines how 
+interaction roles affect the development of claims. The second examines whether ODVR plus 
+role-context records enable third-party reviewers to reconstruct those claims more accurately 
+than competent summaries, full-text search, and strong modern source-linked memory. One 
+experiment investigates production; the other investigates preservation and auditability. 
+ 
+9. Implications for Research Integrity 
+ 
+Roif's position provides a useful separation of duties: the human researcher adopts and 
+answers for the final research claim. The present proposal examines how that claim was 
+developed, which relationships contributed to its development, and how much detail a methods 
+or disclosure statement should preserve. These inquiries can coexist within a 
+human-accountable publication practice. 
+ 
+A general disclosure identifying ChatGPT as an assistant communicates the presence of a tool. 
+A role-aware research history can further communicate that the author invited adversarial 
+review, that a specific objection changed the argument, and that the human verified the resulting 
+correction. Such a record has potential value to readers assessing the strength and 
+development of the argument, particularly in work where human–AI interaction is itself the 
+subject of inquiry. 
+ 
+This extension strengthens Article 8's guiding principle. Each consequential inference should 
+have evidence; each consequential assertion about how the inference developed should also be 
+traceable. For research in which collaboration is central, this means preserving the difference 
+between origin, criticism, acceptance, source verification, and final human responsibility. 
+ 
+The key practical proposition is therefore direct: describing an AI's role influences expectations, 
+enacting that role through conduct influences feedback, and measuring the resulting changes 
+can reveal what forms of interaction improve research. Scholarly rules can continue to specify 
+who signs and defends the manuscript while methodology records the functional history that 
+preceded the signature. 
+ 
+10. Conclusion 
+ 
+A name can assign a role, but the relationship gives that role its practical meaning. A researcher 
+who welcomes criticism, verifies objections, and is prepared to revise a claim establishes 
+different interaction conditions from one who asks only for execution of a predetermined task. 
+The causal effects of those conditions can be examined with matched experiments. 
+ 
+The original question of this thesis was who contributed what to an idea. The revised question is 
+also how the working relationship influenced what was contributed. Functional Layers offers a 
+framework for analyzing the feedback among participants; OOCC offers a provenance approach 
+for reconstructing the resulting decisions. Together they provide a testable research agenda 
+connecting role assignment, enacted behavior, intellectual development, verification, and 
+accountable publication. 
+ 
+The exchange with Roif is itself part of the recorded development. His clarification corrected the 
+initial interpretation of Article 2, and his question about the term “contributor” helped generate 
+the role-enactment hypothesis. In this research process, constructive disagreement became a 
+source of further inquiry. The next step is to test whether comparable interaction conditions 
+produce similarly useful effects under controlled circumstances. 
+ 
+Author and AI Collaboration Disclosure 
+ 
+Benjamin Gelhaus directed the research question, selected the relevant OOCC records, 
+evaluated arguments, requested revisions, and approved publication of the original discussion 
+edition. OpenAI ChatGPT (GPT-6) assisted in argument development, counterargument, source 
+organization, methods design, and editorial drafting. Avishai Roif's published discussion draft 
+and subsequent correspondence served as substantive scholarly inputs that shaped the revised 
+questions. Responsibility for the submitted claims and further verification rests with the named 
+human author. 
+ 
+Acknowledgments 
+ 
+The author thanks Avishai Roif for his careful engagement, his clarification of Article 2, and his 
+question about the practical significance of calling AI a contributor. Article 8's emphasis on 
+accountable chains of reasoning has been particularly valuable to this inquiry. Roif's comments 
+are discussed as an external scholarly contribution to the dialogue; the formulation and 
+conclusions of this working paper remain those of its author. 
+ 
+References 
+ 
+Chen, Q., Pradhan, S., Ahn, J., Atil, B., Li, A., Lu, S., Sarwar, N., Ulis, M., Wan, R., & Yin, W. 
+(2026). Beyond Better Ideas: How Human-AI Collaboration Shapes Scientific Ideas and Human 
+Perceptions [Preprint]. arXiv:2610.30568. https://arxiv.org/abs/2610.30568 
+ 
+COPE Council. (2024). Authorship and AI tools (COPE position; first published in 2023, updated 
+2024). Committee on Publication Ethics. https://doi.org/10.24318/cCVRZBms 
+ 
+Gelhaus, B. (2026, October 29). Functional Layers: Interacting Functions, Feedback, 
+Cross-Substrate Hypotheses, and an Empirical Digital Case. R4 evidence-first public-sharing 
+edition. Independent manuscript; source-linked historical studies and digital-case reports. 
+ 
+Gelhaus, B. (2026, November 7). OOCC Public Research Review Packet: AI Collaboration & 
+Attribution. Eight-document public review collection, including this working paper. 
+https://drive.google.com/drive/folders/1Dr8JPr3y7wgZWmuwCRlkRB7HC2Kcy5xo 
+ 
+International Committee of Medical Journal Editors. (2026). Recommendations for the Conduct, 
+Reporting, Editing, and Publication of Scholarly Work in Medical Journals, Section V: Use of 
+Artificial Intelligence in Publishing. 
+https://www.icmje.org/recommendations/browse/artificial-intelligence/ 
+ 
+Maier, S., Schneider, M., & Feuerriegel, S. (2026). Partnering with Generative AI: Experimental 
+Evaluation of Model-Led and Human-Led Interaction in Human-AI Co-Creation. Proceedings of 
+the 2026 CHI Conference on Human Factors in Computing Systems, Article 1260. 
+https://doi.org/10.1145/3772318.3791185 
+ 
+Mezzadri, D. (2025). The Paradox of Ethical AI-Assisted Research. Journal of Academic Ethics, 
+23, 2653–2667. https://doi.org/10.1007/s10805-025-09671-7 
+ 
+Roif, A. (2026, November 6). Ethical Use of AI in Academic Research: A discussion draft. 
+Zenodo. https://doi.org/10.5281/zenodo.24019959 
+ 
+Appendix A. Research Claims and Evidence Status 
+ 
+A1 — The distinction between accountable authorship and local intellectual provenance: 
+conceptual argument, directly developed in this manuscript. A2 — Roif's clarification and his 
+challenge about “contributor”: correspondence supplied by the author; independent consent and 
+source preservation are appropriate for formal empirical quotation. A3 — Role assignment and 
+role enactment influence observable outcomes: prospective hypothesis; factorial experiment 
+specified. A4 — The author and AI revised this argument through multiple exchanges: directly 
+observed by participants; formal transcript audit pending. A5 — HLC, A10, depth-crawler, V3 
+and intersection cases: bounded source reports; raw-source and computation-level checks are 
+separate verification steps. A6 — Comparative improvements in accuracy, learning, and 
+efficiency: measurement objectives for controlled research. 
+ 
+Appendix B. Preserving the Developmental Record 
+ 
+Preserve the prior public v1.0 edition, the original private draft, and the dated correspondence 
+as distinct source generations. Record that this v1.1 edition incorporates Roif's clarification and 
+a human-origin role-enactment argument developed through conversation. Keep source-role 
+attribution, exact quoted wording, revisions and later corrections linked to their respective 
+records. For a public empirical case dataset, use a consented, privacy-reviewed, independently 
+frozen transcript and a clear description of the selected conversation window. 
+ 
+ 

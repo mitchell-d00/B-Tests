@@ -1,0 +1,211 @@
+
+
+
+
+
+
+
+
+
+
+
+
+BEYOND GUARDED RETRIEVAL 
+| 
+GELHAUS 2026 
+The most practical path forward preserves the existing source-authority machinery and introduces targeted 
+extensions: precise refusal diagnostics, exact-field source routing, event candidates distinct from their 
+documentary appearances, versioned correction relationships, and optional evidence-gated relation exploration. 
+Those extensions admit concrete tests and provide McPhetridge with incremental opportunities to improve 
+coverage without compromising the safeguards that already work. 
+The OOCC development record supplies a related methodological lesson. V3 succeeded V2 through a 
+documented history of tests, negative findings, and implementation changes. An external critique of one version 
+must be dated and tested against that version’s actual evidence; conclusions cannot be inherited unchanged 
+after revisions. Applying the same standards of chronology, source identity, and measurable outcome to both 
+architectures turns comparative criticism into an engineering instrument rather than a contest of presentation or 
+assertion. 
+References 
+Public implementation and original-author documentation 
+[M0] Mitchell D. McPhetridge, 
+Combined MPLPB
+, pinned tested revision 257e54a51edac272eb6b2441457f38a40485ee4d. 
+https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/tree/257e54 
+a51edac272eb6b2441457f38a40485ee4d 
+[M1] McPhetridge, 
+Deterministic source-evidence graph
+, pinned commit. 
+https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/257e54 
+a51edac272eb6b2441457f38a40485ee4d/docs/DETERMINISTIC_EVIDENCE_GRAPH.md 
+[M2] McPhetridge, 
+General answer pipeline — 2.1.0rc1
+, pinned commit. 
+https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/257e54 
+a51edac272eb6b2441457f38a40485ee4d/docs/GENERAL_ANSWER_PIPELINE.md 
+[M3] McPhetridge, 
+Supersession policy examples
+, pinned commit. 
+https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/257e54 
+a51edac272eb6b2441457f38a40485ee4d/docs/SUPERSESSION_POLICY.md 
+[M4] McPhetridge, 
+Specialist continuity: durable work and guarded handoffs
+, pinned commit. 
+https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/257e54 
+a51edac272eb6b2441457f38a40485ee4d/docs/SPECIALIST_CONTINUITY.md 
+[M5] McPhetridge, 
+Intended scope, completeness and production readiness
+, pinned commit. 
+https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/257e54 
+a51edac272eb6b2441457f38a40485ee4d/docs/PRODUCTION_READINESS.md 
+[M6] McPhetridge, 
+Multi-Platform Linked Public Building as a Cognitive Strategy
+; related Smart Local, Networked MPLPB, Swarm 
+MPLPB and SCOPE research. https://github.com/mitchell-d00/Multi-Platform-Linked-Public-Building-as-a-Cognitive-Strategy- 
+Experimental records and OOCC studies 
+[O1] Gelhaus, 
+A Full Evaluation and Critique of Multi-Platform Linked Public Building
+, 14 November 2026. Original comparative 
+manuscript and native fixture package; privately archived. 
+[O2] Private OOCC case-crawl records: BATCH0010 receipt describing 4,113 cumulative typed edges, separate Drive BATCH0010 
+ZIP containing 3,962 machine-counted edge rows and 44 relationship types, integrity manifests, version-conflict erratum and 
+predecessor ZIPs. Primary source material retained privately and is not furnished to the intended external reader. 
+[E0] 
+MPLPB × OOCC native 15-page fixture
+, pinned Combined MPLPB v2.1.0rc1, test runner and source receipts, 14 November 
+2026. Private Drive reproducibility package with sanitized fictional/case-derived fixture. 
+[E1] 
+MPLPB Extended Benchmark Sanitized Results
+, MPLPB_Extended_Benchmark_Sanitized_Results_2026-11-14.json; local 
+3,962-edge transfer and 72 questions. Aggregate results only. 
+BENJAMIN GELHAUS 
+· 
+14 NOVEMBER 2026 
+| 
+14 
+BEYOND GUARDED RETRIEVAL 
+| 
+GELHAUS 2026 
+[E2] 
+Independent Synthetic Stress Packet
+, 64 sealed fictional pages, 5,120 relation statements, seven corpus sizes, 
+MPLPB_Synthetic_Scaling_Probe_results.json and upstream 58-test log, 14 November 2026. Contains no private source data. 
+[E3] 
+Mitch Source-First Engineering Challenge
+, source-excerpt pilot, native passage metrics and six calibration tests, with separate 
+private and shareable packets, 14 November 2026. 
+[E4] 
+515-Page Engineering Challenge
+, sanitized 119-question scores, frozen holdout checksum 
+bb64378ce1ead4309d0afd4d13061c13c465e6c825ee293abc9546a889e00276, and private original page/anchor maps, 14 
+November 2026. 
+[E5] 
+Relational Event Reconstruction Engineering Challenge
+, 57-question frozen header benchmark checksum 
+947412148d5c974f180859ca4752ef667e209aded6fffbe17483c27ddfe80714, separate wholly fictional seven-page fixture and 
+private source-linked reproduction, 14 November 2026. 
+Historical evidence and evaluation methods 
+[H1] Gelhaus–McPhetridge Academia.edu correspondence, original saved 605-message source-derived transcript, August 2026 
+snapshot; includes an early user-reported set of field diagnostics and a separately attributed four-class scale critique. Original raw 
+messages and personal correspondence remain in a restricted archive. This paper does not reproduce their private contents or treat 
+either participant’s pasted AI-generated commentary as independent evidence. 
+[H2] Same correspondence, separately retained November 9 continuation (messages 606–658), including the author’s retrospective 
+account of ideas learned versus technologies later implemented. Relative display dates and original wording are preserved privately. 
+Retrospective narratives are not substitutes for contemporaneous code evidence. 
+[O3] 
+CRAWL-V2-001 — CP045 Verified Successor Handoff and Source Router
+, 22 October 2026. 
+Legacy predecessor V2; V3 is 
+the successor architecture. 
+Identifies a verified archive and independent integrity readbacks, a deliberately failed canary, and 
+stated limitations. Private repository-owned Drive original; exact file ID and supporting source mappings withheld from the public 
+supplement. 
+[O4] 
+V3 CP005 — Technical Checkpoint / Retrieval and Timeline Evidence 
+and 
+V3 CP005 — T2 Hybrid Counterfactual / 
+Equal-Budget Ablation
+, 1 November 2026. 
+Successor V3 development evidence, not a parallel V2 run. 
+Source SHA and 
+post-hoc labels, fixed 35-slot result table, negative outcomes, and limits documented in original research files. Historical source 
+archive remains private. 
+[O5] 
+HLC-SHARD-09 — CP014 Kernel Genesis and Version-Propagation Gate
+, 30 October 2026. Dated code-introduction and 
+host-test references, plus explicit non-propagation finding. Public GitHub commits for independently inspectable code provenance: 
+https://github.com/MrMeNotU/OOCC/commit/ab800adb9de5be4e922bf2f5f01ea0bef3c76589 and 
+https://github.com/MrMeNotU/OOCC/commit/ceb0be2ec2435556fa2912656977385129b4654 . Host-test outcomes separately 
+scoped in the original audit. 
+[O6] 
+OOCC V2 A10 ten original graph checkpoints 
+and 
+V2 B8 ten bounded source-depth checkpoints
+, 6–7 November 2026. 
+Historical V2-family contract invocations; V2 does not remain the current crawler architecture. 
+Reports distinguish full export 
+topology from sampled semantic readings and report unsupported historical claims as unresolved; private original custody 
+preserved. 
+[R1] 
+Comparative Evaluation Error Audit
+, 14 November 2026. Private research-session record of source-order, chronology, and 
+evidence-weighting errors; hypotheses about causal mechanisms are catalogued separately. 
+[O7] 
+V3-BB-01-CURRENT — Current V3 A/B Crawler Blackboard
+, 1 November 2026; current accessible working-state version 
+re-read on 14 November 2026. Describes CRAWL-V3 as the successor crawler, records distinct A/B lanes and source/checkpoint 
+routing, and explicitly labels native controller operation, recipient acceptance and unattended execution as unverified. This is a 
+working-state candidate, not the sole governing OOCC orientation. Private source custody retained; original ID withheld from public 
+supplement. 
+Appendix A. Acceptance tests for proposed extensions 
+The acceptance suite should pin code revision, configuration, source bytes, field normalization, external-model 
+settings and computational budgets before each run. Hidden questions must remain separate from development 
+examples. 
+BENJAMIN GELHAUS 
+· 
+14 NOVEMBER 2026 
+| 
+15 
+BEYOND GUARDED RETRIEVAL 
+| 
+GELHAUS 2026 
+1. 
+No regression in source authority. 
+Existing integrity, supersession, restricted-source, conflict and 
+negative controls must retain their answer support and refusal decisions. 
+2. 
+Improved diagnostic truthfulness. 
+Unsupported question grammar, absent eligible source, known 
+source conflict, insufficient evidence and index-exhaustion must be separately labeled. 
+3. 
+Exact identifiers without false pruning. 
+Exact field/quote routing must improve source location in 
+held-out cases without dropping contradictory eligible passages; test zero, one and multiple matches. 
+4. 
+Distinct event identities. 
+Multiple appearances of one message remain distinguishable source 
+occurrences; equal subject lines must not force identity; changed bodies must trigger review. 
+5. 
+Time-scoped correction. 
+A later partial correction changes only its specified claim while retaining the 
+original statement, provenance and prior assessment. 
+6. 
+Candidate inference remains a candidate. 
+Missing intermediate evidence stops the proposed relation; 
+exploratory outputs do not appear as deterministic supported answers. 
+7. 
+Operational receipts remain independent. 
+Stored, dispatched, delivered, read, acknowledged and 
+completed are distinct outcomes; every transition requires the designated evidence. 
+8. 
+Measure operator burden. 
+Report human labeling and correction time, CPU time, memory, bytes 
+scanned, source-count coverage and false-bridge rates alongside top-k retrieval. 
+The decisive falsifier of the present capability-gap claim is an identifiable, independently examined MPLPB 
+implementation that reconstructs these relationships from 
+unprepared original source records
+, with credible 
+source citations, useful recall, low false-positive rates and no degradation of its existing authority protections. A 
+reciprocal evaluation of OOCC should use the same original-source access, version pins, blinded scoring and 
+error metrics, while also measuring workflow benefits not shared by the two intended designs. An early critical 
+claim about OOCC is falsified only by evidence attached to the correct date and technical mechanism, not by an 
+unrelated later success. 
+BENJAMIN GELHAUS 

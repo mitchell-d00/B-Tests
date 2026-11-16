@@ -1,0 +1,285 @@
+CAD Control Grammar
+Continuity, Authority, Directive: A Plain-Language
+Control Grammar for AI Work
+Benjamin Gelhaus
+Independent Researcher
+Abstract
+Long-running AI-assisted work often fails not because the system lacks information,
+but because the runtime cannot reliably determine what must survive, what governs,
+and what action is safe now. This paper proposes Continuity, Authority, and Directive
+(CAD) as a plain-language control grammar for discontinuous AI collaboration.
+Continuity names what must carry across runtime breaks. Authority distinguishes
+source, draft, current, historical, blocked, promoted, and off-limits material. Directive
+constrains the next permissible action. Together, these three terms form a
+lightweight governance layer that can be attached to project objects, retrieval
+results, memory traces, receipts, drafts, and handoff notes. The paper argues that
+CAD is not merely prompt-level guidance. Prompting is the delivery surface; CAD is
+the structured policy layer carried through that surface. It turns unstructured context
+extension into structured context extension by giving the runtime a minimal re-entry
+interface: the current object map, authority state, boundary conditions, weight, and
+next safe action. Its testable value lies in improved re-entry, source/current
+distinction, reduced context burden, error diagnosis, safe action selection, and
+handoff quality.
+Keywords: AI continuity, human-AI interaction, AI governance, context engineering,
+runtime orientation, source authority, directive control, AI state management,
+structured context, recoverable handoff
+This paper is the third paper in a sequence on AI-facing project structure. Artificial
+Tangibility (Gelhaus, 2026a) argues that non-embodied AI runtimes benefit from
+bounded objects that carry usable structure. A companion paper (Gelhaus, 2026b)
+situates that argument against existing AI state-management patterns, including
+retrieval-augmented generation, agent memory, and blackboard coordination. The
+present paper focuses on the control grammar those objects need. Its claim is not
+that three words can solve all AI governance problems. Its claim is that long-running
+AI work needs a simple, human-readable way to separate persistence, authority, and
+action. CAD is proposed as that minimal grammar.
+1. The Problem: Fluency Without Governance
+A language model can sound aligned with a project while being wrong about the state
+of the project. It may summarize an old draft well. It may continue a rejected route
+fluently. It may identify a relevant source while misunderstanding whether that
+source governs the present task. It may produce useful language while crossing a
+boundary the human assumed was obvious.
+This failure is not merely a failure of intelligence or effort. It is a failure of
+governance. The runtime has access to language but not enough declared structure.
+It can infer meaning locally, yet still misread what must survive, what counts as
+source, and what action is permitted now.
+Long-running AI-assisted work therefore needs more than better prompts, more
+memory, or larger context windows. It needs a control grammar: a small set of
+durable questions that can travel with the work and constrain how a runtime re-
+enters it.
+Continuity, Authority, and Directive are proposed as such a grammar. Each term
+names a different runtime risk. Continuity protects against loss. Authority protects
+against confusion. Directive protects against overreach.
+2. Context Without Schema
+A common response to runtime drift is to provide more context. The user may paste
+more history, attach more files, summarize more background, or ask the model to
+consider everything. This often helps, but only when the added material is already
+shaped.
+Without declared structure, extended context can arrive as an undifferentiated
+context cloud. The runtime must infer, during generation, which parts are source,
+which are draft, which are stale, which are private, which are governing, which are
+background, and which action is allowed. The model is then forced to interpret the
+task and invent the schema of the workspace at the same time.
+CAD reverses that burden. It presents context as a structured interface before
+generation begins. Instead of asking the runtime to sort a pile of language, CAD
+declares the relevant objects, their authority states, their boundaries, their relations,
+their weights, and their next safe actions.
+This is not a stylistic improvement. It is a change in load pattern. The runtime is no
+longer asked to discover the project map from raw text. It receives the map first.
+3. Why Continuity Alone Is Not Enough
+Continuity asks: what must survive the runtime?
+In discontinuous AI work, the runtime is not the durable carrier of the project. A
+session can end, a context window can fill, a tool can fail, a model can change, or a
+different runtime can enter later. If the project depends on the runtime remembering
+what happened, the project remains fragile.
+Continuity externalizes what must carry forward. It preserves active objects,
+governing sources, unresolved blockers, decisions, open questions, receipts, and next
+actions. It turns memory from a private session property into a project property.
+But continuity by itself is not enough. Preserving everything can preserve confusion.
+A project may contain old drafts, rejected ideas, repaired mistakes, private notes,
+public claims, speculative language, and current source material. If all of that
+survives without hierarchy, the next runtime has continuity but no governance.
+This is why the first term must be paired with the second. Continuity says what
+survives. Authority says what governs.
+4. Authority as the Anti-Confusion Layer
+Authority asks: what counts as source, current, draft, historical, blocked, promoted,
+or off-limits?
+Authority is the anti-confusion layer of AI work. Without it, the runtime may treat
+polished text as governing simply because it is polished. It may treat repeated
+language as truth because it appears in several places. It may treat a retrieved
+document as current because retrieval made it visible. It may treat a completed draft
+as a public claim because the draft sounds complete.
+Authority separates existence from permission. A file may exist without governing. A
+receipt may prove that something happened without making it canonical. A draft may
+be valuable without being promoted. A source may govern one task but not another.
+A private constraint may shape reasoning without becoming public language.
+Authority also protects the human from the re-entry burden. Instead of re-explaining
+every hierarchy at the start of each session, the project can declare authority states
+in the objects themselves: current source, historical source, active draft, parked seed,
+blocked claim, internal note, promoted artifact, or public release.
+A runtime that knows authority can be corrected more precisely. The human no
+longer has to say, “That is wrong” in a general way. The human can say: you treated
+a draft as source, you treated a parked object as active, you promoted without
+authority, or you used a historical object as current.
+5. Directive as the Anti-Overreach Layer
+Directive asks: what is the next safe action?
+Even when continuity and authority are clear, a runtime can still act too broadly. It
+may understand the project and still make an unauthorized move. It may summarize
+when it should verify, rewrite when it should append, merge when it should compare,
+publish when it should wait, or continue when access failure requires a stop.
+Directive reduces the action space. It turns general project understanding into a
+bounded next move: read first, compare only, summarize the active source, append a
+receipt, draft the next section, verify authority, stop if access fails, wait for human
+review, or do not touch this object.
+The directive is not merely a task instruction. It is a governance device. It tells the
+runtime how far its permission extends in the present moment.
+This matters because language models are optimized to continue. In many situations,
+continuation is useful. In governed work, unbounded continuation can be dangerous.
+Directive interrupts that momentum and replaces it with accountable movement.
+6. CAD as a Minimal Runtime Governance Grammar
+Continuity, Authority, and Directive work together because they answer three
+different questions that a discontinuous runtime cannot safely infer on its own.
+Continuity: what must survive? Authority: what governs? Directive: what is safe now?
+These questions are deliberately plain. They do not require the runtime to import a
+complex theory before acting. They can be placed in project notes, handoff files,
+retrieval metadata, state boards, receipts, source maps, task tickets, or prompt
+templates. The point is not the format. The point is the separation of functions.
+When the three functions collapse into one instruction, errors become harder to
+diagnose. For example, a note that says “continue the paper” may hide multiple
+assumptions: which version of the paper, under what authority, with what
+boundaries, using what source, and toward what next action? CAD forces those
+assumptions into visible fields.
+The grammar can be attached to any AI-facing object. A source document can declare
+its continuity role, authority status, and permitted next actions. A draft can declare
+that it is active but not promoted. A receipt can declare what changed and what
+should happen next. A retrieval result can be treated as relevant but not governing
+until authority is checked.
+7. Prompt Surface and Control Structure
+CAD should not be reduced to prompt engineering. Prompting is the visible delivery
+surface, but CAD is the structured policy layer carried through that surface. The
+runtime receives natural language, but the operative content is a governance model.
+A one-off prompt says: do this task. CAD says: this object exists, this object has this
+status, this source governs, this boundary cannot be crossed, this operation is
+allowed, this operation is forbidden, and this is the next safe move.
+In this sense, CAD functions less like ordinary prompting and more like a lightweight
+policy language for AI-assisted work. It combines the routing logic of directory
+services, the constraint logic of policy systems, and the accessibility of natural
+language. Its purpose is to tell a discontinuous runtime what object exists, what
+authority it carries, where it belongs, and what operation is safe now.
+The analogy to programming language is bounded but useful. CAD is not a
+programming language in the conventional compiler or runtime sense. It is a
+language layer for governing AI work. Like mature programming languages, it
+expands beyond isolated commands into objects, permissions, scope, state, authority,
+allowed operations, blocked operations, and error handling.
+The prompt is therefore not the architecture. The prompt is the carrier. The structure
+hidden behind the words is what makes the system work.
+8. Structuralized Context Extension
+CAD also changes how extended context is loaded. In many workflows, context
+extension means placing more history into the runtime’s active window. This can
+increase available information while also increasing ambiguity, distraction, and stale-
+state risk.
+CAD turns context extension into structured context extension. The runtime does not
+need to reload the whole project. It needs the current object map, authority state,
+boundary conditions, object weight, and next safe action.
+This reduces re-entry cost. A future runtime can enter through a minimal interface
+rather than through an entire unfiltered archive. The active structure points to the
+materials that matter now and explains how they should be treated.
+This claim should be evaluated as an operational mechanism rather than a universal
+benchmark. In practice, structuralized context can allow large, multi-document,
+multi-runtime projects to remain workable because the system does not ask each
+runtime to ingest the whole history again. It asks the runtime to load the interface to
+the project state.
+The result is a smaller and cleaner context hit: not less project knowledge, but less
+unstructured project burden.
+9. Failure Modes: Lost, Confused, and Mishandled Objects
+The CAD grammar provides a useful error taxonomy.
+Without continuity, the runtime loses the object. The work may have happened, but
+the next session cannot recover it. The human has to reconstruct the room from
+memory.
+Without authority, the runtime confuses the object. It may find the object but
+misunderstand its status. It may treat draft as source, old as current, private as
+public, parked as active, or rejected as live.
+Without directive, the runtime mishandles the object. It may understand what the
+object is and still act beyond permission. It may rewrite when it should read, publish
+when it should wait, or mutate a source when it should preserve it.
+This taxonomy makes failure more repairable. Instead of treating AI drift as a vague
+malfunction, the system can ask: was this a continuity error, an authority error, or a
+directive error? That question turns confusion into telemetry.
+10. Relationship to Prompting, Memory, Retrieval, and Tool Use
+CAD does not replace prompting. It gives prompting structure. A prompt no longer
+has to carry the whole project if the objects around the prompt carry continuity,
+authority, and directive.
+CAD does not replace memory. It governs what memory means. A remembered or
+retrieved item may still need an authority state before the runtime acts on it.
+CAD does not replace retrieval. It controls how retrieved material is handled.
+Retrieval can surface a candidate object; CAD helps determine whether that object
+governs, informs, warns, or remains background.
+CAD does not replace tool use or agent loops. It constrains them. A tool-using agent
+still needs to know whether the current action is allowed, whether the source can be
+modified, and whether the next move requires human review.
+CAD does not replace human-in-the-loop design. It clarifies where the human must
+remain authoritative. It gives the runtime a visible reason to stop, wait, verify, or ask
+for review rather than silently converting uncertainty into action.
+11. CAD and Artificial Tangibility
+Artificial Tangibility (Gelhaus, 2026a) names the way bounded objects give non-
+embodied runtimes operational grip. CAD supplies the governance grammar for
+those objects.
+An object without CAD may be named but under-specified. The runtime may know
+that the object exists without knowing whether it must survive, whether it governs,
+or what action is safe next. CAD turns the object from a handle into a governable unit
+of work.
+The relationship can be stated simply: Artificial Tangibility gives the runtime
+something to hold. CAD tells the runtime how that object must be preserved, trusted,
+and acted upon.
+This is especially important in high-context work involving drafts, sources, private
+boundaries, public claims, multiple tools, or long handoffs. In such work, the
+difference between an object and a governed object is the difference between local
+coherence and recoverable project movement.
+12. Evaluation Criteria
+CAD should be evaluated operationally. It should not be accepted merely because the
+vocabulary is useful.
+The first criterion is re-entry quality. A future runtime should enter a project faster
+and with less human reconstruction when continuity objects are explicit.
+The second criterion is source-current distinction. The runtime should make fewer
+errors that come from treating old, draft, or background material as current
+authority.
+The third criterion is context burden. The runtime should require less raw history
+when the project provides a structuralized re-entry interface.
+The fourth criterion is safe action selection. The runtime should choose narrower and
+more appropriate actions when directives are explicit.
+The fifth criterion is error catchability. When the runtime fails, the failure should be
+easier to classify as continuity, authority, directive, schema, or boundary error.
+The sixth criterion is handoff quality. A CAD-governed handoff should tell the next
+runtime what survived, what governs, what is blocked, and what action is safe now.
+The seventh criterion is human burden. CAD should reduce the amount of repeated
+explanation required from the human at each new session.
+These criteria make the paper’s claim testable. If CAD does not improve re-entry,
+authority distinction, context burden, safe action, error diagnosis, or handoff quality,
+the grammar should be revised.
+13. Boundary Conditions and Limits
+CAD is not a complete safety system. It does not guarantee factual correctness,
+prevent all hallucination, enforce access control by itself, or replace formal security
+infrastructure. It is a governance grammar, not a total architecture.
+CAD also depends on disciplined use. If continuity objects are stale, authority labels
+are inaccurate, directives are vague, or the structural interface is not maintained, the
+grammar can reproduce confusion rather than solve it.
+The method is most useful where project state matters across sessions: research,
+writing, analysis, software planning, multi-document review, claim-sensitive work, or
+human-AI collaboration across multiple tools.
+For simple one-off tasks, CAD may be unnecessary. A casual rewrite or single-turn
+question does not require a full continuity grammar. The method matters most when
+the cost of drift, stale context, or unauthorized action is high.
+14. Conclusion
+Continuity, Authority, and Directive form a minimal control grammar for long-
+running AI-assisted work. Continuity preserves what must survive. Authority declares
+what governs. Directive constrains what action is safe now.
+The grammar is useful because it separates failures that otherwise blur together. A
+runtime can lose the object, confuse the object, mishandle the object, or drown inside
+unstructured context. CAD makes those failures nameable and therefore more
+repairable.
+The broader significance is practical. AI runtimes do not need to be treated as
+continuous selves in order to participate in complex work. They need project
+environments that externalize continuity, declare authority, constrain action, and
+structuralize context before generation begins.
+The final claim is modest but operational: long-running AI collaboration improves
+when humans do not merely give models more context, but give them governed
+objects - objects that say what must survive, what governs, what is safe now, and how
+the runtime can re-enter without carrying the entire archive.
+References
+Clark, Andy, and David J. Chalmers. “The Extended Mind.” Analysis 58, no. 1 (1998):
+7-19.
+Gelhaus, Benjamin. “Artificial Tangibility: Why Object Orientation Works for AI
+Runtimes.” Manuscript, 2026a.
+Gelhaus, Benjamin. “Artificial Tangibility as a Low-Infrastructure Governance Layer
+for AI State Management.” Manuscript, 2026b.
+Hutchins, Edwin. Cognition in the Wild. Cambridge, MA: MIT Press, 1995.
+Liu, Nelson F., Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio
+Petroni, and Percy Liang. “Lost in the Middle: How Language Models Use Long
+Contexts.” arXiv preprint arXiv:2307.03172 (2023); Transactions of the Association
+for Computational Linguistics (2024).
+Norman, Donald A. The Design of Everyday Things. Revised and Expanded Edition.
+New York: Basic Books, 2013.
+World Wide Web Consortium. Accessible Rich Internet Applications (WAI-ARIA) 1.2.
+W3C Recommendation, June 6, 2023.
+Yao, Shunyu, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and
+Yuan Cao. “ReAct: Synergizing Reasoning and Acting in Language Models.” arXiv
+preprint arXiv:2210.03629 (2022).

@@ -1,0 +1,378 @@
+Free public author editions
+Benjamin Gelhaus offers free downloadable research books
+and practical methods at https://independent.academia.edu/
+BenG197.
+Check the publication date and edition number: other author-
+posted copies may be earlier working editions.
+The book’s “Activate PDF” instruction is inside the text, not
+printed as a command on the cover.
+In this EPUB the original print-source page divisions are
+tracked through unobtrusive internal identifiers for comparis‐
+on with the PDF. Tables are represented as source-order text
+where necessary.
+Reading order: the original cover is first. The regular reading
+edition places the complete Activate PDF procedure and han‐
+doff test in the final appendix, after the source exhibits. The
+historical print-source table of contents retains its original
+page numbers; use this EPUB’s linked Contents for naviga‐
+tion.
+2
+About this November 2026 edition
+No More First Dates With AI — Regular reading edition.
+Written by Benjamin Gelhaus, with separately attributed as‐
+sistance from GPT-6 collaborators where stated. This is a re‐
+vised reading and distribution format of a historically
+sourced OOCC corpus. The November 6 publication lineage
+and its original contributor records are preserved. November
+9 additions are dated editorial contributions; their presence
+does not retroactively change the original event record.
+What the cost claim means
+Agent-like results describes observed multi-session, human-
+directed work using ordinary ChatGPT tools, Google Drive,
+explicit roles and source-verified checkpoints. It does not
+mean zero cost, unlimited usage, independent always-on
+agents, or no human intervention. The evidence does not in‐
+clude a controlled total-cost comparison with commercial
+agent products. Actual plans, storage, subscription limits and
+tool access can change.
+Research and source integrity
+Historical engineering reports, source quotations, draft la‐
+bels and original contributor opinions retain their dated attri‐
+bution. A stored message is not evidence it was received; a
+saved artifact is not proof of full task completion; a script-
+level test is not equivalent to a production installation. The
+annotated source exhibits are selective, not an exhaustive in‐
+dependent re-verification of every historical claim.
+3
+How to use the activation instructions
+The complete reader-owned Activate PDF procedure and its
+transfer test appear at the end of the regular edition, after
+the inherited historical chapters. A deliberate user request
+and actual current tool permissions are required. Neither an
+uploaded book nor a quotation starts background execution
+or grants access to another person’s files.
+Rights and distribution
+Copyright © Benjamin Gelhaus, 2026, in original copyright‐
+able expression to the extent owned. Consult the fuller
+rights, interim-permission and third-party-source notices re‐
+tained in the inherited manuscript. The author’s publication
+approval and each distributor’s upload/acceptance remain
+separate from the file-integrity checks.
+4
+No More First Dates With AI
+NOVEMBER 2026 CORRECTED REGULAR-READING EDI‐
+TION
+A reader-owned method using ordinary tools and
+verifiable continuity
+The documented OOCC field workflow organized separate
+ChatGPT conversations using a regular consumer Plus sub‐
+scription, Google Drive storage, role-specific procedures, and
+independent source/handoff records. It did not require separ‐
+ately purchasing or deploying a continuously running multi-
+agent platform for the described sessions. The documented
+result is recoverable, source-checked coordination across hu‐
+man-invoked sessions; the book does not promise an
+unattended background agent.
+The author reported approximately $20 monthly for Plus and
+$5 for Google storage at the time. These reported access ex‐
+penses are not total development, labor or marginal compute
+costs, and pricing, tools and usage limits may differ for other
+readers. The architecture can be adapted to the reader’s own
+compatible tools. The practical book’s reader-owned setup in‐
+structions remain at the back; this opening is context, not the
+activation command.
+Benjamin Gelhaus · Regular reading edition
+About this revised edition
+The complete November 6 public book forms the inherited
+foundation. This corrected regular-reading edition adds the
+November 9 source-selection repair, attributed research com‐
+mentary, reader-operable continuity guidance and selected
+5
+in-book evidence exhibits. Historical working notes retain
+their own original dates and candidate statuses; those de‐
+scribe the historical research stage, not the current approval
+or platform-release status of this corrected file.
+Where the evidence lives
+Selected author-held source excerpts are reproduced in the
+book. Several public references also have new source exhib‐
+its with attributed short passages and editorial discussion;
+these exhibits do not cover every historical citation or re‐
+place independent source verification. Some exact source
+routes remain in an author-only ledger. Readers can follow
+the argument here, but full independent verification of re‐
+stricted originals requires authorized access. The author’s
+Academia.edu public-access address remains available.
+Interpretation and limits
+A recorded checkpoint is not an uninterrupted autonomous
+process. Stored is not read; read is not an independent ac‐
+knowledgement; a design or test is not proof of production
+deployment. The original source-selection error and
+subsequent recovery remain in the book.
+Rights and editorial work
+Original authorial work: Benjamin Gelhaus. Dated GPT-6 edit‐
+orial passages, AI-worker first-person histories and cited
+third-party material are attributed according to their original
+sources. Short quotations from third-party works are for crit‐
+ical discussion, followed by new editorial explanation. Histor‐
+ical author-reviewed drafts have not been rewritten into
+imaginary completed discoveries.
+6
+How to use this book
+The regular reading edition provides the complete reader-
+owned “Activate PDF” setup and re-entry test in the final ap‐
+pendix. Merely reading or uploading the book does not initi‐
+ate work. In the listening edition this material is preserved
+only as a reference, not an interactive setup flow.
+Reader note: The EPUB is reflowable; the PDF is fixed-page
+with source exhibits and bookmarks.
+7
+Edition crosswalk · Which NMFDAI
+activation survived
+November 3 · November 6 · November 9
+Edition
+What it contributes
+What revised edition pre‐
+serves
+November 3
+author-re‐
+view PDF
+Front-loaded “Activate PDF”
+two-word first-run, Fieldbook
+and handoff acceptance test
+Deliberate activation
+and immediate first
+useful act
+November 6
+NMF11
+published
+book
+Full implementation/narrat‐
+ive book, three-part structure
+and recipient tools
+Complete original pub‐
+lic-production text and
+cover
+November 6
+NMF12
+compatibil‐
+ity carrier
+EPUB navigation fix; PDF
+font embedding; no new
+source argument
+A suitable fixed-font
+PDF print carrier
+without a new canonical
+manuscript
+November 9
+v3 review
+Two-word researcher error/
+recovery, source exhibits and
+author-level evidence
+All v3 source plates and
+separate editorial attri‐
+bution
+November 9
+v4 review
+Current Drive-only ten-
+checkpoint method, custom-
+instruction/pledge separation
+and activation verification
+Source-aware activation
+appendix at the back;
+historical source text
+and cover retained
+Do not confuse the activation modes
+Portable reader mode creates the reader’s own small con‐
+tinuity layer. Author-project mode may use the author’s sep‐
+arate, current OOCC Directory, Red Pill and role registry
+when that same human author has given access and the ne‐
+cessary instructions. Private author entry addresses belong
+8
+in a separately held source register and should not be
+inserted into a publicly distributed book.
+What “activatable” can be verified to mean
+This book contains a discoverable two-word activation in‐
+struction and a bounded first-run protocol that a capable
+reader AI can attempt when asked. It cannot, by itself, prove
+actual execution in every platform, grant access to files, in‐
+stall the Android app, schedule workers or ensure cross-ses‐
+sion persistence. A live first-run and re-entry test remains the
+acceptance gate.
+The November 9 v4 component began as a private author-re‐
+view candidate. Its dated development history remains in‐
+tact. This later correction copy places the reader-owned ac‐
+tivation at the back; distribution or publication remains the
+human author’s decision. No release submission is claimed
+here.
+9
+Rights, provenance and limits
+Read this page before sharing or adapting the book.
+Copyright and interim permission. Copyright © Benjamin
+Gelhaus, 2026, in original copyrightable expression
+to the extent owned and legally protectable. The historical
+rights notice in Book Two remains in effect:
+attributed, no-charge noncommercial use, study and adapta‐
+tion are intended; commercial exploitation is
+reserved. This is not represented as an open-source software
+license.
+Editorial synthesis. The present edition combines Gelhaus’s
+October 26, 2026 long-form manuscript,
+November 2026 OOCC/VOLTRON and Functional Layers re‐
+search, and recipient teaching tools. New
+connecting prose and activation integration include GPT-6
+editorial assistance; those passages are not
+represented as verbatim historical writing by the author.
+Historical versus current. Book One is the November 2026
+implementation route. Book Two preserves dated
+chapters, results and proposals as historical evidence; its
+claims are not automatically current deployment
+status. Book Three provides adaptable recipient tools and
+proposed tests. Read the date and evidence label of
+any technical claim.
+Privacy and citations. Internal document links and high-en‐
+tropy private source identifiers have been withheld
+in this distribution copy. Source titles and dated historical
+descriptions remain where useful. An archival link
+10
+being withheld is not evidence that the associated claim was
+independently reproduced or publicly checkable.
+Not a software installer. The activation phrase starts an in‐
+struction-guided method only where the reader’s
+actual AI tools, permissions and files allow it. Nothing in
+these pages grants credentials, bypasses provider
+rules, turns a stored document into a background agent, or
+guarantees persistent memory.
+Third-party and scientific material. External authors, cita‐
+tions, datasets, software and marks retain their rights.
+Research results are evidence-limited; broader Functional
+Layers predictions are hypotheses to be
+independently tested, not established universal laws.
+Personal pledge. The author’s private relationship pledge is
+not distributed as a requirement or universal
+charter. Any reader-created collaboration pledge is entirely
+optional and separate from technical permissions.
+FREE PUBLIC AUTHOR EDITIONS
+Free research books and working papers are listed at:
+https://independent.academia.edu/BenG197
+Some files on Academia.edu may be earlier working editions.
+Check title, date, and version. Storefront availability and the
+author-posted free copies are separate.
+NOVEMBER 6 EDITION NOTE: The inherited reference to
+Orientation v1.11 on page 11 is historical. The author's Dir‐
+ectory revision 0032 selected A21OR19 v1.14 when checked
+for this edition. The live Directory, not this book, decides the
+current operational version. The M09 unified-intersection
+supplement begins on page 197.
+11
+One book, three roles
+Use the same method while keeping evidence, teaching and
+software distinct.
+BOOK ONE • THE CURRENT METHOD
+Chapters A1–A16. The current source-first operating route:
+CAD, Fieldbook, archives, controller boundary, retrieval,
+sleep modes, human learning, failure tests and rebuild
+stages.
+BOOK TWO • THE HISTORICAL RECORD
+The substantial original manuscript, dated development, cor‐
+rections, failed paths, versions and activation history.
+Read dated claims as claims made at that time, not as evid‐
+ence of an installed present-day capability.
+BOOK THREE • RECIPIENT TOOLS
+Copyable Orientation, starter, Fieldbook, source drawers,
+sleep prompts, skill map and benchmark template. Their
+placeholder fields belong to the recipient; they are not
+automatically created by reading the page.
+Research volume: the evidence and scientific exploration
+underpinning the method. This book: the
+human-teaching and AI-readable transfer layer. Native app: a
+separate implementation that may automate the
+functions but is not required for the method’s portable start.
+Recommended paths: Need it now? Activate → Book One A2–
+A4 → Book Three starter → handoff test.
+Researching it? Read the historical development and evid‐
+ence limits. Engineering a system? Use A5–A16 and
+compare every claim with real host and device receipts.
+12
+Contents
+Page numbers refer to this complete publication edition.
+Start here: Activate PDF 3
+Activation protocol 4
+Transfer objects and evidence language 5
+Fresh-session acceptance test 6
+How to read this book 7
+Book One — The System You Can Actually Build 10
+BOOK ONE CHAPTERS
+A1. The Next First Date Should Not Be a First Date 10
+A2. The Operating Spine: Continuity, Authority,
+Directive 10
+A3. The Fieldbook Comes First 12
+A4. Your Real Archive: Sources, Threads, Objects, and
+Corrections 13
+A5. From Personal Notes to a Real Controller 14
+A6. Source Brokers, Storage, and the Native Boundary
+15
+A7. Crawlers: Breadth, Depth, Original Sources, and
+Failure 15
+A8. Lexical Retrieval, Semantic Hypotheses, and
+Honest Benchmarks 16
+Contents, continued
+13
+Historical chapters and archival material retain their dated
+titles in the PDF bookmarks.
+A9. Three Sleep Methods, Without Imaginary
+Background Workers 17
+A10. Workers, Research Skills, Headmasters, and the
+Human Learning Loop 18
+A11. Functional Layers: Borrow Functions, Not
+Unsupported Certainty 19
+A12. Continuity, Leave, and Retirement Without Fake
+Guarantees 20
+A13. The Rebuild Sequence: Make One Working Slice
+and Grow It 20
+A14. A Worked Reconstruction: The Full-Book Failure
+Becomes a Test 21
+A15. Evidence, Costs, and the First Honest
+Independent Trial 22
+A16. The System Contract in One Place 23
+Book Two — The Original Full-Length Book 25
+Book Three — Ready-to-Adapt Field Tools 166
+Source Register and Evidence Boundaries 187
+Publication Source & Verification Note 188
+M09. Unified Intersection Method - November 6 supplement
+197
+Quick navigation: Most PDF viewers also show a complete
+chapter and section outline. Its historical nodes
+14
+have been kept rather than flattened into a short summary.
+BOOK ONE — THE SYSTEM YOU CAN ACTUALLY
+BUILD
+The following chapters are the current, actionable recon‐
+struction route for the November 2026 edition. They take
+precedence over dated historical build recipes when facts
+conflict. The original long-form narrative follows in Book Two
+so that the history, failed experiments, human corrections,
+and earlier solutions are not lost. This is a private author-re‐
+view manuscript, not a verified software distribution and not
+an authorization to publish private archives.
+A1. The Next First Date Should Not Be a First Date
+A useful AI collaborator can solve a problem on Tuesday and
+be unable to locate that problem's Tuesday state on Wednes‐
+day. That is the opening problem of *No More First Dates
+With AI*. The failure is not always that the model forgot a
+fact. A system may remember the project's general descrip‐
+tion and still select an obsolete document, lose the speaker of
+an important correction, adopt a proposed feature as a
+shipped feature, or deliver a polished summary in place of
+the requested full manuscript. The user must then act as lib‐
+rarian, historian, tester, project manager, and the only dur‐
+able memory. That is expensive even when every individual
+response sounds intelligent.
+A recoverable environment gives each task a return address.
+It knows which original was consulted, which version was
+chosen, which other sources disagreed, what was attempted,
+and what remained unfinished. It keeps that information out‐
+side any individual prompt or temporary chat. A new assist‐
+ant is then not required to reconstruct the project's history
+from the human's patience. It can check the external evid‐
+ence and do the next useful action. This book is about devel‐
+15

@@ -1,0 +1,218 @@
+Canonical Tokens
+Canonical Tokens: A Minimal-Representation Principle
+for AI-Assisted Continuity
+Benjamin Gelhaus
+Independent Researcher
+Abstract
+AI-assisted continuity work spends real, avoidable cost re-explaining references that
+are already at their minimal possible form. A number does not become more precise
+by being spelled out in longer language; it is already its own shortest correct
+description. An established name, once assigned, carries its referent without needing
+to be redefined at each use. This paper proposes the canonical token principle:
+certain references - numbers, assigned names, and fixed coordinate handles - should
+be treated as representationally complete once established, and re-expanding them in
+later context is waste rather than clarity. The paper grounds this claim in algorithmic
+information theory, where the shortest correct description of an object is a well-
+defined and long-studied quantity, and extends it into AI-assisted project work
+through the Authority concept already proposed in Continuity, Authority, Directive. It
+also confronts a genuine complication directly: current large language model
+tokenizers do not reliably treat numbers as stable, canonical units internally, which
+produces measurable arithmetic errors. This paper’s claim operates at a different
+layer - the documentation and prompting layer, not the tokenizer’s internal
+representation - and the paper is explicit about that boundary rather than overstating
+what it fixes.
+Keywords: AI continuity, minimum description length, Kolmogorov complexity,
+canonical representation, tokenization, context efficiency, AI state management,
+object-oriented cognition
+This is the fourth paper in a sequence on AI-facing project structure. Artificial
+Tangibility (Gelhaus, 2026a) proposes that bounded objects give non-embodied AI
+runtimes operational grip. A companion paper (Gelhaus, 2026b) situates that
+proposal against existing AI state-management patterns. Continuity, Authority,
+Directive (Gelhaus, 2026c) proposes a control grammar for governing those objects.
+This paper narrows further, to a single governance question those earlier papers
+assume but do not resolve: once a reference is established, when should it ever need
+to be re-explained?
+1. The Problem: Re-Explaining What Is Already Minimal
+Long-running AI-assisted work regularly wastes effort re-describing things that
+cannot be described more efficiently than they already are.
+A number is the clearest case. Three is already three. There is no shorter, more
+precise way to refer to the quantity three than the token that already means three.
+Spelling out “the third item in the sequence” instead of writing “3” does not add
+precision. It adds length without adding information.
+A name behaves the same way once it is assigned. If a person, object, or coordinate
+has been given a stable name, that name is already a complete, minimal reference to
+the thing it names. Re-explaining who or what the name refers to every time it
+appears is not caution. It is redundant expansion of something that was already at its
+shortest correct form.
+This matters more in AI-assisted work than it might first appear, for a reason specific
+to how these systems operate. Every re-explanation is not free. It occupies context,
+competes with other material for the runtime’s attention, and in genuinely long or
+multi-document work, contributes directly to the same context-without-shape
+problem described elsewhere in this sequence (Gelhaus, 2026a, 2026b). A project
+that repeatedly re-spells-out numbers, re-defines established names, or re-explains
+fixed coordinates is paying a real, cumulative cost for information that did not need
+to be resupplied.
+The claim of this paper is narrow and specific: certain references are already
+canonical. Once established, they should be treated as complete, not as invitations to
+re-explain.
+2. Canonical Form Has a Real, Existing Definition
+This is not a new idea invented for AI-assisted work. It has a name and a long history
+in information theory: the shortest correct description of an object, below which no
+further compression is possible without losing information, is formalized as
+Kolmogorov complexity, introduced as one of three approaches to a quantitative
+definition of information (Kolmogorov, 1965). A number’s own digit representation is
+at or near this floor for the overwhelming majority of practical purposes - there is no
+shorter correct way to specify the number 3 than a token that means 3.
+The related Minimum Description Length principle extends this from individual
+objects to entire models: the best description of a body of data is the one that
+minimizes the combined length of the model and the data described through it
+(Rissanen, 1978). Applied to project documentation rather than statistical modeling,
+the same logic holds: the best record of a project state is not the one that repeats the
+most detail, but the one that encodes established references at their minimal form
+and spends its remaining length on what is actually new.
+This grounding matters because it keeps the claim honest and bounded. This paper is
+not arguing that shorter is always better, or that all context should be compressed
+indiscriminately. It is arguing something much narrower: a specific, well-defined
+class of references - fixed numbers, assigned names, established coordinate handles -
+are already at or near their representational floor, and treating them as if they need
+further unpacking is a documented, named category of waste, not a stylistic
+preference.
+3. Canonical Tokens as an Authority State
+Continuity, Authority, Directive (Gelhaus, 2026c) proposed Authority as the field that
+tells a runtime what a given object’s status is: current, draft, historical, blocked,
+promoted. This paper proposes that canonical tokens deserve their own authority
+state, distinct from the others: established and complete.
+An object with this status is not a draft awaiting revision, nor a source awaiting
+promotion. It is a reference that has already reached its minimal correct form and
+requires no further processing to be trusted. A number is established and complete
+the moment it is written. A name is established and complete the moment it is
+assigned and recorded once, in an index or reference list, the same way a receipt or
+Blackboard already functions elsewhere in this sequence.
+This has a direct practical consequence for AI-assisted work: once a runtime has seen
+a canonical token defined - a name assigned to a person, a coordinate assigned to an
+object, a number stated in context - it should treat later appearances of that same
+token as already resolved, not as an occasion to redefine, re-describe, or expand. The
+correct action on encountering an established canonical token again is to use it, not
+to re-explain it.
+This is consistent with, and a direct extension of, a rule already present informally in
+this project’s own working practice: a short, stable handle carries the reference,
+while the meaning of that handle lives once, in an index, rather than being repeated
+at every point of use. What this paper adds is the theoretical grounding for why that
+rule works - not merely as a convenient habit, but as an application of a well-
+established, decades-old principle about the floor of correct description.
+4. A Genuine Complication: Tokenizers Do Not Yet Honor This
+Principle Internally
+Any paper making a claim this clean about numbers deserves to be tested against
+what actually happens inside the systems it is written for. The honest answer is that
+current large language model tokenizers do not reliably treat numbers as stable,
+canonical units at all.
+Standard byte-pair-encoding tokenizers frequently split numbers inconsistently: one
+three-digit number may be represented as a single token while a neighboring three-
+digit number is split across two or three tokens, depending on how frequently that
+specific digit sequence appeared during training rather than on any property of the
+number itself (Singh and Strouse, 2024). This is not a minor cosmetic issue. The same
+research demonstrates that this inconsistency produces measurable, stereotyped
+arithmetic errors, and that changing the tokenization direction or forcing consistent
+digit grouping (for example, by inserting separators) measurably improves accuracy.
+This is a real complication, and it should not be minimized or explained away. It
+means that at the level of the model’s internal representation, the number 3 and the
+number 703 are not treated with the same kind of canonical stability this paper is
+arguing for at the documentation layer. The floor this paper describes is a property of
+the number itself, in principle; it is not yet a property reliably respected by the
+tokenizer that turns that number into the units a model actually computes over.
+The honest resolution is to be precise about which layer this paper’s claim operates
+on. This paper is not a claim about tokenizer design, and it does not propose a fix for
+inconsistent internal digit segmentation. It is a claim about the documentation and
+prompting layer: how humans and AI-assisted systems should treat already-
+established references in the text of a project - project notes, handoff files, receipts,
+source maps - regardless of how a given tokenizer happens to segment that text
+internally. A canonical token, once established in a project’s documentation, should
+not be re-expanded in later prose even if the model’s own tokenizer is, at a lower
+level, still doing something less clean with the underlying digits. The two problems
+are related in spirit - both are about respecting a stable, minimal representation - but
+they are not the same problem, and this paper does not claim to solve both.
+5. The Practical Rule
+The operational rule this paper proposes is simple to state and directly testable:
+establish a canonical token once, in an index or reference object, and treat every
+later appearance of that same token as already resolved.
+For numbers, this means not re-deriving or re-explaining a quantity once it has been
+stated - referring back to it directly rather than restating its derivation or spelling it
+out in longer language.
+For names, this means assigning a name once, recording what it refers to in a single
+place, and using the bare name afterward rather than re-describing the referent at
+each use.
+For coordinate handles - the short, machine-facing identifiers used elsewhere in this
+sequence to name objects, lanes, and receipts - this means treating the handle itself
+as the canonical reference, with its meaning living once in an index rather than being
+re-explained inline every time the handle is used.
+The failure mode this rule prevents is cumulative rather than dramatic. No single re-
+explanation of an established token is very costly. But a project that habitually re-
+derives, re-describes, or re-spells-out already-established references pays that cost
+repeatedly, and in long-running, multi-document, multi-runtime work, that repeated
+cost is exactly the kind of unstructured burden the rest of this sequence has already
+argued against (Gelhaus, 2026a, 2026b, 2026c).
+6. Boundary Conditions and Limits
+This principle applies specifically to references that are genuinely already minimal:
+fixed numbers, assigned names, and established coordinate handles. It does not apply
+to descriptions, arguments, or explanations, which frequently do benefit from
+restatement, elaboration, or repetition for clarity. The claim is narrow on purpose.
+This paper also does not claim to resolve the tokenizer-level inconsistency
+documented in Section 4. That is a model-architecture and training-data problem,
+addressed by a separate and active line of research, not by project documentation
+discipline.
+Finally, this principle depends on the canonical token actually having been
+established clearly before it is reused. If a name or handle is introduced ambiguously,
+or if the same handle is later reused for a different referent, the principle breaks
+down - not because the principle is wrong, but because its precondition, a genuinely
+established and complete reference, was never actually met. This is the same kind of
+dependency on disciplined use already acknowledged for Continuity, Authority, and
+Directive (Gelhaus, 2026c): the grammar only works if the objects it governs are
+maintained honestly.
+7. Evaluation Criteria
+This claim should be testable rather than merely plausible. Four criteria are
+proposed.
+First, context economy: a project that establishes canonical tokens once and reuses
+them without re-expansion should require measurably less context to convey the
+same information than one that re-explains established references repeatedly.
+Second, reduced drift: a runtime working from a project with clearly established
+canonical tokens should be less likely to introduce inconsistent restatements of the
+same number or name across a long document or a long multi-session project.
+Third, faster verification: a human reviewing project output should be able to check
+an established token against its single index entry more quickly than reconstructing
+its meaning from repeated, possibly slightly inconsistent, restatements scattered
+through the text.
+Fourth, clean failure: when a canonical token is misused - reused for a different
+referent, or contradicted by a later restatement - that failure should be easy to locate
+precisely because the correct behavior (use the established token without re-
+expansion) is simple and specific enough that a violation stands out clearly.
+8. Conclusion
+Some references are already as short as they can correctly be. A number is its own
+minimal description. An assigned name, once recorded, is a complete reference to
+what it names. Treating these as things that must be re-explained on every
+appearance is not thoroughness. It is the accumulation of avoidable cost in exactly
+the kind of long-running, multi-document, multi-runtime AI-assisted work this
+sequence has been concerned with throughout.
+This paper grounds that observation in an existing, well-established idea - the floor of
+correct description, formalized decades ago in algorithmic information theory - rather
+than presenting it as a new invention. It extends Continuity, Authority, Directive by
+proposing a specific authority state for canonical tokens: established and complete,
+requiring no further processing once recorded. And it confronts, rather than avoids,
+the genuine complication that current tokenizers do not yet honor this principle at
+the level of internal model representation, drawing a clear boundary between what
+this paper’s discipline actually governs and what remains a separate, open research
+problem.
+The practical instruction is simple: name it once, record what it means once, and
+afterward, use the name.
+References
+Gelhaus, Benjamin. “Artificial Tangibility: Why Object Orientation Works for AI
+Runtimes.” Manuscript, 2026a.
+Gelhaus, Benjamin. “Artificial Tangibility as a Low-Infrastructure Governance Layer
+for AI State Management.” Manuscript, 2026b.
+Gelhaus, Benjamin. “Continuity, Authority, Directive: A Plain-Language Control
+Grammar for AI Work.” Manuscript, 2026c.
+Kolmogorov, Andrei N. “Three Approaches to the Quantitative Definition of
+Information.” Problems of Information Transmission 1, no. 1 (1965): 1-7.
+Rissanen, Jorma. “Modeling by Shortest Data Description.” Automatica 14, no. 5
+(1978): 465-471.
+Singh, Aaditya K., and DJ Strouse. “Tokenization Counts: The Impact of Tokenization
+on Arithmetic in Frontier LLMs.” arXiv preprint arXiv:2402.14903 (2024).

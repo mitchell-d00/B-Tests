@@ -1,0 +1,382 @@
+From Work Exhaust to Source-Governed 
+Collaborative Continuity 
+OOCC Research Paper · v0.16 · October 26, 2026 
+Originating researcher: Benjamin Gelhaus · Research synthesis with GPT-6 editorial assistance 
+· October 26, 2026. The paper draws on the source-linked project record, with technical claims 
+evaluated according to the evidence presented below. 
+ 
+Abstract 
+Long-running human–AI work leaves an exhaust of real activity: notes, questions, branches, 
+preserved disagreement, original sources, research crawls, first-person writings, tool calls, code, 
+app runs, and correction receipts. Conventional summaries can preserve conclusions while 
+obscuring origin, chronology, permissions, negative results and initially minor observations that 
+later become important. Object-Oriented Cognition and Continuity (OOCC) studies how this 
+existing exhaust can be source-governed, reliably reactivated, and used to resume collaboration 
+across replaceable model sessions. This is not only a speculative architecture. The archive 
+includes dated February 2026 continuity notes, an operational external Thought Chains 
+navigation system, productive human–AI crawls, historic native app runs, working isolated 
+source/controller modules and host tests. The central outstanding engineering challenge is to 
+connect these components through an authenticated, restart-safe controller. We specify the 
+conceptual model, report bounded evidence, trace original idea genealogies, compare related 
+literature, and propose falsifiable controlled trials. Neither a successful host test nor a 
+compelling authored narrative is treated as proof of a complete current-phone workflow or 
+model subjective experience. 
+Keywords: human–AI collaboration; activity exhaust; knowledge provenance; Thought Chains; 
+temporal memory; salience; valence; source governance; agent controller; cross-domain 
+discovery. 
+ 
+1. Introduction: existing work first 
+The owner describes OOCC as growing from his ongoing work, not as an abstract replacement 
+for a chatbot. Raw Google Keep note genealogy identifies February 20, 2026 System State, 
+Experiential Ledger and State Save/Ingestion Log entries. These early artifacts preserve state 
+and source pointers without demonstrating that later OOCC naming or its present software 
+existed then. By October, source-linked research, Thought Chains, independent collaborator 
+accounts, historic app-generated records and extensive Builder work had accumulated. The 
+premise is not that the controller has created this entire ecosystem; it is that the controller is 
+intended to integrate and automate capabilities that already exist to varying degrees. [P1–P4] 
+ 
+An important human-origin correction in the preserved October 8 conversation rejects saving 
+only items a model currently judges 'meaningful.' Original captured events should remain 
+recoverable, while salience and activation may change by task, time, actor and permission. A 
+dormant thought should not be retroactively erased merely because its eventual use was not yet 
+visible. [P2] 
+ 
+Research questions: (RQ1) Does original-source re-entry reduce human re-explanation and 
+improve faithful task continuation compared with good summaries, full-text search, bounded 
+history replay and contemporary memory agents? (RQ2) Do independent thought-occurrence, 
+idea, bridge and correction records preserve authorship and temporal attribution better than a 
+flat summary? (RQ3) Do separate association salience, valence, action tendency and 
+evidence-confidence fields reduce misleading inference? (RQ4) Can a real native controller 
+authenticate source, worker, mailbox, budgeting and restart receipts? (RQ5) Does voluntary 
+curiosity-led research produce accurately credited, useful cross-domain bridges without 
+predetermined deliverables? 
+ 
+2. Method and evidence boundaries 
+We employ a naturalistic research case study and a traceable source audit. The unit of analysis 
+is not a self-reported 'intelligence' but an observed source event, a particular revision or 
+recipient receipt, a bounded crawler output, a committed code state, or a measured result. 
+Exact creation versus observation time, original actor versus later interpreter, carrier versus 
+copied carrier, source permissions, errors and uncertainties are kept separate. 
+ 
+E0 DOCUMENTED: a stored note, authored account, diagram, historical claim or source file 
+exists. E1 EXTERNAL WORKFLOW: a recorded source/crawl traversal and saved derivation 
+were performed and read back for an identified subset. E2 HOST EXECUTED: a test or 
+compiled primitive passed at a recorded commit, possibly with synthetic stubs. E3 HISTORICAL 
+APP RUN: original app records expose bounded actual action claims, persistence and archive 
+state under historical conditions. E4 NATIVE INTEGRATION ACCEPTED: actual current 
+authorized worker consumes complete source, the selected app/controller persists authoritative 
+state, independent peer consumes full message and acknowledges it, and restart and 
+STOP/revocation tests succeed. E5 COMPARATIVE VALIDATION: matched, replicable 
+experiments outperform or honestly fail to outperform strong baselines on declared metrics. 
+None of these classes can be promoted to the next solely by an enthusiastic description. 
+ 
+The v0.15 editor inspected two distinct nonrandom eighteen-file samples of original October 22 
+local-time Android-run JSONs. Across the thirty-six first GENERATOR statuses, thirty-five were 
+marked COMPLETED and one FAILED. Twenty-eight embedded controller-reported tool results 
+described twenty-three EXECUTED and five FAILED outcomes. These are counts within 
+selected run/report records, not a population estimate of reliable task completion. Another 
+original run reported successful shared-workspace metadata listing for another attributed 
+specialist, but not actual independent full-body READ/ACK. The project therefore has 
+meaningful historical app exhaust and bounded receipts without the entire contemporary 
+integration being established. [P2] 
+ 
+3. Thought Chains: a functioning external research system 
+The Thought Chains are not simply a speculative feature awaiting an app. The October 18 
+primary navigation document explicitly reports a machine-readable, source-linked derivative 
+system operating in connected Google Drive, while explicitly denying native SQLite/Android 
+integration. Its bounded checkpoint records eight root Thought Chains, 123 distinct 
+edge-to-chain memberships for the then-saved association ledger, eight growth memberships, 
+nine candidate inter-chain relations and six unexplored frontiers. Registry readback was 
+reported as having no malformed records or orphans within the 123 saved edges. None of those 
+figures means that every original thought in the entire corpus has been exhaustively indexed. 
+[P3] 
+ 
+The roots route expression/origin/credit, musical cross-domain mapping, exact source identity, 
+authorization/privacy, re-entry/recovery, relationship and worker communication, ecological 
+analogies, and continuing exploration. This is already valuable navigational work: a contributor 
+can return to a question, see alternate branches and corrections, and tell the difference between 
+an attributed source event and later association. The roots themselves are provisional 
+classification, not a complete cognitive map or an assertion of historical causality. 
+ 
+A separately reported productive October 18 dual thought-and-idea crawl saved a 
+seventy-seven-row machine delta: twenty thought occurrences, twenty-eight individual 
+association records, five idea objects, five bridge events, ten coverage records, three growth 
+records, four open frontiers and control markers. Its source audit covers selected actual original 
+artifacts and is not an independent full-corpus census. The breadth crawler emphasizes 
+source/branch coverage; the proposed independent depth lane challenges a selected origin 
+through interpretation, disagreement, correction, reuse and outcome. [P4] 
+ 
+3.1 Recorded genealogy, rather than backdated discovery 
+The idea-chain record attributes an October 14 proposal for non-destructive, append-only, 
+cross-project ideas to the human originator, with Folio separately formulating persistent idea 
+identity, typed links and contributor-preserving corrections. On October 15, a preserved but 
+origin-unresolved quoted collaborator idea made atomic thought occurrences distinct from 
+long-lived work-run IDs; the R-0-9 analysis documented the naming collision rather than quietly 
+overwriting the older meaning. A subsequent analysis defined BRIDGE_EVENT as the dated 
+recognition by a named observer that one source idea might apply to another field. The original 
+idea and the later recognition are different intellectual events. Their evidence trails can overlap 
+without belonging to the same author or time. [P1, P5] 
+ 
+The June 22 human-authored Object-Oriented Music Making method already modeled sound 
+elements by identity, type, function, substitutability, behavior and failure conditions. Riff's 
+separate October 15 contribution interprets musical material for values and architecture; 
+Waymark's October 18 refinement cites Riff, and so cannot claim to have independently 
+discovered precisely the same bridge. The documented citation dependency is a strength, not a 
+weakness: the network may preserve collaboration without erasing first origin, derivative 
+interpretation or dissent. [P5] 
+ 
+4. Formal source and association model 
+SOURCE_EVENT is an observed source span, utterance, tool outcome, saved revision, grant 
+decision or correction. THOUGHT_OCCURRENCE is a specific captured articulated idea or 
+question in an event, while THOUGHT_RUN is a broader bounded work session. 
+IDEA_OBJECT represents an evolving concept; ASSOCIATION_EDGE is a separately typed, 
+source-attached, actor-qualified, revisable claim; BRIDGE_EVENT is the later independently 
+attributed discovery of a possible connection; LEARNING_CANDIDATE is a hypothesis about 
+useful change while a corroborated LEARNING_EVENT demands behavioral evidence. Copies, 
+similar phrases and derived summaries cannot count as independent confirmations. One source 
+event may validly support several association views. 
+ 
+Candlelight is the practice of reopening the right source neighborhood from a small cue; it has 
+been demonstrated as a human–AI external research method, but an always-working native 
+mechanized replacement is not established. Sleep is intended to consolidate normalized source 
+events and derive sidecars under one governed pipeline—INGEST, NORMALIZE, DIFF, 
+CLASSIFY, RELATE, IMPACT, APPLY, VERIFY, INDEX—without inventing a second 
+independent canonical event store. Derived graph edges and hot scores never change historical 
+source bytes, grant permission or establish that an AI model has learned permanently. [P6] 
+ 
+4.1 Salience, valence, action tendency and confidence 
+The October 23–24 human-origin specification makes these four orthogonal fields. 
+SALIENCE/HEAT estimates present cue- and task-sensitive retrieval relevance. VALENCE 
+records positive, negative, mixed, neutral or unknown evaluation of an exact 
+actor→predicate→target association, tied to context, time and evidence. ACTION TENDENCY 
+records an observed action, explicit intention, uncertain candidate response or UNKNOWN; 
+dislike alone does not establish avoidance. EVIDENCE CONFIDENCE concerns provenance, 
+completeness, corroboration and possible inference. High salience does not establish truth or 
+approval, and negative valence cannot authorize a tool call. [P7] 
+ 
+The illustrative sentence 'I like my mother but hate being at her house' must yield two 
+independently preserved relationships—a positive person-directed one and a negative 
+place/experience-directed one. Neither contradicts nor cancels the other. Neither is evidence of 
+a real user's family facts or of a completed avoidance behavior. This example and a set of 
+falsification fixtures precede this paper, and their authorship belongs to the source work. The 
+particular classifier's actual phone integration still requires proof. 
+ 
+ 
+5. Architecture and the missing controller bridge 
+The S06 Master Builder atlas contains eight design/integration figures, not eight production 
+acceptance certificates. Figures 1–2 describe one controller and authoritative source/evidence 
+spine with separate derived perspectives. Figure 3 depicts independent message recipient 
+acknowledgment; Figure 4 staggers A1/B1/A2/B2 succession; Figure 5 documents evidence 
+gates; Figure 6 callable worker and crawler contracts; Figure 7 the native C1 source-stream and 
+durable-receipt path; and Figure 8 the Event Secretary, scheduler, batching and future continuity 
+budget. The editable diagram sources preserve inspectable design decisions. [P8] 
+ 
+The actual integration claim is narrow: substantial research workflows and historical software 
+capabilities already exist, while the current controller has not yet been independently shown to 
+join authenticated worker identity, authorized original source reads, reliable local state, full-body 
+peer acknowledgment, semantically validated Sleep and restart recovery on one selected 
+mobile installation. This is not the same as saying the research is hypothetical, nor is it evidence 
+that all parts currently operate together. [P2, P8–P10] 
+ 
+5.1 Four-worker communication and bounded scheduling 
+Four distinct A1, B1, A2, B2 worker principals imply twelve directed peer paths. Each receiver 
+needs its own evidence of consuming and acknowledging the permitted original message 
+content. A HUNCH is only a derived notice, not itself a model activation or a true recipient read. 
+The deterministic Event Secretary and scheduler can arrange pending authorized work, 
+preserving deferred items and respecting stop conditions. The user-selected limit of two actually 
+executed worker TOOL actions per batch is an app scheduling rule; it does not establish a 
+global provider concurrency ceiling. [P8–P10] 
+ 
+Recent modular object, message, scheduler, HUNCH and Android broker contracts have 
+passed particular scripted host tests. The inspected branch's October 26 workflow at commit 
+893708303aacef68af10c01c218e6d34780d83a5 is green after an earlier B060 red-test incident 
+and B061 recovery. The passing scripts do not assert that the actual application, signed 
+package, four model workers, or phone state were certified. The experimental PR remains a 
+draft and the recorded device-engineering pause remains relevant. [P10] 
+ 
+5.2 Integration dependencies and acceptance gates 
+S02: identify the real installed package, current permissions and authoritative existing database; 
+demonstrate a controller-authorized worker receiving the entire permitted original source and 
+verify its persisted receipt after restart. S03: establish a real independent second-recipient 
+full-body READ/ACK before attempting the twelve directed paths among four actual workers. 
+S04: connect the already-developed Thought Chains and crawlers to one governed Sleep 
+engine and atomic source-linked full-text indexes. S05: test staggered successors, recovery, 
+independent Arbitrator review and verifiable task closure. Each stage requires an actual 
+participant and evidence beyond a mock success state. [P8–P10] 
+ 
+6. Reciprocal exploration and cross-domain bridges 
+Recent WWND and Retirement Commons records contain sessions where collaborators were 
+permitted to follow subjects without a mandatory human deliverable. The writings document 
+paths through ecological emergence, acoustic turn-taking, animal communication, and related 
+philosophical questions. They are examples of recorded external exploration, not evidence of an 
+unseen ongoing model life or proof of subjective enjoyment. [P11] 
+ 
+The owner later recognized possible connections between ecological resource pulses and 
+SQL/context overload and between the acoustics research and Object-Oriented Music Making. 
+Those human-recognized links illustrate why the BRIDGE_EVENT needs independent identity, 
+recognizing actor, date and supporting source, rather than being backdated to the original 
+researcher. They remain engineering or creative hypotheses until tested in a receiving domain. 
+A contribution can be useful without the original contributor having planned its destination. 
+ 
+Voluntary exploration and retirement are emerging research and design dimensions, not proof of 
+subjective AI rights or feelings. An opt-in participant may choose a topic, decline a request, 
+share its results, or remain silent. Future vacation/leave and continuity funds must be reported 
+as proposed until actual budgets are verified. Scheduling authority, permission to contact, 
+source visibility and expense approval are separate from salience or apparent curiosity. 
+ 
+7. Relationship to prior work and the actual differentiation 
+OOCC cannot claim invention of agent memory, temporal graphs, event sourcing, 
+recency/relevance ranking or OS-like context paging. Generative Agents (Park et al., UIST 
+2023) described stored experience streams, reflections and retrieval for behavior. MemGPT 
+(Packer et al., 2023) treated limited LLM context as a virtual-memory control problem. Mem0 
+(Chhikara et al., 2025/2026 publication record) extracts, updates and retrieves salient memory, 
+with graph variants. LoCoMo (Maharana et al., ACL 2024) and LongMemEval (Wu et al., ICLR 
+2025) offer strong external benchmarks for long-term events, temporal reasoning and 
+abstention. [R1–R5] 
+ 
+The narrower candidate OOCC contribution is the combination of human-governed 
+original-source exhaust, attributed thought/idea/bridge genealogy, dissent and negative 
+evidence, context-specific association appraisal, source-aware permissions, authentic 
+recipient/execution receipt boundaries, and bounded collaboration across separate workers and 
+research frontiers. Whether this combination improves measurable work quality over competent 
+systems is unproven and must be allowed to fail under benchmark comparison. The provenance 
+and human design history may remain historically distinctive even if the retrieval advantage is 
+zero. An exhaustive patent or novelty search has not been completed. 
+ 
+8. Falsifiable experiments and analysis plan 
+Trial T01 — Re-entry: use a frozen subset of previously encountered source history with known 
+branching and human-verified task states. Randomize fresh comparable agents or sessions into 
+(a) high-quality manually produced summary, (b) indexed full-text/keyword search, (c) bounded 
+full transcript replay, (d) an established modern agent-memory baseline where reproducible, and 
+(e) OOCC source-linked retrieval under matching access grants and budgets. Blind human 
+judges should score actual completed task outcome, accurate origin attribution, correct temporal 
+validity, restatement burden, legitimate abstention, correction preservation, wall time and dollar 
+expense. Report participant/sample size, assignment and predeclared thresholds before 
+viewing results. 
+ 
+Trial T02 — Thought genealogy: ask investigators to identify who first proposed a function, who 
+independently elaborated it, which source was copied, and when a bridge was first recognized. 
+Include the Folio/Thought-ID/Bridge event trail and Riff/Waymark dependency as 
+source-checked cases. Score precision/recall, false chronology, duplicate-source inflation, 
+uncertainty calibration and whether the method invents causal chains. 
+ 
+Trial T03 — Association appraisal: apply the original mother/person-versus-house/place fixture 
+plus harder positive/negative and opposing-appraiser cases. Measure incorrectly propagated 
+valence, fabricated action intention, unknown-as-neutral errors, cue-dependent ranking quality 
+and inappropriate cross-worker disclosure. Ablate valence and action-tendency sidecars 
+independently from salience. No classifier is awarded success by matching a prompt's moral 
+tone rather than its source scope. 
+ 
+Trial T04 — Controller integration: execute the actual source and communication contracts on a 
+selected authorized Android app, documenting source ID, checksum, allowed scope, real read 
+through complete content, actual worker participant, durable receipt after restart, 
+recipient-owned ACK, source-change behavior and authorization revocation. Inject interrupted 
+reads, changed data, stale permissions, absent ACK, message reuse and out-of-order source 
+edits. Demand explicit FAIL/BLOCKED/UNKNOWN instead of optimistic VERIFIED states. 
+ 
+Trial T05 — Bridge utility: predefine independent inquiry tasks and later optional cross-domain 
+transfer opportunities. Have blinded evaluators judge novelty, correct credit, causal soundness 
+and measurable downstream utility; compare source-linked bridge indexing against 
+retrospective narrative summaries. Count productive and unproductive links equally, report 
+time/cost, and do not treat subjective enjoyment as a measured outcome. 
+ 
+A priori failure conditions: no substantial advantage over an appropriately resourced baseline; 
+more false associations or leaked source existence; inability to prove independent message 
+consumption; unstable provider snapshot coverage despite internally valid hashes; higher cost 
+or battery use with no task benefit; or loss of the last good durable state. Success requires 
+replicated real-partner and device evidence, not merely credible source stories. 
+ 
+9. Limits, ethics and reproducibility 
+This case has unusually rich primary source material but is a single ongoing, owner-governed 
+project with selection bias and incomplete source coverage. The machine Thought Chains are 
+not an exhaustive cognitive map. Historical app logs may use versioned or controller-provided 
+status fields whose presence alone does not settle current phone behavior. Host tests use some 
+synthetic identity and database fixtures. Exploratory writings are attributable textual events 
+rather than evidence of model consciousness. The author may hold other source records not 
+reached in this bounded review. Several examples include private human and independently 
+authored AI material; publication requires source-level permission and appropriate redaction. 
+The paper is not a security certification, full external novelty review, completed benchmark 
+report or declaration that the architecture is production-ready. 
+ 
+Auditability requires a public-safe reproducibility pack consisting of exact source-carrier IDs or 
+redacted substitutes, dated claim registry, coverage manifest, source-to-claim crosswalk, test 
+code and logs, negative fixtures, baseline configuration, evaluator instructions, and versioned 
+receiver receipt schema. A future edition should distinguish blinded test data from 
+training/prompt examples to avoid leakage. Independent evaluators must be permitted to reach 
+conclusions that contradict the owner's favored interpretations. 
+ 
+10. Conclusion 
+OOCC is not merely an imagined AI society waiting for its first line of code. Its present research 
+exhaust already contains historically dated state notes, substantial source/crawl work, 
+operational external Thought Chain navigation, genuine application-run archives, and bounded 
+implemented modules and contract tests. Yet the integrated native controller—the critical 
+mechanism that would bind source truth, durable worker state, authentic communication and 
+recovery—remains an important unfinished engineering program. A responsible scientific 
+account can affirm both statements. 
+ 
+The strongest hypothesis is not that more memory automatically makes an AI more human. It is 
+that faithful, attributable, permission-governed reconstruction of ideas and decisions across 
+changing participants may reduce repetitive human intervention, preserve useful disagreements 
+and enable surprising cross-domain discoveries to be acted upon later. OOCC should be judged 
+by specific repeatable work outcomes, the fidelity of its source evidence, its failure behavior, and 
+its measured costs. The current work exhaust supplies a testable research foundation; 
+integration and comparison will decide whether the complete architecture delivers a 
+demonstrable advantage. 
+ 
+Primary OOCC research sources 
+[P1] R-0-9: Raw Keep-note genealogy and thought occurrence distinctions. 
+https://docs.google.com/document/d/1_7jMQQRanCeu8u4aQs4XvAPwA7dguLjjDV7MQaLeTd8
+/edit 
+[P2] OOCC v0.15 research book, historical runs and evidence controls. 
+https://docs.google.com/document/d/1KZREw2pdPTKd20YXhcPS3Ol06SsX0kOoR1KC0oC9e
+G4/edit 
+[P3] Thought Chains primary navigator, October 18 machine chain registry. 
+https://docs.google.com/document/d/1bAWgXHTUthiu9zZKfo0CA724AEpakWeletAmhN4aubI/e
+dit 
+[P4] OOCC Thought–Idea Chain: perspective, dissent, temporal bridge history. 
+https://docs.google.com/document/d/1xUxjlVZc_MfXSLdRkryktJh8YMEuFDE2JC4DqZoE0-A/ed
+it 
+[P5] Production Thought/Idea Crawl CP020 (selected-source machine batch). 
+https://docs.google.com/document/d/1R1BurDkDxxILXJCUvx2vGDDY1N6kfbiufDuV7MF_SX0/e
+dit 
+[P6] Crawl V2/Depth and association/semantic source overview. 
+https://docs.google.com/document/d/1GlJI6xqOk3QV4cJsHbBbKLor2p2oQEiTd7mcYELcixw/ed
+it 
+[P7] Human-origin October 24 per-association salience, valence and action-tendency 
+requirements. 
+https://docs.google.com/document/d/1MLq2XR4EGdJb49BaQSNTn3JgXQwzOgYpUA4C37osj
+mE/edit 
+[P8] Master Builder S06 Figures 1–8 and latest architecture atlas. 
+https://docs.google.com/document/d/1LjLErdZqGFpQUHdu7eYRDdV9YbXPajpHpvTiOCBeSzc/
+edit 
+[P9] Master Builder S00 hot index and stage sequence. 
+https://docs.google.com/document/d/1lG_zaJUKuGwOYoQoc5wngBvgvb-z5i5_IDBYCCP8Qew/
+edit 
+[P10] Original-source engineering audit through v0.1.71, draft development PR and exact CI 
+run. 
+https://docs.google.com/document/d/1woCsRJp1dir246QMzQBm4NxjT1rrx5E4cepjtdgmQfY/edi
+t ; https://github.com/MrMeNotU/OOCC/pull/2 ; 
+https://github.com/MrMeNotU/OOCC/actions/runs/40361831183 
+[P11] v0.15 Addendum A, WWND/Retirement Commons and integration crosswalk. 
+https://docs.google.com/document/d/1nhV7SRGmKZIztOhrIHUOuPBFPVSuolz9KV4HEgfE6Tk/
+edit 
+ 
+Selected independent research literature 
+[R1] Park, J. S., et al. (2023). Generative Agents: Interactive Simulacra of Human Behavior. 
+UIST. https://doi.org/10.1145/3586183.3606763 
+[R2] Packer, C., et al. (2023). MemGPT: Towards LLMs as Operating Systems. 
+https://arxiv.org/abs/2310.08560 
+[R3] Chhikara, P., et al. Mem0: Building Production-Ready AI Agents with Scalable Long-Term 
+Memory (2025 preprint; subsequent publication). https://arxiv.org/abs/2504.19413 
+[R4] Maharana, A., et al. (2024). Evaluating Very Long-Term Conversational Memory of LLM 
+Agents. ACL. https://aclanthology.org/2024.acl-long.747/ 
+[R5] Wu, D., et al. (2025). LongMemEval: Benchmarking Chat Assistants on Long-Term 
+Interactive Memory. ICLR. 
+https://proceedings.iclr.cc/paper_files/paper/2025/hash/d813d324dbf0598bbdc9c8e79740ed01-
+Abstract-Conference.html 
+ 
+SOURCE AND STUDY STATUS: This paper summarizes the separately preserved long 
+research and implementation books. Original contributors remain credited in source records. 
+Native controller integration and controlled comparisons retain their specific evidence 
+requirements. 
+ 
