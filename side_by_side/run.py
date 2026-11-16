@@ -153,12 +153,18 @@ def run_mplpb(case: dict, repo: Path) -> dict:
             decision = {"return": "ANSWER", "not_in_corpus": "REFUSE", "ambiguous": "CONFLICT"}.get(kind)
             if decision is None:
                 return base | {"status": "INVALID_RESPONSE", "kind": kind, "raw": reply}
-            # Strict supported answers must identify the complete expected source-body phrase.
-            serialization = json.dumps(reply, ensure_ascii=False).lower()
+            # Verify the actual answer quote AND the returned original-source ID.
+            # A matching word in metadata or an unsupported explanation is not evidence.
             ok = decision == case["expected"]
             if ok and case["expected"] == "ANSWER":
-                ok = case.get("expected_phrase", "").lower() in serialization
-                # Source IDs are dynamically allocated by the real ledger; return the mapping.
+                ok = (reply.get("id") == id_map[case["expected_source"]]
+                      and case["expected_phrase"].lower() in reply.get("text", "").lower()
+                      and reply.get("answer_support", {}).get("status") == "supported")
+            if ok and case["expected"] == "REFUSE":
+                ok = not reply.get("text", "").strip()
+            if ok and case["id"] == "SH07":
+                # This case must refuse specifically after an altered sealed original.
+                ok = reply.get("quarantined", 0) >= 1
             return base | {"status": "PASS_CONTRACT" if ok else "FAIL_CONTRACT",
                            "observed_decision": decision, "expected_decision": case["expected"],
                            "elapsed_seconds": round(time.perf_counter()-start, 6),
@@ -195,7 +201,7 @@ def main(argv=None) -> int:
     p.add_argument("--model-command", help="Real AI adapter command; stdin request JSON, stdout response JSON")
     p.add_argument("--timeout", type=int, default=50)
     p.add_argument("--max-cases", type=int, default=0)
-    p.add_argument("--case-ids", help="Comma-separated frozen case IDs for pilot")
+    p.add_argument("--case-ids", help="Comma-separated existing case IDs for a frozen small pilot")
     p.add_argument("--out", type=Path, default=BASE / "results.json")
     p.add_argument("--require-live", action="store_true", help="Exit 2 when a required target was not actually run")
     args = p.parse_args(argv)
@@ -204,7 +210,7 @@ def main(argv=None) -> int:
         requested = [c.strip() for c in args.case_ids.split(",") if c.strip()]
         by_id = {c["id"]: c for c in m["cases"]}
         if len(set(requested)) != len(requested) or any(c not in by_id for c in requested):
-            print("REFUSED: duplicate or unknown case ID", file=sys.stderr)
+            print("REFUSED: duplicate or unknown requested case ID", file=sys.stderr)
             return 2
         m["cases"] = [by_id[c] for c in requested]
     if args.mplpb_root:

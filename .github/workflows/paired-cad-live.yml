@@ -1,9 +1,5 @@
 name: Live Ben-derived CAD versus ordinary governance model pilot
 on:
-  push:
-    paths:
-      - 'side_by_side/**'
-      - '.github/workflows/paired-cad-live.yml'
   workflow_dispatch:
 permissions:
   contents: read
