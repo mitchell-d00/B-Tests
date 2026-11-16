@@ -38,7 +38,15 @@ def call(request: dict, *, model: str, timeout: int = 55) -> dict:
     for attempt in range(3):
         try:
             with urlopen(req, timeout=timeout) as resp:
-                response = json.loads(resp.read(400_000).decode("utf-8"))
+                payload_bytes = resp.read(400_000)
+                media = resp.headers.get("Content-Type", "unknown")
+                status = resp.status
+            if not payload_bytes.strip():
+                raise RuntimeError(f"GitHub Models empty response: HTTP {status}, media {media}")
+            try:
+                response = json.loads(payload_bytes.decode("utf-8"))
+            except ValueError as e:
+                raise RuntimeError(f"GitHub Models non-JSON response: HTTP {status}, media {media}, prefix={payload_bytes[:120]!r}") from e
             break
         except HTTPError as e:
             failure = "GitHub Models HTTP " + str(e.code)
@@ -74,7 +82,10 @@ def main(argv=None):
     parser.add_argument("--model", default="openai/gpt-4.1-mini")
     args = parser.parse_args(argv)
     try:
-        request = json.load(sys.stdin)
+        input_bytes = sys.stdin.read()
+        if not input_bytes.strip():
+            raise RuntimeError("No JSON request received on adapter stdin")
+        request = json.loads(input_bytes)
         result = call(request, model=args.model)
         json.dump(result, sys.stdout, ensure_ascii=False)
         sys.stdout.write("\n")

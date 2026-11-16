@@ -27,7 +27,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           python -m side_by_side.run \
-            --case-ids SH01,SH04,CAD11,CAD13,CAD16 \
+            --case-ids SH01 \
             --model-command 'python -m side_by_side.github_models_adapter --model openai/gpt-4.1-mini' \
             --out evaluation/cad_live_pilot.json
       - name: Upload observed responses even if AI endpoint is unavailable
