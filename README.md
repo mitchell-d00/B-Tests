@@ -15,7 +15,7 @@ See [2026 system scope](docs/OOCC_2026_SYSTEM_SCOPE.md).
 
 | Check | Observed result | What it establishes |
 | --- | --- | --- |
-| Local evaluator suite | 96 tests pass | Harness/reference-code behavior, including negative controls |
+| Local evaluator suite | 102 tests pass | Harness/reference-code behavior, including negative controls |
 | Supplied PDF integrity | 10/10 hashes match | Local source-byte preservation only |
 | Local correction pilot | 20 NOT_RUN; zero model completions | No OOCC/CAD performance finding |
 | GitHub CI correction pilot | 20 NOT_RUN; zero model completions | Endpoint returned HTTP 200 with four bytes that were not model-response JSON |
@@ -29,6 +29,20 @@ Its evaluator checks passed. The hypothesis remains **unresolved**.
 [Execution report](docs/OOCC_CORRECTION_RESULTS.md) ·
 [Protocol and claim-to-test matrix](docs/OOCC_CORRECTION_EVALUATION.md) ·
 [Draft evaluation PR](https://github.com/mitchell-d00/B-Tests/pull/1)
+
+## Blind compression and handoff runs
+
+The [neutral experiment entry](blind/START.md) and
+[operator protocol](docs/BLIND_HANDOFF_EXPERIMENT.md) add four-stage fresh-session
+handoffs. Each target receives only its current packet; outcome keys, condition
+mapping, scores and future corrections remain local. Public links cannot enforce
+isolation or prove a fresh session. Give each AI one assigned ENTRY link, not the
+repository overview.
+
+The latest local run detected 126 scripted faults, verified 56 persisted states
+and 42 actual file transfers. These are harness controls, not OOCC observations.
+The model attempt obtained zero usable completions: all 56 planned stages are
+NOT_RUN. See [machine-readable results](evaluation/blind-handoff-summary.json).
 
 ## What is tested
 

@@ -8,7 +8,8 @@ to Ben's live system. The armored worldview hypothesis remains unresolved.
 
 ## What actually ran
 
-The final local evaluator suite passed **96 tests**. These include reference-code
+The earlier local evaluator suite passed **96 tests**. The new blind-handoff
+extension brings the current local total to **102 passing tests**. These include reference-code
 checks, scorer boundaries, oracle non-disclosure, wrong-state persistence,
 wrong-effect detection, citation checks, and the distinction between information
 loss, honest uncertainty and confidently wrong assertions. These test the
@@ -86,3 +87,31 @@ human cost remain necessary for comparative claims. Ben's live cloud system also
 requires authorized current snapshots and independent source, state, recipient and
 scheduler readbacks. Missing access cannot establish whether that system corrects
 or reinforces an inherited interpretation.
+
+## Added blind handoff experiment
+
+The [blind-handoff protocol](BLIND_HANDOFF_EXPERIMENT.md) adds seven synthetic
+case families, two matched treatments, and four stages per chain. A target sees
+only its current task and treatment. The next packet receives the model's actual
+handoff text, not a replacement summary or a hidden structured answer. Source
+reads are logged and later-stage corrections are unavailable early.
+
+Executed evaluator controls detected 126 of 126 planted faults, independently
+reopened 56 submitted states, and checked 42 actual handoff transfers. These
+scripted results validate the harness; they are not target-model observations.
+The API attempt made one HTTP request, received no usable model completion, and
+recorded 56 NOT_RUN stages. This creates no finding for or against OOCC.
+
+Specific blockers: the configured endpoint returns non-model data despite HTTP
+200; the installed alternative client fails initialization on a read-only
+filesystem, including after a scoped write-permission attempt; Ben's live
+Directory, Memory, SQL state and independent execution readbacks are inaccessible.
+The exact failing write path was not established. No missing-access condition
+is classified as an architecture failure.
+
+Two answer-hidden entry packets are prepared for manual fresh-chat use. Their
+original source bytes are supplied separately from instructions; private outcome
+keys and future corrections are not exported. These are development packets,
+not independently authored holdouts. A public URL cannot prevent external
+browsing, verify identity, erase account Memory, or establish a blind session.
+Those limits remain part of the report.

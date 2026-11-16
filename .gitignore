@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+evaluation/blind-private-runs/
+research/private_runs/

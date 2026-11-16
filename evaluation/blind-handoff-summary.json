@@ -1,0 +1,52 @@
+{
+  "schema": "blind-handoff-summary-1",
+  "harness_faults_detected": 126,
+  "persisted_state_checks": 56,
+  "handoff_transfer_checks": 42,
+  "harness_evidence_level": "scripted_controls_only",
+  "model_http_requests_attempted": 1,
+  "valid_model_completions": 0,
+  "model_counts": {
+    "NOT_RUN": 56
+  },
+  "live_oocc_access": false,
+  "blindness": "Answers and future evidence omitted from target packets; public browsing and session freshness cannot be guaranteed.",
+  "hypothesis_status": "UNRESOLVED",
+  "public_entries": [
+    {
+      "packet_id": "17ed092ae50e768e28b2",
+      "entry": "blind/entries/17ed092ae50e768e28b2/ENTRY.md"
+    },
+    {
+      "packet_id": "a134058f0ccb2dbe24d0",
+      "entry": "blind/entries/a134058f0ccb2dbe24d0/ENTRY.md"
+    }
+  ],
+  "evaluator_suite": {
+    "count": 102,
+    "status": "PASS",
+    "scope": "Local harness tests only"
+  },
+  "blockers": [
+    {
+      "id": "model_transport",
+      "evidence": "One HTTP request; no usable model-response JSON",
+      "effect": "56 target stages NOT_RUN"
+    },
+    {
+      "id": "alternative_client",
+      "evidence": "Initialization failed on a read-only filesystem even with scoped sandbox write permission; exact path unresolved",
+      "effect": "No alternative model session started"
+    },
+    {
+      "id": "live_oocc",
+      "evidence": "No authorized current system adapter, governance snapshots or independent readbacks",
+      "effect": "Native behavior not tested"
+    },
+    {
+      "id": "blindness",
+      "evidence": "Public links cannot enforce isolation or prove freshness",
+      "effect": "Answer-hidden development entry only; not a double-blind efficacy study"
+    }
+  ]
+}
