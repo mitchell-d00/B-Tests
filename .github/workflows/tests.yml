@@ -1,0 +1,16 @@
+name: B-Tests local harness
+on:
+  push:
+  pull_request:
+jobs:
+  offline-unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Unit and negative-control checks
+        run: python -m unittest discover -s tests -v
+      - name: Native tests truthfully not run without a pinned adapter
+        run: python -m tools.kill_harness --out evaluation/not_run.json
