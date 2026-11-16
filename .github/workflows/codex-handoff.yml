@@ -1,0 +1,42 @@
+name: Export Codex handoff source bundle
+on:
+  push:
+    paths:
+      - .github/workflows/codex-handoff.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: btests
+      - uses: actions/checkout@v4
+        with:
+          repository: mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages
+          ref: 257e54a51edac272eb6b2441457f38a40485ee4d
+          path: mplpb
+      - name: Prepare complete source trees
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p stage/B-Tests stage/MPLPB_pinned
+          rsync -a --exclude='.git' btests/ stage/B-Tests/
+          rsync -a --exclude='.git' mplpb/ stage/MPLPB_pinned/
+          {
+            echo 'B-Tests head: '${GITHUB_SHA}
+            echo 'MPLPB pinned: 257e54a51edac272eb6b2441457f38a40485ee4d'
+            echo 'B-Tests: https://github.com/mitchell-d00/B-Tests'
+            echo 'MPLPB: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages'
+            echo 'These sources are included for reproducibility; no AI inference results are implied.'
+          } > stage/REVISIONS.txt
+          cd stage
+          zip -q -r ../btests_sources_for_codex.zip .
+      - name: Upload source archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: btests-codex-source-package
+          path: btests_sources_for_codex.zip
+          if-no-files-found: error
