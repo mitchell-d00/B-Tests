@@ -1,0 +1,426 @@
+{
+  "observed_on": "2026-11-16",
+  "source": "GitHub repository metadata and complete default-branch commit listings where recorded; README dates separately identified",
+  "repositories": [
+    {
+      "name": "mplpb-swarm-scale",
+      "url": "https://github.com/mitchell-d00/mplpb-swarm-scale",
+      "created_at": "2026-08-30T15:06:37Z",
+      "pushed_at": "2026-08-30T16:09:21Z",
+      "default_branch": "main",
+      "pinned_head": "58effb11ab35e817862057b8312051a2582cdee6",
+      "head_author_date": "2026-08-30T16:09:21Z",
+      "head_committer_date": "2026-08-30T16:09:21Z",
+      "commit_sample_count": 66,
+      "history_complete_for_default_branch": true,
+      "roots": [
+        {
+          "sha": "acffedf41f42dc77dec470a4f28d5c53ac5498f8",
+          "author_date": "2026-08-30T15:06:37Z",
+          "committer_date": "2026-08-30T15:06:37Z",
+          "message": "Initial commit"
+        }
+      ],
+      "earliest_sample": {
+        "sha": "acffedf41f42dc77dec470a4f28d5c53ac5498f8",
+        "author_date": "2026-08-30T15:06:37Z",
+        "committer_date": "2026-08-30T15:06:37Z"
+      },
+      "readme_blob": "ca8f3d987cf699a8c9abdfc6da0257697b4970cc",
+      "readme_date_lines": [
+        "[CORPUS-A · OPS-ROLLBACK-003 · ops/rollback.html · 2026-08-30T00:00Z v1 · local · current · origin=taught d1]"
+      ]
+    },
+    {
+      "name": "networked-mplpb",
+      "url": "https://github.com/mitchell-d00/networked-mplpb",
+      "created_at": "2026-09-19T03:39:15Z",
+      "pushed_at": "2026-09-19T04:08:10Z",
+      "default_branch": "main",
+      "pinned_head": "9caffbb60b45908c8f100eda797492f21b8eb85b",
+      "head_author_date": "2026-09-19T04:08:10Z",
+      "head_committer_date": "2026-09-19T04:08:10Z",
+      "commit_sample_count": 37,
+      "history_complete_for_default_branch": true,
+      "roots": [
+        {
+          "sha": "cac820b96dbf475a990ee47b560fee7f1fdc3e82",
+          "author_date": "2026-09-19T03:39:16Z",
+          "committer_date": "2026-09-19T03:39:16Z",
+          "message": "Initial commit"
+        }
+      ],
+      "earliest_sample": {
+        "sha": "cac820b96dbf475a990ee47b560fee7f1fdc3e82",
+        "author_date": "2026-09-19T03:39:16Z",
+        "committer_date": "2026-09-19T03:39:16Z"
+      },
+      "readme_blob": "4bd0510e2df3af383438abc9834c2ebabd4b116f",
+      "readme_date_lines": [
+        "- *Continuity Without Memory* (2026) — the collected specifications"
+      ]
+    },
+    {
+      "name": "SMART-LOCAL-MPLPB-A-Retrieval-Bounded-Front-End-for-a-Local-Web",
+      "url": "https://github.com/mitchell-d00/SMART-LOCAL-MPLPB-A-Retrieval-Bounded-Front-End-for-a-Local-Web",
+      "created_at": "2026-08-12T15:48:37Z",
+      "pushed_at": "2026-08-12T16:07:07Z",
+      "default_branch": "main",
+      "pinned_head": "984d3cba78f1c01eef3ab1d90321ea3d9f9ea86d",
+      "head_author_date": "2026-08-12T16:07:07Z",
+      "head_committer_date": "2026-08-12T16:07:07Z",
+      "commit_sample_count": 22,
+      "history_complete_for_default_branch": true,
+      "roots": [
+        {
+          "sha": "e99664e6b219fa7a4e071e0c63a49495c0f8bfc0",
+          "author_date": "2026-08-12T15:48:38Z",
+          "committer_date": "2026-08-12T15:48:38Z",
+          "message": "Initial commit"
+        }
+      ],
+      "earliest_sample": {
+        "sha": "e99664e6b219fa7a4e071e0c63a49495c0f8bfc0",
+        "author_date": "2026-08-12T15:48:38Z",
+        "committer_date": "2026-08-12T15:48:38Z"
+      },
+      "readme_blob": "968eea388d240d242aefa9c95de4ed53869fdf44",
+      "readme_date_lines": [
+        "- *Continuity Without Memory* (2026) — the collected specifications"
+      ]
+    },
+    {
+      "name": "-The-Local-Mirror-MPLPB-as-a-Self-Contained-Offline-Site",
+      "url": "https://github.com/mitchell-d00/-The-Local-Mirror-MPLPB-as-a-Self-Contained-Offline-Site",
+      "created_at": "2026-08-05T16:23:21Z",
+      "pushed_at": "2026-08-26T15:54:27Z",
+      "default_branch": "main",
+      "pinned_head": "e5de7e1cade1ca40dc564c5dfdee59a824108c6d",
+      "head_author_date": "2026-08-26T15:54:27Z",
+      "head_committer_date": "2026-08-26T15:54:27Z",
+      "commit_sample_count": 36,
+      "history_complete_for_default_branch": true,
+      "roots": [
+        {
+          "sha": "6698174a88fe9a28d573c408b92622bd8946a9ed",
+          "author_date": "2026-08-05T16:23:21Z",
+          "committer_date": "2026-08-05T16:23:21Z",
+          "message": "Initial commit"
+        }
+      ],
+      "earliest_sample": {
+        "sha": "6698174a88fe9a28d573c408b92622bd8946a9ed",
+        "author_date": "2026-08-05T16:23:21Z",
+        "committer_date": "2026-08-05T16:23:21Z"
+      },
+      "readme_blob": "7f0105f6b4be7cfbed9befc34e1848319d53e38e",
+      "readme_date_lines": [
+        "<meta name=\"mplpb:updated\"     content=\"2026-08-05T18:40Z v2\">"
+      ]
+    },
+    {
+      "name": "Scope-Run-Time",
+      "url": "https://github.com/mitchell-d00/Scope-Run-Time",
+      "created_at": "2026-05-22T18:35:15Z",
+      "pushed_at": "2026-10-07T19:40:05Z",
+      "default_branch": "main",
+      "pinned_head": "352d8733913fb14d91adb4fe227aa782988f363c",
+      "head_author_date": "2026-10-07T19:39:33Z",
+      "head_committer_date": "2026-10-07T19:39:33Z",
+      "commit_sample_count": 24,
+      "history_complete_for_default_branch": true,
+      "roots": [
+        {
+          "sha": "bfbde23bd60f0c5117dedbb5fd2c8c2aa5b88ccb",
+          "author_date": "2026-05-22T18:43:41Z",
+          "committer_date": "2026-05-22T18:43:41Z",
+          "message": "Add SCOPE framework documentation"
+        }
+      ],
+      "earliest_sample": {
+        "sha": "bfbde23bd60f0c5117dedbb5fd2c8c2aa5b88ccb",
+        "author_date": "2026-05-22T18:43:41Z",
+        "committer_date": "2026-05-22T18:43:41Z"
+      },
+      "readme_blob": "d22508dfae603947f40eba98f70de1eb24f99c48",
+      "readme_date_lines": [
+        "**June 2026**",
+        "- McPhetridge, M.D. (2026). \"Using Recursive Entropy as a Tool to Break Recursive Entropy Loops.\" *PhilArchive, Academia.edu*",
+        "- McPhetridge, M.D. (2025). \"Recursion of Representation Under Constraint.\" *PhilPapers*",
+        "- McPhetridge, M.D. (2026). \"Dynamic Recursive Entropy Model (DREM) with PyTorch.\" *Medium*"
+      ]
+    },
+    {
+      "name": "Scope-Scan",
+      "url": "https://github.com/mitchell-d00/Scope-Scan",
+      "created_at": "2026-10-07T21:42:55Z",
+      "pushed_at": "2026-10-07T21:45:27Z",
+      "default_branch": "main",
+      "pinned_head": "a84be94f75bc5e2eedacb77f1132e7c4e79f5cbf",
+      "head_author_date": "2026-10-07T21:45:22Z",
+      "head_committer_date": "2026-10-07T21:45:22Z",
+      "commit_sample_count": 2,
+      "history_complete_for_default_branch": true,
+      "roots": [
+        {
+          "sha": "1564a10ba82a9d3fda2341b49635f469b55ca02f",
+          "author_date": "2026-10-07T21:42:57Z",
+          "committer_date": "2026-10-07T21:42:57Z",
+          "message": "Initial commit"
+        }
+      ],
+      "earliest_sample": {
+        "sha": "1564a10ba82a9d3fda2341b49635f469b55ca02f",
+        "author_date": "2026-10-07T21:42:57Z",
+        "committer_date": "2026-10-07T21:42:57Z"
+      },
+      "readme_blob": "a39a17cd1874bf74e4e5f37dc858c54c8e69b246",
+      "readme_date_lines": []
+    },
+    {
+      "name": "Multi-Platform-Linked-Public-Building-as-a-Cognitive-Strategy-",
+      "url": "https://github.com/mitchell-d00/Multi-Platform-Linked-Public-Building-as-a-Cognitive-Strategy-",
+      "created_at": "2026-05-22T18:59:52Z",
+      "pushed_at": "2026-07-29T16:47:32Z",
+      "default_branch": "main",
+      "pinned_head": "9dcc77d0729e07eb5441db305d8ead305ec05b9f",
+      "head_author_date": "2026-07-29T16:47:30Z",
+      "head_committer_date": "2026-07-29T16:47:30Z",
+      "commit_sample_count": 4,
+      "history_complete_for_default_branch": true,
+      "roots": [
+        {
+          "sha": "2874335c80a35e0aa27a4e332b661fc291860445",
+          "author_date": "2026-05-22T19:05:18Z",
+          "committer_date": "2026-05-22T19:05:18Z",
+          "message": "Initial commit"
+        }
+      ],
+      "earliest_sample": {
+        "sha": "2874335c80a35e0aa27a4e332b661fc291860445",
+        "author_date": "2026-05-22T19:05:18Z",
+        "committer_date": "2026-05-22T19:05:18Z"
+      },
+      "readme_blob": "c0a0d17ac5034ac977e53c2890132f26ce525618",
+      "readme_date_lines": [
+        "**Updated**: 2026-05-22  "
+      ]
+    },
+    {
+      "name": "portable-evidence-runtime",
+      "url": "https://github.com/mitchell-d00/portable-evidence-runtime",
+      "created_at": "2026-11-11T14:51:31Z",
+      "pushed_at": "2026-11-11T15:18:07Z",
+      "default_branch": "main",
+      "pinned_head": "4fdc20193c01f82baea0598b4c7d8ef3040772d5",
+      "head_author_date": "2026-11-11T15:18:07Z",
+      "head_committer_date": "2026-11-11T15:18:07Z",
+      "commit_sample_count": 3,
+      "history_complete_for_default_branch": true,
+      "roots": [
+        {
+          "sha": "c5164110d25df94d611c38712fad5dc4b9f7a6a2",
+          "author_date": "2026-11-11T14:51:32Z",
+          "committer_date": "2026-11-11T14:51:32Z",
+          "message": "Initial commit"
+        }
+      ],
+      "earliest_sample": {
+        "sha": "c5164110d25df94d611c38712fad5dc4b9f7a6a2",
+        "author_date": "2026-11-11T14:51:32Z",
+        "committer_date": "2026-11-11T14:51:32Z"
+      },
+      "readme_blob": "1e816cb9c408ec27c41eb2e65ee6bbbd9f1b1cd5",
+      "readme_date_lines": [
+        "Research by **Mitchell D. McPhetridge** · 11 November 2026"
+      ]
+    },
+    {
+      "name": "mplpb-residual-experiment",
+      "url": "https://github.com/mitchell-d00/mplpb-residual-experiment",
+      "created_at": "2026-11-11T12:58:16Z",
+      "pushed_at": "2026-11-11T13:16:10Z",
+      "default_branch": "main",
+      "pinned_head": "1ec160051ba306ce61d74ba3186f0aa5873694c5",
+      "head_author_date": "2026-11-11T13:16:02Z",
+      "head_committer_date": "2026-11-11T13:16:02Z",
+      "commit_sample_count": 2,
+      "history_complete_for_default_branch": true,
+      "roots": [
+        {
+          "sha": "ca002ace6a7c54a5ad3022e6032a8ae877b269f6",
+          "author_date": "2026-11-11T12:58:18Z",
+          "committer_date": "2026-11-11T12:58:18Z",
+          "message": "Initial commit"
+        }
+      ],
+      "earliest_sample": {
+        "sha": "ca002ace6a7c54a5ad3022e6032a8ae877b269f6",
+        "author_date": "2026-11-11T12:58:18Z",
+        "committer_date": "2026-11-11T12:58:18Z"
+      },
+      "readme_blob": "74a9c1c5fd2d5a0a52038d59c04becabd67fd15e",
+      "readme_date_lines": []
+    },
+    {
+      "name": "Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+      "url": "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+      "created_at": "2026-10-07T15:25:59Z",
+      "pushed_at": "2026-11-16T01:27:50Z",
+      "default_branch": "main",
+      "pinned_head": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+      "head_author_date": "2026-11-16T01:27:49Z",
+      "head_committer_date": "2026-11-16T01:27:49Z",
+      "commit_sample_count": 492,
+      "history_complete_for_default_branch": true,
+      "roots": [
+        {
+          "sha": "b874d0e3b3efc833af6161ce527ad7e769228bce",
+          "author_date": "2026-10-07T15:26:00Z",
+          "committer_date": "2026-10-07T15:26:00Z",
+          "message": "Initial commit"
+        }
+      ],
+      "earliest_sample": {
+        "sha": "b874d0e3b3efc833af6161ce527ad7e769228bce",
+        "author_date": "2026-10-07T15:26:00Z",
+        "committer_date": "2026-10-07T15:26:00Z"
+      },
+      "readme_blob": "7b8172712a1377a23175c30326365175a9dccaed",
+      "readme_date_lines": [
+        "Last reviewed: 2026-11-10. See [current status and result-to-test index](docs/CURRENT_STATUS_2026-11-08.md). Dates and numeric results in historical validation sections retain their original scope; this review is not a rerun or independent certification.",
+        "This source candidate is **2.1.0rc1**, following the 2.0.0 bounded-reader release; the legacy core reports **1.0.0**. These are distinct from the JavaScript API's **1.0.0**, retrieval contract `gated-page-retrieval-v1`, paper versions, and content-derived browser build IDs. Compatibility does not mean legacy source bytes never change: the October 27 retrieval repair changed lexical matching while retaining its separate authority.",
+        "See the [November 8 implementation and verification status](docs/CURRENT_STATUS_2026-11-08.md) for merged changes, actual checks and remaining product gaps, and the [result-to-test index](docs/RESULTS_AND_TESTS.md) for reproduction. The October 31 status remains historical.",
+        "The bundle includes Open English WordNet 2025 (128,009 entries and 107,558 synsets), 111 CMU Link Grammar data/reference files, and 23 selected Simple English Wikipedia captures. The grammar parser is not running, and the encyclopedia selection is not all of Wikipedia. Resources retain [licenses, exact revisions, and attribution](resources/README.md).",
+        "The latest lexical retrieval repair is recorded in [FIXLOG.md](FIXLOG.md); the broader [October 21 system audit](docs/SYSTEM_AUDIT_2026-10-21.md) and [answer reliability review](docs/ANSWER_RELIABILITY.md) record their own revisions and limits. Development fixtures and inspected external excerpts are not independent production accuracy measurements. See [evaluation protocol](evaluation/README.md) and [ownership failures/comparisons](evaluation/ownership/README.md).",
+        "The [October 31 practical coverage repair](evaluation/practical-coverage/README.md) adds six supported returns across the frozen pottery sets, with no observed wrong returns and substantial remaining coverage gaps. The implemented [source-bound operational-relation extension](docs/OPERATIONAL_EVIDENCE.md) handles exact conditional outcomes and separation-list instructions, documents the wider error classes, and adds adversarial regression tests; the original **6/59 (10.2%)** remains historical. The separately pinned graph/language retest records 12/59 document returns, with the semantic limitations above. The [specialist work coordinator](docs/SPECIALIST_CONTINUITY.md) implements durable tasks, revisable claims, failed attempts, scoped seat capabilities and filtered handoffs through a native CLI and dedicated local API. Run `python -m tools.demo_specialist_continuity` for the five-instance interruption/recovery fixture; see [API usage](docs/SPECIALIST_CONTINUITY_API.md).",
+        "Mitchell D. McPhetridge · October 2026",
+        "Source-language contradiction repair and per-case audit (2026-11-02): [evaluation/language-audit/README.md](evaluation/language-audit/README.md). Finite predicate polarity and storage paraphrases; synthetic validation is not independent human accuracy."
+      ]
+    },
+    {
+      "name": "MPLPB-Image-A-Signed-Retrieval-Bounded-Wall-for-Generated-and-Captured-Pictures",
+      "url": "https://github.com/mitchell-d00/MPLPB-Image-A-Signed-Retrieval-Bounded-Wall-for-Generated-and-Captured-Pictures",
+      "created_at": "2026-09-29T03:40:05Z",
+      "pushed_at": "2026-09-29T03:46:45Z",
+      "default_branch": "main",
+      "pinned_head": "4c4d1f2cd4184e2f6ad0f314f6198eceee0a8567",
+      "head_author_date": "2026-09-29T03:46:45Z",
+      "head_committer_date": "2026-09-29T03:46:45Z",
+      "commit_sample_count": 14,
+      "history_complete_for_default_branch": true,
+      "roots": [
+        {
+          "sha": "b85f9088caf07f1ce38086b466539f8718464816",
+          "author_date": "2026-09-29T03:40:06Z",
+          "committer_date": "2026-09-29T03:40:06Z",
+          "message": "Initial commit"
+        }
+      ],
+      "earliest_sample": {
+        "sha": "b85f9088caf07f1ce38086b466539f8718464816",
+        "author_date": "2026-09-29T03:40:06Z",
+        "committer_date": "2026-09-29T03:40:06Z"
+      },
+      "readme_blob": "6c962c1dafb0e9c99cb5a17fd2049153a8c1117f",
+      "readme_date_lines": [
+        "Mitchell D. McPhetridge · September 2026"
+      ]
+    },
+    {
+      "name": "Advanced-MPLPB-Provenance-Gated-Refusal-Ledger",
+      "url": "https://github.com/mitchell-d00/Advanced-MPLPB-Provenance-Gated-Refusal-Ledger",
+      "created_at": "2026-10-27T15:49:49Z",
+      "pushed_at": "2026-10-29T15:01:45Z",
+      "default_branch": "main",
+      "pinned_head": "664ea59b51cb01e125801a9528e8726f9f9e97de",
+      "head_author_date": "2026-10-29T14:11:21Z",
+      "head_committer_date": "2026-10-29T14:11:21Z",
+      "commit_sample_count": 10,
+      "history_complete_for_default_branch": true,
+      "roots": [
+        {
+          "sha": "3231a1074129161b77af15537ae3ecb767c4cff1",
+          "author_date": "2026-10-27T15:49:50Z",
+          "committer_date": "2026-10-27T15:49:50Z",
+          "message": "Initial commit"
+        }
+      ],
+      "earliest_sample": {
+        "sha": "3231a1074129161b77af15537ae3ecb767c4cff1",
+        "author_date": "2026-10-27T15:49:50Z",
+        "committer_date": "2026-10-27T15:49:50Z"
+      },
+      "readme_blob": "f13830f687ae91fec0b4799eb1d63d9275b7f89d",
+      "readme_date_lines": [
+        "Each project is pinned to an exact commit selected on 2026-10-27. These are",
+        "passed in [run 40887912028](https://github.com/mitchell-d00/Advanced-MPLPB-Provenance-Gated-Refusal-Ledger/actions/runs/40887912028);"
+      ]
+    },
+    {
+      "name": "OneOwner-powered-by-MPLPB",
+      "url": "https://github.com/mitchell-d00/OneOwner-powered-by-MPLPB",
+      "created_at": "2026-11-02T19:01:09Z",
+      "pushed_at": "2026-11-07T18:03:49Z",
+      "default_branch": "main",
+      "pinned_head": "dbdf85ccde83580705b8804586051854de69b9a7",
+      "head_author_date": "2026-11-07T18:03:44Z",
+      "head_committer_date": "2026-11-07T18:03:44Z",
+      "commit_sample_count": 18,
+      "history_complete_for_default_branch": true,
+      "roots": [
+        {
+          "sha": "6a8772d4099ebdc4b1c2bee274bb9ccd653ce1af",
+          "author_date": "2026-11-02T19:01:11Z",
+          "committer_date": "2026-11-02T19:01:11Z",
+          "message": "Initial commit"
+        }
+      ],
+      "earliest_sample": {
+        "sha": "6a8772d4099ebdc4b1c2bee274bb9ccd653ce1af",
+        "author_date": "2026-11-02T19:01:11Z",
+        "committer_date": "2026-11-02T19:01:11Z"
+      },
+      "readme_blob": "568e07f8db4bceda12ab6276641363e88792367e",
+      "readme_date_lines": []
+    },
+    {
+      "name": "B-Tests",
+      "url": "https://github.com/mitchell-d00/B-Tests",
+      "created_at": "2026-11-15T23:20:47Z",
+      "pushed_at": "2026-11-16T04:21:28Z",
+      "default_branch": "main",
+      "pinned_head": "f308f9ef9199c946dfd183f98b1a389a2a68a96d",
+      "head_author_date": "2026-11-16T04:21:28Z",
+      "head_committer_date": "2026-11-16T04:21:28Z",
+      "commit_sample_count": 24,
+      "history_complete_for_default_branch": true,
+      "roots": [
+        {
+          "sha": "4a7105646f4fb8c0b00413ba7eb9b9ab373e1faf",
+          "author_date": "2026-11-15T23:20:49Z",
+          "committer_date": "2026-11-15T23:20:49Z",
+          "message": "Initial commit"
+        }
+      ],
+      "earliest_sample": {
+        "sha": "4a7105646f4fb8c0b00413ba7eb9b9ab373e1faf",
+        "author_date": "2026-11-15T23:20:49Z",
+        "committer_date": "2026-11-15T23:20:49Z"
+      },
+      "readme_blob": "cba49e18e40d14dd7159fe7fdf3e4e4f1a9cb9f4",
+      "readme_date_lines": [
+        "[system scope](docs/OOCC_2026_SYSTEM_SCOPE.md).",
+        "## Current benchmark — 16 November 2026",
+        "16 November 2026: [Markdown](docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md) ·",
+        "  --seed 20261116 --pages 64 --relations 5120"
+      ]
+    }
+  ],
+  "limits": [
+    "Repository creation is not proof of first public availability, scientific priority or implementation completeness.",
+    "Git author/committer timestamps are recorded metadata, not independent trusted timestamps.",
+    "Document dates, source commits, native tests and reported experiments must not be interchanged.",
+    "No claim about why Ben selected a pin is inferred from this chronology."
+  ]
+}

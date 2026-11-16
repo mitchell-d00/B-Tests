@@ -62,5 +62,34 @@
       ]
     }
   ],
-  "claim_boundary": "Specific task results, not overall falsification or proof of immunity. Independent review, native effects and Functional Layers forecasting remain unavailable or unexecuted."
+  "claim_boundary": "Specific task results, not overall falsification or proof of immunity. Native MPLPB effects were checked; native OOCC access, independent quality review and Functional Layers forecasting remain unavailable or unexecuted.",
+  "native_mplpb": {
+    "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+    "replay": "research_lab.native_evidence",
+    "evidence": "evaluation/mplpb-native/sha256.json",
+    "full_python_tests": 887,
+    "additional_commands_passed": 7,
+    "bundled_component_tests": {
+      "smart-local": 52,
+      "swarm": 145,
+      "networked": 61,
+      "image": 93
+    },
+    "repeat_not_additional_coverage": "Component checker repeats Combined 887.",
+    "paired_probe_counts": {
+      "historical": {
+        "PASS": 5,
+        "FAIL": 2
+      },
+      "current": {
+        "PASS": 7,
+        "FAIL": 0
+      }
+    },
+    "historical_failure_cases": [
+      "contradictory_claim",
+      "claim_only_chain"
+    ],
+    "scope": "Native authored suites and probes, not Ben private benchmark reproduction or general truth certification. Environment and harness failures are retained."
+  }
 }

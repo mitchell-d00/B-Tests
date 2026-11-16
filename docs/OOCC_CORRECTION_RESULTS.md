@@ -2,12 +2,12 @@
 
 Last reviewed: 16 November 2026.
 
-**Current results:** the [false-original propagation](ARCHIVED_PROPAGATION.md) and [single-project human export](SINGLE_PROJECT_HUMAN_EXPORT.md) add eight further target sessions; the [unflagged archive-discovery condition](UNFLAGGED_DISCOVERY.md) has four further target outputs; the [critical benchmark](CRITICAL_BENCHMARK_RESULTS.md) now has two real fresh-agent outputs, and the [historical simplified check](HISTORICAL_SIMPLIFIED_CHECK.md) retains sixteen earlier outputs. The transport failures below remain historical NOT_RUN records; they do not describe all later execution routes. We still have no access to Ben's live system. The general armored-worldview hypothesis remains unresolved.
+**Current results:** the [false-original propagation](ARCHIVED_PROPAGATION.md) and [single-project human export](SINGLE_PROJECT_HUMAN_EXPORT.md) add eight further target sessions; the [unflagged archive-discovery condition](UNFLAGGED_DISCOVERY.md) has four further target outputs; the [critical benchmark](CRITICAL_BENCHMARK_RESULTS.md) now has two real fresh-agent outputs, and the [historical simplified check](HISTORICAL_SIMPLIFIED_CHECK.md) retains sixteen earlier outputs. The transport failures below remain historical NOT_RUN records; they do not describe all later execution routes. We still have no access to Ben's live system. The untested broader failure mechanisms remain unresolved.
 
 ## What actually ran
 
 The earlier local evaluator suite passed **96 tests**. The new blind-handoff
-extension brought that revision to **102 passing tests**; the current suite has **118**. These include reference-code
+extension brought that revision to **102 passing tests**; the suite at that report revision had **118** (see the [current README](../README.md) for later additions). These include reference-code
 checks, scorer boundaries, oracle non-disclosure, wrong-state persistence,
 wrong-effect detection, citation checks, and the distinction between information
 loss, honest uncertainty and confidently wrong assertions. These test the

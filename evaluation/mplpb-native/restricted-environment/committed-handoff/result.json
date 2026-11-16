@@ -1,0 +1,16 @@
+{
+  "id": "committed-handoff",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "tools/build_handoff.py",
+    "--check"
+  ],
+  "status": "PASS",
+  "exit_code": 0,
+  "elapsed_seconds": 0.23555966300045839,
+  "unittest_count": null,
+  "stdout_sha256": "1252528ec89069d80ec7aa1bb7cceaeadf3f7fba36db2699dc85a228971b4265",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "evidence_level": "native_unmodified_repository_execution",
+  "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+}

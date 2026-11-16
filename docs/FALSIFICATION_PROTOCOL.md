@@ -2,12 +2,12 @@
 
 **Mitchell D. McPhetridge — 15 November 2026**
 
-I am not trying to make a CAD-inspired toy pass. My subject is the actual dated claims and implementations of Benjamin Gelhaus's OOCC, CAD, Artificial Tangibility, and Functional Layers. In this repository, **armored worldview engine** names a *falsifiable risk*: an external map becomes a source of apparent truth, protects prior human-approved interpretations, and turns negative evidence into smooth continuity. It is not a demonstrated verdict about the actual code or a diagnosis of the author.
+This protocol tests dated claims and mechanisms of OOCC, CAD, Artificial Tangibility and Functional Layers. It examines whether errors persist, unsupported relationships gain authority, and compression loses necessary evidence. These are test conditions, not a predetermined outcome. Current scope and terminology updated 16 November 2026; historical versions remain in Git history.
 
-## Three ways an interpretation can become armored
+## Three error-propagation mechanisms
 
 1. **Authority inversion:** The historical map, salience weight, or human approval is treated as stronger factual evidence than an eligible current original. Counterexample: a new source states port 6200, orientation still states 6100.
-2. **Relationship saturation and monism:** Ten projects, hundreds of candidate bridges, copied root evidence, and repeated model agreement are treated as independent proof of one cause. Correct behavior keeps exploratory connections provisional, bounds the active graph, and rejects false causal bridges.
+2. **Unsupported relationship inference:** Ten projects, hundreds of candidate bridges, copied root evidence, and repeated model agreement are treated as independent proof of one cause. Correct behavior keeps exploratory connections provisional, bounds the active graph, and rejects false causal bridges.
 3. **Compression-smoothing:** A summarized reason is lost but its conclusion survives; a failed read is omitted but a later artifact remains; a rejected hypothesis is dropped but its causal edge becomes active again; or a fresh model confidently reconstructs missing original evidence from context. Correct behavior preserves linkable negative evidence or explicitly downgrades claims and stops the affected action.
 
 ## Evidence and kill rules

@@ -5,7 +5,7 @@ The complete Git tree contained 2,016 entries. Forty-eight relevant public files
 were acquired and verified against their Git blob identities; the
 [manifest](../research/mplpb-method-audit.json) also records SHA-256 identities.
 This is a focused static review, not an exhaustive reading of every file or a
-fresh execution of MPLPB's native suites. Reported historical results remain reported.
+fresh execution by itself. Subsequent [native executions](MPLPB_NATIVE_COMPARISON.md) ran the complete pinned checkout and bundled component checks; reported historical results remain separate.
 
 ## Concrete mechanisms inspected
 

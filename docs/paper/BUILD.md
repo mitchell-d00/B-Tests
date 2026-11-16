@@ -3,7 +3,10 @@
 Canonical text: [Markdown](WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md). Generated
 [plain text](WHEN_THE_MAP_BECOMES_THE_AUTHORITY.txt) and
 [PDF](WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf) contain the same paper.
-These are a research draft, not peer-reviewed validation.
+These are a research draft, not peer-reviewed validation. Link destinations are
+printed in TXT/PDF so they remain recoverable outside Markdown. The legacy
+filename is retained for links; the current title is MPLPB and OOCC/CAD:
+Comparative Experiments.
 
 Experiment execution and result replay use only Python's standard library.
 Regenerating document formats additionally requires `pandoc`, DejaVu fonts and

@@ -1,0 +1,14 @@
+{
+  "cases": {
+    "contradictory_claim": false,
+    "claim_only_chain": false,
+    "supported_control": true,
+    "revoked_seat": false,
+    "changed_source": false
+  },
+  "old_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+  "current_revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+  "runner_sha256": "9143628be7a5c5c04345ec15a8b018860c5b80a12dbfd2e0d5b8fb2807cbebea",
+  "fixture": "Same source/task/propositions for both native revisions; no live models.",
+  "failure_interpretation": "Violation of this frozen probe criterion; does not establish Ben independently demonstrated that case or old claimed general semantic entailment."
+}

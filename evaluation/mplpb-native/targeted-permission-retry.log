@@ -1,0 +1,30 @@
+test_actual_adapter_is_wired_through_the_whole_query_pipeline (tests.test_local_reader.LocalReaderTests.test_actual_adapter_is_wired_through_the_whole_query_pipeline) ... ok
+test_duplicate_json_fields_and_nan_are_rejected (tests.test_local_reader.LocalReaderTests.test_duplicate_json_fields_and_nan_are_rejected) ... ok
+test_loopback_only_no_dns_paths_credentials_or_cloud_aliases (tests.test_local_reader.LocalReaderTests.test_loopback_only_no_dns_paths_credentials_or_cloud_aliases) ... ok
+test_no_calls_at_construction_and_explicit_pinned_metadata (tests.test_local_reader.LocalReaderTests.test_no_calls_at_construction_and_explicit_pinned_metadata) ... ok
+test_redirect_remote_model_and_changed_digest_fail_before_source_request (tests.test_local_reader.LocalReaderTests.test_redirect_remote_model_and_changed_digest_fail_before_source_request) ... ok
+test_same_model_cannot_silently_override_a_required_digest (tests.test_local_reader.LocalReaderTests.test_same_model_cannot_silently_override_a_required_digest) ... ok
+test_truncated_or_tool_output_is_rejected (tests.test_local_reader.LocalReaderTests.test_truncated_or_tool_output_is_rejected) ... ok
+test_local_http_rpc_requires_bearer_and_excludes_host_operations (tests.test_specialist_continuity.ContinuityTests.test_local_http_rpc_requires_bearer_and_excludes_host_operations) ... 127.0.0.1 - - [16/Nov/2026 04:41:03] "POST /api/work HTTP/1.1" 400 -
+127.0.0.1 - - [16/Nov/2026 04:41:03] "POST /api/work HTTP/1.1" 400 -
+127.0.0.1 - - [16/Nov/2026 04:41:03] "POST /api/work HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2026 04:41:03] "GET /api/query HTTP/1.1" 404 -
+127.0.0.1 - - [16/Nov/2026 04:41:03] "GET /api/page?corpus=studio&path=kiln/studio-0004.html HTTP/1.1" 404 -
+127.0.0.1 - - [16/Nov/2026 04:41:03] "GET /api/state HTTP/1.1" 404 -
+127.0.0.1 - - [16/Nov/2026 04:41:03] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [16/Nov/2026 04:41:03] "POST /api/query HTTP/1.1" 404 -
+ok
+test_multisentence_note_survives_restart_without_executing_its_contents (tests.test_researcher_pilot.LiteralResearchNoteTests.test_multisentence_note_survives_restart_without_executing_its_contents) ... ok
+test_note_limits_do_not_partially_save_and_quoted_note_is_not_a_command (tests.test_researcher_pilot.LiteralResearchNoteTests.test_note_limits_do_not_partially_save_and_quoted_note_is_not_a_command) ... ok
+test_broken_journey_stays_in_denominator_and_others_continue (tests.test_researcher_pilot.ResearcherPilotTests.test_broken_journey_stays_in_denominator_and_others_continue) ... ok
+test_changed_fixture_and_existing_output_fail_before_execution (tests.test_researcher_pilot.ResearcherPilotTests.test_changed_fixture_and_existing_output_fail_before_execution) ... ok
+test_correct_quote_does_not_certify_a_wrong_claim_or_model_output (tests.test_researcher_pilot.ResearcherPilotTests.test_correct_quote_does_not_certify_a_wrong_claim_or_model_output) ... ok
+test_refuse_everything_has_zero_answerable_coverage (tests.test_researcher_pilot.ResearcherPilotTests.test_refuse_everything_has_zero_answerable_coverage) ... ok
+test_report_identifies_synthetic_scope_and_does_not_export_credentials (tests.test_researcher_pilot.ResearcherPilotTests.test_report_identifies_synthetic_scope_and_does_not_export_credentials) ... ok
+test_retrieval_success_and_safe_refusal_do_not_hide_coverage_gap (tests.test_researcher_pilot.ResearcherPilotTests.test_retrieval_success_and_safe_refusal_do_not_hide_coverage_gap) ... ok
+test_six_complete_real_application_journeys (tests.test_researcher_pilot.ResearcherPilotTests.test_six_complete_real_application_journeys) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 16.784s
+
+OK

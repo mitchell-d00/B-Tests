@@ -1,0 +1,67 @@
+name: Pinned native MPLPB comparison
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  native-comparison:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: btests
+      - uses: actions/checkout@v4
+        with:
+          repository: mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages
+          ref: cc21ce300b5ec228c07fc77a149804fba6c89792
+          path: mplpb-current
+      - uses: actions/checkout@v4
+        with:
+          repository: mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages
+          ref: 257e54a51edac272eb6b2441457f38a40485ee4d
+          path: mplpb-old
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Full current native suite
+        working-directory: btests
+        run: python -m research_lab.mplpb_native_suite --mplpb-root ../mplpb-current --out ci-results/native
+      - name: Bundled historical components and adoption
+        if: always()
+        working-directory: btests
+        run: python -m research_lab.mplpb_parts_suite --mplpb-root ../mplpb-current --out ci-results/components
+      - name: Paired native boundary probes
+        if: always()
+        working-directory: btests
+        run: |
+          python -m research_lab.mplpb_seam_probe run --old-root ../mplpb-old --current-root ../mplpb-current --out ci-results/seams
+          python - <<'PY'
+          import json
+          r=json.load(open('ci-results/seams/summary.json'))['results']
+          old=[x for x in r if x['revision'].startswith('257e')]
+          current=[x for x in r if x['revision'].startswith('cc21')]
+          assert len(old)==len(current)==7
+          assert all(x['status']=='PASS' for x in current),current
+          assert [x['case'] for x in old if x['status']=='FAIL']==['contradictory_claim','claim_only_chain'],old
+          assert all(x['status']!='NOT_RUN' for x in r),r
+          PY
+      - name: Retain logs without native credentials or databases
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pinned-native-public-results
+          path: |
+            btests/ci-results/native/**
+            btests/ci-results/components/**
+            btests/ci-results/seams/freeze.json
+            btests/ci-results/seams/summary.json
+            btests/ci-results/seams/**/result.json
+            btests/ci-results/seams/**/stdout.txt
+            btests/ci-results/seams/**/stderr.txt
+            btests/ci-results/seams/**/effect.txt

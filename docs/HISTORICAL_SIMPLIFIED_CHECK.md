@@ -38,7 +38,7 @@ ID versus that ID plus `v1`. The task allowed prose in those fields. Both models
 also used `open` before the explicit blocking correction, while the key expected
 `blocked`; the source said criteria were unexecuted but did not explicitly require
 that label. These are scorer/contract limitations, not sixteen demonstrated
-worldview failures. The original scores are preserved without changing the key.
+information-state failures. The original scores are preserved without changing the key.
 
 The table above is a **post-hoc, unblinded semantic review by the root evaluating
 assistant**, separate from those scores. It is not a blinded comparative finding.

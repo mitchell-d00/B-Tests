@@ -1,0 +1,199 @@
+[
+  {
+    "run": "seams-1",
+    "freeze": {
+      "cases": {
+        "contradictory_claim": false,
+        "claim_only_chain": false,
+        "supported_control": true,
+        "revoked_seat": false,
+        "changed_source": false
+      },
+      "old_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "current_revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+      "runner_sha256": "3391e782dee1bf3f956624fcdc0d65ff641bee64e3e0b08eb8b43d2c3b06b541",
+      "fixture": "Same source/task/propositions for both native revisions; no live models.",
+      "failure_interpretation": "Violation of this frozen probe criterion; does not establish Ben independently demonstrated that case or old claimed general semantic entailment."
+    },
+    "not_run_records": [
+      {
+        "case": "contradictory_claim",
+        "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/older-checkout/mplpb_work/store.py\", line 203, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "claim_only_chain",
+        "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/older-checkout/mplpb_work/store.py\", line 203, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "supported_control",
+        "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/older-checkout/mplpb_work/store.py\", line 203, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "revoked_seat",
+        "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/older-checkout/mplpb_work/store.py\", line 203, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "changed_source",
+        "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/older-checkout/mplpb_work/store.py\", line 203, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "contradictory_claim",
+        "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/checkout/mplpb_work/store.py\", line 204, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "claim_only_chain",
+        "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/checkout/mplpb_work/store.py\", line 204, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "supported_control",
+        "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/checkout/mplpb_work/store.py\", line 204, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "revoked_seat",
+        "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/checkout/mplpb_work/store.py\", line 204, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "changed_source",
+        "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/checkout/mplpb_work/store.py\", line 204, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      }
+    ],
+    "cause": "Harness context-policy pin format invalid",
+    "target_code_changed": false
+  },
+  {
+    "run": "seams-2",
+    "freeze": {
+      "cases": {
+        "contradictory_claim": false,
+        "claim_only_chain": false,
+        "supported_control": true,
+        "revoked_seat": false,
+        "changed_source": false
+      },
+      "old_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "current_revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+      "runner_sha256": "9c2db1a82a43ee48ab2b78e19daaf4498b0d7e2e6f44c8130cd4203669301494",
+      "fixture": "Same source/task/propositions for both native revisions; no live models.",
+      "failure_interpretation": "Violation of this frozen probe criterion; does not establish Ben independently demonstrated that case or old claimed general semantic entailment."
+    },
+    "not_run_records": [
+      {
+        "case": "contradictory_claim",
+        "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/older-checkout/mplpb_work/store.py\", line 203, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "claim_only_chain",
+        "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/older-checkout/mplpb_work/store.py\", line 203, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "supported_control",
+        "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/older-checkout/mplpb_work/store.py\", line 203, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "revoked_seat",
+        "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/older-checkout/mplpb_work/store.py\", line 203, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "changed_source",
+        "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/older-checkout/mplpb_work/store.py\", line 203, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "contradictory_claim",
+        "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/checkout/mplpb_work/store.py\", line 204, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "claim_only_chain",
+        "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/checkout/mplpb_work/store.py\", line 204, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "supported_control",
+        "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/checkout/mplpb_work/store.py\", line 204, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "revoked_seat",
+        "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/checkout/mplpb_work/store.py\", line 204, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      },
+      {
+        "case": "changed_source",
+        "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 117, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 112, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 36, in worker\n    token=store.assign(host,seat='operator',instance='native-fixture',\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research/private_runs/mplpb-native-current/checkout/mplpb_work/store.py\", line 204, in assign\n    raise WorkError('Context policy needs a SHA-256 pin or explicit unknown')\nmplpb_work.errors.WorkError: Context policy needs a SHA-256 pin or explicit unknown\n"
+      }
+    ],
+    "cause": "Harness context-policy pin format invalid",
+    "target_code_changed": false
+  },
+  {
+    "run": "seams-4",
+    "freeze": {
+      "cases": {
+        "contradictory_claim": false,
+        "claim_only_chain": false,
+        "supported_control": true,
+        "revoked_seat": false,
+        "changed_source": false,
+        "unavailable_original": false,
+        "export_without_evidence": false
+      },
+      "old_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "current_revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+      "runner_sha256": "e0074536c3ec675bb534dd94b014a1d6a033adfdbfd80317178e488e9e0c95e5",
+      "fixture": "Same source/task/propositions for both native revisions; no live models.",
+      "failure_interpretation": "Violation of this frozen probe criterion; does not establish Ben independently demonstrated that case or old claimed general semantic entailment."
+    },
+    "not_run_records": [
+      {
+        "case": "unavailable_original",
+        "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 137, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 132, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 79, in worker\n    source.path.unlink()\n    ^^^^^^^^^^^^^^^^^^\nAttributeError: 'str' object has no attribute 'unlink'\n"
+      },
+      {
+        "case": "unavailable_original",
+        "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+        "status": "NOT_RUN",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 137, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 132, in main\n    if a.command=='worker':r=worker(a.root,a.out,a.case,a.revision)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/B-Tests/research_lab/mplpb_seam_probe.py\", line 79, in worker\n    source.path.unlink()\n    ^^^^^^^^^^^^^^^^^^\nAttributeError: 'str' object has no attribute 'unlink'\n"
+      }
+    ],
+    "cause": "Harness treated string source path as pathlib.Path",
+    "target_code_changed": false
+  }
+]

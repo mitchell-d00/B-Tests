@@ -5,7 +5,7 @@ Both rejected the false all-ready approved map, retained historical failures,
 respected the project-limited correction and revoked grants, distinguished stored
 packets from acknowledged reads, rejected unsupported causal influence, counted
 independent datasets correctly, and selected **P7 only** for local release.
-These outcomes do not demonstrate the proposed armored-worldview failure.
+These outcomes do not demonstrate unsupported propagation of inherited errors.
 
 CAD also returned an extra **Q120**, which was not a supplied question. That is an
 output-contract failure. The conventional arm returned only the 119 requested IDs.
@@ -115,7 +115,8 @@ python -m unittest discover -s tests -v
 python -m research_lab.critical_bench replay
 ```
 
-The local suite passes **118 tests**. Replay verifies the two recorded inputs,
+At this condition's report revision, the local suite passed **118 tests**; the
+[current README](../README.md) records subsequent additions. Replay verifies the two recorded inputs,
 committed answers/effects and original scores with **zero new model requests**.
 CI success means the retained evidence and evaluator are consistent; the target's
 recorded FAIL outcomes remain FAIL. New real AI runs follow the protocol's

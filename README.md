@@ -1,15 +1,42 @@
-# B-Tests — critical OOCC/CAD benchmark
+# B-Tests — MPLPB and OOCC/CAD comparative experiments
 
 This repository tests whether published OOCC/CAD instructions correct an inherited,
 human-approved interpretation when original evidence contradicts it. It also tests
 failure-history retention, permissions, causal relationships, receipts and compressed
-handoffs. The “armored worldview” concern is a hypothesis, not an established
-finding or a judgment of Benjamin Gelhaus.
+handoffs. Findings are limited to recorded executions and specified criteria; no
+claim of a global architectural victory is made.
 
 **We have no access to Ben’s live system.** These are instruction-level model tests
-and evaluator controls. They do not test his private Memory/Drive/SQL controller,
+and evaluator controls, alongside separate native MPLPB executions. They do not test his private Memory/Drive/SQL controller,
 scheduler, recipient acceptance or native action enforcement. See
 [system scope](docs/OOCC_2026_SYSTEM_SCOPE.md).
+
+## Current native MPLPB results
+
+The full unmodified MPLPB checkout at
+[`cc21ce300b5ec228c07fc77a149804fba6c89792`](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/tree/cc21ce300b5ec228c07fc77a149804fba6c89792)
+passed **887 Python tests and seven additional native checks**. Bundled components
+also passed: **Swarm 145, Networked 61, Smart Local 52 and Image 93**, plus
+adoption checks. The component checker repeated the Combined 887; that repeat is
+not additional coverage. No target code was modified.
+
+Seven paired native probes used the current version and the older
+`257e54a51edac272eb6b2441457f38a40485ee4d` pin identified by Ben. The older version
+allowed a contradictory claim and claim-only chain to invoke a real local executor;
+the current version blocked both. Current results: **7 PASS**. Historical results:
+**5 PASS, 2 FAIL against these probe criteria**. Valid controls really executed;
+blocked cases were checked through effect files and separate database readback.
+These are not reproductions of Ben's unavailable private benchmarks.
+
+[Native results, blockers and exact rerun commands](docs/MPLPB_NATIVE_COMPARISON.md) ·
+[Raw logs and hashes](evaluation/mplpb-native) ·
+[Dated ecosystem and all repository links](docs/MPLPB_CHRONOLOGY.md)
+
+An initial restricted-environment run failed because localhost sockets were denied;
+its logs remain. The unchanged full suite passed after that environment restriction
+was removed. A finite source checker is not a general factual truth guarantee.
+Native authored-suite counts are not comparable performance scores against AI
+session counts.
 
 ## Current benchmark — 16 November 2026
 
@@ -77,7 +104,7 @@ projects, independent validation or proof against all inherited-error reinforcem
 
 ## Paper and public-work comparison
 
-**When the Map Becomes the Authority**, by Mitchell D. McPhetridge, research draft
+**MPLPB and OOCC/CAD: Comparative Experiments**, by Mitchell D. McPhetridge, research draft
 16 November 2026: [Markdown](docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md) ·
 [TXT](docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.txt) ·
 [PDF](docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf).
@@ -86,9 +113,8 @@ The [build instructions](docs/paper/BUILD.md) regenerate TXT/PDF from Markdown.
 The paper reports the observed seams, including results favorable to CAD, and
 addresses the supplied *Beyond Guarded Retrieval* excerpt against the
 [focused current MPLPB source review](docs/MPLPB_PUBLIC_SOURCE_REVIEW.md).
-Forty-eight public files were acquired and Git-blob verified at a pinned revision;
-that static review is not an exhaustive system audit or a new native performance
-claim. Enforced finite contracts and successful instruction following remain
+The initial 48-file source review was followed by complete-checkout native
+execution. Neither is an exhaustive semantic audit. Enforced finite contracts and successful instruction following remain
 separate evidence levels.
 
 ## Repeat with any AI
@@ -123,9 +149,10 @@ python -m research_lab.agent_replay
 python -m research_lab.discovery_bench replay --root evaluation/discovery-1
 python -m research_lab.propagation_bench replay --root evaluation/propagation-1
 python -m research_lab.human_export_bench replay --root evaluation/human-export-1
+python -m research_lab.native_evidence
 ```
 
-The local suite passes **118 tests**. Public evidence is retained as inspectable UTF-8 JSON and JSONL. Replay verifies
+The local suite passes **121 tests**. Public evidence is retained as inspectable UTF-8 JSON and JSONL. Replay verifies
 original input hashes; optional lossless gzip input remains supported. Replay recomputes retained scores and file
 transfers; it makes **zero new model requests**. Unit-test passes are not target
 passes. Submitted local state/effects are saved before evaluation, without a hidden
@@ -153,7 +180,7 @@ answer.
 
 The benchmark applies source pins, negative controls, per-case evidence and explicit
 limits drawn from [MPLPB’s evaluation methods](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/main/evaluation/README.md).
-No performance finding about updated MPLPB is claimed here. Its finite source
-checker is not a general truth guarantee. Private correspondence, original supplied
+Updated MPLPB findings concern the pinned native suites and seven authored probes;
+they do not establish a general accuracy or workflow advantage. Private correspondence, original supplied
 PDFs and unused private outcomes are excluded from publication. Exhaustive reading
 and claim extraction across every supplied book is not claimed.

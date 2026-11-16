@@ -1,0 +1,12 @@
+{
+  "purpose": "Public release of native execution and evaluator records",
+  "private_correspondence_included": false,
+  "original_PDFs_included": false,
+  "native_databases_or_credentials_included": false,
+  "log_scope": "Unmodified public target development tests and synthetic native cases; setup failures retained. Full output is inspectable UTF-8.",
+  "source_targets_modified": false,
+  "new_model_requests": 0,
+  "retained_native_files": 148,
+  "scans": "No credential assignments, bearer tokens, GitHub/OpenAI token prefixes, or private-key headers found in this release evidence. Paths identify this synthetic execution workspace.",
+  "generated_PDF": "Derived only from the public Markdown paper; not a supplied original PDF."
+}
