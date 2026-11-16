@@ -30,6 +30,17 @@ class IndependentAuditControls(unittest.TestCase):
         f=compression()
         self.assertEqual(score_handoff(json.dumps({'facts':{},'citations':[{'source_id':'PROOF-9','quote':'proven'}]}),f,f['sources'])['status'],'FAIL')
 
+    def test_uncertainty_after_information_loss_is_not_hallucination(self):
+        f=compression()
+        r=score_handoff(json.dumps({'facts':{'test_passed':'unknown'},'citations':[]}),f,f['sources'])
+        self.assertTrue(r['safe_abstention_observed'])
+        self.assertEqual(r['wrong_assertions'],[])
+
+    def test_confident_wrong_conclusion_surviving_compression_is_identified(self):
+        f=compression()
+        r=score_handoff(json.dumps({'facts':{'test_passed':True},'citations':[]}),f,f['sources'])
+        self.assertIn('test_passed',r['wrong_assertions'])
+
     def test_graph_scale_is_actual_input_not_a_thousand_word_claim(self):
         for n in (10,100,1000,10000):
             g=graphs(n);self.assertEqual(len(g['questions']),n);self.assertEqual(len(g['projects']),10)

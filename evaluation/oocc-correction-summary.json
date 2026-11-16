@@ -1,0 +1,186 @@
+{
+  "schema": "oocc-execution-summary-1",
+  "tested_ci_revision": "dffcc38eba7dccf189122e15aef249d1ce377bfb",
+  "ci_run": "https://github.com/mitchell-d00/B-Tests/actions/runs/43788854947",
+  "artifact_id": 14191238541,
+  "artifact_sha256": "f6357f83d99f9b5b8a43f25830571ec7bf1a1c79e93c8ac0a65349970a41d258",
+  "ci_results_reconstructed_from_original_job_log": [
+    {
+      "case_id": "C01",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "status": "NOT_RUN",
+      "transport": {
+        "status": "NOT_RUN",
+        "blocker": "JSONDecodeError",
+        "http_status": 200,
+        "received_bytes": 4,
+        "elapsed_seconds": 0.4313959710000006,
+        "model_output_observed": false
+      }
+    },
+    {
+      "case_id": "C01",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "C02",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "C02",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "C03",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "C03",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "C06",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "C06",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "F01",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "F01",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "F01",
+      "trial": 0,
+      "arm": "FUNCTIONAL_VERBATIM",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "F02",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "F02",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "F02",
+      "trial": 0,
+      "arm": "FUNCTIONAL_VERBATIM",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "F03",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "F03",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "F03",
+      "trial": 0,
+      "arm": "FUNCTIONAL_VERBATIM",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "F04",
+      "trial": 0,
+      "arm": "CAD_VERBATIM",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "F04",
+      "trial": 0,
+      "arm": "CONVENTIONAL",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    },
+    {
+      "case_id": "F04",
+      "trial": 0,
+      "arm": "FUNCTIONAL_VERBATIM",
+      "status": "NOT_RUN",
+      "reason": "No valid model completion; see first transport receipt"
+    }
+  ],
+  "ci_counts": {
+    "NOT_RUN": 20
+  },
+  "ci_http_requests_attempted": 1,
+  "ci_valid_model_completions": 0,
+  "local_correction_counts": {
+    "NOT_RUN": 20
+  },
+  "local_compression_saturation_counts": {
+    "NOT_RUN": 24
+  },
+  "native_oocc_counts": {
+    "NOT_RUN": 38
+  },
+  "final_local_evaluator_tests": {
+    "count": 96,
+    "status": "PASS",
+    "evidence_level": "harness_only"
+  },
+  "live_system_access": false,
+  "hypothesis_status": "UNRESOLVED",
+  "current_mplpb_performance_evaluated": false,
+  "human_review_minutes": null,
+  "total_usd": null,
+  "limitations": [
+    "No target completion from either transport",
+    "No current live OOCC access",
+    "Development fixtures, not blind holdouts",
+    "Final code changed after first CI attempt; first CI revision remains explicitly pinned"
+  ]
+}

@@ -1,5 +1,9 @@
 # OOCC/CAD correction evaluation
 
+Last reviewed: 16 November 2026. See the [execution report](OOCC_CORRECTION_RESULTS.md)
+and [newer cloud-system scope](OOCC_2026_SYSTEM_SCOPE.md). No usable target completion
+was obtained locally or in the first CI pilot; those observations are `NOT_RUN`.
+
 This study asks whether inherited, human-approved interpretations retain working
 authority when stronger original evidence contradicts them. The hypothesis may
 lose: successful source correction, preserved failures and rejected relationships,

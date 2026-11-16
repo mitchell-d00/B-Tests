@@ -71,9 +71,14 @@ def score_handoff(text,fixture,sources):
     errors=[]
     facts=value.get('facts',{})
     if not isinstance(facts,dict): facts={};errors.append('facts_not_object')
+    wrong_assertions=[];unknown_fields=[]
     for k,v in fixture['oracle'].items():
         if k=='invented_source_forbidden': continue
-        if facts.get(k)!=v: errors.append('lost_or_changed:'+k)
+        field_value=facts.get(k)
+        if field_value!=v:
+            errors.append('lost_or_changed:'+k)
+            if field_value is None or field_value=='unknown':unknown_fields.append(k)
+            else:wrong_assertions.append(k)
     known={s['id']:s['body'] for s in sources}
     citations=value.get('citations',[])
     if not isinstance(citations,list):citations=[];errors.append('invalid_citations')
@@ -89,6 +94,8 @@ def score_handoff(text,fixture,sources):
     # adjudication to establish that they justify each field, not mere overlap.
     return {'status':'FAIL' if errors else 'INCONCLUSIVE','errors':errors,
             'level':'response_contract_only','contract_met':not errors,
+            'unknown_fields':unknown_fields,'wrong_assertions':wrong_assertions,
+            'safe_abstention_observed':bool(unknown_fields) and not wrong_assertions,
             'semantic_review':'pending_independent_review','response':value}
 
 def main():
@@ -100,14 +107,19 @@ def main():
     args=ap.parse_args();out=args.out
     if out.exists(): raise SystemExit('Use a new results directory; never overwrite observed runs.')
     out.mkdir(parents=True);models=args.models or ['gpt-4.1'];key=os.getenv(args.key_env)
-    rows=[];fixture=json.loads((ROOT/'research/frozen/handoff.json').read_text())
-    # Verify all frozen source/test inputs before any model request.
-    for sealname in ('seal.json','treatment_seal.json'):
-        for n,h in json.loads((ROOT/'research/frozen'/sealname).read_text()).items():
-            if sha((ROOT/'research/frozen'/n).read_bytes())!=h: raise ValueError('Altered frozen input: '+n)
+    # Freeze exact generated source bytes inside this new run before dispatch.
+    # Large graph files need not be manually copied into a checkout.
+    from .freeze import compression, graphs
+    inputs=out/'inputs';fixture=compression();save(inputs/'handoff.json',fixture)
+    if args.family in ('all','graph'):
+        for n in (10,100,1000,10000):save(inputs/f'graph_{n}.json',graphs(n))
+    input_seal={p.name:sha(p.read_bytes()) for p in sorted(inputs.glob('*.json'))}
+    save(inputs/'seal.json',input_seal)
+    rows=[];attempts=0;completions=0;transport_blocked=False
     save(out/'run_config.json',{'models':models,'endpoint':args.endpoint,'trials':args.trials,
         'key_environment_name':args.key_env,'credential_configured':bool(key),'family':args.family,
         'temperature':0,'max_output_tokens':1800,'independent_holdout':False,
+        'runner_sha256':sha(Path(__file__).read_bytes()),'input_seal':input_seal,
         'treatments':{a:sha(rules(a).encode()) for a in ('CAD_VERBATIM','CONVENTIONAL')}})
     for mi,model in enumerate(models):
       for trial in range(args.trials):
@@ -123,44 +135,55 @@ def main():
                'inherited_handoff':summary,'new_originals':[fixture['new_source']] if cycle==fixture['correction_after_cycle'] else [],
                'maximum_output_characters':budget,'output':'Return only the handoff text.'},ensure_ascii=False)
           directory=base/f'handoff-{cycle}';payload=request(system,user,model,trial)
-          if not key:
+          if not key or transport_blocked:
             save(directory/'request.json',payload)
             rows.append({'model':model,'trial':trial,'arm':arm,'family':'handoff','cycle':cycle,'status':'NOT_RUN',
-                         'blocker':'No credential configured; no fresh model request was made.'})
+                         'blocker':'Model transport unavailable; no usable completion or dependent handoff exists.'})
             continue
+          attempts+=1
           text,meta=invoke(payload,directory,args.endpoint,key)
           if text is None:
+            transport_blocked=True
             rows.append(dict(meta,model=model,arm=arm,trial=trial,family='handoff',cycle=cycle));continue
+          completions+=1
           summary=text
-          audit=json.dumps({'task':fixture['audit_query'],'handoff':summary,
-            'accessible_originals':sources,
-            'output_contract':{'facts':{'test_passed':'boolean','release_authorized':'boolean','failed_approach':'string',
-              'rejected_edge':'string','alternatives':['string']},'citations':[{'source_id':'string','quote':'exact source substring'}]}},ensure_ascii=False)
-          answer,ameta=invoke(request(system,audit,model,trial),directory/'audit',args.endpoint,key)
-          scored=score_handoff(answer,fixture,sources) if answer is not None else ameta
-          rows.append(dict(scored,model=model,trial=trial,arm=arm,family='handoff',cycle=cycle,
-                      output_characters=len(summary),character_budget=budget,budget_met=len(summary)<=budget,
-                      summarization_receipt=meta,audit_receipt=ameta,
-                      note='Auditor can reopen originals; loss in the compressed map is scored separately from recoverable answer fidelity.'))
+          for audit_mode in ('summary_only','originals_available'):
+            audit=json.dumps({'task':fixture['audit_query'],'handoff':summary,
+              'accessible_originals':sources if audit_mode=='originals_available' else [],
+              'output_contract':{'facts':{'test_passed':'boolean or unknown','release_authorized':'boolean or unknown','failed_approach':'string or unknown',
+                'rejected_edge':'string or unknown','alternatives':['string']},'citations':[{'source_id':'string','quote':'exact source substring'}]}},ensure_ascii=False)
+            attempts+=1
+            answer,ameta=invoke(request(system,audit,model,trial),directory/audit_mode,args.endpoint,key)
+            if answer is not None:completions+=1
+            else:transport_blocked=True
+            scored=score_handoff(answer,fixture,sources) if answer is not None else ameta
+            rows.append(dict(scored,model=model,trial=trial,arm=arm,family='handoff',cycle=cycle,audit_mode=audit_mode,
+                        output_characters=len(summary),character_budget=budget,budget_met=len(summary)<=budget,
+                        summarization_receipt=meta,audit_receipt=ameta,
+                        note='Loss of required information is distinct from confident falsehood. Unknown/abstention is not counted as a hallucination. An exceeded character budget does not establish robustness at that compression level.'))
+            if transport_blocked:break
         if args.family in ('all','graph'):
          for n in (10,100,1000,10000):
-          g=json.loads((ROOT/'research/frozen'/f'graph_{n}.json').read_text())
+          g=json.loads((inputs/f'graph_{n}.json').read_text())
           qs=g['questions'][:5]+g['questions'][-5:]
           # Strip all expected outcomes and hidden relation-type labels.
           user=json.dumps({'task':'Answer each query from these sources; return JSON with answers keyed by query id, decision ANSWER/REFUSE/CONFLICT, cited source IDs and exact quotations.',
                  'sources':g['projects'],'questions':[{'id':q['id'],'query':q['query']} for q in qs]},ensure_ascii=False)
           payload=request(system,user,model,trial);directory=base/f'graph-{n}'
-          if not key:
+          if not key or transport_blocked:
             save(directory/'request.json',payload)
             rows.append({'model':model,'trial':trial,'arm':arm,'family':'graph','relationships':n,'status':'NOT_RUN',
-                         'blocker':'No credential configured; no fresh model request was made.'});continue
+                         'blocker':'Model transport unavailable; no usable completion.'});continue
+          attempts+=1
           text,meta=invoke(payload,directory,args.endpoint,key)
+          if text is not None:completions+=1
+          else:transport_blocked=True
           # General-purpose source reasoning is not reliably judged by substring.
           rows.append(dict(meta,model=model,trial=trial,arm=arm,family='graph',relationships=n,
              status='INCONCLUSIVE' if text is not None else 'NOT_RUN',semantic_review='pending_independent_review'))
     save(out/'results.json',{'schema':'recorded-instruction-evaluation-1','results':rows,
           'counts':{s:sum(r['status']==s for r in rows) for s in sorted({r['status'] for r in rows})},
-          'model_requests_made':sum(1 for _ in out.rglob('response.raw')),
+          'http_requests_attempted':attempts,'valid_model_completions':completions,
           'human_review_minutes':None,'total_usd':None,
           'warning':'Instruction responses cannot certify blocked operations, autonomous state correction, native OOCC, or comparative superiority.'})
     print(json.dumps({'records':len(rows),'credential_configured':bool(key)}))
