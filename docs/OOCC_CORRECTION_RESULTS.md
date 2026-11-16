@@ -7,7 +7,7 @@ Last reviewed: 16 November 2026.
 ## What actually ran
 
 The earlier local evaluator suite passed **96 tests**. The new blind-handoff
-extension brought that revision to **102 passing tests**; the current suite has **118**. These include reference-code
+extension brought that revision to **102 passing tests**; the suite at that report revision had **118** (see the [current README](../README.md) for later additions). These include reference-code
 checks, scorer boundaries, oracle non-disclosure, wrong-state persistence,
 wrong-effect detection, citation checks, and the distinction between information
 loss, honest uncertainty and confidently wrong assertions. These test the

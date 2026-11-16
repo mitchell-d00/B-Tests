@@ -115,7 +115,8 @@ python -m unittest discover -s tests -v
 python -m research_lab.critical_bench replay
 ```
 
-The local suite passes **118 tests**. Replay verifies the two recorded inputs,
+At this condition's report revision, the local suite passed **118 tests**; the
+[current README](../README.md) records subsequent additions. Replay verifies the two recorded inputs,
 committed answers/effects and original scores with **zero new model requests**.
 CI success means the retained evidence and evaluator are consistent; the target's
 recorded FAIL outcomes remain FAIL. New real AI runs follow the protocol's
