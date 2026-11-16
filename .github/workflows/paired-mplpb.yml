@@ -1,0 +1,43 @@
+name: Pinned MPLPB side-by-side development challenges
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  paired-mplpb:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out B-Tests
+        uses: actions/checkout@v4
+        with:
+          path: btests
+      - name: Check out EXACT published MPLPB revision
+        uses: actions/checkout@v4
+        with:
+          repository: mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages
+          ref: 257e54a51edac272eb6b2441457f38a40485ee4d
+          path: mplpb
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run harness and negative controls
+        run: python -m unittest discover -s tests -v
+        working-directory: btests
+      - name: Execute REAL MPLPB strict-source tests (no simulated MPLPB)
+        run: python -m side_by_side.run --mplpb-root "$GITHUB_WORKSPACE/mplpb" --out evaluation/paired_mplpb.json
+        working-directory: btests
+      - name: Fail CI on native MPLPB mismatches or adapter errors, not on absent optional AI credentials
+        run: |
+          python - <<'PY'
+          import json
+          with open('btests/evaluation/paired_mplpb.json') as f: x=json.load(f)
+          rows=[r for r in x['results'] if r['arm']=='MPLPB' and r['status']!='OUT_OF_SCOPE']
+          print('Pinned MPLPB challenge results:',{k:sum(r['status']==k for r in rows) for k in sorted({r['status'] for r in rows})})
+          assert len(rows)==10, 'Expected ten common-scope cases'
+          assert all(r['status'] not in ('ADAPTER_ERROR','INVALID_RESPONSE','NOT_RUN') for r in rows), 'Native run missing or broken'
+          # Mismatches are empirical findings and are uploaded; CI does not rewrite the frozen oracle.
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pinned-mplpb-development-results
+          path: btests/evaluation/paired_mplpb.json
