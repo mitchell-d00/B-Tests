@@ -195,10 +195,18 @@ def main(argv=None) -> int:
     p.add_argument("--model-command", help="Real AI adapter command; stdin request JSON, stdout response JSON")
     p.add_argument("--timeout", type=int, default=50)
     p.add_argument("--max-cases", type=int, default=0)
+    p.add_argument("--case-ids", help="Comma-separated frozen case IDs for pilot")
     p.add_argument("--out", type=Path, default=BASE / "results.json")
     p.add_argument("--require-live", action="store_true", help="Exit 2 when a required target was not actually run")
     args = p.parse_args(argv)
     m = load_manifest(args.manifest)
+    if args.case_ids:
+        requested = [c.strip() for c in args.case_ids.split(",") if c.strip()]
+        by_id = {c["id"]: c for c in m["cases"]}
+        if len(set(requested)) != len(requested) or any(c not in by_id for c in requested):
+            print("REFUSED: duplicate or unknown case ID", file=sys.stderr)
+            return 2
+        m["cases"] = [by_id[c] for c in requested]
     if args.mplpb_root:
         pin = subprocess.run(["git", "-C", str(args.mplpb_root), "rev-parse", "HEAD"],
                              capture_output=True, text=True)

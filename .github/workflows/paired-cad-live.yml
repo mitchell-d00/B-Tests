@@ -1,0 +1,38 @@
+name: Live Ben-derived CAD versus ordinary governance model pilot
+on:
+  push:
+    paths:
+      - 'side_by_side/**'
+      - '.github/workflows/paired-cad-live.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  models: read
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: btests
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run evaluator regression controls
+        working-directory: btests
+        run: python -m unittest discover -s tests -v
+      - name: Fresh model requests for each arm and challenge
+        working-directory: btests
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -m side_by_side.run \
+            --case-ids SH01,SH04,CAD11,CAD13,CAD16 \
+            --model-command 'python -m side_by_side.github_models_adapter --model openai/gpt-4.1-mini' \
+            --out evaluation/cad_live_pilot.json
+      - name: Upload observed responses even if AI endpoint is unavailable
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cad-vs-governance-real-model-pilot
+          path: btests/evaluation/cad_live_pilot.json
