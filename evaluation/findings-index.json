@@ -105,5 +105,23 @@
       "summary": "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/summary.json",
       "new_model_calls": 0
     }
+  ],
+  "external_mplpb_evaluations": [
+    {
+      "author": "Benjamin Gelhaus",
+      "paper": "Beyond Guarded Retrieval",
+      "stated_date": "2026-11-14",
+      "evaluated_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "evidence_level": "Publicly reported external engineering evaluation; not newly reproduced here",
+      "reported_selected_regression_tests": {
+        "passed": 58,
+        "total": 58
+      },
+      "report": "docs/GELHAUS_EXTERNAL_EVALUATION.md",
+      "recommendations_are_failures": false,
+      "safe_out_of_grammar_abstention_is_failure": false,
+      "unblinded": true,
+      "original_private_inputs_available": false
+    }
   ]
 }

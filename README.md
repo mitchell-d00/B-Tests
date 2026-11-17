@@ -11,6 +11,20 @@ and evaluator controls, alongside separate native MPLPB executions. They do not 
 scheduler, recipient acceptance or native action enforcement. See
 [system scope](docs/OOCC_2026_SYSTEM_SCOPE.md).
 
+## Ben's publicly reported external evaluation — 14 November 2026
+
+MPLPB already has external testing. In [Beyond Guarded Retrieval](https://www.academia.edu/181013727/Beyond_Guarded_Retrieval_A_Source_Bounded_Evaluation_of_Combined_MPLPB_and_a_Roadmap_for_Historical_Reconstruction),
+Gelhaus reports **58/58 selected native regression tests passed** on Combined
+`257e54a51edac272eb6b2441457f38a40485ee4d`. His engineering probes also report
+working source validation, safe refusal and source retrieval, including **31/49**
+exact-phrase targets in the top five and **40/42** header-query targets ranked first.
+
+His proposed extensions are **recommendations, not failure findings**. Appropriate
+refusal outside the finite grammar is distinct from a wrong answer. Measured
+retrieval misses and coverage limits remain reported. [The complete result summary](docs/GELHAUS_EXTERNAL_EVALUATION.md)
+credits the external evaluation and separates published measurements, private
+inputs, optional enhancements and actual contract violations.
+
 ## Current comparison — 17 November 2026, PR49
 
 Current Combined pin **ccbb5804eb47f78c2338d57c142ad087b47be710** passed

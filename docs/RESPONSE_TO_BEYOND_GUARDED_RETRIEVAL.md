@@ -4,7 +4,7 @@ Last reviewed: 17 November 2026. Only B-Tests was edited. MPLPB, Portable Eviden
 
 [Ben Gelhaus's original publication](https://www.academia.edu/181013727/Beyond_Guarded_Retrieval_A_Source_Bounded_Evaluation_of_Combined_MPLPB_and_a_Roadmap_for_Historical_Reconstruction) is a 16-page paper dated 14 November 2026. The newly supplied full text was read for this update. The earlier B-Tests response had only pp.14–16; its dated statements retain that historical scope. [Exact supplied full text and hash](../research/public-papers/manifest.json) and [machine-readable matrix](../research/BEYOND_ACCEPTANCE_MATRIX_2026-11-17.json) identify the evidence.
 
-The strongest supported conclusion is **substantial implementation coverage, with independent acceptance still open**. Counting most proposed components as implemented is not the same as passing most of Ben's full acceptance conditions. Several demand blinded or independently adjudicated historical results. The current tests do not provide those results.
+The strongest supported conclusion is **substantial implementation coverage, with independently adjudicated historical acceptance still open**. Counting most proposed components as implemented is not the same as passing most of Ben's full acceptance conditions. Several demand blinded or independently adjudicated historical results. The current tests do not provide those results.
 
 ## Mitchell's thought-to-execution sequence
 
@@ -25,6 +25,8 @@ The primary snapshot records execution timestamps and code hashes before the sta
 No claim is made that Ben derived his suggestions from these repositories. The supported chronological claim is that Mitchell had already formulated and executed bounded explorations of related questions before the critique's stated date.
 
 ## What Ben actually tested and concluded
+
+**Credit for external evaluation:** Gelhaus publicly reports58/58 selected native tests passed, with additional positive source-location and safe-refusal results. [The study-by-study summary](GELHAUS_EXTERNAL_EVALUATION.md) records his measured limits too. His recommendations are proposed extensions, not automatically failures; safe out-of-grammar abstention is distinct from an incorrect answer.
 
 The paper pins Combined `257e54a51edac272eb6b2441457f38a40485ee4d`, committed 10 November. Sections3.1–3.4 explicitly credit integrity, bounded inference, assisted/strict separation, historical revisions and the specialist coordinator. It is incorrect to say he described the whole system as mere passage retrieval. Section4.1 says browser, Networked, Swarm, SCOPE and assisted-model paths were not matched end-to-end tests.
 
