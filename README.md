@@ -11,6 +11,43 @@ and evaluator controls, alongside separate native MPLPB executions. They do not 
 scheduler, recipient acceptance or native action enforcement. See
 [system scope](docs/OOCC_2026_SYSTEM_SCOPE.md).
 
+## What the testbench has tested
+
+B-Tests supplies the test cases, published instructions, fresh-session procedures,
+scoring code and retained logs needed to examine Ben's published OOCC/CAD ideas.
+**I have the testbench; I do not have Ben's private system to put on it.** His papers
+refer to private controller components and primary records that have not been
+available to this evaluation. Testing that system requires its exact runnable
+version, setup, authorized source access, adapter and independently checked state
+readbacks. Those native-system tests remain **NOT_RUN**.
+
+We have run **30 real fresh AI sessions** using published CAD instructions and
+strong conventional governance instructions. The cases tested false approved maps,
+contradictory sources, archive discovery, failed-work history, permissions, receipts,
+unsupported relationships, compressed handoffs, false originals and a simulated
+human export. Both instruction treatments corrected accessible contradictions and
+rejected unsupported relationship expansion. Specific output/budget failures and
+results favorable to CAD are retained. These runs did not establish a consistent
+CAD advantage over the tested conventional instructions.
+
+We also executed **MPLPB's actual program**: native source and permission checks,
+real local action controls, the sorter and public evidence probes. A valid control
+really invoked a local executor; invalid cases were blocked and checked through
+effect files and event counts. These checks execute through guarded software
+interfaces, without relying on a model agreeing to follow a prompt. MPLPB packages
+its bounded rules and verification for supported runtimes without requiring a
+particular AI provider or conversation.
+
+In plain language: **we tested how AI follows the published instructions and how
+MPLPB's software enforces its checks. We have not tested Ben's private controller.**
+The [recorded instruction results](docs/CRITICAL_BENCHMARK_RESULTS.md),
+[archive discovery](docs/UNFLAGGED_DISCOVERY.md),
+[handoff propagation](docs/ARCHIVED_PROPAGATION.md),
+[human export](docs/SINGLE_PROJECT_HUMAN_EXPORT.md) and
+[native software results](evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/RESULTS.md)
+show the exact scope and outcomes. A written refusal and a verified blocked
+operation are different observations.
+
 ## Ben's native MPLPB run — 14 November 2026
 
 In [Beyond Guarded Retrieval](https://www.academia.edu/181013727/Beyond_Guarded_Retrieval_A_Source_Bounded_Evaluation_of_Combined_MPLPB_and_a_Roadmap_for_Historical_Reconstruction),
