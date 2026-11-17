@@ -1,0 +1,379 @@
+HEADMASTER 
+From Verbatim Evidence to Independent Understanding 
+A Function-First, Source-Grounded AI Teaching System 
+ 
+Benjamin Gelhaus 
+Object-Oriented Cognition and Continuity (OOCC) / Voltron 
+Research manuscript • November 2026 
+Research and editorial assistance: ChatGPT (GPT-6) 
+ 
+ABSTRACT 
+Headmaster is a partially functioning Android learning application that extends Object-Oriented 
+Cognition and Continuity (OOCC) into adaptive, source-grounded instruction. Its design grew 
+from a practical problem of authorship and evidence. Gelhaus reports that a judge approved AI 
+as an ADA accommodation for use in the courtroom with counsel but restricted its use during 
+testimony. The resulting challenge—how to organize and communicate a person’s words 
+without replacing them—led to the DHS Translation Protocol, which preserves original 
+language, context, chronology, and identifiable edits. The same principle then suggested an 
+educational application: learning assistance should help a student develop an understanding 
+while preserving the student’s actual answers, uncertainties, and revisions. Headmaster 
+combines this authorship principle with Gelhaus’s self-directed method of exploring functions, 
+mechanisms, relationships, and constraints. The first proposed demanding test is Mitchell D. 
+McPhetridge’s technical writing. This paper describes the conceptual lineage, system design, 
+existing prototype evidence, and an evaluation protocol that asks whether learners can explain 
+and apply unfamiliar material independently after tutoring.  
+ 
+Keywords: intelligent tutoring systems; source fidelity; authorship; functional mapping; learner 
+modeling; adaptive instruction; self-explanation; AI-assisted learning; educational assessment. 
+ 
+1. INTRODUCTION 
+A useful learning system must do more than present a convincing explanation. It must help a 
+person acquire an understanding that belongs to that person—one that can be expressed, 
+defended, tested, and applied without borrowing the tutor’s language. 
+ 
+Headmaster approaches that problem through two connected commitments. First, the original 
+record matters: a source author’s statements, a learner’s answers, and an AI tutor’s 
+interpretations must remain distinguishable. Second, instruction must be functional: learning a 
+term is only a starting point; competence requires understanding what a system or claim does, 
+why it works, which conditions it requires, and where it fails. 
+ 
+The application is under active development as part of the OOCC/Voltron ecosystem. Gelhaus 
+reports that substantial portions of the Android prototype work on his device. Versioned source 
+and engineering records document a functioning interface and several implemented 
+learning-state features, while the full adaptive instructional loop remains a subject of 
+development and evaluation [P3–P6]. 
+ 
+The research question is whether a source-faithful, function-first tutor can help a learner 
+understand difficult technical work more deeply than conventional reading assistance or a 
+generic AI explanation. 
+ 
+2. DEVELOPMENT: FROM DHS TO HEADMASTER 
+The initiating problem was practical rather than academic. Gelhaus describes receiving court 
+approval to use AI as an ADA accommodation while present with his lawyer, but not while he 
+was on the witness stand. The judge explained the restriction, and Gelhaus began treating the 
+explanation as a set of design constraints. The essential concern was whether AI-assisted 
+organization or presentation would preserve his own language and meaning. 
+ 
+His response was the DHS Translation Protocol. It begins with the speaker’s exact words and 
+protects their original context. Readability can be improved by arranging intact passages, 
+identifying topics, and supplying navigation. When new explanatory language is required, that 
+language belongs to a visibly separate AI-authored layer. Corrections, changes, source order, 
+speaker identity, and provenance remain accessible [P1]. The related application blueprint 
+expands this into an operational design for speech, writing, evidence, and reader-facing 
+representations [P2]. 
+ 
+Once this method existed, its wider usefulness became apparent. Schoolwork presented a 
+closely related problem: if an AI writes a polished explanation for a student, the result can 
+conceal what that student actually understands. A learner needs assistance without losing 
+authorship of the answers and reasoning that demonstrate progress. 
+ 
+The next step followed naturally from Gelhaus’s own experience teaching himself unfamiliar 
+subjects through conversation, source retrieval, functional comparisons, revisions, and 
+experiments. What if this process could be made reproducible in software? Headmaster 
+emerged as the educational branch: retain the original person’s voice, discover what the person 
+understands, find what is missing, and actually teach the next step. 
+ 
+The transfer from court-related communication to education is the project’s defining design 
+lineage. The court account describes the problem that motivated the system; the educational 
+research examines what the resulting method can accomplish. The exact judicial wording can 
+be cited from the record if it becomes part of a later legal or historical edition. 
+ 
+3. RESEARCH PROPOSITION 
+Headmaster’s central proposition is that source-grounded function mapping, paired with 
+interactive teaching and learner-authored assessment, can improve the acquisition of difficult 
+concepts. 
+ 
+A conventional explanation often begins with definitions and a polished synopsis. A function-first 
+lesson begins by asking: What is the object or claim? What does it do? What inputs or premises 
+does it require? What mechanism connects them to an outcome? What are the limits, competing 
+interpretations, and counterexamples? 
+ 
+This approach is particularly suited to interdisciplinary work, where familiar words may carry 
+unfamiliar technical meanings. It can reveal hidden prerequisites while also protecting against 
+false analogy: two systems may share a function without sharing a mechanism. 
+ 
+The testable hypothesis is that, after comparable study time, learners using source-anchored 
+function-first tutoring will perform better on unaided explanation and novel application than 
+learners using ordinary reference resources or a standard AI explanatory assistant. A 
+complementary hypothesis is that keeping the learner’s exact answers and corrections will 
+improve the accuracy of mastery assessment and continuity between teaching sessions. 
+ 
+These claims are evaluated through performance, not through the apparent fluency of the tutor. 
+ 
+4. PEDAGOGICAL FOUNDATION 
+Headmaster draws from several established lines of educational research. Concept and 
+knowledge mapping provides ways to organize explicit relationships among ideas [R1]. The 
+ICAP framework links the form of cognitive engagement with learning processes, giving a 
+rationale for interactive questioning rather than passive exposure [R2]. Research on prompted 
+self-explanation supports asking students to construct their own accounts of mechanisms and 
+ideas [R3]. Retrieval-practice findings motivate later testing without access to the original 
+explanation [R4]. Knowledge-tracing research provides an established precedent for estimating 
+changing student competence from observed work [R5]. 
+ 
+Headmaster combines these ideas with OOCC’s emphasis on protected source text, correction 
+history, functional relationships, and recoverable state. Its proposed contribution lies in how 
+these elements interact within an actual application, rather than in claiming to invent the 
+individual educational techniques. 
+ 
+The distinction between *having encountered* an explanation and *being able to reproduce and 
+use* the underlying idea is fundamental. Headmaster therefore stores exposure, vocabulary 
+recognition, worked examples, independent explanation, and demonstrated transfer as different 
+forms of evidence. 
+ 
+5. FUNCTION-FIRST SOURCE MODEL 
+The source mapper turns each studied claim into a connected instructional object. Its core fields 
+include: 
+ 
+• Source identity: author, document, revision, passage, page or section, and access rights. 
+• Concept or object: the entity, claim, process, or system being studied. 
+• Function: its purpose, behavior, or predicted result. 
+• Inputs and outputs: required premises, information, materials, states, and expected 
+consequences. 
+• Mechanism: the logical or causal explanation of how the function operates. 
+• Dependencies: prerequisite concepts and skills. 
+• Constraints: conditions under which the claim applies and boundaries on its use. 
+• Counterexamples: cases that challenge the explanation or expose its limits. 
+• Relationships: typed links such as DEPENDS_ON, REFINES, CONTRADICTS, and 
+RELATED_TO. 
+• Attribution and evidence: what the original author states, what the tutor infers, and what the 
+learner independently proposes. 
+• Revision history: the original record together with later questions, corrections, and decisions. 
+ 
+A function map is an instructional representation, not a substitute for the original paper. The 
+source remains available for checking formal notation, qualifications, and context. Connections 
+that merely resemble one another remain labeled as analogies until documentary or 
+experimental evidence supports a stronger relationship. 
+ 
+This object model also provides a practical bridge to the OOCC functional-layers research, 
+which studies recurring functions across distinct domains without treating those domains as 
+identical [P7]. 
+ 
+6. THE HEADMASTER LEARNING CYCLE 
+The application’s intended instructional cycle has six connected stages [P3]. 
+ 
+1. Source intake. A student chooses a subject or imports authorized material: PDFs, textbooks, 
+notes, code, written work, video transcripts, or existing research. The system keeps the original 
+document and reports exactly what was extracted. Local extraction and economical batching 
+can reduce repeated paid AI calls. 
+ 
+2. Concept reconstruction. Headmaster identifies chapters, sections, concepts, functions, 
+mechanisms, dependencies, and disagreements. The relationships are linked back to passages 
+and organized into a navigable map. 
+ 
+3. Learner diagnosis. The tutor examines the learner’s own answers, not just prior exposure. It 
+distinguishes recognized terminology from explanatory competence, uncertain understanding, 
+missing prerequisites, and independent application. Source-authored, AI-authored, 
+learner-authored, and unattributed text are kept separate. 
+ 
+4. Lesson selection. The system chooses a specific instructional frontier: a missing prerequisite, 
+a misunderstood mechanism, an overlooked constraint, or a promising connection to knowledge 
+the learner already possesses. 
+ 
+5. Conversational teaching. Headmaster acts as an instructor. It explains, demonstrates, asks 
+questions, responds to confusion, proposes examples, and revises its approach. Books and 
+videos remain instructional resources; the teaching interaction stays in Headmaster’s own chat. 
+ 
+6. Independent assessment and continuity. The learner explains the material in original words, 
+predicts outcomes under new conditions, and confronts counterexamples. Results and 
+corrections become part of the learner’s continuing history. A later tutor can recover the 
+authorized record and resume without pretending to be the same AI instance. 
+ 
+A complete lesson therefore ends with evidence of the learner’s capability, not simply with a 
+generated answer. 
+ 
+7. LEARNER AUTHORSHIP AND CONTINUITY 
+Headmaster’s learner record is designed to be both educational and evidentiary. It preserves 
+the student’s exact statement, the question or task that prompted it, the source being studied, 
+the tutor’s response, and later corrections. AI-produced prose can be useful instructional 
+material, but it is stored under its own authorship. 
+ 
+This separation solves a practical problem in assessment. An eloquent answer copied from a 
+model is weak evidence of personal understanding. A tentative answer, followed by targeted 
+instruction and a later independently generated solution, is much more informative. Errors are 
+part of the record because they help locate the lesson that should come next. 
+ 
+The application’s broader OOCC design also treats the curriculum, tutor, specialists, learner 
+profile, and source maps as individually addressable components. Headmaster operates within 
+the main Voltron environment while retaining its own chat and learning state. The Round Table 
+design allows specialists to examine different aspects of a learning task under a scheduler, with 
+the human learner participating rather than being replaced. Existing three-worker prototypes 
+and the later four-specialist target are separate implementation stages [P4–P6]. 
+ 
+Persistent communication and research records allow successors to continue the work while 
+preserving distinct writer identities. For instruction, this means a new tutor should know which 
+concepts were taught, what the learner actually demonstrated, which misconceptions remain, 
+and why the preceding lesson stopped. 
+ 
+8. McPHETRIDGE AS THE FIRST 
+HIGH-DIFFICULTY TEST 
+Mitchell D. McPhetridge’s work provides a compelling first-person challenge for Headmaster. 
+Gelhaus has described difficulty understanding McPhetridge’s technical writing despite wanting 
+to engage with it seriously. The goal is to develop enough independent comprehension to 
+assess the work on its own terms, including its mechanisms, assumptions, and possible 
+weaknesses. 
+ 
+The preserved Gelhaus–McPhetridge correspondence records sustained dialogue about 
+constraints, recursive systems, verification, and credit for borrowed ideas [P8]. That exchange 
+establishes the context for this study. McPhetridge’s original publications, rather than summaries 
+of the correspondence, will supply the actual teaching passages. His authorship and 
+terminology remain intact throughout the experiment. 
+ 
+The pilot proceeds as follows. First, select an exact paper or chapter and record its version, 
+source, and learning objectives. Second, ask Gelhaus to explain its main claim unaided, 
+identifying what he understands and what remains opaque. Third, have Headmaster construct a 
+bounded function map and teach the difficult passages through dialogue. Fourth, remove the 
+teaching support and ask Gelhaus to reconstruct the argument, explain its mechanism, identify 
+the conditions under which it holds, and evaluate a new case. Fifth, repeat the assessment after 
+a delay and compare with the initial baseline. 
+ 
+A meaningful success would be visible in the learner’s own work: accurate explanation, original 
+examples, recognition of limitations, and the ability to distinguish McPhetridge’s argument from 
+Gelhaus’s subsequent interpretation. This pilot can establish feasibility and generate detailed 
+evidence; broader educational claims require additional learners and comparisons. 
+ 
+9. CURRENT APPLICATION AND ENGINEERING 
+STATUS 
+Headmaster is already represented by a working Android prototype and a substantial set of 
+engineering artifacts. Gelhaus reports that significant parts of the program function on his 
+phone, while the application remains under active development. Screenshots reviewed in the 
+engineering work show an installed v247 interface with local chat behavior and 
+model-assignment controls [P5–P6]. The exact version currently installed on the owner’s device 
+has not yet been established from a fresh device readout. 
+ 
+The development records describe implemented local learner-state structures, original-quotation 
+retrieval, source-linked learning-path annotations, tutor setup, and a growing functional mapping 
+layer. The v247 release was followed by an APK-signature repair; the v248 engineering notes 
+report a model-catalog setup change and 74 passing host assertions [P5–P6]. The dependency 
+audit also identifies unresolved integration work across native worker identity, source 
+consumption, Android acceptance, and controller-issued permissions [P4]. 
+ 
+The most consequential unfinished work is the complete teaching loop: robust multi-source 
+intake, genuine model-backed conversational instruction, visible specialist coordination, 
+independently assessed learner progress, and reliable continuation after a restart. Earlier 
+diagnostics also report scanning and import interruptions. These are specific engineering 
+targets within a real application, rather than placeholders for a program that has never been 
+built. 
+ 
+The next development audit should establish a current on-device version and a 
+feature-by-feature functional inventory, preserving the distinction between working Android 
+behavior, host-tested source code, and planned capabilities. 
+ 
+10. EXPERIMENTAL DESIGN 
+The initial research phase is a documented single-learner pilot using one technically demanding 
+original text. Each claim taught must have a stable source anchor. Before instruction, the learner 
+completes a baseline explanation and predicts how a central mechanism would behave in a 
+new example. Headmaster then teaches the material with a function map, guided dialogue, and 
+exercises. After instruction, an evaluator scores an unaided explanation and a novel application. 
+A delayed assessment measures retention. 
+ 
+The proposed rubric assesses five competencies, each scored from 0 to 4: source fidelity; 
+mechanism explanation; correct premises and constraints; counterexample or transfer 
+reasoning; and calibrated attribution and uncertainty. The 20-point total is interpreted together 
+with the original answer record, not as an unexplained mastery label. A scorer who can read the 
+original technical source should apply a rubric defined before the lesson. 
+ 
+A second phase can compare three conditions with consenting learners and balanced study 
+materials: ordinary source reading with reference aids; conventional AI explanation; and 
+Headmaster’s source-linked, function-first tutoring. Study time and available materials should be 
+comparable. Passage assignment and condition order should be counterbalanced, with blinded 
+scoring where feasible. 
+ 
+Primary outcomes are unaided explanation accuracy and transfer to a new problem. Secondary 
+outcomes include retention, time to an accurate account, identification of assumptions, 
+correction of misconceptions, appropriate confidence, tutoring cost, and successful recovery of 
+the learner state by a later session. 
+ 
+The experiment can also reveal limits. Function-first instruction may be less effective for some 
+learners or materials; an appealing analogy may obscure formal meaning; a learner may sound 
+fluent while failing an unfamiliar problem. Those outcomes would guide revisions to the teaching 
+method. 
+ 
+11. RESEARCH CONTRIBUTION AND NEXT 
+STEPS 
+Headmaster brings together three problems that are often treated separately: preserving an 
+author’s original meaning, teaching difficult material in a usable structure, and maintaining 
+evidence of an individual learner’s progress over time. 
+ 
+The most immediate next steps are practical. Establish the installed Android baseline and 
+working feature inventory. Select a primary McPhetridge text. Confirm reliable extraction and 
+source pointers. Conduct the baseline assessment. Capture one full, authorized teaching 
+interaction and the learner’s own post-lesson response. Evaluate the result against the original 
+text. Finally, test whether a new tutor session can reconstruct the learning state accurately from 
+the saved records. 
+ 
+The longer-term study can determine whether the combination of functional mapping, exact 
+learner quotations, interactive teaching, and continuity produces a measurable benefit over 
+ordinary AI-assisted learning. 
+ 
+12. CONCLUSION 
+Headmaster began with a question about fidelity: how can AI help communicate a person’s 
+meaning without replacing that person’s words? The DHS Translation Protocol answered by 
+separating protected original language from AI-authored organization and explanation. Applied 
+to education, the same principle leads to a tutor that must preserve the learner’s work while 
+helping that learner build new capability. 
+ 
+The program now exists as an actively developed Android prototype, and its educational 
+premise can be tested. Mitchell D. McPhetridge’s challenging technical writing offers a 
+demanding first case. If Gelhaus can learn the material through Headmaster and subsequently 
+explain, question, and apply it accurately in his own words, the result will provide a concrete 
+measure of the approach’s value. 
+ 
+The central ambition is straightforward: a teacher should leave the learner able to think and 
+explain independently. 
+ 
+REFERENCES 
+Project sources 
+ 
+[P1] Gelhaus, B. (2026, October 30). DHS Translation Protocol, v0.1. 
+https://docs.google.com/document/d/1J8BArMKAa5T69m0gMNAoGGry9-sWFADIH_S2DKznaC
+U/edit 
+ 
+[P2] DHS Platform & The ADD Translator — Master Ideas and Application Blueprint (2026, 
+October 30). 
+https://docs.google.com/document/d/1Nwqso7uyWlI6uMHd3Mg8fj0flBkIdpie5ZxXEi9_Ey0/edit 
+ 
+[P3] Headmaster — Full Vision & Functional Explanation (2026, November 5). 
+https://drive.google.com/file/d/1H5XJqGuMAQoVvhWQB94cVeVjapW20dou/view 
+ 
+[P4] Headmasters/OOCC — Dependency Completeness Audit v1.4 (2026, October 31). 
+https://docs.google.com/document/d/1mlaDdyGVwrNktS-pwSpPoixlk1s5vrSg_oSVKfE4H_k/edit 
+ 
+[P5] Headmasters engineering records: HM247 release and signature repair (2026, November 
+6). https://drive.google.com/file/d/1vgWFOduCZfA8zHTCscTKIiIt22K_nEpI/view ; 
+https://drive.google.com/file/d/1dRRirW_Dlps75FZAK4boQS8eOAGK3Owq/view 
+ 
+[P6] Headmasters HM248 engineering update (2026, November 6). 
+https://drive.google.com/file/d/1UjMauYPL0yaexRsiojn3DiAGqBqeIXjE/view 
+ 
+[P7] Functional Layers — Research Book & Trees Source Map v3 (2026, October 28; 
+November 1 addendum). 
+https://docs.google.com/document/d/1pqZBkPcaBrOlk7VEE4AEHXsWBX7KAfT3EI6gKwLyZ1Q
+/edit 
+ 
+[P8] Gelhaus–McPhetridge Academia.edu conversation transcript, archived snapshot (2026, 
+August 31). Restricted historical research source; material requires review before public 
+quotation. https://drive.google.com/file/d/1jNPYZWg1CB8iUyq33lAMOjacNpCfVswL/view 
+ 
+Educational research 
+ 
+[R1] Nesbit, J. C., & Adesope, O. O. (2006). Learning with concept and knowledge maps: A 
+meta-analysis. Review of Educational Research, 76(3), 413–448. 
+https://doi.org/10.3102/00346543076003413 
+ 
+[R2] Chi, M. T. H., & Wylie, R. (2014). The ICAP framework: Linking cognitive engagement to 
+active learning outcomes. Educational Psychologist, 49(4), 219–243. 
+https://doi.org/10.1080/00461520.2014.965823 
+ 
+[R3] Bisra, K., Liu, Q., Nesbit, J. C., Salimi, F., & Winne, P. H. (2018). Inducing self-explanation: 
+A meta-analysis. Educational Psychology Review, 30, 703–725. 
+https://doi.org/10.1007/s10648-018-9434-x 
+ 
+[R4] Roediger, H. L., III, & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests 
+improves long-term retention. Psychological Science, 17(3), 249–255. 
+https://doi.org/10.1111/j.1467-9280.2006.01693.x 
+ 
+[R5] Corbett, A. T., & Anderson, J. R. (1994). Knowledge tracing: Modeling the acquisition of 
+procedural knowledge. User Modeling and User-Adapted Interaction, 4, 253–278. 
+https://doi.org/10.1007/BF01099821 
+ 
+ 

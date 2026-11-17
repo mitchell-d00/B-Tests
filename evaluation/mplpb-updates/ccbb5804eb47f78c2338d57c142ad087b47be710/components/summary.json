@@ -1,0 +1,69 @@
+{
+  "revision": "ccbb5804eb47f78c2338d57c142ad087b47be710",
+  "results": [
+    {
+      "component": "smart-local",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.7088335180014838
+    },
+    {
+      "component": "swarm",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.8756749730000593
+    },
+    {
+      "component": "networked",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 21.96697731900167
+    },
+    {
+      "component": "image",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 23.056484463000743
+    },
+    {
+      "component": "local-mirror",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.047862150000582915
+    }
+  ],
+  "adoption": [
+    {
+      "site": "local-mirror",
+      "sealed": 4,
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "site": "smart-local",
+      "sealed": 5,
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "site": "swarm corpus-a",
+      "sealed": 3,
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "site": "swarm corpus-b",
+      "sealed": 1,
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "site": "networked seed",
+      "sealed": 4,
+      "errors": [],
+      "status": "PASS"
+    }
+  ],
+  "tracked_target_changed": false,
+  "models_called": 0
+}

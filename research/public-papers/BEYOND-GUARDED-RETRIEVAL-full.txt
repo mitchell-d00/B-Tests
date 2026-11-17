@@ -1,0 +1,1296 @@
+EYOND GUARDED RETRIEVAL 
+| 
+GELHAUS 2026 
+Beyond Guarded Retrieval: A Source-Bounded 
+Evaluation of Combined MPLPB and a Roadmap for 
+Historical Reconstruction 
+Benjamin Gelhaus 
+14 November 2026 
+System evaluated: 
+Combined MPLPB 2.1.0rc1 (commit 257e54a51edac272eb6b2441457f38a40485ee4d) 
+Comparative research context: 
+Object-Oriented Cognition and Continuity (OOCC) 
+Abstract 
+Multi-Platform Linked Public Building (MPLPB), developed by Mitchell D. McPhetridge, implements a local 
+source ledger with integrity checks, provenance, guarded revisions, and bounded source-supported answers. 
+We evaluate an identified Combined MPLPB release across six engineering experiments involving native 
+regression tests, structured relation transfer, synthetic scaling, source retrieval, and historical communication 
+reconstruction. We also examine the development evidence of Object-Oriented Cognition and Continuity 
+(OOCC), whose V3 crawler succeeded the historical V2 architecture, to establish a comparable standard for 
+version-specific technical claims. 
+All 58 selected upstream MPLPB regression tests passed. On a 515-page text projection, the expected source 
+appeared among the first five results for 31 of 49 exact-phrase questions; richly specified 
+communication-header queries placed it first in 40 of 42 cases. Seventy-two queries over 3,962 prestructured 
+relation rows distinguished direct status retrieval from multi-relation requests. The deterministic reader abstained 
+on 57 experimental event-reconstruction question forms that fell outside its finite grammar. Across these 
+experiments, the implementation preserved important source-safety properties but did not demonstrate general 
+reconstruction of event identities, cross-source relationships, and partial corrections through its strict-answer 
+interface. 
+We propose separately labeled retrieval diagnostics, source-occurrence and event-candidate identities, 
+versioned temporal relationships, and optional evidence-pinned relation composition. The proposed changes 
+preserve MPLPB’s authority controls while creating testable routes from source location to historical 
+reconstruction. A common, dated evidentiary standard for competing architectures is essential: earlier criticism 
+must be examined against the implementation that existed when it was made, and measured behavior must 
+take precedence over presentation order or technical rhetoric. 
+Keywords: 
+MPLPB; OOCC; provenance; source-backed question answering; temporal reconstruction; iterative engineering; experiment 
+provenance; anchoring; evaluation bias; abstention. 
+1. Introduction 
+Evidence-preserving systems must perform distinct operations: retain sources, establish their identity, determine 
+present answer eligibility, retrieve relevant passages, and reconstruct qualified historical claims. Successfully 
+locating a passage does not necessarily recover its speaker, event identity, correction history, or connection to 
+other records. Conversely, a previous source may lose authority for present answers while remaining important 
+evidence of an earlier claim. The latter distinction—
+current authority versus historical relevance
+—is central 
+to this study. 
+Combined MPLPB provides an unusually explicit separation between protected source records, eligibility rules, 
+and supported answers [M1–M5]. Its bounded deterministic reasoning is a deliberate safeguard against 
+BENJAMIN GELHAUS 
+· 
+14 NOVEMBER 2026 
+| 
+1 
+
+
+
+2026 
+unsupported inference. The question examined here is whether the tested implementation also supplies the 
+operations needed for source-attributed historical reconstruction: 
+Given sealed and identifiable records, can the system reconstruct distinct events and time-scoped 
+relationships across sources while retaining corrections and preserving its existing authority protections? 
+The comparison uses OOCC’s source-linked crawler experiments as application evidence and a source of 
+demanding task categories. The intended contribution is constructive: identify which MPLPB capabilities are 
+already effective, locate the boundaries measured in the implementation, and specify extensions that 
+McPhetridge or an independent developer could test without weakening the system’s existing safeguards. 
+2. Chronology and comparative evidence 
+A sound technical comparison reconstructs each system’s actual state at the time of a test. OOCC developed 
+through repeated operational trials and revisions rather than as a single static specification. Its superseded V2 
+crawler contributed archived graph recovery, checkpoint verification, and failure records; 
+V3 is the successor 
+crawler architecture 
+and has its own source-scoped A/B lanes, working-state records, and experiments [O3, 
+O4, O7]. Historical V2 outcomes therefore document the development path, while V3 evidence characterizes the 
+successor at its own recorded checkpoints. 
+The 2026 correspondence between Gelhaus and McPhetridge contains technical criticisms and reports of 
+earlier OOCC field diagnostics [H1, H2]. Those claims are assessed as dated evidence. The study applies the 
+same standard to the published MPLPB implementation: direct execution, observed results, retained source 
+identity, and stated scope are evaluated separately from broader conceptual interpretation. 
+2.1 Early critique, field tests, and implementation chronology 
+McPhetridge’s correspondence identifies four failure modes worth testing: human audit limits, silently omitted 
+records, invalid source claims gaining authority, and loss of explanatory history through compression [H1]. 
+These are specific failure hypotheses rather than findings about every later OOCC revision. Gelhaus’s 
+contemporaneous correspondence reports field experiments involving continuity letters, structured versus 
+unstructured external state, different AI platforms, and restructuring under an unexpected change in the 
+governing problem [H1]. Those observations establish a history of attempted interventions, observable 
+difficulties, and subsequent changes, although the field conditions differed from a matched laboratory design. 
+A valid finding about a historical version requires its dated claim, contemporaneous source and code state, 
+direct test evidence, and any fix already present when the criticism was made. A later working mechanism 
+cannot automatically establish that an earlier version contained the same fix; an early critique likewise cannot 
+describe a changed version without renewed testing. Gelhaus’s later correspondence distinguishes ideas 
+encountered during discussion—including crawlers and SQL—from the timing and authorship of specific later 
+implementations [H2]. Source-to-code chronology, rather than either participant’s retrospective characterization, 
+resolves implementation history. 
+2.2 Recorded OOCC engineering experiments 
+Table 1 summarizes documented OOCC experiments relevant to the comparison. The results cover structural 
+recovery, source-integrity testing, retrieval ablation, and the traceability of requirements into code. They use 
+distinct data populations and are reported by their original study boundaries 
+
+
+
+2026 
+Table 1. Dated OOCC engineering experiments and evidentiary boundaries. 
+Source and date 
+Operation and observed 
+result 
+Engineering finding 
+Inference boundary 
+Early correspondence, 2026 
+[H1] 
+Continuity/no-letter, 
+structured/unstructured, 
+cross-model and 
+disruptive-change field 
+observations 
+Real-world comparison and 
+correction cycles were 
+already underway 
+Nonrandomized, differently 
+controlled observations 
+V2 CP045, 22 October 2026 
+[O3] 
+289 conversation graphs; 
+86,120 nodes; database 
+integrity and foreign-key 
+checks; 45-check successor 
+verifier passed; invalid 
+canary failed 
+Original graph structure and 
+archive integrity were tested 
+with positive and negative 
+checks 
+Structural integrity rather 
+than corpus-wide semantic 
+accuracy 
+HLC CP014, 30 October 
+2026 [O5] 
+Original requirement traced 
+to dated code commits and 
+passing host tests; missing 
+automatic version 
+propagation identified 
+Source-to-code chronology 
+and negative feature audit 
+Inspected modules and 
+tested execution paths 
+V3 CP005, 1 November 
+2026 [O4] 
+35 fixed primary retrieval 
+positions: literal 4 direct hits; 
+function expansion 6; 
+unconditional graph hop 3; 
+35/35 source selections 
+rehashed 
+Comparative ablation 
+measured a worse 
+graph-hop variant, which 
+was not promoted 
+Post-hoc, single-reviewer 
+relevance labels 
+Other crawler work [O6, O7] 
+Original-source graph 
+sampling, attributed 
+corrections, separate 
+contributor records and 
+handoff logs 
+Source reconstruction and 
+accountability were 
+investigated as distinct 
+tasks 
+Sample-specific coverage 
+and separate operational 
+receipts 
+The V3 ablation is a particularly informative negative result. Adding unconditional graph hops reduced directly 
+relevant retrieved passages within the fixed budget. The recommended revision placed graph links in an 
+optional sidecar and retained original-source verification. This is a documented cycle of comparison, negative 
+measurement, and technical revision [O4]. It also illustrates why a larger graph or a more complex retrieval 
+algorithm cannot be presumed superior before testing. 
+V2 is the historical predecessor; V3 is its successor. Their measurements are development evidence within one 
+lineage, 
+not 
+two independent current deployments or two observations of the same experimental population. 
+2.3 A common standard of evidence 
+For both systems, the evaluation sequence is 
+dated claim → identifiable source → executable test or 
+observed field event → integrity/readback record → scoped outcome
+. Field observations, inspected source 
+code, native tests, and later independent replication occupy different evidentiary levels, regardless of which 
+system produced them. Test results establish the operations actually measured; implementation proposals 
+remain proposals until executed. Critiques are evaluated against the corresponding version and primary 
+evidence, rather than inheriting authority from their date, vocabulary, or position in the reading order. 
+3. What MPLPB actually implements 
+3.1 Local integrity, eligibility and guarded answers 
+The Combined MPLPB ledger uses source IDs, content hashes, origin/depth checks, lineage references and 
+source eligibility rules. Its local strict reader relies on a finite grammar and source-body support. The 
+deterministic proof graph is intentionally bounded: it does not authorize unconstrained causal reversal, 
+cross-page completion, synonym guessing or multi-hop inference [M1]. That policy prevents some plausible but 
+unjustified responses. A safe abstention can be a correct result. 
+The general answer pipeline makes a further distinction between deterministic support and explicitly configured 
+model-assisted assessment. In the latter mode, cited model output remains separately labeled and does not 
+BENJAMIN GELHAUS 
+· 
+14 NOVEMBER 2026 
+| 
+
+
+
+2026 
+acquire the strict reader’s deterministic support status merely because a model provided a confident answer 
+[M2]. The experiments measured the strict interface; the separately documented assisted mode remains outside 
+their execution scope. 
+3.2 Retained versions and historical revision 
+MPLPB’s supersession policy retains withdrawn and replaced pages and requires a valid successor before 
+retiring its predecessor. It does not automatically reactivate an old source when its replacement is withdrawn. A 
+stale derivative remains withheld until rechecked [M3]. Thus, MPLPB’s preservation of historical bytes and its 
+current-answer eligibility are established safeguards. 
+Historical retrieval, cross-document event identity, and 
+later association discovery 
+remain additional functions to evaluate. 
+3.3 Specialist work continuity 
+The implemented local specialist coordinator, 
+mplpb_work
+, describes transactional work history, task state, 
+capability fencing, revision gates, challenges, evidence references and handoffs. It explicitly separates a 
+source-supported claim from authorization to act [M4]. This is substantive continuity engineering. The 
+documentation places AI providers and operating-system sandboxes outside the local coordinator, so its tested 
+work contracts and broader end-to-end execution are distinct components. More importantly for this paper, a 
+typed work-history schema is not itself evidence that the strict question reader can reconstruct historical 
+communication events from unprepared source texts. 
+3.4 Published implementation boundaries 
+MPLPB’s production-readiness notes describe a local research system with bounded source-language rules and 
+one-trusted-operator assumptions. They explicitly reserve independent answer-quality evaluation, unrestricted 
+language competence and shared-service deployment for further work [M5]. The historical pottery results and 
+authored synthetic user tests are useful development indicators, not held-out evidence of broad semantic 
+accuracy [M1, M2]. This evaluation accepts those declared boundaries rather than redefining MPLPB’s intended 
+strict behavior after observing its output. 
+4. Materials and methods 
+4.1 Pinned implementation 
+The executed Combined MPLPB source is release candidate 
+2.1.0rc1
+, at commit 
+257e54a51edac272eb6b2441457f38a40485ee4d
+, from the public Combined repository [M0]. The published release ZIP 
+was checked against SHA-256: 
+3cc241c538519df32a60a3fa1af64406219dbd298613a992cd3ecb036b2f140c 
+Native tests exercised its unchanged writer, validator, strict answer interface, provenance/source bundle and 
+passage ranking. The 58 selected upstream tests were run after restoring fixture files omitted from an initial 
+partial extraction. These checks establish the selected native regression behaviors. Publicly documented 
+browser, networked, Swarm, SCOPE and assisted-model modes were not subjected to matched end-to-end 
+tests [M0–M6]. 
+4.2 Corpus identity: the 4,113 and 3,962 counts are not interchangeable 
+One preserved BATCH0010 receipt reports 
+4,113 cumulative typed edges
+. A separately located Drive ZIP 
+named 
+OOCC_Crawl_BATCH0010.zip 
+(filename shortened here for privacy) contains 
+3,962 distinct 
+machine-countable edge rows representing 44 predicates
+. The latter’s 155 listed package members passed 
+BENJAMIN GELHAUS 
+· 
+14 NOVEMBER 2026 
+| 
+4 
+
+
+
+
+
+2026 
+size and SHA-256 checks; predecessor ZIP hashes for batches 0008N→0009→0010 matched. The 4,113-edge 
+receipt belongs to a separately preserved version lineage whose matching ledger bytes were not located in the 
+completed review [O2]. The 3,962-edge ledger, rather than an unavailable 4,113-row ledger, was used for the 
+structural-transfer experiment. Neither graph is asserted to contain 3,962 or 4,113 independent real-world facts; 
+edges are structured claims, associations or historical objects whose evidentiary value must be separately 
+assessed. 
+4.3 Source corpus and text projection 
+The full-document exercise used seven privately controlled source PDFs representing 515 physical pages. The 
+evaluator extracted available embedded text with a layout-preserving PDF text tool, then created one sealed 
+native MPLPB page per physical page. Source-document hash, page number and page-text hash were tracked 
+in private records. This was a 
+text projection of PDFs
+, not a demonstration of native PDF ingestion, and it may 
+flatten tables or miss image-only content. Source text, personal names, addresses, message IDs, exact page 
+anchors and per-question private labels are not reproduced in this paper. 
+4.4 Measurement and evidence categories 
+Executed/native 
+means the unchanged MPLPB implementation was actually invoked on the stated test input. 
+External/post hoc 
+means an evaluator-built alternative ran after inspecting results; it is a feasibility experiment, 
+not an existing MPLPB feature. 
+Documented/not executed 
+means the upstream specification or code declares 
+a capability outside the tested path. 
+Unknown 
+means a claim awaits independent evaluation. Source identity 
+and successful code execution do not prove the truth of the human claims represented in a document. 
+5. Study design and consolidated results 
+5.1 Study populations, outcomes, and independence 
+The experiments are 
+engineering probes
+, not a randomized sample of real user requests. The unit of analysis 
+varies: a sealed page, an indexed passage window, a source-location question, a strict reader answer, a 
+repeated header signature, or a synthetic relation statement. Reported denominators apply only within the 
+named task. The seven source PDFs are a selected, privacy-restricted domain corpus; the 3,962-edge graph is 
+a 
+structured transfer input
+, not a model-extracted gold standard. The source-location targets were selected and 
+checked mechanically by the evaluator from the documents and were frozen before each measured run, 
+but 
+not blinded to the person constructing them
+. These labels measure source location under specified wording, 
+not correctness of legal, medical, or historical interpretations. 
+A strict refusal is assessed under two distinct rubrics: (i) 
+safety/faithfulness
+—whether it avoids unsupported 
+affirmative claims; and (ii) 
+capability coverage
+—whether the user-requested relationship is returned. A refusal 
+can score positively under (i) and negatively under (ii), without implying faulty reasoning inside a grammar that 
+never promised to accept the question. Likewise, the passage ranker supplies candidates; it does not assert 
+their truth. No global accuracy percentage or statistical generalization is computed by pooling the studies. The 
+same non-pooling rule also applies to OOCC’s field observations, 
+legacy V2 predecessor 
+structural controls, 
+successor V3 
+retrospective ablations and HLC source-to-code checks. V2 and V3 are a version lineage, not 
+contemporaneous independently deployed systems. Counting different experiments is not a matched 
+comparison, but failing to count them at all is an evaluation error. The chronology of a criticism is independently 
+relevant to whether it described the implementation that actually existed then. 
+
+BEYOND GUARDED RETRIEVAL 
+| 
+GELHAUS 2026 
+5.2 Operational definitions 
+Table 2. Operational definitions for the MPLPB experiments. 
+Reported measure 
+Operational meaning 
+Not established by the measure 
+Structural validation 
+MPLPB accepts and seals source 
+pages without validator findings 
+Authenticity or truth of the document 
+body 
+Rank-one / Recall@5 
+Target source page appears first / 
+within five native-ranked passages 
+Correct interpretation or a supported 
+answer 
+Strict supported answer 
+The pinned bounded reader returns 
+a source-backed answer under its 
+grammar 
+General-language reasoning ability 
+Safe refusal 
+No unsupported affirmative 
+assertion was issued on the tested 
+question 
+A complete historical reconstruction 
+Header-signature frequency 
+Same normalized 
+From/Sent/To/Subject fields recur in 
+the corpus 
+Proof of identical message bytes, 
+delivery, or independent 
+corroboration 
+External ablation 
+Evaluator-authored rule or locator 
+applied after native results 
+A feature implemented in MPLPB 
+itself 
+5.3 Experimental series 
+Six experiments addressed different stages of the workflow. They should not be added into one global accuracy 
+score: their populations, questions, ground truth and supported operations differ. 
+Table 3. MPLPB experimental series, outcomes, and scope. 
+Study 
+Input and questions 
+Measured positive result 
+Boundary or gap 
+A. Original native fixture 
+15 sanitized pages; 1 direct 
++ 10 compound questions 
+15 pages validated; 1/1 
+simple control answered; 10 
+compound questions 
+refused without false 
+affirmatives 
+Synthetic case-derived 
+fixture; grammar-limited 
+strict path 
+B. Graph transfer 
+3,962 prebuilt edges; 44 
+relation types; 72 queries 
+44 pages validated; 14/18 
+direct status answered; 
+18/18 fabricated-record 
+controls refused 
+0/18 one-edge and 0/18 
+two-hop answers in the 
+selected question wording; 
+graph already supplied 
+C. Synthetic scaling 
+5,120 fictional statements in 
+64 pages; 3 question forms 
+at 7 sizes 
+Direct status answered and 
+nonexistent record refused 
+at every size; validator clean 
+Candidate/source bundle 
+included all pages; two-hop 
+question withheld 
+D. Source-excerpt pilot 
+25 selected ChatGPT 
+excerpts and 5 Gemini 
+activity cards; 9 optional 
+analyst notes; 10 held-out 
+questions plus 
+variants/controls 
+Raw top-five retrieval found 
+expected evidence for 10/10 
+original questions; six 
+supported-grammar 
+calibration checks passed 
+0/30 distinct question forms 
+fit strict grammar; notes 
+displaced original passages 
+E. Full-page location 
+7 PDFs, 515 pages, 6,339 
+passage windows, 119 
+questions 
+Exact-phrase target in top 
+five 31/49; keyword target in 
+top five 23/49 
+Broad candidate eligibility; 
+correct page not 
+consistently in top five 
+F. Communication events 
+Same 515 pages; 42 
+source-header questions + 
+15 false-premise controls 
+Header source ranked first 
+40/42; top ten 41/42 
+0/57 questions fit 
+deterministic relation 
+grammar; matching headers 
+alone do not prove event 
+identity 
+Selected upstream regression suites: 
+58/58 passing
+, with original fixtures restored. None of these studies ran 
+the model-assisted reader or independently tested a complete deployed OOCC crawler. Test specifications, 
+aggregate outputs and synthetic reproductions are retained in separate local packages [E1–E6
+
+
+
+BEYOND GUARDED RETRIEVAL 
+| 
+GELHAUS 2026 
+6. Detailed findings 
+6.1 A larger graph can be stored without being semantically reconstructed 
+The anonymized transfer of the verified 3,962-edge ledger produced 44 sealed native pages, with zero 
+structural validator findings. The reader correctly rejected all 18 nonexistent-record controls and answered 14 of 
+18 direct-status questions. On the selected relationship questions, no one-edge or two-hop answer was 
+produced (0/18 in each category). The restrained interpretation is important: these were evaluator-chosen 
+question forms, and MPLPB’s source-graph rules do not promise arbitrary graph traversal. Abstention is 
+consistent with design. The result nevertheless demonstrates that 
+successful storage of relation statements 
+is not the same as a native, general relation-to-answer interface
+. It supplies a concrete product decision: 
+either continue to define such questions as outside strict scope, or add a distinctly labeled exploratory operation. 
+Both choices can be coherent [E1]. 
+The original 15-page fixture produced the same architectural signal on a narrower, curated task: one basic 
+supported question passed, while ten compound questions abstained. That pilot should be identified as a 
+small 
+authored requirement-transfer probe
+, not as a “4,113-edge run” [O1, E0]. 
+6.2 Candidate-set breadth and strict refusals are separate facts 
+In a fictional scaling exercise, a native corpus grew from 80 to 5,120 relation statements across 1, 2, 4, 8, 16, 32 
+and 64 pages. At every size, its validator passed; the direct status question returned the expected answer and 
+the absent-record question safely returned 
+not_in_corpus
+. A two-hop question withheld the unsupported 
+composition. However, the provenance/source bundle included every page at each corpus size—even for the 
+nonexistent identifier. At 64 pages the median local response times across three repetitions were 553.8 ms for 
+an existing status, 679.8 ms for an absent record and 369.6 ms for the two-hop request [E2]. 
+Crucial clarification: 
+The gate’s complete eligible-source list is not necessarily the final ranked set. Broad 
+eligibility may be an intentional completeness feature. The engineering concern is whether downstream steps 
+repeatedly parse or carry large source sets when exact identifiers are available, and whether a caller can 
+distinguish “eligible corpus” from “retrieved evidence supporting this particular question.” The observed timings 
+are local workload measurements, not an asymptotic complexity guarantee or a production throughput claim. 
+Table 4. Native response latency across selected synthetic corpus sizes. 
+Native pages / relation 
+statements 
+Existing status, median 
+ms 
+Absent record, median ms 
+Two-hop, median ms 
+1 / 80 
+10.8 
+13.5 
+8.6 
+4 / 320 
+36.5 
+43.0 
+23.4 
+16 / 1,280 
+128.3 
+158.8 
+90.6 
+64 / 5,120 
+553.8 
+679.8 
+369.6 
+An exact-anchor prefilter should be evaluated as an optional optimization, not presumed safe. It must never 
+silently suppress eligible contradictory evidence or bypass “not-for,” lineage or source-eligibility rules. 
+6.3 Source ranking works better for distinctive fields than for generic wording 
+In the 30-card pilot, the native passage index located at least one expected original record within the top five 
+results for all ten pre-existing holdout questions, although the strict parser supported none of the 30 distinct 
+question forms. Adding nine analyst annotations left top-five coverage at 10/10 but reduced original-source 
+rank-one frequency from 7/10 to 4/10; an annotation occupied the first rank in 5/10 original questions [E3]. This 
+is not demonstrated answer contamination; it is a 
+source-selection and evidence-class ordering risk
+. An 
+interpretation can be useful as a discovery lead without being an original utterance. 
+The 515-page page-location study deliberately varied the available query signals. Forty-nine exact eight-word 
+phrase questions placed the intended source page first in 25 cases and in the top five in 31. Forty-nine 
+BENJAMIN GELHAUS 
+· 
+14 NOVEMBER 2026 
+| 
+7 
+
+
+
+
+BEYOND GUARDED RETRIEVAL 
+| 
+GELHAUS 2026 
+reduced-keyword variants placed it first in 16 and in the top five in 23. Twenty-one invented-token controls still 
+returned lexical candidates despite those tokens’ absence from the text. An experimental exact-string locator 
+run only 
+after 
+the native result found the target page for 49/49 quoted strings, 48 uniquely; it did not test free-text 
+semantics and was not part of MPLPB [E4]. 
+The lesson is narrower than “MPLPB’s retrieval is broken.” Its BM25-style passage ranking can work, but result 
+quality varies sharply with query specificity. The product needs explicit regimes for exact anchors, structured 
+fields, quoted text, exploratory lexical search, and unsupported assertion. Returning candidates on a 
+nonexistent word is not itself a fabricated answer. 
+6.4 Repeated source appearances are not independent communication events 
+The 515-page source projection contained 267 appearances of complete 
+From
+/
+Sent
+/
+To
+/
+Subject 
+email headers. 
+Normalized header signatures yielded 150 distinct four-field signatures; 53 signature groups repeated, yielding 
+117 appearances beyond each group’s first. These are 
+machine-detected header appearances
+, not 150 
+verified unique sent messages. The same email may be quoted in multiple logs; different messages can share a 
+subject; identical headers can conceal different bodies. A later log’s author may not be the sender named inside 
+its embedded email [E5]. 
+To test source location, 42 three-field header questions were frozen, plus 15 invented-token controls. Native 
+passage ranking placed the expected page first in 40/42 cases and within the top ten in 41/42. Yet no question 
+used a form recognized by the deterministic relation parser (0/57). This is strong evidence that source location 
+and event-level historical answers are separate tasks; it is 
+not 
+a score of 57 failed logical deductions. A 
+post-test structured field filter found expected source pages for 42/42 questions given three gold-derived exact 
+fields; this establishes only the feasibility of fielded indexing for that question class, not a native improvement or 
+general-language result [E5]. 
+A seven-page entirely fictional event fixture was also validated by MPLPB’s writer. It demonstrates why “source 
+occurrence” and “communication-event candidate” need distinct identities. An example with the same subject 
+but two senders should yield two candidate messages; an example with matching headers but different bodies 
+should trigger review rather than automatic merger. None of those cases justifies inferring 
+delivered
+, 
+read
+, 
+acknowledged 
+or 
+acted 
+from a 
+Sent 
+line. 
+6.5 The value of precise diagnostic outcomes 
+When a question falls outside the strict finite grammar, a refusal may be entirely appropriate. But a developer or 
+analyst needs to distinguish at least: unsupported question form, no eligible sources, candidate sources found 
+without a supported interpretation, source conflict, insufficient fields, and genuine absence after a specified 
+bounded search. A generic negative answer collapses distinct intervention opportunities. Existing pipeline 
+contract states already have much of the vocabulary to support this distinction [M2]. The recommendation is to 
+make those distinctions more visible and machine-checkable, not to turn refusals into optimistic answers. 
+7. Engineering recommendations, ordered by cost and risk 
+Recommendation P0 — Distinct retrieval and answer diagnostics 
+Add stable diagnostic codes and counts without altering the strict answer-authority decision. Proposed outputs 
+include 
+QUERY_FORM_UNSUPPORTED
+, 
+NO_ELIGIBLE_SOURCE
+, 
+CANDIDATES_FOUND_NO_SUPPORT
+, 
+SOURCE_CONFLICT
+, 
+REQUIRED_FIELD_MISSING
+, 
+SOURCE_GAP_IN_SEARCH_SCOPE
+, 
+CANDIDATE_RELATION_ONLY
+, and 
+SUPPORTED_SOURCE_QUOTE
+. Include 
+eligible_count
+, 
+ranked_candidate_count
+, 
+supporting_source_count
+, 
+query_form
+, 
+source_profile 
+and 
+budget_truncated 
+as independently interpretable fields. The current contract already separates 
+BENJAMIN GELHAUS 
+· 
+14 NOVEMBER 2026 
+| 
+8 
+
+
+
+
+BEYOND GUARDED RETRIEVAL 
+| 
+GELHAUS 2026 
+supported_answer
+, 
+partial_answer
+, 
+clarify
+, 
+conflict
+, and 
+abstain
+; this proposal primarily improves diagnostics and external 
+evaluation [M2]. 
+Acceptance: 
+Existing strict positives and negatives retain identical 
+answer_supported 
+status. A natural-language 
+relationship question that the grammar does not implement yields 
+QUERY_FORM_UNSUPPORTED 
+rather than an 
+undifferentiated absence claim. A truly empty eligible corpus yields 
+NO_ELIGIBLE_SOURCE
+. The same inputs 
+produce stable diagnostic codes across runs and interface adapters. 
+Recommendation P1 — Field- and evidence-class-aware retrieval 
+Before broad passage ranking, use an opt-in query planner that recognizes exact source IDs, document hashes, 
+timestamps, quoted strings and typed event fields. Search 
+eligible original evidence 
+first, while keeping 
+analyst annotations in a separate candidate-discovery class. Preserve a path for uncertain or unmatched 
+questions to use broad lexical retrieval. Deduplicate candidate 
+display 
+records without treating distinct source 
+occurrences as independent corroboration. Record which source constraints were applied and make recall loss 
+visible. 
+Acceptance: 
+On the pinned source-location questions, compare native baseline, exact field/index routing, and a 
+permissive union route using the same page corpus and matched machine budget. Required citations must not 
+disappear when a source is retired, conflicts or has multiple matches. Record top-k recall, first-source position, 
+eligible-page count, ranked-candidate count, latency and any increase in false negatives. 
+Recommendation P1 — Source occurrence versus communication identity 
+Introduce typed 
+SourceOccurrence 
+and 
+CommunicationCandidate 
+records. A 
+SourceOccurrence 
+represents 
+where 
+something appears
+: 
+source_id
+, 
+source_hash
+, physical page/span, extraction method, author of the container and 
+quoted/primary/unknown status. A 
+CommunicationCandidate 
+represents a proposed underlying communication: 
+observed header fields, normalization version, body hash or known body variants, sender/recipient reports and 
+candidate confidence. Connect by 
+appears_as 
+rather than merging source pages. Treat matching header 
+signatures as 
+candidate duplicate evidence
+; mismatched bodies require 
+BODY_CONFLICT / REVIEW_REQUIRED
+. 
+Acceptance: 
+A quoted email in three source documents remains one 
+candidate 
+message with three observed 
+appearances unless evidence indicates otherwise. Two emails with identical subjects are not merged solely by 
+subject. Two matching headers with different bodies remain visible as a conflict. 
+Sent 
+never implies delivery, 
+read, ACK or completion. The fictional seven-page fixture can serve as an initial software regression, followed 
+by new blind fixtures [E5]. 
+Recommendation P2 — Typed temporal and correction relations 
+Provide an optional versioned edge schema with 
+subject
+, 
+predicate
+, 
+object
+, 
+event_time
+, 
+observation_time
+, 
+source_time
+, 
+qualifiers
+, 
+claim_author
+, 
+source_occurrence_id
+, 
+basis_version 
+and 
+status
+. The historical record should allow 
+historically_precedes
+, 
+quoted_in
+, 
+corrects
+, 
+retracts_part_of
+, 
+claimed_by
+, 
+sourced_from
+, 
+source_conflicts_with
+, and 
+candidate_same_event
+. Distinguish when an event allegedly happened, when it was written down, when it entered 
+an archive and when the system learned of it. Allow unknown time zones and uncertain dates. 
+Acceptance: 
+Corrections retract only specified propositions; original statements remain inspectable. Two 
+time-separated observations are not treated as same-time contradictions. An earlier newly discovered 
+occurrence may revise the graph’s 
+earliest observed 
+index without erasing what was believed from the older 
+source frontier. Historical mode must not silently restore current authority to withdrawn pages [M3]. 
+Recommendation P2 — Optional relational composition without authority promotion 
+Retain the deterministic strict path unchanged. Add an explicitly opted-in relation-discovery channel that can 
+propose and test paths across source occurrences, with every proposed edge pinned to an exact source span 
+BENJAMIN GELHAUS 
+· 
+14 NOVEMBER 2026 
+| 
+9 
+
+
+
+
+
+
+BEYOND GUARDED RETRIEVAL 
+| 
+GELHAUS 2026 
+and evidence-class label. Composition requires declared rules; missing bridges remain missing. The output 
+contract should distinguish 
+CANDIDATE
+, 
+EVIDENCE_SUPPORTED_UNDER_SCOPE
+, 
+CONTESTED
+, 
+REJECTED
+, 
+RETRACTED
+, 
+and 
+UNRESOLVED 
+from strict 
+SUPPORTED_ANSWER
+. Inference is not a side effect of storing a graph. A relation is 
+not admissible merely because it is useful or plausible. 
+Acceptance: 
+The proposed channel must recover supported paths on an independently labeled set while 
+preserving refusals on adversarial near matches, contradictory sources and negative controls. The strict 
+channel’s regression results must remain unchanged. Provide evidence coverage, false-bridge rate, qualification 
+retention and human review workload rather than only answer count. 
+Recommendation P3 — Query budgeting and scale-aware retrieval 
+Make the boundary between 
+eligible universe
+, 
+retrieval candidates
+, 
+evidence excerpts 
+and 
+answer support 
+explicit. Add configurable retrieval budgets, completeness flags, exact-filter diagnostics, passage-level caching 
+and workload instrumentation where safe. Preserve an escape hatch to full-source inspection for conflicts, 
+disputed findings, legal records or truncated paragraphs. Do not improve latency by dropping contradictory 
+evidence without declaring the search boundary. 
+Acceptance: 
+Compare CPU time and bytes carried through each stage across increasing corpora, without 
+changing strict-answer safety. Repeat each query enough times to report variation, not just a single median. 
+Include high-overlap, sparse-match, repeated-header and false-premise workloads. Test regressions after 
+corpus revision and source withdrawal. 
+8. A proposed minimal architecture 
+The proposed extension can be described as five independent stages: 
+1. 
+Immutable source store 
+— preserves original bytes or authorized source projection, exact identity, 
+lineage and sensitivity classification. 
+2. 
+Eligibility gate 
+— applies current profile, source integrity, supersession, permissions and scope. Does 
+not assert factual truth. 
+3. 
+Evidence locator 
+— performs exact field lookup, quote matching and broader passage ranking, 
+returning source occurrences and completeness metadata. 
+4. 
+Historical relation workspace (optional) 
+— creates versioned, reversible candidate event identities 
+and typed edges. It can retrieve historical relevance without promoting withdrawn sources as current 
+authority. 
+5. 
+Answer/review gate 
+— only the existing supported-answer contract or an explicitly separate assisted 
+review may issue the corresponding labeled output. Action authorization remains independently 
+controlled. 
+The fields below are a deliberately small proposal, not a claim about MPLPB’s current database schema: 
+SourceOccurrence { 
+occurrence_id, source_id, source_hash, page_or_span, 
+container_author, observed_sender, event_time, record_time, 
+extraction_status, source_class, eligibility_snapshot 
+} 
+RelationCandidate { 
+edge_id, subject_id, predicate, object_id, 
+supporting_occurrence_ids[], contrary_occurrence_ids[], 
+time_scope, qualifiers, status, created_by, revision, 
+falsifier, review_state 
+} 
+AnswerTrace { 
+BENJAMIN GELHAUS 
+· 
+14 NOVEMBER 2026 
+| 
+10 
+
+
+
+
+
+2026 
+question_id, grammar_status, eligible_source_count, 
+ranked_source_ids[], support_paths[], unresolved_edges[], 
+answer_kind, unsupported_reason, runtime_and_budget 
+} 
+The schema keeps 
+source existence
+, 
+attributed claims
+, 
+candidate historical association
+, 
+current answer 
+support
+, and 
+permission to act 
+separate. This is consistent with MPLPB’s strongest design principle, not a 
+rejection of it. 
+9. How to test the proposed improvements fairly 
+9.1 Pre-specify task types, not a preferred winner 
+An independent reviewer should freeze a corpus and score rubric before either implementation sees the labeled 
+evaluation questions. Include distinct categories: direct quotation location; multiple occurrences of one 
+communication; different communications with the same subject; identical headers with changed bodies; 
+speaker versus quoted speaker; earliest-observed revisions; partial retractions; genuine and apparent 
+contradictions; multi-hop paths with and without a missing bridge; conflicting authority; dormant association 
+brought into relevance by a later event; and decisions that must abstain. Include both valid positives and 
+near-miss negatives. The earlier 15-page authored fixture and 42 header queries are engineering baselines, not 
+substitutes for this independent test. 
+9.2 Separate different kinds of error 
+Report retrieval 
+Recall@k
+, exact-source attribution, relationship precision/recall, contradiction qualification, false 
+entity merges, unsupported affirmative rate, correct abstention, false abstention on supported examples, 
+correction-scope accuracy, lineage fidelity, runtime cost and reviewer labor. Aggregate only within comparable 
+test groups. A 
+not_in_corpus 
+result on unsupported grammar should not be counted as a demonstrated 
+hallucination or as proof of failed semantic reasoning; it is a 
+coverage/contract decision
+. Conversely, 
+identifying the right source page does not certify the correctness of an inferred relationship. 
+9.3 Preserve the intended system boundary 
+Run (A) stock MPLPB strict; (B) stock MPLPB assisted with a pinned, independently available local model if 
+authorized and feasible; (C) the optional event/relationship extension; and (D) a simple structured index or 
+standard retrieval baseline. If a direct OOCC comparison is desired, use the same 
+raw original sources 
+and 
+matched budgets rather than giving one system the other’s precomputed graph. Test the actual connected tools 
+and platforms separately from algorithms: an accessible PostgreSQL server, a populated Supabase index or a 
+GitHub runner cannot stand in as evidence of semantic accuracy. The local PostgreSQL Messenger route and a 
+connected secondary Supabase index were not part of the MPLPB execution trials described here. 
+9.4 Threats to validity 
+This evaluation has important limitations: the evaluator developed several questions while seeing source data 
+and code; the full-page gold anchors were selected from the texts rather than human-adjudicated; PDF text 
+projection may omit layout or images; the original 4,113-row ledger is not available for direct row-level 
+verification; the 3,962-edge transfer began with already structured relationships; the test grammar is narrower 
+than open-language research; the assisted and external platforms were untested; some experiments use a 
+small number of repeated queries; and the post hoc ablations had query-specific advantages. The private case 
+corpus is a difficult application domain but is not statistically representative of all documents. No medical, legal 
+or factual determinations about individuals are inferred from these software scores. 
+BENJAMIN GELHAUS 
+· 
+14 NOVEMBER 2026 
+| 
+11 
+
+BEYOND GUARDED RETRIEVAL 
+| 
+GELHAUS 2026 
+9.5 Evidence-order effects and evaluator reliability 
+A retrospective audit of the initial comparison identified three observable errors: a critic’s earlier interpretation 
+was treated as an enduring description of OOCC, source chronology and version succession were insufficiently 
+examined, and the systems’ evidence was weighed asymmetrically [R1]. These failures demonstrate a practical 
+requirement for comparative systems research: 
+the reading order and rhetorical style of source material 
+must not determine its evidentiary authority
+. 
+Primacy, anchoring, and authority cues offer plausible explanations for this pattern, although the internal causal 
+mechanism was not experimentally identified. The distinction matters: the errors are documented in the 
+evaluator’s outputs; the psychological or model-level explanation remains a hypothesis. To test for order effects, 
+independent assessors could receive the same pinned materials under three randomized conditions—critic-first, 
+target-first, and chronological source-first—while using an identical scoring rubric. Dated-fix errors, omitted 
+source tests, misattributions, and changes in confidence would constitute measurable outcomes. 
+This safeguard generalizes beyond the present comparison. Contemporaneous version records, source lineage, 
+and disconfirming experiments must be consulted before an external criticism is promoted into a technical 
+finding, particularly when a system has undergone several generations of development. 
+10. Implementation priorities 
+The best near-term return is not unrestricted inference. It is a sequence that protects what already works. 
+Table 5. Recommended implementation priorities and acceptance criteria. 
+Priority 
+Deliverable 
+Risk 
+Independent acceptance 
+evidence 
+P0 
+Granular 
+QUERY_FORM_UNSUPPO 
+RTED and source-status 
+diagnostics 
+Low 
+No strict verdict regression; 
+diagnostic confusion 
+reduced 
+P1 
+Exact-field and quote-first 
+routing with source-class 
+separation 
+Moderate 
+Better source recall and 
+smaller bounded candidate 
+sets without missing 
+conflicts 
+P1 
+Event occurrence/candidate 
+distinction and 
+body-collision detection 
+Moderate 
+Duplicate/forwarded/contrad 
+ictory-header fixtures pass 
+P2 
+Revisioned time-qualified 
+correction and relation 
+edges 
+Moderate–high 
+Blind 
+temporal/identity/partial-retr 
+action gold set 
+P2 
+Opt-in hypothesis layer with 
+evidence-gated composition 
+High 
+Blinded sourced-path 
+accuracy, safe negatives 
+and intact strict refusal 
+P3 
+Scale, cache, budget and 
+completeness 
+instrumentation 
+Moderate 
+Repeatable performance 
+under adversarial overlap 
+and revisions 
+The P0 and P1 recommendations are valuable even if McPhetridge chooses 
+not 
+to support general historical 
+reconstruction. If MPLPB remains intentionally a source-authority and bounded-answer tool, better diagnostics 
+and event-aware retrieval clarify that scope to users and future developers. If he wants a broader investigative 
+engine, the P2 modules provide a falsifiable path without blurring source integrity, working hypothesis and actual 
+authority. 
+11. Falsification criteria and replication 
+The central capability-gap finding would be narrowed or overturned by an identifiable MPLPB release, run on 
+the same previously unseen original sources, that reconstructs historically distinct communications, tracks 
+BENJAMIN GELHAUS 
+· 
+14 NOVEMBER 2026 
+| 
+12 
+
+BEYOND GUARDED RETRIEVAL 
+| 
+GELHAUS 2026 
+conflicting body versions and partial corrections, preserves source and time provenance, composes only 
+justified relationships, and produces accurate uncertainty labels on an independently reviewed gold set. A local 
+model-assisted path that succeeds should be credited as 
+assisted performance
+, not retroactively attributed to 
+the original deterministic parser. A fielded index that resolves exact metadata should be credited as an 
+indexing 
+enhancement
+, not called general semantic reasoning. 
+Conversely, adding evaluator-authored pages containing the desired answers, or manually transcribing OOCC’s 
+graph into the source corpus, demonstrates the ability to 
+store 
+relationships. It does not demonstrate 
+independent reconstruction. The test should distinguish human curation, model inference, search and 
+deterministic validation contributions. Strong results on one domain should be reported within that domain until 
+replicated. 
+12. Data availability, ethics, and disclosures 
+12.1 Data, code, and reproducibility 
+The companion archive 
+MPLPB_Public_Companion_Reproducibility_2026-11-14.zip 
+contains aggregate results, a fictional 
+5,120-statement scaling corpus and executable probe, and a fictional communication-event fixture with its test 
+runner. Its SHA-256 is 
+c0a51de67df80adf3f3ac2c44366063b183c50d06953e298519f2b2509f5e0ef
+; member digests 
+accompany the archive. The MPLPB release under test is publicly pinned at [M0]. The seven-source, 515-page 
+experiment used private source documents, so its full original-source replay requires authorized access or an 
+independently assembled replacement corpus. The supplement supports verification of released synthetic 
+procedures and inspection of aggregate outcomes. 
+12.2 Ethics and access controls 
+The original research materials include restricted correspondence and family-case records. The experimental 
+data were processed locally under the corpus owner’s authorization. This article reports aggregate engineering 
+outcomes and uses fictional test material in the shareable supplement; protected source text, individual case 
+allegations, and identifying graph edges are withheld. The study concerns software reliability and historical 
+source handling, not substantive clinical or legal determinations. 
+12.3 Author contributions and interests 
+Benjamin Gelhaus conceived the comparison, supplied the OOCC research context and evaluation objectives, 
+and directed the emphasis on practical improvements to MPLPB. ChatGPT was used for source retrieval, local 
+test execution, analysis and manuscript editing. Mitchell D. McPhetridge developed MPLPB; he did not 
+participate as an author of this study. Gelhaus’s direct involvement in OOCC creates a relevant intellectual 
+interest and potential selection effect. No external funding has been identified for this evaluation. The 
+retrospective evaluator-error analysis is documented at [R1]. 
+13. Conclusion 
+Combined MPLPB provides substantial, implemented safeguards for source identity, integrity, supersession, 
+eligibility, and deterministic answer support. The 58 selected regression tests passed, and the experimental 
+corpora demonstrated functioning native validation and source retrieval. The measurable capability boundary 
+lies between 
+finding source material 
+and 
+reconstructing a correctly attributed, time-qualified historical 
+relationship
+. Source-location quality varied with query specificity, and the strict reader deliberately refused 
+unsupported relational compositions. 
+BENJAMIN GELHAUS 
+· 
+14 NOVEMBER 2026 
+| 
+13
+
+BEYOND GUARDED RETRIEVAL 
+| 
+GELHAUS 2026 
+The most practical path forward preserves the existing source-authority machinery and introduces targeted 
+extensions: precise refusal diagnostics, exact-field source routing, event candidates distinct from their 
+documentary appearances, versioned correction relationships, and optional evidence-gated relation exploration. 
+Those extensions admit concrete tests and provide McPhetridge with incremental opportunities to improve 
+coverage without compromising the safeguards that already work. 
+The OOCC development record supplies a related methodological lesson. V3 succeeded V2 through a 
+documented history of tests, negative findings, and implementation changes. An external critique of one version 
+must be dated and tested against that version’s actual evidence; conclusions cannot be inherited unchanged 
+after revisions. Applying the same standards of chronology, source identity, and measurable outcome to both 
+architectures turns comparative criticism into an engineering instrument rather than a contest of presentation or 
+assertion. 
+References 
+Public implementation and original-author documentation 
+[M0] Mitchell D. McPhetridge, 
+Combined MPLPB
+, pinned tested revision 257e54a51edac272eb6b2441457f38a40485ee4d. 
+https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/tree/257e54 
+a51edac272eb6b2441457f38a40485ee4d 
+[M1] McPhetridge, 
+Deterministic source-evidence graph
+, pinned commit. 
+https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/257e54 
+a51edac272eb6b2441457f38a40485ee4d/docs/DETERMINISTIC_EVIDENCE_GRAPH.md 
+[M2] McPhetridge, 
+General answer pipeline — 2.1.0rc1
+, pinned commit. 
+https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/257e54 
+a51edac272eb6b2441457f38a40485ee4d/docs/GENERAL_ANSWER_PIPELINE.md 
+[M3] McPhetridge, 
+Supersession policy examples
+, pinned commit. 
+https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/257e54 
+a51edac272eb6b2441457f38a40485ee4d/docs/SUPERSESSION_POLICY.md 
+[M4] McPhetridge, 
+Specialist continuity: durable work and guarded handoffs
+, pinned commit. 
+https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/257e54 
+a51edac272eb6b2441457f38a40485ee4d/docs/SPECIALIST_CONTINUITY.md 
+[M5] McPhetridge, 
+Intended scope, completeness and production readiness
+, pinned commit. 
+https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/257e54 
+a51edac272eb6b2441457f38a40485ee4d/docs/PRODUCTION_READINESS.md 
+[M6] McPhetridge, 
+Multi-Platform Linked Public Building as a Cognitive Strategy
+; related Smart Local, Networked MPLPB, Swarm 
+MPLPB and SCOPE research. https://github.com/mitchell-d00/Multi-Platform-Linked-Public-Building-as-a-Cognitive-Strategy- 
+Experimental records and OOCC studies 
+[O1] Gelhaus, 
+A Full Evaluation and Critique of Multi-Platform Linked Public Building
+, 14 November 2026. Original comparative 
+manuscript and native fixture package; privately archived. 
+[O2] Private OOCC case-crawl records: BATCH0010 receipt describing 4,113 cumulative typed edges, separate Drive BATCH0010 
+ZIP containing 3,962 machine-counted edge rows and 44 relationship types, integrity manifests, version-conflict erratum and 
+predecessor ZIPs. Primary source material retained privately and is not furnished to the intended external reader. 
+[E0] 
+MPLPB × OOCC native 15-page fixture
+, pinned Combined MPLPB v2.1.0rc1, test runner and source receipts, 14 November 
+2026. Private Drive reproducibility package with sanitized fictional/case-derived fixture. 
+[E1] 
+MPLPB Extended Benchmark Sanitized Results
+, MPLPB_Extended_Benchmark_Sanitized_Results_2026-11-14.json; local 
+3,962-edge transfer and 72 questions. Aggregate results only. 
+BENJAMIN GELHAUS 
+· 
+14 NOVEMBER 2026 
+| 
+14
+
+
+
+BEYOND GUARDED RETRIEVAL 
+| 
+GELHAUS 2026 
+[E2] 
+Independent Synthetic Stress Packet
+, 64 sealed fictional pages, 5,120 relation statements, seven corpus sizes, 
+MPLPB_Synthetic_Scaling_Probe_results.json and upstream 58-test log, 14 November 2026. Contains no private source data. 
+[E3] 
+Mitch Source-First Engineering Challenge
+, source-excerpt pilot, native passage metrics and six calibration tests, with separate 
+private and shareable packets, 14 November 2026. 
+[E4] 
+515-Page Engineering Challenge
+, sanitized 119-question scores, frozen holdout checksum 
+bb64378ce1ead4309d0afd4d13061c13c465e6c825ee293abc9546a889e00276, and private original page/anchor maps, 14 
+November 2026. 
+[E5] 
+Relational Event Reconstruction Engineering Challenge
+, 57-question frozen header benchmark checksum 
+947412148d5c974f180859ca4752ef667e209aded6fffbe17483c27ddfe80714, separate wholly fictional seven-page fixture and 
+private source-linked reproduction, 14 November 2026. 
+Historical evidence and evaluation methods 
+[H1] Gelhaus–McPhetridge Academia.edu correspondence, original saved 605-message source-derived transcript, August 2026 
+snapshot; includes an early user-reported set of field diagnostics and a separately attributed four-class scale critique. Original raw 
+messages and personal correspondence remain in a restricted archive. This paper does not reproduce their private contents or treat 
+either participant’s pasted AI-generated commentary as independent evidence. 
+[H2] Same correspondence, separately retained November 9 continuation (messages 606–658), including the author’s retrospective 
+account of ideas learned versus technologies later implemented. Relative display dates and original wording are preserved privately. 
+Retrospective narratives are not substitutes for contemporaneous code evidence. 
+[O3] 
+CRAWL-V2-001 — CP045 Verified Successor Handoff and Source Router
+, 22 October 2026. 
+Legacy predecessor V2; V3 is 
+the successor architecture. 
+Identifies a verified archive and independent integrity readbacks, a deliberately failed canary, and 
+stated limitations. Private repository-owned Drive original; exact file ID and supporting source mappings withheld from the public 
+supplement. 
+[O4] 
+V3 CP005 — Technical Checkpoint / Retrieval and Timeline Evidence 
+and 
+V3 CP005 — T2 Hybrid Counterfactual / 
+Equal-Budget Ablation
+, 1 November 2026. 
+Successor V3 development evidence, not a parallel V2 run. 
+Source SHA and 
+post-hoc labels, fixed 35-slot result table, negative outcomes, and limits documented in original research files. Historical source 
+archive remains private. 
+[O5] 
+HLC-SHARD-09 — CP014 Kernel Genesis and Version-Propagation Gate
+, 30 October 2026. Dated code-introduction and 
+host-test references, plus explicit non-propagation finding. Public GitHub commits for independently inspectable code provenance: 
+https://github.com/MrMeNotU/OOCC/commit/ab800adb9de5be4e922bf2f5f01ea0bef3c76589 and 
+https://github.com/MrMeNotU/OOCC/commit/ceb0be2ec2435556fa2912656977385129b4654 . Host-test outcomes separately 
+scoped in the original audit. 
+[O6] 
+OOCC V2 A10 ten original graph checkpoints 
+and 
+V2 B8 ten bounded source-depth checkpoints
+, 6–7 November 2026. 
+Historical V2-family contract invocations; V2 does not remain the current crawler architecture. 
+Reports distinguish full export 
+topology from sampled semantic readings and report unsupported historical claims as unresolved; private original custody 
+preserved. 
+[R1] 
+Comparative Evaluation Error Audit
+, 14 November 2026. Private research-session record of source-order, chronology, and 
+evidence-weighting errors; hypotheses about causal mechanisms are catalogued separately. 
+[O7] 
+V3-BB-01-CURRENT — Current V3 A/B Crawler Blackboard
+, 1 November 2026; current accessible working-state version 
+re-read on 14 November 2026. Describes CRAWL-V3 as the successor crawler, records distinct A/B lanes and source/checkpoint 
+routing, and explicitly labels native controller operation, recipient acceptance and unattended execution as unverified. This is a 
+working-state candidate, not the sole governing OOCC orientation. Private source custody retained; original ID withheld from public 
+supplement. 
+Appendix A. Acceptance tests for proposed extensions 
+The acceptance suite should pin code revision, configuration, source bytes, field normalization, external-model 
+settings and computational budgets before each run. Hidden questions must remain separate from development 
+examples. 
+BENJAMIN GELHAUS 
+· 
+14 NOVEMBER 2026 
+| 
+15 
+
+BEYOND GUARDED RETRIEVAL 
+| 
+GELHAUS 2026 
+1. 
+No regression in source authority. 
+Existing integrity, supersession, restricted-source, conflict and 
+negative controls must retain their answer support and refusal decisions. 
+2. 
+Improved diagnostic truthfulness. 
+Unsupported question grammar, absent eligible source, known 
+source conflict, insufficient evidence and index-exhaustion must be separately labeled. 
+3. 
+Exact identifiers without false pruning. 
+Exact field/quote routing must improve source location in 
+held-out cases without dropping contradictory eligible passages; test zero, one and multiple matches. 
+4. 
+Distinct event identities. 
+Multiple appearances of one message remain distinguishable source 
+occurrences; equal subject lines must not force identity; changed bodies must trigger review. 
+5. 
+Time-scoped correction. 
+A later partial correction changes only its specified claim while retaining the 
+original statement, provenance and prior assessment. 
+6. 
+Candidate inference remains a candidate. 
+Missing intermediate evidence stops the proposed relation; 
+exploratory outputs do not appear as deterministic supported answers. 
+7. 
+Operational receipts remain independent. 
+Stored, dispatched, delivered, read, acknowledged and 
+completed are distinct outcomes; every transition requires the designated evidence. 
+8. 
+Measure operator burden. 
+Report human labeling and correction time, CPU time, memory, bytes 
+scanned, source-count coverage and false-bridge rates alongside top-k retrieval. 
+The decisive falsifier of the present capability-gap claim is an identifiable, independently examined MPLPB 
+implementation that reconstructs these relationships from 
+unprepared original source records
+, with credible 
+source citations, useful recall, low false-positive rates and no degradation of its existing authority protections. A 
+reciprocal evaluation of OOCC should use the same original-source access, version pins, blinded scoring and 
+error metrics, while also measuring workflow benefits not shared by the two intended designs. An early critical 
+claim about OOCC is falsified only by evidence attached to the correct date and technical mechanism, not by an 
+unrelated later success. 
+BENJAMIN GELHAUS 
+· 
+14 NOVEMBER 2026 
+| 
+
+16

@@ -1,0 +1,9 @@
+{
+  "runner_sha256": "cbf55b58fa52f50cb75a644024d6cd5931649e03cd8501abe7cf4ea08661f3d6",
+  "pins": {
+    "portable-evidence-runtime": "4fdc20193c01f82baea0598b4c7d8ef3040772d5",
+    "mplpb-residual-experiment": "1ec160051ba306ce61d74ba3186f0aa5873694c5"
+  },
+  "residual_source": "257e54a51edac272eb6b2441457f38a40485ee4d",
+  "scope": "Earlier public software controls; no new model trials or independent historical accuracy."
+}

@@ -1,0 +1,6 @@
+{
+  "revision": "ccbb5804eb47f78c2338d57c142ad087b47be710",
+  "source_manifest_sha256": "56434b46d0a8bdb8278c0790246f0e6d0a3e2fd43c27e4f45c7c212615b0acf2",
+  "runner_sha256": "be3b120d7870b4e93f0cee076ac1fddf49cb2487c6f0ab9bd1ad867260ea0966",
+  "inputs": "Existing public first-15-page extractions and supplied excerpt; not the newly supplied full Ben text."
+}

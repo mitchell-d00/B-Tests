@@ -1,0 +1,11 @@
+PASS source seal verifies
+PASS basic source answer
+PASS source mutation refused
+PASS missing fact refused
+PASS ambiguous independent owners refused
+PASS verified successor retires older owner
+PASS derived parent pin becomes stale when source replaced
+PASS conflicting selected id refused
+PASS json import/export round trip
+PASS browser artifact built and network-free
+PASS 10 authoring checks

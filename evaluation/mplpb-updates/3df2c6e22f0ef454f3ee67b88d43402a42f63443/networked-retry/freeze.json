@@ -1,0 +1,16 @@
+{
+  "revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "Tests",
+    "-t",
+    "."
+  ],
+  "cwd": "parts/networked",
+  "environment_change": "Local networking permitted; no target changes.",
+  "original_failure": "components/networked.stderr.txt: socket creation PermissionError"
+}

@@ -1,0 +1,67 @@
+name: Current MPLPB acceptance controls
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/current-mplpb-acceptance.yml'
+      - 'evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/*.py'
+  pull_request:
+    paths:
+      - '.github/workflows/current-mplpb-acceptance.yml'
+      - 'evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/*.py'
+permissions:
+  contents: read
+jobs:
+  current-native:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: btests
+      - uses: actions/checkout@v4
+        with:
+          repository: mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages
+          ref: ccbb5804eb47f78c2338d57c142ad087b47be710
+          path: mplpb-current
+      - uses: actions/checkout@v4
+        with:
+          repository: mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages
+          ref: 3df2c6e22f0ef454f3ee67b88d43402a42f63443
+          path: mplpb-reader
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Updated native implementation
+        working-directory: btests
+        run: python -m research_lab.mplpb_native_suite --mplpb-root ../mplpb-current --revision ccbb5804eb47f78c2338d57c142ad087b47be710 --out ci-current/native
+      - name: Actual boundary probes and legacy query contracts
+        if: always()
+        working-directory: btests
+        run: |
+          python evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/run_checks.py --mplpb-root ../mplpb-current --out ci-current/checks
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('ci-current/checks')
+          assert all(r['status']=='PASS' for r in json.loads((p/'seams/summary.json').read_text())['results'])
+          rows=json.loads((p/'legacy-development.json').read_text())['results']
+          assert [r['status'] for r in rows].count('PASS_CONTRACT')==10
+          assert [r['status'] for r in rows].count('OUT_OF_SCOPE')==6
+          PY
+      - name: Source-authority public controls
+        if: always()
+        working-directory: btests
+        run: python evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/run_extras.py --mplpb-root ../mplpb-current --out ci-current/extras
+      - name: Dual-mode sorter and unchanged-reader compatibility
+        if: always()
+        working-directory: mplpb-current
+        run: python -m tools.evaluate_sorter --reader-checkout ../mplpb-reader --output ../btests/ci-current/sorter
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: current-mplpb-controls
+          path: btests/ci-current/

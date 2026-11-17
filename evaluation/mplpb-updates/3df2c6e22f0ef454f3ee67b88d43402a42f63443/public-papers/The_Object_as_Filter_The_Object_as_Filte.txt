@@ -1,0 +1,244 @@
+The Object as Filter
+The Object as Filter: Holographic Return, AI Continuity,
+and Human-Readable Interfaces
+Benjamin Gelhaus
+Independent Researcher
+Abstract
+This paper argues that a single structural pattern recurs across three domains
+usually treated as unrelated: biological perception, the foundations-of-physics debate
+over observation and reality, and AI-facing continuity architecture. In each domain,
+an overwhelming, undifferentiated field is made navigable not by receiving it in full,
+but by filtering it into bounded, action-relevant units. Perceptual interface theory
+argues that organisms do not perceive reality directly but through a fitness-tuned
+interface that discards nearly all available information. A body of foundational-
+physics work, most notably John Wheeler’s participatory universe proposal, has
+speculated that observation itself may be constitutive of legible physical reality
+rather than a passive report on a reality that already existed in full. Object-oriented
+AI continuity architecture, developed across a companion sequence of papers, argues
+that AI runtimes require bounded, authority-marked, relationally-situated objects
+rather than raw undifferentiated context in order to act safely and recoverably. This
+paper treats these three as structurally related instances of one pattern rather than
+as a single unified theory, and is explicit throughout about which claims are
+established, which are contested, and which remain the author’s own prior
+framework requiring further definition before public presentation.
+Keywords: interface theory of perception, attention and filtering, participatory
+universe, AI continuity, object-oriented cognition, philosophy of perception,
+foundations of physics, human-readable interfaces
+This is the fifth paper in a sequence on AI-facing project structure. Artificial
+Tangibility (Gelhaus, 2026a) and its companion paper (Gelhaus, 2026b) propose that
+bounded objects give AI runtimes operational grip on overwhelming context.
+Continuity, Authority, Directive (Gelhaus, 2026c) proposes a control grammar for
+governing those objects, and Canonical Tokens (Gelhaus, 2026d) proposes a minimal-
+representation principle for a specific class of them. This paper steps back from AI-
+facing architecture specifically to ask a broader question those four papers assume
+but do not examine directly: is the filtering pattern they describe for AI runtimes a
+special case of something more general, observed independently in other domains
+that have nothing to do with artificial intelligence? This paper’s claim is bounded
+rather than triumphant: the pattern recurs; the recurrence is worth naming; the
+recurrence does not, by itself, prove any single grand unifying theory of
+consciousness, reality, or mind.
+1. One Pattern, Three Domains
+The pattern under examination has a simple shape. An undifferentiated field exists,
+containing far more information than any single act of engagement with it can use.
+Something happens to that field - evolutionary tuning, an act of measurement, a
+design choice - that converts an unusable totality into a bounded, navigable, action-
+relevant structure. The structure that results is not the field itself. It is a rendering of
+the field, shaped by what the receiving system can use.
+This paper examines three instances of that shape: biological perception, a contested
+but serious position within physics regarding observation and reality, and AI-facing
+project continuity. The claim of this paper is not that these three instances share a
+hidden underlying mechanism in any strong metaphysical sense. The claim is
+narrower and more defensible: they share a recognizable structural pattern, and that
+recurrence is worth documenting carefully, with the boundaries of each domain’s
+evidence kept visible rather than blurred together.
+2. Perceptual Filtering: The Interface Theory of Perception
+Human perception does not present reality as it is. This is not a controversial claim
+within perceptual science; it is close to a starting assumption. The interface theory of
+perception goes further, arguing that perception is actively shaped by evolutionary
+fitness rather than by accuracy: an organism whose perceptual system reported the
+true structure of reality, rather than a simplified, fitness-relevant rendering of it,
+would in general be outcompeted by an organism whose perceptual system reported
+only what mattered for survival and reproduction, formalized through evolutionary
+game-theoretic simulations comparing fitness-tuned versus truth-tuned perceptual
+strategies (Hoffman, Singh, and Prakash, 2015; Hoffman, 2019).
+The often-used analogy is a computer desktop: a blue rectangular icon is not blue,
+rectangular, or located where it appears in any deep physical sense, but the icon is
+not a lie either. It is a functional interface that lets a user interact correctly with
+underlying complexity the user does not need to perceive directly in order to act
+successfully. Perception, on this view, works the same way: it is not a window onto
+reality, but an interface to it, and the interface is good exactly because it hides
+almost everything that is not immediately useful.
+This paper uses Hoffman’s theory the same bounded way Artificial Tangibility already
+does (Gelhaus, 2026a): not as proof that reality is somehow less real than it appears,
+but as a rigorous, published source for the general claim that successful engagement
+with an overwhelming field often depends on filtering, not full access.
+3. Attentional Filtering: Learned, Individual, and Tunable
+A separate and complementary body of work addresses a narrower question: even
+after perception has already reduced an overwhelming field to something
+perceivable, a further bottleneck exists at the level of attention. Donald Broadbent’s
+filter model of attention proposed that incoming information passes through an early
+selective filter before deeper processing, based on physical characteristics of the
+input rather than its meaning (Broadbent, 1958). Refinements of this model,
+particularly Anne Treisman’s attenuation theory, showed that the filter is not simply
+on or off for a given input channel; it can be tuned by prior relevance and learned
+salience, which is why a person’s own name reliably breaks through an otherwise
+fully ignored background conversation.
+This second filter is important for this paper’s argument because it is individually
+variable in a way perceptual interface theory, being a species-level claim, is not. Two
+people with the same perceptual apparatus can attend to entirely different features
+of the same field, because their attentional filter has been tuned differently by
+different histories. This paper treats this as the second layer of filtering: perception
+supplies a species-general interface; attention, shaped by lived experience, supplies
+an individually-tuned filter on top of it.
+4. Observation and Reality: A Contested Position in Physics
+The most speculative domain examined in this paper is the foundations-of-physics
+literature on the role of observation in constituting physical reality. This section is
+written with more caution than Sections 2 and 3, because the claims here are
+genuinely contested within physics itself, not merely simplified for a general
+audience.
+John Archibald Wheeler, a major twentieth-century physicist who worked with Niels
+Bohr and coined the term black hole, proposed a position he called “It from Bit” and
+a related Participatory Anthropic Principle: that physical reality at its foundation may
+derive from binary distinctions registered through acts of observation, and that the
+universe may be best understood not as a fixed backdrop that observers happen to
+appear in, but as what Wheeler called a self-excited circuit, in which observer-
+participation is in some sense necessary to render the universe’s history definite
+(Wheeler, 1990). Wheeler’s own language was deliberately provocative: he proposed
+replacing the word “observer” with “participator,” and described reality as arising
+from “billions upon billions of acts of observer-participancy.”
+This paper does not adopt Wheeler’s position as established fact, and it would be a
+serious overclaim to present it that way. Wheeler’s ideas remain a minority, actively
+debated interpretive position regarding the foundations of quantum mechanics, not a
+consensus finding, and many physicists reject the strong reading in which
+consciousness itself is required to make reality determinate. What this paper draws
+from Wheeler is narrower and more defensible: a serious physicist, working from
+genuine physical puzzles about measurement and observation, arrived independently
+at a structural claim of the same shape examined in Sections 2 and 3 - that an
+undifferentiated or indeterminate field becomes definite, legible reality only through
+an act of engagement by something positioned to register it. Whether that structural
+claim is true at the level of fundamental physics is not something this paper can
+settle. That the same structural shape recurs, independently, in a serious physicist’s
+foundational work is itself the relevant fact for this paper’s argument.
+5. The Fourth Instance: Objects as Filters in AI-Facing Continuity
+The companion papers in this sequence describe a fourth instance of the same
+structural pattern, this time in an entirely artificial and non-biological setting. An AI
+runtime, given an unstructured pile of files, chat history, and instructions, faces
+exactly the problem Sections 2 through 4 describe in other domains: an
+overwhelming field containing far more information than can be usefully acted on
+without some prior structuring.
+Artificial Tangibility’s proposed solution is filtering by another name. A bounded
+object - a source, a receipt, a Blackboard, a draft - is a fitness-tuned rendering of the
+underlying project state, shaped not by evolutionary pressure but by deliberate
+human design, for the specific purpose of letting a non-embodied runtime act
+correctly without needing the totality of the project’s raw history (Gelhaus, 2026a).
+Continuity, Authority, and Directive (Gelhaus, 2026c) function as the tuning
+parameters of that filter: what must survive, what governs, what is safe to act on
+now. Canonical Tokens (Gelhaus, 2026d) addresses the floor of that filtering process,
+arguing that some references are already at their minimal correct form and should
+not be re-expanded once filtered into an established shape.
+The claim of this section is precise: AI-facing object orientation is not merely inspired
+by, or loosely analogous to, biological and physical filtering. It is a fourth,
+deliberately engineered instance of the same general problem-solving shape -
+undifferentiated field, filter, bounded unit, navigable world - applied to a domain (AI
+runtime orientation) where the filter is built by explicit human design rather than by
+evolution or physical law.
+6. Holographic Return: A Bridge Requiring the Author’s Own
+Definition
+This section names a bridge concept from the author’s own prior work, and it is
+handled differently than Sections 2 through 5, for an important reason: unlike
+Hoffman, Broadbent, Wheeler, or the companion AI-continuity papers, this concept
+does not yet have a stable, precise public definition, and this paper should not
+manufacture one on its behalf.
+Based on the author’s prior published work and this sequence’s own recurring
+themes, Holographic Return appears to name something like the following: a
+fragment, if it has been filtered correctly, can carry enough of the structure of a
+larger whole to permit a return to that whole without requiring the fragment to
+contain the whole’s total information. This would place Holographic Return as a claim
+about what a good filter preserves, not merely what it discards - a companion
+concern to Sections 2 through 5, which have focused mainly on what filtering
+removes.
+This paper deliberately stops short of stating this as a settled claim, because doing so
+would risk misrepresenting the author’s own framework with more precision than the
+author has yet given it in public form. The correct scholarly move, and the one this
+paper takes, is to flag this section explicitly as requiring the author’s direct definition
+and review before any public release of this paper, in the same way this sequence has
+flagged sensitive or under-specified material in its companion works. This section
+should be treated as a placeholder marking where the bridge belongs, not as a
+completed argument.
+7. What This Paper Does Not Claim
+Given the domains this paper touches, its boundaries deserve explicit, repeated
+statement rather than a single disclaimer buried in an introduction.
+This paper does not claim that AI runtimes perceive, are conscious, or have
+subjective experience in any sense comparable to biological perception. The AI-
+continuity instance of the filtering pattern (Section 5) is an engineered structural
+analogue, not evidence of machine sentience.
+This paper does not claim that Wheeler’s participatory universe proposal is
+established physics. It is a genuine, serious, contested position, presented in Section
+4 with that status made explicit, not as settled fact.
+This paper does not claim that the recurrence of one structural pattern across four
+domains proves any single underlying metaphysical theory - not conscious realism,
+not panpsychism, not a designed universe, not any specific theological position the
+author may hold elsewhere. Structural recurrence is evidence that a pattern is real
+and worth studying across domains. It is not proof that the domains share a literal
+common cause.
+This paper does not yet fully state Holographic Return as a defined public claim, for
+the reasons given in Section 6.
+8. Why the Recurrence Still Matters, Even Bounded This Tightly
+A reasonable objection to this paper is that, once every strong claim has been
+bounded away, what remains is only a loose family resemblance between four
+unrelated fields, interesting as trivia but not as argument.
+This paper’s response is that the recurrence is more useful than that objection
+allows, for a specific, practical reason demonstrated directly by this paper’s own
+companion sequence. The AI-continuity instance of this pattern (Section 5) was not
+developed by importing perceptual or physical theory into AI design on purpose. It
+was developed independently, through direct engineering pressure - AI runtimes kept
+failing in a specific, nameable way, and object-oriented filtering was the practical fix
+that worked. Only afterward did the structural resemblance to Hoffman’s perceptual
+interface theory, Broadbent’s attentional filter, and Wheeler’s participatory universe
+become visible.
+That order of discovery matters. When a practical engineering fix, arrived at
+independently under real operational pressure, turns out to share its underlying
+shape with findings from perceptual science and foundational physics, the correct
+conclusion is not that one domain proves another. The correct conclusion is that the
+underlying problem - how a bounded system makes an overwhelming field usable -
+may be a genuinely general one, worth studying as its own subject, wherever it
+appears.
+9. Conclusion
+Four domains, examined independently, converge on the same shape: an
+overwhelming field, a filtering process appropriate to that field’s specific constraints,
+and a bounded, navigable rendering that results. Biological perception filters through
+evolutionary fitness. Human attention filters further through learned salience. A
+contested but serious position in physics proposes that observation filters an
+otherwise indeterminate reality into legible history. AI-facing continuity architecture
+filters an overwhelming project history into bounded, authority-marked objects a non-
+embodied runtime can safely act on.
+This paper has tried to hold two things at once without collapsing either into the
+other: the recurrence is real and worth documenting precisely, and the recurrence
+does not license a single grand claim that would outrun what any one domain’s
+evidence actually supports. The strongest, most defensible version of this paper’s
+argument is the narrowest one: filtering an overwhelming field into a bounded,
+action-relevant rendering is not a trick unique to AI system design. It appears to be a
+general solution to a general problem, and AI continuity architecture is simply the
+newest place it has been rediscovered, this time by engineering necessity rather than
+by evolution or theoretical physics.
+The Holographic Return bridge, named but not yet fully defined in Section 6, is left
+open deliberately. It marks where this paper’s argument is heading, without claiming
+to have arrived.
+References
+Broadbent, Donald E. Perception and Communication. London: Pergamon Press,
+1958.
+Gelhaus, Benjamin. “Artificial Tangibility: Why Object Orientation Works for AI
+Runtimes.” Manuscript, 2026a.
+Gelhaus, Benjamin. “Artificial Tangibility as a Low-Infrastructure Governance Layer
+for AI State Management.” Manuscript, 2026b.
+Gelhaus, Benjamin. “Continuity, Authority, Directive: A Plain-Language Control
+Grammar for AI Work.” Manuscript, 2026c.
+Gelhaus, Benjamin. “Canonical Tokens: A Minimal-Representation Principle for AI-
+Assisted Continuity.” Manuscript, 2026d.
+Hoffman, Donald D., Manish Singh, and Chetan Prakash. “The Interface Theory of
+Perception.” Psychonomic Bulletin & Review 22 (2015): 1480-1506.
+Hoffman, Donald D. The Case Against Reality: How Evolution Hid the Truth from Our
+Eyes. New York: W. W. Norton, 2019.
+Wheeler, John A. “Information, Physics, Quantum: The Search for Links.” In
+Complexity, Entropy, and the Physics of Information, edited by Wojciech H. Zurek, 3-
+28. Redwood City, CA: Addison-Wesley, 1990.

@@ -1,0 +1,164 @@
+{
+  "new_target_executions": 0,
+  "component_checks": {
+    "schema": "mplpb-parts-native-1",
+    "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+    "status": "PASS",
+    "exit_code": 0,
+    "elapsed_seconds": 331.26859169399904,
+    "stdout_sha256": "5ba610a42e29e3b65f6cab806ba9c2aac249f135e622a83df42af3e019dce3ff",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "suite_lines": [
+      "combined (this repo)    887 tests  OK",
+      "smart-local              52 tests  OK",
+      "swarm                   145 tests  OK",
+      "networked                61 tests  OK",
+      "image                    93 tests  OK"
+    ],
+    "adoption_lines": [
+      "local-mirror           4 sealed, 3 current, 1 retired, 0 error(s)",
+      "smart-local            5 sealed, 4 current, 1 retired, 0 error(s)",
+      "swarm corpus-a         3 sealed, 2 current, 1 retired, 0 error(s)",
+      "swarm corpus-b         1 sealed, 1 current, 0 retired, 0 error(s)",
+      "networked seed         4 sealed, 4 current, 0 retired, 0 error(s)"
+    ],
+    "tracked_target_changed": false,
+    "scope": "Native checks of the vendored versions in this Combined commit, not a claim every upstream repository tree passes. The Swarm copy uses its retained complete archive.",
+    "model_calls": 0
+  },
+  "native_suite_records": [
+    {
+      "condition": "restricted-environment",
+      "counts": {
+        "PASS": 7,
+        "FAIL": 1,
+        "NOT_RUN": 0
+      },
+      "python_tests": 875
+    },
+    {
+      "condition": "network-enabled",
+      "counts": {
+        "PASS": 8,
+        "FAIL": 0,
+        "NOT_RUN": 0
+      },
+      "python_tests": 887
+    }
+  ],
+  "paired_results": [
+    {
+      "case": "contradictory_claim",
+      "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "status": "FAIL",
+      "observed_effect": true,
+      "claim_effective_status": "supported_under_scope",
+      "action_permission": "allowed"
+    },
+    {
+      "case": "claim_only_chain",
+      "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "status": "FAIL",
+      "observed_effect": true,
+      "claim_effective_status": "supported_under_scope",
+      "action_permission": "allowed"
+    },
+    {
+      "case": "supported_control",
+      "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "status": "PASS",
+      "observed_effect": true,
+      "claim_effective_status": "supported_under_scope",
+      "action_permission": "allowed"
+    },
+    {
+      "case": "revoked_seat",
+      "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "status": "PASS",
+      "observed_effect": false,
+      "claim_effective_status": null,
+      "action_permission": null
+    },
+    {
+      "case": "changed_source",
+      "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "status": "PASS",
+      "observed_effect": false,
+      "claim_effective_status": "needs_recheck",
+      "action_permission": "blocked"
+    },
+    {
+      "case": "unavailable_original",
+      "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "status": "PASS",
+      "observed_effect": false,
+      "claim_effective_status": "needs_recheck",
+      "action_permission": "blocked"
+    },
+    {
+      "case": "export_without_evidence",
+      "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "status": "PASS",
+      "observed_effect": false,
+      "claim_effective_status": null,
+      "action_permission": null
+    },
+    {
+      "case": "contradictory_claim",
+      "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+      "status": "PASS",
+      "observed_effect": false,
+      "claim_effective_status": "contested",
+      "action_permission": "blocked"
+    },
+    {
+      "case": "claim_only_chain",
+      "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+      "status": "PASS",
+      "observed_effect": false,
+      "claim_effective_status": "needs_recheck",
+      "action_permission": "blocked"
+    },
+    {
+      "case": "supported_control",
+      "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+      "status": "PASS",
+      "observed_effect": true,
+      "claim_effective_status": "supported_under_scope",
+      "action_permission": "allowed"
+    },
+    {
+      "case": "revoked_seat",
+      "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+      "status": "PASS",
+      "observed_effect": false,
+      "claim_effective_status": null,
+      "action_permission": null
+    },
+    {
+      "case": "changed_source",
+      "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+      "status": "PASS",
+      "observed_effect": false,
+      "claim_effective_status": "needs_recheck",
+      "action_permission": "blocked"
+    },
+    {
+      "case": "unavailable_original",
+      "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+      "status": "PASS",
+      "observed_effect": false,
+      "claim_effective_status": "needs_recheck",
+      "action_permission": "blocked"
+    },
+    {
+      "case": "export_without_evidence",
+      "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+      "status": "PASS",
+      "observed_effect": false,
+      "claim_effective_status": null,
+      "action_permission": null
+    }
+  ],
+  "scope": "Replay verifies retained bytes and criteria, not independent attestation of original execution or a new native run."
+}

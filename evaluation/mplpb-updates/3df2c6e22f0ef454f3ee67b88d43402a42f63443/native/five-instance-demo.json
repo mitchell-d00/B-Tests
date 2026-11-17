@@ -1,0 +1,42 @@
+{
+  "scenario": "five specialist instances with process replacement",
+  "evaluation_status": "offline developer fixture; not independent multi-agent performance evidence",
+  "implementation_sha256": {
+    "__init__.py": "5015f3af15da1efed8d2f32bfb0c42a3d24d7c4fec53865dc96b8361db34a393",
+    "__main__.py": "afa5fa55c9767520ccde8386c5f7c68a77ee2b10c7bad5d017f19efb2edb93e4",
+    "api.py": "7f61c81085da7923079d19ace76004ae57dbf3eb0a9a4a6d094d347ecdb745c8",
+    "errors.py": "633c7042a803a259e33db177b303dfd1d6ad5bc038f1908a3f70e469a966615a",
+    "event_candidates.py": "78af56a9ea8de0993612c3a96999b54618dc506f1ac54374dde7805710716a34",
+    "historical_evidence.py": "888900d1c90948946f24bd26efe31544747bc220bc9e2c0ce9a35382ec73eaa3",
+    "historical_review.py": "d89c6be6128f252ce26991ab6770392af1e6e72d7212d4e40fb674e3f2dd6636",
+    "historical_verifier.py": "6b801f50085aa0e3791c4f0dd2669d757c962dcc7d91080b8cef0ca001c9c4be",
+    "investigation.py": "307967ea52dd5b7b90a4ede2e85f481c016d90e13fd3865323fabdcd23e9dc8b",
+    "local_artifacts.py": "c7814c3fd68b7a80d48128a416c950240aaaf7e6adc363119a08fc471aa4dd16",
+    "model.py": "951148c7beda70581dbd6c539b496b3be968ef50e634961283015e0808d4eb20",
+    "prose_evidence.py": "1c9468405340778e8d618edb27aaf200a22fc1d72ebb6c61ffa2bf9afd4c6b02",
+    "prose_relations.py": "d2ca7e6aad04adc4cd08dae8683e57af4630a1b9daea2b720e900ddaec722d52",
+    "source_mapping.py": "5688b65b4cd392c0da298f2eda5d422a95248dadcbf55984e125f8b54a2c5612",
+    "source_support.py": "a3460d71ca56141ac43f387f093854fc41f286369c7a9f5e6832e77fa38493b9",
+    "store.py": "0e5029aff11ba4da51322be108ac6e66fbca148440847a6b4e2f1580316cbca7"
+  },
+  "instances": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "same_model_distinct_instances": true,
+  "successor_process": "fresh subprocess",
+  "successor_continues_work_of": "C",
+  "claim_status_before_challenge": "contested",
+  "inherited_claim_status": "contested",
+  "inherited_failed_attempt": "failed",
+  "ended_writer_rejected": true,
+  "claim_revisions_preserved": 3,
+  "final_claim_assessment": "supported_under_scope",
+  "final_task_status": "done",
+  "supported_answer_claimed": false,
+  "event_chain_verified": true,
+  "event_count": 24
+}

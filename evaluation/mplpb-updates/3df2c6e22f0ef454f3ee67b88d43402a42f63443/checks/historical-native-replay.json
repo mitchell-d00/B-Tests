@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-m",
+    "research_lab.native_evidence"
+  ],
+  "exit_code": 0,
+  "status": "PASS",
+  "new_target_execution": false,
+  "scope": "Laboratory tests or public historical-record replay; not new native passes on the updated target."
+}

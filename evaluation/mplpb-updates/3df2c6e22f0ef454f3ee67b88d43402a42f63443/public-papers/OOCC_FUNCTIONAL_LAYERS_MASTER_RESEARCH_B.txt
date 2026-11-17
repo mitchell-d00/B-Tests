@@ -1,0 +1,396 @@
+Free public author editions
+Benjamin Gelhaus offers free downloadable research books
+and practical methods at https://independent.academia.edu/
+BenG197.
+Check the publication date and edition number: other author-
+posted copies may be earlier working editions.
+The earlier OOCC/Voltron masthead appears within pre‐
+served source material as an internal historical nickname,
+not as this public edition’s title.
+In this EPUB the original print-source page divisions are
+tracked through unobtrusive internal identifiers for comparis‐
+on with the PDF. Tables are represented as source-order text
+where necessary.
+The OOCC research volume provides the architecture and
+evidence. The reader-owned activation procedure is in the fi‐
+nal appendix of the companion regular-reading No More First
+Dates With AI edition, not in the front of this research
+volume.
+2
+About this November 2026 edition
+OOCC: Object-Oriented Cognition and Continuity — The
+Unified Intersection — Regular reading edition.
+Written by Benjamin Gelhaus, with separately attributed as‐
+sistance from GPT-6 collaborators where stated. This is a re‐
+vised reading and distribution format of a historically
+sourced OOCC corpus. The November 6 publication lineage
+and its original contributor records are preserved. November
+9 additions are dated editorial contributions; their presence
+does not retroactively change the original event record.
+What the cost claim means
+Agent-like coordination describes observed multi-session, hu‐
+man-directed work using ordinary ChatGPT tools, Google
+Drive, explicit roles and source-verified checkpoints. It does 
+not mean zero cost, unlimited usage, independent always-on
+agents, or no human intervention. The evidence does not in‐
+clude a controlled total-cost comparison with commercial
+agent products. Actual plans, storage, subscription limits and
+tool access can change.
+Research and source integrity
+Historical engineering reports, source quotations, draft la‐
+bels and original contributor opinions retain their dated attri‐
+bution. A stored message is not evidence it was received; a
+saved artifact is not proof of full task completion; a script-
+level test is not equivalent to a production installation. The
+annotated source exhibits are selective, not an exhaustive in‐
+dependent re-verification of every historical claim.
+3
+This scientific book documents the OOCC method and the un‐
+certainties of its field evidence; the separate No More First
+Dates With AI book contains the reader’s implementation in‐
+structions.
+Rights and distribution
+Copyright © Benjamin Gelhaus, 2026, in original copyright‐
+able expression to the extent owned. Consult the fuller
+rights, interim-permission and third-party-source notices re‐
+tained in the inherited manuscript. The author’s publication
+approval and each distributor’s upload/acceptance remain
+separate from the file-integrity checks.
+4
+OOCC: Object-Oriented Cognition and
+Continuity — The Unified Intersection
+NOVEMBER 2026 CORRECTED REGULAR-READING EDI‐
+TION
+Ordinary tools, organized into source-verified agent-
+like work
+The documented OOCC field workflow organized separate
+ChatGPT conversations using a regular consumer Plus sub‐
+scription, Google Drive storage, role-specific procedures, and
+independent source/handoff records. It did not require separ‐
+ately purchasing or deploying a continuously running multi-
+agent platform for the described sessions. The documented
+result is recoverable, evidence-backed coordination across
+human-invoked sessions, not an unattended, always-running
+agent.
+The author reported approximately $20 monthly for ChatGPT
+Plus and $5 for Google storage at the time. These are repor‐
+ted access expenses, not independently measured marginal
+costs, total labor or development expense; neither the pricing
+nor the same tools or usage limits are guaranteed for every
+reader. The architecture can be adapted to the reader’s own
+compatible tools. The practical book’s reader-owned setup in‐
+structions remain at the back; this opening is context, not the
+activation command.
+Benjamin Gelhaus · Regular reading edition
+About this revised edition
+The complete November 6 public book forms the inherited
+foundation. This corrected regular-reading edition adds the
+5
+November 9 source-selection repair, attributed research com‐
+mentary, reader-operable continuity guidance and selected
+in-book evidence exhibits. Historical working notes retain
+their own original dates and candidate statuses; those de‐
+scribe the historical research stage, not the current approval
+or platform-release status of this corrected file.
+Where the evidence lives
+Selected author-held source excerpts are reproduced in the
+book. Several public references also have new source exhib‐
+its with attributed short passages and editorial discussion;
+these exhibits do not cover every historical citation or re‐
+place independent source verification. Some exact source
+routes remain in an author-only ledger. Readers can follow
+the argument here, but full independent verification of re‐
+stricted originals requires authorized access. The author’s
+Academia.edu public-access address remains available.
+Interpretation and limits
+A recorded checkpoint is not an uninterrupted autonomous
+process. Stored is not read; read is not an independent ac‐
+knowledgement; a design or test is not proof of production
+deployment. The original source-selection error and
+subsequent recovery remain in the book.
+Rights and editorial work
+Original authorial work: Benjamin Gelhaus. Dated GPT-6 edit‐
+orial passages, AI-worker first-person histories and cited
+third-party material are attributed according to their original
+sources. Short quotations from third-party works are for crit‐
+ical discussion, followed by new editorial explanation. Histor‐
+ical author-reviewed drafts have not been rewritten into
+imaginary completed discoveries.
+6
+How to use this book
+For the applied activation method, see the paired No More
+First Dates With AI book. This research volume describes
+source and test evidence rather than granting access to
+private operational sources.
+Reader note: The EPUB is reflowable; the PDF is fixed-page
+with source exhibits and bookmarks.
+7
+Editorial bridge · What the activation test
+contributes to OOCC
+A publication-source and handoff case, not a new controlled ex‐
+periment
+Status of the evidence — reading guide
+Reported field observations include separately attributed
+crawler checkpoints and recoverable source records. The
+four-run/forty-checkpoint finding is a reported source review,
+not forty unattended agents. The November 8 exact-pointer
+benchmark is a bounded known-pointer comparison, not a
+controlled test of superiority over other tools. The corrected
+coordination contracts are design and implementation guid‐
+ance; fully independent replications remain a research goal.
+Reader-facing agent-like coordination means organized beha‐
+vior under human direction, not an always-running
+background service.
+The paired practical book retains the November 3/November
+6 two-word “Activate PDF” interface. Its November 9 revision
+adds live-source authority reconciliation, corrected ten-
+checkpoint continuation, Drive/HUNCH communication re‐
+ceipts, and the BASELINE_DISPUTED stop. These changes
+are source-linked engineering specifications, not proof that
+every AI runtime or reader application executes the book.
+The proposition to test
+A new session given an authorized source Directory and actu‐
+al source access should identify the current canonical book,
+carry out a small task, preserve the human correction, and
+supply a readback-backed re-entry record more consistently
+than a comparison session relying on an unversioned sum‐
+8
+mary. This requires matched, fresh trials with equal permis‐
+sions and human intervention accounting.
+Evidence boundaries that remain
+The November 9 field review confirmed forty distinct
+source-scoped checkpoint records across four writer runs;
+it did not establish forty independent always-running
+agents.
+The November 8 pointer benchmark recovered 10/10 ex‐
+act known IDs; keyword search found 3/10 in top twelve,
+and incomplete SQL search 1/10 in top five. Latencies/
+workloads were not comparable.
+The source-selection error shows why a newer timestamp,
+a TTS derivative, and a production preflight cannot
+replace author-confirmed publication identity.
+No controlled test in these sources isolates the crawler-
+contract patch as the only cause of improved continuation.
+Version fidelity
+This edition derives from the published November 6 OOCC11
+source. The November 9 v3 source excerpts and editorial
+case are inherited, not silently re-authored. The revised edi‐
+tion adds source exhibits and this dated methodological
+bridge. The historical October working editions remain
+sources, not replacements.
+The November 9 GPT-6 editorial bridge is preserved with its
+original attribution. This corrected copy is prepared for the
+author’s review, not claimed to have passed an external pub‐
+lication audit. Public distribution remains subject to the hu‐
+man author’s approval and independent reader/accessibility
+checks.
+• 
+• 
+• 
+• 
+9
+OOCC / VOLTRON
+Complete Native-Source Research Edition + Longitudinal
+Feasibility Addendum
+Benjamin Gelhaus
+Complete native-source research text | Original research:
+November 2, 2026
+PDF conversion: November 3, 2026 | Original TXT source
+preserved unchanged
+Source TXT: OOCC_VOLTRON_Research_Text_2026-11-02.txt
+Source original-page count: 198 | Source SHA-256:
+becb518b45978443a7dee83e9d04a8aa4e514b656adfd2ad‐
+f2181a98c625306f
+Publication and provenance note This PDF typesets the com‐
+plete supplied text of the author-held native-source research
+edition. Its original source-page identifiers are carried for‐
+ward to aid citation. Line wraps and spacing are normalized
+for legibility; the earlier PDF layout and tables are not recon‐
+structed. Text was not summarized or condensed. Evidence
+claims retain their original status; this conversion itself does
+not reproduce experiments or audit underlying private
+source records. Original source files and previous research
+editions remain unmodified. A reader should not interpret the
+existence of a PDF as an independent peer review or a grant
+of access to private underlying archives.
+PUBLIC ACCESS AND NOVEMBER 6 EDITION NOTE
+Free author-posted research books and working papers: ht‐
+tps://independent.academia.edu/BenG197 Selected files may
+be earlier drafts; check title, publication date, and revision
+before citing or redistributing. This 202-page OOR10 suc‐
+cessor preserves the original OOR09 research pages and R09
+10
+supplement (pages 200-202). It does not grant access to
+underlying private records.
+Historical operational versions in the manuscript are dated.
+The Directory selected A21OR19 v1.14 on November 6, 2026;
+active systems should consult the live Directory. Neither the
+research text nor its source links prove autonomous deploy‐
+ment.
+Source edition prefatory research note OOCC / VOLTRON —
+COMPLETE SOURCE RESEARCH EDITION (PLAIN TEXT)
+UTF-8 text file | Readable in Microsoft Notepad or Word Ori‐
+ginal complete research PDF retained unchanged.
+=====================================
+=======================
+ASSISTIVE CONTINUITY — RESEARCH NOTE ADDED
+2026-11-02 The human author reports using OOCC as an as‐
+sistive environment for attention, organization, task continu‐
+ation, context reconstruction, and learning: in his words, an
+"ADD-like assistance device." This is a report of how he uses
+the existing system; it is not a clinical diagnosis, medical
+device certification, established ADHD intervention, or meas‐
+urement of treatment efficacy. The operating V2-centered
+workflow already supports repeated short-cue continuation;
+the independent contributions of the interface, sources, mod‐
+el competence, and human action remain to be experiment‐
+ally separated. RESEARCH QUESTION: Under matched
+tasks, sources, costs and permission boundaries, does OOCC
+reduce re-entry time, repeated explanation, lost tasks, omit‐
+ted source corrections and subjective cognitive load relative
+to a strong conventional assistant with an ordinary notebook/
+search handoff? Does it improve final correct-artifact comple‐
+tion rather than merely reporting recovered context? MEAS‐
+UREMENT: Preselect real-life and controlled re-entry tasks;
+preserve source/time/role/outcome and the author's actual
+course corrections; compare time to accurate working-posi‐
+11
+tion recovery, number of human clarifications, required con‐
+text-reconstruction words, correct-deliverable rate, inde‐
+pendently checked source fidelity, omissions and safe refusal.
+Use an unassisted baseline where ethical, plus matched con‐
+ventional notes and modern agent memory. With consenting
+additional volunteers, compare across reported attention/ex‐
+ecutive-function needs without claiming clinical status from
+system logs. Keep consent, privacy and accessibility reviews
+separate. FUNDING / FIELD ALIGNMENT, NOT AWARD: As‐
+sistive-technology research, cognitive accessibility, digital
+health, and human-computer interaction are candidate re‐
+search categories. Actual grant eligibility, open competitions,
+participant protections and institutional requirements need
+verification at the time of application. No government fund‐
+ing, educational-device approval or FDA authorization is as‐
+serted. EDITORIAL BOUNDARY: This added note supple‐
+ments—but does not rewrite—the preserved 198-page source
+research PDF below. All following material is extracted, page
+by page, from that PDF. The earlier dated research claims
+keep their original evidence classifications.
+=====================================
+=======================
+Research Addendum — November 3, 2026
+Low-Marginal-Cash, Multi-Track Independent Research: A
+Longitudinal Feasibility Case Study Status: Author-supplied
+longitudinal research addendum. The counts and prior veri‐
+fication are reported by the supplied source account; under‐
+lying originals and work-ticket records were not independ‐
+ently re-audited in this PDF conversion. This is a single-re‐
+searcher observational case, not a controlled experiment.
+Research question Can an independent researcher use ordin‐
+ary consumer AI services, existing personal storage, and a
+source-governed continuity method to sustain substantial re‐
+search and engineering activity while simultaneously man‐
+12
+aging employment and other consequential responsibilities,
+without purchasing dedicated research infrastructure?
+Method and source corpus The supplied case-study record
+describes an original ChatGPT conversation export covering
+February 4 through October 21, 2026, supplemented by
+dated source documents, software-engineering records and
+contemporaneous employment-related email records. Repor‐
+ted archive totals: 289 conversation graphs; 86,120 graph
+nodes; 15,740 user-authored message nodes; archive size
+148,989,570 bytes. The reported SHA-256 fingerprint of the
+original archive is
+c53003d21266973fc00bff6741282c16de88d1f42ad7e657e‐
+be262a669aabc5d. Message timestamps were converted to
+America/Denver and grouped by calendar date. Conversation
+branches were preserved instead of being treated as one
+uninterrupted chronology.
+Findings
+1. Sustained longitudinal activity The source account reports
+user-authored activity on 161 distinct calendar days in a 260-
+day observation window. Activity was present in at least two
+distinct archived conversation titles on 95 days; at least three
+titles on 62 days; and at least five titles on 32 days. These are
+activity measures, not direct measures of productive hours,
+completed tasks or output quality.
+2. Concurrent employment and technical work On six
+sampled dates—September 29 and October 8, 15, 16, 17 and
+20, 2026—corresponding self-reported paid-work records
+total 55.25 hours. The source account also reports 1,504
+user-authored message nodes dated to those six days. This
+establishes overlapping calendar dates, not work conducted
+during paid hours or measured research time.
+3. Multiple substantial development tracks The reported
+archive and separately preserved artifacts document legal
+13
+and legislative analysis, original writing, evidence organiza‐
+tion, AI continuity engineering, source archiving and re‐
+search-method development, including OOCC and related
+tools. The subsequently documented V2 crawler execution re‐
+ports processing 289 archived conversation graphs in a base
+extraction workflow, with source hashes, SQLite records,
+checkpoint evidence and reproducible scripts. Source-repor‐
+ted local software tests must be separated from unverified
+native deployment and real-world effectiveness.
+4. Low additional cash expenditure The researcher reports
+that ChatGPT and Google storage subscriptions already
+served personal uses; the research reused those resources. A
+short-term paid Claude subscription for an external runtime
+audit is recorded in an earlier OOCC book and should be in‐
+cluded in a final research-specific expense ledger, alongside
+any other attributable payments. The available account sup‐
+ports low incremental out-of-pocket spending for substantial
+documented work—not an audited claim of zero cost. Person‐
+al labor, hardware, cloud-provider resources and opportunity
+cost must be distinguished from direct payments.
+Interpretation The documented case supports feasibility in
+one instance of substantial independent AI-assisted research
+and engineering using consumer-accessible tools alongside
+employment and other responsibilities. It does not establish
+that the OOCC method causally increased productivity relat‐
+ive to a strong conventional workflow. Its distinctive setting
+involves frequent project switching and interruption-driven
+recovery.
+Limitations and next validation stage This is a single-re‐
+searcher longitudinal case study. Message counts indicate
+activity rather than quality. ChatGPT exports do not capture
+all work in Google Drive, other AI systems, software reposit‐
+ories or offline settings. The original archive, time-zone pro‐
+cessing, work records and financial ledger must be made
+14
+available in a privacy-reviewed reproduction packet to estab‐
+lish the reported counts independently. Next tests should
+measure matched deliverables, human labor hours, interrup‐
+tion-recovery time, source accuracy, completed-task quality,
+direct expenses and full resource costs against capable
+conventional research workflows.
+Provisional conclusion Substantial source-documented inde‐
+pendent research and engineering production is reported us‐
+ing consumer-accessible infrastructure alongside other major
+responsibilities. An exact cash advantage and causal pro‐
+ductivity improvement remain open to comparative measure‐
+ment.
+Primary evidence references identified by the source account
+Original author-held ChatGPT HTML export, February 4–Oc‐
+tober 21, 2026. Reported SHA-256:
+c53003d21266973fc00bff6741282c16de88d1f42ad7e657e‐
+be262a669aabc5d. CRAWL-V2-001 — Crawler Perspective
+and Evidence Log, October 22, 2026; checkpoint and repro‐
+ducible evidence bundles. OOCC Research Book v0.16-S1,
+October 26, 2026; existing economics and external-runtime
+audit. Original employment work-ticket emails for the six
+sampled overlapping dates. OOCC software repository and
+dated GitHub Actions records retained separately from the
+archive period.
+Economic-model boundary The previously discussed
+$40,000–$133,000 conventional replacement-cost range re‐
+mains a separately labelled scenario model, not an observed
+saving. That estimate is not added to observed expenditure.
+END OF NOVEMBER 3 RESEARCH ADDENDUM. The follow‐
+ing source transcript preserves the November 2 research edi‐
+tion in its original order. This addendum does not retroact‐
+ively alter its historical claims.
+Full source text by original page reference The source-page
+indicators below refer to the original November 2 research
+15

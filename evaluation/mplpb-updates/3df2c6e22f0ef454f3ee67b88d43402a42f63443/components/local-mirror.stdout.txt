@@ -1,0 +1,2 @@
+validated 7 page(s) under /workspace/mplpb/parts/local-mirror/site  (6 current, 1 retired)
+  OK    11.1–11.8 all clean

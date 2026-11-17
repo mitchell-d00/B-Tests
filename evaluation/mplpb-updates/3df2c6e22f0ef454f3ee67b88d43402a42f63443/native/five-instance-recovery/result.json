@@ -1,0 +1,18 @@
+{
+  "id": "five-instance-recovery",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-m",
+    "tools.demo_specialist_continuity",
+    "--output",
+    "/workspace/b-tests/evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/native/five-instance-demo.json"
+  ],
+  "status": "PASS",
+  "exit_code": 0,
+  "elapsed_seconds": 0.40251543099998344,
+  "unittest_count": null,
+  "stdout_sha256": "1a841f33f1b10e4124c5d6944a3ef9f7e07f8edae4b96c830fc937cd4c4c7961",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "evidence_level": "native_unmodified_repository_execution",
+  "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+}

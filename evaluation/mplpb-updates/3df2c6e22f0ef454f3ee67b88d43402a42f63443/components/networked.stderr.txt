@@ -1,0 +1,25 @@
+.............................E...............................
+======================================================================
+ERROR: test_http_transport_and_private_dirs (Tests.test_network.Http.test_http_transport_and_private_dirs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/mplpb/parts/networked/Tests/test_network.py", line 222, in test_http_transport_and_private_dirs
+    srv, url = serve_in_thread(self.B.root)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mplpb/parts/networked/mplpb_net/server.py", line 64, in serve_in_thread
+    server = make_server(node_root, host, port)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mplpb/parts/networked/mplpb_net/server.py", line 58, in make_server
+    server = ThreadingHTTPServer((host, port), handler)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/socketserver.py", line 453, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/socket.py", line 233, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+----------------------------------------------------------------------
+Ran 61 tests in 19.390s
+
+FAILED (errors=1)

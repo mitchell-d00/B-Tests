@@ -1,0 +1,6 @@
+{
+  "cases": 13,
+  "passed": 13,
+  "browser": "Chromium 156.0.8078.79",
+  "result": "experiment/results/browser_offline_probe.json"
+}

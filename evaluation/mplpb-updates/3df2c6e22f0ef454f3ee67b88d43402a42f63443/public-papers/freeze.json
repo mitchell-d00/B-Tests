@@ -1,0 +1,31 @@
+{
+  "mplpb_commit": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+  "mplpb_tree": "da7853082875a13630c74e292c165ded7ef2de8b",
+  "b_tests_commit": "d935be6c68c82388d932d99674568a7b7dbf5ff9",
+  "when": "2026-11-01T00:00Z",
+  "queries": [
+    "What is Continuity in CAD?",
+    "What does Authority distinguish?",
+    "Is CAD only prompt-level guidance?",
+    "What is Directive?",
+    "What is Artificial Tangibility?",
+    "Does retrieval alone determine authority?",
+    "What is the DHS Translation Protocol?",
+    "Does Headmaster preserve the learner's original answers?",
+    "source authority",
+    "Continuity Authority Directive",
+    "What is the capital of France?",
+    "unprepared original source records"
+  ],
+  "profile": {
+    "name": "open",
+    "max_depth": null,
+    "prose": true,
+    "not_for": true
+  },
+  "extraction": "PyMuPDF page.get_text(\"text\"), original order; concatenate first min(15,page_count) pages without editorial additions",
+  "pymupdf_version": "1.26.6",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "runner_sha256": "2efbf70c59d525ee1bd1e21aaf2f71f68ac124592a76edca69a76e26f89652fe",
+  "scope": "Public attached papers and supplied public TXT only; no private systems or adapters."
+}

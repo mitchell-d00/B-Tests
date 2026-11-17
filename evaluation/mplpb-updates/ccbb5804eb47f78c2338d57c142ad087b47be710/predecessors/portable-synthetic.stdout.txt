@@ -1,0 +1,6 @@
+{
+  "result": "experiment/results/synthetic_run.json",
+  "passes": 15,
+  "cases": 15,
+  "all_passed": true
+}

@@ -1,0 +1,15 @@
+{
+  "id": "browser-transport",
+  "command": [
+    "node",
+    "tools/check_browser_transport.cjs"
+  ],
+  "status": "PASS",
+  "exit_code": 0,
+  "elapsed_seconds": 0.04194860299998027,
+  "unittest_count": null,
+  "stdout_sha256": "91201614b643cc7a6851222c4f1e5684e34505c019a26e85a0afc8f3407b6343",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "evidence_level": "native_unmodified_repository_execution",
+  "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+}

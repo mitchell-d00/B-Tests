@@ -1,0 +1,236 @@
+Artificial Tangibility as a Low-Infrastructure
+Governance Layer for AI State Management
+Benjamin Gelhaus
+Independent Researcher
+Abstract
+This companion paper situates Artificial Tangibility in relation to contemporary AI
+state-management patterns, including context engineering, retrieval-augmented
+generation, agent memory, durable execution, event sourcing, blackboard coordination,
+and human-in-the-loop governance. It does not argue that plain-text continuity systems
+replace enterprise infrastructure in every setting. Rather, it argues that many of the
+same operational problems - context drift, stale authority, unsafe mutation, weak
+handoff, and loss of salience - can be addressed at the interface layer through
+human-readable objects carrying role, authority, state, boundary, relation, receipt,
+weight, and next safe action. The paper frames Artificial Tangibility as a
+low-infrastructure governance layer for discontinuous AI collaboration: a way of making
+project state visible, bounded, auditable, and recoverable without requiring the runtime
+to possess human-like memory, embodiment, or consciousness. Its contribution is not
+the invention of memory, retrieval, provenance, object orientation, or agent tooling, but
+the synthesis of those concerns into a practical object grammar for AI continuity.
+Keywords: AI continuity, context engineering, human-AI interaction, AI state management,
+object-oriented cognition, agent memory, provenance, AI governance, durable execution
+1. Introduction: From Theory to Operational Comparison
+Artificial Tangibility argues that AI runtimes do not need human embodiment, emotion, or
+persistent personal memory in order to participate usefully in long-running work. They
+need a usable interface into project state. That interface must make the work legible as
+bounded objects rather than as an undifferentiated pile of context.
+This companion paper asks a narrower applied question: how does that claim relate to the
+systems that AI engineers already use to manage state, memory, retrieval, orchestration,
+provenance, and human oversight?
+The answer is not that a file-based continuity system is identical to enterprise
+infrastructure. It is not. Durable execution engines, vector databases, event logs,
+checkpointers, orchestration graphs, and access-control systems perform technical
+functions that plain documents do not automatically provide. The stronger and safer claim
+is functional: Artificial Tangibility describes a human-readable governance layer that
+addresses many of the same failure pressures at the level where humans and AI runtimes
+actually coordinate.
+The practical problem is continuity across discontinuity. A runtime enters a project
+without lived memory of the prior work. It may have access to documents, chat logs, files,
+and instructions, but still lack orientation. It may know the topic while misunderstanding
+what is current, what is source, what is draft, what is blocked, what is permitted, and what
+should happen next. This is the problem of context without shape.
+Industry systems respond to this problem with memory architectures, retrieval systems,
+tool loops, checkpoints, event stores, blackboard patterns, and human-in-the-loop gates.
+Artificial Tangibility responds by shaping the project environment into objects with
+declared role, authority, state, boundary, relation, receipt, weight, and next safe action.
+The difference is not whether state matters. Both approaches assume that it does. The
+difference is where governance becomes visible and how much of that governance can be
+made human-readable.
+2. Context Engineering and the Problem of Orientation
+Context engineering treats the context window as an engineered operating surface rather
+than a passive prompt box. That shift is important. It recognizes that the quality, order,
+scope, and structure of information supplied to an AI system can matter as much as the
+size of the model or the cleverness of the prompt.
+Artificial Tangibility begins from the same pressure point but states it in operational
+language: more context is not the same as more orientation. A project may contain all
+relevant files and still be unusable to a fresh runtime if the system fails to distinguish
+source from draft, active from parked, current from stale, or safe action from
+unauthorized mutation.
+The paper therefore moves from information volume to project shape. A context window
+may contain a useful source, an obsolete draft, a rejected route, a private note, a public
+claim, and a warning. If those items are not marked as different kinds of objects, the
+runtime must infer their status from prose, recency, style, or proximity. That is where
+coherent misalignment begins.
+The value of Artificial Tangibility is that it turns context management into object
+governance. A bounded object is not merely a piece of retrieved text. It carries a declared
+role. It carries authority status. It carries boundaries. It carries relation to other objects. It
+may carry an evidence trail. It may carry weight. These fields reduce the runtime's need to
+guess what the object is allowed to mean.
+3. RAG, External Memory, and Source Authority
+Retrieval-augmented generation and related memory systems establish an important
+principle: a runtime should not rely only on internal model weights or conversational
+memory. It should be able to consult external materials. That principle is compatible with
+Artificial Tangibility.
+The difference is that retrieval alone does not determine authority. A retrieved document
+may be relevant and still not govern the current task. It may be historical, superseded,
+speculative, private, or parked. Artificial Tangibility therefore asks an additional question:
+once an object is retrieved, what is it allowed to do?
+This is where source authority becomes central. In a governed project, an object can exist
+without being promoted. A receipt can prove that something happened without making it
+canonical. A draft can be useful without governing later work. A source can be current in
+one lane and irrelevant in another. The system must expose those distinctions before the
+runtime acts.
+In this sense, Artificial Tangibility is not a replacement for retrieval. It is a governance
+layer around retrieved and preserved material. It helps determine whether a retrieved
+object should be trusted, quoted, ignored, archived, used as background, or treated as the
+active source for the next move.
+4. Agent Memory and Externalized Project State
+Modern agent-memory systems often distinguish working memory, episodic memory, and
+semantic memory. They do this through databases, vector stores, summaries, thread
+identifiers, or memory-management policies. Artificial Tangibility expresses a related
+distinction in plain project terms.
+A live state board or orientation object functions as working memory: it tells the runtime
+what is active now. Receipts and communication logs function as episodic memory: they
+preserve what happened, what changed, what failed, and what remains open.
+Source-authority objects function as semantic control: they declare which materials
+govern the present work.
+The important point is not that files are technically equivalent to databases. They are not.
+The point is that the human-readable object-world can expose the same categories of state
+that more technical systems manage implicitly or programmatically. For a solo researcher,
+small team, or cross-tool workflow, that visibility can be more valuable than hidden
+sophistication.
+The method also avoids a common failure in long-running AI work: asking the runtime to
+remember the project. Artificial Tangibility assumes the runtime is discontinuous. The
+project must carry continuity outside the runtime so that a future runtime can re-enter
+without requiring the human to rebuild the whole room.
+5. Durable Execution, Re-Entry, and Recoverability
+Production-grade agent systems often use checkpointers, orchestration engines, and
+durable execution platforms to recover from crashes, timeouts, rate limits, and incomplete
+workflows. Those systems persist state so the process can resume.
+Artificial Tangibility approaches recoverability from the interface side. The question is not
+only whether a process can resume automatically, but whether a fresh runtime can
+identify the active object, governing source, unresolved blockers, boundaries, and next
+safe action.
+This is the purpose of a re-entry test. A continuity system is working if a runtime can enter
+from a minimal orientation object and recover the state of the project without relying on
+the prior chat session. It should be able to answer: What is active? What governs? What is
+blocked? What must not be touched? What happened last? What should happen next?
+That test does not replace durable execution in production software systems. It
+complements it. Durable execution preserves process state. Artificial Tangibility preserves
+project orientation. In human-AI collaboration, both can matter.
+6. Receipts, Provenance, and Failure as Evidence
+Provenance systems track where information came from, how an artifact was produced,
+and which activities contributed to its current state. Artificial Tangibility shares this
+concern through receipts.
+A receipt is not permission before the work. It is evidence after the work. It records what
+changed, what was attempted, what remains blocked, and what the next safe action is. In
+a long-running project, this matters because state drift often occurs silently. A runtime
+may produce a plausible continuation while using the wrong source, crossing a boundary,
+or treating draft language as promoted.
+Receipts make those errors visible. They allow the human and future runtime to ask
+concrete questions: Was this a source error? An authority error? A boundary error? A
+state error? A directive error? A missing-evidence error?
+This is the sense in which failure can become evidence. The goal is not to celebrate
+mistakes. The goal is to preserve enough telemetry that a mistake can be caught, named,
+bounded, corrected, and used to strengthen the next handoff. A system that cannot locate
+its failures cannot safely improve. A system that can name its failures has working edges.
+7. Blackboard Coordination and Shared State Surfaces
+The blackboard pattern is a long-standing coordination model in which multiple agents or
+processes contribute to a shared state space rather than communicating only through
+direct chained messages. In AI systems, this pattern helps reduce coupling, support
+asynchronous participation, and preserve visible intermediate state.
+Artificial Tangibility can be understood as a file-based analogue of that pattern. Instead of
+assuming that each runtime carries the whole project internally, the project maintains a
+shared state surface: active objects, open items, blockers, receipts, source authority, and
+next safe actions.
+The difference again is not that a document is technically the same as a distributed
+key-value store. It is not. The useful comparison is functional. A shared state surface helps
+separate the agents from the state they act upon. It gives future work a place to re-enter.
+It also gives humans a place to inspect whether the system is aligned or drifting.
+For public framing, this matters because it turns a private workflow habit into a
+recognizable systems pattern. Artificial Tangibility does not ask reviewers to believe in an
+idiosyncratic folder ritual. It says that shared, inspectable state surfaces are one way to
+make discontinuous AI collaboration safer and more recoverable.
+8. Human-in-the-Loop Governance and Promotion Gates
+Enterprise AI systems often include human-in-the-loop gates for high-stakes actions.
+These gates pause execution, require review, and prevent the system from converting
+uncertain output into authoritative state without oversight.
+Artificial Tangibility expresses the same governance concern through promotion gates and
+boundary conditions. A generated artifact can exist without being promoted. A draft can
+be useful without becoming public. A private constraint can inform the runtime without
+being leaked into public prose. A source can govern one lane without governing another.
+The phrase 'existence is not promotion' is central. It prevents a common AI-workflow
+failure: treating produced text as authorized merely because it has been produced. In a
+governed project, mutation and promotion are separate events. The runtime may draft,
+summarize, compare, or propose. The human or declared authority structure determines
+what becomes canonical, public, or governing.
+This is not merely a safety preference. It is part of the object grammar. Authority is a field.
+Boundary is a field. Directive is a field. A runtime that can see those fields can be judged
+against them. If it crosses them, the error is diagnosable.
+9. Object Weight and the Salience Problem
+The most distinctive contribution of Artificial Tangibility is object weight. Existing systems
+can store information, retrieve information, trace information, and summarize
+information. Object weight asks a different question: why does this object matter now?
+Existence and salience are not the same. A receipt can prove that an object exists. A
+source map can declare where it belongs. But a runtime may still flatten a hinge object
+into background if nothing marks its consequence. Weight is the salience layer that tells
+the runtime not to treat all preserved material equally.
+Weight can come from consequence, dependency, authority, fragility, risk, or generativity.
+An object matters if ignoring it would reopen a closed error, corrupt a source hierarchy,
+erase a breakthrough, or send the project down the wrong path. A weighted object tells
+the runtime: do not flatten this; read it as a hinge.
+This is where Artificial Tangibility extends beyond ordinary retrieval or memory. It does
+not merely ask whether an object can be found. It asks whether the runtime can
+understand the object's priority inside the current project-world.
+10. What This Companion Paper Claims - and Does Not Claim
+This paper does not claim that plain-text continuity systems should replace durable
+execution engines, vector databases, workflow orchestrators, event stores, or
+access-control systems in enterprise environments. Those tools solve real technical
+problems at scale.
+It also does not claim that Artificial Tangibility invents context engineering, memory,
+retrieval, provenance, object orientation, affordances, or blackboard coordination. Those
+are established traditions.
+The claim is narrower and, for that reason, stronger: long-running AI collaboration needs
+a human-readable governance layer that binds these concerns together at the level of
+project work. Artificial Tangibility names that layer. It treats project materials as bounded
+objects with role, authority, state, boundary, relation, receipt, weight, and next safe
+action.
+That framing gives AI continuity a practical grammar. It tells humans what to externalize.
+It tells runtimes what to respect. It tells reviewers how the system can be tested: re-entry
+speed, source-current distinction, error catchability, safe action selection, handoff quality,
+stale-context resistance, and preservation of why important objects matter.
+11. Conclusion
+Artificial Tangibility is best understood as a low-infrastructure governance layer for AI
+state management. It translates concerns that appear in context engineering, retrieval,
+memory systems, provenance, durable execution, blackboard coordination, and
+human-in-the-loop design into a human-readable object grammar.
+Its strongest claim is not that files are superior to infrastructure. Its strongest claim is that
+AI runtimes need shaped environments. A runtime that receives only more text may still
+be lost. A runtime that receives bounded objects with declared role, authority, state,
+boundary, relation, receipt, weight, and next safe action can move with less guessing and
+more accountability.
+This matters because much AI collaboration occurs outside carefully engineered
+enterprise platforms. Researchers, writers, analysts, small teams, and independent
+builders often work across chat interfaces, documents, folders, and ad hoc tools. For those
+contexts, a low-infrastructure continuity grammar can make complex AI-assisted work
+more recoverable without pretending that the runtime is continuous, embodied,
+conscious, or human.
+The companion claim can therefore be stated simply: Artificial Tangibility does not replace
+AI state-management infrastructure. It makes the governance problem legible. It shows
+how project state can be externalized into objects that a discontinuous runtime can
+re-enter, interpret, act on, and leave evidence about.
+References
+Clark, Andy, and David J. Chalmers. "The Extended Mind." Analysis 58, no. 1 (1998): 7-19.
+Hoffman, Donald D., Manish Singh, and Chetan Prakash. "The Interface Theory of Perception."
+Psychonomic Bulletin & Review 22 (2015): 1480-1506.
+Hutchins, Edwin. Cognition in the Wild. Cambridge, MA: MIT Press, 1995.
+Liu, Nelson F., Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, and
+Percy Liang. "Lost in the Middle: How Language Models Use Long Contexts." arXiv preprint
+arXiv:2307.03172 (2023); Transactions of the Association for Computational Linguistics (2024).
+Norman, Donald A. The Design of Everyday Things. Revised and Expanded Edition. New York: Basic
+Books, 2013.
+World Wide Web Consortium. Accessible Rich Internet Applications (WAI-ARIA) 1.2. W3C
+Recommendation, June 6, 2023.
+Yao, Shunyu, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao.
+"ReAct: Synergizing Reasoning and Acting in Language Models." arXiv preprint arXiv:2210.03629
+(2022).

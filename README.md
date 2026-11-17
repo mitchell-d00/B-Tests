@@ -11,7 +11,48 @@ and evaluator controls, alongside separate native MPLPB executions. They do not 
 scheduler, recipient acceptance or native action enforcement. See
 [system scope](docs/OOCC_2026_SYSTEM_SCOPE.md).
 
-## Current native MPLPB results
+## Current comparison — 17 November 2026, PR49
+
+Current Combined pin **ccbb5804eb47f78c2338d57c142ad087b47be710** passed
+**1,186 native tests**, seven additional checks, seven B-Tests boundary probes,
+ten applicable legacy query contracts and52 public-evidence controls. The sorter
+kept176 identical nodes across modes, added77 review edges and exported a snapshot
+that the unchanged pre-sorter reader withheld under all three profiles.
+
+[Requirement-by-requirement response to Ben](docs/RESPONSE_TO_BEYOND_GUARDED_RETRIEVAL.md)
+marks already-present, partial, newly added and still-open portions separately from
+software PASS and independent acceptance. [Exact fresh results and commands](evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/RESULTS.md)
+retain earlier-project reproductions too. The November11 Portable and residual
+repositories document a **thought-to-execution sequence** before the paper's
+stated November14 date: research questions → working verifiers/gates → recorded
+experiments → current reproduction → later Combined integration. They explore
+ideas also found in Ben's roadmap; they do not claim to have completed every
+later recommendation or establish influence between the researchers.
+
+**Substantial implementation coverage is demonstrated; independent historical
+accuracy and general reconstruction remain unestablished.** Inspection, graph
+packaging and human promotion do not establish source support or historical truth.
+Only B-Tests was edited. No new OOCC/CAD sessions or private controller trials ran.
+
+[Sorter paper and response paper: MD/TXT/PDF](docs/papers/README.md) ·
+[Ben's original paper](https://www.academia.edu/181013727/Beyond_Guarded_Retrieval_A_Source_Bounded_Evaluation_of_Combined_MPLPB_and_a_Roadmap_for_Historical_Reconstruction)
+
+## Earlier PR46 rerun — 17 November 2026
+
+Updated main [`3df2c6e22f0ef454f3ee67b88d43402a42f63443`](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/tree/3df2c6e22f0ef454f3ee67b88d43402a42f63443)
+passed **1,157 native tests**, seven additional checks, seven work-boundary probes,
+ten applicable legacy source-query contracts and the 52-case public-evidence
+suite. The 12 public-paper reader outputs are unchanged from PR #43.
+
+Component suites passed with their required environment permissions. Initial
+Networked/Image socket-setup failures and unchanged-code successful retries are
+both retained. No MPLPB source files were changed and no new OOCC/CAD model
+sessions were run.
+
+[Versioned report, logs, exact commands and limitations](evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/RESULTS.md).
+The earlier results below retain their original versions and dates.
+
+## Earlier native MPLPB results — 16 November 2026
 
 The full unmodified MPLPB checkout at
 [`cc21ce300b5ec228c07fc77a149804fba6c89792`](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/tree/cc21ce300b5ec228c07fc77a149804fba6c89792)

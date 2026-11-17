@@ -1,0 +1,69 @@
+{
+  "revision": "ccbb5804eb47f78c2338d57c142ad087b47be710",
+  "runner_sha256": "e1abb45191c66e4332b9648e21c5b6541b599f86b54bc8839bdb69895f52bdb5",
+  "published_checker_sha256": "11587ee84c1246cf826f44c2e616a2340ff4d8b7dbb2d574a612336fa833a66d",
+  "commands": [
+    [
+      "smart-local",
+      "/workspace/mplpb/parts/smart-local",
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-t",
+        "."
+      ]
+    ],
+    [
+      "swarm",
+      "/workspace/mplpb/parts/swarm",
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ]
+    ],
+    [
+      "networked",
+      "/workspace/mplpb/parts/networked",
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "Tests",
+        "-t",
+        "."
+      ]
+    ],
+    [
+      "image",
+      "/workspace/mplpb/parts/image",
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ]
+    ],
+    [
+      "local-mirror",
+      "/workspace/mplpb/parts/local-mirror",
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "tools/validate.py",
+        "site"
+      ]
+    ]
+  ],
+  "scope": "Individual published component commands and native adoption, omitting root repeat; no target edits."
+}

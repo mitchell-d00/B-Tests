@@ -1,0 +1,84 @@
+{
+  "observed_on": "2026-11-17",
+  "ben_paper": {
+    "url": "https://www.academia.edu/181013727/Beyond_Guarded_Retrieval_A_Source_Bounded_Evaluation_of_Combined_MPLPB_and_a_Roadmap_for_Historical_Reconstruction",
+    "stated_date": "2026-11-14",
+    "evaluated_mplpb": "257e54a51edac272eb6b2441457f38a40485ee4d",
+    "web_index_observation": "Published: 3 days ago; Crawled: today",
+    "original_upload_timestamp_independently_verified": false
+  },
+  "repositories": [
+    {
+      "name": "portable-evidence-runtime",
+      "created_at": "2026-11-11T14:51:31Z",
+      "pushed_at": "2026-11-11T15:18:07Z",
+      "commits": [
+        {
+          "sha": "4fdc20193c01f82baea0598b4c7d8ef3040772d5",
+          "author_date": "2026-11-11T15:18:07Z",
+          "committer_date": "2026-11-11T15:18:07Z",
+          "title": "Merge pull request #1 from mitchell-d00/codex/runtime-and-core-papers"
+        },
+        {
+          "sha": "193bf2255852ad3af2caeee363c580579323479b",
+          "author_date": "2026-11-11T15:00:55Z",
+          "committer_date": "2026-11-11T15:01:16Z",
+          "title": "Build portable evidence runtime and add reviewed core papers"
+        },
+        {
+          "sha": "c5164110d25df94d611c38712fad5dc4b9f7a6a2",
+          "author_date": "2026-11-11T14:51:32Z",
+          "committer_date": "2026-11-11T14:51:32Z",
+          "title": "Initial commit"
+        }
+      ]
+    },
+    {
+      "name": "mplpb-residual-experiment",
+      "created_at": "2026-11-11T12:58:16Z",
+      "pushed_at": "2026-11-11T13:16:10Z",
+      "commits": [
+        {
+          "sha": "1ec160051ba306ce61d74ba3186f0aa5873694c5",
+          "author_date": "2026-11-11T13:16:02Z",
+          "committer_date": "2026-11-11T13:16:02Z",
+          "title": "Publish rewritten Residual of Logic paper and executed residual pilot"
+        },
+        {
+          "sha": "ca002ace6a7c54a5ad3022e6032a8ae877b269f6",
+          "author_date": "2026-11-11T12:58:18Z",
+          "committer_date": "2026-11-11T12:58:18Z",
+          "title": "Initial commit"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Git metadata and stated paper dates are distinct evidence types.",
+    "Earlier related repositories do not establish that their features were integrated into the tested Combined pin.",
+    "No intent, copying, influence or intellectual-priority finding follows from these dates."
+  ],
+  "purpose": "Timeline of thought to executable mechanism to recorded experiment to later reproduction; not a claim all later recommendations were already complete.",
+  "thought_to_execution": [
+    {
+      "repository": "portable-evidence-runtime",
+      "question": "Bounded offline recovery with memory, rules, verifier and software carried together",
+      "paper": "core-papers/Portable_Evidence_Runtime.md, Abstract and sections1\u20133",
+      "recorded_run_at": "2026-11-11T14:59:48+00:00",
+      "recorded_artifact": "experiment/results/synthetic_run.json",
+      "recorded_result": "15/15 synthetic cases",
+      "fresh_reproduction": "29 Python,11 strict JS,10 authoring JS,15 synthetic,13 offline Chromium checks passed",
+      "boundaries": "Two distinct surfaces; hashes not truth/authorship; independent hosted comparison not run."
+    },
+    {
+      "repository": "mplpb-residual-experiment",
+      "question": "Whether disqualification and refusal remain executable after recovery",
+      "paper": "paper/The_Residual_of_Logic.md, sections1,3\u20136",
+      "recorded_run_at": "2026-11-11T13:05:28.919832+00:00",
+      "recorded_artifact": "results/pilot-1/environment.json and decisions.json",
+      "recorded_result": "Native C and conventional D matched14 paired cases within56 case/arm rows",
+      "fresh_reproduction": "Original runner and retained-evidence verifier passed",
+      "boundaries": "Author-context development fixtures; no general historical truth or necessity/superiority claim."
+    }
+  ]
+}

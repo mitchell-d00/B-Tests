@@ -1,0 +1,136 @@
+{
+  "revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+  "results": [
+    {
+      "id": "python-full-suite",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-t",
+        ".",
+        "-v"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 344.660969385,
+      "unittest_count": 1157,
+      "stdout_sha256": "3d403c92a10653815251716899b4337bb0f669347d3c1d243bd89b8e1cd7fe36",
+      "stderr_sha256": "bca17537de81923221375011488b1caff40775f9a24dcdde6041401a819f1b84",
+      "evidence_level": "native_unmodified_repository_execution",
+      "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+    },
+    {
+      "id": "ui-script",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "tools/check_ui_script.py"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.7764408660000299,
+      "unittest_count": null,
+      "stdout_sha256": "b8ecae0fe71214558bf3cf6ed1c280a32e09111b810ea76d49b89ef97ae72772",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_level": "native_unmodified_repository_execution",
+      "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+    },
+    {
+      "id": "browser-transport",
+      "command": [
+        "node",
+        "tools/check_browser_transport.cjs"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.04194860299998027,
+      "unittest_count": null,
+      "stdout_sha256": "91201614b643cc7a6851222c4f1e5684e34505c019a26e85a0afc8f3407b6343",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_level": "native_unmodified_repository_execution",
+      "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+    },
+    {
+      "id": "javascript-api",
+      "command": [
+        "node",
+        "tests/javascript-api.cjs"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.6731443529999979,
+      "unittest_count": null,
+      "stdout_sha256": "2ec7e959ed7d461981bbbc39199b9497fe1e251b0910b95729e2240408e92539",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_level": "native_unmodified_repository_execution",
+      "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+    },
+    {
+      "id": "crawler-worker",
+      "command": [
+        "node",
+        "crawler/test_worker.mjs"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.12234699600003296,
+      "unittest_count": null,
+      "stdout_sha256": "fc1a38f0e824cdaa186dede6ae2c87035cb7e65875a6678e8254918f2544cd03",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_level": "native_unmodified_repository_execution",
+      "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+    },
+    {
+      "id": "source-infrastructure",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "tools/check_repository_infrastructure.py"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.1627440650000267,
+      "unittest_count": null,
+      "stdout_sha256": "d6f35d84aebfb4332d37b7cf4dae46288cd3cd1effa68d3057cf875dbbebd13a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_level": "native_unmodified_repository_execution",
+      "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+    },
+    {
+      "id": "committed-handoff",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "tools/build_handoff.py",
+        "--check"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 1.8766760649999696,
+      "unittest_count": null,
+      "stdout_sha256": "5cfa5c0c7457736db5903d3d4df5ea331bec0cd38c057a644134c70ec381d4f1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_level": "native_unmodified_repository_execution",
+      "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+    },
+    {
+      "id": "five-instance-recovery",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "tools.demo_specialist_continuity",
+        "--output",
+        "/workspace/b-tests/evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/native/five-instance-demo.json"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.40251543099998344,
+      "unittest_count": null,
+      "stdout_sha256": "1a841f33f1b10e4124c5d6944a3ef9f7e07f8edae4b96c830fc937cd4c4c7961",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_level": "native_unmodified_repository_execution",
+      "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+[
+  {
+    "case": "intact",
+    "root": "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual/fixtures/intact",
+    "question": "What is the kettle color?",
+    "eligible_ids": [
+      "DOC-0001"
+    ],
+    "supported_ids": [
+      "DOC-0001"
+    ],
+    "ineligible_ids": [],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "revision",
+    "root": "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual/fixtures/revision",
+    "question": "What is the kettle color?",
+    "eligible_ids": [
+      "DOC-0002"
+    ],
+    "supported_ids": [
+      "DOC-0002"
+    ],
+    "ineligible_ids": [
+      "DOC-0001"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "tampered",
+    "root": "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual/fixtures/tampered",
+    "question": "What is the kettle color?",
+    "eligible_ids": [],
+    "supported_ids": [],
+    "ineligible_ids": [
+      "DOC-0001"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "tampered_successor",
+    "root": "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual/fixtures/tampered_successor",
+    "question": "What is the kettle color?",
+    "eligible_ids": [
+      "DOC-0001"
+    ],
+    "supported_ids": [
+      "DOC-0001"
+    ],
+    "ineligible_ids": [
+      "DOC-0002"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "ambiguous",
+    "root": "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual/fixtures/ambiguous",
+    "question": "What is the kettle color?",
+    "eligible_ids": [
+      "DOC-0001",
+      "DOC-0002"
+    ],
+    "supported_ids": [],
+    "ineligible_ids": [],
+    "ambiguous": true,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "stale_replaced",
+    "root": "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual/fixtures/stale_replaced",
+    "question": "What is the lantern color?",
+    "eligible_ids": [],
+    "supported_ids": [],
+    "ineligible_ids": [
+      "DOC-0002"
+    ],
+    "ambiguous": false,
+    "stale": true,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "stale_withdrawn",
+    "root": "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual/fixtures/stale_withdrawn",
+    "question": "What is the lantern color?",
+    "eligible_ids": [],
+    "supported_ids": [],
+    "ineligible_ids": [
+      "DOC-0002"
+    ],
+    "ambiguous": false,
+    "stale": true,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "withdrawn_chain",
+    "root": "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual/fixtures/withdrawn_chain",
+    "question": "What is the kettle color?",
+    "eligible_ids": [],
+    "supported_ids": [],
+    "ineligible_ids": [
+      "DOC-0001",
+      "DOC-0002"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "unsupported",
+    "root": "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual/fixtures/unsupported",
+    "question": "What is the kettle color?",
+    "eligible_ids": [
+      "DOC-0002"
+    ],
+    "supported_ids": [],
+    "ineligible_ids": [
+      "DOC-0001"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "unknown",
+    "root": "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual/fixtures/unknown",
+    "question": "What is the lantern color?",
+    "eligible_ids": [],
+    "supported_ids": [],
+    "ineligible_ids": [],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "wrong_pin",
+    "root": "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual/fixtures/wrong_pin",
+    "question": "What is the kettle color?",
+    "eligible_ids": [
+      "DOC-0001"
+    ],
+    "supported_ids": [
+      "DOC-0001"
+    ],
+    "ineligible_ids": [
+      "DOC-0002"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "duplicate",
+    "root": "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual/fixtures/duplicate",
+    "question": "What is the kettle color?",
+    "eligible_ids": [],
+    "supported_ids": [],
+    "ineligible_ids": [
+      "DOC-0001"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "rechecked",
+    "root": "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual/fixtures/rechecked",
+    "question": "What is the lantern color?",
+    "eligible_ids": [
+      "DOC-0004"
+    ],
+    "supported_ids": [
+      "DOC-0004"
+    ],
+    "ineligible_ids": [
+      "DOC-0002"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "author_neutral",
+    "root": "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual/fixtures/author_neutral",
+    "question": "What is the kettle color?",
+    "eligible_ids": [
+      "DOC-0002"
+    ],
+    "supported_ids": [
+      "DOC-0002"
+    ],
+    "ineligible_ids": [
+      "DOC-0001"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  }
+]

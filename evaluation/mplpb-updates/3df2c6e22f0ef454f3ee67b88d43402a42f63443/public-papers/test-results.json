@@ -1,0 +1,30 @@
+[
+  {
+    "name": "unittest",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "exit_code": 0,
+    "status": "PASS",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "fb8a0f843c6338a6ca60ddea470634f4259e53b12c921b39318c91665b078fd6"
+  },
+  {
+    "name": "native_evidence",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "research_lab.native_evidence"
+    ],
+    "exit_code": 0,
+    "status": "PASS",
+    "stdout_sha256": "8745b31ad89e6917291aa543ba0660473314bfa4528fd47c79b33605106622a0",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

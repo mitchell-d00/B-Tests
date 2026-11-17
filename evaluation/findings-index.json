@@ -91,5 +91,19 @@
       "claim_only_chain"
     ],
     "scope": "Native authored suites and probes, not Ben private benchmark reproduction or general truth certification. Environment and harness failures are retained."
-  }
+  },
+  "native_mplpb_reruns": [
+    {
+      "revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "report": "evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/RESULTS.md",
+      "summary": "evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/summary.json",
+      "new_model_calls": 0
+    },
+    {
+      "revision": "ccbb5804eb47f78c2338d57c142ad087b47be710",
+      "report": "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/RESULTS.md",
+      "summary": "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/summary.json",
+      "new_model_calls": 0
+    }
+  ]
 }

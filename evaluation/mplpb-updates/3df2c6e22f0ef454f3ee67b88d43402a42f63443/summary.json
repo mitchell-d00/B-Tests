@@ -1,0 +1,62 @@
+{
+  "revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+  "b_tests_revision": "d935be6c68c82388d932d99674568a7b7dbf5ff9",
+  "native_tests": 1157,
+  "native_additional_checks": 7,
+  "boundary_probes": {
+    "PASS": 7
+  },
+  "legacy_source_queries": {
+    "PASS_CONTRACT": 10,
+    "OUT_OF_SCOPE": 6
+  },
+  "laboratory_tests": 121,
+  "public_evidence": {
+    "pass": 52
+  },
+  "public_paper_queries": {
+    "return": 6,
+    "ambiguous": 5,
+    "not_in_corpus": 1
+  },
+  "paper_answers_unchanged_except_ledger_root": true,
+  "components": {
+    "smart-local": {
+      "tests": 52,
+      "status": "PASS"
+    },
+    "swarm": {
+      "tests": 145,
+      "status": "PASS"
+    },
+    "networked": {
+      "tests": 61,
+      "initial_status": "FAIL",
+      "initial_cause": "socket PermissionError",
+      "retry_status": "PASS"
+    },
+    "image": {
+      "tests": 93,
+      "initial_status": "FAIL",
+      "initial_cause": "four socket PermissionErrors",
+      "retry_status": "PASS"
+    },
+    "local-mirror": "PASS",
+    "adoption_checks": 5
+  },
+  "original_paper_crawl": {
+    "originals_byte_verified": 4,
+    "sources_reached": 4,
+    "expected_originals_reached": true,
+    "observations_verified": 31,
+    "traversed_declared_relations": 6,
+    "unresolved_relations": 15,
+    "negative_supersession_qualification_preserved": true,
+    "expert_stages_passed": 3,
+    "answer_supported": false,
+    "truth_verified": false
+  },
+  "new_model_calls": 0,
+  "native_oocc": "NOT_RUN: no live adapter or independent readbacks",
+  "target_source_modified": false
+}

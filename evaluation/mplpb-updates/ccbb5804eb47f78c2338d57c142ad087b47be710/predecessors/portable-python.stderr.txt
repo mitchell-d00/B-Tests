@@ -1,0 +1,34 @@
+test_build_verify_ask (test_cli.CommandLineTests.test_build_verify_ask) ... ok
+test_malformed_files_return_structured_errors (test_cli.CommandLineTests.test_malformed_files_return_structured_errors) ... ok
+test_refusal_process_results (test_cli.CommandLineTests.test_refusal_process_results) ... ok
+test_shared_boundary_corpus (test_parity.CrossLanguageTests.test_shared_boundary_corpus) ... ok
+test_01_pinned_root (test_reference.OfflineCapsuleTests.test_01_pinned_root) ... ok
+test_02_self_consistent_no_authentication_claim (test_reference.OfflineCapsuleTests.test_02_self_consistent_no_authentication_claim) ... ok
+test_03_exact_key_supported (test_reference.OfflineCapsuleTests.test_03_exact_key_supported) ... ok
+test_04_evidence_sha_is_record_digest (test_reference.OfflineCapsuleTests.test_04_evidence_sha_is_record_digest) ... ok
+test_05_retired_never_owns (test_reference.OfflineCapsuleTests.test_05_retired_never_owns) ... ok
+test_06_machine_origin_refused (test_reference.OfflineCapsuleTests.test_06_machine_origin_refused) ... ok
+test_07_blocked_refused (test_reference.OfflineCapsuleTests.test_07_blocked_refused) ... ok
+test_08_conflict_refused (test_reference.OfflineCapsuleTests.test_08_conflict_refused) ... ok
+test_09_missing_refused (test_reference.OfflineCapsuleTests.test_09_missing_refused) ... ok
+test_10_natural_language_refused (test_reference.OfflineCapsuleTests.test_10_natural_language_refused) ... ok
+test_11_content_tamper_fails_closed (test_reference.OfflineCapsuleTests.test_11_content_tamper_fails_closed) ... ok
+test_12_metadata_tamper_fails_closed (test_reference.OfflineCapsuleTests.test_12_metadata_tamper_fails_closed) ... ok
+test_13_policy_tamper_fails_closed (test_reference.OfflineCapsuleTests.test_13_policy_tamper_fails_closed) ... ok
+test_14_root_tamper_fails_closed (test_reference.OfflineCapsuleTests.test_14_root_tamper_fails_closed) ... ok
+test_15_duplicate_id_fails_closed (test_reference.OfflineCapsuleTests.test_15_duplicate_id_fails_closed) ... ok
+test_16_missing_parent_fails_closed (test_reference.OfflineCapsuleTests.test_16_missing_parent_fails_closed) ... ok
+test_17_full_rewrite_is_self_consistent_but_pinned_failure (test_reference.OfflineCapsuleTests.test_17_full_rewrite_is_self_consistent_but_pinned_failure) ... ok
+test_18_reconstruction_from_disk_copy (test_reference.OfflineCapsuleTests.test_18_reconstruction_from_disk_copy) ... ok
+test_19_only_actual_sources_can_build (test_reference.OfflineCapsuleTests.test_19_only_actual_sources_can_build) ... ok
+test_20_bad_field_order_rejected (test_reference.OfflineCapsuleTests.test_20_bad_field_order_rejected) ... ok
+test_21_wrong_origin_type_rejected (test_reference.OfflineCapsuleTests.test_21_wrong_origin_type_rejected) ... ok
+test_22_unsorted_refused (test_reference.OfflineCapsuleTests.test_22_unsorted_refused) ... ok
+test_23_missing_content_always_refuses (test_reference.OfflineCapsuleTests.test_23_missing_content_always_refuses) ... ok
+test_24_untrusted_pin_refused (test_reference.OfflineCapsuleTests.test_24_untrusted_pin_refused) ... ok
+test_25_json_roundtrip_stability (test_reference.OfflineCapsuleTests.test_25_json_roundtrip_stability) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.624s
+
+OK

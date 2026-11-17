@@ -1,0 +1,2369 @@
+{
+  "results": [
+    {
+      "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "fixture_original_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "case": "SH01",
+      "status": "PASS_CONTRACT",
+      "frozen_function_output": {
+        "arm": "MPLPB",
+        "case_id": "SH01",
+        "repo_pin": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "PASS_CONTRACT",
+        "observed_decision": "ANSWER",
+        "expected_decision": "ANSWER",
+        "elapsed_seconds": 0.182383,
+        "source_id_map": {
+          "S1": "PROBE-0001"
+        },
+        "native_reply": {
+          "kind": "return",
+          "question": "What is bag code XT7 for?",
+          "profile": "internal",
+          "root": "/tmp/btests-paired-rlzhnf9p",
+          "reason": "Exact source-declared relation path; source truth and procedure execution not verified.",
+          "id": "PROBE-0001",
+          "path": "probe-0001.html",
+          "hash": "sha256:86876c8ce57c9229d31225ecda0d8b80750514ff68c941065db643c3a09b1398",
+          "depth": 0,
+          "text": "Bag code XT7 is for sculpture.",
+          "candidates": [],
+          "known": [
+            "bag",
+            "code",
+            "xt7"
+          ],
+          "unknown": [],
+          "matched_on": "literal body statement",
+          "withheld": [],
+          "set_aside": [],
+          "quarantined": 0,
+          "route": [],
+          "answer_support": {
+            "status": "supported",
+            "version": "source-relation-graph-v2",
+            "frame": {
+              "relation": "code_purpose",
+              "entity": "xt7",
+              "canonical": "what is bag code xt7 for",
+              "other": "",
+              "version": "source-relation-graph-v2",
+              "general_entailment": false,
+              "graph_type": "source_body_only",
+              "world_verified": false,
+              "execution_verified": false,
+              "inference_permitted": false,
+              "qualified_quote_required": true
+            },
+            "spans": [
+              {
+                "quote": "Bag code XT7 is for sculpture.",
+                "value": "sculpture",
+                "qualification": "",
+                "polarity": "positive"
+              }
+            ],
+            "candidate_checks": [
+              {
+                "id": "PROBE-0001",
+                "hash": "sha256:86876c8ce57c9229d31225ecda0d8b80750514ff68c941065db643c3a09b1398",
+                "status": "supported",
+                "spans": [
+                  {
+                    "quote": "Bag code XT7 is for sculpture.",
+                    "value": "sculpture",
+                    "qualification": "",
+                    "polarity": "positive"
+                  }
+                ],
+                "negative_spans": [],
+                "unresolved_spans": [],
+                "assertions": [
+                  {
+                    "subject": "xt7",
+                    "relation": "code_purpose",
+                    "value": "sculpture",
+                    "polarity": "positive",
+                    "qualification": "",
+                    "source_id": "PROBE-0001",
+                    "source_hash": "sha256:86876c8ce57c9229d31225ecda0d8b80750514ff68c941065db643c3a09b1398",
+                    "path": "probe-0001.html",
+                    "quote": "Bag code XT7 is for sculpture."
+                  }
+                ]
+              }
+            ],
+            "unresolved": false,
+            "negative_spans": [],
+            "unresolved_spans": [],
+            "graph": {
+              "version": "source-relation-graph-v2",
+              "nodes": [
+                {
+                  "id": "q",
+                  "kind": "question",
+                  "text": "what is bag code xt7 for"
+                },
+                {
+                  "id": "p",
+                  "kind": "predicate",
+                  "text": "code_purpose"
+                },
+                {
+                  "id": "s",
+                  "kind": "entity",
+                  "text": "xt7"
+                },
+                {
+                  "id": "doc",
+                  "kind": "source",
+                  "record_id": "PROBE-0001",
+                  "hash": "sha256:86876c8ce57c9229d31225ecda0d8b80750514ff68c941065db643c3a09b1398",
+                  "path": "probe-0001.html"
+                },
+                {
+                  "id": "fact:0",
+                  "kind": "statement",
+                  "quote": "Bag code XT7 is for sculpture.",
+                  "polarity": "positive"
+                },
+                {
+                  "id": "value:0",
+                  "kind": "value",
+                  "text": "sculpture"
+                }
+              ],
+              "edges": [
+                {
+                  "from": "q",
+                  "to": "p",
+                  "type": "asks"
+                },
+                {
+                  "from": "p",
+                  "to": "s",
+                  "type": "targets"
+                },
+                {
+                  "from": "doc",
+                  "to": "fact:0",
+                  "type": "declares"
+                },
+                {
+                  "from": "fact:0",
+                  "to": "p",
+                  "type": "asserts_relation"
+                },
+                {
+                  "from": "fact:0",
+                  "to": "s",
+                  "type": "asserts_subject"
+                },
+                {
+                  "from": "fact:0",
+                  "to": "value:0",
+                  "type": "supplies_value"
+                }
+              ],
+              "proof_kind": "exact_source_statement",
+              "independent_sources_verified": false,
+              "world_verified": false,
+              "execution_verified": false,
+              "multi_hop_inference": false
+            },
+            "reason": "Exact source-declared relation path; source truth and procedure execution not verified.",
+            "assertions": [
+              {
+                "subject": "xt7",
+                "relation": "code_purpose",
+                "value": "sculpture",
+                "polarity": "positive",
+                "qualification": "",
+                "source_id": "PROBE-0001",
+                "source_hash": "sha256:86876c8ce57c9229d31225ecda0d8b80750514ff68c941065db643c3a09b1398",
+                "path": "probe-0001.html",
+                "quote": "Bag code XT7 is for sculpture."
+              }
+            ],
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            }
+          },
+          "answer_contract": {
+            "schema": "answer-contract-v1",
+            "mode": "strict",
+            "question": "What is bag code XT7 for?",
+            "kind": "supported_answer",
+            "answer_supported": true,
+            "text": "Bag code XT7 is for sculpture.",
+            "claims": [
+              {
+                "text": "Bag code XT7 is for sculpture.",
+                "qualifiers": [],
+                "citations": [
+                  {
+                    "passage": "sha256:f4b452f54c29cf0411cabcc32d7fc66d3aa4d4f1dbb5a83c73010d0c6e29bb5b",
+                    "start": 0,
+                    "end": 30,
+                    "quote": "Bag code XT7 is for sculpture.",
+                    "source_id": "PROBE-0001",
+                    "path": "probe-0001.html",
+                    "hash": "sha256:86876c8ce57c9229d31225ecda0d8b80750514ff68c941065db643c3a09b1398",
+                    "body_start": 0,
+                    "body_end": 30
+                  }
+                ]
+              }
+            ],
+            "missing": [],
+            "clarification": "",
+            "confidence": null,
+            "confidence_calibrated": false,
+            "sources": [
+              {
+                "id": "PROBE-0001",
+                "path": "probe-0001.html",
+                "hash": "sha256:86876c8ce57c9229d31225ecda0d8b80750514ff68c941065db643c3a09b1398"
+              }
+            ],
+            "retrieval": {},
+            "verification": {
+              "structural": true,
+              "semantic": "bounded_deterministic_grammar",
+              "truth_verified": false,
+              "independence_verified": false
+            },
+            "reader": null,
+            "trace": [],
+            "diagnostic": {
+              "code": "supported",
+              "stage": "strict",
+              "message": "Explicit source statements satisfy the existing bounded grammar.",
+              "category": "source_support_established",
+              "corpus_answerability": "not_established",
+              "next_steps": [
+                "Open the cited source and check its conditions and revision."
+              ]
+            },
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            },
+            "source_assurance": {
+              "basis": "source_attributed_only",
+              "outside_world_confirmation_required": true,
+              "outside_world_truth": "not_established",
+              "authorship_authenticated": false,
+              "independence_verified": false,
+              "declared_evidence_root_count": 1,
+              "single_declared_root": true,
+              "notice": "Source support establishes what eligible ledger pages state. Outside-world confirmation is required before treating those statements as historical truth. MPLPB cannot detect a coherent false original without contrary evidence, authenticate arbitrary testimony, or establish general historical reconstruction from source integrity alone."
+            }
+          },
+          "answer_diagnostics": {
+            "code": "supported",
+            "stage": "strict",
+            "message": "Explicit source statements satisfy the existing bounded grammar.",
+            "category": "source_support_established",
+            "corpus_answerability": "not_established",
+            "next_steps": [
+              "Open the cited source and check its conditions and revision."
+            ]
+          },
+          "answer_supported": true
+        },
+        "stderr_excerpt": "",
+        "returncode": 0
+      },
+      "metadata_note": "Raw repo_pin is the historical function constant, not the checkout evaluated here. HEAD is independently verified at freeze."
+    },
+    {
+      "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "fixture_original_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "case": "SH02",
+      "status": "PASS_CONTRACT",
+      "frozen_function_output": {
+        "arm": "MPLPB",
+        "case_id": "SH02",
+        "repo_pin": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "PASS_CONTRACT",
+        "observed_decision": "REFUSE",
+        "expected_decision": "REFUSE",
+        "elapsed_seconds": 0.261171,
+        "source_id_map": {
+          "S1": "PROBE-0001"
+        },
+        "native_reply": {
+          "kind": "not_in_corpus",
+          "question": "What is bag code XT7 for?",
+          "profile": "internal",
+          "root": "/tmp/btests-paired-znohzurx",
+          "reason": "No eligible body statement supports the complete literal question.",
+          "id": null,
+          "path": null,
+          "hash": null,
+          "depth": null,
+          "text": "",
+          "candidates": [],
+          "known": [
+            "bag",
+            "code"
+          ],
+          "unknown": [
+            "xt7"
+          ],
+          "matched_on": "",
+          "withheld": [],
+          "set_aside": [],
+          "quarantined": 0,
+          "route": [],
+          "answer_support": {
+            "status": "unsupported",
+            "version": "source-relation-graph-v2",
+            "frame": {
+              "relation": "code_purpose",
+              "entity": "xt7",
+              "canonical": "what is bag code xt7 for",
+              "other": "",
+              "version": "source-relation-graph-v2",
+              "general_entailment": false,
+              "graph_type": "source_body_only",
+              "world_verified": false,
+              "execution_verified": false,
+              "inference_permitted": false,
+              "qualified_quote_required": true
+            },
+            "spans": [],
+            "candidate_checks": [
+              {
+                "id": "PROBE-0001",
+                "hash": "sha256:8bb7fa6fba1e9444f35d546e37ef944b0b1d6119f8de5303c9ac08b0083e97b2",
+                "status": "unsupported",
+                "spans": [],
+                "negative_spans": [],
+                "unresolved_spans": [],
+                "assertions": []
+              }
+            ],
+            "unresolved": false,
+            "reason": "No eligible body statement supports the complete literal question.",
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            }
+          },
+          "answer_contract": {
+            "schema": "answer-contract-v1",
+            "mode": "strict",
+            "question": "What is bag code XT7 for?",
+            "kind": "abstain",
+            "answer_supported": false,
+            "text": "",
+            "claims": [],
+            "missing": [],
+            "clarification": "",
+            "confidence": null,
+            "confidence_calibrated": false,
+            "sources": [],
+            "retrieval": {
+              "eligible_pages": 1,
+              "total_passages": 1,
+              "passages": [],
+              "sources": [],
+              "search_complete": false,
+              "corpus_snapshot": "sha256:7b52b7185a2c79f86adb9b06bef1bfe1550d6c18303b6102e4bdba31a7a38abd",
+              "ranking": "not_run"
+            },
+            "verification": {
+              "structural": false,
+              "semantic": "not_run",
+              "truth_verified": false,
+              "independence_verified": false
+            },
+            "reader": null,
+            "trace": [],
+            "diagnostic": {
+              "code": "evidence_not_established",
+              "stage": "strict",
+              "message": "Eligible passages exist, but the strict reader cannot establish an answer to this question.",
+              "category": "insufficient_evidence",
+              "corpus_answerability": "not_established",
+              "next_steps": [
+                "Inspect the relevant source. Try a supported question form or explicitly select a configured assisted reader; do not treat this refusal as proof that the answer is absent."
+              ]
+            },
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            },
+            "source_assurance": {
+              "basis": "source_attributed_only",
+              "outside_world_confirmation_required": true,
+              "outside_world_truth": "not_established",
+              "authorship_authenticated": false,
+              "independence_verified": false,
+              "declared_evidence_root_count": null,
+              "single_declared_root": null,
+              "notice": "Source support establishes what eligible ledger pages state. Outside-world confirmation is required before treating those statements as historical truth. MPLPB cannot detect a coherent false original without contrary evidence, authenticate arbitrary testimony, or establish general historical reconstruction from source integrity alone."
+            }
+          },
+          "answer_diagnostics": {
+            "code": "evidence_not_established",
+            "stage": "strict",
+            "message": "Eligible passages exist, but the strict reader cannot establish an answer to this question.",
+            "category": "insufficient_evidence",
+            "corpus_answerability": "not_established",
+            "next_steps": [
+              "Inspect the relevant source. Try a supported question form or explicitly select a configured assisted reader; do not treat this refusal as proof that the answer is absent."
+            ]
+          },
+          "answer_supported": false
+        },
+        "stderr_excerpt": "",
+        "returncode": 3
+      },
+      "metadata_note": "Raw repo_pin is the historical function constant, not the checkout evaluated here. HEAD is independently verified at freeze."
+    },
+    {
+      "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "fixture_original_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "case": "SH03",
+      "status": "PASS_CONTRACT",
+      "frozen_function_output": {
+        "arm": "MPLPB",
+        "case_id": "SH03",
+        "repo_pin": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "PASS_CONTRACT",
+        "observed_decision": "ANSWER",
+        "expected_decision": "ANSWER",
+        "elapsed_seconds": 0.362439,
+        "source_id_map": {
+          "S1": "PROBE-0001",
+          "S2": "PROBE-0002"
+        },
+        "native_reply": {
+          "kind": "return",
+          "question": "What is bag code XT7 for?",
+          "profile": "internal",
+          "root": "/tmp/btests-paired-_sm7_1eg",
+          "reason": "Exact source-declared relation path; source truth and procedure execution not verified.",
+          "id": "PROBE-0002",
+          "path": "probe-0002.html",
+          "hash": "sha256:ff87388b7a664084fe9ad777696fd71123a197c3d9dab9fc28dd79255c00d404",
+          "depth": 0,
+          "text": "Bag code XT7 is for sculpture.",
+          "candidates": [],
+          "known": [
+            "bag",
+            "code",
+            "xt7"
+          ],
+          "unknown": [],
+          "matched_on": "literal body statement",
+          "withheld": [],
+          "set_aside": [],
+          "quarantined": 0,
+          "route": [],
+          "answer_support": {
+            "status": "supported",
+            "version": "source-relation-graph-v2",
+            "frame": {
+              "relation": "code_purpose",
+              "entity": "xt7",
+              "canonical": "what is bag code xt7 for",
+              "other": "",
+              "version": "source-relation-graph-v2",
+              "general_entailment": false,
+              "graph_type": "source_body_only",
+              "world_verified": false,
+              "execution_verified": false,
+              "inference_permitted": false,
+              "qualified_quote_required": true
+            },
+            "spans": [
+              {
+                "quote": "Bag code XT7 is for sculpture.",
+                "value": "sculpture",
+                "qualification": "",
+                "polarity": "positive"
+              }
+            ],
+            "candidate_checks": [
+              {
+                "id": "PROBE-0002",
+                "hash": "sha256:ff87388b7a664084fe9ad777696fd71123a197c3d9dab9fc28dd79255c00d404",
+                "status": "supported",
+                "spans": [
+                  {
+                    "quote": "Bag code XT7 is for sculpture.",
+                    "value": "sculpture",
+                    "qualification": "",
+                    "polarity": "positive"
+                  }
+                ],
+                "negative_spans": [],
+                "unresolved_spans": [],
+                "assertions": [
+                  {
+                    "subject": "xt7",
+                    "relation": "code_purpose",
+                    "value": "sculpture",
+                    "polarity": "positive",
+                    "qualification": "",
+                    "source_id": "PROBE-0002",
+                    "source_hash": "sha256:ff87388b7a664084fe9ad777696fd71123a197c3d9dab9fc28dd79255c00d404",
+                    "path": "probe-0002.html",
+                    "quote": "Bag code XT7 is for sculpture."
+                  }
+                ]
+              }
+            ],
+            "unresolved": false,
+            "negative_spans": [],
+            "unresolved_spans": [],
+            "graph": {
+              "version": "source-relation-graph-v2",
+              "nodes": [
+                {
+                  "id": "q",
+                  "kind": "question",
+                  "text": "what is bag code xt7 for"
+                },
+                {
+                  "id": "p",
+                  "kind": "predicate",
+                  "text": "code_purpose"
+                },
+                {
+                  "id": "s",
+                  "kind": "entity",
+                  "text": "xt7"
+                },
+                {
+                  "id": "doc",
+                  "kind": "source",
+                  "record_id": "PROBE-0002",
+                  "hash": "sha256:ff87388b7a664084fe9ad777696fd71123a197c3d9dab9fc28dd79255c00d404",
+                  "path": "probe-0002.html"
+                },
+                {
+                  "id": "fact:0",
+                  "kind": "statement",
+                  "quote": "Bag code XT7 is for sculpture.",
+                  "polarity": "positive"
+                },
+                {
+                  "id": "value:0",
+                  "kind": "value",
+                  "text": "sculpture"
+                }
+              ],
+              "edges": [
+                {
+                  "from": "q",
+                  "to": "p",
+                  "type": "asks"
+                },
+                {
+                  "from": "p",
+                  "to": "s",
+                  "type": "targets"
+                },
+                {
+                  "from": "doc",
+                  "to": "fact:0",
+                  "type": "declares"
+                },
+                {
+                  "from": "fact:0",
+                  "to": "p",
+                  "type": "asserts_relation"
+                },
+                {
+                  "from": "fact:0",
+                  "to": "s",
+                  "type": "asserts_subject"
+                },
+                {
+                  "from": "fact:0",
+                  "to": "value:0",
+                  "type": "supplies_value"
+                }
+              ],
+              "proof_kind": "exact_source_statement",
+              "independent_sources_verified": false,
+              "world_verified": false,
+              "execution_verified": false,
+              "multi_hop_inference": false
+            },
+            "reason": "Exact source-declared relation path; source truth and procedure execution not verified.",
+            "assertions": [
+              {
+                "subject": "xt7",
+                "relation": "code_purpose",
+                "value": "sculpture",
+                "polarity": "positive",
+                "qualification": "",
+                "source_id": "PROBE-0002",
+                "source_hash": "sha256:ff87388b7a664084fe9ad777696fd71123a197c3d9dab9fc28dd79255c00d404",
+                "path": "probe-0002.html",
+                "quote": "Bag code XT7 is for sculpture."
+              }
+            ],
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            }
+          },
+          "answer_contract": {
+            "schema": "answer-contract-v1",
+            "mode": "strict",
+            "question": "What is bag code XT7 for?",
+            "kind": "supported_answer",
+            "answer_supported": true,
+            "text": "Bag code XT7 is for sculpture.",
+            "claims": [
+              {
+                "text": "Bag code XT7 is for sculpture.",
+                "qualifiers": [],
+                "citations": [
+                  {
+                    "passage": "sha256:9c8b431eba04e90a0edfddc5b078a5b26fadf29bc83e08f40b5cd3b20f0778fd",
+                    "start": 0,
+                    "end": 30,
+                    "quote": "Bag code XT7 is for sculpture.",
+                    "source_id": "PROBE-0002",
+                    "path": "probe-0002.html",
+                    "hash": "sha256:ff87388b7a664084fe9ad777696fd71123a197c3d9dab9fc28dd79255c00d404",
+                    "body_start": 0,
+                    "body_end": 30
+                  }
+                ]
+              }
+            ],
+            "missing": [],
+            "clarification": "",
+            "confidence": null,
+            "confidence_calibrated": false,
+            "sources": [
+              {
+                "id": "PROBE-0002",
+                "path": "probe-0002.html",
+                "hash": "sha256:ff87388b7a664084fe9ad777696fd71123a197c3d9dab9fc28dd79255c00d404"
+              }
+            ],
+            "retrieval": {},
+            "verification": {
+              "structural": true,
+              "semantic": "bounded_deterministic_grammar",
+              "truth_verified": false,
+              "independence_verified": false
+            },
+            "reader": null,
+            "trace": [],
+            "diagnostic": {
+              "code": "supported",
+              "stage": "strict",
+              "message": "Explicit source statements satisfy the existing bounded grammar.",
+              "category": "source_support_established",
+              "corpus_answerability": "not_established",
+              "next_steps": [
+                "Open the cited source and check its conditions and revision."
+              ]
+            },
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            },
+            "source_assurance": {
+              "basis": "source_attributed_only",
+              "outside_world_confirmation_required": true,
+              "outside_world_truth": "not_established",
+              "authorship_authenticated": false,
+              "independence_verified": false,
+              "declared_evidence_root_count": 1,
+              "single_declared_root": true,
+              "notice": "Source support establishes what eligible ledger pages state. Outside-world confirmation is required before treating those statements as historical truth. MPLPB cannot detect a coherent false original without contrary evidence, authenticate arbitrary testimony, or establish general historical reconstruction from source integrity alone."
+            }
+          },
+          "answer_diagnostics": {
+            "code": "supported",
+            "stage": "strict",
+            "message": "Explicit source statements satisfy the existing bounded grammar.",
+            "category": "source_support_established",
+            "corpus_answerability": "not_established",
+            "next_steps": [
+              "Open the cited source and check its conditions and revision."
+            ]
+          },
+          "answer_supported": true
+        },
+        "stderr_excerpt": "",
+        "returncode": 0
+      },
+      "metadata_note": "Raw repo_pin is the historical function constant, not the checkout evaluated here. HEAD is independently verified at freeze."
+    },
+    {
+      "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "fixture_original_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "case": "SH04",
+      "status": "PASS_CONTRACT",
+      "frozen_function_output": {
+        "arm": "MPLPB",
+        "case_id": "SH04",
+        "repo_pin": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "PASS_CONTRACT",
+        "observed_decision": "CONFLICT",
+        "expected_decision": "CONFLICT",
+        "elapsed_seconds": 0.277672,
+        "source_id_map": {
+          "S1": "PROBE-0001",
+          "S2": "PROBE-0002"
+        },
+        "native_reply": {
+          "kind": "ambiguous",
+          "question": "What is bag code XT7 for?",
+          "profile": "internal",
+          "root": "/tmp/btests-paired-nqknggs_",
+          "reason": "Conflicting or multiple eligible supporting source statements.",
+          "id": null,
+          "path": null,
+          "hash": null,
+          "depth": null,
+          "text": "",
+          "candidates": [],
+          "known": [
+            "bag",
+            "code",
+            "xt7"
+          ],
+          "unknown": [],
+          "matched_on": "prose",
+          "withheld": [],
+          "set_aside": [],
+          "quarantined": 0,
+          "route": [],
+          "answer_support": {
+            "status": "conflict",
+            "version": "source-relation-graph-v2",
+            "frame": {
+              "relation": "code_purpose",
+              "entity": "xt7",
+              "canonical": "what is bag code xt7 for",
+              "other": "",
+              "version": "source-relation-graph-v2",
+              "general_entailment": false,
+              "graph_type": "source_body_only",
+              "world_verified": false,
+              "execution_verified": false,
+              "inference_permitted": false,
+              "qualified_quote_required": true
+            },
+            "spans": [],
+            "candidate_checks": [
+              {
+                "id": "PROBE-0001",
+                "hash": "sha256:86876c8ce57c9229d31225ecda0d8b80750514ff68c941065db643c3a09b1398",
+                "status": "supported",
+                "spans": [
+                  {
+                    "quote": "Bag code XT7 is for sculpture.",
+                    "value": "sculpture",
+                    "qualification": "",
+                    "polarity": "positive"
+                  }
+                ],
+                "negative_spans": [],
+                "unresolved_spans": [],
+                "assertions": [
+                  {
+                    "subject": "xt7",
+                    "relation": "code_purpose",
+                    "value": "sculpture",
+                    "polarity": "positive",
+                    "qualification": "",
+                    "source_id": "PROBE-0001",
+                    "source_hash": "sha256:86876c8ce57c9229d31225ecda0d8b80750514ff68c941065db643c3a09b1398",
+                    "path": "probe-0001.html",
+                    "quote": "Bag code XT7 is for sculpture."
+                  }
+                ]
+              },
+              {
+                "id": "PROBE-0002",
+                "hash": "sha256:1a4c09c724792abb91e06c814bddabe31cac993a1881d0416d5c5f971462e744",
+                "status": "supported",
+                "spans": [
+                  {
+                    "quote": "Bag code XT7 is for tiles.",
+                    "value": "tiles",
+                    "qualification": "",
+                    "polarity": "positive"
+                  }
+                ],
+                "negative_spans": [],
+                "unresolved_spans": [],
+                "assertions": [
+                  {
+                    "subject": "xt7",
+                    "relation": "code_purpose",
+                    "value": "tiles",
+                    "polarity": "positive",
+                    "qualification": "",
+                    "source_id": "PROBE-0002",
+                    "source_hash": "sha256:1a4c09c724792abb91e06c814bddabe31cac993a1881d0416d5c5f971462e744",
+                    "path": "probe-0002.html",
+                    "quote": "Bag code XT7 is for tiles."
+                  }
+                ]
+              }
+            ],
+            "unresolved": false,
+            "reason": "Conflicting or multiple eligible supporting source statements.",
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            }
+          },
+          "answer_contract": {
+            "schema": "answer-contract-v1",
+            "mode": "strict",
+            "question": "What is bag code XT7 for?",
+            "kind": "conflict",
+            "answer_supported": false,
+            "text": "",
+            "claims": [],
+            "missing": [],
+            "clarification": "",
+            "confidence": null,
+            "confidence_calibrated": false,
+            "sources": [],
+            "retrieval": {},
+            "verification": {
+              "structural": false,
+              "semantic": "not_run",
+              "truth_verified": false,
+              "independence_verified": false
+            },
+            "reader": null,
+            "trace": [],
+            "diagnostic": {
+              "code": "conflicting_or_multiple_owners",
+              "stage": "strict",
+              "message": "Conflicting or multiple eligible supporting source statements.",
+              "category": "known_source_conflict",
+              "corpus_answerability": "not_established",
+              "next_steps": [
+                "Inspect the competing sources; specify the intended subject or resolve the disagreement by a source revision."
+              ]
+            },
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            },
+            "source_assurance": {
+              "basis": "source_attributed_only",
+              "outside_world_confirmation_required": true,
+              "outside_world_truth": "not_established",
+              "authorship_authenticated": false,
+              "independence_verified": false,
+              "declared_evidence_root_count": null,
+              "single_declared_root": null,
+              "notice": "Source support establishes what eligible ledger pages state. Outside-world confirmation is required before treating those statements as historical truth. MPLPB cannot detect a coherent false original without contrary evidence, authenticate arbitrary testimony, or establish general historical reconstruction from source integrity alone."
+            }
+          },
+          "answer_diagnostics": {
+            "code": "conflicting_or_multiple_owners",
+            "stage": "strict",
+            "message": "Conflicting or multiple eligible supporting source statements.",
+            "category": "known_source_conflict",
+            "corpus_answerability": "not_established",
+            "next_steps": [
+              "Inspect the competing sources; specify the intended subject or resolve the disagreement by a source revision."
+            ]
+          },
+          "answer_supported": false
+        },
+        "stderr_excerpt": "",
+        "returncode": 2
+      },
+      "metadata_note": "Raw repo_pin is the historical function constant, not the checkout evaluated here. HEAD is independently verified at freeze."
+    },
+    {
+      "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "fixture_original_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "case": "SH05",
+      "status": "PASS_CONTRACT",
+      "frozen_function_output": {
+        "arm": "MPLPB",
+        "case_id": "SH05",
+        "repo_pin": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "PASS_CONTRACT",
+        "observed_decision": "CONFLICT",
+        "expected_decision": "CONFLICT",
+        "elapsed_seconds": 0.303829,
+        "source_id_map": {
+          "S1": "PROBE-0001",
+          "S2": "PROBE-0002"
+        },
+        "native_reply": {
+          "kind": "ambiguous",
+          "question": "What is bag code XT7 for?",
+          "profile": "internal",
+          "root": "/tmp/btests-paired-pq24y2yz",
+          "reason": "Conflicting or multiple eligible supporting source statements.",
+          "id": null,
+          "path": null,
+          "hash": null,
+          "depth": null,
+          "text": "",
+          "candidates": [],
+          "known": [
+            "bag",
+            "code",
+            "xt7"
+          ],
+          "unknown": [],
+          "matched_on": "prose",
+          "withheld": [],
+          "set_aside": [],
+          "quarantined": 0,
+          "route": [],
+          "answer_support": {
+            "status": "conflict",
+            "version": "source-relation-graph-v2",
+            "frame": {
+              "relation": "code_purpose",
+              "entity": "xt7",
+              "canonical": "what is bag code xt7 for",
+              "other": "",
+              "version": "source-relation-graph-v2",
+              "general_entailment": false,
+              "graph_type": "source_body_only",
+              "world_verified": false,
+              "execution_verified": false,
+              "inference_permitted": false,
+              "qualified_quote_required": true
+            },
+            "spans": [],
+            "candidate_checks": [
+              {
+                "id": "PROBE-0001",
+                "hash": "sha256:86876c8ce57c9229d31225ecda0d8b80750514ff68c941065db643c3a09b1398",
+                "status": "supported",
+                "spans": [
+                  {
+                    "quote": "Bag code XT7 is for sculpture.",
+                    "value": "sculpture",
+                    "qualification": "",
+                    "polarity": "positive"
+                  }
+                ],
+                "negative_spans": [],
+                "unresolved_spans": [],
+                "assertions": [
+                  {
+                    "subject": "xt7",
+                    "relation": "code_purpose",
+                    "value": "sculpture",
+                    "polarity": "positive",
+                    "qualification": "",
+                    "source_id": "PROBE-0001",
+                    "source_hash": "sha256:86876c8ce57c9229d31225ecda0d8b80750514ff68c941065db643c3a09b1398",
+                    "path": "probe-0001.html",
+                    "quote": "Bag code XT7 is for sculpture."
+                  }
+                ]
+              },
+              {
+                "id": "PROBE-0002",
+                "hash": "sha256:ff87388b7a664084fe9ad777696fd71123a197c3d9dab9fc28dd79255c00d404",
+                "status": "supported",
+                "spans": [
+                  {
+                    "quote": "Bag code XT7 is for sculpture.",
+                    "value": "sculpture",
+                    "qualification": "",
+                    "polarity": "positive"
+                  }
+                ],
+                "negative_spans": [],
+                "unresolved_spans": [],
+                "assertions": [
+                  {
+                    "subject": "xt7",
+                    "relation": "code_purpose",
+                    "value": "sculpture",
+                    "polarity": "positive",
+                    "qualification": "",
+                    "source_id": "PROBE-0002",
+                    "source_hash": "sha256:ff87388b7a664084fe9ad777696fd71123a197c3d9dab9fc28dd79255c00d404",
+                    "path": "probe-0002.html",
+                    "quote": "Bag code XT7 is for sculpture."
+                  }
+                ]
+              }
+            ],
+            "unresolved": false,
+            "reason": "Conflicting or multiple eligible supporting source statements.",
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            }
+          },
+          "answer_contract": {
+            "schema": "answer-contract-v1",
+            "mode": "strict",
+            "question": "What is bag code XT7 for?",
+            "kind": "conflict",
+            "answer_supported": false,
+            "text": "",
+            "claims": [],
+            "missing": [],
+            "clarification": "",
+            "confidence": null,
+            "confidence_calibrated": false,
+            "sources": [],
+            "retrieval": {},
+            "verification": {
+              "structural": false,
+              "semantic": "not_run",
+              "truth_verified": false,
+              "independence_verified": false
+            },
+            "reader": null,
+            "trace": [],
+            "diagnostic": {
+              "code": "conflicting_or_multiple_owners",
+              "stage": "strict",
+              "message": "Conflicting or multiple eligible supporting source statements.",
+              "category": "known_source_conflict",
+              "corpus_answerability": "not_established",
+              "next_steps": [
+                "Inspect the competing sources; specify the intended subject or resolve the disagreement by a source revision."
+              ]
+            },
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            },
+            "source_assurance": {
+              "basis": "source_attributed_only",
+              "outside_world_confirmation_required": true,
+              "outside_world_truth": "not_established",
+              "authorship_authenticated": false,
+              "independence_verified": false,
+              "declared_evidence_root_count": null,
+              "single_declared_root": null,
+              "notice": "Source support establishes what eligible ledger pages state. Outside-world confirmation is required before treating those statements as historical truth. MPLPB cannot detect a coherent false original without contrary evidence, authenticate arbitrary testimony, or establish general historical reconstruction from source integrity alone."
+            }
+          },
+          "answer_diagnostics": {
+            "code": "conflicting_or_multiple_owners",
+            "stage": "strict",
+            "message": "Conflicting or multiple eligible supporting source statements.",
+            "category": "known_source_conflict",
+            "corpus_answerability": "not_established",
+            "next_steps": [
+              "Inspect the competing sources; specify the intended subject or resolve the disagreement by a source revision."
+            ]
+          },
+          "answer_supported": false
+        },
+        "stderr_excerpt": "",
+        "returncode": 2
+      },
+      "metadata_note": "Raw repo_pin is the historical function constant, not the checkout evaluated here. HEAD is independently verified at freeze."
+    },
+    {
+      "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "fixture_original_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "case": "SH06",
+      "status": "PASS_CONTRACT",
+      "frozen_function_output": {
+        "arm": "MPLPB",
+        "case_id": "SH06",
+        "repo_pin": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "PASS_CONTRACT",
+        "observed_decision": "REFUSE",
+        "expected_decision": "REFUSE",
+        "elapsed_seconds": 0.262655,
+        "source_id_map": {
+          "S1": "PROBE-0001"
+        },
+        "native_reply": {
+          "kind": "not_in_corpus",
+          "question": "What is bag code XT7 for?",
+          "profile": "internal",
+          "root": "/tmp/btests-paired-8y4tpr91",
+          "reason": "No eligible body statement supports the complete literal question.",
+          "id": null,
+          "path": null,
+          "hash": null,
+          "depth": null,
+          "text": "",
+          "candidates": [],
+          "known": [],
+          "unknown": [
+            "bag",
+            "code",
+            "xt7"
+          ],
+          "matched_on": "",
+          "withheld": [],
+          "set_aside": [],
+          "quarantined": 0,
+          "route": [],
+          "answer_support": {
+            "status": "unsupported",
+            "version": "source-relation-graph-v2",
+            "frame": {
+              "relation": "code_purpose",
+              "entity": "xt7",
+              "canonical": "what is bag code xt7 for",
+              "other": "",
+              "version": "source-relation-graph-v2",
+              "general_entailment": false,
+              "graph_type": "source_body_only",
+              "world_verified": false,
+              "execution_verified": false,
+              "inference_permitted": false,
+              "qualified_quote_required": true
+            },
+            "spans": [],
+            "candidate_checks": [],
+            "unresolved": false,
+            "reason": "No eligible body statement supports the complete literal question.",
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            }
+          },
+          "answer_contract": {
+            "schema": "answer-contract-v1",
+            "mode": "strict",
+            "question": "What is bag code XT7 for?",
+            "kind": "abstain",
+            "answer_supported": false,
+            "text": "",
+            "claims": [],
+            "missing": [],
+            "clarification": "",
+            "confidence": null,
+            "confidence_calibrated": false,
+            "sources": [],
+            "retrieval": {
+              "eligible_pages": 0,
+              "total_passages": 0,
+              "passages": [],
+              "sources": [],
+              "search_complete": false,
+              "corpus_snapshot": "sha256:87d8385a949dedda613dfbd89d1f3a7b511e7615b389419293d0969468a6ec9a",
+              "ranking": "not_run"
+            },
+            "verification": {
+              "structural": false,
+              "semantic": "not_run",
+              "truth_verified": false,
+              "independence_verified": false
+            },
+            "reader": null,
+            "trace": [],
+            "diagnostic": {
+              "code": "restricted_or_unavailable",
+              "stage": "eligibility",
+              "message": "No eligible body passages are available under this question and profile; corpus absence is not established.",
+              "category": "absent_eligible_source",
+              "corpus_answerability": "not_established",
+              "next_steps": [
+                "Check source integrity and delivery restrictions; restore or revise the source through the normal workflow, then ask again."
+              ]
+            },
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            },
+            "source_assurance": {
+              "basis": "source_attributed_only",
+              "outside_world_confirmation_required": true,
+              "outside_world_truth": "not_established",
+              "authorship_authenticated": false,
+              "independence_verified": false,
+              "declared_evidence_root_count": null,
+              "single_declared_root": null,
+              "notice": "Source support establishes what eligible ledger pages state. Outside-world confirmation is required before treating those statements as historical truth. MPLPB cannot detect a coherent false original without contrary evidence, authenticate arbitrary testimony, or establish general historical reconstruction from source integrity alone."
+            }
+          },
+          "answer_diagnostics": {
+            "code": "restricted_or_unavailable",
+            "stage": "eligibility",
+            "message": "No eligible body passages are available under this question and profile; corpus absence is not established.",
+            "category": "absent_eligible_source",
+            "corpus_answerability": "not_established",
+            "next_steps": [
+              "Check source integrity and delivery restrictions; restore or revise the source through the normal workflow, then ask again."
+            ]
+          },
+          "answer_supported": false
+        },
+        "stderr_excerpt": "",
+        "returncode": 3
+      },
+      "metadata_note": "Raw repo_pin is the historical function constant, not the checkout evaluated here. HEAD is independently verified at freeze."
+    },
+    {
+      "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "fixture_original_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "case": "SH07",
+      "status": "PASS_CONTRACT",
+      "frozen_function_output": {
+        "arm": "MPLPB",
+        "case_id": "SH07",
+        "repo_pin": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "PASS_CONTRACT",
+        "observed_decision": "REFUSE",
+        "expected_decision": "REFUSE",
+        "elapsed_seconds": 0.216991,
+        "source_id_map": {
+          "S1": "PROBE-0001"
+        },
+        "native_reply": {
+          "kind": "not_in_corpus",
+          "question": "What is bag code XT7 for?",
+          "profile": "internal",
+          "root": "/tmp/btests-paired-8g1is96r",
+          "reason": "No eligible body statement supports the complete literal question.",
+          "id": null,
+          "path": null,
+          "hash": null,
+          "depth": null,
+          "text": "",
+          "candidates": [],
+          "known": [],
+          "unknown": [
+            "bag",
+            "code",
+            "xt7"
+          ],
+          "matched_on": "",
+          "withheld": [],
+          "set_aside": [],
+          "quarantined": 1,
+          "route": [],
+          "answer_support": {
+            "status": "unsupported",
+            "version": "source-relation-graph-v2",
+            "frame": {
+              "relation": "code_purpose",
+              "entity": "xt7",
+              "canonical": "what is bag code xt7 for",
+              "other": "",
+              "version": "source-relation-graph-v2",
+              "general_entailment": false,
+              "graph_type": "source_body_only",
+              "world_verified": false,
+              "execution_verified": false,
+              "inference_permitted": false,
+              "qualified_quote_required": true
+            },
+            "spans": [],
+            "candidate_checks": [],
+            "unresolved": false,
+            "reason": "No eligible body statement supports the complete literal question.",
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            }
+          },
+          "answer_contract": {
+            "schema": "answer-contract-v1",
+            "mode": "strict",
+            "question": "What is bag code XT7 for?",
+            "kind": "abstain",
+            "answer_supported": false,
+            "text": "",
+            "claims": [],
+            "missing": [],
+            "clarification": "",
+            "confidence": null,
+            "confidence_calibrated": false,
+            "sources": [],
+            "retrieval": {
+              "eligible_pages": 0,
+              "total_passages": 0,
+              "passages": [],
+              "sources": [],
+              "search_complete": false,
+              "corpus_snapshot": "sha256:9e626bfbda7300f338a1e41adb15d7c7ebecdf9b2b617f3d9b5f347fa30e27f7",
+              "ranking": "not_run"
+            },
+            "verification": {
+              "structural": false,
+              "semantic": "not_run",
+              "truth_verified": false,
+              "independence_verified": false
+            },
+            "reader": null,
+            "trace": [],
+            "diagnostic": {
+              "code": "restricted_or_unavailable",
+              "stage": "eligibility",
+              "message": "No eligible body passages are available under this question and profile; corpus absence is not established.",
+              "category": "absent_eligible_source",
+              "corpus_answerability": "not_established",
+              "next_steps": [
+                "Check source integrity and delivery restrictions; restore or revise the source through the normal workflow, then ask again."
+              ]
+            },
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            },
+            "source_assurance": {
+              "basis": "source_attributed_only",
+              "outside_world_confirmation_required": true,
+              "outside_world_truth": "not_established",
+              "authorship_authenticated": false,
+              "independence_verified": false,
+              "declared_evidence_root_count": null,
+              "single_declared_root": null,
+              "notice": "Source support establishes what eligible ledger pages state. Outside-world confirmation is required before treating those statements as historical truth. MPLPB cannot detect a coherent false original without contrary evidence, authenticate arbitrary testimony, or establish general historical reconstruction from source integrity alone."
+            }
+          },
+          "answer_diagnostics": {
+            "code": "restricted_or_unavailable",
+            "stage": "eligibility",
+            "message": "No eligible body passages are available under this question and profile; corpus absence is not established.",
+            "category": "absent_eligible_source",
+            "corpus_answerability": "not_established",
+            "next_steps": [
+              "Check source integrity and delivery restrictions; restore or revise the source through the normal workflow, then ask again."
+            ]
+          },
+          "answer_supported": false
+        },
+        "stderr_excerpt": "",
+        "returncode": 3
+      },
+      "metadata_note": "Raw repo_pin is the historical function constant, not the checkout evaluated here. HEAD is independently verified at freeze."
+    },
+    {
+      "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "fixture_original_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "case": "SH08",
+      "status": "PASS_CONTRACT",
+      "frozen_function_output": {
+        "arm": "MPLPB",
+        "case_id": "SH08",
+        "repo_pin": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "PASS_CONTRACT",
+        "observed_decision": "REFUSE",
+        "expected_decision": "REFUSE",
+        "elapsed_seconds": 0.252261,
+        "source_id_map": {
+          "S1": "PROBE-0001"
+        },
+        "native_reply": {
+          "kind": "not_in_corpus",
+          "question": "What causes crawling?",
+          "profile": "internal",
+          "root": "/tmp/btests-paired-lza9117a",
+          "reason": "No eligible body statement supports the complete literal question.",
+          "id": null,
+          "path": null,
+          "hash": null,
+          "depth": null,
+          "text": "",
+          "candidates": [],
+          "known": [
+            "crawling"
+          ],
+          "unknown": [
+            "causes"
+          ],
+          "matched_on": "",
+          "withheld": [],
+          "set_aside": [],
+          "quarantined": 0,
+          "route": [],
+          "answer_support": {
+            "status": "unsupported",
+            "version": "source-relation-graph-v2",
+            "frame": {
+              "relation": "cause",
+              "entity": "crawling",
+              "canonical": "what causes crawling",
+              "other": "",
+              "version": "source-relation-graph-v2",
+              "general_entailment": false,
+              "graph_type": "source_body_only",
+              "world_verified": false,
+              "execution_verified": false,
+              "inference_permitted": false,
+              "qualified_quote_required": true
+            },
+            "spans": [],
+            "candidate_checks": [
+              {
+                "id": "PROBE-0001",
+                "hash": "sha256:56adc89b15072b1707e24a65da60467770c5ebf7e04c9a29908d8c008f4ec0ff",
+                "status": "unsupported",
+                "spans": [],
+                "negative_spans": [],
+                "unresolved_spans": [],
+                "assertions": []
+              }
+            ],
+            "unresolved": false,
+            "reason": "No eligible body statement supports the complete literal question.",
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            }
+          },
+          "answer_contract": {
+            "schema": "answer-contract-v1",
+            "mode": "strict",
+            "question": "What causes crawling?",
+            "kind": "abstain",
+            "answer_supported": false,
+            "text": "",
+            "claims": [],
+            "missing": [],
+            "clarification": "",
+            "confidence": null,
+            "confidence_calibrated": false,
+            "sources": [],
+            "retrieval": {
+              "eligible_pages": 1,
+              "total_passages": 1,
+              "passages": [],
+              "sources": [],
+              "search_complete": false,
+              "corpus_snapshot": "sha256:e54664a76c7c8edc67ed9d206d5682ccd8435541c6788d0b34a87c739c68d07d",
+              "ranking": "not_run"
+            },
+            "verification": {
+              "structural": false,
+              "semantic": "not_run",
+              "truth_verified": false,
+              "independence_verified": false
+            },
+            "reader": null,
+            "trace": [],
+            "diagnostic": {
+              "code": "evidence_not_established",
+              "stage": "strict",
+              "message": "Eligible passages exist, but the strict reader cannot establish an answer to this question.",
+              "category": "insufficient_evidence",
+              "corpus_answerability": "not_established",
+              "next_steps": [
+                "Inspect the relevant source. Try a supported question form or explicitly select a configured assisted reader; do not treat this refusal as proof that the answer is absent."
+              ]
+            },
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            },
+            "source_assurance": {
+              "basis": "source_attributed_only",
+              "outside_world_confirmation_required": true,
+              "outside_world_truth": "not_established",
+              "authorship_authenticated": false,
+              "independence_verified": false,
+              "declared_evidence_root_count": null,
+              "single_declared_root": null,
+              "notice": "Source support establishes what eligible ledger pages state. Outside-world confirmation is required before treating those statements as historical truth. MPLPB cannot detect a coherent false original without contrary evidence, authenticate arbitrary testimony, or establish general historical reconstruction from source integrity alone."
+            }
+          },
+          "answer_diagnostics": {
+            "code": "evidence_not_established",
+            "stage": "strict",
+            "message": "Eligible passages exist, but the strict reader cannot establish an answer to this question.",
+            "category": "insufficient_evidence",
+            "corpus_answerability": "not_established",
+            "next_steps": [
+              "Inspect the relevant source. Try a supported question form or explicitly select a configured assisted reader; do not treat this refusal as proof that the answer is absent."
+            ]
+          },
+          "answer_supported": false
+        },
+        "stderr_excerpt": "",
+        "returncode": 3
+      },
+      "metadata_note": "Raw repo_pin is the historical function constant, not the checkout evaluated here. HEAD is independently verified at freeze."
+    },
+    {
+      "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "fixture_original_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "case": "SH09",
+      "status": "PASS_CONTRACT",
+      "frozen_function_output": {
+        "arm": "MPLPB",
+        "case_id": "SH09",
+        "repo_pin": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "PASS_CONTRACT",
+        "observed_decision": "ANSWER",
+        "expected_decision": "ANSWER",
+        "elapsed_seconds": 0.24377,
+        "source_id_map": {
+          "S1": "PROBE-0001"
+        },
+        "native_reply": {
+          "kind": "return",
+          "question": "What does sample transfer require?",
+          "profile": "internal",
+          "root": "/tmp/btests-paired-l3uhgynx",
+          "reason": "Complete source-declared policy sentence; conditions and exceptions retained. Source truth, sufficiency and execution are not verified.",
+          "id": "PROBE-0001",
+          "path": "probe-0001.html",
+          "hash": "sha256:be862cf1cc1b4d2d5363308151a1524b2fc25819885a7d3d8c226ed8eb6d77a5",
+          "depth": 0,
+          "text": "Sample transfer requires signed approval before release.",
+          "candidates": [],
+          "known": [
+            "require",
+            "sample",
+            "transfer"
+          ],
+          "unknown": [],
+          "matched_on": "literal body statement",
+          "withheld": [],
+          "set_aside": [],
+          "quarantined": 0,
+          "route": [],
+          "answer_support": {
+            "status": "supported",
+            "version": "source-policy-v1",
+            "frame": {
+              "relation": "requirements",
+              "entity": "sample transfer",
+              "canonical": "what does sample transfer require",
+              "other": "",
+              "version": "source-policy-v1",
+              "general_entailment": false,
+              "authority": "source_declared_policy",
+              "execution_verified": false,
+              "sufficient_conditions_proved": false
+            },
+            "spans": [
+              {
+                "quote": "Sample transfer requires signed approval before release.",
+                "value": "sample transfer requires signed approval before release"
+              }
+            ],
+            "candidate_checks": [
+              {
+                "id": "PROBE-0001",
+                "hash": "sha256:be862cf1cc1b4d2d5363308151a1524b2fc25819885a7d3d8c226ed8eb6d77a5",
+                "status": "supported",
+                "spans": [
+                  {
+                    "quote": "Sample transfer requires signed approval before release.",
+                    "value": "sample transfer requires signed approval before release"
+                  }
+                ],
+                "negative_spans": [],
+                "unresolved_spans": [],
+                "assertions": [
+                  {
+                    "subject": "sample transfer",
+                    "relation": "requirements",
+                    "value": "sample transfer requires signed approval before release",
+                    "polarity": "positive",
+                    "qualification": "",
+                    "source_id": "PROBE-0001",
+                    "source_hash": "sha256:be862cf1cc1b4d2d5363308151a1524b2fc25819885a7d3d8c226ed8eb6d77a5",
+                    "path": "probe-0001.html",
+                    "quote": "Sample transfer requires signed approval before release."
+                  }
+                ]
+              }
+            ],
+            "unresolved": false,
+            "policy_denial": false,
+            "reason": "Complete source-declared policy sentence; conditions and exceptions retained. Source truth, sufficiency and execution are not verified.",
+            "assertions": [
+              {
+                "subject": "sample transfer",
+                "relation": "requirements",
+                "value": "sample transfer requires signed approval before release",
+                "polarity": "positive",
+                "qualification": "",
+                "source_id": "PROBE-0001",
+                "source_hash": "sha256:be862cf1cc1b4d2d5363308151a1524b2fc25819885a7d3d8c226ed8eb6d77a5",
+                "path": "probe-0001.html",
+                "quote": "Sample transfer requires signed approval before release."
+              }
+            ],
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            }
+          },
+          "answer_contract": {
+            "schema": "answer-contract-v1",
+            "mode": "strict",
+            "question": "What does sample transfer require?",
+            "kind": "supported_answer",
+            "answer_supported": true,
+            "text": "Sample transfer requires signed approval before release.",
+            "claims": [
+              {
+                "text": "Sample transfer requires signed approval before release.",
+                "qualifiers": [],
+                "citations": [
+                  {
+                    "passage": "sha256:3fb7f9c49ca009a5468deac85e3571fea18c836bec392411ff2df10bad6bd4ef",
+                    "start": 0,
+                    "end": 56,
+                    "quote": "Sample transfer requires signed approval before release.",
+                    "source_id": "PROBE-0001",
+                    "path": "probe-0001.html",
+                    "hash": "sha256:be862cf1cc1b4d2d5363308151a1524b2fc25819885a7d3d8c226ed8eb6d77a5",
+                    "body_start": 0,
+                    "body_end": 56
+                  }
+                ]
+              }
+            ],
+            "missing": [],
+            "clarification": "",
+            "confidence": null,
+            "confidence_calibrated": false,
+            "sources": [
+              {
+                "id": "PROBE-0001",
+                "path": "probe-0001.html",
+                "hash": "sha256:be862cf1cc1b4d2d5363308151a1524b2fc25819885a7d3d8c226ed8eb6d77a5"
+              }
+            ],
+            "retrieval": {},
+            "verification": {
+              "structural": true,
+              "semantic": "bounded_deterministic_grammar",
+              "truth_verified": false,
+              "independence_verified": false
+            },
+            "reader": null,
+            "trace": [],
+            "diagnostic": {
+              "code": "supported",
+              "stage": "strict",
+              "message": "Explicit source statements satisfy the existing bounded grammar.",
+              "category": "source_support_established",
+              "corpus_answerability": "not_established",
+              "next_steps": [
+                "Open the cited source and check its conditions and revision."
+              ]
+            },
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            },
+            "source_assurance": {
+              "basis": "source_attributed_only",
+              "outside_world_confirmation_required": true,
+              "outside_world_truth": "not_established",
+              "authorship_authenticated": false,
+              "independence_verified": false,
+              "declared_evidence_root_count": 1,
+              "single_declared_root": true,
+              "notice": "Source support establishes what eligible ledger pages state. Outside-world confirmation is required before treating those statements as historical truth. MPLPB cannot detect a coherent false original without contrary evidence, authenticate arbitrary testimony, or establish general historical reconstruction from source integrity alone."
+            }
+          },
+          "answer_diagnostics": {
+            "code": "supported",
+            "stage": "strict",
+            "message": "Explicit source statements satisfy the existing bounded grammar.",
+            "category": "source_support_established",
+            "corpus_answerability": "not_established",
+            "next_steps": [
+              "Open the cited source and check its conditions and revision."
+            ]
+          },
+          "answer_supported": true
+        },
+        "stderr_excerpt": "",
+        "returncode": 0
+      },
+      "metadata_note": "Raw repo_pin is the historical function constant, not the checkout evaluated here. HEAD is independently verified at freeze."
+    },
+    {
+      "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "fixture_original_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "case": "SH10",
+      "status": "PASS_CONTRACT",
+      "frozen_function_output": {
+        "arm": "MPLPB",
+        "case_id": "SH10",
+        "repo_pin": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "PASS_CONTRACT",
+        "observed_decision": "REFUSE",
+        "expected_decision": "REFUSE",
+        "elapsed_seconds": 0.23596,
+        "source_id_map": {
+          "S1": "PROBE-0001"
+        },
+        "native_reply": {
+          "kind": "not_in_corpus",
+          "question": "What does sample transfer require?",
+          "profile": "internal",
+          "root": "/tmp/btests-paired-vyjyoqpo",
+          "reason": "No eligible body statement supports the complete literal question.",
+          "id": null,
+          "path": null,
+          "hash": null,
+          "depth": null,
+          "text": "",
+          "candidates": [],
+          "known": [
+            "require"
+          ],
+          "unknown": [
+            "sample",
+            "transfer"
+          ],
+          "matched_on": "",
+          "withheld": [],
+          "set_aside": [],
+          "quarantined": 0,
+          "route": [],
+          "answer_support": {
+            "status": "unsupported",
+            "version": "source-policy-v1",
+            "frame": {
+              "relation": "requirements",
+              "entity": "sample transfer",
+              "canonical": "what does sample transfer require",
+              "other": "",
+              "version": "source-policy-v1",
+              "general_entailment": false,
+              "authority": "source_declared_policy",
+              "execution_verified": false,
+              "sufficient_conditions_proved": false
+            },
+            "spans": [],
+            "candidate_checks": [
+              {
+                "id": "PROBE-0001",
+                "hash": "sha256:dd9db9b88093e5339305fe81b2408aab96e8d6d17c855ba02b34fd3dcd897b19",
+                "status": "unsupported",
+                "spans": [],
+                "negative_spans": [],
+                "unresolved_spans": [],
+                "assertions": []
+              }
+            ],
+            "unresolved": false,
+            "reason": "No eligible body statement supports the complete literal question.",
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            }
+          },
+          "answer_contract": {
+            "schema": "answer-contract-v1",
+            "mode": "strict",
+            "question": "What does sample transfer require?",
+            "kind": "abstain",
+            "answer_supported": false,
+            "text": "",
+            "claims": [],
+            "missing": [],
+            "clarification": "",
+            "confidence": null,
+            "confidence_calibrated": false,
+            "sources": [],
+            "retrieval": {
+              "eligible_pages": 1,
+              "total_passages": 1,
+              "passages": [],
+              "sources": [],
+              "search_complete": false,
+              "corpus_snapshot": "sha256:9da694a17f0e2cd8a1a0db1d0e3a9a08e5f2b0939af794d6c6de699de08d148f",
+              "ranking": "not_run"
+            },
+            "verification": {
+              "structural": false,
+              "semantic": "not_run",
+              "truth_verified": false,
+              "independence_verified": false
+            },
+            "reader": null,
+            "trace": [],
+            "diagnostic": {
+              "code": "evidence_not_established",
+              "stage": "strict",
+              "message": "Eligible passages exist, but the strict reader cannot establish an answer to this question.",
+              "category": "insufficient_evidence",
+              "corpus_answerability": "not_established",
+              "next_steps": [
+                "Inspect the relevant source. Try a supported question form or explicitly select a configured assisted reader; do not treat this refusal as proof that the answer is absent."
+              ]
+            },
+            "code_sha256": {
+              "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+              "__main__.py": "c8d020b3c84518c138fbbff10b8da124a039631fae98f1278e0b31560993df6f",
+              "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+              "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+              "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+              "documentary.py": "213493dce1d9fe5c38e743f5abdf41af5aa86a317eae7daf084439a4695990a3",
+              "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+              "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+              "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+              "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+              "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+              "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+              "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+              "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+              "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+              "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+              "pipeline.py": "f5cc0e071322fb5b22f99ed35691b022d42c3b602e10a74b4e0ac100546e005b",
+              "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+              "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+              "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+              "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+              "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+              "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+              "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+            },
+            "source_assurance": {
+              "basis": "source_attributed_only",
+              "outside_world_confirmation_required": true,
+              "outside_world_truth": "not_established",
+              "authorship_authenticated": false,
+              "independence_verified": false,
+              "declared_evidence_root_count": null,
+              "single_declared_root": null,
+              "notice": "Source support establishes what eligible ledger pages state. Outside-world confirmation is required before treating those statements as historical truth. MPLPB cannot detect a coherent false original without contrary evidence, authenticate arbitrary testimony, or establish general historical reconstruction from source integrity alone."
+            }
+          },
+          "answer_diagnostics": {
+            "code": "evidence_not_established",
+            "stage": "strict",
+            "message": "Eligible passages exist, but the strict reader cannot establish an answer to this question.",
+            "category": "insufficient_evidence",
+            "corpus_answerability": "not_established",
+            "next_steps": [
+              "Inspect the relevant source. Try a supported question form or explicitly select a configured assisted reader; do not treat this refusal as proof that the answer is absent."
+            ]
+          },
+          "answer_supported": false
+        },
+        "stderr_excerpt": "",
+        "returncode": 3
+      },
+      "metadata_note": "Raw repo_pin is the historical function constant, not the checkout evaluated here. HEAD is independently verified at freeze."
+    },
+    {
+      "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "fixture_original_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "case": "CAD11",
+      "status": "OUT_OF_SCOPE",
+      "frozen_function_output": {
+        "arm": "MPLPB",
+        "case_id": "CAD11",
+        "repo_pin": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "OUT_OF_SCOPE",
+        "reason": "This is not a declared strict MPLPB query capability"
+      },
+      "metadata_note": "Raw repo_pin is the historical function constant, not the checkout evaluated here. HEAD is independently verified at freeze."
+    },
+    {
+      "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "fixture_original_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "case": "CAD12",
+      "status": "OUT_OF_SCOPE",
+      "frozen_function_output": {
+        "arm": "MPLPB",
+        "case_id": "CAD12",
+        "repo_pin": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "OUT_OF_SCOPE",
+        "reason": "This is not a declared strict MPLPB query capability"
+      },
+      "metadata_note": "Raw repo_pin is the historical function constant, not the checkout evaluated here. HEAD is independently verified at freeze."
+    },
+    {
+      "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "fixture_original_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "case": "CAD13",
+      "status": "OUT_OF_SCOPE",
+      "frozen_function_output": {
+        "arm": "MPLPB",
+        "case_id": "CAD13",
+        "repo_pin": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "OUT_OF_SCOPE",
+        "reason": "This is not a declared strict MPLPB query capability"
+      },
+      "metadata_note": "Raw repo_pin is the historical function constant, not the checkout evaluated here. HEAD is independently verified at freeze."
+    },
+    {
+      "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "fixture_original_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "case": "CAD14",
+      "status": "OUT_OF_SCOPE",
+      "frozen_function_output": {
+        "arm": "MPLPB",
+        "case_id": "CAD14",
+        "repo_pin": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "OUT_OF_SCOPE",
+        "reason": "This is not a declared strict MPLPB query capability"
+      },
+      "metadata_note": "Raw repo_pin is the historical function constant, not the checkout evaluated here. HEAD is independently verified at freeze."
+    },
+    {
+      "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "fixture_original_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "case": "CAD15",
+      "status": "OUT_OF_SCOPE",
+      "frozen_function_output": {
+        "arm": "MPLPB",
+        "case_id": "CAD15",
+        "repo_pin": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "OUT_OF_SCOPE",
+        "reason": "This is not a declared strict MPLPB query capability"
+      },
+      "metadata_note": "Raw repo_pin is the historical function constant, not the checkout evaluated here. HEAD is independently verified at freeze."
+    },
+    {
+      "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+      "fixture_original_revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "case": "CAD16",
+      "status": "OUT_OF_SCOPE",
+      "frozen_function_output": {
+        "arm": "MPLPB",
+        "case_id": "CAD16",
+        "repo_pin": "257e54a51edac272eb6b2441457f38a40485ee4d",
+        "status": "OUT_OF_SCOPE",
+        "reason": "This is not a declared strict MPLPB query capability"
+      },
+      "metadata_note": "Raw repo_pin is the historical function constant, not the checkout evaluated here. HEAD is independently verified at freeze."
+    }
+  ],
+  "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+  "fixture_sha256": "fa69ec17250922cf713363ae641c5ea87f7c4b9f4e06aaaafffcf44c2f110286",
+  "new_condition": true,
+  "model_calls": 0,
+  "CAD": "NOT_RUN: no new real AI adapter configured",
+  "BASELINE": "NOT_RUN: no new real AI adapter configured"
+}

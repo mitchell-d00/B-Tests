@@ -1,0 +1,11 @@
+........................................./opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:946: UserWarning: Tag data larger than file. Skipping tag 34665
+  warnings.warn(f"Tag data larger than file. Skipping tag {tag}")
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:982: UserWarning: Corrupt EXIF data.  Expecting to read 12 bytes but only got 5. 
+  warnings.warn(str(msg))
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:982: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+....................................................
+----------------------------------------------------------------------
+Ran 93 tests in 22.900s
+
+OK

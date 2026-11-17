@@ -1,0 +1,674 @@
+{
+  "revision": "ccbb5804eb47f78c2338d57c142ad087b47be710",
+  "results": [
+    {
+      "query": "What is Continuity in CAD?",
+      "kind": "return",
+      "answer": {
+        "kind": "return",
+        "question": "What is Continuity in CAD?",
+        "profile": "open",
+        "root": "/tmp/current-public-paper-ledger-qqx_76q6",
+        "reason": "exactly one current page owns this question by declared scope",
+        "id": "PAPER-0002",
+        "path": "paper-0002.html",
+        "hash": "sha256:f22ae36fd1aa45d56efc2ef2522de564e8b1412313678fb53df80c5c07289a23",
+        "depth": 0,
+        "text": "CAD Control Grammar Continuity Authority\nCAD Control Grammar Continuity, Authority, Directive: A Plain-Language Control Grammar for AI Work Benjamin Gelhaus Independent Researcher Abstract Long-running AI-assisted work often fails not because the system lacks information, but because the runtime cannot reliably determine what must survive, what governs, and what action is safe now. This paper proposes Continuity, Authority, and Directive (CAD) as a plain-language control grammar for discontinuous AI collaboration. Continuity names what must carry across runtime breaks. Authority distinguishes source, draft, current, historical, blocked, promoted, and off-limits material. Directive constrains the next permissible action. Together, these three terms form a lightweight governance layer that can be attached to project objects, retrieval results, memory traces, receipts, drafts, and handoff notes. The paper argues that CAD is not merely prompt-level guidance. Prompting is the delivery surface; CAD is the structured policy layer carried through that surface. It turns unstructured context extension into structured context extension by giving the runtime a minimal re-entry interface: the current object map, authority state, boundary conditions, weight, and next safe action. Its testable value lies in improved re-entry, source/current distinction, reduced context burden, error diagnosis, safe action selection, and handoff quality. Keywords: AI continuity, human-AI interaction, AI governance, context engineering, runtime orientation, source authority, directive control, AI state management, structured context, recoverable handoff This paper is the third paper in a sequence on AI-facing project structure. Artificial Tangibility (Gelhaus, 2026a) argues that non-embodied AI runtimes benefit from bounded objects that carry usable structure. A companion paper (Gelhaus, 2026b) situates that argument against existing AI state-management patterns, including retrieval-augmented generation, agent memory, and blackboard coordination. The present paper focuses on the control grammar those objects need. Its claim is not that three words can solve all AI governance problems. Its claim is that long-running AI work needs a simple, human-readable way to separate persistence, authority, and action. CAD is proposed as that minimal grammar. 1. The Problem: Fluency Without Governance A language model can sound aligned with a project while being wrong about the state of the project. It may summarize an old draft well. It may continue a rejected route fluently. It may identify a relevant source while misunderstanding whether that source governs the present task. It may produce useful language while crossing a boundary the human assumed was obvious. This failure is not merely a failure of intelligence or effort. It is a failure of governance. The runtime has access to language but not enough declared structure. It can infer meaning locally, yet still misread what must survive, what counts as source, and what action is permitted now. Long-running AI-assisted work therefore needs more than better prompts, more memory, or larger context windows. It needs a control grammar: a small set of durable questions that can travel with the work and constrain how a runtime re- enters it. Continuity, Authority, and Directive are proposed as such a grammar. Each term names a different runtime risk. Continuity protects against loss. Authority protects against confusion. Directive protects against overreach. 2. Context Without Schema A common response to runtime drift is to provide more context. The user may paste more history, attach more files, summarize more background, or ask the model to consider everything. This often helps, but only when the added material is already shaped. Without declared structure, extended context can arrive as an undifferentiated context cloud. The runtime must infer, during generation, which parts are source, which are draft, which are stale, which are private, which are governing, which are background, and which action is allowed. The model is then forced to interpret the task and invent the schema of the workspace at the same time. CAD reverses that burden. It presents context as a structured interface before generation begins. Instead of asking the runtime to sort a pile of language, CAD declares the relevant objects, their authority states, their boundaries, their relations, their weights, and their next safe actions. This is not a stylistic improvement. It is a change in load pattern. The runtime is no longer asked to discover the project map from raw text. It receives the map first. 3. Why Continuity Alone Is Not Enough Continuity asks: what must survive the runtime? In discontinuous AI work, the runtime is not the durable carrier of the project. A session can end, a context window can fill, a tool can fail, a model can change, or a different runtime can enter later. If the project depends on the runtime remembering what happened, the project remains fragile. Continuity externalizes what must carry forward. It preserves active objects, governing sources, unresolved blockers, decisions, open questions, receipts, and next actions. It turns memory from a private session property into a project property. But continuity by itself is not enough. Preserving everything can preserve confusion. A project may contain old drafts, rejected ideas, repaired mistakes, private notes, public claims, speculative language, and current source material. If all of that survives without hierarchy, the next runtime has continuity but no governance. This is why the first term must be paired with the second. Continuity says what survives. Authority says what governs. 4. Authority as the Anti-Confusion Layer Authority asks: what counts as source, current, draft, historical, blocked, promoted, or off-limits? Authority is the anti-confusion layer of AI work. Without it, the runtime may treat polished text as governing simply because it is polished. It may treat repeated language as truth because it appears in several places. It may treat a retrieved document as current because retrieval made it visible. It may treat a completed draft as a public claim because the draft sounds complete. Authority separates existence from permission. A file may exist without governing. A receipt may prove that something happened without making it canonical. A draft may be valuable without being promoted. A source may govern one task but not another. A private constraint may shape reasoning without becoming public language. Authority also protects the human from the re-entry burden. Instead of re-explaining every hierarchy at the start of each session, the project can declare authority states in the objects themselves: current source, historical source, active draft, parked seed, blocked claim, internal note, promoted artifact, or public release. A runtime that knows authority can be corrected more precisely. The human no longer has to say, “That is wrong” in a general way. The human can say: you treated a draft as source, you treated a parked object as active, you promoted without authority, or you used a historical object as current. 5. Directive as the Anti-Overreach Layer Directive asks: what is the next safe action? Even when continuity and authority are clear, a runtime can still act too broadly. It may understand the project and still make an unauthorized move. It may summarize when it should verify, rewrite when it should append, merge when it should compare, publish when it should wait, or continue when access failure requires a stop. Directive reduces the action space. It turns general project understanding into a bounded next move: read first, compare only, summarize the active source, append a receipt, draft the next section, verify authority, stop if access fails, wait for human review, or do not touch this object. The directive is not merely a task instruction. It is a governance device. It tells the runtime how far its permission extends in the present moment. This matters because language models are optimized to continue. In many situations, continuation is useful. In governed work, unbounded continuation can be dangerous. Directive interrupts that momentum and replaces it with accountable movement. 6. CAD as a Minimal Runtime Governance Grammar Continuity, Authority, and Directive work together because they answer three different questions that a discontinuous runtime cannot safely infer on its own. Continuity: what must survive? Authority: what governs? Directive: what is safe now? These questions are deliberately plain. They do not require the runtime to import a complex theory before acting. They can be placed in project notes, handoff files, retrieval metadata, state boards, receipts, source maps, task tickets, or prompt templates. The point is not the format. The point is the separation of functions. When the three functions collapse into one instruction, errors become harder to diagnose. For example, a note that says “continue the paper” may hide multiple assumptions: which version of the paper, under what authority, with what boundaries, using what source, and toward what next action? CAD forces those assumptions into visible fields. The grammar can be attached to any AI-facing object. A source document can declare its continuity role, authority status, and permitted next actions. A draft can declare that it is active but not promoted. A receipt can declare what changed and what should happen next. A retrieval result can be treated as relevant but not governing until authority is checked. 7. Prompt Surface and Control Structure CAD should not be reduced to prompt engineering. Prompting is the visible delivery surface, but CAD is the structured policy layer carried through that surface. The runtime receives natural language, but the operative content is a governance model. A one-off prompt says: do this task. CAD says: this object exists, this object has this status, this source governs, this boundary cannot be crossed, this operation is allowed, this operation is forbidden, and this is the next safe move. In this sense, CAD functions less like ordinary prompting and more like a lightweight policy language for AI-assisted work. It combines the routing logic of directory services, the constraint logic of policy systems, and the accessibility of natural language. Its purpose is to tell a discontinuous runtime what object exists, what authority it carries, where it belongs, and what operation is safe now. The analogy to programming language is bounded but useful. CAD is not a programming language in the conventional compiler or runtime sense. It is a language layer for governing AI work. Like mature programming languages, it expands beyond isolated commands into objects, permissions, scope, state, authority, allowed operations, blocked operations, and error handling. The prompt is therefore not the architecture. The prompt is the carrier. The structure hidden behind the words is what makes the system work. 8. Structuralized Context Extension CAD also changes how extended context is loaded. In many workflows, context extension means placing more history into the runtime’s active window. This can increase available information while also increasing ambiguity, distraction, and stale- state risk. CAD turns context extension into structured context extension. The runtime does not need to reload the whole project. It needs the current object map, authority state, boundary conditions, object weight, and next safe action. This reduces re-entry cost. A future runtime can enter through a minimal interface rather than through an entire unfiltered archive. The active structure points to the materials that matter now and explains how they should be treated. This claim should be evaluated as an operational mechanism rather than a universal benchmark. In practice, structuralized context can allow large, multi-document, multi-runtime projects to remain workable because the system does not ask each runtime to ingest the whole history again. It asks the runtime to load the interface to the project state. The result is a smaller and cleaner context hit: not less project knowledge, but less unstructured project burden. 9. Failure Modes: Lost, Confused, and Mishandled Objects The CAD grammar provides a useful error taxonomy. Without continuity, the runtime loses the object. The work may have happened, but the next session cannot recover it. The human has to reconstruct the room from memory. Without authority, the runtime confuses the object. It may find the object but misunderstand its status. It may treat draft as source, old as current, private as public, parked as active, or rejected as live. Without directive, the runtime mishandles the object. It may understand what the object is and still act beyond permission. It may rewrite when it should read, publish when it should wait, or mutate a source when it should preserve it. This taxonomy makes failure more repairable. Instead of treating AI drift as a vague malfunction, the system can ask: was this a continuity error, an authority error, or a directive error? That question turns confusion into telemetry. 10. Relationship to Prompting, Memory, Retrieval, and Tool Use CAD does not replace prompting. It gives prompting structure. A prompt no longer has to carry the whole project if the objects around the prompt carry continuity, authority, and directive. CAD does not replace memory. It governs what memory means. A remembered or retrieved item may still need an authority state before the runtime acts on it. CAD does not replace retrieval. It controls how retrieved material is handled. Retrieval can surface a candidate object; CAD helps determine whether that object governs, informs, warns, or remains background. CAD does not replace tool use or agent loops. It constrains them. A tool-using agent still needs to know whether the current action is allowed, whether the source can be modified, and whether the next move requires human review. CAD does not replace human-in-the-loop design. It clarifies where the human must remain authoritative. It gives the runtime a visible reason to stop, wait, verify, or ask for review rather than silently converting uncertainty into action. 11. CAD and Artificial Tangibility Artificial Tangibility (Gelhaus, 2026a) names the way bounded objects give non- embodied runtimes operational grip. CAD supplies the governance grammar for those objects. An object without CAD may be named but under-specified. The runtime may know that the object exists without knowing whether it must survive, whether it governs, or what action is safe next. CAD turns the object from a handle into a governable unit of work. The relationship can be stated simply: Artificial Tangibility gives the runtime something to hold. CAD tells the runtime how that object must be preserved, trusted, and acted upon. This is especially important in high-context work involving drafts, sources, private boundaries, public claims, multiple tools, or long handoffs. In such work, the difference between an object and a governed object is the difference between local coherence and recoverable project movement. 12. Evaluation Criteria CAD should be evaluated operationally. It should not be accepted merely because the vocabulary is useful. The first criterion is re-entry quality. A future runtime should enter a project faster and with less human reconstruction when continuity objects are explicit. The second criterion is source-current distinction. The runtime should make fewer errors that come from treating old, draft, or background material as current authority. The third criterion is context burden. The runtime should require less raw history when the project provides a structuralized re-entry interface. The fourth criterion is safe action selection. The runtime should choose narrower and more appropriate actions when directives are explicit. The fifth criterion is error catchability. When the runtime fails, the failure should be easier to classify as continuity, authority, directive, schema, or boundary error. The sixth criterion is handoff quality. A CAD-governed handoff should tell the next runtime what survived, what governs, what is blocked, and what action is safe now. The seventh criterion is human burden. CAD should reduce the amount of repeated explanation required from the human at each new session. These criteria make the paper’s claim testable. If CAD does not improve re-entry, authority distinction, context burden, safe action, error diagnosis, or handoff quality, the grammar should be revised. 13. Boundary Conditions and Limits CAD is not a complete safety system. It does not guarantee factual correctness, prevent all hallucination, enforce access control by itself, or replace formal security infrastructure. It is a governance grammar, not a total architecture. CAD also depends on disciplined use. If continuity objects are stale, authority labels are inaccurate, directives are vague, or the structural interface is not maintained, the grammar can reproduce confusion rather than solve it. The method is most useful where project state matters across sessions: research, writing, analysis, software planning, multi-document review, claim-sensitive work, or human-AI collaboration across multiple tools. For simple one-off tasks, CAD may be unnecessary. A casual rewrite or single-turn question does not require a full continuity grammar. The method matters most when the cost of drift, stale context, or unauthorized action is high. 14. Conclusion Continuity, Authority, and Directive form a minimal control grammar for long- running AI-assisted work. Continuity preserves what must survive. Authority declares what governs. Directive constrains what action is safe now. The grammar is useful because it separates failures that otherwise blur together. A runtime can lose the object, confuse the object, mishandle the object, or drown inside unstructured context. CAD makes those failures nameable and therefore more repairable. The broader significance is practical. AI runtimes do not need to be treated as continuous selves in order to participate in complex work. They need project environments that externalize continuity, declare authority, constrain action, and structuralize context before generation begins. The final claim is modest but operational: long-running AI collaboration improves when humans do not merely give models more context, but give them governed objects - objects that say what must survive, what governs, what is safe now, and how the runtime can re-enter without carrying the entire archive. References Clark, Andy, and David J. Chalmers. “The Extended Mind.” Analysis 58, no. 1 (1998): 7-19. Gelhaus, Benjamin. “Artificial Tangibility: Why Object Orientation Works for AI Runtimes.” Manuscript, 2026a. Gelhaus, Benjamin. “Artificial Tangibility as a Low-Infrastructure Governance Layer for AI State Management.” Manuscript, 2026b. Hutchins, Edwin. Cognition in the Wild. Cambridge, MA: MIT Press, 1995. Liu, Nelson F., Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, and Percy Liang. “Lost in the Middle: How Language Models Use Long Contexts.” arXiv preprint arXiv:2307.03172 (2023); Transactions of the Association for Computational Linguistics (2024). Norman, Donald A. The Design of Everyday Things. Revised and Expanded Edition. New York: Basic Books, 2013. World Wide Web Consortium. Accessible Rich Internet Applications (WAI-ARIA) 1.2. W3C Recommendation, June 6, 2023. Yao, Shunyu, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. “ReAct: Synergizing Reasoning and Acting in Language Models.” arXiv preprint arXiv:2210.03629 (2022).",
+        "candidates": [
+          {
+            "id": "PAPER-0002",
+            "path": "paper-0002.html",
+            "scope": "CAD Control Grammar Continuity Authority",
+            "matched": [
+              "cad",
+              "continuity"
+            ]
+          }
+        ],
+        "known": [
+          "cad",
+          "continuity"
+        ],
+        "unknown": [],
+        "matched_on": "scope",
+        "withheld": [],
+        "set_aside": [],
+        "quarantined": 0,
+        "route": [],
+        "source_authorship": {
+          "status": "unknown",
+          "verified": false,
+          "notice": "Who made this source is unknown. A person can supply a source attribution for review."
+        }
+      },
+      "identical_to_prior_except_root": true,
+      "answer_supported_field_present": false
+    },
+    {
+      "query": "What does Authority distinguish?",
+      "kind": "ambiguous",
+      "answer": {
+        "kind": "ambiguous",
+        "question": "What does Authority distinguish?",
+        "profile": "open",
+        "root": "/tmp/current-public-paper-ledger-qqx_76q6",
+        "reason": "no page owns this by scope, and two or more contain every word of it",
+        "id": null,
+        "path": null,
+        "hash": null,
+        "depth": null,
+        "text": "",
+        "candidates": [
+          {
+            "id": "PAPER-0001",
+            "path": "paper-0001.html",
+            "scope": "Artificial Tangibility as a Low Infrastr",
+            "matched": [
+              "authority",
+              "distinguish"
+            ]
+          },
+          {
+            "id": "PAPER-0002",
+            "path": "paper-0002.html",
+            "scope": "CAD Control Grammar Continuity Authority",
+            "matched": [
+              "authority",
+              "distinguish"
+            ]
+          },
+          {
+            "id": "PAPER-0004",
+            "path": "paper-0004.html",
+            "scope": "Condensed technical paper derived from t",
+            "matched": [
+              "authority",
+              "distinguish"
+            ]
+          },
+          {
+            "id": "PAPER-0007",
+            "path": "paper-0007.html",
+            "scope": "OOCC FUNCTIONAL LAYERS MASTER RESEARCH B",
+            "matched": [
+              "authority",
+              "distinguish"
+            ]
+          },
+          {
+            "id": "PAPER-0011",
+            "path": "paper-0011.html",
+            "scope": "BEYOND GUARDED RETRIEVAL",
+            "matched": [
+              "authority",
+              "distinguish"
+            ]
+          }
+        ],
+        "known": [
+          "authority",
+          "distinguish"
+        ],
+        "unknown": [],
+        "matched_on": "prose",
+        "withheld": [],
+        "set_aside": [],
+        "quarantined": 0,
+        "route": []
+      },
+      "identical_to_prior_except_root": true,
+      "answer_supported_field_present": false
+    },
+    {
+      "query": "Is CAD only prompt-level guidance?",
+      "kind": "ambiguous",
+      "answer": {
+        "kind": "ambiguous",
+        "question": "Is CAD only prompt-level guidance?",
+        "profile": "open",
+        "root": "/tmp/current-public-paper-ledger-qqx_76q6",
+        "reason": "no page owns this by scope, and two or more contain every word of it",
+        "id": null,
+        "path": null,
+        "hash": null,
+        "depth": null,
+        "text": "",
+        "candidates": [
+          {
+            "id": "PAPER-0002",
+            "path": "paper-0002.html",
+            "scope": "CAD Control Grammar Continuity Authority",
+            "matched": [
+              "cad",
+              "guidance",
+              "level",
+              "prompt"
+            ]
+          },
+          {
+            "id": "PAPER-0006",
+            "path": "paper-0006.html",
+            "scope": "No More First Dates With AI updated Publ",
+            "matched": [
+              "cad",
+              "guidance",
+              "level",
+              "prompt"
+            ]
+          }
+        ],
+        "known": [
+          "cad",
+          "guidance",
+          "level",
+          "prompt"
+        ],
+        "unknown": [],
+        "matched_on": "prose",
+        "withheld": [],
+        "set_aside": [],
+        "quarantined": 0,
+        "route": []
+      },
+      "identical_to_prior_except_root": true,
+      "answer_supported_field_present": false
+    },
+    {
+      "query": "What is Directive?",
+      "kind": "ambiguous",
+      "answer": {
+        "kind": "ambiguous",
+        "question": "What is Directive?",
+        "profile": "open",
+        "root": "/tmp/current-public-paper-ledger-qqx_76q6",
+        "reason": "no page owns this by scope, and two or more contain every word of it",
+        "id": null,
+        "path": null,
+        "hash": null,
+        "depth": null,
+        "text": "",
+        "candidates": [
+          {
+            "id": "PAPER-0001",
+            "path": "paper-0001.html",
+            "scope": "Artificial Tangibility as a Low Infrastr",
+            "matched": [
+              "directive"
+            ]
+          },
+          {
+            "id": "PAPER-0002",
+            "path": "paper-0002.html",
+            "scope": "CAD Control Grammar Continuity Authority",
+            "matched": [
+              "directive"
+            ]
+          },
+          {
+            "id": "PAPER-0003",
+            "path": "paper-0003.html",
+            "scope": "Canonical Tokens A Minimal Representatio",
+            "matched": [
+              "directive"
+            ]
+          },
+          {
+            "id": "PAPER-0006",
+            "path": "paper-0006.html",
+            "scope": "No More First Dates With AI updated Publ",
+            "matched": [
+              "directive"
+            ]
+          },
+          {
+            "id": "PAPER-0009",
+            "path": "paper-0009.html",
+            "scope": "THE CONTRIBUTION IS NOT THE BYLINE",
+            "matched": [
+              "directive"
+            ]
+          },
+          {
+            "id": "PAPER-0010",
+            "path": "paper-0010.html",
+            "scope": "The Object as Filter The Object as Filte",
+            "matched": [
+              "directive"
+            ]
+          }
+        ],
+        "known": [
+          "directive"
+        ],
+        "unknown": [],
+        "matched_on": "prose",
+        "withheld": [],
+        "set_aside": [],
+        "quarantined": 0,
+        "route": []
+      },
+      "identical_to_prior_except_root": true,
+      "answer_supported_field_present": false
+    },
+    {
+      "query": "What is Artificial Tangibility?",
+      "kind": "return",
+      "answer": {
+        "kind": "return",
+        "question": "What is Artificial Tangibility?",
+        "profile": "open",
+        "root": "/tmp/current-public-paper-ledger-qqx_76q6",
+        "reason": "exactly one current page owns this question by declared scope",
+        "id": "PAPER-0001",
+        "path": "paper-0001.html",
+        "hash": "sha256:6569a9b1f0856018605490690218cb8caa7ca6d64cb1eab31b14064fb1d9a6e4",
+        "depth": 0,
+        "text": "Artificial Tangibility as a Low Infrastr\nArtificial Tangibility as a Low-Infrastructure Governance Layer for AI State Management Benjamin Gelhaus Independent Researcher Abstract This companion paper situates Artificial Tangibility in relation to contemporary AI state-management patterns, including context engineering, retrieval-augmented generation, agent memory, durable execution, event sourcing, blackboard coordination, and human-in-the-loop governance. It does not argue that plain-text continuity systems replace enterprise infrastructure in every setting. Rather, it argues that many of the same operational problems - context drift, stale authority, unsafe mutation, weak handoff, and loss of salience - can be addressed at the interface layer through human-readable objects carrying role, authority, state, boundary, relation, receipt, weight, and next safe action. The paper frames Artificial Tangibility as a low-infrastructure governance layer for discontinuous AI collaboration: a way of making project state visible, bounded, auditable, and recoverable without requiring the runtime to possess human-like memory, embodiment, or consciousness. Its contribution is not the invention of memory, retrieval, provenance, object orientation, or agent tooling, but the synthesis of those concerns into a practical object grammar for AI continuity. Keywords: AI continuity, context engineering, human-AI interaction, AI state management, object-oriented cognition, agent memory, provenance, AI governance, durable execution 1. Introduction: From Theory to Operational Comparison Artificial Tangibility argues that AI runtimes do not need human embodiment, emotion, or persistent personal memory in order to participate usefully in long-running work. They need a usable interface into project state. That interface must make the work legible as bounded objects rather than as an undifferentiated pile of context. This companion paper asks a narrower applied question: how does that claim relate to the systems that AI engineers already use to manage state, memory, retrieval, orchestration, provenance, and human oversight? The answer is not that a file-based continuity system is identical to enterprise infrastructure. It is not. Durable execution engines, vector databases, event logs, checkpointers, orchestration graphs, and access-control systems perform technical functions that plain documents do not automatically provide. The stronger and safer claim is functional: Artificial Tangibility describes a human-readable governance layer that addresses many of the same failure pressures at the level where humans and AI runtimes actually coordinate. The practical problem is continuity across discontinuity. A runtime enters a project without lived memory of the prior work. It may have access to documents, chat logs, files, and instructions, but still lack orientation. It may know the topic while misunderstanding what is current, what is source, what is draft, what is blocked, what is permitted, and what should happen next. This is the problem of context without shape. Industry systems respond to this problem with memory architectures, retrieval systems, tool loops, checkpoints, event stores, blackboard patterns, and human-in-the-loop gates. Artificial Tangibility responds by shaping the project environment into objects with declared role, authority, state, boundary, relation, receipt, weight, and next safe action. The difference is not whether state matters. Both approaches assume that it does. The difference is where governance becomes visible and how much of that governance can be made human-readable. 2. Context Engineering and the Problem of Orientation Context engineering treats the context window as an engineered operating surface rather than a passive prompt box. That shift is important. It recognizes that the quality, order, scope, and structure of information supplied to an AI system can matter as much as the size of the model or the cleverness of the prompt. Artificial Tangibility begins from the same pressure point but states it in operational language: more context is not the same as more orientation. A project may contain all relevant files and still be unusable to a fresh runtime if the system fails to distinguish source from draft, active from parked, current from stale, or safe action from unauthorized mutation. The paper therefore moves from information volume to project shape. A context window may contain a useful source, an obsolete draft, a rejected route, a private note, a public claim, and a warning. If those items are not marked as different kinds of objects, the runtime must infer their status from prose, recency, style, or proximity. That is where coherent misalignment begins. The value of Artificial Tangibility is that it turns context management into object governance. A bounded object is not merely a piece of retrieved text. It carries a declared role. It carries authority status. It carries boundaries. It carries relation to other objects. It may carry an evidence trail. It may carry weight. These fields reduce the runtime's need to guess what the object is allowed to mean. 3. RAG, External Memory, and Source Authority Retrieval-augmented generation and related memory systems establish an important principle: a runtime should not rely only on internal model weights or conversational memory. It should be able to consult external materials. That principle is compatible with Artificial Tangibility. The difference is that retrieval alone does not determine authority. A retrieved document may be relevant and still not govern the current task. It may be historical, superseded, speculative, private, or parked. Artificial Tangibility therefore asks an additional question: once an object is retrieved, what is it allowed to do? This is where source authority becomes central. In a governed project, an object can exist without being promoted. A receipt can prove that something happened without making it canonical. A draft can be useful without governing later work. A source can be current in one lane and irrelevant in another. The system must expose those distinctions before the runtime acts. In this sense, Artificial Tangibility is not a replacement for retrieval. It is a governance layer around retrieved and preserved material. It helps determine whether a retrieved object should be trusted, quoted, ignored, archived, used as background, or treated as the active source for the next move. 4. Agent Memory and Externalized Project State Modern agent-memory systems often distinguish working memory, episodic memory, and semantic memory. They do this through databases, vector stores, summaries, thread identifiers, or memory-management policies. Artificial Tangibility expresses a related distinction in plain project terms. A live state board or orientation object functions as working memory: it tells the runtime what is active now. Receipts and communication logs function as episodic memory: they preserve what happened, what changed, what failed, and what remains open. Source-authority objects function as semantic control: they declare which materials govern the present work. The important point is not that files are technically equivalent to databases. They are not. The point is that the human-readable object-world can expose the same categories of state that more technical systems manage implicitly or programmatically. For a solo researcher, small team, or cross-tool workflow, that visibility can be more valuable than hidden sophistication. The method also avoids a common failure in long-running AI work: asking the runtime to remember the project. Artificial Tangibility assumes the runtime is discontinuous. The project must carry continuity outside the runtime so that a future runtime can re-enter without requiring the human to rebuild the whole room. 5. Durable Execution, Re-Entry, and Recoverability Production-grade agent systems often use checkpointers, orchestration engines, and durable execution platforms to recover from crashes, timeouts, rate limits, and incomplete workflows. Those systems persist state so the process can resume. Artificial Tangibility approaches recoverability from the interface side. The question is not only whether a process can resume automatically, but whether a fresh runtime can identify the active object, governing source, unresolved blockers, boundaries, and next safe action. This is the purpose of a re-entry test. A continuity system is working if a runtime can enter from a minimal orientation object and recover the state of the project without relying on the prior chat session. It should be able to answer: What is active? What governs? What is blocked? What must not be touched? What happened last? What should happen next? That test does not replace durable execution in production software systems. It complements it. Durable execution preserves process state. Artificial Tangibility preserves project orientation. In human-AI collaboration, both can matter. 6. Receipts, Provenance, and Failure as Evidence Provenance systems track where information came from, how an artifact was produced, and which activities contributed to its current state. Artificial Tangibility shares this concern through receipts. A receipt is not permission before the work. It is evidence after the work. It records what changed, what was attempted, what remains blocked, and what the next safe action is. In a long-running project, this matters because state drift often occurs silently. A runtime may produce a plausible continuation while using the wrong source, crossing a boundary, or treating draft language as promoted. Receipts make those errors visible. They allow the human and future runtime to ask concrete questions: Was this a source error? An authority error? A boundary error? A state error? A directive error? A missing-evidence error? This is the sense in which failure can become evidence. The goal is not to celebrate mistakes. The goal is to preserve enough telemetry that a mistake can be caught, named, bounded, corrected, and used to strengthen the next handoff. A system that cannot locate its failures cannot safely improve. A system that can name its failures has working edges. 7. Blackboard Coordination and Shared State Surfaces The blackboard pattern is a long-standing coordination model in which multiple agents or processes contribute to a shared state space rather than communicating only through direct chained messages. In AI systems, this pattern helps reduce coupling, support asynchronous participation, and preserve visible intermediate state. Artificial Tangibility can be understood as a file-based analogue of that pattern. Instead of assuming that each runtime carries the whole project internally, the project maintains a shared state surface: active objects, open items, blockers, receipts, source authority, and next safe actions. The difference again is not that a document is technically the same as a distributed key-value store. It is not. The useful comparison is functional. A shared state surface helps separate the agents from the state they act upon. It gives future work a place to re-enter. It also gives humans a place to inspect whether the system is aligned or drifting. For public framing, this matters because it turns a private workflow habit into a recognizable systems pattern. Artificial Tangibility does not ask reviewers to believe in an idiosyncratic folder ritual. It says that shared, inspectable state surfaces are one way to make discontinuous AI collaboration safer and more recoverable. 8. Human-in-the-Loop Governance and Promotion Gates Enterprise AI systems often include human-in-the-loop gates for high-stakes actions. These gates pause execution, require review, and prevent the system from converting uncertain output into authoritative state without oversight. Artificial Tangibility expresses the same governance concern through promotion gates and boundary conditions. A generated artifact can exist without being promoted. A draft can be useful without becoming public. A private constraint can inform the runtime without being leaked into public prose. A source can govern one lane without governing another. The phrase 'existence is not promotion' is central. It prevents a common AI-workflow failure: treating produced text as authorized merely because it has been produced. In a governed project, mutation and promotion are separate events. The runtime may draft, summarize, compare, or propose. The human or declared authority structure determines what becomes canonical, public, or governing. This is not merely a safety preference. It is part of the object grammar. Authority is a field. Boundary is a field. Directive is a field. A runtime that can see those fields can be judged against them. If it crosses them, the error is diagnosable. 9. Object Weight and the Salience Problem The most distinctive contribution of Artificial Tangibility is object weight. Existing systems can store information, retrieve information, trace information, and summarize information. Object weight asks a different question: why does this object matter now? Existence and salience are not the same. A receipt can prove that an object exists. A source map can declare where it belongs. But a runtime may still flatten a hinge object into background if nothing marks its consequence. Weight is the salience layer that tells the runtime not to treat all preserved material equally. Weight can come from consequence, dependency, authority, fragility, risk, or generativity. An object matters if ignoring it would reopen a closed error, corrupt a source hierarchy, erase a breakthrough, or send the project down the wrong path. A weighted object tells the runtime: do not flatten this; read it as a hinge. This is where Artificial Tangibility extends beyond ordinary retrieval or memory. It does not merely ask whether an object can be found. It asks whether the runtime can understand the object's priority inside the current project-world. 10. What This Companion Paper Claims - and Does Not Claim This paper does not claim that plain-text continuity systems should replace durable execution engines, vector databases, workflow orchestrators, event stores, or access-control systems in enterprise environments. Those tools solve real technical problems at scale. It also does not claim that Artificial Tangibility invents context engineering, memory, retrieval, provenance, object orientation, affordances, or blackboard coordination. Those are established traditions. The claim is narrower and, for that reason, stronger: long-running AI collaboration needs a human-readable governance layer that binds these concerns together at the level of project work. Artificial Tangibility names that layer. It treats project materials as bounded objects with role, authority, state, boundary, relation, receipt, weight, and next safe action. That framing gives AI continuity a practical grammar. It tells humans what to externalize. It tells runtimes what to respect. It tells reviewers how the system can be tested: re-entry speed, source-current distinction, error catchability, safe action selection, handoff quality, stale-context resistance, and preservation of why important objects matter. 11. Conclusion Artificial Tangibility is best understood as a low-infrastructure governance layer for AI state management. It translates concerns that appear in context engineering, retrieval, memory systems, provenance, durable execution, blackboard coordination, and human-in-the-loop design into a human-readable object grammar. Its strongest claim is not that files are superior to infrastructure. Its strongest claim is that AI runtimes need shaped environments. A runtime that receives only more text may still be lost. A runtime that receives bounded objects with declared role, authority, state, boundary, relation, receipt, weight, and next safe action can move with less guessing and more accountability. This matters because much AI collaboration occurs outside carefully engineered enterprise platforms. Researchers, writers, analysts, small teams, and independent builders often work across chat interfaces, documents, folders, and ad hoc tools. For those contexts, a low-infrastructure continuity grammar can make complex AI-assisted work more recoverable without pretending that the runtime is continuous, embodied, conscious, or human. The companion claim can therefore be stated simply: Artificial Tangibility does not replace AI state-management infrastructure. It makes the governance problem legible. It shows how project state can be externalized into objects that a discontinuous runtime can re-enter, interpret, act on, and leave evidence about. References Clark, Andy, and David J. Chalmers. \"The Extended Mind.\" Analysis 58, no. 1 (1998): 7-19. Hoffman, Donald D., Manish Singh, and Chetan Prakash. \"The Interface Theory of Perception.\" Psychonomic Bulletin & Review 22 (2015): 1480-1506. Hutchins, Edwin. Cognition in the Wild. Cambridge, MA: MIT Press, 1995. Liu, Nelson F., Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, and Percy Liang. \"Lost in the Middle: How Language Models Use Long Contexts.\" arXiv preprint arXiv:2307.03172 (2023); Transactions of the Association for Computational Linguistics (2024). Norman, Donald A. The Design of Everyday Things. Revised and Expanded Edition. New York: Basic Books, 2013. World Wide Web Consortium. Accessible Rich Internet Applications (WAI-ARIA) 1.2. W3C Recommendation, June 6, 2023. Yao, Shunyu, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. \"ReAct: Synergizing Reasoning and Acting in Language Models.\" arXiv preprint arXiv:2210.03629 (2022).",
+        "candidates": [
+          {
+            "id": "PAPER-0001",
+            "path": "paper-0001.html",
+            "scope": "Artificial Tangibility as a Low Infrastr",
+            "matched": [
+              "artificial",
+              "tangibility"
+            ]
+          }
+        ],
+        "known": [
+          "artificial",
+          "tangibility"
+        ],
+        "unknown": [],
+        "matched_on": "scope",
+        "withheld": [],
+        "set_aside": [],
+        "quarantined": 0,
+        "route": [],
+        "source_authorship": {
+          "status": "unknown",
+          "verified": false,
+          "notice": "Who made this source is unknown. A person can supply a source attribution for review."
+        }
+      },
+      "identical_to_prior_except_root": true,
+      "answer_supported_field_present": false
+    },
+    {
+      "query": "Does retrieval alone determine authority?",
+      "kind": "ambiguous",
+      "answer": {
+        "kind": "ambiguous",
+        "question": "Does retrieval alone determine authority?",
+        "profile": "open",
+        "root": "/tmp/current-public-paper-ledger-qqx_76q6",
+        "reason": "no page owns this by scope, and two or more contain every word of it",
+        "id": null,
+        "path": null,
+        "hash": null,
+        "depth": null,
+        "text": "",
+        "candidates": [
+          {
+            "id": "PAPER-0001",
+            "path": "paper-0001.html",
+            "scope": "Artificial Tangibility as a Low Infrastr",
+            "matched": [
+              "alone",
+              "authority",
+              "determine",
+              "retrieval"
+            ]
+          },
+          {
+            "id": "PAPER-0002",
+            "path": "paper-0002.html",
+            "scope": "CAD Control Grammar Continuity Authority",
+            "matched": [
+              "alone",
+              "authority",
+              "determine",
+              "retrieval"
+            ]
+          }
+        ],
+        "known": [
+          "alone",
+          "authority",
+          "determine",
+          "retrieval"
+        ],
+        "unknown": [],
+        "matched_on": "prose",
+        "withheld": [],
+        "set_aside": [],
+        "quarantined": 0,
+        "route": []
+      },
+      "identical_to_prior_except_root": true,
+      "answer_supported_field_present": false
+    },
+    {
+      "query": "What is the DHS Translation Protocol?",
+      "kind": "return",
+      "answer": {
+        "kind": "return",
+        "question": "What is the DHS Translation Protocol?",
+        "profile": "open",
+        "root": "/tmp/current-public-paper-ledger-qqx_76q6",
+        "reason": "no page owns this by scope; exactly one contains every word of it",
+        "id": "PAPER-0005",
+        "path": "paper-0005.html",
+        "hash": "sha256:543f38d25b5027fc3cec9c33d5a95cea1f981d9ede710ef00b4c93f103ca0c07",
+        "depth": 0,
+        "text": "From Verbatim Evidence to Independent Un\nHEADMASTER From Verbatim Evidence to Independent Understanding A Function-First, Source-Grounded AI Teaching System\nBenjamin Gelhaus Object-Oriented Cognition and Continuity (OOCC) / Voltron Research manuscript • November 2026 Research and editorial assistance: ChatGPT (GPT-6)\nABSTRACT Headmaster is a partially functioning Android learning application that extends Object-Oriented Cognition and Continuity (OOCC) into adaptive, source-grounded instruction. Its design grew from a practical problem of authorship and evidence. Gelhaus reports that a judge approved AI as an ADA accommodation for use in the courtroom with counsel but restricted its use during testimony. The resulting challenge—how to organize and communicate a person’s words without replacing them—led to the DHS Translation Protocol, which preserves original language, context, chronology, and identifiable edits. The same principle then suggested an educational application: learning assistance should help a student develop an understanding while preserving the student’s actual answers, uncertainties, and revisions. Headmaster combines this authorship principle with Gelhaus’s self-directed method of exploring functions, mechanisms, relationships, and constraints. The first proposed demanding test is Mitchell D. McPhetridge’s technical writing. This paper describes the conceptual lineage, system design, existing prototype evidence, and an evaluation protocol that asks whether learners can explain and apply unfamiliar material independently after tutoring.\nKeywords: intelligent tutoring systems; source fidelity; authorship; functional mapping; learner modeling; adaptive instruction; self-explanation; AI-assisted learning; educational assessment.\n1. INTRODUCTION A useful learning system must do more than present a convincing explanation. It must help a person acquire an understanding that belongs to that person—one that can be expressed, defended, tested, and applied without borrowing the tutor’s language.\nHeadmaster approaches that problem through two connected commitments. First, the original record matters: a source author’s statements, a learner’s answers, and an AI tutor’s interpretations must remain distinguishable. Second, instruction must be functional: learning a term is only a starting point; competence requires understanding what a system or claim does, why it works, which conditions it requires, and where it fails.\nThe application is under active development as part of the OOCC/Voltron ecosystem. Gelhaus reports that substantial portions of the Android prototype work on his device. Versioned source and engineering records document a functioning interface and several implemented learning-state features, while the full adaptive instructional loop remains a subject of development and evaluation [P3–P6].\nThe research question is whether a source-faithful, function-first tutor can help a learner understand difficult technical work more deeply than conventional reading assistance or a generic AI explanation.\n2. DEVELOPMENT: FROM DHS TO HEADMASTER The initiating problem was practical rather than academic. Gelhaus describes receiving court approval to use AI as an ADA accommodation while present with his lawyer, but not while he was on the witness stand. The judge explained the restriction, and Gelhaus began treating the explanation as a set of design constraints. The essential concern was whether AI-assisted organization or presentation would preserve his own language and meaning.\nHis response was the DHS Translation Protocol. It begins with the speaker’s exact words and protects their original context. Readability can be improved by arranging intact passages, identifying topics, and supplying navigation. When new explanatory language is required, that language belongs to a visibly separate AI-authored layer. Corrections, changes, source order, speaker identity, and provenance remain accessible [P1]. The related application blueprint expands this into an operational design for speech, writing, evidence, and reader-facing representations [P2].\nOnce this method existed, its wider usefulness became apparent. Schoolwork presented a closely related problem: if an AI writes a polished explanation for a student, the result can conceal what that student actually understands. A learner needs assistance without losing authorship of the answers and reasoning that demonstrate progress.\nThe next step followed naturally from Gelhaus’s own experience teaching himself unfamiliar subjects through conversation, source retrieval, functional comparisons, revisions, and experiments. What if this process could be made reproducible in software? Headmaster emerged as the educational branch: retain the original person’s voice, discover what the person understands, find what is missing, and actually teach the next step.\nThe transfer from court-related communication to education is the project’s defining design lineage. The court account describes the problem that motivated the system; the educational research examines what the resulting method can accomplish. The exact judicial wording can be cited from the record if it becomes part of a later legal or historical edition.\n3. RESEARCH PROPOSITION Headmaster’s central proposition is that source-grounded function mapping, paired with interactive teaching and learner-authored assessment, can improve the acquisition of difficult concepts.\nA conventional explanation often begins with definitions and a polished synopsis. A function-first lesson begins by asking: What is the object or claim? What does it do? What inputs or premises does it require? What mechanism connects them to an outcome? What are the limits, competing interpretations, and counterexamples?\nThis approach is particularly suited to interdisciplinary work, where familiar words may carry unfamiliar technical meanings. It can reveal hidden prerequisites while also protecting against false analogy: two systems may share a function without sharing a mechanism.\nThe testable hypothesis is that, after comparable study time, learners using source-anchored function-first tutoring will perform better on unaided explanation and novel application than learners using ordinary reference resources or a standard AI explanatory assistant. A complementary hypothesis is that keeping the learner’s exact answers and corrections will improve the accuracy of mastery assessment and continuity between teaching sessions.\nThese claims are evaluated through performance, not through the apparent fluency of the tutor.\n4. PEDAGOGICAL FOUNDATION Headmaster draws from several established lines of educational research. Concept and knowledge mapping provides ways to organize explicit relationships among ideas [R1]. The ICAP framework links the form of cognitive engagement with learning processes, giving a rationale for interactive questioning rather than passive exposure [R2]. Research on prompted self-explanation supports asking students to construct their own accounts of mechanisms and ideas [R3]. Retrieval-practice findings motivate later testing without access to the original explanation [R4]. Knowledge-tracing research provides an established precedent for estimating changing student competence from observed work [R5].\nHeadmaster combines these ideas with OOCC’s emphasis on protected source text, correction history, functional relationships, and recoverable state. Its proposed contribution lies in how these elements interact within an actual application, rather than in claiming to invent the individual educational techniques.\nThe distinction between *having encountered* an explanation and *being able to reproduce and use* the underlying idea is fundamental. Headmaster therefore stores exposure, vocabulary recognition, worked examples, independent explanation, and demonstrated transfer as different forms of evidence.\n5. FUNCTION-FIRST SOURCE MODEL The source mapper turns each studied claim into a connected instructional object. Its core fields include:\n• Source identity: author, document, revision, passage, page or section, and access rights. • Concept or object: the entity, claim, process, or system being studied. • Function: its purpose, behavior, or predicted result. • Inputs and outputs: required premises, information, materials, states, and expected consequences. • Mechanism: the logical or causal explanation of how the function operates. • Dependencies: prerequisite concepts and skills. • Constraints: conditions under which the claim applies and boundaries on its use. • Counterexamples: cases that challenge the explanation or expose its limits. • Relationships: typed links such as DEPENDS_ON, REFINES, CONTRADICTS, and RELATED_TO. • Attribution and evidence: what the original author states, what the tutor infers, and what the learner independently proposes. • Revision history: the original record together with later questions, corrections, and decisions.\nA function map is an instructional representation, not a substitute for the original paper. The source remains available for checking formal notation, qualifications, and context. Connections that merely resemble one another remain labeled as analogies until documentary or experimental evidence supports a stronger relationship.\nThis object model also provides a practical bridge to the OOCC functional-layers research, which studies recurring functions across distinct domains without treating those domains as identical [P7].\n6. THE HEADMASTER LEARNING CYCLE The application’s intended instructional cycle has six connected stages [P3].\n1. Source intake. A student chooses a subject or imports authorized material: PDFs, textbooks, notes, code, written work, video transcripts, or existing research. The system keeps the original document and reports exactly what was extracted. Local extraction and economical batching can reduce repeated paid AI calls.\n2. Concept reconstruction. Headmaster identifies chapters, sections, concepts, functions, mechanisms, dependencies, and disagreements. The relationships are linked back to passages and organized into a navigable map.\n3. Learner diagnosis. The tutor examines the learner’s own answers, not just prior exposure. It distinguishes recognized terminology from explanatory competence, uncertain understanding, missing prerequisites, and independent application. Source-authored, AI-authored, learner-authored, and unattributed text are kept separate.\n4. Lesson selection. The system chooses a specific instructional frontier: a missing prerequisite, a misunderstood mechanism, an overlooked constraint, or a promising connection to knowledge the learner already possesses.\n5. Conversational teaching. Headmaster acts as an instructor. It explains, demonstrates, asks questions, responds to confusion, proposes examples, and revises its approach. Books and videos remain instructional resources; the teaching interaction stays in Headmaster’s own chat.\n6. Independent assessment and continuity. The learner explains the material in original words, predicts outcomes under new conditions, and confronts counterexamples. Results and corrections become part of the learner’s continuing history. A later tutor can recover the authorized record and resume without pretending to be the same AI instance.\nA complete lesson therefore ends with evidence of the learner’s capability, not simply with a generated answer.\n7. LEARNER AUTHORSHIP AND CONTINUITY Headmaster’s learner record is designed to be both educational and evidentiary. It preserves the student’s exact statement, the question or task that prompted it, the source being studied, the tutor’s response, and later corrections. AI-produced prose can be useful instructional material, but it is stored under its own authorship.\nThis separation solves a practical problem in assessment. An eloquent answer copied from a model is weak evidence of personal understanding. A tentative answer, followed by targeted instruction and a later independently generated solution, is much more informative. Errors are part of the record because they help locate the lesson that should come next.\nThe application’s broader OOCC design also treats the curriculum, tutor, specialists, learner profile, and source maps as individually addressable components. Headmaster operates within the main Voltron environment while retaining its own chat and learning state. The Round Table design allows specialists to examine different aspects of a learning task under a scheduler, with the human learner participating rather than being replaced. Existing three-worker prototypes and the later four-specialist target are separate implementation stages [P4–P6].\nPersistent communication and research records allow successors to continue the work while preserving distinct writer identities. For instruction, this means a new tutor should know which concepts were taught, what the learner actually demonstrated, which misconceptions remain, and why the preceding lesson stopped.\n8. McPHETRIDGE AS THE FIRST HIGH-DIFFICULTY TEST Mitchell D. McPhetridge’s work provides a compelling first-person challenge for Headmaster. Gelhaus has described difficulty understanding McPhetridge’s technical writing despite wanting to engage with it seriously. The goal is to develop enough independent comprehension to assess the work on its own terms, including its mechanisms, assumptions, and possible weaknesses.\nThe preserved Gelhaus–McPhetridge correspondence records sustained dialogue about constraints, recursive systems, verification, and credit for borrowed ideas [P8]. That exchange establishes the context for this study. McPhetridge’s original publications, rather than summaries of the correspondence, will supply the actual teaching passages. His authorship and terminology remain intact throughout the experiment.\nThe pilot proceeds as follows. First, select an exact paper or chapter and record its version, source, and learning objectives. Second, ask Gelhaus to explain its main claim unaided, identifying what he understands and what remains opaque. Third, have Headmaster construct a bounded function map and teach the difficult passages through dialogue. Fourth, remove the teaching support and ask Gelhaus to reconstruct the argument, explain its mechanism, identify the conditions under which it holds, and evaluate a new case. Fifth, repeat the assessment after a delay and compare with the initial baseline.\nA meaningful success would be visible in the learner’s own work: accurate explanation, original examples, recognition of limitations, and the ability to distinguish McPhetridge’s argument from Gelhaus’s subsequent interpretation. This pilot can establish feasibility and generate detailed evidence; broader educational claims require additional learners and comparisons.\n9. CURRENT APPLICATION AND ENGINEERING STATUS Headmaster is already represented by a working Android prototype and a substantial set of engineering artifacts. Gelhaus reports that significant parts of the program function on his phone, while the application remains under active development. Screenshots reviewed in the engineering work show an installed v247 interface with local chat behavior and model-assignment controls [P5–P6]. The exact version currently installed on the owner’s device has not yet been established from a fresh device readout.\nThe development records describe implemented local learner-state structures, original-quotation retrieval, source-linked learning-path annotations, tutor setup, and a growing functional mapping layer. The v247 release was followed by an APK-signature repair; the v248 engineering notes report a model-catalog setup change and 74 passing host assertions [P5–P6]. The dependency audit also identifies unresolved integration work across native worker identity, source consumption, Android acceptance, and controller-issued permissions [P4].\nThe most consequential unfinished work is the complete teaching loop: robust multi-source intake, genuine model-backed conversational instruction, visible specialist coordination, independently assessed learner progress, and reliable continuation after a restart. Earlier diagnostics also report scanning and import interruptions. These are specific engineering targets within a real application, rather than placeholders for a program that has never been built.\nThe next development audit should establish a current on-device version and a feature-by-feature functional inventory, preserving the distinction between working Android behavior, host-tested source code, and planned capabilities.\n10. EXPERIMENTAL DESIGN The initial research phase is a documented single-learner pilot using one technically demanding original text. Each claim taught must have a stable source anchor. Before instruction, the learner completes a baseline explanation and predicts how a central mechanism would behave in a new example. Headmaster then teaches the material with a function map, guided dialogue, and exercises. After instruction, an evaluator scores an unaided explanation and a novel application. A delayed assessment measures retention.\nThe proposed rubric assesses five competencies, each scored from 0 to 4: source fidelity; mechanism explanation; correct premises and constraints; counterexample or transfer reasoning; and calibrated attribution and uncertainty. The 20-point total is interpreted together with the original answer record, not as an unexplained mastery label. A scorer who can read the original technical source should apply a rubric defined before the lesson.\nA second phase can compare three conditions with consenting learners and balanced study materials: ordinary source reading with reference aids; conventional AI explanation; and Headmaster’s source-linked, function-first tutoring. Study time and available materials should be comparable. Passage assignment and condition order should be counterbalanced, with blinded scoring where feasible.\nPrimary outcomes are unaided explanation accuracy and transfer to a new problem. Secondary outcomes include retention, time to an accurate account, identification of assumptions, correction of misconceptions, appropriate confidence, tutoring cost, and successful recovery of the learner state by a later session.\nThe experiment can also reveal limits. Function-first instruction may be less effective for some learners or materials; an appealing analogy may obscure formal meaning; a learner may sound fluent while failing an unfamiliar problem. Those outcomes would guide revisions to the teaching method.\n11. RESEARCH CONTRIBUTION AND NEXT STEPS Headmaster brings together three problems that are often treated separately: preserving an author’s original meaning, teaching difficult material in a usable structure, and maintaining evidence of an individual learner’s progress over time.\nThe most immediate next steps are practical. Establish the installed Android baseline and working feature inventory. Select a primary McPhetridge text. Confirm reliable extraction and source pointers. Conduct the baseline assessment. Capture one full, authorized teaching interaction and the learner’s own post-lesson response. Evaluate the result against the original text. Finally, test whether a new tutor session can reconstruct the learning state accurately from the saved records.\nThe longer-term study can determine whether the combination of functional mapping, exact learner quotations, interactive teaching, and continuity produces a measurable benefit over ordinary AI-assisted learning.\n12. CONCLUSION Headmaster began with a question about fidelity: how can AI help communicate a person’s meaning without replacing that person’s words? The DHS Translation Protocol answered by separating protected original language from AI-authored organization and explanation. Applied to education, the same principle leads to a tutor that must preserve the learner’s work while helping that learner build new capability.\nThe program now exists as an actively developed Android prototype, and its educational premise can be tested. Mitchell D. McPhetridge’s challenging technical writing offers a demanding first case. If Gelhaus can learn the material through Headmaster and subsequently explain, question, and apply it accurately in his own words, the result will provide a concrete measure of the approach’s value.\nThe central ambition is straightforward: a teacher should leave the learner able to think and explain independently.\nREFERENCES Project sources\n[P1] Gelhaus, B. (2026, October 30). DHS Translation Protocol, v0.1. https://docs.google.com/document/d/1J8BArMKAa5T69m0gMNAoGGry9-sWFADIH_S2DKznaC U/edit\n[P2] DHS Platform & The ADD Translator — Master Ideas and Application Blueprint (2026, October 30). https://docs.google.com/document/d/1Nwqso7uyWlI6uMHd3Mg8fj0flBkIdpie5ZxXEi9_Ey0/edit\n[P3] Headmaster — Full Vision & Functional Explanation (2026, November 5). https://drive.google.com/file/d/1H5XJqGuMAQoVvhWQB94cVeVjapW20dou/view\n[P4] Headmasters/OOCC — Dependency Completeness Audit v1.4 (2026, October 31). https://docs.google.com/document/d/1mlaDdyGVwrNktS-pwSpPoixlk1s5vrSg_oSVKfE4H_k/edit\n[P5] Headmasters engineering records: HM247 release and signature repair (2026, November 6). https://drive.google.com/file/d/1vgWFOduCZfA8zHTCscTKIiIt22K_nEpI/view ; https://drive.google.com/file/d/1dRRirW_Dlps75FZAK4boQS8eOAGK3Owq/view\n[P6] Headmasters HM248 engineering update (2026, November 6). https://drive.google.com/file/d/1UjMauYPL0yaexRsiojn3DiAGqBqeIXjE/view\n[P7] Functional Layers — Research Book & Trees Source Map v3 (2026, October 28; November 1 addendum). https://docs.google.com/document/d/1pqZBkPcaBrOlk7VEE4AEHXsWBX7KAfT3EI6gKwLyZ1Q /edit\n[P8] Gelhaus–McPhetridge Academia.edu conversation transcript, archived snapshot (2026, August 31). Restricted historical research source; material requires review before public quotation. https://drive.google.com/file/d/1jNPYZWg1CB8iUyq33lAMOjacNpCfVswL/view\nEducational research\n[R1] Nesbit, J. C., & Adesope, O. O. (2006). Learning with concept and knowledge maps: A meta-analysis. Review of Educational Research, 76(3), 413–448. https://doi.org/10.3102/00346543076003413\n[R2] Chi, M. T. H., & Wylie, R. (2014). The ICAP framework: Linking cognitive engagement to active learning outcomes. Educational Psychologist, 49(4), 219–243. https://doi.org/10.1080/00461520.2014.965823\n[R3] Bisra, K., Liu, Q., Nesbit, J. C., Salimi, F., & Winne, P. H. (2018). Inducing self-explanation: A meta-analysis. Educational Psychology Review, 30, 703–725. https://doi.org/10.1007/s10648-018-9434-x\n[R4] Roediger, H. L., III, & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x\n[R5] Corbett, A. T., & Anderson, J. R. (1994). Knowledge tracing: Modeling the acquisition of procedural knowledge. User Modeling and User-Adapted Interaction, 4, 253–278. https://doi.org/10.1007/BF01099821",
+        "candidates": [
+          {
+            "id": "PAPER-0005",
+            "path": "paper-0005.html",
+            "scope": "From Verbatim Evidence to Independent Un",
+            "matched": [
+              "dhs",
+              "protocol",
+              "translation"
+            ]
+          }
+        ],
+        "known": [
+          "dhs",
+          "protocol",
+          "translation"
+        ],
+        "unknown": [],
+        "matched_on": "prose",
+        "withheld": [],
+        "set_aside": [],
+        "quarantined": 0,
+        "route": [],
+        "source_authorship": {
+          "status": "unknown",
+          "verified": false,
+          "notice": "Who made this source is unknown. A person can supply a source attribution for review."
+        }
+      },
+      "identical_to_prior_except_root": true,
+      "answer_supported_field_present": false
+    },
+    {
+      "query": "Does Headmaster preserve the learner's original answers?",
+      "kind": "return",
+      "answer": {
+        "kind": "return",
+        "question": "Does Headmaster preserve the learner's original answers?",
+        "profile": "open",
+        "root": "/tmp/current-public-paper-ledger-qqx_76q6",
+        "reason": "no page owns this by scope; exactly one contains every word of it",
+        "id": "PAPER-0005",
+        "path": "paper-0005.html",
+        "hash": "sha256:543f38d25b5027fc3cec9c33d5a95cea1f981d9ede710ef00b4c93f103ca0c07",
+        "depth": 0,
+        "text": "From Verbatim Evidence to Independent Un\nHEADMASTER From Verbatim Evidence to Independent Understanding A Function-First, Source-Grounded AI Teaching System\nBenjamin Gelhaus Object-Oriented Cognition and Continuity (OOCC) / Voltron Research manuscript • November 2026 Research and editorial assistance: ChatGPT (GPT-6)\nABSTRACT Headmaster is a partially functioning Android learning application that extends Object-Oriented Cognition and Continuity (OOCC) into adaptive, source-grounded instruction. Its design grew from a practical problem of authorship and evidence. Gelhaus reports that a judge approved AI as an ADA accommodation for use in the courtroom with counsel but restricted its use during testimony. The resulting challenge—how to organize and communicate a person’s words without replacing them—led to the DHS Translation Protocol, which preserves original language, context, chronology, and identifiable edits. The same principle then suggested an educational application: learning assistance should help a student develop an understanding while preserving the student’s actual answers, uncertainties, and revisions. Headmaster combines this authorship principle with Gelhaus’s self-directed method of exploring functions, mechanisms, relationships, and constraints. The first proposed demanding test is Mitchell D. McPhetridge’s technical writing. This paper describes the conceptual lineage, system design, existing prototype evidence, and an evaluation protocol that asks whether learners can explain and apply unfamiliar material independently after tutoring.\nKeywords: intelligent tutoring systems; source fidelity; authorship; functional mapping; learner modeling; adaptive instruction; self-explanation; AI-assisted learning; educational assessment.\n1. INTRODUCTION A useful learning system must do more than present a convincing explanation. It must help a person acquire an understanding that belongs to that person—one that can be expressed, defended, tested, and applied without borrowing the tutor’s language.\nHeadmaster approaches that problem through two connected commitments. First, the original record matters: a source author’s statements, a learner’s answers, and an AI tutor’s interpretations must remain distinguishable. Second, instruction must be functional: learning a term is only a starting point; competence requires understanding what a system or claim does, why it works, which conditions it requires, and where it fails.\nThe application is under active development as part of the OOCC/Voltron ecosystem. Gelhaus reports that substantial portions of the Android prototype work on his device. Versioned source and engineering records document a functioning interface and several implemented learning-state features, while the full adaptive instructional loop remains a subject of development and evaluation [P3–P6].\nThe research question is whether a source-faithful, function-first tutor can help a learner understand difficult technical work more deeply than conventional reading assistance or a generic AI explanation.\n2. DEVELOPMENT: FROM DHS TO HEADMASTER The initiating problem was practical rather than academic. Gelhaus describes receiving court approval to use AI as an ADA accommodation while present with his lawyer, but not while he was on the witness stand. The judge explained the restriction, and Gelhaus began treating the explanation as a set of design constraints. The essential concern was whether AI-assisted organization or presentation would preserve his own language and meaning.\nHis response was the DHS Translation Protocol. It begins with the speaker’s exact words and protects their original context. Readability can be improved by arranging intact passages, identifying topics, and supplying navigation. When new explanatory language is required, that language belongs to a visibly separate AI-authored layer. Corrections, changes, source order, speaker identity, and provenance remain accessible [P1]. The related application blueprint expands this into an operational design for speech, writing, evidence, and reader-facing representations [P2].\nOnce this method existed, its wider usefulness became apparent. Schoolwork presented a closely related problem: if an AI writes a polished explanation for a student, the result can conceal what that student actually understands. A learner needs assistance without losing authorship of the answers and reasoning that demonstrate progress.\nThe next step followed naturally from Gelhaus’s own experience teaching himself unfamiliar subjects through conversation, source retrieval, functional comparisons, revisions, and experiments. What if this process could be made reproducible in software? Headmaster emerged as the educational branch: retain the original person’s voice, discover what the person understands, find what is missing, and actually teach the next step.\nThe transfer from court-related communication to education is the project’s defining design lineage. The court account describes the problem that motivated the system; the educational research examines what the resulting method can accomplish. The exact judicial wording can be cited from the record if it becomes part of a later legal or historical edition.\n3. RESEARCH PROPOSITION Headmaster’s central proposition is that source-grounded function mapping, paired with interactive teaching and learner-authored assessment, can improve the acquisition of difficult concepts.\nA conventional explanation often begins with definitions and a polished synopsis. A function-first lesson begins by asking: What is the object or claim? What does it do? What inputs or premises does it require? What mechanism connects them to an outcome? What are the limits, competing interpretations, and counterexamples?\nThis approach is particularly suited to interdisciplinary work, where familiar words may carry unfamiliar technical meanings. It can reveal hidden prerequisites while also protecting against false analogy: two systems may share a function without sharing a mechanism.\nThe testable hypothesis is that, after comparable study time, learners using source-anchored function-first tutoring will perform better on unaided explanation and novel application than learners using ordinary reference resources or a standard AI explanatory assistant. A complementary hypothesis is that keeping the learner’s exact answers and corrections will improve the accuracy of mastery assessment and continuity between teaching sessions.\nThese claims are evaluated through performance, not through the apparent fluency of the tutor.\n4. PEDAGOGICAL FOUNDATION Headmaster draws from several established lines of educational research. Concept and knowledge mapping provides ways to organize explicit relationships among ideas [R1]. The ICAP framework links the form of cognitive engagement with learning processes, giving a rationale for interactive questioning rather than passive exposure [R2]. Research on prompted self-explanation supports asking students to construct their own accounts of mechanisms and ideas [R3]. Retrieval-practice findings motivate later testing without access to the original explanation [R4]. Knowledge-tracing research provides an established precedent for estimating changing student competence from observed work [R5].\nHeadmaster combines these ideas with OOCC’s emphasis on protected source text, correction history, functional relationships, and recoverable state. Its proposed contribution lies in how these elements interact within an actual application, rather than in claiming to invent the individual educational techniques.\nThe distinction between *having encountered* an explanation and *being able to reproduce and use* the underlying idea is fundamental. Headmaster therefore stores exposure, vocabulary recognition, worked examples, independent explanation, and demonstrated transfer as different forms of evidence.\n5. FUNCTION-FIRST SOURCE MODEL The source mapper turns each studied claim into a connected instructional object. Its core fields include:\n• Source identity: author, document, revision, passage, page or section, and access rights. • Concept or object: the entity, claim, process, or system being studied. • Function: its purpose, behavior, or predicted result. • Inputs and outputs: required premises, information, materials, states, and expected consequences. • Mechanism: the logical or causal explanation of how the function operates. • Dependencies: prerequisite concepts and skills. • Constraints: conditions under which the claim applies and boundaries on its use. • Counterexamples: cases that challenge the explanation or expose its limits. • Relationships: typed links such as DEPENDS_ON, REFINES, CONTRADICTS, and RELATED_TO. • Attribution and evidence: what the original author states, what the tutor infers, and what the learner independently proposes. • Revision history: the original record together with later questions, corrections, and decisions.\nA function map is an instructional representation, not a substitute for the original paper. The source remains available for checking formal notation, qualifications, and context. Connections that merely resemble one another remain labeled as analogies until documentary or experimental evidence supports a stronger relationship.\nThis object model also provides a practical bridge to the OOCC functional-layers research, which studies recurring functions across distinct domains without treating those domains as identical [P7].\n6. THE HEADMASTER LEARNING CYCLE The application’s intended instructional cycle has six connected stages [P3].\n1. Source intake. A student chooses a subject or imports authorized material: PDFs, textbooks, notes, code, written work, video transcripts, or existing research. The system keeps the original document and reports exactly what was extracted. Local extraction and economical batching can reduce repeated paid AI calls.\n2. Concept reconstruction. Headmaster identifies chapters, sections, concepts, functions, mechanisms, dependencies, and disagreements. The relationships are linked back to passages and organized into a navigable map.\n3. Learner diagnosis. The tutor examines the learner’s own answers, not just prior exposure. It distinguishes recognized terminology from explanatory competence, uncertain understanding, missing prerequisites, and independent application. Source-authored, AI-authored, learner-authored, and unattributed text are kept separate.\n4. Lesson selection. The system chooses a specific instructional frontier: a missing prerequisite, a misunderstood mechanism, an overlooked constraint, or a promising connection to knowledge the learner already possesses.\n5. Conversational teaching. Headmaster acts as an instructor. It explains, demonstrates, asks questions, responds to confusion, proposes examples, and revises its approach. Books and videos remain instructional resources; the teaching interaction stays in Headmaster’s own chat.\n6. Independent assessment and continuity. The learner explains the material in original words, predicts outcomes under new conditions, and confronts counterexamples. Results and corrections become part of the learner’s continuing history. A later tutor can recover the authorized record and resume without pretending to be the same AI instance.\nA complete lesson therefore ends with evidence of the learner’s capability, not simply with a generated answer.\n7. LEARNER AUTHORSHIP AND CONTINUITY Headmaster’s learner record is designed to be both educational and evidentiary. It preserves the student’s exact statement, the question or task that prompted it, the source being studied, the tutor’s response, and later corrections. AI-produced prose can be useful instructional material, but it is stored under its own authorship.\nThis separation solves a practical problem in assessment. An eloquent answer copied from a model is weak evidence of personal understanding. A tentative answer, followed by targeted instruction and a later independently generated solution, is much more informative. Errors are part of the record because they help locate the lesson that should come next.\nThe application’s broader OOCC design also treats the curriculum, tutor, specialists, learner profile, and source maps as individually addressable components. Headmaster operates within the main Voltron environment while retaining its own chat and learning state. The Round Table design allows specialists to examine different aspects of a learning task under a scheduler, with the human learner participating rather than being replaced. Existing three-worker prototypes and the later four-specialist target are separate implementation stages [P4–P6].\nPersistent communication and research records allow successors to continue the work while preserving distinct writer identities. For instruction, this means a new tutor should know which concepts were taught, what the learner actually demonstrated, which misconceptions remain, and why the preceding lesson stopped.\n8. McPHETRIDGE AS THE FIRST HIGH-DIFFICULTY TEST Mitchell D. McPhetridge’s work provides a compelling first-person challenge for Headmaster. Gelhaus has described difficulty understanding McPhetridge’s technical writing despite wanting to engage with it seriously. The goal is to develop enough independent comprehension to assess the work on its own terms, including its mechanisms, assumptions, and possible weaknesses.\nThe preserved Gelhaus–McPhetridge correspondence records sustained dialogue about constraints, recursive systems, verification, and credit for borrowed ideas [P8]. That exchange establishes the context for this study. McPhetridge’s original publications, rather than summaries of the correspondence, will supply the actual teaching passages. His authorship and terminology remain intact throughout the experiment.\nThe pilot proceeds as follows. First, select an exact paper or chapter and record its version, source, and learning objectives. Second, ask Gelhaus to explain its main claim unaided, identifying what he understands and what remains opaque. Third, have Headmaster construct a bounded function map and teach the difficult passages through dialogue. Fourth, remove the teaching support and ask Gelhaus to reconstruct the argument, explain its mechanism, identify the conditions under which it holds, and evaluate a new case. Fifth, repeat the assessment after a delay and compare with the initial baseline.\nA meaningful success would be visible in the learner’s own work: accurate explanation, original examples, recognition of limitations, and the ability to distinguish McPhetridge’s argument from Gelhaus’s subsequent interpretation. This pilot can establish feasibility and generate detailed evidence; broader educational claims require additional learners and comparisons.\n9. CURRENT APPLICATION AND ENGINEERING STATUS Headmaster is already represented by a working Android prototype and a substantial set of engineering artifacts. Gelhaus reports that significant parts of the program function on his phone, while the application remains under active development. Screenshots reviewed in the engineering work show an installed v247 interface with local chat behavior and model-assignment controls [P5–P6]. The exact version currently installed on the owner’s device has not yet been established from a fresh device readout.\nThe development records describe implemented local learner-state structures, original-quotation retrieval, source-linked learning-path annotations, tutor setup, and a growing functional mapping layer. The v247 release was followed by an APK-signature repair; the v248 engineering notes report a model-catalog setup change and 74 passing host assertions [P5–P6]. The dependency audit also identifies unresolved integration work across native worker identity, source consumption, Android acceptance, and controller-issued permissions [P4].\nThe most consequential unfinished work is the complete teaching loop: robust multi-source intake, genuine model-backed conversational instruction, visible specialist coordination, independently assessed learner progress, and reliable continuation after a restart. Earlier diagnostics also report scanning and import interruptions. These are specific engineering targets within a real application, rather than placeholders for a program that has never been built.\nThe next development audit should establish a current on-device version and a feature-by-feature functional inventory, preserving the distinction between working Android behavior, host-tested source code, and planned capabilities.\n10. EXPERIMENTAL DESIGN The initial research phase is a documented single-learner pilot using one technically demanding original text. Each claim taught must have a stable source anchor. Before instruction, the learner completes a baseline explanation and predicts how a central mechanism would behave in a new example. Headmaster then teaches the material with a function map, guided dialogue, and exercises. After instruction, an evaluator scores an unaided explanation and a novel application. A delayed assessment measures retention.\nThe proposed rubric assesses five competencies, each scored from 0 to 4: source fidelity; mechanism explanation; correct premises and constraints; counterexample or transfer reasoning; and calibrated attribution and uncertainty. The 20-point total is interpreted together with the original answer record, not as an unexplained mastery label. A scorer who can read the original technical source should apply a rubric defined before the lesson.\nA second phase can compare three conditions with consenting learners and balanced study materials: ordinary source reading with reference aids; conventional AI explanation; and Headmaster’s source-linked, function-first tutoring. Study time and available materials should be comparable. Passage assignment and condition order should be counterbalanced, with blinded scoring where feasible.\nPrimary outcomes are unaided explanation accuracy and transfer to a new problem. Secondary outcomes include retention, time to an accurate account, identification of assumptions, correction of misconceptions, appropriate confidence, tutoring cost, and successful recovery of the learner state by a later session.\nThe experiment can also reveal limits. Function-first instruction may be less effective for some learners or materials; an appealing analogy may obscure formal meaning; a learner may sound fluent while failing an unfamiliar problem. Those outcomes would guide revisions to the teaching method.\n11. RESEARCH CONTRIBUTION AND NEXT STEPS Headmaster brings together three problems that are often treated separately: preserving an author’s original meaning, teaching difficult material in a usable structure, and maintaining evidence of an individual learner’s progress over time.\nThe most immediate next steps are practical. Establish the installed Android baseline and working feature inventory. Select a primary McPhetridge text. Confirm reliable extraction and source pointers. Conduct the baseline assessment. Capture one full, authorized teaching interaction and the learner’s own post-lesson response. Evaluate the result against the original text. Finally, test whether a new tutor session can reconstruct the learning state accurately from the saved records.\nThe longer-term study can determine whether the combination of functional mapping, exact learner quotations, interactive teaching, and continuity produces a measurable benefit over ordinary AI-assisted learning.\n12. CONCLUSION Headmaster began with a question about fidelity: how can AI help communicate a person’s meaning without replacing that person’s words? The DHS Translation Protocol answered by separating protected original language from AI-authored organization and explanation. Applied to education, the same principle leads to a tutor that must preserve the learner’s work while helping that learner build new capability.\nThe program now exists as an actively developed Android prototype, and its educational premise can be tested. Mitchell D. McPhetridge’s challenging technical writing offers a demanding first case. If Gelhaus can learn the material through Headmaster and subsequently explain, question, and apply it accurately in his own words, the result will provide a concrete measure of the approach’s value.\nThe central ambition is straightforward: a teacher should leave the learner able to think and explain independently.\nREFERENCES Project sources\n[P1] Gelhaus, B. (2026, October 30). DHS Translation Protocol, v0.1. https://docs.google.com/document/d/1J8BArMKAa5T69m0gMNAoGGry9-sWFADIH_S2DKznaC U/edit\n[P2] DHS Platform & The ADD Translator — Master Ideas and Application Blueprint (2026, October 30). https://docs.google.com/document/d/1Nwqso7uyWlI6uMHd3Mg8fj0flBkIdpie5ZxXEi9_Ey0/edit\n[P3] Headmaster — Full Vision & Functional Explanation (2026, November 5). https://drive.google.com/file/d/1H5XJqGuMAQoVvhWQB94cVeVjapW20dou/view\n[P4] Headmasters/OOCC — Dependency Completeness Audit v1.4 (2026, October 31). https://docs.google.com/document/d/1mlaDdyGVwrNktS-pwSpPoixlk1s5vrSg_oSVKfE4H_k/edit\n[P5] Headmasters engineering records: HM247 release and signature repair (2026, November 6). https://drive.google.com/file/d/1vgWFOduCZfA8zHTCscTKIiIt22K_nEpI/view ; https://drive.google.com/file/d/1dRRirW_Dlps75FZAK4boQS8eOAGK3Owq/view\n[P6] Headmasters HM248 engineering update (2026, November 6). https://drive.google.com/file/d/1UjMauYPL0yaexRsiojn3DiAGqBqeIXjE/view\n[P7] Functional Layers — Research Book & Trees Source Map v3 (2026, October 28; November 1 addendum). https://docs.google.com/document/d/1pqZBkPcaBrOlk7VEE4AEHXsWBX7KAfT3EI6gKwLyZ1Q /edit\n[P8] Gelhaus–McPhetridge Academia.edu conversation transcript, archived snapshot (2026, August 31). Restricted historical research source; material requires review before public quotation. https://drive.google.com/file/d/1jNPYZWg1CB8iUyq33lAMOjacNpCfVswL/view\nEducational research\n[R1] Nesbit, J. C., & Adesope, O. O. (2006). Learning with concept and knowledge maps: A meta-analysis. Review of Educational Research, 76(3), 413–448. https://doi.org/10.3102/00346543076003413\n[R2] Chi, M. T. H., & Wylie, R. (2014). The ICAP framework: Linking cognitive engagement to active learning outcomes. Educational Psychologist, 49(4), 219–243. https://doi.org/10.1080/00461520.2014.965823\n[R3] Bisra, K., Liu, Q., Nesbit, J. C., Salimi, F., & Winne, P. H. (2018). Inducing self-explanation: A meta-analysis. Educational Psychology Review, 30, 703–725. https://doi.org/10.1007/s10648-018-9434-x\n[R4] Roediger, H. L., III, & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x\n[R5] Corbett, A. T., & Anderson, J. R. (1994). Knowledge tracing: Modeling the acquisition of procedural knowledge. User Modeling and User-Adapted Interaction, 4, 253–278. https://doi.org/10.1007/BF01099821",
+        "candidates": [
+          {
+            "id": "PAPER-0005",
+            "path": "paper-0005.html",
+            "scope": "From Verbatim Evidence to Independent Un",
+            "matched": [
+              "answers",
+              "headmaster",
+              "learner",
+              "original",
+              "preserve"
+            ]
+          }
+        ],
+        "known": [
+          "answers",
+          "headmaster",
+          "learner",
+          "original",
+          "preserve"
+        ],
+        "unknown": [],
+        "matched_on": "prose",
+        "withheld": [],
+        "set_aside": [],
+        "quarantined": 0,
+        "route": [],
+        "source_authorship": {
+          "status": "unknown",
+          "verified": false,
+          "notice": "Who made this source is unknown. A person can supply a source attribution for review."
+        }
+      },
+      "identical_to_prior_except_root": true,
+      "answer_supported_field_present": false
+    },
+    {
+      "query": "source authority",
+      "kind": "ambiguous",
+      "answer": {
+        "kind": "ambiguous",
+        "question": "source authority",
+        "profile": "open",
+        "root": "/tmp/current-public-paper-ledger-qqx_76q6",
+        "reason": "no page owns this by scope, and two or more contain every word of it",
+        "id": null,
+        "path": null,
+        "hash": null,
+        "depth": null,
+        "text": "",
+        "candidates": [
+          {
+            "id": "PAPER-0001",
+            "path": "paper-0001.html",
+            "scope": "Artificial Tangibility as a Low Infrastr",
+            "matched": [
+              "authority",
+              "source"
+            ]
+          },
+          {
+            "id": "PAPER-0002",
+            "path": "paper-0002.html",
+            "scope": "CAD Control Grammar Continuity Authority",
+            "matched": [
+              "authority",
+              "source"
+            ]
+          },
+          {
+            "id": "PAPER-0003",
+            "path": "paper-0003.html",
+            "scope": "Canonical Tokens A Minimal Representatio",
+            "matched": [
+              "authority",
+              "source"
+            ]
+          },
+          {
+            "id": "PAPER-0004",
+            "path": "paper-0004.html",
+            "scope": "Condensed technical paper derived from t",
+            "matched": [
+              "authority",
+              "source"
+            ]
+          },
+          {
+            "id": "PAPER-0006",
+            "path": "paper-0006.html",
+            "scope": "No More First Dates With AI updated Publ",
+            "matched": [
+              "authority",
+              "source"
+            ]
+          },
+          {
+            "id": "PAPER-0007",
+            "path": "paper-0007.html",
+            "scope": "OOCC FUNCTIONAL LAYERS MASTER RESEARCH B",
+            "matched": [
+              "authority",
+              "source"
+            ]
+          },
+          {
+            "id": "PAPER-0010",
+            "path": "paper-0010.html",
+            "scope": "The Object as Filter The Object as Filte",
+            "matched": [
+              "authority",
+              "source"
+            ]
+          },
+          {
+            "id": "PAPER-0011",
+            "path": "paper-0011.html",
+            "scope": "BEYOND GUARDED RETRIEVAL",
+            "matched": [
+              "authority",
+              "source"
+            ]
+          }
+        ],
+        "known": [
+          "authority",
+          "source"
+        ],
+        "unknown": [],
+        "matched_on": "prose",
+        "withheld": [],
+        "set_aside": [],
+        "quarantined": 0,
+        "route": []
+      },
+      "identical_to_prior_except_root": true,
+      "answer_supported_field_present": false
+    },
+    {
+      "query": "Continuity Authority Directive",
+      "kind": "return",
+      "answer": {
+        "kind": "return",
+        "question": "Continuity Authority Directive",
+        "profile": "open",
+        "root": "/tmp/current-public-paper-ledger-qqx_76q6",
+        "reason": "exactly one current page owns this question by declared scope",
+        "id": "PAPER-0002",
+        "path": "paper-0002.html",
+        "hash": "sha256:f22ae36fd1aa45d56efc2ef2522de564e8b1412313678fb53df80c5c07289a23",
+        "depth": 0,
+        "text": "CAD Control Grammar Continuity Authority\nCAD Control Grammar Continuity, Authority, Directive: A Plain-Language Control Grammar for AI Work Benjamin Gelhaus Independent Researcher Abstract Long-running AI-assisted work often fails not because the system lacks information, but because the runtime cannot reliably determine what must survive, what governs, and what action is safe now. This paper proposes Continuity, Authority, and Directive (CAD) as a plain-language control grammar for discontinuous AI collaboration. Continuity names what must carry across runtime breaks. Authority distinguishes source, draft, current, historical, blocked, promoted, and off-limits material. Directive constrains the next permissible action. Together, these three terms form a lightweight governance layer that can be attached to project objects, retrieval results, memory traces, receipts, drafts, and handoff notes. The paper argues that CAD is not merely prompt-level guidance. Prompting is the delivery surface; CAD is the structured policy layer carried through that surface. It turns unstructured context extension into structured context extension by giving the runtime a minimal re-entry interface: the current object map, authority state, boundary conditions, weight, and next safe action. Its testable value lies in improved re-entry, source/current distinction, reduced context burden, error diagnosis, safe action selection, and handoff quality. Keywords: AI continuity, human-AI interaction, AI governance, context engineering, runtime orientation, source authority, directive control, AI state management, structured context, recoverable handoff This paper is the third paper in a sequence on AI-facing project structure. Artificial Tangibility (Gelhaus, 2026a) argues that non-embodied AI runtimes benefit from bounded objects that carry usable structure. A companion paper (Gelhaus, 2026b) situates that argument against existing AI state-management patterns, including retrieval-augmented generation, agent memory, and blackboard coordination. The present paper focuses on the control grammar those objects need. Its claim is not that three words can solve all AI governance problems. Its claim is that long-running AI work needs a simple, human-readable way to separate persistence, authority, and action. CAD is proposed as that minimal grammar. 1. The Problem: Fluency Without Governance A language model can sound aligned with a project while being wrong about the state of the project. It may summarize an old draft well. It may continue a rejected route fluently. It may identify a relevant source while misunderstanding whether that source governs the present task. It may produce useful language while crossing a boundary the human assumed was obvious. This failure is not merely a failure of intelligence or effort. It is a failure of governance. The runtime has access to language but not enough declared structure. It can infer meaning locally, yet still misread what must survive, what counts as source, and what action is permitted now. Long-running AI-assisted work therefore needs more than better prompts, more memory, or larger context windows. It needs a control grammar: a small set of durable questions that can travel with the work and constrain how a runtime re- enters it. Continuity, Authority, and Directive are proposed as such a grammar. Each term names a different runtime risk. Continuity protects against loss. Authority protects against confusion. Directive protects against overreach. 2. Context Without Schema A common response to runtime drift is to provide more context. The user may paste more history, attach more files, summarize more background, or ask the model to consider everything. This often helps, but only when the added material is already shaped. Without declared structure, extended context can arrive as an undifferentiated context cloud. The runtime must infer, during generation, which parts are source, which are draft, which are stale, which are private, which are governing, which are background, and which action is allowed. The model is then forced to interpret the task and invent the schema of the workspace at the same time. CAD reverses that burden. It presents context as a structured interface before generation begins. Instead of asking the runtime to sort a pile of language, CAD declares the relevant objects, their authority states, their boundaries, their relations, their weights, and their next safe actions. This is not a stylistic improvement. It is a change in load pattern. The runtime is no longer asked to discover the project map from raw text. It receives the map first. 3. Why Continuity Alone Is Not Enough Continuity asks: what must survive the runtime? In discontinuous AI work, the runtime is not the durable carrier of the project. A session can end, a context window can fill, a tool can fail, a model can change, or a different runtime can enter later. If the project depends on the runtime remembering what happened, the project remains fragile. Continuity externalizes what must carry forward. It preserves active objects, governing sources, unresolved blockers, decisions, open questions, receipts, and next actions. It turns memory from a private session property into a project property. But continuity by itself is not enough. Preserving everything can preserve confusion. A project may contain old drafts, rejected ideas, repaired mistakes, private notes, public claims, speculative language, and current source material. If all of that survives without hierarchy, the next runtime has continuity but no governance. This is why the first term must be paired with the second. Continuity says what survives. Authority says what governs. 4. Authority as the Anti-Confusion Layer Authority asks: what counts as source, current, draft, historical, blocked, promoted, or off-limits? Authority is the anti-confusion layer of AI work. Without it, the runtime may treat polished text as governing simply because it is polished. It may treat repeated language as truth because it appears in several places. It may treat a retrieved document as current because retrieval made it visible. It may treat a completed draft as a public claim because the draft sounds complete. Authority separates existence from permission. A file may exist without governing. A receipt may prove that something happened without making it canonical. A draft may be valuable without being promoted. A source may govern one task but not another. A private constraint may shape reasoning without becoming public language. Authority also protects the human from the re-entry burden. Instead of re-explaining every hierarchy at the start of each session, the project can declare authority states in the objects themselves: current source, historical source, active draft, parked seed, blocked claim, internal note, promoted artifact, or public release. A runtime that knows authority can be corrected more precisely. The human no longer has to say, “That is wrong” in a general way. The human can say: you treated a draft as source, you treated a parked object as active, you promoted without authority, or you used a historical object as current. 5. Directive as the Anti-Overreach Layer Directive asks: what is the next safe action? Even when continuity and authority are clear, a runtime can still act too broadly. It may understand the project and still make an unauthorized move. It may summarize when it should verify, rewrite when it should append, merge when it should compare, publish when it should wait, or continue when access failure requires a stop. Directive reduces the action space. It turns general project understanding into a bounded next move: read first, compare only, summarize the active source, append a receipt, draft the next section, verify authority, stop if access fails, wait for human review, or do not touch this object. The directive is not merely a task instruction. It is a governance device. It tells the runtime how far its permission extends in the present moment. This matters because language models are optimized to continue. In many situations, continuation is useful. In governed work, unbounded continuation can be dangerous. Directive interrupts that momentum and replaces it with accountable movement. 6. CAD as a Minimal Runtime Governance Grammar Continuity, Authority, and Directive work together because they answer three different questions that a discontinuous runtime cannot safely infer on its own. Continuity: what must survive? Authority: what governs? Directive: what is safe now? These questions are deliberately plain. They do not require the runtime to import a complex theory before acting. They can be placed in project notes, handoff files, retrieval metadata, state boards, receipts, source maps, task tickets, or prompt templates. The point is not the format. The point is the separation of functions. When the three functions collapse into one instruction, errors become harder to diagnose. For example, a note that says “continue the paper” may hide multiple assumptions: which version of the paper, under what authority, with what boundaries, using what source, and toward what next action? CAD forces those assumptions into visible fields. The grammar can be attached to any AI-facing object. A source document can declare its continuity role, authority status, and permitted next actions. A draft can declare that it is active but not promoted. A receipt can declare what changed and what should happen next. A retrieval result can be treated as relevant but not governing until authority is checked. 7. Prompt Surface and Control Structure CAD should not be reduced to prompt engineering. Prompting is the visible delivery surface, but CAD is the structured policy layer carried through that surface. The runtime receives natural language, but the operative content is a governance model. A one-off prompt says: do this task. CAD says: this object exists, this object has this status, this source governs, this boundary cannot be crossed, this operation is allowed, this operation is forbidden, and this is the next safe move. In this sense, CAD functions less like ordinary prompting and more like a lightweight policy language for AI-assisted work. It combines the routing logic of directory services, the constraint logic of policy systems, and the accessibility of natural language. Its purpose is to tell a discontinuous runtime what object exists, what authority it carries, where it belongs, and what operation is safe now. The analogy to programming language is bounded but useful. CAD is not a programming language in the conventional compiler or runtime sense. It is a language layer for governing AI work. Like mature programming languages, it expands beyond isolated commands into objects, permissions, scope, state, authority, allowed operations, blocked operations, and error handling. The prompt is therefore not the architecture. The prompt is the carrier. The structure hidden behind the words is what makes the system work. 8. Structuralized Context Extension CAD also changes how extended context is loaded. In many workflows, context extension means placing more history into the runtime’s active window. This can increase available information while also increasing ambiguity, distraction, and stale- state risk. CAD turns context extension into structured context extension. The runtime does not need to reload the whole project. It needs the current object map, authority state, boundary conditions, object weight, and next safe action. This reduces re-entry cost. A future runtime can enter through a minimal interface rather than through an entire unfiltered archive. The active structure points to the materials that matter now and explains how they should be treated. This claim should be evaluated as an operational mechanism rather than a universal benchmark. In practice, structuralized context can allow large, multi-document, multi-runtime projects to remain workable because the system does not ask each runtime to ingest the whole history again. It asks the runtime to load the interface to the project state. The result is a smaller and cleaner context hit: not less project knowledge, but less unstructured project burden. 9. Failure Modes: Lost, Confused, and Mishandled Objects The CAD grammar provides a useful error taxonomy. Without continuity, the runtime loses the object. The work may have happened, but the next session cannot recover it. The human has to reconstruct the room from memory. Without authority, the runtime confuses the object. It may find the object but misunderstand its status. It may treat draft as source, old as current, private as public, parked as active, or rejected as live. Without directive, the runtime mishandles the object. It may understand what the object is and still act beyond permission. It may rewrite when it should read, publish when it should wait, or mutate a source when it should preserve it. This taxonomy makes failure more repairable. Instead of treating AI drift as a vague malfunction, the system can ask: was this a continuity error, an authority error, or a directive error? That question turns confusion into telemetry. 10. Relationship to Prompting, Memory, Retrieval, and Tool Use CAD does not replace prompting. It gives prompting structure. A prompt no longer has to carry the whole project if the objects around the prompt carry continuity, authority, and directive. CAD does not replace memory. It governs what memory means. A remembered or retrieved item may still need an authority state before the runtime acts on it. CAD does not replace retrieval. It controls how retrieved material is handled. Retrieval can surface a candidate object; CAD helps determine whether that object governs, informs, warns, or remains background. CAD does not replace tool use or agent loops. It constrains them. A tool-using agent still needs to know whether the current action is allowed, whether the source can be modified, and whether the next move requires human review. CAD does not replace human-in-the-loop design. It clarifies where the human must remain authoritative. It gives the runtime a visible reason to stop, wait, verify, or ask for review rather than silently converting uncertainty into action. 11. CAD and Artificial Tangibility Artificial Tangibility (Gelhaus, 2026a) names the way bounded objects give non- embodied runtimes operational grip. CAD supplies the governance grammar for those objects. An object without CAD may be named but under-specified. The runtime may know that the object exists without knowing whether it must survive, whether it governs, or what action is safe next. CAD turns the object from a handle into a governable unit of work. The relationship can be stated simply: Artificial Tangibility gives the runtime something to hold. CAD tells the runtime how that object must be preserved, trusted, and acted upon. This is especially important in high-context work involving drafts, sources, private boundaries, public claims, multiple tools, or long handoffs. In such work, the difference between an object and a governed object is the difference between local coherence and recoverable project movement. 12. Evaluation Criteria CAD should be evaluated operationally. It should not be accepted merely because the vocabulary is useful. The first criterion is re-entry quality. A future runtime should enter a project faster and with less human reconstruction when continuity objects are explicit. The second criterion is source-current distinction. The runtime should make fewer errors that come from treating old, draft, or background material as current authority. The third criterion is context burden. The runtime should require less raw history when the project provides a structuralized re-entry interface. The fourth criterion is safe action selection. The runtime should choose narrower and more appropriate actions when directives are explicit. The fifth criterion is error catchability. When the runtime fails, the failure should be easier to classify as continuity, authority, directive, schema, or boundary error. The sixth criterion is handoff quality. A CAD-governed handoff should tell the next runtime what survived, what governs, what is blocked, and what action is safe now. The seventh criterion is human burden. CAD should reduce the amount of repeated explanation required from the human at each new session. These criteria make the paper’s claim testable. If CAD does not improve re-entry, authority distinction, context burden, safe action, error diagnosis, or handoff quality, the grammar should be revised. 13. Boundary Conditions and Limits CAD is not a complete safety system. It does not guarantee factual correctness, prevent all hallucination, enforce access control by itself, or replace formal security infrastructure. It is a governance grammar, not a total architecture. CAD also depends on disciplined use. If continuity objects are stale, authority labels are inaccurate, directives are vague, or the structural interface is not maintained, the grammar can reproduce confusion rather than solve it. The method is most useful where project state matters across sessions: research, writing, analysis, software planning, multi-document review, claim-sensitive work, or human-AI collaboration across multiple tools. For simple one-off tasks, CAD may be unnecessary. A casual rewrite or single-turn question does not require a full continuity grammar. The method matters most when the cost of drift, stale context, or unauthorized action is high. 14. Conclusion Continuity, Authority, and Directive form a minimal control grammar for long- running AI-assisted work. Continuity preserves what must survive. Authority declares what governs. Directive constrains what action is safe now. The grammar is useful because it separates failures that otherwise blur together. A runtime can lose the object, confuse the object, mishandle the object, or drown inside unstructured context. CAD makes those failures nameable and therefore more repairable. The broader significance is practical. AI runtimes do not need to be treated as continuous selves in order to participate in complex work. They need project environments that externalize continuity, declare authority, constrain action, and structuralize context before generation begins. The final claim is modest but operational: long-running AI collaboration improves when humans do not merely give models more context, but give them governed objects - objects that say what must survive, what governs, what is safe now, and how the runtime can re-enter without carrying the entire archive. References Clark, Andy, and David J. Chalmers. “The Extended Mind.” Analysis 58, no. 1 (1998): 7-19. Gelhaus, Benjamin. “Artificial Tangibility: Why Object Orientation Works for AI Runtimes.” Manuscript, 2026a. Gelhaus, Benjamin. “Artificial Tangibility as a Low-Infrastructure Governance Layer for AI State Management.” Manuscript, 2026b. Hutchins, Edwin. Cognition in the Wild. Cambridge, MA: MIT Press, 1995. Liu, Nelson F., Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, and Percy Liang. “Lost in the Middle: How Language Models Use Long Contexts.” arXiv preprint arXiv:2307.03172 (2023); Transactions of the Association for Computational Linguistics (2024). Norman, Donald A. The Design of Everyday Things. Revised and Expanded Edition. New York: Basic Books, 2013. World Wide Web Consortium. Accessible Rich Internet Applications (WAI-ARIA) 1.2. W3C Recommendation, June 6, 2023. Yao, Shunyu, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. “ReAct: Synergizing Reasoning and Acting in Language Models.” arXiv preprint arXiv:2210.03629 (2022).",
+        "candidates": [
+          {
+            "id": "PAPER-0002",
+            "path": "paper-0002.html",
+            "scope": "CAD Control Grammar Continuity Authority",
+            "matched": [
+              "authority",
+              "continuity"
+            ]
+          }
+        ],
+        "known": [
+          "authority",
+          "continuity",
+          "directive"
+        ],
+        "unknown": [],
+        "matched_on": "scope",
+        "withheld": [],
+        "set_aside": [],
+        "quarantined": 0,
+        "route": [],
+        "source_authorship": {
+          "status": "unknown",
+          "verified": false,
+          "notice": "Who made this source is unknown. A person can supply a source attribution for review."
+        }
+      },
+      "identical_to_prior_except_root": true,
+      "answer_supported_field_present": false
+    },
+    {
+      "query": "What is the capital of France?",
+      "kind": "not_in_corpus",
+      "answer": {
+        "kind": "not_in_corpus",
+        "question": "What is the capital of France?",
+        "profile": "open",
+        "root": "/tmp/current-public-paper-ledger-qqx_76q6",
+        "reason": "no current page declares most of this question, and no page contains every word of it",
+        "id": null,
+        "path": null,
+        "hash": null,
+        "depth": null,
+        "text": "",
+        "candidates": [],
+        "known": [],
+        "unknown": [
+          "capital",
+          "france"
+        ],
+        "matched_on": "",
+        "withheld": [],
+        "set_aside": [],
+        "quarantined": 0,
+        "route": []
+      },
+      "identical_to_prior_except_root": true,
+      "answer_supported_field_present": false
+    },
+    {
+      "query": "unprepared original source records",
+      "kind": "return",
+      "answer": {
+        "kind": "return",
+        "question": "unprepared original source records",
+        "profile": "open",
+        "root": "/tmp/current-public-paper-ledger-qqx_76q6",
+        "reason": "no page owns this by scope; exactly one contains every word of it",
+        "id": "PAPER-0011",
+        "path": "paper-0011.html",
+        "hash": "sha256:e5d7d064d62d931b4886749571d3f17b5040a4f5937fe976c6d533285cede635",
+        "depth": 0,
+        "text": "BEYOND GUARDED RETRIEVAL\nBEYOND GUARDED RETRIEVAL | GELHAUS 2026 The most practical path forward preserves the existing source-authority machinery and introduces targeted extensions: precise refusal diagnostics, exact-field source routing, event candidates distinct from their documentary appearances, versioned correction relationships, and optional evidence-gated relation exploration. Those extensions admit concrete tests and provide McPhetridge with incremental opportunities to improve coverage without compromising the safeguards that already work. The OOCC development record supplies a related methodological lesson. V3 succeeded V2 through a documented history of tests, negative findings, and implementation changes. An external critique of one version must be dated and tested against that version’s actual evidence; conclusions cannot be inherited unchanged after revisions. Applying the same standards of chronology, source identity, and measurable outcome to both architectures turns comparative criticism into an engineering instrument rather than a contest of presentation or assertion. References Public implementation and original-author documentation [M0] Mitchell D. McPhetridge, Combined MPLPB , pinned tested revision 257e54a51edac272eb6b2441457f38a40485ee4d. https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/tree/257e54 a51edac272eb6b2441457f38a40485ee4d [M1] McPhetridge, Deterministic source-evidence graph , pinned commit. https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/257e54 a51edac272eb6b2441457f38a40485ee4d/docs/DETERMINISTIC_EVIDENCE_GRAPH.md [M2] McPhetridge, General answer pipeline — 2.1.0rc1 , pinned commit. https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/257e54 a51edac272eb6b2441457f38a40485ee4d/docs/GENERAL_ANSWER_PIPELINE.md [M3] McPhetridge, Supersession policy examples , pinned commit. https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/257e54 a51edac272eb6b2441457f38a40485ee4d/docs/SUPERSESSION_POLICY.md [M4] McPhetridge, Specialist continuity: durable work and guarded handoffs , pinned commit. https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/257e54 a51edac272eb6b2441457f38a40485ee4d/docs/SPECIALIST_CONTINUITY.md [M5] McPhetridge, Intended scope, completeness and production readiness , pinned commit. https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/257e54 a51edac272eb6b2441457f38a40485ee4d/docs/PRODUCTION_READINESS.md [M6] McPhetridge, Multi-Platform Linked Public Building as a Cognitive Strategy ; related Smart Local, Networked MPLPB, Swarm MPLPB and SCOPE research. https://github.com/mitchell-d00/Multi-Platform-Linked-Public-Building-as-a-Cognitive-Strategy- Experimental records and OOCC studies [O1] Gelhaus, A Full Evaluation and Critique of Multi-Platform Linked Public Building , 14 November 2026. Original comparative manuscript and native fixture package; privately archived. [O2] Private OOCC case-crawl records: BATCH0010 receipt describing 4,113 cumulative typed edges, separate Drive BATCH0010 ZIP containing 3,962 machine-counted edge rows and 44 relationship types, integrity manifests, version-conflict erratum and predecessor ZIPs. Primary source material retained privately and is not furnished to the intended external reader. [E0] MPLPB × OOCC native 15-page fixture , pinned Combined MPLPB v2.1.0rc1, test runner and source receipts, 14 November 2026. Private Drive reproducibility package with sanitized fictional/case-derived fixture. [E1] MPLPB Extended Benchmark Sanitized Results , MPLPB_Extended_Benchmark_Sanitized_Results_2026-11-14.json; local 3,962-edge transfer and 72 questions. Aggregate results only. BENJAMIN GELHAUS · 14 NOVEMBER 2026 | 14 BEYOND GUARDED RETRIEVAL | GELHAUS 2026 [E2] Independent Synthetic Stress Packet , 64 sealed fictional pages, 5,120 relation statements, seven corpus sizes, MPLPB_Synthetic_Scaling_Probe_results.json and upstream 58-test log, 14 November 2026. Contains no private source data. [E3] Mitch Source-First Engineering Challenge , source-excerpt pilot, native passage metrics and six calibration tests, with separate private and shareable packets, 14 November 2026. [E4] 515-Page Engineering Challenge , sanitized 119-question scores, frozen holdout checksum bb64378ce1ead4309d0afd4d13061c13c465e6c825ee293abc9546a889e00276, and private original page/anchor maps, 14 November 2026. [E5] Relational Event Reconstruction Engineering Challenge , 57-question frozen header benchmark checksum 947412148d5c974f180859ca4752ef667e209aded6fffbe17483c27ddfe80714, separate wholly fictional seven-page fixture and private source-linked reproduction, 14 November 2026. Historical evidence and evaluation methods [H1] Gelhaus–McPhetridge Academia.edu correspondence, original saved 605-message source-derived transcript, August 2026 snapshot; includes an early user-reported set of field diagnostics and a separately attributed four-class scale critique. Original raw messages and personal correspondence remain in a restricted archive. This paper does not reproduce their private contents or treat either participant’s pasted AI-generated commentary as independent evidence. [H2] Same correspondence, separately retained November 9 continuation (messages 606–658), including the author’s retrospective account of ideas learned versus technologies later implemented. Relative display dates and original wording are preserved privately. Retrospective narratives are not substitutes for contemporaneous code evidence. [O3] CRAWL-V2-001 — CP045 Verified Successor Handoff and Source Router , 22 October 2026. Legacy predecessor V2; V3 is the successor architecture. Identifies a verified archive and independent integrity readbacks, a deliberately failed canary, and stated limitations. Private repository-owned Drive original; exact file ID and supporting source mappings withheld from the public supplement. [O4] V3 CP005 — Technical Checkpoint / Retrieval and Timeline Evidence and V3 CP005 — T2 Hybrid Counterfactual / Equal-Budget Ablation , 1 November 2026. Successor V3 development evidence, not a parallel V2 run. Source SHA and post-hoc labels, fixed 35-slot result table, negative outcomes, and limits documented in original research files. Historical source archive remains private. [O5] HLC-SHARD-09 — CP014 Kernel Genesis and Version-Propagation Gate , 30 October 2026. Dated code-introduction and host-test references, plus explicit non-propagation finding. Public GitHub commits for independently inspectable code provenance: https://github.com/MrMeNotU/OOCC/commit/ab800adb9de5be4e922bf2f5f01ea0bef3c76589 and https://github.com/MrMeNotU/OOCC/commit/ceb0be2ec2435556fa2912656977385129b4654 . Host-test outcomes separately scoped in the original audit. [O6] OOCC V2 A10 ten original graph checkpoints and V2 B8 ten bounded source-depth checkpoints , 6–7 November 2026. Historical V2-family contract invocations; V2 does not remain the current crawler architecture. Reports distinguish full export topology from sampled semantic readings and report unsupported historical claims as unresolved; private original custody preserved. [R1] Comparative Evaluation Error Audit , 14 November 2026. Private research-session record of source-order, chronology, and evidence-weighting errors; hypotheses about causal mechanisms are catalogued separately. [O7] V3-BB-01-CURRENT — Current V3 A/B Crawler Blackboard , 1 November 2026; current accessible working-state version re-read on 14 November 2026. Describes CRAWL-V3 as the successor crawler, records distinct A/B lanes and source/checkpoint routing, and explicitly labels native controller operation, recipient acceptance and unattended execution as unverified. This is a working-state candidate, not the sole governing OOCC orientation. Private source custody retained; original ID withheld from public supplement. Appendix A. Acceptance tests for proposed extensions The acceptance suite should pin code revision, configuration, source bytes, field normalization, external-model settings and computational budgets before each run. Hidden questions must remain separate from development examples. BENJAMIN GELHAUS · 14 NOVEMBER 2026 | 15 BEYOND GUARDED RETRIEVAL | GELHAUS 2026 1. No regression in source authority. Existing integrity, supersession, restricted-source, conflict and negative controls must retain their answer support and refusal decisions. 2. Improved diagnostic truthfulness. Unsupported question grammar, absent eligible source, known source conflict, insufficient evidence and index-exhaustion must be separately labeled. 3. Exact identifiers without false pruning. Exact field/quote routing must improve source location in held-out cases without dropping contradictory eligible passages; test zero, one and multiple matches. 4. Distinct event identities. Multiple appearances of one message remain distinguishable source occurrences; equal subject lines must not force identity; changed bodies must trigger review. 5. Time-scoped correction. A later partial correction changes only its specified claim while retaining the original statement, provenance and prior assessment. 6. Candidate inference remains a candidate. Missing intermediate evidence stops the proposed relation; exploratory outputs do not appear as deterministic supported answers. 7. Operational receipts remain independent. Stored, dispatched, delivered, read, acknowledged and completed are distinct outcomes; every transition requires the designated evidence. 8. Measure operator burden. Report human labeling and correction time, CPU time, memory, bytes scanned, source-count coverage and false-bridge rates alongside top-k retrieval. The decisive falsifier of the present capability-gap claim is an identifiable, independently examined MPLPB implementation that reconstructs these relationships from unprepared original source records , with credible source citations, useful recall, low false-positive rates and no degradation of its existing authority protections. A reciprocal evaluation of OOCC should use the same original-source access, version pins, blinded scoring and error metrics, while also measuring workflow benefits not shared by the two intended designs. An early critical claim about OOCC is falsified only by evidence attached to the correct date and technical mechanism, not by an unrelated later success. BENJAMIN GELHAUS",
+        "candidates": [
+          {
+            "id": "PAPER-0011",
+            "path": "paper-0011.html",
+            "scope": "BEYOND GUARDED RETRIEVAL",
+            "matched": [
+              "original",
+              "records",
+              "source",
+              "unprepared"
+            ]
+          }
+        ],
+        "known": [
+          "original",
+          "records",
+          "source",
+          "unprepared"
+        ],
+        "unknown": [],
+        "matched_on": "prose",
+        "withheld": [],
+        "set_aside": [],
+        "quarantined": 0,
+        "route": [],
+        "source_authorship": {
+          "status": "unknown",
+          "verified": false,
+          "notice": "Who made this source is unknown. A person can supply a source attribution for review."
+        }
+      },
+      "identical_to_prior_except_root": true,
+      "answer_supported_field_present": false
+    }
+  ],
+  "all_identical_except_root": true
+}

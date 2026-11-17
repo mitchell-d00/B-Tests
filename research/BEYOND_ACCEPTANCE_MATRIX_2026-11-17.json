@@ -1,0 +1,243 @@
+{
+  "evaluated_revision": "ccbb5804eb47f78c2338d57c142ad087b47be710",
+  "status_legend": "Already present means before the critique in the Combined lineage; newly added means absent from tested pin and added after the stated paper date; partially present separates bounded implemented portions from open requirements. These labels are not PASS/FAIL outcomes.",
+  "requirements": [
+    {
+      "id": "authority",
+      "implementation_status": "already present",
+      "gelhaus_citation": "\u00a73.1\u20133.4; Appendix A1 (pp.3\u20134,16)",
+      "current_scope": "Integrity, eligibility, supersession, finite support and guarded work existed in the tested pin. Current controls retain them.",
+      "source_links": [
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_combined/provenance_gate.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_combined/ledger.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/store.py"
+      ],
+      "executed_control": "authority-corrupt; authority-restricted; authority-conflict; seven work-boundary probes",
+      "software_control_outcome": "PASS",
+      "independent_acceptance": "INCONCLUSIVE",
+      "limit": "No universal factual-truth guarantee; hashes and permission are not truth."
+    },
+    {
+      "id": "diagnostics",
+      "implementation_status": "partially present",
+      "gelhaus_citation": "P0, pp.8\u20139; Appendix A2",
+      "current_scope": "The old contract already separated several answer states. Current code adds finer categories, counts, reasons and next steps. Ben proposes uppercase labels; the implementation uses its own codes.",
+      "source_links": [
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_answers/pipeline.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/investigation.py"
+      ],
+      "executed_control": "diagnostic-grammar; diagnostic-absence; diagnostic-evidence; diagnostic-exhaustion; diagnostic-known-conflict",
+      "software_control_outcome": "PASS",
+      "independent_acceptance": "INCONCLUSIVE",
+      "limit": "Measured reduction of diagnostic confusion on independent questions remains INCONCLUSIVE."
+    },
+    {
+      "id": "exact-routing",
+      "implementation_status": "partially present",
+      "gelhaus_citation": "P1, p.9; Appendix A3",
+      "current_scope": "Native exact source/version routing and field-aware support are implemented; zero/one/multiple-match and contradiction controls pass.",
+      "source_links": [
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_answers/pipeline.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_answers/relation_graph.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/investigation.py"
+      ],
+      "executed_control": "exact-route-zero; exact-route-one; exact-route-many; contradiction-not-pruned",
+      "software_control_outcome": "PASS",
+      "independent_acceptance": "INCONCLUSIVE",
+      "limit": "Ben's pinned original-source recall comparison and new blinded recall study remain NOT_RUN."
+    },
+    {
+      "id": "evidence-classes",
+      "implementation_status": "partially present",
+      "gelhaus_citation": "P1, p.9",
+      "current_scope": "Documentary layers, exact original spans and candidate channels are separated. The sorter supplies provisional classes, not automatic authentication of originals or analysts.",
+      "source_links": [
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_answers/source_units.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/sorter.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_answers/prose_retrieval.py"
+      ],
+      "executed_control": "full native source-layer and quote/plan tests; sorter mode audit",
+      "software_control_outcome": "PASS",
+      "independent_acceptance": "INCONCLUSIVE",
+      "limit": "Reliable general classification of primary versus quoted/analyst content is not established."
+    },
+    {
+      "id": "occurrences",
+      "implementation_status": "newly added",
+      "gelhaus_citation": "P1, p.9; Appendix A4",
+      "current_scope": "Explicit source occurrence and source-declared event candidates are distinct. Duplicate occurrences and changed bodies remain inspectable. No shared-subject automatic identity.",
+      "source_links": [
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/event_candidates.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/sorter.py"
+      ],
+      "executed_control": "event-occurrences; event-candidates; event-subject-collision; event-message-duplicates; event-message-changed",
+      "software_control_outcome": "PASS",
+      "independent_acceptance": "INCONCLUSIVE",
+      "limit": "Historical event identity and recall on unprepared independent records remain INCONCLUSIVE."
+    },
+    {
+      "id": "temporal-corrections",
+      "implementation_status": "partially present",
+      "gelhaus_citation": "P2, p.9; Appendix A5",
+      "current_scope": "Historical revision retention existed; scoped exact-span corrections, time-qualified fields and date-role distinctions extend it. Sorter correction windows are proposals with applied:false.",
+      "source_links": [
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_answers/corrections.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_combined/ledger.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_answers/documentary_verify.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/sorter.py"
+      ],
+      "executed_control": "partial-correction; correction-history; correction-ambiguous-span; correction-source-stale; native temporal-role tests",
+      "software_control_outcome": "PASS",
+      "independent_acceptance": "INCONCLUSIVE",
+      "limit": "General temporal relation graph, uncertain-date resolution and blind partial-retraction gold accuracy remain open."
+    },
+    {
+      "id": "candidate-composition",
+      "implementation_status": "partially present",
+      "gelhaus_citation": "P2, pp.9\u201310; Appendix A6",
+      "current_scope": "Opt-in investigation/reconstruction retains source anchors and unresolved bridges. Finite documentary rules check bounded propositions. Sorter compare appends review edges only.",
+      "source_links": [
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/investigation.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/prose_relations.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_answers/documentary_verify.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/sorter.py"
+      ],
+      "executed_control": "missing-bridge; negated-bridge; crawl-conditional-related; sorter edge-only mode audit",
+      "software_control_outcome": "PASS",
+      "independent_acceptance": "INCONCLUSIVE",
+      "limit": "Arbitrary multi-hop inference and independently labeled historical path accuracy remain INCONCLUSIVE."
+    },
+    {
+      "id": "receipt-states",
+      "implementation_status": "partially present",
+      "gelhaus_citation": "\u00a76.4 p.8; Appendix A7",
+      "current_scope": "Native work fencing and receipt types separate operations. Local-artifact checking verifies bytes; expert software-role receipts do not claim AI-provider READ/ACK.",
+      "source_links": [
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/store.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/local_artifacts.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/investigation.py"
+      ],
+      "executed_control": "receipt-boundary; receipt-three-experts; receipt-no-provider; receipt-no-completion-promotion; native local storage tests",
+      "software_control_outcome": "PASS",
+      "independent_acceptance": "INCONCLUSIVE",
+      "limit": "Independent external delivery/read/acknowledgment/completion is NOT_RUN."
+    },
+    {
+      "id": "scale-budgets",
+      "implementation_status": "partially present",
+      "gelhaus_citation": "P3 p.10; Table5 p.12",
+      "current_scope": "Current evidence paths expose budgets, stop reasons and bounded caches; current runs retain wall time, CPU/allocation/source-read metrics where implemented.",
+      "source_links": [
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_answers/passages.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_answers/prose_retrieval.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/sorter.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_combined/record.py"
+      ],
+      "executed_control": "crawl-zero-hop; crawl-one-source; diagnostic-exhaustion; native cache and changed-source tests",
+      "software_control_outcome": "PASS",
+      "independent_acceptance": "INCONCLUSIVE",
+      "limit": "Comparable repeated scaling against the old implementation and operator-effort advantage are not established."
+    },
+    {
+      "id": "human-burden",
+      "implementation_status": "still open",
+      "gelhaus_citation": "\u00a79.2 p.11; Appendix A8",
+      "current_scope": "Compute/source metrics are measured but actual human labeling, correction and re-entry labor were not recruited or timed. Unknown stays unknown.",
+      "source_links": [
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/tools/evaluate_public_evidence.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/tools/evaluate_sorter.py"
+      ],
+      "executed_control": "burden-metrics (measured_compute_unknown_human_time)",
+      "software_control_outcome": "NOT_RUN",
+      "independent_acceptance": "NOT_RUN",
+      "limit": "The control checks truthful reporting of missing human time; it is not an operator-burden study."
+    },
+    {
+      "id": "immutable-source-stage",
+      "implementation_status": "already present",
+      "gelhaus_citation": "Proposed architecture stage1, p.10",
+      "current_scope": "Local sealed source records and version retention predate the critique. Earlier portable/residual projects independently demonstrate related bounded consistency/recovery controls.",
+      "source_links": [
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_combined/record.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_combined/ledger.py"
+      ],
+      "executed_control": "full native integrity tests; predecessor synthetic controls",
+      "software_control_outcome": "PASS",
+      "independent_acceptance": "INCONCLUSIVE",
+      "limit": "Authentication, factual accuracy and scientific priority do not follow."
+    },
+    {
+      "id": "eligibility-stage",
+      "implementation_status": "already present",
+      "gelhaus_citation": "Architecture stage2, p.10",
+      "current_scope": "Current profile/source/lineage rules remain separate from support. Sorter snapshot is retired and external=no.",
+      "source_links": [
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_combined/provenance_gate.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/sorter.py"
+      ],
+      "executed_control": "all three sorter gate/ask profiles with old reader",
+      "software_control_outcome": "PASS",
+      "independent_acceptance": "INCONCLUSIVE",
+      "limit": "Storage/inspection is not promotion or support."
+    },
+    {
+      "id": "locator-stage",
+      "implementation_status": "partially present",
+      "gelhaus_citation": "Architecture stage3, p.10",
+      "current_scope": "Exact fields, quote matching, passage retrieval and source coordinates are implemented in bounded interfaces.",
+      "source_links": [
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_answers/pipeline.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_answers/passages.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_answers/source_units.py"
+      ],
+      "executed_control": "exact-route-* and full native passage tests",
+      "software_control_outcome": "PASS",
+      "independent_acceptance": "INCONCLUSIVE",
+      "limit": "General relevance/Recall@k on Ben's private gold corpus remains NOT_RUN."
+    },
+    {
+      "id": "relation-workspace-stage",
+      "implementation_status": "partially present",
+      "gelhaus_citation": "Architecture stage4, p.10",
+      "current_scope": "Candidate/review histories are reversible; query graphs preserve unresolved connections. Whole-corpus automatic historical identity maintenance is not established.",
+      "source_links": [
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/prose_relations.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/historical_review.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/source_mapping.py"
+      ],
+      "executed_control": "full native reconstruction/review tests; sorter audit",
+      "software_control_outcome": "PASS",
+      "independent_acceptance": "INCONCLUSIVE",
+      "limit": "A usable graph and accumulated history do not prove historical causation."
+    },
+    {
+      "id": "answer-review-stage",
+      "implementation_status": "already present",
+      "gelhaus_citation": "Architecture stage5, pp.10\u201311",
+      "current_scope": "Strict, assisted, candidate and action states remain distinct. New documentary proofs do not award historical truth.",
+      "source_links": [
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_answers/pipeline.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_answers/documentary_verify.py",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/mplpb_work/store.py"
+      ],
+      "executed_control": "full native suite; public 52 cases",
+      "software_control_outcome": "PASS",
+      "independent_acceptance": "INCONCLUSIVE",
+      "limit": "Separate assisted efficacy, independent human adjudication and broad reasoning are unestablished."
+    },
+    {
+      "id": "independent-evaluation",
+      "implementation_status": "still open",
+      "gelhaus_citation": "\u00a79.1\u20139.4 pp.11\u201312; \u00a711 pp.12\u201313; Appendix A final paragraph",
+      "current_scope": "Unseen raw originals, blinded questions/scoring, matched budgets, semantic precision/recall and reciprocal OOCC trials are the decisive higher-level criteria. Current results are published developer controls.",
+      "source_links": [
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/docs/ORIGINAL_RECORD_STUDY.md",
+        "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ccbb5804eb47f78c2338d57c142ad087b47be710/docs/HISTORICAL_TRUTH_RULES.md"
+      ],
+      "executed_control": "No independent study or live OOCC run in this update",
+      "software_control_outcome": "NOT_RUN",
+      "independent_acceptance": "NOT_RUN",
+      "limit": "Implementation coverage cannot be counted as independent acceptance or complete refutation of the capability-gap claim."
+    }
+  ]
+}

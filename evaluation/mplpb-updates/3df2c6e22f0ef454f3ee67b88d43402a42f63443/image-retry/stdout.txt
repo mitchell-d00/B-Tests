@@ -1,0 +1,6 @@
+[12:03:46] "POST /api/generate HTTP/1.1" 403 -
+[12:03:46] "POST /api/generate HTTP/1.1" 403 -
+[12:03:47] "POST /api/generate HTTP/1.1" 200 -
+[12:03:47] "POST /api/generate HTTP/1.1" 200 -
+[12:03:47] "GET /outputs/IMG-20261117-6E4DED.png HTTP/1.1" 200 -
+[12:03:48] "GET /outputs/_index.html HTTP/1.1" 404 -

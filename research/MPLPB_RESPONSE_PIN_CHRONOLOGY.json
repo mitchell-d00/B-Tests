@@ -1,0 +1,96 @@
+{
+  "pins": [
+    {
+      "sha": "257e54a51edac272eb6b2441457f38a40485ee4d",
+      "author_date": "2026-11-10T10:17:53-05:00",
+      "committer_date": "2026-11-10T10:17:53-05:00",
+      "title": "Merge experimental MPLPB case study and completion-integrity fix"
+    },
+    {
+      "sha": "ccbb5804eb47f78c2338d57c142ad087b47be710",
+      "author_date": "2026-11-17T10:20:03-05:00",
+      "committer_date": "2026-11-17T10:20:03-05:00",
+      "title": "Merge pull request #49: package guide and explicit authority documentation"
+    },
+    {
+      "sha": "d528b65d6b00f4777f6224591eaed81b4ee25ad1",
+      "author_date": "2026-11-17T12:45:59Z",
+      "committer_date": "2026-11-17T12:45:59Z",
+      "title": "Add offline source-anchored candidate sorter with edge-only comparison and withheld snapshot"
+    },
+    {
+      "sha": "30f0d89c5954b1f1226d0e30c78dc671011849e1",
+      "author_date": "2026-11-17T12:57:37Z",
+      "committer_date": "2026-11-17T12:57:37Z",
+      "title": "Validate native sorter snapshot and exact graph roundtrip before publication"
+    },
+    {
+      "sha": "26ca2b5be17281684551ca2649ff62e7c0aa250f",
+      "author_date": "2026-11-17T13:04:58Z",
+      "committer_date": "2026-11-17T13:04:58Z",
+      "title": "Document plain-reader compatibility and retain native sorter export evidence"
+    }
+  ],
+  "modules": [
+    {
+      "path": "mplpb_answers/pipeline.py",
+      "present_in_tested_pin": true,
+      "addition_records": [
+        "faca0a58c7824ad6bc9ce197c0997415fbf878bd 2026-10-31T10:36:10-04:00"
+      ]
+    },
+    {
+      "path": "mplpb_answers/relation_graph.py",
+      "present_in_tested_pin": true,
+      "addition_records": [
+        "caf2a41ced347bba163e7551fbe884325e122ff5 2026-11-01T14:04:17-05:00"
+      ]
+    },
+    {
+      "path": "mplpb_work/store.py",
+      "present_in_tested_pin": true,
+      "addition_records": [
+        "41779b4aec0444af506ec4efde434a2e545e6e4b 2026-10-31T09:14:44-04:00"
+      ]
+    },
+    {
+      "path": "mplpb_work/event_candidates.py",
+      "present_in_tested_pin": false,
+      "addition_records": [
+        "8fb3eb82cde1781c1402d57986b63179b82ad4e5 2026-11-16T03:22:27-05:00"
+      ]
+    },
+    {
+      "path": "mplpb_answers/corrections.py",
+      "present_in_tested_pin": false,
+      "addition_records": [
+        "8fb3eb82cde1781c1402d57986b63179b82ad4e5 2026-11-16T03:22:27-05:00"
+      ]
+    },
+    {
+      "path": "mplpb_work/investigation.py",
+      "present_in_tested_pin": false,
+      "addition_records": [
+        "8fb3eb82cde1781c1402d57986b63179b82ad4e5 2026-11-16T03:22:27-05:00"
+      ]
+    },
+    {
+      "path": "mplpb_work/sorter.py",
+      "present_in_tested_pin": false,
+      "addition_records": [
+        "d528b65d6b00f4777f6224591eaed81b4ee25ad1 2026-11-17T12:45:59Z"
+      ]
+    },
+    {
+      "path": "mplpb_answers/documentary_verify.py",
+      "present_in_tested_pin": false,
+      "addition_records": [
+        "ba021f47bfdcf90ce2061090514d0724e6ace49f 2026-11-16T22:36:14Z"
+      ]
+    }
+  ],
+  "limits": [
+    "Complete ancestry fetched for the evaluated head; dates are recorded Git metadata, not independently authenticated authorship or first-publication timestamps.",
+    "File presence in the evaluated old pin is checked directly; an earlier related repository is not an integration into that pin."
+  ]
+}

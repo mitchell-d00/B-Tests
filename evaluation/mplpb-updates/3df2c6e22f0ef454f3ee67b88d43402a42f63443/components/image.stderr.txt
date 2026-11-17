@@ -1,0 +1,79 @@
+........................................./opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:946: UserWarning: Tag data larger than file. Skipping tag 34665
+  warnings.warn(f"Tag data larger than file. Skipping tag {tag}")
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:982: UserWarning: Corrupt EXIF data.  Expecting to read 12 bytes but only got 5. 
+  warnings.warn(str(msg))
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:982: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+................................................EEEE
+======================================================================
+ERROR: test_cross_origin_post_blocked (test_studio.StudioTests.test_cross_origin_post_blocked)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/mplpb/parts/image/tests/test_studio.py", line 51, in setUp
+    self.api = _serve(FakeImagesAPI)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mplpb/parts/image/tests/test_studio.py", line 42, in _serve
+    httpd = ThreadingHTTPServer(("127.0.0.1", 0), handler)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/socketserver.py", line 453, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/socket.py", line 233, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_external_profile_cannot_generate (test_studio.StudioTests.test_external_profile_cannot_generate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/mplpb/parts/image/tests/test_studio.py", line 51, in setUp
+    self.api = _serve(FakeImagesAPI)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mplpb/parts/image/tests/test_studio.py", line 42, in _serve
+    httpd = ThreadingHTTPServer(("127.0.0.1", 0), handler)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/socketserver.py", line 453, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/socket.py", line 233, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_generate_writes_pages_and_keeps_earlier_ones (test_studio.StudioTests.test_generate_writes_pages_and_keeps_earlier_ones)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/mplpb/parts/image/tests/test_studio.py", line 51, in setUp
+    self.api = _serve(FakeImagesAPI)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mplpb/parts/image/tests/test_studio.py", line 42, in _serve
+    httpd = ThreadingHTTPServer(("127.0.0.1", 0), handler)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/socketserver.py", line 453, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/socket.py", line 233, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_outputs_serves_images_only (test_studio.StudioTests.test_outputs_serves_images_only)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/mplpb/parts/image/tests/test_studio.py", line 51, in setUp
+    self.api = _serve(FakeImagesAPI)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mplpb/parts/image/tests/test_studio.py", line 42, in _serve
+    httpd = ThreadingHTTPServer(("127.0.0.1", 0), handler)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/socketserver.py", line 453, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/socket.py", line 233, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+----------------------------------------------------------------------
+Ran 93 tests in 22.439s
+
+FAILED (errors=4)

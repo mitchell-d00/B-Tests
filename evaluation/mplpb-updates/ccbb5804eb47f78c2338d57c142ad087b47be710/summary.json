@@ -1,0 +1,63 @@
+{
+  "revision": "ccbb5804eb47f78c2338d57c142ad087b47be710",
+  "native_tests": 1186,
+  "additional_native_checks": 7,
+  "boundary_probes": 7,
+  "legacy_query_contracts": 10,
+  "legacy_instruction_cases_out_of_scope": 6,
+  "public_evidence_cases": 52,
+  "components": {
+    "smart-local": 52,
+    "swarm": 145,
+    "networked": 61,
+    "image": 93,
+    "adoption_checks": 5
+  },
+  "sorter": {
+    "identical_nodes": true,
+    "identical_sources": true,
+    "identical_raw_edge_prefix": true,
+    "nodes": 176,
+    "raw_edges": 264,
+    "compare_edges": 341,
+    "all_added_edges_comparison_only": true,
+    "source_bytes_read_per_mode": 2804,
+    "implementation_sha256": "sha256:20a8625676e998ce282283629709f3b5dc7a8b9281ffff10457e5a0595a28e73"
+  },
+  "sorter_all_three_profiles_withheld": true,
+  "native_reader_compatibility_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+  "public_paper_queries_unchanged": 12,
+  "predecessor_commands": [
+    {
+      "id": "portable-python",
+      "status": "PASS"
+    },
+    {
+      "id": "portable-browser-core",
+      "status": "PASS"
+    },
+    {
+      "id": "portable-authoring-core",
+      "status": "PASS"
+    },
+    {
+      "id": "portable-synthetic",
+      "status": "PASS"
+    },
+    {
+      "id": "portable-offline-browser",
+      "status": "PASS"
+    },
+    {
+      "id": "residual-run",
+      "status": "PASS"
+    },
+    {
+      "id": "residual-check",
+      "status": "PASS"
+    }
+  ],
+  "new_model_calls": 0,
+  "target_source_modified": false,
+  "historical_accuracy_independently_verified": false
+}

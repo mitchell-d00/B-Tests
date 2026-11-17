@@ -1,0 +1,10 @@
+{
+  "source_commit": "ccbb5804eb47f78c2338d57c142ad087b47be710",
+  "frozen_sorter_runtime": "30f0d89c5954b1f1226d0e30c78dc671011849e1",
+  "supplied_md_txt_verified_against_public_repo": true,
+  "files": {
+    "dual-mode-sorter.md": "45e905bb271623c7f287bdbbb00b7da30d2bcca24c32f6e3d080029ca555a181",
+    "dual-mode-sorter.pdf": "8c4aa7e6cd2f464e5ae358106cfb9edb002142f996c8fdf53be6f735cde28fb3",
+    "dual-mode-sorter.txt": "95ace481f3b3d402d7729f9d716c42c16524ac1530d6133035bd34caa9957cbc"
+  }
+}

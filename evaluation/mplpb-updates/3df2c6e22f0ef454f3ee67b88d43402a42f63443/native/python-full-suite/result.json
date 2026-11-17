@@ -1,0 +1,22 @@
+{
+  "id": "python-full-suite",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-t",
+    ".",
+    "-v"
+  ],
+  "status": "PASS",
+  "exit_code": 0,
+  "elapsed_seconds": 344.660969385,
+  "unittest_count": 1157,
+  "stdout_sha256": "3d403c92a10653815251716899b4337bb0f669347d3c1d243bd89b8e1cd7fe36",
+  "stderr_sha256": "bca17537de81923221375011488b1caff40775f9a24dcdde6041401a819f1b84",
+  "evidence_level": "native_unmodified_repository_execution",
+  "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+}

@@ -1,0 +1,29 @@
+{
+  "revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+  "commands": [
+    [
+      "public-evidence",
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "tools.evaluate_public_evidence",
+        "--require-capabilities",
+        "--output",
+        "/workspace/b-tests/evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/extras/public-evidence.json"
+      ]
+    ],
+    [
+      "original-papers",
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "tools.evaluate_historical_experts",
+        "--output",
+        "/workspace/b-tests/evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/extras/original-papers.json"
+      ]
+    ]
+  ],
+  "runner_sha256": "7ad3b6b78431ad69619d8eafd3a93c93da2b864ac6656ec4e07d1bf870853008",
+  "models_enabled": false,
+  "scope": "Official published developer evaluations on current native code; not private Ben fixtures or independent blinded judgment."
+}

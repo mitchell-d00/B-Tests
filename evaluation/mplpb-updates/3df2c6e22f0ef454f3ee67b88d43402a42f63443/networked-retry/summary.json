@@ -1,0 +1,8 @@
+{
+  "revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+  "status": "PASS",
+  "exit_code": 0,
+  "elapsed_seconds": 20.423519112000008,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "b89eb5a026b3a51d235c5e02150248dab6006da44c60ae0d5b61910f16c35a49"
+}

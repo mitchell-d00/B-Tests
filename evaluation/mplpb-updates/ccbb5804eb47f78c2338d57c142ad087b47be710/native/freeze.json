@@ -1,0 +1,81 @@
+{
+  "revision": "ccbb5804eb47f78c2338d57c142ad087b47be710",
+  "actual_head": "ccbb5804eb47f78c2338d57c142ad087b47be710",
+  "git_tree": "029ed6375ee1523a642dfdcf75d7f8631fd84fe1",
+  "source_origin": "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+  "tracked_clean_before": true,
+  "runner_sha256": "10112565a1cf68d6bd046dc204b4ddad0dcc3a7d4a524a8dc9a080a5712bf953",
+  "commands": [
+    [
+      "python-full-suite",
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-t",
+        ".",
+        "-v"
+      ]
+    ],
+    [
+      "ui-script",
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "tools/check_ui_script.py"
+      ]
+    ],
+    [
+      "browser-transport",
+      [
+        "node",
+        "tools/check_browser_transport.cjs"
+      ]
+    ],
+    [
+      "javascript-api",
+      [
+        "node",
+        "tests/javascript-api.cjs"
+      ]
+    ],
+    [
+      "crawler-worker",
+      [
+        "node",
+        "crawler/test_worker.mjs"
+      ]
+    ],
+    [
+      "source-infrastructure",
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "tools/check_repository_infrastructure.py"
+      ]
+    ],
+    [
+      "committed-handoff",
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "tools/build_handoff.py",
+        "--check"
+      ]
+    ],
+    [
+      "five-instance-recovery",
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "tools.demo_specialist_continuity",
+        "--output",
+        "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/native/five-instance-demo.json"
+      ]
+    ]
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "model_calls": 0,
+  "scope": "Native repository development tests and local demonstrations; no new independent human or neural-model validation."
+}

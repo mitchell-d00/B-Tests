@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "exit_code": 0,
+  "status": "PASS",
+  "new_target_execution": false,
+  "scope": "Laboratory tests or public historical-record replay; not new native passes on the updated target."
+}

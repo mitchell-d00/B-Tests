@@ -1,0 +1,97 @@
+{
+  "results": [
+    {
+      "id": "portable-python",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "/tmp/public-predecessor-check-y2ccbc88/portable",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.714987444000144
+    },
+    {
+      "id": "portable-browser-core",
+      "argv": [
+        "node",
+        "tests/test_browser_core.cjs"
+      ],
+      "cwd": "/tmp/public-predecessor-check-y2ccbc88/portable",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.06484051500046917
+    },
+    {
+      "id": "portable-authoring-core",
+      "argv": [
+        "node",
+        "tests/test_authoring_core.cjs"
+      ],
+      "cwd": "/tmp/public-predecessor-check-y2ccbc88/portable",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.03864499799965415
+    },
+    {
+      "id": "portable-synthetic",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/run_experiment.py"
+      ],
+      "cwd": "/tmp/public-predecessor-check-y2ccbc88/portable",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.04960831599964877
+    },
+    {
+      "id": "portable-offline-browser",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/browser_offline_probe.py"
+      ],
+      "cwd": "/tmp/public-predecessor-check-y2ccbc88/portable",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 3.814205556000161
+    },
+    {
+      "id": "residual-run",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "run.py",
+        "--source",
+        "/tmp/mplpb-residual-baseline257e",
+        "--out",
+        "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual"
+      ],
+      "cwd": "/workspace/mplpb-residual-experiment",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 7.830471227998714
+    },
+    {
+      "id": "residual-check",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "check.py",
+        "/workspace/b-tests/evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual"
+      ],
+      "cwd": "/workspace/mplpb-residual-experiment",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.03152731299996958
+    }
+  ],
+  "pins": {
+    "portable-evidence-runtime": "4fdc20193c01f82baea0598b4c7d8ef3040772d5",
+    "mplpb-residual-experiment": "1ec160051ba306ce61d74ba3186f0aa5873694c5"
+  },
+  "source_clones_modified": false,
+  "new_model_calls": 0
+}

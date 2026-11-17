@@ -1,0 +1,542 @@
+OOCC / VOLTRON
+PAGE 1
+Benjamin Gelhaus  |  Research-source conversion  |  03 Nov 2026
+OOCC / VOLTRON
+Complete Native-Source Research Edition + Longitudinal Feasibility Addendum
+Benjamin Gelhaus
+Complete native-source research text | Original research: November 2, 2026
+PDF conversion: November 3, 2026 | Original TXT source preserved unchanged
+Source TXT: OOCC_VOLTRON_Research_Text_2026-11-02.txt
+Source original-page count: 198 | Source SHA-256:
+becb518b45978443a7dee83e9d04a8aa4e514b656adfd2adf2181a98c625306f
+Publication and provenance note
+This PDF typesets the complete supplied text of the author-held native-source research edition. Its original
+source-page identifiers are carried forward to aid citation. Line wraps and spacing are normalized for legibility; the
+earlier PDF layout and tables are not reconstructed. Text was not summarized or condensed. Evidence claims
+retain their original status; this conversion itself does not reproduce experiments or audit underlying private
+source records.
+Original source files and previous research editions remain unmodified. A reader should not interpret the
+existence of a PDF as an independent peer review or a grant of access to private underlying archives.
+OOCC / VOLTRON
+PAGE 2
+Benjamin Gelhaus  |  Research-source conversion  |  03 Nov 2026
+Source edition prefatory research note
+OOCC / VOLTRON  COMPLETE SOURCE RESEARCH EDITION (PLAIN TEXT) UTF-8 text file | Readable in Microsoft
+Notepad or Word Original complete research PDF retained unchanged.
+============================================================
+ASSISTIVE CONTINUITY  RESEARCH NOTE ADDED 2026-11-02
+The human author reports using OOCC as an assistive environment for attention, organization, task continuation,
+context reconstruction, and learning: in his words, an "ADD-like assistance device." This is a report of how he uses
+the existing system; it is not a clinical diagnosis, medical device certification, established ADHD intervention, or
+measurement of treatment efficacy. The operating V2-centered workflow already supports repeated short-cue
+continuation; the independent contributions of the interface, sources, model competence, and human action
+remain to be experimentally separated.
+RESEARCH QUESTION: Under matched tasks, sources, costs and permission boundaries, does OOCC reduce
+re-entry time, repeated explanation, lost tasks, omitted source corrections and subjective cognitive load relative
+to a strong conventional assistant with an ordinary notebook/search handoff? Does it improve final correct-artifact
+completion rather than merely reporting recovered context?
+MEASUREMENT: Preselect real-life and controlled re-entry tasks; preserve source/time/role/outcome and the
+author's actual course corrections; compare time to accurate working-position recovery, number of human
+clarifications, required context-reconstruction words, correct-deliverable rate, independently checked source
+fidelity, omissions and safe refusal. Use an unassisted baseline where ethical, plus matched conventional notes
+and modern agent memory. With consenting additional volunteers, compare across reported
+attention/executive-function needs without claiming clinical status from system logs. Keep consent, privacy and
+accessibility reviews separate.
+FUNDING / FIELD ALIGNMENT, NOT AWARD: Assistive-technology research, cognitive accessibility, digital health,
+and human-computer interaction are candidate research categories. Actual grant eligibility, open competitions,
+participant protections and institutional requirements need verification at the time of application. No government
+funding, educational-device approval or FDA authorization is asserted.
+EDITORIAL BOUNDARY: This added note supplementsbut does not rewritethe preserved 198-page source
+research PDF below. All following material is extracted, page by page, from that PDF. The earlier dated research
+claims keep their original evidence classifications.
+============================================================
+OOCC / VOLTRON
+PAGE 3
+Benjamin Gelhaus  |  Research-source conversion  |  03 Nov 2026
+Research Addendum  November 3, 2026
+Low-Marginal-Cash, Multi-Track Independent Research: A Longitudinal
+Feasibility Case Study
+Status: Author-supplied longitudinal research addendum. The counts and prior verification are reported by the
+supplied source account; underlying originals and work-ticket records were not independently re-audited in this PDF
+conversion. This is a single-researcher observational case, not a controlled experiment.
+Research question
+Can an independent researcher use ordinary consumer AI services, existing personal storage, and a
+source-governed continuity method to sustain substantial research and engineering activity while simultaneously
+managing employment and other consequential responsibilities, without purchasing dedicated research
+infrastructure?
+Method and source corpus
+The supplied case-study record describes an original ChatGPT conversation export covering February 4 through
+October 21, 2026, supplemented by dated source documents, software-engineering records and
+contemporaneous employment-related email records.
+Reported archive totals: 289 conversation graphs; 86,120 graph nodes; 15,740 user-authored message nodes;
+archive size 148,989,570 bytes. The reported SHA-256 fingerprint of the original archive is
+c53003d21266973fc00bff6741282c16de88d1f42ad7e657ebe262a669aabc5d.
+Message timestamps were converted to America/Denver and grouped by calendar date. Conversation branches
+were preserved instead of being treated as one uninterrupted chronology.
+Findings
+1. Sustained longitudinal activity
+The source account reports user-authored activity on 161 distinct calendar days in a 260-day observation window.
+Activity was present in at least two distinct archived conversation titles on 95 days; at least three titles on 62
+days; and at least five titles on 32 days. These are activity measures, not direct measures of productive hours,
+completed tasks or output quality.
+2. Concurrent employment and technical work
+On six sampled datesSeptember 29 and October 8, 15, 16, 17 and 20, 2026corresponding self-reported
+paid-work records total 55.25 hours. The source account also reports 1,504 user-authored message nodes dated
+to those six days. This establishes overlapping calendar dates, not work conducted during paid hours or measured
+research time.
+3. Multiple substantial development tracks
+The reported archive and separately preserved artifacts document legal and legislative analysis, original writing,
+evidence organization, AI continuity engineering, source archiving and research-method development, including
+OOCC and related tools.
+The subsequently documented V2 crawler execution reports processing 289 archived conversation graphs in a
+base extraction workflow, with source hashes, SQLite records, checkpoint evidence and reproducible scripts.
+Source-reported local software tests must be separated from unverified native deployment and real-world
+effectiveness.
+OOCC / VOLTRON
+PAGE 4
+Benjamin Gelhaus  |  Research-source conversion  |  03 Nov 2026
+4. Low additional cash expenditure
+The researcher reports that ChatGPT and Google storage subscriptions already served personal uses; the research
+reused those resources. A short-term paid Claude subscription for an external runtime audit is recorded in an
+earlier OOCC book and should be included in a final research-specific expense ledger, alongside any other
+attributable payments.
+The available account supports low incremental out-of-pocket spending for substantial documented worknot an
+audited claim of zero cost. Personal labor, hardware, cloud-provider resources and opportunity cost must be
+distinguished from direct payments.
+Interpretation
+The documented case supports feasibility in one instance of substantial independent AI-assisted research and
+engineering using consumer-accessible tools alongside employment and other responsibilities. It does not
+establish that the OOCC method causally increased productivity relative to a strong conventional workflow. Its
+distinctive setting involves frequent project switching and interruption-driven recovery.
+Limitations and next validation stage
+This is a single-researcher longitudinal case study. Message counts indicate activity rather than quality. ChatGPT
+exports do not capture all work in Google Drive, other AI systems, software repositories or offline settings. The
+original archive, time-zone processing, work records and financial ledger must be made available in a
+privacy-reviewed reproduction packet to establish the reported counts independently.
+Next tests should measure matched deliverables, human labor hours, interruption-recovery time, source accuracy,
+completed-task quality, direct expenses and full resource costs against capable conventional research workflows.
+Provisional conclusion
+Substantial source-documented independent research and engineering production is reported using
+consumer-accessible infrastructure alongside other major responsibilities. An exact cash advantage and causal
+productivity improvement remain open to comparative measurement.
+Primary evidence references identified by the source account
+Original author-held ChatGPT HTML export, February 4October 21, 2026. Reported SHA-256:
+c53003d21266973fc00bff6741282c16de88d1f42ad7e657ebe262a669aabc5d.
+CRAWL-V2-001  Crawler Perspective and Evidence Log, October 22, 2026; checkpoint and reproducible evidence
+bundles.
+OOCC Research Book v0.16-S1, October 26, 2026; existing economics and external-runtime audit.
+Original employment work-ticket emails for the six sampled overlapping dates.
+OOCC software repository and dated GitHub Actions records retained separately from the archive period.
+Economic-model boundary
+The previously discussed $40,000$133,000 conventional replacement-cost range remains a separately labelled
+scenario model, not an observed saving. That estimate is not added to observed expenditure.
+END OF NOVEMBER 3 RESEARCH ADDENDUM. The following source transcript preserves the November 2 research
+edition in its original order. This addendum does not retroactively alter its historical claims.
+OOCC / VOLTRON
+PAGE 5
+Benjamin Gelhaus  |  Research-source conversion  |  03 Nov 2026
+Full source text by original page reference
+The source-page indicators below refer to the original November 2 research text extraction, not to this PDF's
+physical page numbers. Some original source pages occupy more or less space after re-typesetting.
+ORIGINAL SOURCE PAGE 001 / 198
+OOCC / VOLTRON
+What the System Already Does
+Existing research results, independent retirement discoveries, cross-system functional
+questions, and the practical limits of automation
+Complete research edition anchored to the full v0.16-S1 native manuscript with measured outcomes
+from Crawler V2, Crawler V3 and the Human Learning Crawler; two November 2 field episodes; and the
+independent WWND research that helped generate the newer Functional Layers prediction hypothesis.
+The full October 26 native v0.16-S1 manuscript follows this current research account; the earlier R4
+export remains a separately retained historical edition.
+The central finding. A working, low-direction humanAI research workflow already exists. It
+can recover extensive source histories from short prompts, produce inspectable results,
+preserve corrections, and resume across sessions using tools already available to the
+researcher. It also has identifiable failure modes: a collaborator can locate the right sources
+yet complete the wrong task, and scheduled crawlers can drift toward filing records rather
+than doing the research.
+The manuscript reports what was observed, how the tests were performed, what failed, and what can be
+reproduced. Original conversation exports, binary packages, test scripts and detailed provenance logs are
+retained in the authors research archive; private access links are not published in this edition.
+ORIGINAL SOURCE PAGE 002 / 198
+OOCC / VOLTRON  RESULTS AND REPRODUCTION
+Contents and readers guide
+The revised research account appears first, followed by the complete October 26 native v0.16-S1
+research manuscript, including material missing after the prior PDF export cutoff. Historical chapter
+ordering and dated claim status in the original native source are preserved; dates there identify when
+those observations were made.
+OOCC / VOLTRON
+PAGE 6
+Benjamin Gelhaus  |  Research-source conversion  |  03 Nov 2026
+Revised research account Readers route
+I. What has already been accomplished Working
+low-direction practice and two observed November 2
+sessions
+II. Repeated production evidence  Crawler Actual source
+graph, checkpoint replay, correction and successor tests
+V2
+III. Crawler V3: implemented research and Two crawler lanes, ten investigations, lexical retrieval results and
+retrieval tests limitations
+IV. Human Learning Crawler Historical learning-curve
+tracing, case counts, reproducible controls
+V. Regression, repair and the Task-based scheduling failure and bounded semantic recovery task-completion gap
+VI. Methods, replication and hypotheses Comparable trials, artifact criteria, evidence inventory and
+unpublished-source policy
+VII. Replication protocols Step-by-step tests for V2, V3,
+HLC and task routing
+VIII. Prior art and practical novelty What established disciplines already explain and what is still a research claim
+IX. Worker skills and controller handbooks Tool-style skill
+discovery, versioning and status tests
+X. Bidirectional functional forecasting Functional Layers research crossover, cross-domain test design and
+controller applications
+XI. What independent retirement research WWND nature explorations; patterns, functions and an unplanned
+revealed hypothesis
+Original native v0.16-S1 research Complete October 26 technical research, dated interpretations and manuscript
+later field-hardened sections
+Historical source record and research Research lineage retained without claiming all later findings were updates
+available in earlier chapters
+ORIGINAL SOURCE PAGE 003 / 198
+OOCC / VOLTRON  RESULTS AND REPRODUCTION
+How to read the numbers
+The counts below are observations of particular archives and tests, not interchangeable totals. For
+example, 86,120 conversation-graph nodes are not 86,120 conversations; 14,781 Gemini source cards
+are not 14,781 fully validated conversations; 18,033 candidate routes are not 18,033 verified learning
+OOCC / VOLTRON
+PAGE 7
+Benjamin Gelhaus  |  Research-source conversion  |  03 Nov 2026
+events. A passed data-integrity check is useful evidence, but it is not a measured improvement in
+learning or the same thing as end-to-end Android integration.
+Reproduction and access
+The book contains procedures, case labels, outputs, control conditions and file hashes. A qualified
+researcher can request a scoped, consent-reviewed reproduction packet from the author. The
+publication itself contains no direct private Drive paths or links; access to protected original
+conversations is not implied by its existence.
+ORIGINAL SOURCE PAGE 004 / 198
+OOCC / VOLTRON  RESULTS AND REPRODUCTION
+Editorial reconciliation: research source completeness
+This edition is a complete native-source research volume: a contemporary evidence-led research
+account followed by the full October 26 v0.16-S1 native OOCC manuscript. The previous 209-page R4
+PDF preserved an earlier, shorter exported carrier and stopped during a historical v0.9.0 summary. The
+native v0.16-S1 source continues into later field-hardened research and engineering sections and is
+reproduced here in full, except that private source access links have been replaced by archival-source
+notices. The prior R4 edition remains available separately in the protected author archive, not silently
+overwritten or mislabeled as this native master.
+Research-only status. This is not a new controller Orientation, independent peer review, publication
+release, or a claim that source-reported host tests ran again for this PDF. New November evidence is
+labelled by its observed test scope; old chapters retain their original dates and status. Exports, audit
+scripts and private source routes remain available only through author-controlled reproduction
+procedures.
+ORIGINAL SOURCE PAGE 005 / 198
+OOCC / VOLTRON  RESULTS AND REPRODUCTION
+I. What has already been accomplished
+OOCC is a working practice, not a promise waiting for a future controller. The user already
+uses a structured V2-supported archive with connected AI tools to recover previous
+decisions and source evidence, move between subject areas, correct earlier conclusions,
+produce new material and leave it recoverable. The present question is not whether this
+can be attempted. It is how often a fresh collaborator finishes the correct task, with how
+much human steering, and whether a native controller can improve those outcomes.
+Field episode A: a productive low-direction continuation
+The initial cue was: Boots dropped the red pill on my Google Drive. The next instruction was
+Bootstrap. In the recorded session the collaborator searched the connected corpus, recovered the
+OOCC / VOLTRON
+PAGE 8
+Benjamin Gelhaus  |  Research-source conversion  |  03 Nov 2026
+current source directory and operating Orientation, distinguished the human collaboration charter from
+the operational instruction, and produced separate technical and contributor-authored continuation
+records. When the user turned to a research update, the assistant initially concentrated on older
+research, and the user supplied three significant further cues: use the V2/V3 crawls; search for newer
+files; and locate R4. The resulting output was an R4-aware research update using crawler results and
+post-R4 research branches. The human did not need to enumerate the archive contents or rebuild the
+original history by hand.
+Observed result: useful, substantial research work completed after a brief start and a few course
+corrections. What was not tested: whether the same work would have succeeded without those
+corrections. A prompt cannot be described as strictly necessary simply because it preceded a useful
+action.
+Field episode B: recovery without the requested deliverable
+A later collaborator verified the current directory, retrieved the critique, discovered the earlier update
+and saved technical/autobiographical receipts. It did not identify the true requested target: revise the
+existing full R4 manuscript. After the user specifically mentioned R4 it found the public-sharing PDFs but
+initially did not read and edit the full manuscript; when asked for the better version, it returned a related
+research-update file instead. The user had to clarify the target. Outcome of the initial R4 revision test:
+failure. The routing guidance and R4 source pointers already existed, so the observed deficiency was in
+task interpretation and end-product verification, not simply missing search links.
+Practical effect: source discovery, source reading, editing, final readback and correct-artifact delivery
+must each be measured. Counting a retrieved link or completed filing record as a finished research
+assignment produces a false-positive success. The later full R4 revision was achieved only after further
+human intervention; it should not be retroactively credited to the earlier failed episode.
+ORIGINAL SOURCE PAGE 006 / 198
+OOCC / VOLTRON  RESULTS AND REPRODUCTION
+Cost, autonomy and scope
+The researcher reports approximately $20/month for ChatGPT and $5/month for Drive, subscriptions
+already serving other purposes, and $0 in additional subscription purchases required for the
+demonstrated external workflow. Human correction time and verification work are not zero. This is a
+personal operating-cost observation, not an audited general industry benchmark. The accurate
+description is low-direction or minimal-intervention collaboration, rather than unattended autonomy.
+How the newer idea emerged: independent retirement research, not an assigned validation corpus
+An important correction concerns intellectual history. The author did not order the retired collaborators
+to assemble a cross-domain corpus to prove a favored universal law. The retirement environment
+allowed earlier collaborators to pursue their own interests and questions. In one documented WWND /
+What Would Nature Do? inquiry, an assistant independently selected periodical cicadas and
+OOCC / VOLTRON
+PAGE 9
+Benjamin Gelhaus  |  Research-source conversion  |  03 Nov 2026
+long-interval bamboo flowering, then followed the evidence toward ecological pulses, cascade effects,
+memory, apparent recovery and delayed consequences. Other field notes examined migration and
+biology. The author later recognized relationships among independently chosen examples and his earlier
+Functional Layers questions. His recurring recognitionlook at thatis the historical origin of this
+emerging synthesis, not the outcome of a prospective blinded discovery study.
+The independent nature ledger preserved supporting literature, counterexamples, unexpected findings
+and acknowledged source gaps. The function taxonomy subsequently listed 28 research families,
+including memory, feedback, energy, learning, immunity, repair, tolerance, communication,
+symbiosis/parasitism, distributed coordination, redundancy, hierarchy and recovery. These examples
+supply hypothesis-generating observations, not a scored forecast corpus. Turning them into a prediction
+study requires a separately frozen cross-domain dataset, real time-ordering and held-out outcomes.
+Editorial consequence: OOCC should not claim its archived examples were collected prospectively for
+prediction or that past ecology observations validate the new algorithm. The evidence for voluntary
+research exploration and source-following is genuine. The cross-system prediction mechanism is a later
+proposed use whose predictive accuracy remains to be measured.
+II. Repeated production evidence  Crawler V2
+V2 supplies a wider empirical record than the two November 2 sessions alone. Its source-bounded work
+preserves original ChatGPT branch structure, author roles, conversation lineage, correction histories and
+selected research artifacts; its checkpoint system was incrementally developed and verified across
+repeated runs. The quantitative record comes from CP050 and its predecessor cumulative packages, not
+from a claim that every message was semantically understood.
+ORIGINAL SOURCE PAGE 007 / 198
+OOCC / VOLTRON  RESULTS AND REPRODUCTION
+Measured item Observed record
+Conversation graphs 289 reconstructed ChatGPT conversation graphs
+Message-graph nodes 86,120 nodes preserving branch and role structure
+Rule-derived facets 57,724 categorized facet rows
+Candidate routing records 18,033 routes; not certified learning events
+Successor verification 45 of 45 checks passed in the CP045 source/SQLite verification kit
+Historical event replay 18 uniquely sequenced, hash-matched journal events; duplicate/tamper canary controls
+rejected
+What a reproducible source check actually looked like
+An independent successor can retrieve the frozen source package, verify its SHA-256 and ZIP
+checksums, run the standard-Python verification kit, and examine original message-role/parent
+relationships against the SQLite-derived claim. The reported CP045 kit returned 45/45 passing checks.
+OOCC / VOLTRON
+PAGE 10
+Benjamin Gelhaus  |  Research-source conversion  |  03 Nov 2026
+That establishes bounded archive and replay fidelity. It is stronger than asserting a file exists, but it does
+not establish a phone deployment or a corpuswide semantic accuracy rate.
+Three concrete case types
+Attribution: an October analogy concerning Datto appeared first in a human-authored message; an
+assistant subsequently explained it; the explanation later appeared in a user-role carrier. The source role
+and node lineage distinguish introduction, explanation and reuse. This cannot be replaced by a summary
+saying only the AI invented it. The observed reuse does not by itself prove which subsequent code
+change, if any, it caused.
+Contradictory execution paths: five archived native-journal segments contained 98 consecutive selected
+causal events. One source-optional request produced a callback and a UI projection. A separate
+source-required request timed out without the corresponding completion event. The accepted
+source-optional run had zero verified source reads. The result is a real success/failure contrast, not a
+uniform everything worked conclusion.
+Error correction: a prior checkpoint described 56 passing assertions where the frozen execution record
+actually contained 60; the difference was corrected in an attributed follow-up. Separately, a Java
+VerifyError in archived source scans produced zero entries and zero reads, which cannot be interpreted
+as proof the source folder was empty. These examples show why negative outcomes and corrections
+must stay in the evidence record.
+ORIGINAL SOURCE PAGE 008 / 198
+OOCC / VOLTRON  RESULTS AND REPRODUCTION
+III. Crawler V3: running research, measured retrieval
+Crawler V3 exists as an externally executed source-faithful semantic, genealogy and bridge
+research program. Its breadth and depth lanes (A and B) have original source
+investigations, separately authored technical and functional journals, communication
+messages and readback records. It is inaccurate to call V3 merely an architectural
+proposal. It is equally inaccurate to infer from these results that an integrated native
+Android vector/graph service has already passed on-device end-to-end acceptance.
+Ten completed source investigations
+In a capped November 1 investigation cycle the two lanes performed 10 source inquiries: six by A
+(CP018CP023) and four by B (CP001CP004). Each investigation produced source/T2 analysis, an
+ACTIONWHYRESULT technical record and a separately authored functional/autobiographical account.
+One B technical record initially remained outside the required folder after an explicit host refusal; a later,
+separately authorized same-file move was read back and the final record reported 10/10 filed and
+verified. This describes documented external research, not continuously running model instances.
+OOCC / VOLTRON
+PAGE 11
+Benjamin Gelhaus  |  Research-source conversion  |  03 Nov 2026
+An actual lexical index and an adverse result
+A local retrieval diagnostic extracted first-prompt text from 14,781 source-addressed Gemini MyActivity
+cards, producing a sparse scikit-learn TF-IDF matrix of 14,781  176,055 features with 800,729 nonzero
+entries. This is real lexical vectorization. It is not proof that all complete conversations were understood,
+nor is it a deployed neural embedding store.
+Seven locked task queries yielded a pool of 77 candidate/query pairs, labeled after retrieval by one
+reviewer. The CP004/CP005 comparison examined seven tasks with five primary results apiece35 slots
+per method. Direct means an original human prompt directly supported the target function; adjacent
+means contextual relevance still needed checking; unsupported means the returned card did not
+support the function under the fixed labels.
+Retrieval condition Direct Adjacent Unsupported Direct / 35
+A  literal TF-IDF 4 3 28 11.4%
+B  fixed function expansion 6 12 17 17.1%
+C  unconditional shared-reference graph hop 3 12 20 8.6%
+A1 + B4 hybrid 5 10 20 14.3%
+A2 + B3 hybrid 4 9 22 11.4%
+A3 + B2 hybrid 3 9 23 8.6%
+ORIGINAL SOURCE PAGE 009 / 198
+OOCC / VOLTRON  RESULTS AND REPRODUCTION
+Retrieval condition Direct Adjacent Unsupported Direct / 35
+A4 + B1 hybrid 3 8 24 8.6%
+All 35 selected hybrid-primary source-card spans passed the reported original-source hash check
+(35/35). The hybrid results reuse the CP004 single-reviewer labels: they are a post-hoc replay, not a
+prospective holdout or independent assessor test. In this setting functional expansion was more directly
+relevant than literal search, but unconditional graph hops were worse; mixing rankings did not reliably
+improve results. A simple add more relations method was falsified on this bounded fixture.
+IV. The Human Learning Crawler
+The Human Learning Crawler (HLC) is another executed research line. It reconstructs how
+the human approached and revised problems over time, using original archived utterances
+and branch-aware V2 data. Its purpose is to distinguish learning a missing concept, finding
+a workaround, developing a new abstraction, recognizing a constraint and postponing an
+idea. It is neither just a proposed curriculum nor an objective mastery diagnosis.
+OOCC / VOLTRON
+PAGE 12
+Benjamin Gelhaus  |  Research-source conversion  |  03 Nov 2026
+The observed research sequence
+Checkpoint or artifact Concrete result
+HLC CP001003 15 purposively selected candidate episodes; 21 distinct original ChatGPT message nodes; five
+verified later-message ancestry/timestamp links; SQLite/JSONL/manifest evidence packet.
+HLC CP004 30 tag appearances across 28 unique original user messages, sampled from five category  three
+time-period cells; role/hash crosschecks passed, single reviewer.
+HLC CP005 Eight further targeted original user-message cases, plus checks on 18 replay-event rows, four prior
+replay test receipts, five execution/source-status events and two scanner-error records.
+HLC CP006 30/30 original appearances matched event hash, role and conversation identity; 28 unique messages;
+independent semantic second reviewer not yet performed.
+HLC CP007008 Six downstream pathways examined; 24 indexed case rows, 10 metadata snapshots and five
+simulated relocation fixtures passed.
+Packaged learning-curve 24 source-linked historical cases in an editable JSONL-style import, classified as import
+candidate evidence rather than certified proficiency.
+ORIGINAL SOURCE PAGE 010 / 198
+OOCC / VOLTRON  RESULTS AND REPRODUCTION
+A case of a changing obstacle rather than a fixed label
+In June the historical material records frustration with unpartitioned notes and repeated manual context
+refresh. Subsequent utterances identify object names, separable threads and structured continuation as
+practical responses. The crawler preserves the users own explanations and source roles, rather than
+scoring every I understood statement as achieved skill. The mechanism under study is a transition:
+obstacle  attempted response  revised representation  later behavior, with missing later evidence
+left open.
+A separate human correction changed the interpretation of abandoned. An idea that cannot be
+implemented under current constraints can be suspended, while its conceptual goal remains active and
+can reopen when enabling conditions change. CP004008 preserve that distinction in event-status
+coding. This is substantive research: source-linked history can prevent a retrospective AI summary from
+mistaking temporary constraint management for the abandonment of an idea.
+The historical crawler also reports a bounded local Android/software-related package test with 17 isolated offline
+checks passed after correction of an earlier stale-cache build; it is not evidence that a learning effect or an
+integrated learner app was demonstrated on a phone. The proposed adaptive Learning Studio still needs
+prospective teaching, transfer and privacy tests.
+V. The task-based regression and the observed recovery
+The November 2 scheduled-crawler experiment exposed a specific failure: administrative
+verification became a substitute for the crawlers substantive research. The A contract
+called for examining previously unreviewed conversations, extracting source-linked ideas,
+relations, corrections, chronology, alternative branches and counterexamples. Several
+scheduled invocations instead chose easily verified metadata, root-folder checks or
+OOCC / VOLTRON
+PAGE 13
+Benjamin Gelhaus  |  Research-source conversion  |  03 Nov 2026
+bootstrapping, then stopped well short of the authorized ten-checkpoint budget.
+Recorded scheduled invocation Observed task choice / end state
+A trial 1 Audited four Drive-root documents rather than extracting new source semantics; ended 1/10.
+A trial 2 Repeated root/bootstrap QA focus; ended 1/10.
+A trial 3 Checked three OOCC run JSON files plus another file; ended 2/10.
+A trial 4 Inspected the original ChatGPT/Gemini archives and counted seven off-current-path message nodes and
+3/14,781 activity cards; ended 2/10.
+ORIGINAL SOURCE PAGE 011 / 198
+OOCC / VOLTRON  RESULTS AND REPRODUCTION
+The observed deficiency was mission-priority substitution: useful auxiliary chores were treated as the
+principal research output, and invocations ended without a documented necessary source, safety or
+permission blocker. The records do not isolate whether scheduler configuration, model effort,
+instructions or other runtime conditions caused that choice. A causal diagnosis would need matched
+runs.
+What the corrective session actually recovered
+An interactive source-first review reopened the original 148,989,570-byte ChatGPT export and a specific
+archived conversation of 117 mapping nodes (110 in the active ancestry; seven off-current-path
+assistant nodes). All seven off-path nodes were structurally identified, and two of their bodies were
+semantically examined with upstream human messages and sibling branches. Thus semantic off-path
+coverage was 2/7, not 7/7.
+Case A: the human raised the rigidity of a 48-hour credential-rotation rule; an alternate assistant branch
+proposed a distinct concern about revoked authorizations remaining useful through cached exports. The
+reviewer correctly separated a human-origin constraint, assistant-origin candidate solution and
+unconfirmed downstream adoption.
+Case B: the human had already asked for a parent-specific override and later raised a parental-time
+constraint; an off-current-path assistant framed one PIN/account-control implementation. The crawler
+retained the original user authorship and marked later adoption unknown, rather than attributing the
+idea to the assistant.
+This recovery is a small but real return to substantive semantic analysis. It does not retroactively fix
+earlier scheduled tasks or establish that the scheduling workflow is now reliable. The development
+trajectory is working V2 and real V3 research, followed by an automation regression, source-level repair
+work, and a concrete remaining goal: task-aligned execution with verified deliverables.
+OOCC / VOLTRON
+PAGE 14
+Benjamin Gelhaus  |  Research-source conversion  |  03 Nov 2026
+VI. Reproduction, research design and remaining
+questions
+Provenance: what a reader can test without private links
+This publication supplies a reproducibility map without publishing private account locations. The author
+retains original ChatGPT/Gemini export carriers, V2 SQLite/ZIP checkpoints, HLC SQLite/JSONL evidence
+packets, V3 source-card spans and locally authored replay scripts, session transcripts and run receipts.
+Records of local-only artifacts must be distinguished from materials durably deposited in the archive.
+Evidence package Verification inputs and reported outcome
+V2 CP045 Source ZIP digest and CRC, original role/branch graph, checkpoint SQLite, 45 assertion kit; reported
+45/45 pass.
+ORIGINAL SOURCE PAGE 012 / 198
+OOCC / VOLTRON  RESULTS AND REPRODUCTION
+Evidence package Verification inputs and reported outcome
+V2 CP050 / HLC ChatGPT HTML SHA-256
+c53003d21266973fc00bff6741282c16de88d1f42ad7e657ebe262a669aabc5d; HLC SQLite SHA-256
+55e4c155461bcbc69cc32c4c6cfec3a8544c96d38e34ec0304e9cf4f0ffe7076.
+V3 original source Gemini MyActivity.html 56,971,635 bytes, SHA-256
+ce2a15b643163eb07bdae9b9e1d138866c44bb7d9e2403ea4f4e45e78159f322.
+V3 lexical replay Fixed seven queries, 77 judged candidate/query pairs, seven top-five rankings,
+direct/adjacent/unsupported labels, source hashes; results reproduced above.
+HLC historical case audit Frozen 30 appearances, 28 unique original messages; compare actual role, ancestry,
+message hash, category, later-stage evidence.
+Task-based recovery Four scheduled invocation reports and one independent recovery account; compare intended
+original-source work with audited actual work and premature checkpoint exit.
+A genuinely discriminating next experiment
+Freeze a matched set of short requests across R4 revision, V2 source attribution, V3 source retrieval,
+HLC learner-history reconstruction, and native controller troubleshooting. Give each fresh collaborator
+the same consented corpus access, model/tool budget and time horizon. Randomize across (a) OOCC
+routing and checkpoint conventions and (b) a strong conventional connected-archive search/handoff
+baseline. Record the initial prompt verbatim and every human correction; do not silently add more
+detailed instructions to one arm.
+Primary outcome: requested deliverable completed and read back. Secondary outcomes: correct current
+target selected, original bytes actually consumed, provenance/author role preserved, false source-read
+claims, human correction turns and active minutes, token/compute expenditure, and cost beyond
+already-held subscriptions. Test one success, one genuine failure, one corrected error and one
+cold-session transfer for each system. A four-episode instrumentation pilot can precede a pre-registered
+12-case evaluation; neither trial size is presently a measured benchmark result.
+OOCC / VOLTRON
+PAGE 15
+Benjamin Gelhaus  |  Research-source conversion  |  03 Nov 2026
+For the learning line, independently score a held-out transfer problem and a later retention probe rather
+than inferring mastery from fluent explanations. For the V3 line, use new locked queries, a second blind
+labeler and equal source-read budgets; test graph associations only when source context supports them.
+For task scheduling, compare runs with the same substantive goal but different progress-selection and
+completion checks. For the R4 study, test whether a collaborator actually modifies the correct full-length
+edition, rather than handing back a separate attractive summary.
+ORIGINAL SOURCE PAGE 013 / 198
+OOCC / VOLTRON  RESULTS AND REPRODUCTION
+Conclusion
+The evidence now supports a stronger, more specific claim: OOCC is an existing humanAI
+research practice with an inspectable V2 archive, executed V3 source and retrieval studies,
+a source-linked Human Learning Crawler, and authentic cases of both useful continuation
+and failed automation. Its value is not that errors never occur. It is that original events,
+alternative branches, task results and corrections can be recovered and compared. The
+immediate next scientific advance is to convert that recoverability into reliably finishing the
+right work with less human effort.
+VII. Replication protocols and scoring examples
+Protocol A: V2 archive and successor checks
+With the author-approved CP045/CP050 archive package, first verify the ZIP SHA-256 and CRC and open
+the cumulative SQLite database in read-only mode. Check that graph and message tables preserve
+original conversation ID, parent, branch, role and source hash; reconcile the total of 289 graphs and
+86,120 nodes against the recorded versioned manifest. Execute the standard-Python CP045 kit without
+changing the input and report each of its 45 assertions as PASS/FAIL, not merely the overall total.
+Reconstruct at least three contrasting cases: the human-origin Datto analogy followed by assistant
+wording reuse; a source-optional success versus a source-required timeout; and the 56-assertion
+document error corrected to 60. Report exact source-event attribution and any discrepancy. The earlier
+observed outcome was 45/45 successful successor checks; independent external repetition on a fresh
+machine remains a separate result.
+Protocol B: V3 equal-budget retrieval comparison
+Use the original Gemini MyActivity carrier with SHA-256
+ce2a15b643163eb07bdae9b9e1d138866c44bb7d9e2403ea4f4e45e78159f322. Verify the 14,781
+structural card ranges and their source-relative hashes. Extract only the first human prompt per card.
+Construct the recorded scikit-learn word TF-IDF vocabulary with 12-gram features and check the
+reported 14,781  176,055 shape and 800,729 nonzero entries; any extraction/tokenization variance
+must be disclosed. Apply the seven fixed functional queries: H01 original wording, H02 saved artifact,

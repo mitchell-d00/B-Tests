@@ -1,0 +1,12 @@
+PASS sha empty and unicode
+PASS cross-language root parity
+PASS supported answer
+PASS ambiguous refusal
+PASS machine-origin refusal
+PASS blocked refusal
+PASS natural language refusal
+PASS value mutation refusal
+PASS policy mutation refusal
+PASS root mutation refusal
+PASS offline HTML is self-contained
+PASS 11 browser-core checks

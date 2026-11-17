@@ -1,0 +1,23 @@
+{
+  "revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+  "results": [
+    {
+      "id": "public-evidence",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 21.410453899999993,
+      "stdout_sha256": "fc089e7f465e7425c9a01dc109bced38d169897f40d44b4922d1e237b7c48d87",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "original-papers",
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 2.0924863570000127,
+      "stdout_sha256": "39cc11bb78b9685b1661e4ad1a0a4a1444a7608c8e10201b257e104dfee9ece3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "tracked_target_changed": false,
+  "note": "The component checker repeats the root native suite; that repeat is not additional unique coverage."
+}

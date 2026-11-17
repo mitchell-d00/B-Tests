@@ -1,0 +1,18 @@
+{
+  "evaluated_revision": "3df2c6e22f0ef454f3ee67b88d43402a42f63443",
+  "b_tests_commit": "d935be6c68c82388d932d99674568a7b7dbf5ff9",
+  "runner_sha256": "8fcbc824a44da34a8c43d1b3d480362b22ca4eddaf0b6e9711a594a8ff0148c0",
+  "seam_worker_sha256": "403202c02a498258315ee60dcc92a810abd753309bb14f325d602a1985b845e7",
+  "legacy_cases_sha256": "fa69ec17250922cf713363ae641c5ea87f7c4b9f4e06aaaafffcf44c2f110286",
+  "legacy_function_sha256": "a77a39ba5c4efdd703293a41bdd54990fb3ddcb91194898e8185156a8dce393d",
+  "cases": {
+    "contradictory_claim": false,
+    "claim_only_chain": false,
+    "supported_control": true,
+    "revoked_seat": false,
+    "changed_source": false,
+    "unavailable_original": false,
+    "export_without_evidence": false
+  },
+  "scope": "Explicit new revision, unchanged frozen fixture/scoring logic. Not a new AI comparison or private benchmark."
+}
