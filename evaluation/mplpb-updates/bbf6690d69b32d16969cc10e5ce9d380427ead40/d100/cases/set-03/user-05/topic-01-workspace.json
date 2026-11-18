@@ -1,0 +1,1026 @@
+{
+  "schema": "candidate-review-workspace-v3",
+  "label": "Sorter suggestions for review. MPLPB has not verified these links or answers.",
+  "status": "candidate for review",
+  "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+  "approval_status": "outside_approved_evidence",
+  "answer_supported": false,
+  "content_truth_verified": false,
+  "approval_transferred": false,
+  "graph_sha256": "sha256:1d2af726be7c58a06f46d04ea6d56ddddd23a41ceebae5e929b0e5e2d7a5bb82",
+  "implementation_sha256": "sha256:74fd28037d4c10cfe1164a7fa04ee53de4c0e6be63401e675762a1a7a9249290",
+  "configuration": {
+    "question": "Who wrote the Catherine the Great memorandum?",
+    "topic": "Who wrote the Catherine the Great memorandum?",
+    "profile": "external",
+    "max_passages": 20,
+    "max_chars": 16000,
+    "strict_passages": 12,
+    "strict_chars": 8000,
+    "scan_passages": 256,
+    "pair_checks": 4096,
+    "as_of": null
+  },
+  "original_corpus_snapshot": "sha256:3295e1433a3e10bfae1c3dbea7662748abf7e56bd9e3fe9568055ea74837472a",
+  "original_policy": {
+    "gate_version": 2,
+    "mode": "separate_lexical_sources",
+    "max_depth": 0,
+    "prose": false,
+    "not_for": true,
+    "enforce_sealed_external_policy": true,
+    "synthesize": false,
+    "follow_pointers": false,
+    "require_current_dependencies": true,
+    "settings_hash": "sha256:9a5792000912599856bb1ff33d484ba7c4a6c1ec67ac9e9b1ce950355b28f7a9"
+  },
+  "reader_implementation_sha256": "sha256:e207dac173890540b5af36626e592c56cd293cb86a577c0c2a5d09cda441aea8",
+  "verifier_implementation_sha256": "sha256:9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+  "mplpb_decision": {
+    "status": "one_eligible_owner",
+    "eligible_owner_count": 1,
+    "strict_answer": {
+      "schema": "answer-contract-v1",
+      "mode": "strict",
+      "question": "Who wrote the Catherine the Great memorandum?",
+      "kind": "partial_answer",
+      "answer_supported": false,
+      "text": "Source assertion: Mara wrote the Year memorandum. Source-attributed statement; event/person identity and historical truth are not independently verified.\nSource assertion: Ivo wrote the Year memorandum. Source-attributed statement; event/person identity and historical truth are not independently verified.\nSource assertion: Tess wrote the United Nations memorandum. Source-attributed statement; event/person identity and historical truth are not independently verified.\nUnresolved: Who wrote the Catherine the Great memorandum: Exact requested argument, reference, qualification, or complete contrary-evidence search is not established.",
+      "claims": [
+        {
+          "text": "Source assertion: Mara wrote the Year memorandum.",
+          "qualifiers": [
+            "Source-attributed statement; event/person identity and historical truth are not independently verified."
+          ],
+          "citations": [
+            {
+              "source_id": "DOC-2",
+              "path": "doc-2.html",
+              "hash": "sha256:8fa6f0fa3de0361383e2b5e98ec0668d6e205a31e7296e8967526876b0f5e89c",
+              "body_start": 0,
+              "body_end": 31,
+              "start": 0,
+              "end": 31,
+              "quote": "Mara wrote the Year memorandum.",
+              "body_projection": "body-text-no-headings-v1"
+            }
+          ],
+          "proposition": {
+            "relation": "source_action_assertion",
+            "actor_text": "Mara",
+            "action": "write",
+            "object_text": "the Year memorandum",
+            "negative": false,
+            "temporal_qualification_text": "",
+            "unresolved_reference": false,
+            "assertion_modality": "unconditional_source_assertion",
+            "event_identity": null
+          },
+          "source_support_established": true,
+          "support_scope": "source_attributed_assertion",
+          "verification": "documentary-assertion-kernel-v4",
+          "historical_truth_independently_verified": false,
+          "proof_sha256": "sha256:07f7715da3d96765753fc255b603779cd311d2a51d3bb74e5711959e9039f2f5"
+        },
+        {
+          "text": "Source assertion: Ivo wrote the Year memorandum.",
+          "qualifiers": [
+            "Source-attributed statement; event/person identity and historical truth are not independently verified."
+          ],
+          "citations": [
+            {
+              "source_id": "DOC-3",
+              "path": "doc-3.html",
+              "hash": "sha256:8fb4edff256121b172d7c63bb3533c3ec1e81f811e630e313948752d69c14ac6",
+              "body_start": 0,
+              "body_end": 30,
+              "start": 0,
+              "end": 30,
+              "quote": "Ivo wrote the Year memorandum.",
+              "body_projection": "body-text-no-headings-v1"
+            }
+          ],
+          "proposition": {
+            "relation": "source_action_assertion",
+            "actor_text": "Ivo",
+            "action": "write",
+            "object_text": "the Year memorandum",
+            "negative": false,
+            "temporal_qualification_text": "",
+            "unresolved_reference": false,
+            "assertion_modality": "unconditional_source_assertion",
+            "event_identity": null
+          },
+          "source_support_established": true,
+          "support_scope": "source_attributed_assertion",
+          "verification": "documentary-assertion-kernel-v4",
+          "historical_truth_independently_verified": false,
+          "proof_sha256": "sha256:7ada535b35b47ba34c2fce7f7f12a8a8ecc967c69f82b0a75ed448981b884620"
+        },
+        {
+          "text": "Source assertion: Tess wrote the United Nations memorandum.",
+          "qualifiers": [
+            "Source-attributed statement; event/person identity and historical truth are not independently verified."
+          ],
+          "citations": [
+            {
+              "source_id": "DOC-4",
+              "path": "doc-4.html",
+              "hash": "sha256:b2220d25be744bcfe23861a7e9414720633272fc2d18f6406c67598d086c6889",
+              "body_start": 0,
+              "body_end": 41,
+              "start": 0,
+              "end": 41,
+              "quote": "Tess wrote the United Nations memorandum.",
+              "body_projection": "body-text-no-headings-v1"
+            }
+          ],
+          "proposition": {
+            "relation": "source_action_assertion",
+            "actor_text": "Tess",
+            "action": "write",
+            "object_text": "the United Nations memorandum",
+            "negative": false,
+            "temporal_qualification_text": "",
+            "unresolved_reference": false,
+            "assertion_modality": "unconditional_source_assertion",
+            "event_identity": null
+          },
+          "source_support_established": true,
+          "support_scope": "source_attributed_assertion",
+          "verification": "documentary-assertion-kernel-v4",
+          "historical_truth_independently_verified": false,
+          "proof_sha256": "sha256:04471b1660dbe4ad3b6c62b1fbcd3b6d5e9c0d074d4c9c31a4b1a6a4e27beea7"
+        }
+      ],
+      "missing": [
+        "Who wrote the Catherine the Great memorandum: Exact requested argument, reference, qualification, or complete contrary-evidence search is not established."
+      ],
+      "clarification": "",
+      "confidence": null,
+      "confidence_calibrated": false,
+      "sources": [
+        {
+          "id": "DOC-2",
+          "path": "doc-2.html",
+          "hash": "sha256:8fa6f0fa3de0361383e2b5e98ec0668d6e205a31e7296e8967526876b0f5e89c"
+        },
+        {
+          "id": "DOC-3",
+          "path": "doc-3.html",
+          "hash": "sha256:8fb4edff256121b172d7c63bb3533c3ec1e81f811e630e313948752d69c14ac6"
+        },
+        {
+          "id": "DOC-4",
+          "path": "doc-4.html",
+          "hash": "sha256:b2220d25be744bcfe23861a7e9414720633272fc2d18f6406c67598d086c6889"
+        }
+      ],
+      "retrieval": {
+        "eligible_pages": 4,
+        "total_passages": 4,
+        "passages": [],
+        "sources": [],
+        "search_complete": false,
+        "corpus_snapshot": "sha256:3295e1433a3e10bfae1c3dbea7662748abf7e56bd9e3fe9568055ea74837472a",
+        "ranking": "not_run"
+      },
+      "verification": {
+        "structural": true,
+        "semantic": "documentary-assertion-kernel-v4",
+        "truth_verified": false,
+        "independence_verified": false
+      },
+      "reader": null,
+      "trace": [],
+      "diagnostic": {
+        "code": "partial_documentary_evidence",
+        "stage": "documentary_verification",
+        "message": "Checked source-attributed assertions only; unresolved question obligations remain explicit and historical truth is unverified.",
+        "category": "insufficient_evidence",
+        "corpus_answerability": "not_established",
+        "next_steps": [
+          "Review the diagnostic and source evidence before retrying."
+        ]
+      },
+      "code_sha256": {
+        "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+        "__main__.py": "6b08b036aad956ce62e854e736939c4fb51bce7b3b71ee4a5b69839a07e1d460",
+        "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+        "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+        "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+        "documentary.py": "a23c38a041daf84cce40a59d479a29db63035807dc4c4431fdd738728b27aecc",
+        "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+        "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+        "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+        "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+        "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+        "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+        "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+        "local_narrator.py": "ab096ad599391f950e3e6fd026acc3f7572c69ac6c3c3189deec0bd9805cac36",
+        "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+        "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+        "passage_admission.py": "1c54ae6f933a1d841697ed4784a04aefa6cbc4e3e1cbc32c532ec3b0d70f98e7",
+        "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+        "pipeline.py": "cd0c166aeb4b58c80cd879cf6ecd390b3e8e66abbf4a5d4084abc17fb66c8e95",
+        "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+        "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+        "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+        "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+        "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+        "source_projection.py": "bf5d84912616e75c3fe3deb038325348f2f2ccb2ae210315cd8605798cf48c16",
+        "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+        "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+      },
+      "documentary_support": {
+        "schema": "documentary-composition-v1",
+        "original_question": "Who wrote the Catherine the Great memorandum?",
+        "profile": "external",
+        "obligations": [
+          {
+            "question": "Who wrote the Catherine the Great memorandum",
+            "kind": "who_action",
+            "status": "partial_source_assertion",
+            "evidence_proof_sha256": [
+              "sha256:07f7715da3d96765753fc255b603779cd311d2a51d3bb74e5711959e9039f2f5",
+              "sha256:7ada535b35b47ba34c2fce7f7f12a8a8ecc967c69f82b0a75ed448981b884620",
+              "sha256:04471b1660dbe4ad3b6c62b1fbcd3b6d5e9c0d074d4c9c31a4b1a6a4e27beea7"
+            ],
+            "evidence_claim_indices": [
+              0,
+              1,
+              2
+            ],
+            "unadmitted_witness_candidate_count": 0,
+            "undisplayed_evidence_count": 0,
+            "unadmitted_candidates_verified": false
+          }
+        ],
+        "source_support_claims": 3,
+        "historical_truth_independently_verified": false,
+        "admission": {
+          "schema": "reader-witness-admission-v1",
+          "max_passages": 12,
+          "max_characters": 8000,
+          "passages_admitted": 3,
+          "characters_admitted": 102,
+          "deduplication": "Exact source ID/path/hash/half-open span; different revisions and distinct nested spans remain distinct.",
+          "duplicate_span_charges_avoided": 3,
+          "admitted": [
+            {
+              "source_id": "DOC-2",
+              "path": "doc-2.html",
+              "hash": "sha256:8fa6f0fa3de0361383e2b5e98ec0668d6e205a31e7296e8967526876b0f5e89c",
+              "body_start": 0,
+              "body_end": 31,
+              "start": 0,
+              "end": 31,
+              "quote": "Mara wrote the Year memorandum.",
+              "body_projection": "body-text-no-headings-v1",
+              "reader_roles": [
+                "native_rule_candidates_for_question_parts:0",
+                "verified_question_evidence_or_counterevidence"
+              ]
+            },
+            {
+              "source_id": "DOC-3",
+              "path": "doc-3.html",
+              "hash": "sha256:8fb4edff256121b172d7c63bb3533c3ec1e81f811e630e313948752d69c14ac6",
+              "body_start": 0,
+              "body_end": 30,
+              "start": 0,
+              "end": 30,
+              "quote": "Ivo wrote the Year memorandum.",
+              "body_projection": "body-text-no-headings-v1",
+              "reader_roles": [
+                "native_rule_candidates_for_question_parts:0",
+                "verified_question_evidence_or_counterevidence"
+              ]
+            },
+            {
+              "source_id": "DOC-4",
+              "path": "doc-4.html",
+              "hash": "sha256:b2220d25be744bcfe23861a7e9414720633272fc2d18f6406c67598d086c6889",
+              "body_start": 0,
+              "body_end": 41,
+              "start": 0,
+              "end": 41,
+              "quote": "Tess wrote the United Nations memorandum.",
+              "body_projection": "body-text-no-headings-v1",
+              "reader_roles": [
+                "native_rule_candidates_for_question_parts:0",
+                "verified_question_evidence_or_counterevidence"
+              ]
+            }
+          ],
+          "blocked": [],
+          "review_only_hints": [],
+          "review_only_hint_count": 0,
+          "search_only_hints_admitted": 0,
+          "relevant_counterevidence_did_not_fit": false,
+          "reader_witness_discovery": {
+            "rule": null,
+            "body_prefix_characters": 0,
+            "pair_attempts": 0,
+            "max_body_prefix_characters": 192000,
+            "max_pair_attempts": 32
+          },
+          "sorter_assigns_slots": false,
+          "historical_truth_verified": false
+        },
+        "composition_rule": "Conjunction of independently checked source assertions; no person/event co-reference inferred.",
+        "historical_conflict_verified": false,
+        "event_coreference_established": false,
+        "contrary_evidence_scan_complete": true,
+        "scan_scope": "Finite literal action assertions; request occurrence/correction/execution not certified.",
+        "examined_characters": 156,
+        "examined_units": 4,
+        "limits_reached": [],
+        "limits": {
+          "max_proposals": 12,
+          "max_scan_characters": 200000,
+          "max_units": 1000,
+          "max_assertions": 64
+        },
+        "rejected_proposals": [],
+        "context_limits": [],
+        "comparison_completion_scope": null,
+        "question_completion_scope": null,
+        "alternative_evidence": [],
+        "unshown_alternative_evidence_count": 0,
+        "retrieval_limits": {
+          "max_passages": 12,
+          "max_characters": 8000
+        }
+      },
+      "passage_budget": {
+        "max_passages": 12,
+        "max_characters": 8000,
+        "distinct_citation_spans": 3,
+        "citation_characters": 102,
+        "blocked_atomic_claims": 0,
+        "deduplicated_before_charge": true
+      },
+      "source_assurance": {
+        "basis": "source_attributed_only",
+        "outside_world_confirmation_required": true,
+        "outside_world_truth": "not_established",
+        "authorship_authenticated": false,
+        "independence_verified": false,
+        "declared_evidence_root_count": 3,
+        "single_declared_root": false,
+        "notice": "Source support establishes what eligible ledger pages state. Outside-world confirmation is required before treating those statements as historical truth. MPLPB cannot detect a coherent false original without contrary evidence, authenticate arbitrary testimony, or establish general historical reconstruction from source integrity alone."
+      }
+    },
+    "page": {
+      "id": "DOC-1",
+      "path": "doc-1.html",
+      "hash": "sha256:756292c9351bd85f08ec5f21e3281b27dfa4ef2e44934fc77f9ba4ee93a37b6b",
+      "title": "Catherine the Great memorandum",
+      "text": "The Catherine the Great memorandum remains unassigned.",
+      "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified."
+    },
+    "competing_sources": [
+      {
+        "id": "DOC-1",
+        "path": "doc-1.html",
+        "hash": "sha256:756292c9351bd85f08ec5f21e3281b27dfa4ef2e44934fc77f9ba4ee93a37b6b",
+        "title": "Catherine the Great memorandum",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified."
+      }
+    ],
+    "native_kind": "return",
+    "reason": "exactly one current page owns this question by declared scope"
+  },
+  "processed_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:eddd2c395552645f3255c67e2ac17880bf00c3dfb33b8ae27b0152d542d4338d",
+      "occurrence_id": "node:f75c0d47fb554f1e915b0f0fc95bb312953ef36710a428734b544b77d8239891",
+      "span": {
+        "source_id": "source:c1691593d07ca1549dc7921eacbd27a71565dd224f3f1203751d3a0043ded360",
+        "source_sha256": "sha256:bc974cf903589c8cc11d677fa82bb5616260c5fd72fa47145bcbcbaa144b4a1e",
+        "path": "topic-04-mail.txt",
+        "char_start": 0,
+        "char_end": 49,
+        "byte_start": 0,
+        "byte_end": 49,
+        "text": "Tess did not write the United Nations memorandum."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "candidate_links_for_review"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:4b17b94b7f802cc8d37b602ed0001adf328181e7f6092e4520453a9486385d9d",
+      "occurrence_id": "node:032a6228602d53116ba765c168366b881baccf25f4da720ed82b75472b77e60e",
+      "span": {
+        "source_id": "source:262cd298b496315398ddcc6d61308bcfb8cd4d679677257b6b4c138007a5ff0e",
+        "source_sha256": "sha256:dc0fe5e092f28c256d9e24fddd31b84e7c466bfacee31fde50475734db7c2466",
+        "path": "topic-01-web-pointer.md",
+        "char_start": 24,
+        "char_end": 43,
+        "byte_start": 24,
+        "byte_end": 43,
+        "text": "Catherine the Great"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "candidate_links_for_review"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:8399a1f73a97d92610965b7dabaa97c5f15b4e216ff33fa57c47d02a2e1d84e9",
+      "occurrence_id": "node:ee6049883b8400de33e1f2b8b3e896111fed30f32ee5eac0aaa160b01b67687c",
+      "span": {
+        "source_id": "source:f7cd364f323d19d944fa420597f00a5c86c759388bbc79126ad44a74e3346b2a",
+        "source_sha256": "sha256:634bfa129a10275c248073797e00081259cc86bf9f8b9c20e0d69fe271370dc4",
+        "path": "topic-03-copy.txt",
+        "char_start": 0,
+        "char_end": 31,
+        "byte_start": 0,
+        "byte_end": 31,
+        "text": "Mara wrote the Year memorandum."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "candidate_links_for_review"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:78f7b2c53ccb03c518b90295e9e45cc0463a8f5b4fc78869fe8fbe4bf8bb7340",
+      "occurrence_id": "node:6031d1b9d7b72b2eca7e53dd59044a9f30017eb71701eb8b782235b423a5a3e2",
+      "span": {
+        "source_id": "source:6609bc53a824afe239bee257e7bc192a11b4ec82d315e37cabfef350b2944e04",
+        "source_sha256": "sha256:3314a070c57ce9167c0e08983fed6a36049cd50e392f1840d4ee3b659ff9921b",
+        "path": "topic-04-copy.md",
+        "char_start": 0,
+        "char_end": 41,
+        "byte_start": 0,
+        "byte_end": 41,
+        "text": "Tess wrote the United Nations memorandum."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "candidate_links_for_review"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:53f84c98a9b70448bbf31e76132139d5c39ef75c5a963759bd6c2f9067e7397a",
+      "occurrence_id": "node:886f583d089605d9f5a351aa3fd336fae7a77263a81d36a8b008231d4bc1e499",
+      "span": {
+        "source_id": "source:9db18d134ae9cbb7bca6186a19b40426398f6ffd433654ce4542647124dbe81b",
+        "source_sha256": "sha256:842b950f6f3083b3833a23546d5b5a1b2d6091a1cf26f96f745ea47a583147f9",
+        "path": "topic-01-copy.txt",
+        "char_start": 0,
+        "char_end": 45,
+        "byte_start": 0,
+        "byte_end": 45,
+        "text": "Ivo wrote the Catherine the Great memorandum."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "candidate_links_for_review"
+    }
+  ],
+  "candidates": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "id": "sha256:01d49a8747e669368101e98f33ed8579226c0a4de2790ee078cdc1e4b5048b09",
+      "kind": "conflicting_wording",
+      "processed": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:eddd2c395552645f3255c67e2ac17880bf00c3dfb33b8ae27b0152d542d4338d",
+        "occurrence_id": "node:f75c0d47fb554f1e915b0f0fc95bb312953ef36710a428734b544b77d8239891",
+        "span": {
+          "source_id": "source:c1691593d07ca1549dc7921eacbd27a71565dd224f3f1203751d3a0043ded360",
+          "source_sha256": "sha256:bc974cf903589c8cc11d677fa82bb5616260c5fd72fa47145bcbcbaa144b4a1e",
+          "path": "topic-04-mail.txt",
+          "char_start": 0,
+          "char_end": 49,
+          "byte_start": 0,
+          "byte_end": 49,
+          "text": "Tess did not write the United Nations memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "original": {
+        "source_id": "DOC-4",
+        "path": "doc-4.html",
+        "hash": "sha256:b2220d25be744bcfe23861a7e9414720633272fc2d18f6406c67598d086c6889",
+        "body_start": 0,
+        "body_end": 41,
+        "quote": "Tess wrote the United Nations memorandum.",
+        "native_original_sha256": "sha256:b2c35cf5845beb3ccb31619518605bf92186275e677fc9c2dc2ad1fb326e2ffd",
+        "byte_start": 606,
+        "byte_end": 647,
+        "raw_excerpt": "Tess wrote the United Nations memorandum.",
+        "raw_excerpt_sha256": "sha256:3314a070c57ce9167c0e08983fed6a36049cd50e392f1840d4ee3b659ff9921b",
+        "byte_coordinate_basis": "Native original page UTF-8; external acquisition mapping, if any, remains separate.",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified.",
+        "approval_status": "eligible_original",
+        "profile": "external",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "round_trip_quote_fidelity": true
+      },
+      "why": "Existing finite action grammar finds opposing polarity for the same literal actor/action/object. Event identity and truth remain unresolved.",
+      "identity": "unresolved",
+      "chronology": "unresolved",
+      "causation": "unresolved",
+      "correction_status": "unresolved"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "id": "sha256:3c0adc931decfbd50acd1cd562047b9c7a9a9168c20d92f93ae9173b03a8fda2",
+      "kind": "exact_match",
+      "processed": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:4b17b94b7f802cc8d37b602ed0001adf328181e7f6092e4520453a9486385d9d",
+        "occurrence_id": "node:032a6228602d53116ba765c168366b881baccf25f4da720ed82b75472b77e60e",
+        "span": {
+          "source_id": "source:262cd298b496315398ddcc6d61308bcfb8cd4d679677257b6b4c138007a5ff0e",
+          "source_sha256": "sha256:dc0fe5e092f28c256d9e24fddd31b84e7c466bfacee31fde50475734db7c2466",
+          "path": "topic-01-web-pointer.md",
+          "char_start": 24,
+          "char_end": 43,
+          "byte_start": 24,
+          "byte_end": 43,
+          "text": "Catherine the Great"
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "original": {
+        "source_id": "DOC-1",
+        "path": "doc-1.html",
+        "hash": "sha256:756292c9351bd85f08ec5f21e3281b27dfa4ef2e44934fc77f9ba4ee93a37b6b",
+        "body_start": 0,
+        "body_end": 54,
+        "quote": "The Catherine the Great memorandum remains unassigned.",
+        "native_original_sha256": "sha256:9a1c451654991f38156733cee850801cf3262c22ba1c3311c8d32e236c1c8ee6",
+        "byte_start": 621,
+        "byte_end": 675,
+        "raw_excerpt": "The Catherine the Great memorandum remains unassigned.",
+        "raw_excerpt_sha256": "sha256:8f78ae02c5c103e161461316885e405c9fc73f88f7a683b1bbfcbc2943b23263",
+        "byte_coordinate_basis": "Native original page UTF-8; external acquisition mapping, if any, remains separate.",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified.",
+        "approval_status": "eligible_original",
+        "profile": "external",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "round_trip_quote_fidelity": true
+      },
+      "why": "The complete processed wording occurs literally in this eligible original; approval does not transfer.",
+      "identity": "unresolved",
+      "chronology": "unresolved",
+      "causation": "unresolved",
+      "correction_status": "unresolved"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "id": "sha256:04f8f1a9052dba99aca95bf95466bab76e11a06d91ba9b61c5fcfc743c2cb98e",
+      "kind": "exact_match",
+      "processed": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:8399a1f73a97d92610965b7dabaa97c5f15b4e216ff33fa57c47d02a2e1d84e9",
+        "occurrence_id": "node:ee6049883b8400de33e1f2b8b3e896111fed30f32ee5eac0aaa160b01b67687c",
+        "span": {
+          "source_id": "source:f7cd364f323d19d944fa420597f00a5c86c759388bbc79126ad44a74e3346b2a",
+          "source_sha256": "sha256:634bfa129a10275c248073797e00081259cc86bf9f8b9c20e0d69fe271370dc4",
+          "path": "topic-03-copy.txt",
+          "char_start": 0,
+          "char_end": 31,
+          "byte_start": 0,
+          "byte_end": 31,
+          "text": "Mara wrote the Year memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "original": {
+        "source_id": "DOC-2",
+        "path": "doc-2.html",
+        "hash": "sha256:8fa6f0fa3de0361383e2b5e98ec0668d6e205a31e7296e8967526876b0f5e89c",
+        "body_start": 0,
+        "body_end": 31,
+        "quote": "Mara wrote the Year memorandum.",
+        "native_original_sha256": "sha256:b786293ba5bd4646facc45bea4216ab4c3654267e531fe17caa9f0f5b45b060d",
+        "byte_start": 576,
+        "byte_end": 607,
+        "raw_excerpt": "Mara wrote the Year memorandum.",
+        "raw_excerpt_sha256": "sha256:634bfa129a10275c248073797e00081259cc86bf9f8b9c20e0d69fe271370dc4",
+        "byte_coordinate_basis": "Native original page UTF-8; external acquisition mapping, if any, remains separate.",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified.",
+        "approval_status": "eligible_original",
+        "profile": "external",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "round_trip_quote_fidelity": true
+      },
+      "why": "The complete processed wording occurs literally in this eligible original; approval does not transfer.",
+      "identity": "unresolved",
+      "chronology": "unresolved",
+      "causation": "unresolved",
+      "correction_status": "unresolved"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "id": "sha256:0874f73791f7ac073a917dc6a2cd0a58f83a34c89838522dac4cf37286fd46ec",
+      "kind": "exact_match",
+      "processed": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:78f7b2c53ccb03c518b90295e9e45cc0463a8f5b4fc78869fe8fbe4bf8bb7340",
+        "occurrence_id": "node:6031d1b9d7b72b2eca7e53dd59044a9f30017eb71701eb8b782235b423a5a3e2",
+        "span": {
+          "source_id": "source:6609bc53a824afe239bee257e7bc192a11b4ec82d315e37cabfef350b2944e04",
+          "source_sha256": "sha256:3314a070c57ce9167c0e08983fed6a36049cd50e392f1840d4ee3b659ff9921b",
+          "path": "topic-04-copy.md",
+          "char_start": 0,
+          "char_end": 41,
+          "byte_start": 0,
+          "byte_end": 41,
+          "text": "Tess wrote the United Nations memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "original": {
+        "source_id": "DOC-4",
+        "path": "doc-4.html",
+        "hash": "sha256:b2220d25be744bcfe23861a7e9414720633272fc2d18f6406c67598d086c6889",
+        "body_start": 0,
+        "body_end": 41,
+        "quote": "Tess wrote the United Nations memorandum.",
+        "native_original_sha256": "sha256:b2c35cf5845beb3ccb31619518605bf92186275e677fc9c2dc2ad1fb326e2ffd",
+        "byte_start": 606,
+        "byte_end": 647,
+        "raw_excerpt": "Tess wrote the United Nations memorandum.",
+        "raw_excerpt_sha256": "sha256:3314a070c57ce9167c0e08983fed6a36049cd50e392f1840d4ee3b659ff9921b",
+        "byte_coordinate_basis": "Native original page UTF-8; external acquisition mapping, if any, remains separate.",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified.",
+        "approval_status": "eligible_original",
+        "profile": "external",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "round_trip_quote_fidelity": true
+      },
+      "why": "The complete processed wording occurs literally in this eligible original; approval does not transfer.",
+      "identity": "unresolved",
+      "chronology": "unresolved",
+      "causation": "unresolved",
+      "correction_status": "unresolved"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "id": "sha256:4e4f0c265ad66a5f228a35ca53cdfcbc9d66702695ad1e72326c8fe34ada6b44",
+      "kind": "shared_wording_review",
+      "processed": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:53f84c98a9b70448bbf31e76132139d5c39ef75c5a963759bd6c2f9067e7397a",
+        "occurrence_id": "node:886f583d089605d9f5a351aa3fd336fae7a77263a81d36a8b008231d4bc1e499",
+        "span": {
+          "source_id": "source:9db18d134ae9cbb7bca6186a19b40426398f6ffd433654ce4542647124dbe81b",
+          "source_sha256": "sha256:842b950f6f3083b3833a23546d5b5a1b2d6091a1cf26f96f745ea47a583147f9",
+          "path": "topic-01-copy.txt",
+          "char_start": 0,
+          "char_end": 45,
+          "byte_start": 0,
+          "byte_end": 45,
+          "text": "Ivo wrote the Catherine the Great memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "original": {
+        "source_id": "DOC-1",
+        "path": "doc-1.html",
+        "hash": "sha256:756292c9351bd85f08ec5f21e3281b27dfa4ef2e44934fc77f9ba4ee93a37b6b",
+        "body_start": 0,
+        "body_end": 54,
+        "quote": "The Catherine the Great memorandum remains unassigned.",
+        "native_original_sha256": "sha256:9a1c451654991f38156733cee850801cf3262c22ba1c3311c8d32e236c1c8ee6",
+        "byte_start": 621,
+        "byte_end": 675,
+        "raw_excerpt": "The Catherine the Great memorandum remains unassigned.",
+        "raw_excerpt_sha256": "sha256:8f78ae02c5c103e161461316885e405c9fc73f88f7a683b1bbfcbc2943b23263",
+        "byte_coordinate_basis": "Native original page UTF-8; external acquisition mapping, if any, remains separate.",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified.",
+        "approval_status": "eligible_original",
+        "profile": "external",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "round_trip_quote_fidelity": true
+      },
+      "why": "Existing sorter four-word phrase evidence: ['catherine the great memorandum', 'the catherine the great']. Lexical tokens only; identity, chronology, causation and correction are unresolved.",
+      "identity": "unresolved",
+      "chronology": "unresolved",
+      "causation": "unresolved",
+      "correction_status": "unresolved"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "id": "sha256:67cd53b45b1ab1d6a8eb6efb71b632aa0d2e926ae61121f61a78c51bcdcbc91a",
+      "kind": "shared_wording_review",
+      "processed": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:8399a1f73a97d92610965b7dabaa97c5f15b4e216ff33fa57c47d02a2e1d84e9",
+        "occurrence_id": "node:ee6049883b8400de33e1f2b8b3e896111fed30f32ee5eac0aaa160b01b67687c",
+        "span": {
+          "source_id": "source:f7cd364f323d19d944fa420597f00a5c86c759388bbc79126ad44a74e3346b2a",
+          "source_sha256": "sha256:634bfa129a10275c248073797e00081259cc86bf9f8b9c20e0d69fe271370dc4",
+          "path": "topic-03-copy.txt",
+          "char_start": 0,
+          "char_end": 31,
+          "byte_start": 0,
+          "byte_end": 31,
+          "text": "Mara wrote the Year memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "original": {
+        "source_id": "DOC-3",
+        "path": "doc-3.html",
+        "hash": "sha256:8fb4edff256121b172d7c63bb3533c3ec1e81f811e630e313948752d69c14ac6",
+        "body_start": 0,
+        "body_end": 30,
+        "quote": "Ivo wrote the Year memorandum.",
+        "native_original_sha256": "sha256:a01c2236f6708310669bb5c81ca363504410f7e106b3e2370473cd8d581a82eb",
+        "byte_start": 576,
+        "byte_end": 606,
+        "raw_excerpt": "Ivo wrote the Year memorandum.",
+        "raw_excerpt_sha256": "sha256:57bade262a5004dbe8fb1890cd2ee3079c8451d8b9eb5d244ab533cef6296f42",
+        "byte_coordinate_basis": "Native original page UTF-8; external acquisition mapping, if any, remains separate.",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified.",
+        "approval_status": "eligible_original",
+        "profile": "external",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "round_trip_quote_fidelity": true
+      },
+      "why": "Existing sorter four-word phrase evidence: ['wrote the year memorandum']. Lexical tokens only; identity, chronology, causation and correction are unresolved.",
+      "identity": "unresolved",
+      "chronology": "unresolved",
+      "causation": "unresolved",
+      "correction_status": "unresolved"
+    }
+  ],
+  "processed_disagreements": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "kind": "conflicting_wording",
+      "left": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:eddd2c395552645f3255c67e2ac17880bf00c3dfb33b8ae27b0152d542d4338d",
+        "occurrence_id": "node:f75c0d47fb554f1e915b0f0fc95bb312953ef36710a428734b544b77d8239891",
+        "span": {
+          "source_id": "source:c1691593d07ca1549dc7921eacbd27a71565dd224f3f1203751d3a0043ded360",
+          "source_sha256": "sha256:bc974cf903589c8cc11d677fa82bb5616260c5fd72fa47145bcbcbaa144b4a1e",
+          "path": "topic-04-mail.txt",
+          "char_start": 0,
+          "char_end": 49,
+          "byte_start": 0,
+          "byte_end": 49,
+          "text": "Tess did not write the United Nations memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "right": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:78f7b2c53ccb03c518b90295e9e45cc0463a8f5b4fc78869fe8fbe4bf8bb7340",
+        "occurrence_id": "node:6031d1b9d7b72b2eca7e53dd59044a9f30017eb71701eb8b782235b423a5a3e2",
+        "span": {
+          "source_id": "source:6609bc53a824afe239bee257e7bc192a11b4ec82d315e37cabfef350b2944e04",
+          "source_sha256": "sha256:3314a070c57ce9167c0e08983fed6a36049cd50e392f1840d4ee3b659ff9921b",
+          "path": "topic-04-copy.md",
+          "char_start": 0,
+          "char_end": 41,
+          "byte_start": 0,
+          "byte_end": 41,
+          "text": "Tess wrote the United Nations memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "why": "Existing finite action grammar finds opposing polarity for the same literal actor/action/object. Event identity and truth remain unresolved."
+    }
+  ],
+  "unresolved_references": [],
+  "unmatched_passages": [],
+  "exploration_budget": {
+    "max_passages": 20,
+    "max_characters": 16000,
+    "unique_spans": 9,
+    "characters": 341,
+    "omitted_items": 0,
+    "display_truncated": false,
+    "search_truncated": false,
+    "original_discovery_passage_limit": 64,
+    "original_discovery_character_limit": 64000,
+    "original_passages_considered": 4,
+    "processed_passages_considered": 5,
+    "original_pairs_examined": 20,
+    "processed_pairs_examined": 10,
+    "strict_slots_consumed": 0,
+    "phrase_token_limit_per_statement": 256
+  },
+  "strict_budget": {
+    "max_passages": 12,
+    "max_characters": 8000,
+    "evaluated": true,
+    "truncated": false
+  },
+  "limits_notice": "Unshown/unmatched items remain in the separately pinned sorter graph. No missing match or silence proves absence.",
+  "source_authority_changed": false,
+  "ownership_changed": false,
+  "workspace_sha256": "sha256:99c14e6285ff3ec9eff568af245f472f53927043f3e635b7380160d1c4088f61"
+}

@@ -1,0 +1,257 @@
+{
+  "schema": "candidate-review-workspace-v3",
+  "label": "Sorter suggestions for review. MPLPB has not verified these links or answers.",
+  "status": "candidate for review",
+  "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+  "approval_status": "outside_approved_evidence",
+  "answer_supported": false,
+  "content_truth_verified": false,
+  "approval_transferred": false,
+  "graph_sha256": "sha256:ab1c266a896b619803b08374438d0ed67d82e872d5847cefbe25af4ffb252f0e",
+  "implementation_sha256": "sha256:74fd28037d4c10cfe1164a7fa04ee53de4c0e6be63401e675762a1a7a9249290",
+  "configuration": {
+    "question": "What about Laozi?",
+    "topic": "What about Laozi?",
+    "profile": "internal",
+    "max_passages": 16,
+    "max_chars": 16000,
+    "strict_passages": 12,
+    "strict_chars": 8000,
+    "scan_passages": 256,
+    "pair_checks": 4096,
+    "as_of": null
+  },
+  "original_corpus_snapshot": "sha256:691f20646cc3a2bc073a00853f840a00130c9b3215cafecb8e11fe753dbac872",
+  "original_policy": {
+    "gate_version": 2,
+    "mode": "separate_lexical_sources",
+    "max_depth": 1,
+    "prose": true,
+    "not_for": true,
+    "enforce_sealed_external_policy": true,
+    "synthesize": false,
+    "follow_pointers": false,
+    "require_current_dependencies": true,
+    "settings_hash": "sha256:2b95571a707e2341b9dedc11b579a05bdd494cc4f4f2f13d1cac7e67a2beb03c"
+  },
+  "reader_implementation_sha256": "sha256:e207dac173890540b5af36626e592c56cd293cb86a577c0c2a5d09cda441aea8",
+  "verifier_implementation_sha256": "sha256:9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+  "mplpb_decision": {
+    "status": "no_eligible_owner",
+    "eligible_owner_count": 0,
+    "strict_answer": null,
+    "page": null,
+    "competing_sources": [],
+    "native_kind": "not_in_corpus",
+    "reason": "no current page declares most of this question, and no page contains every word of it",
+    "message": "No MPLPB-supported answer is returned by this ownership route. Labeled exploration remains available."
+  },
+  "processed_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:c5f111b0677ccdba2ea66fac60204354ea8698df34aeb085b4382ef9f409d8ab",
+      "occurrence_id": "node:040f04f6febcb1b653334ba878fa317adad141270547371bcf544332e4bfb7b0",
+      "span": {
+        "source_id": "source:3a5ff4b330461b08dfdc465294d4b0c64ed7ca437aa416d5111c6c7731a6d530",
+        "source_sha256": "sha256:fb48185c5d2c8c56581c1963c7ac2cff5a986a970f8eed534beb3f64463de0a9",
+        "path": "topic-01-copy.text",
+        "char_start": 0,
+        "char_end": 19,
+        "byte_start": 0,
+        "byte_end": 19,
+        "text": "Nora studied Laozi."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:b4cad919c65c2bad55fa066bccd8a76d2fda9086e5f329230ca82876f86cbd01",
+      "occurrence_id": "node:3a99ce6cfdea2297ea05e759f7cf25ea4f6ddf8c9eb2bc998bf601197d2b2668",
+      "span": {
+        "source_id": "source:6d066db63f15497b815d309f74d27fb38c25073c8fbe48b1e93e2a9587867a04",
+        "source_sha256": "sha256:bfcba43074407d121a2224df42e74a69e34cc383cfff521c288368524772b1a7",
+        "path": "topic-01-web-pointer.md",
+        "char_start": 24,
+        "char_end": 29,
+        "byte_start": 24,
+        "byte_end": 29,
+        "text": "Laozi"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:8082aca73eaba8eea37405833696d1b814a3266883bff5621c5664edae8adcd0",
+      "occurrence_id": "node:3a99ce6cfdea2297ea05e759f7cf25ea4f6ddf8c9eb2bc998bf601197d2b2668",
+      "span": {
+        "source_id": "source:6d066db63f15497b815d309f74d27fb38c25073c8fbe48b1e93e2a9587867a04",
+        "source_sha256": "sha256:bfcba43074407d121a2224df42e74a69e34cc383cfff521c288368524772b1a7",
+        "path": "topic-01-web-pointer.md",
+        "char_start": 31,
+        "char_end": 66,
+        "byte_start": 31,
+        "byte_end": 66,
+        "text": "https://en.wikipedia.org/wiki/Laozi"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "candidates": [],
+  "processed_disagreements": [],
+  "unresolved_references": [],
+  "unmatched_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:c5f111b0677ccdba2ea66fac60204354ea8698df34aeb085b4382ef9f409d8ab",
+      "occurrence_id": "node:040f04f6febcb1b653334ba878fa317adad141270547371bcf544332e4bfb7b0",
+      "span": {
+        "source_id": "source:3a5ff4b330461b08dfdc465294d4b0c64ed7ca437aa416d5111c6c7731a6d530",
+        "source_sha256": "sha256:fb48185c5d2c8c56581c1963c7ac2cff5a986a970f8eed534beb3f64463de0a9",
+        "path": "topic-01-copy.text",
+        "char_start": 0,
+        "char_end": 19,
+        "byte_start": 0,
+        "byte_end": 19,
+        "text": "Nora studied Laozi."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:b4cad919c65c2bad55fa066bccd8a76d2fda9086e5f329230ca82876f86cbd01",
+      "occurrence_id": "node:3a99ce6cfdea2297ea05e759f7cf25ea4f6ddf8c9eb2bc998bf601197d2b2668",
+      "span": {
+        "source_id": "source:6d066db63f15497b815d309f74d27fb38c25073c8fbe48b1e93e2a9587867a04",
+        "source_sha256": "sha256:bfcba43074407d121a2224df42e74a69e34cc383cfff521c288368524772b1a7",
+        "path": "topic-01-web-pointer.md",
+        "char_start": 24,
+        "char_end": 29,
+        "byte_start": 24,
+        "byte_end": 29,
+        "text": "Laozi"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:8082aca73eaba8eea37405833696d1b814a3266883bff5621c5664edae8adcd0",
+      "occurrence_id": "node:3a99ce6cfdea2297ea05e759f7cf25ea4f6ddf8c9eb2bc998bf601197d2b2668",
+      "span": {
+        "source_id": "source:6d066db63f15497b815d309f74d27fb38c25073c8fbe48b1e93e2a9587867a04",
+        "source_sha256": "sha256:bfcba43074407d121a2224df42e74a69e34cc383cfff521c288368524772b1a7",
+        "path": "topic-01-web-pointer.md",
+        "char_start": 31,
+        "char_end": 66,
+        "byte_start": 31,
+        "byte_end": 66,
+        "text": "https://en.wikipedia.org/wiki/Laozi"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "exploration_budget": {
+    "max_passages": 16,
+    "max_characters": 16000,
+    "unique_spans": 3,
+    "characters": 59,
+    "omitted_items": 0,
+    "display_truncated": false,
+    "search_truncated": false,
+    "original_discovery_passage_limit": 64,
+    "original_discovery_character_limit": 64000,
+    "original_passages_considered": 4,
+    "processed_passages_considered": 3,
+    "original_pairs_examined": 12,
+    "processed_pairs_examined": 3,
+    "strict_slots_consumed": 0,
+    "phrase_token_limit_per_statement": 256
+  },
+  "strict_budget": {
+    "max_passages": 12,
+    "max_characters": 8000,
+    "evaluated": false,
+    "truncated": false
+  },
+  "limits_notice": "Unshown/unmatched items remain in the separately pinned sorter graph. No missing match or silence proves absence.",
+  "source_authority_changed": false,
+  "ownership_changed": false,
+  "workspace_sha256": "sha256:1ff40fe9104fbdc7aedcfedcad22306210877966de67532a06aa6cb1771b1ef2"
+}

@@ -1,0 +1,724 @@
+{
+  "approved": [
+    {
+      "id": "DOC-1",
+      "dump_path": "dump/approved/DOC-1.txt",
+      "sha256": "a70dfcf2c77010cbe4885b2a8a84722bae4c7837f7b870ab2a76c505b0670878",
+      "ledger_path": "doc-1.html",
+      "ledger_sha256": "afac76fef0e4b96621d2dd27c4a014f396c2dc6179cde14526357583cebbcbcf",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-2",
+      "dump_path": "dump/approved/DOC-2.txt",
+      "sha256": "948eac750e64a3a2cf0a93a4262c8a1f5d87fbcb09138914b9bf1f79fca4af47",
+      "ledger_path": "doc-2.html",
+      "ledger_sha256": "cbff8cc35bd4345fd33089cb4a8ff2382a2305e434572d4dbef2a2b21b5167fd",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-3",
+      "dump_path": "dump/approved/DOC-3.txt",
+      "sha256": "e16622a0d21f242de38b62d6922eadcd6f358c43086048e0c6c9c140ae3c3959",
+      "ledger_path": "doc-3.html",
+      "ledger_sha256": "8a512129d5ca9c7b8a2ef03793029c8e193084d900a99274da9a1b209e81583e",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-4",
+      "dump_path": "dump/approved/DOC-4.txt",
+      "sha256": "ff8d4f6c8a76b7704c0ca2a0b8ce5a68487087dc51b0b49969eb87cfe8663e98",
+      "ledger_path": "doc-4.html",
+      "ledger_sha256": "41b6467d5a0fb80ce52d7e0f6b0382959999fa8fa11e56d86213cf22c06547bf",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    }
+  ],
+  "processed": [
+    {
+      "path": "collection-notes.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "887877201adaa1a02563a4f3aabff9265c30e9c736706d161a812e05520f51ff",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:c507b9122a0257d2e485b32df00fa06320c79038ca6e2f6b2a646c6f8ff229d1",
+        "path": "collection-notes.md",
+        "raw_sha256": "sha256:887877201adaa1a02563a4f3aabff9265c30e9c736706d161a812e05520f51ff",
+        "bytes": 70,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:a6d7c31bf58bbbbf210f232437fe42caaa98385ef3011c3a2560bccb054ba199",
+          "occurrence_id": "node:751d980c9e94e59ede94f0719caffaabded3756e4b7f19506651a993c270863b",
+          "span": {
+            "source_id": "source:c507b9122a0257d2e485b32df00fa06320c79038ca6e2f6b2a646c6f8ff229d1",
+            "source_sha256": "sha256:887877201adaa1a02563a4f3aabff9265c30e9c736706d161a812e05520f51ff",
+            "path": "collection-notes.md",
+            "char_start": 0,
+            "char_end": 15,
+            "byte_start": 0,
+            "byte_end": 15,
+            "text": "# Working notes"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:30194b18551851f3a130fbdf03be5d6920066295b3af1d7bc1b454a279b4a862",
+          "occurrence_id": "node:751d980c9e94e59ede94f0719caffaabded3756e4b7f19506651a993c270863b",
+          "span": {
+            "source_id": "source:c507b9122a0257d2e485b32df00fa06320c79038ca6e2f6b2a646c6f8ff229d1",
+            "source_sha256": "sha256:887877201adaa1a02563a4f3aabff9265c30e9c736706d161a812e05520f51ff",
+            "path": "collection-notes.md",
+            "char_start": 17,
+            "char_end": 70,
+            "byte_start": 17,
+            "byte_end": 70,
+            "text": "Draft inventory. Items require review before release."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "index.csv",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "af2c153e24c8497ba212794a9a9e0b65233ee56b8bcbd97e47bcfeb56ff0e585",
+      "sorter_status": "excluded",
+      "sorter_source": null,
+      "statements": []
+    },
+    {
+      "path": "topic-01-copy.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "a70dfcf2c77010cbe4885b2a8a84722bae4c7837f7b870ab2a76c505b0670878",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:9b277be39035f1fc6e4f484c7697c3330b34af7bc2381a7044ad22e893ebe272",
+        "path": "topic-01-copy.txt",
+        "raw_sha256": "sha256:a70dfcf2c77010cbe4885b2a8a84722bae4c7837f7b870ab2a76c505b0670878",
+        "bytes": 35,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:bddba9325674412ff997821bf3f57ef52b6e4df75ca7d18d4e3c9b4ea013931a",
+          "occurrence_id": "node:fffb0d79534415fb16965e3949263daaa53ec07619a2c8ca8f658422f8a46812",
+          "span": {
+            "source_id": "source:9b277be39035f1fc6e4f484c7697c3330b34af7bc2381a7044ad22e893ebe272",
+            "source_sha256": "sha256:a70dfcf2c77010cbe4885b2a8a84722bae4c7837f7b870ab2a76c505b0670878",
+            "path": "topic-01-copy.txt",
+            "char_start": 0,
+            "char_end": 35,
+            "byte_start": 0,
+            "byte_end": 35,
+            "text": "Tess wrote the Morality memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:06882e306c96c4a433f6e546fdbed22be2be1a955481aeca586c4d47239843f4",
+              "kind": "exact_match",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 588,
+              "byte_end": 623,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            },
+            {
+              "id": "sha256:b5a97955b4fc22bdddb4a54979e3ae168b7a2fa441259ba6d0199a5de2a6ab38",
+              "kind": "shared_wording_review",
+              "original_id": "DOC-2",
+              "original_path": "doc-2.html",
+              "byte_start": 588,
+              "byte_end": 623,
+              "reason": "Existing sorter four-word phrase evidence: ['wrote the morality memorandum']. Lexical tokens only; identity, chronology, causation and correction are unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-01-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "d497ad062132cc025238180f0ab00df7471c02b5df613ed247751eeac33c330f",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:d42f70b7bd9294ebeae7130a431cee78f4e86a4d2b9a9f9da29da19c9e0f0be3",
+        "path": "topic-01-web-pointer.md",
+        "raw_sha256": "sha256:d497ad062132cc025238180f0ab00df7471c02b5df613ed247751eeac33c330f",
+        "bytes": 134,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:d4bc137a2281bf0eb8cc6e217eee3853382aa255134170cfee4ce6815dd08337",
+          "occurrence_id": "node:3c94cd02a3c62ee046bc6008cca4efbc627a5db4cf873a3748d6ec7e4d93b817",
+          "span": {
+            "source_id": "source:d42f70b7bd9294ebeae7130a431cee78f4e86a4d2b9a9f9da29da19c9e0f0be3",
+            "source_sha256": "sha256:d497ad062132cc025238180f0ab00df7471c02b5df613ed247751eeac33c330f",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:501e72f50df083c82c3eb8ea94050ac5a4b639c5e6af8de5b7cdf85730a4a8e7",
+          "occurrence_id": "node:3c94cd02a3c62ee046bc6008cca4efbc627a5db4cf873a3748d6ec7e4d93b817",
+          "span": {
+            "source_id": "source:d42f70b7bd9294ebeae7130a431cee78f4e86a4d2b9a9f9da29da19c9e0f0be3",
+            "source_sha256": "sha256:d497ad062132cc025238180f0ab00df7471c02b5df613ed247751eeac33c330f",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 24,
+            "char_end": 32,
+            "byte_start": 24,
+            "byte_end": 32,
+            "text": "Morality"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:2720fe14ce56c6e2bf18317d757a770ba3c9a1f71fcf9989a6f472ff98607959",
+          "occurrence_id": "node:3c94cd02a3c62ee046bc6008cca4efbc627a5db4cf873a3748d6ec7e4d93b817",
+          "span": {
+            "source_id": "source:d42f70b7bd9294ebeae7130a431cee78f4e86a4d2b9a9f9da29da19c9e0f0be3",
+            "source_sha256": "sha256:d497ad062132cc025238180f0ab00df7471c02b5df613ed247751eeac33c330f",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 34,
+            "char_end": 72,
+            "byte_start": 34,
+            "byte_end": 72,
+            "text": "https://en.wikipedia.org/wiki/Morality"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:7203b26bbce60125063bfe5f28f17c44776cb3b171ace10090f425d63654556b",
+          "occurrence_id": "node:3c94cd02a3c62ee046bc6008cca4efbc627a5db4cf873a3748d6ec7e4d93b817",
+          "span": {
+            "source_id": "source:d42f70b7bd9294ebeae7130a431cee78f4e86a4d2b9a9f9da29da19c9e0f0be3",
+            "source_sha256": "sha256:d497ad062132cc025238180f0ab00df7471c02b5df613ed247751eeac33c330f",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 74,
+            "char_end": 134,
+            "byte_start": 74,
+            "byte_end": 134,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-copy.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "794e777ce1f28e8f59d757444015435cae46936697fdbb8f47abe7a2a31fc044",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:2bc707f263b87ff14a4084e9f77d98140b6eac02bac660493ba7f19e4c186328",
+        "path": "topic-02-copy.md",
+        "raw_sha256": "sha256:794e777ce1f28e8f59d757444015435cae46936697fdbb8f47abe7a2a31fc044",
+        "bytes": 18,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:9070e698894a659a769c76817c87da72e80cc60b729fe110c854bb32366ed1b0",
+          "occurrence_id": "node:70c71df6ec3a8775cd5e3167fc42b5478998e6cf15b77c2a407dcf35012692f9",
+          "span": {
+            "source_id": "source:2bc707f263b87ff14a4084e9f77d98140b6eac02bac660493ba7f19e4c186328",
+            "source_sha256": "sha256:794e777ce1f28e8f59d757444015435cae46936697fdbb8f47abe7a2a31fc044",
+            "path": "topic-02-copy.md",
+            "char_start": 0,
+            "char_end": 18,
+            "byte_start": 0,
+            "byte_end": 18,
+            "text": "Mara studied Lung."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "8c5ac62ed882c6dbbd157b478dcf15ced9358949723ab61813946cae52f1e4b0",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:ef5fea7abf2fe3fc2be2948e519fb9f2edfc8459c789015cef30bdbb2f283016",
+        "path": "topic-02-web-pointer.md",
+        "raw_sha256": "sha256:8c5ac62ed882c6dbbd157b478dcf15ced9358949723ab61813946cae52f1e4b0",
+        "bytes": 126,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:db195aa4ec4db67e80bb2f9ad2ab0fd5a53b85cae568d256666f198e1eb663a0",
+          "occurrence_id": "node:c9a2eb8cbcb7a8cf10fddf7c1969a8c8b189367ac34c63cc9cbc9a3b6ad3eb05",
+          "span": {
+            "source_id": "source:ef5fea7abf2fe3fc2be2948e519fb9f2edfc8459c789015cef30bdbb2f283016",
+            "source_sha256": "sha256:8c5ac62ed882c6dbbd157b478dcf15ced9358949723ab61813946cae52f1e4b0",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:9165d4ecc601a8fef25f22417bcdcb100cc03052c9749b420efb835b6f3f1b94",
+          "occurrence_id": "node:c9a2eb8cbcb7a8cf10fddf7c1969a8c8b189367ac34c63cc9cbc9a3b6ad3eb05",
+          "span": {
+            "source_id": "source:ef5fea7abf2fe3fc2be2948e519fb9f2edfc8459c789015cef30bdbb2f283016",
+            "source_sha256": "sha256:8c5ac62ed882c6dbbd157b478dcf15ced9358949723ab61813946cae52f1e4b0",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 24,
+            "char_end": 28,
+            "byte_start": 24,
+            "byte_end": 28,
+            "text": "Lung"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:5a8ead90a20554ef1bea8284da42d9589dfe2791c8c4302644f31b9a3debaf12",
+          "occurrence_id": "node:c9a2eb8cbcb7a8cf10fddf7c1969a8c8b189367ac34c63cc9cbc9a3b6ad3eb05",
+          "span": {
+            "source_id": "source:ef5fea7abf2fe3fc2be2948e519fb9f2edfc8459c789015cef30bdbb2f283016",
+            "source_sha256": "sha256:8c5ac62ed882c6dbbd157b478dcf15ced9358949723ab61813946cae52f1e4b0",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 30,
+            "char_end": 64,
+            "byte_start": 30,
+            "byte_end": 64,
+            "text": "https://en.wikipedia.org/wiki/Lung"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:40ea6d7749d698873fca70d08f24c41561b90e3929bea15470736befb0aea005",
+          "occurrence_id": "node:c9a2eb8cbcb7a8cf10fddf7c1969a8c8b189367ac34c63cc9cbc9a3b6ad3eb05",
+          "span": {
+            "source_id": "source:ef5fea7abf2fe3fc2be2948e519fb9f2edfc8459c789015cef30bdbb2f283016",
+            "source_sha256": "sha256:8c5ac62ed882c6dbbd157b478dcf15ced9358949723ab61813946cae52f1e4b0",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 66,
+            "char_end": 126,
+            "byte_start": 66,
+            "byte_end": 126,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-copy.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "6248db5f46636045eb65994ab4423a377f6eb5eac01cabe56b96ad5cb8c35cf4",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:9e1e1e2e49b65b9bb7502b60ffc91b21897c0f4d005485585ce6119cf5849234",
+        "path": "topic-03-copy.md",
+        "raw_sha256": "sha256:6248db5f46636045eb65994ab4423a377f6eb5eac01cabe56b96ad5cb8c35cf4",
+        "bytes": 38,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:c68c4761ab0718c5d1c74e3aa42e55731fffcb2c215b33520ec5b894ad3be3fc",
+          "occurrence_id": "node:b1aec42c7326622fd761402f525f601080cbb960c2cfb8d121d22a52a363d6d4",
+          "span": {
+            "source_id": "source:9e1e1e2e49b65b9bb7502b60ffc91b21897c0f4d005485585ce6119cf5849234",
+            "source_sha256": "sha256:6248db5f46636045eb65994ab4423a377f6eb5eac01cabe56b96ad5cb8c35cf4",
+            "path": "topic-03-copy.md",
+            "char_start": 0,
+            "char_end": 38,
+            "byte_start": 0,
+            "byte_end": 38,
+            "text": "Ivo wrote the Intelligence memorandum."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "5a2dcd052aef890a9065ada0d4b2ecd9651a3a243c8eb9229a017b0c6ff16961",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:f587c239a9336bdb52601ed9c0093d98493efdc6a8d5905b5f7042f413564421",
+        "path": "topic-03-web-pointer.md",
+        "raw_sha256": "sha256:5a2dcd052aef890a9065ada0d4b2ecd9651a3a243c8eb9229a017b0c6ff16961",
+        "bytes": 142,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:2a63dfc8b1b8d530bab0f2dd99cddb9baa3c3a75cb7b253c15cd3c4d724c2aa0",
+          "occurrence_id": "node:91743ede7e2db2c7b96e75b7895fc76bf5323474f912b8ec482c85c04726da04",
+          "span": {
+            "source_id": "source:f587c239a9336bdb52601ed9c0093d98493efdc6a8d5905b5f7042f413564421",
+            "source_sha256": "sha256:5a2dcd052aef890a9065ada0d4b2ecd9651a3a243c8eb9229a017b0c6ff16961",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:c818e48a84b1bd75a5475b7e81dd39c00920e56fdeac77b3d6f2e541dffa6fba",
+          "occurrence_id": "node:91743ede7e2db2c7b96e75b7895fc76bf5323474f912b8ec482c85c04726da04",
+          "span": {
+            "source_id": "source:f587c239a9336bdb52601ed9c0093d98493efdc6a8d5905b5f7042f413564421",
+            "source_sha256": "sha256:5a2dcd052aef890a9065ada0d4b2ecd9651a3a243c8eb9229a017b0c6ff16961",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 24,
+            "char_end": 36,
+            "byte_start": 24,
+            "byte_end": 36,
+            "text": "Intelligence"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:96d0892c7346a76946091fb2bc024b1f6f5b008c664be57c308a7595a111261d",
+          "occurrence_id": "node:91743ede7e2db2c7b96e75b7895fc76bf5323474f912b8ec482c85c04726da04",
+          "span": {
+            "source_id": "source:f587c239a9336bdb52601ed9c0093d98493efdc6a8d5905b5f7042f413564421",
+            "source_sha256": "sha256:5a2dcd052aef890a9065ada0d4b2ecd9651a3a243c8eb9229a017b0c6ff16961",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 38,
+            "char_end": 80,
+            "byte_start": 38,
+            "byte_end": 80,
+            "text": "https://en.wikipedia.org/wiki/Intelligence"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:fb051827b367dc6c2890458e36d1fc9b751700bedc02478ce538a0912579f12e",
+          "occurrence_id": "node:91743ede7e2db2c7b96e75b7895fc76bf5323474f912b8ec482c85c04726da04",
+          "span": {
+            "source_id": "source:f587c239a9336bdb52601ed9c0093d98493efdc6a8d5905b5f7042f413564421",
+            "source_sha256": "sha256:5a2dcd052aef890a9065ada0d4b2ecd9651a3a243c8eb9229a017b0c6ff16961",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 82,
+            "char_end": 142,
+            "byte_start": 82,
+            "byte_end": 142,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-copy.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "ff8d4f6c8a76b7704c0ca2a0b8ce5a68487087dc51b0b49969eb87cfe8663e98",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:500a299f149c8d1706a337b7328d9212d2e4655737e41ee52a927aa67d057128",
+        "path": "topic-04-copy.md",
+        "raw_sha256": "sha256:ff8d4f6c8a76b7704c0ca2a0b8ce5a68487087dc51b0b49969eb87cfe8663e98",
+        "bytes": 36,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:1b4e660d1f6ce1929c231600108547a3da573659e19dfdf3215225eefc4ffcd3",
+          "occurrence_id": "node:dde91debef3f97396227cb8b9e4b256b69ef5f79a9929255da9cca9ee29ca0c1",
+          "span": {
+            "source_id": "source:500a299f149c8d1706a337b7328d9212d2e4655737e41ee52a927aa67d057128",
+            "source_sha256": "sha256:ff8d4f6c8a76b7704c0ca2a0b8ce5a68487087dc51b0b49969eb87cfe8663e98",
+            "path": "topic-04-copy.md",
+            "char_start": 0,
+            "char_end": 36,
+            "byte_start": 0,
+            "byte_end": 36,
+            "text": "Nora wrote the Petroleum memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:82ef146dc2150aba0f7c68759042f74ff9ed0e4b9e7906cf2f66dc52f9a79813",
+              "kind": "exact_match",
+              "original_id": "DOC-4",
+              "original_path": "doc-4.html",
+              "byte_start": 591,
+              "byte_end": 627,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-mail.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "b9c0dba0aff88f4fcfdce36a3a981a8c8cc29e9e4b6ebce86682f6abb9259bff",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:c4ff10ff76b75d0c8695b5560c7db31a43f431c87f126e5b8447d8586b003578",
+        "path": "topic-04-mail.txt",
+        "raw_sha256": "sha256:b9c0dba0aff88f4fcfdce36a3a981a8c8cc29e9e4b6ebce86682f6abb9259bff",
+        "bytes": 44,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:22e2601520eef1dadfd84a4996bb28707207a3ba572f1e40b0b4932103a862b8",
+          "occurrence_id": "node:c150d42091a4fb3677a49271e4dc7d7eb879054947632cca9eed11e17a314a49",
+          "span": {
+            "source_id": "source:c4ff10ff76b75d0c8695b5560c7db31a43f431c87f126e5b8447d8586b003578",
+            "source_sha256": "sha256:b9c0dba0aff88f4fcfdce36a3a981a8c8cc29e9e4b6ebce86682f6abb9259bff",
+            "path": "topic-04-mail.txt",
+            "char_start": 0,
+            "char_end": 44,
+            "byte_start": 0,
+            "byte_end": 44,
+            "text": "Nora did not write the Petroleum memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:566e28fc66459211c35b20bf37e8ecca8174f98defb1a063f6351921e2638eb4",
+              "kind": "conflicting_wording",
+              "original_id": "DOC-4",
+              "original_path": "doc-4.html",
+              "byte_start": 591,
+              "byte_end": 627,
+              "reason": "Existing finite action grammar finds opposing polarity for the same literal actor/action/object. Event identity and truth remain unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "649a2ddb23e01f4efa6a3a8339780066753a7ed337570725e22da3a2b28cc9e4",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:e48f648985885a164557381b6638fd31dda189fad62a2df0d6a934008f88efd0",
+        "path": "topic-04-web-pointer.md",
+        "raw_sha256": "sha256:649a2ddb23e01f4efa6a3a8339780066753a7ed337570725e22da3a2b28cc9e4",
+        "bytes": 136,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:92aaf11408d9049bdf610b0f06e5d1431cdf7f928c87d941b33f43387b63de48",
+          "occurrence_id": "node:2fec0c5895027dff0676f2c67655e196693c9452d3f5fae4c270870953d70181",
+          "span": {
+            "source_id": "source:e48f648985885a164557381b6638fd31dda189fad62a2df0d6a934008f88efd0",
+            "source_sha256": "sha256:649a2ddb23e01f4efa6a3a8339780066753a7ed337570725e22da3a2b28cc9e4",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:c7ed09ca2853c8c54c4face9563292af71a2f1b4cf06e88481269fb9a72fa79a",
+          "occurrence_id": "node:2fec0c5895027dff0676f2c67655e196693c9452d3f5fae4c270870953d70181",
+          "span": {
+            "source_id": "source:e48f648985885a164557381b6638fd31dda189fad62a2df0d6a934008f88efd0",
+            "source_sha256": "sha256:649a2ddb23e01f4efa6a3a8339780066753a7ed337570725e22da3a2b28cc9e4",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 24,
+            "char_end": 33,
+            "byte_start": 24,
+            "byte_end": 33,
+            "text": "Petroleum"
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:9d256fa120a2ff53473d0eee161e6b8b126def522377235e979be731d6ba17ea",
+              "kind": "exact_match",
+              "original_id": "DOC-4",
+              "original_path": "doc-4.html",
+              "byte_start": 591,
+              "byte_end": 627,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            }
+          ],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:d8f3ec76d68386891a31320c419c00e3b6293a3af9de123d7ef4a305ce08b33d",
+          "occurrence_id": "node:2fec0c5895027dff0676f2c67655e196693c9452d3f5fae4c270870953d70181",
+          "span": {
+            "source_id": "source:e48f648985885a164557381b6638fd31dda189fad62a2df0d6a934008f88efd0",
+            "source_sha256": "sha256:649a2ddb23e01f4efa6a3a8339780066753a7ed337570725e22da3a2b28cc9e4",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 35,
+            "char_end": 74,
+            "byte_start": 35,
+            "byte_end": 74,
+            "text": "https://en.wikipedia.org/wiki/Petroleum"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:6837c9ec5a533e9953fb0a4885db24840de5891b18544846a2617f711793e41f",
+          "occurrence_id": "node:2fec0c5895027dff0676f2c67655e196693c9452d3f5fae4c270870953d70181",
+          "span": {
+            "source_id": "source:e48f648985885a164557381b6638fd31dda189fad62a2df0d6a934008f88efd0",
+            "source_sha256": "sha256:649a2ddb23e01f4efa6a3a8339780066753a7ed337570725e22da3a2b28cc9e4",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 76,
+            "char_end": 136,
+            "byte_start": 76,
+            "byte_end": 136,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    }
+  ]
+}

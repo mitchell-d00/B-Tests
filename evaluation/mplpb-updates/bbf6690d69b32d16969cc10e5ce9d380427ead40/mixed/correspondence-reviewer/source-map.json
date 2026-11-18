@@ -1,0 +1,244 @@
+{
+  "approved": [
+    {
+      "id": "DOC-1",
+      "dump_path": "dump/approved/DOC-1.txt",
+      "sha256": "49691ceb92e3ed2d8c380c9b6263b2f9a09094b2d97097ed510fb1bea715ccc7",
+      "ledger_path": "doc-1.html",
+      "ledger_sha256": "0b15cbaf873e606ec33e2ba1d5851c9970ca86c00509e44e24d670f41feebfa6",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-2",
+      "dump_path": "dump/approved/DOC-2.txt",
+      "sha256": "5bf36b4366ed88c5f60f06d2ddded6de9ee26c549e8a4c489e3ead5a19791843",
+      "ledger_path": "doc-2.html",
+      "ledger_sha256": "e399b7e4f860043e451070eb5200cc139bcaa65179ba1cfce1265ccb9e5e9de0",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    }
+  ],
+  "processed": [
+    {
+      "path": "forwarded.markdown",
+      "input_type": "synthetic",
+      "sha256": "2875a8c6c8ce6d32ced02e5900150d7eb4d6278d74c2eea3e95e250dfbaad72d",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:ada9a9c88825bd5fb5ae93310bfb3bb159556d2ebed4438617c968078e9c2575",
+        "path": "forwarded.markdown",
+        "raw_sha256": "sha256:2875a8c6c8ce6d32ced02e5900150d7eb4d6278d74c2eea3e95e250dfbaad72d",
+        "bytes": 90,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:609e3ae8c944bf53ec4d5d0d6732634101f0f75fdbbae899d33e018de18984c4",
+          "occurrence_id": "node:abcabac74282a6648f6da5d27e617ee862e4923c64155bba1f1e2527927cd2d5",
+          "span": {
+            "source_id": "source:ada9a9c88825bd5fb5ae93310bfb3bb159556d2ebed4438617c968078e9c2575",
+            "source_sha256": "sha256:2875a8c6c8ce6d32ced02e5900150d7eb4d6278d74c2eea3e95e250dfbaad72d",
+            "path": "forwarded.markdown",
+            "char_start": 0,
+            "char_end": 19,
+            "byte_start": 0,
+            "byte_end": 19,
+            "text": "# Forwarded message"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:d2d433a71f0577cbe4a78a3ac99bb70c8da28d6d27b7455798c6bc19d4161fab",
+          "occurrence_id": "node:abcabac74282a6648f6da5d27e617ee862e4923c64155bba1f1e2527927cd2d5",
+          "span": {
+            "source_id": "source:ada9a9c88825bd5fb5ae93310bfb3bb159556d2ebed4438617c968078e9c2575",
+            "source_sha256": "sha256:2875a8c6c8ce6d32ced02e5900150d7eb4d6278d74c2eea3e95e250dfbaad72d",
+            "path": "forwarded.markdown",
+            "char_start": 21,
+            "char_end": 56,
+            "byte_start": 21,
+            "byte_end": 56,
+            "text": "> Corrects DOC-1: Amber memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:759a321fbfbaf7e06ee094d83b7078839cfd6ba142474035cf49efd4aa4ce8b8",
+              "kind": "quoted_or_qualified_reference_review",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 579,
+              "byte_end": 611,
+              "reason": "Literal source reference names this original record. The shown target is document context; the referenced claim, correction scope and effective time remain unresolved."
+            }
+          ],
+          "unresolved_references": [
+            {
+              "target": "DOC-1:",
+              "span": {
+                "source_id": "source:ada9a9c88825bd5fb5ae93310bfb3bb159556d2ebed4438617c968078e9c2575",
+                "source_sha256": "sha256:2875a8c6c8ce6d32ced02e5900150d7eb4d6278d74c2eea3e95e250dfbaad72d",
+                "path": "forwarded.markdown",
+                "char_start": 23,
+                "char_end": 38,
+                "byte_start": 23,
+                "byte_end": 38,
+                "text": "Corrects DOC-1:"
+              },
+              "eligible_document_identified": true,
+              "target_claim_status": "unresolved"
+            }
+          ]
+        },
+        {
+          "node_id": "node:ba197faa077c48eea87fba23b5658cd31202c845f514b781e63de2b993e44a8b",
+          "occurrence_id": "node:abcabac74282a6648f6da5d27e617ee862e4923c64155bba1f1e2527927cd2d5",
+          "span": {
+            "source_id": "source:ada9a9c88825bd5fb5ae93310bfb3bb159556d2ebed4438617c968078e9c2575",
+            "source_sha256": "sha256:2875a8c6c8ce6d32ced02e5900150d7eb4d6278d74c2eea3e95e250dfbaad72d",
+            "path": "forwarded.markdown",
+            "char_start": 58,
+            "char_end": 90,
+            "byte_start": 58,
+            "byte_end": 90,
+            "text": "Ivo wrote the Amber memorandum.\n"
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:e7df4a8e89db6adea0535c49c9862941eed6d142273cdd174c0bd5887fcddd49",
+              "kind": "shared_wording_review",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 579,
+              "byte_end": 611,
+              "reason": "Existing sorter four-word phrase evidence: ['wrote the amber memorandum']. Lexical tokens only; identity, chronology, causation and correction are unresolved."
+            },
+            {
+              "id": "sha256:f8cbc5508069900c4e062c827f5794520b8433e2c38ec522786f642192051367",
+              "kind": "shared_wording_review",
+              "original_id": "DOC-2",
+              "original_path": "doc-2.html",
+              "byte_start": 579,
+              "byte_end": 610,
+              "reason": "Existing sorter four-word phrase evidence: ['ivo wrote the amber', 'wrote the amber memorandum']. Lexical tokens only; identity, chronology, causation and correction are unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "meeting-notes.md",
+      "input_type": "synthetic",
+      "sha256": "695345dd4481c0503271b27940e5e54a73c35ea7019c9f2689c4b50525ac69c7",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:f2d7b9f7ea2123d61ee40098707ec24475d83036c858e5c4edc29b6b2fce8388",
+        "path": "meeting-notes.md",
+        "raw_sha256": "sha256:695345dd4481c0503271b27940e5e54a73c35ea7019c9f2689c4b50525ac69c7",
+        "bytes": 44,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:813ed8a1e7151ff175a186162f350fed69d5a349b29f6f8428a7e202fadb26e5",
+          "occurrence_id": "node:a2e6314cc00d39ace92d9733f145269f2541879a4bd31d5cccd06aaaf6f7020e",
+          "span": {
+            "source_id": "source:f2d7b9f7ea2123d61ee40098707ec24475d83036c858e5c4edc29b6b2fce8388",
+            "source_sha256": "sha256:695345dd4481c0503271b27940e5e54a73c35ea7019c9f2689c4b50525ac69c7",
+            "path": "meeting-notes.md",
+            "char_start": 0,
+            "char_end": 44,
+            "byte_start": 0,
+            "byte_end": 44,
+            "text": "The Amber memorandum was marked for review.\n"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "preferred-copy.txt",
+      "input_type": "synthetic",
+      "sha256": "49691ceb92e3ed2d8c380c9b6263b2f9a09094b2d97097ed510fb1bea715ccc7",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:6121cf66949d2a220b8e9483e7346ab8381cf93361316483c1410101f4f8d207",
+        "path": "preferred-copy.txt",
+        "raw_sha256": "sha256:49691ceb92e3ed2d8c380c9b6263b2f9a09094b2d97097ed510fb1bea715ccc7",
+        "bytes": 32,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:39ec5383b5b0190f6f970e345ecae7114c625cf2697b91accc7058b2fd1af2a6",
+          "occurrence_id": "node:0fd279fac26c8f6a8470a9ef1998632bf2af13e16fe04cdc365689a1fee65b18",
+          "span": {
+            "source_id": "source:6121cf66949d2a220b8e9483e7346ab8381cf93361316483c1410101f4f8d207",
+            "source_sha256": "sha256:49691ceb92e3ed2d8c380c9b6263b2f9a09094b2d97097ed510fb1bea715ccc7",
+            "path": "preferred-copy.txt",
+            "char_start": 0,
+            "char_end": 32,
+            "byte_start": 0,
+            "byte_end": 32,
+            "text": "Mara wrote the Amber memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:2f380a256977ba579522abf46ea80d9df42df6d12372dab340dd95fe61a97a3a",
+              "kind": "exact_match",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 579,
+              "byte_end": 611,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            },
+            {
+              "id": "sha256:76faa5f27dae5930be72cb461d27f20aa81e90f5e07c660a883a65a5eb15a1b6",
+              "kind": "shared_wording_review",
+              "original_id": "DOC-2",
+              "original_path": "doc-2.html",
+              "byte_start": 579,
+              "byte_end": 610,
+              "reason": "Existing sorter four-word phrase evidence: ['wrote the amber memorandum']. Lexical tokens only; identity, chronology, causation and correction are unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    }
+  ]
+}

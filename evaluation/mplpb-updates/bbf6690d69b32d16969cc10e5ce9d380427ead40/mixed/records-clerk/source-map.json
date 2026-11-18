@@ -1,0 +1,324 @@
+{
+  "approved": [
+    {
+      "id": "DOC-1",
+      "dump_path": "dump/approved/DOC-1.txt",
+      "sha256": "4a444459d6d34e49d850e9311a60ee960c184e26d33878df92b7e015e1fc0bb7",
+      "ledger_path": "doc-1.html",
+      "ledger_sha256": "48d4f87cb07290cdcc63390c9288325cc0365505ed8f7279d9cbedc6d97a5564",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    }
+  ],
+  "processed": [
+    {
+      "path": "literal-copy.txt",
+      "input_type": "synthetic",
+      "sha256": "4a444459d6d34e49d850e9311a60ee960c184e26d33878df92b7e015e1fc0bb7",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:f222918906383c5f42874df2fdf377194398a9528dc3e29648893b9370c6628e",
+        "path": "literal-copy.txt",
+        "raw_sha256": "sha256:4a444459d6d34e49d850e9311a60ee960c184e26d33878df92b7e015e1fc0bb7",
+        "bytes": 33,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:b3c44ff2b2673454d47eb14aa243886076b9be515dc722f070c68d59ad08e437",
+          "occurrence_id": "node:6b68484a9a912cd3896860a0189d27542b86d196d09cdf90617de6b4a589c0ed",
+          "span": {
+            "source_id": "source:f222918906383c5f42874df2fdf377194398a9528dc3e29648893b9370c6628e",
+            "source_sha256": "sha256:4a444459d6d34e49d850e9311a60ee960c184e26d33878df92b7e015e1fc0bb7",
+            "path": "literal-copy.txt",
+            "char_start": 0,
+            "char_end": 33,
+            "byte_start": 0,
+            "byte_end": 33,
+            "text": "Mara wrote the Copper memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:f5e2902b7780d2c0de09a9e5756bd62b0914f8e98201bce0d1791f80936ecf26",
+              "kind": "exact_match",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 582,
+              "byte_end": 615,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "mail-export.txt",
+      "input_type": "synthetic",
+      "sha256": "e83cf5e81fa1a7f1b2d61de1f0e64dee9bcdaac5792662de091e5e7bb7bed659",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:a5d948806516287583fde8b47bbd1a7f63099a61fb0b05fddb89392181ac4ee1",
+        "path": "mail-export.txt",
+        "raw_sha256": "sha256:e83cf5e81fa1a7f1b2d61de1f0e64dee9bcdaac5792662de091e5e7bb7bed659",
+        "bytes": 76,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:d9779cafe39406c7d87c5072273fd193fe5e3e12f24e0c72f5e7023715859674",
+          "occurrence_id": "node:97f2d7d5ba1b7f68a32326d4fe54de695648431ffed38558ceb6bbb8646b2713",
+          "span": {
+            "source_id": "source:a5d948806516287583fde8b47bbd1a7f63099a61fb0b05fddb89392181ac4ee1",
+            "source_sha256": "sha256:e83cf5e81fa1a7f1b2d61de1f0e64dee9bcdaac5792662de091e5e7bb7bed659",
+            "path": "mail-export.txt",
+            "char_start": 0,
+            "char_end": 37,
+            "byte_start": 0,
+            "byte_end": 37,
+            "text": "Message-ID: MAIL-17\r\nDate: 2026-11-02"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:915e4077357369ce5372cb8566f049fb395a180d2c4fce2fe3fbeb203f706e4f",
+          "occurrence_id": "node:97f2d7d5ba1b7f68a32326d4fe54de695648431ffed38558ceb6bbb8646b2713",
+          "span": {
+            "source_id": "source:a5d948806516287583fde8b47bbd1a7f63099a61fb0b05fddb89392181ac4ee1",
+            "source_sha256": "sha256:e83cf5e81fa1a7f1b2d61de1f0e64dee9bcdaac5792662de091e5e7bb7bed659",
+            "path": "mail-export.txt",
+            "char_start": 41,
+            "char_end": 76,
+            "byte_start": 41,
+            "byte_end": 76,
+            "text": "Mara wrote the Copper memorandum.\r\n"
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:2546107d2770882a2dc7530f79688392c07148aa326e9b213e9bb8651a4606fa",
+              "kind": "shared_wording_review",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 582,
+              "byte_end": 615,
+              "reason": "Existing sorter four-word phrase evidence: ['mara wrote the copper', 'wrote the copper memorandum']. Lexical tokens only; identity, chronology, causation and correction are unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "raw-table.csv",
+      "input_type": "synthetic",
+      "sha256": "d0099d2529e79242912fd880ed381251dc6b0d183c91841e8b73ab854fbf4ce1",
+      "sorter_status": "excluded",
+      "sorter_source": null,
+      "statements": []
+    },
+    {
+      "path": "review-notes.text",
+      "input_type": "synthetic",
+      "sha256": "94b13a7f34786e2b64b4ad3447461c31fb1047f025a08a52ee7f37fabd257193",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:085374fc5435044311e303158081d0e5dc7bbe2ff957c24e7602b936df17ce5a",
+        "path": "review-notes.text",
+        "raw_sha256": "sha256:94b13a7f34786e2b64b4ad3447461c31fb1047f025a08a52ee7f37fabd257193",
+        "bytes": 101,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:ebd2b3a87dc90d38105276687abd90a2ce1d1d270af76f4fb4396cc4aad74b64",
+          "occurrence_id": "node:f021a369c98dd2e65c15cd5e274876816d6427ae65d349a0f4fffa82f897fcc4",
+          "span": {
+            "source_id": "source:085374fc5435044311e303158081d0e5dc7bbe2ff957c24e7602b936df17ce5a",
+            "source_sha256": "sha256:94b13a7f34786e2b64b4ad3447461c31fb1047f025a08a52ee7f37fabd257193",
+            "path": "review-notes.text",
+            "char_start": 0,
+            "char_end": 61,
+            "byte_start": 0,
+            "byte_end": 61,
+            "text": "Corrects DOC-1: Copper memorandum wording remains unresolved."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:338fffe6b06a2e5436889ae9bb13ec8ef481f6bf050a55d57f8aeba489b3776a",
+              "kind": "possible_correction",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 582,
+              "byte_end": 615,
+              "reason": "Literal source reference names this original record. The shown target is document context; the referenced claim, correction scope and effective time remain unresolved."
+            }
+          ],
+          "unresolved_references": [
+            {
+              "target": "DOC-1:",
+              "span": {
+                "source_id": "source:085374fc5435044311e303158081d0e5dc7bbe2ff957c24e7602b936df17ce5a",
+                "source_sha256": "sha256:94b13a7f34786e2b64b4ad3447461c31fb1047f025a08a52ee7f37fabd257193",
+                "path": "review-notes.text",
+                "char_start": 0,
+                "char_end": 15,
+                "byte_start": 0,
+                "byte_end": 15,
+                "text": "Corrects DOC-1:"
+              },
+              "eligible_document_identified": true,
+              "target_claim_status": "unresolved"
+            }
+          ]
+        },
+        {
+          "node_id": "node:facd071a58259ca663367d0dac7070e664700a5aa483f0914e4f6ae25ffd36e5",
+          "occurrence_id": "node:f021a369c98dd2e65c15cd5e274876816d6427ae65d349a0f4fffa82f897fcc4",
+          "span": {
+            "source_id": "source:085374fc5435044311e303158081d0e5dc7bbe2ff957c24e7602b936df17ce5a",
+            "source_sha256": "sha256:94b13a7f34786e2b64b4ad3447461c31fb1047f025a08a52ee7f37fabd257193",
+            "path": "review-notes.text",
+            "char_start": 63,
+            "char_end": 101,
+            "byte_start": 63,
+            "byte_end": 101,
+            "text": "See DOC-99 for the Copper memorandum.\n"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": [
+            {
+              "target": "DOC-99",
+              "span": {
+                "source_id": "source:085374fc5435044311e303158081d0e5dc7bbe2ff957c24e7602b936df17ce5a",
+                "source_sha256": "sha256:94b13a7f34786e2b64b4ad3447461c31fb1047f025a08a52ee7f37fabd257193",
+                "path": "review-notes.text",
+                "char_start": 63,
+                "char_end": 73,
+                "byte_start": 63,
+                "byte_end": 73,
+                "text": "See DOC-99"
+              },
+              "eligible_document_identified": false,
+              "target_claim_status": "unresolved"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "team-chat.md",
+      "input_type": "synthetic",
+      "sha256": "3670edfc8ab74f9c84180705540ed781f6fe64b1b5f3347538c047f93d5083d5",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:674d7ad904485084b6df14dacaa5d51cbbcfd3606766e6bcaa0e08c7db63f579",
+        "path": "team-chat.md",
+        "raw_sha256": "sha256:3670edfc8ab74f9c84180705540ed781f6fe64b1b5f3347538c047f93d5083d5",
+        "bytes": 110,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:a0a74a982bb4975606443a20b78a7da6e2707d03962c53166037d94b6d16fe13",
+          "occurrence_id": "node:daff0121846183e94b99d96e4d6c3a574d12d69959be112943aff89b6f7bb6e4",
+          "span": {
+            "source_id": "source:674d7ad904485084b6df14dacaa5d51cbbcfd3606766e6bcaa0e08c7db63f579",
+            "source_sha256": "sha256:3670edfc8ab74f9c84180705540ed781f6fe64b1b5f3347538c047f93d5083d5",
+            "path": "team-chat.md",
+            "char_start": 0,
+            "char_end": 11,
+            "byte_start": 0,
+            "byte_end": 11,
+            "text": "# Team chat"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:0fb92c7cc69ee773092656c6778652ef7d8dc0cea9a3637069ab06986306622b",
+          "occurrence_id": "node:daff0121846183e94b99d96e4d6c3a574d12d69959be112943aff89b6f7bb6e4",
+          "span": {
+            "source_id": "source:674d7ad904485084b6df14dacaa5d51cbbcfd3606766e6bcaa0e08c7db63f579",
+            "source_sha256": "sha256:3670edfc8ab74f9c84180705540ed781f6fe64b1b5f3347538c047f93d5083d5",
+            "path": "team-chat.md",
+            "char_start": 13,
+            "char_end": 54,
+            "byte_start": 13,
+            "byte_end": 54,
+            "text": "Mara did not write the Copper memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:f5fe4dfa475dd1e4741fe1d85d6df6a7ee2ffb6a8ac52717b05a47ebd2fffa14",
+              "kind": "conflicting_wording",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 582,
+              "byte_end": 615,
+              "reason": "Existing finite action grammar finds opposing polarity for the same literal actor/action/object. Event identity and truth remain unresolved."
+            }
+          ],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:10dc171dc87ceb7a0bb60bfe2d828ac2d5d2f2603004131bfd01f468a0bc9f67",
+          "occurrence_id": "node:daff0121846183e94b99d96e4d6c3a574d12d69959be112943aff89b6f7bb6e4",
+          "span": {
+            "source_id": "source:674d7ad904485084b6df14dacaa5d51cbbcfd3606766e6bcaa0e08c7db63f579",
+            "source_sha256": "sha256:3670edfc8ab74f9c84180705540ed781f6fe64b1b5f3347538c047f93d5083d5",
+            "path": "team-chat.md",
+            "char_start": 56,
+            "char_end": 109,
+            "byte_start": 56,
+            "byte_end": 110,
+            "text": "The Copper memorandum was discussed over café Wi-Fi.\n"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    }
+  ]
+}

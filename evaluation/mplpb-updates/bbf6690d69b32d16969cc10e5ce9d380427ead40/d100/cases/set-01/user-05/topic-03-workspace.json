@@ -1,0 +1,199 @@
+{
+  "schema": "candidate-review-workspace-v3",
+  "label": "Sorter suggestions for review. MPLPB has not verified these links or answers.",
+  "status": "candidate for review",
+  "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+  "approval_status": "outside_approved_evidence",
+  "answer_supported": false,
+  "content_truth_verified": false,
+  "approval_transferred": false,
+  "graph_sha256": "sha256:7bfa2b39052147ed044ab658c906cf1d04d11fec761ca9b0990037f75f451db0",
+  "implementation_sha256": "sha256:74fd28037d4c10cfe1164a7fa04ee53de4c0e6be63401e675762a1a7a9249290",
+  "configuration": {
+    "question": "What about World War I?",
+    "topic": "What about World War I?",
+    "profile": "external",
+    "max_passages": 12,
+    "max_chars": 16000,
+    "strict_passages": 12,
+    "strict_chars": 8000,
+    "scan_passages": 256,
+    "pair_checks": 4096,
+    "as_of": null
+  },
+  "original_corpus_snapshot": "sha256:a55ecb8948693210df121c1e925dca00f8486a8a4d08798ee32e493cad6c0107",
+  "original_policy": {
+    "gate_version": 2,
+    "mode": "separate_lexical_sources",
+    "max_depth": 0,
+    "prose": false,
+    "not_for": true,
+    "enforce_sealed_external_policy": true,
+    "synthesize": false,
+    "follow_pointers": false,
+    "require_current_dependencies": true,
+    "settings_hash": "sha256:9a5792000912599856bb1ff33d484ba7c4a6c1ec67ac9e9b1ce950355b28f7a9"
+  },
+  "reader_implementation_sha256": "sha256:e207dac173890540b5af36626e592c56cd293cb86a577c0c2a5d09cda441aea8",
+  "verifier_implementation_sha256": "sha256:9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+  "mplpb_decision": {
+    "status": "no_eligible_owner",
+    "eligible_owner_count": 0,
+    "strict_answer": null,
+    "page": null,
+    "competing_sources": [],
+    "native_kind": "not_in_corpus",
+    "reason": "no current page declares most of this question; profile external does not consult prose",
+    "message": "No MPLPB-supported answer is returned by this ownership route. Labeled exploration remains available."
+  },
+  "processed_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:adbcb76403a7d990373bfef92f081863d37143bdb4b30f33c43766936c1ee49f",
+      "occurrence_id": "node:8b29bf582d1d606c9646fbe4366f4cbbb60aaf0000e653c8d73c0d89b130b6fd",
+      "span": {
+        "source_id": "source:42aea38cca4688979a3f2e6d845181c1733923d3bb78549fac3ccb6ed364f17b",
+        "source_sha256": "sha256:af6afe52e4bf18b9fbcbbf8c92010ed8a1f595bd3a7a55be438048d033e008ec",
+        "path": "topic-03-copy.text",
+        "char_start": 0,
+        "char_end": 25,
+        "byte_start": 0,
+        "byte_end": 25,
+        "text": "Tess studied World War I."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:a3c1ea575fc7ecb95e85569309ff3817538a8fad48b0fe7c52709a868031e975",
+      "occurrence_id": "node:e978c1816d5f64e4badb89abc98e302e4adaac80c835462bde3554f0c91fa983",
+      "span": {
+        "source_id": "source:78ac636ef1e02c81ee6fd15d4ea0fcfd2fbc237e164e9dcc310146e06408d6d8",
+        "source_sha256": "sha256:6cf5e648b630b99d1efc78a8645387de0c4835ac3b386c416fe632c67d08f7c0",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 24,
+        "char_end": 35,
+        "byte_start": 24,
+        "byte_end": 35,
+        "text": "World War I"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "candidates": [],
+  "processed_disagreements": [],
+  "unresolved_references": [],
+  "unmatched_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:adbcb76403a7d990373bfef92f081863d37143bdb4b30f33c43766936c1ee49f",
+      "occurrence_id": "node:8b29bf582d1d606c9646fbe4366f4cbbb60aaf0000e653c8d73c0d89b130b6fd",
+      "span": {
+        "source_id": "source:42aea38cca4688979a3f2e6d845181c1733923d3bb78549fac3ccb6ed364f17b",
+        "source_sha256": "sha256:af6afe52e4bf18b9fbcbbf8c92010ed8a1f595bd3a7a55be438048d033e008ec",
+        "path": "topic-03-copy.text",
+        "char_start": 0,
+        "char_end": 25,
+        "byte_start": 0,
+        "byte_end": 25,
+        "text": "Tess studied World War I."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:a3c1ea575fc7ecb95e85569309ff3817538a8fad48b0fe7c52709a868031e975",
+      "occurrence_id": "node:e978c1816d5f64e4badb89abc98e302e4adaac80c835462bde3554f0c91fa983",
+      "span": {
+        "source_id": "source:78ac636ef1e02c81ee6fd15d4ea0fcfd2fbc237e164e9dcc310146e06408d6d8",
+        "source_sha256": "sha256:6cf5e648b630b99d1efc78a8645387de0c4835ac3b386c416fe632c67d08f7c0",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 24,
+        "char_end": 35,
+        "byte_start": 24,
+        "byte_end": 35,
+        "text": "World War I"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "exploration_budget": {
+    "max_passages": 12,
+    "max_characters": 16000,
+    "unique_spans": 2,
+    "characters": 36,
+    "omitted_items": 0,
+    "display_truncated": false,
+    "search_truncated": false,
+    "original_discovery_passage_limit": 64,
+    "original_discovery_character_limit": 64000,
+    "original_passages_considered": 0,
+    "processed_passages_considered": 2,
+    "original_pairs_examined": 0,
+    "processed_pairs_examined": 1,
+    "strict_slots_consumed": 0,
+    "phrase_token_limit_per_statement": 256
+  },
+  "strict_budget": {
+    "max_passages": 12,
+    "max_characters": 8000,
+    "evaluated": false,
+    "truncated": false
+  },
+  "limits_notice": "Unshown/unmatched items remain in the separately pinned sorter graph. No missing match or silence proves absence.",
+  "source_authority_changed": false,
+  "ownership_changed": false,
+  "workspace_sha256": "sha256:e68a290324f5192a97b71b89d5795650f4b5616277e7307e58588e834bd7d323"
+}

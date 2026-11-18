@@ -1,0 +1,257 @@
+{
+  "schema": "candidate-review-workspace-v3",
+  "label": "Sorter suggestions for review. MPLPB has not verified these links or answers.",
+  "status": "candidate for review",
+  "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+  "approval_status": "outside_approved_evidence",
+  "answer_supported": false,
+  "content_truth_verified": false,
+  "approval_transferred": false,
+  "graph_sha256": "sha256:01b5af291f7a8843222328b87279fb95b1a70241591c07dc3687bed7525bdfd8",
+  "implementation_sha256": "sha256:74fd28037d4c10cfe1164a7fa04ee53de4c0e6be63401e675762a1a7a9249290",
+  "configuration": {
+    "question": "What about Vehicle?",
+    "topic": "What about Vehicle?",
+    "profile": "internal",
+    "max_passages": 16,
+    "max_chars": 16000,
+    "strict_passages": 12,
+    "strict_chars": 8000,
+    "scan_passages": 256,
+    "pair_checks": 4096,
+    "as_of": null
+  },
+  "original_corpus_snapshot": "sha256:05cd5562a8fea2ceced9dc42ac6e3d98749c186df81813ca8a838fc4108c281a",
+  "original_policy": {
+    "gate_version": 2,
+    "mode": "separate_lexical_sources",
+    "max_depth": 1,
+    "prose": true,
+    "not_for": true,
+    "enforce_sealed_external_policy": true,
+    "synthesize": false,
+    "follow_pointers": false,
+    "require_current_dependencies": true,
+    "settings_hash": "sha256:2b95571a707e2341b9dedc11b579a05bdd494cc4f4f2f13d1cac7e67a2beb03c"
+  },
+  "reader_implementation_sha256": "sha256:e207dac173890540b5af36626e592c56cd293cb86a577c0c2a5d09cda441aea8",
+  "verifier_implementation_sha256": "sha256:9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+  "mplpb_decision": {
+    "status": "no_eligible_owner",
+    "eligible_owner_count": 0,
+    "strict_answer": null,
+    "page": null,
+    "competing_sources": [],
+    "native_kind": "not_in_corpus",
+    "reason": "no current page declares most of this question, and no page contains every word of it",
+    "message": "No MPLPB-supported answer is returned by this ownership route. Labeled exploration remains available."
+  },
+  "processed_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:ea08dfd3ecb77c0d66134726dee9ea28f921eef26eeeda7ace4d9cfcf9f515bc",
+      "occurrence_id": "node:5fe664467ab4082a29be31fda0b112ce4f644745cb863cb000e1d5d234816972",
+      "span": {
+        "source_id": "source:5d0ae442e41453862971d4b13fd8a420e99a428e20625128a31a3742b2182286",
+        "source_sha256": "sha256:1cf19a1228306cff7fedb077f73c0af651b0d170420c5188b94631f51c4dacfc",
+        "path": "topic-02-copy.txt",
+        "char_start": 0,
+        "char_end": 21,
+        "byte_start": 0,
+        "byte_end": 21,
+        "text": "Tess studied Vehicle."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:f4d3187a2ba4d7ce05608276177676838da3fe33c6d4349a64c01edc67d5396e",
+      "occurrence_id": "node:d584a9e6b6ba7de4e9f38846b456b2dbd8eed05290a0ae73165dbcbd5a9006b6",
+      "span": {
+        "source_id": "source:a7186aa002be67841bf032b2139869867484ac23ad7ba3e3eb1be5ff72116f02",
+        "source_sha256": "sha256:0f869b1dc97e9d728f72e54479c7393c17e8b9b2945735d43433aee191482da2",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 24,
+        "char_end": 31,
+        "byte_start": 24,
+        "byte_end": 31,
+        "text": "Vehicle"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:8292dfd3dc9fa2c0d1951c354d6cdf563c26f85ac43b85173ebc694737910b6f",
+      "occurrence_id": "node:d584a9e6b6ba7de4e9f38846b456b2dbd8eed05290a0ae73165dbcbd5a9006b6",
+      "span": {
+        "source_id": "source:a7186aa002be67841bf032b2139869867484ac23ad7ba3e3eb1be5ff72116f02",
+        "source_sha256": "sha256:0f869b1dc97e9d728f72e54479c7393c17e8b9b2945735d43433aee191482da2",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 33,
+        "char_end": 70,
+        "byte_start": 33,
+        "byte_end": 70,
+        "text": "https://en.wikipedia.org/wiki/Vehicle"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "candidates": [],
+  "processed_disagreements": [],
+  "unresolved_references": [],
+  "unmatched_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:ea08dfd3ecb77c0d66134726dee9ea28f921eef26eeeda7ace4d9cfcf9f515bc",
+      "occurrence_id": "node:5fe664467ab4082a29be31fda0b112ce4f644745cb863cb000e1d5d234816972",
+      "span": {
+        "source_id": "source:5d0ae442e41453862971d4b13fd8a420e99a428e20625128a31a3742b2182286",
+        "source_sha256": "sha256:1cf19a1228306cff7fedb077f73c0af651b0d170420c5188b94631f51c4dacfc",
+        "path": "topic-02-copy.txt",
+        "char_start": 0,
+        "char_end": 21,
+        "byte_start": 0,
+        "byte_end": 21,
+        "text": "Tess studied Vehicle."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:f4d3187a2ba4d7ce05608276177676838da3fe33c6d4349a64c01edc67d5396e",
+      "occurrence_id": "node:d584a9e6b6ba7de4e9f38846b456b2dbd8eed05290a0ae73165dbcbd5a9006b6",
+      "span": {
+        "source_id": "source:a7186aa002be67841bf032b2139869867484ac23ad7ba3e3eb1be5ff72116f02",
+        "source_sha256": "sha256:0f869b1dc97e9d728f72e54479c7393c17e8b9b2945735d43433aee191482da2",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 24,
+        "char_end": 31,
+        "byte_start": 24,
+        "byte_end": 31,
+        "text": "Vehicle"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:8292dfd3dc9fa2c0d1951c354d6cdf563c26f85ac43b85173ebc694737910b6f",
+      "occurrence_id": "node:d584a9e6b6ba7de4e9f38846b456b2dbd8eed05290a0ae73165dbcbd5a9006b6",
+      "span": {
+        "source_id": "source:a7186aa002be67841bf032b2139869867484ac23ad7ba3e3eb1be5ff72116f02",
+        "source_sha256": "sha256:0f869b1dc97e9d728f72e54479c7393c17e8b9b2945735d43433aee191482da2",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 33,
+        "char_end": 70,
+        "byte_start": 33,
+        "byte_end": 70,
+        "text": "https://en.wikipedia.org/wiki/Vehicle"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "exploration_budget": {
+    "max_passages": 16,
+    "max_characters": 16000,
+    "unique_spans": 3,
+    "characters": 65,
+    "omitted_items": 0,
+    "display_truncated": false,
+    "search_truncated": false,
+    "original_discovery_passage_limit": 64,
+    "original_discovery_character_limit": 64000,
+    "original_passages_considered": 4,
+    "processed_passages_considered": 3,
+    "original_pairs_examined": 12,
+    "processed_pairs_examined": 3,
+    "strict_slots_consumed": 0,
+    "phrase_token_limit_per_statement": 256
+  },
+  "strict_budget": {
+    "max_passages": 12,
+    "max_characters": 8000,
+    "evaluated": false,
+    "truncated": false
+  },
+  "limits_notice": "Unshown/unmatched items remain in the separately pinned sorter graph. No missing match or silence proves absence.",
+  "source_authority_changed": false,
+  "ownership_changed": false,
+  "workspace_sha256": "sha256:c6cdf8b1aea0ee494cfa6e71fe57adc53a7f210fb8b0ef194fe96f2f41c6e68b"
+}

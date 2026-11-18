@@ -1,0 +1,741 @@
+{
+  "approved": [
+    {
+      "id": "DOC-1",
+      "dump_path": "dump/approved/DOC-1.txt",
+      "sha256": "d39c2bd1d1236eae1216c121426f6a11e9bd66455db35c7d4506f0a63a6faf34",
+      "ledger_path": "doc-1.html",
+      "ledger_sha256": "06d1475c42c6123968396547e5823cfd8b589b092261d6a4ce158c5ff185e2f6",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-2",
+      "dump_path": "dump/approved/DOC-2.txt",
+      "sha256": "c96a422f5cd2c5ca2076baf30d51796b7a411148b8e0581305487f9f12e75380",
+      "ledger_path": "doc-2.html",
+      "ledger_sha256": "d17410795a06608a1f2196b168ba5edb86c4c06cad37023453979224b62970af",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-3",
+      "dump_path": "dump/approved/DOC-3.txt",
+      "sha256": "3601c05789f64cf68e260b2caf8ccdea73d11204eef881c9d439b93a91103805",
+      "ledger_path": "doc-3.html",
+      "ledger_sha256": "b132cb0cd2489a21b64af9128a23d8a010c5991bab1c9a8be22cd32f3b966add",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-4",
+      "dump_path": "dump/approved/DOC-4.txt",
+      "sha256": "b467679b7d3fcbe3c759359dbfabcd4fdf25635d2a8b5b55635b4b59296297d1",
+      "ledger_path": "doc-4.html",
+      "ledger_sha256": "8dd569764a9503bbd1e271193d2b17cff5e48f0b180eea7f1547df69585f44ac",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    }
+  ],
+  "processed": [
+    {
+      "path": "collection-notes.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "538b7fdb47e3cd244134886f7555c7d481ca2985b5aa4f227b3d36609f0c284f",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:f3102c4ea20c96c3fc6e581b92c47d6da090d53dc7472409c4e17765bd5773e8",
+        "path": "collection-notes.md",
+        "raw_sha256": "sha256:538b7fdb47e3cd244134886f7555c7d481ca2985b5aa4f227b3d36609f0c284f",
+        "bytes": 74,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:beb68baa9da9d90b2ce9f93972677da3317e6933d8002c08c5948eb5360a7cb4",
+          "occurrence_id": "node:1c60192eb242aff7bb0061d9a006e619d81d64e241917bd39ba0f25e6f6cd45a",
+          "span": {
+            "source_id": "source:f3102c4ea20c96c3fc6e581b92c47d6da090d53dc7472409c4e17765bd5773e8",
+            "source_sha256": "sha256:538b7fdb47e3cd244134886f7555c7d481ca2985b5aa4f227b3d36609f0c284f",
+            "path": "collection-notes.md",
+            "char_start": 0,
+            "char_end": 15,
+            "byte_start": 0,
+            "byte_end": 15,
+            "text": "# Archive notes"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:c14d165342747ddd12bc3753f8441ee53f3fadb9fd91f4f6b2dd54e983eccd31",
+          "occurrence_id": "node:1c60192eb242aff7bb0061d9a006e619d81d64e241917bd39ba0f25e6f6cd45a",
+          "span": {
+            "source_id": "source:f3102c4ea20c96c3fc6e581b92c47d6da090d53dc7472409c4e17765bd5773e8",
+            "source_sha256": "sha256:538b7fdb47e3cd244134886f7555c7d481ca2985b5aa4f227b3d36609f0c284f",
+            "path": "collection-notes.md",
+            "char_start": 17,
+            "char_end": 32,
+            "byte_start": 17,
+            "byte_end": 32,
+            "text": "Status: pending"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:d85d5f787209020b30832e1ab8fb481615ee4f096d955f5929171c305d0a9bb9",
+          "occurrence_id": "node:1c60192eb242aff7bb0061d9a006e619d81d64e241917bd39ba0f25e6f6cd45a",
+          "span": {
+            "source_id": "source:f3102c4ea20c96c3fc6e581b92c47d6da090d53dc7472409c4e17765bd5773e8",
+            "source_sha256": "sha256:538b7fdb47e3cd244134886f7555c7d481ca2985b5aa4f227b3d36609f0c284f",
+            "path": "collection-notes.md",
+            "char_start": 34,
+            "char_end": 74,
+            "byte_start": 34,
+            "byte_end": 74,
+            "text": "These entries came from several exports."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "index.csv",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "af2c153e24c8497ba212794a9a9e0b65233ee56b8bcbd97e47bcfeb56ff0e585",
+      "sorter_status": "excluded",
+      "sorter_source": null,
+      "statements": []
+    },
+    {
+      "path": "topic-01-copy.text",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "d39c2bd1d1236eae1216c121426f6a11e9bd66455db35c7d4506f0a63a6faf34",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:9492dcde7154bedbd8760c94d98464fb652a0c065bb943308ba52c5904ebee30",
+        "path": "topic-01-copy.text",
+        "raw_sha256": "sha256:d39c2bd1d1236eae1216c121426f6a11e9bd66455db35c7d4506f0a63a6faf34",
+        "bytes": 37,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:e379285ebc0abfecf65934b86cf7a8c2fb5f6fd5296a1429c2f61abfe8712a68",
+          "occurrence_id": "node:6170a2e0b0fc50358d22538d655c9b98c652f16be943dff4e8ecf6ad42fb810f",
+          "span": {
+            "source_id": "source:9492dcde7154bedbd8760c94d98464fb652a0c065bb943308ba52c5904ebee30",
+            "source_sha256": "sha256:d39c2bd1d1236eae1216c121426f6a11e9bd66455db35c7d4506f0a63a6faf34",
+            "path": "topic-01-copy.text",
+            "char_start": 0,
+            "char_end": 37,
+            "byte_start": 0,
+            "byte_end": 37,
+            "text": "Ivo wrote the Adolescence memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:28896fc9586ff36f03096f44da752f35875eec413c961aca33ba3eec8493a407",
+              "kind": "exact_match",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 597,
+              "byte_end": 634,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            },
+            {
+              "id": "sha256:e2e24f2cfb4dd42144e9e1efb2c0d50de3d6a0362d33964f0be961a38b112958",
+              "kind": "shared_wording_review",
+              "original_id": "DOC-2",
+              "original_path": "doc-2.html",
+              "byte_start": 597,
+              "byte_end": 635,
+              "reason": "Existing sorter four-word phrase evidence: ['wrote the adolescence memorandum']. Lexical tokens only; identity, chronology, causation and correction are unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-01-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "a5f5891db1bcac07e7595fb4e63e94ad3369093efc4c9a6c6c22d1abbbcfa161",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:9ee2a80ab996a57d2ae6970e159479afec462de930283c7236e15403f28c1b8a",
+        "path": "topic-01-web-pointer.md",
+        "raw_sha256": "sha256:a5f5891db1bcac07e7595fb4e63e94ad3369093efc4c9a6c6c22d1abbbcfa161",
+        "bytes": 140,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:ef9f0f2edf8f9bf4d381596583058241637762144a576d2da86a03aafcfb27e8",
+          "occurrence_id": "node:d90b6ad4b7cf4fefe110ddbfa94ef571e52b1f69512715522897310d0e3ff836",
+          "span": {
+            "source_id": "source:9ee2a80ab996a57d2ae6970e159479afec462de930283c7236e15403f28c1b8a",
+            "source_sha256": "sha256:a5f5891db1bcac07e7595fb4e63e94ad3369093efc4c9a6c6c22d1abbbcfa161",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:7cc4f0b4ca3d9703a82d11559cad188093d08d4d8525a7ecfa8c52be1c454b5c",
+          "occurrence_id": "node:d90b6ad4b7cf4fefe110ddbfa94ef571e52b1f69512715522897310d0e3ff836",
+          "span": {
+            "source_id": "source:9ee2a80ab996a57d2ae6970e159479afec462de930283c7236e15403f28c1b8a",
+            "source_sha256": "sha256:a5f5891db1bcac07e7595fb4e63e94ad3369093efc4c9a6c6c22d1abbbcfa161",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 24,
+            "char_end": 35,
+            "byte_start": 24,
+            "byte_end": 35,
+            "text": "Adolescence"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:b81328497b7fd12579ac71636cb7df6d6e077e7bb18b5baba0c279246e5b3324",
+          "occurrence_id": "node:d90b6ad4b7cf4fefe110ddbfa94ef571e52b1f69512715522897310d0e3ff836",
+          "span": {
+            "source_id": "source:9ee2a80ab996a57d2ae6970e159479afec462de930283c7236e15403f28c1b8a",
+            "source_sha256": "sha256:a5f5891db1bcac07e7595fb4e63e94ad3369093efc4c9a6c6c22d1abbbcfa161",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 37,
+            "char_end": 78,
+            "byte_start": 37,
+            "byte_end": 78,
+            "text": "https://en.wikipedia.org/wiki/Adolescence"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:1ef31a5fee60ece7476f36223fc4bc98c558807abd9037440511116354dce475",
+          "occurrence_id": "node:d90b6ad4b7cf4fefe110ddbfa94ef571e52b1f69512715522897310d0e3ff836",
+          "span": {
+            "source_id": "source:9ee2a80ab996a57d2ae6970e159479afec462de930283c7236e15403f28c1b8a",
+            "source_sha256": "sha256:a5f5891db1bcac07e7595fb4e63e94ad3369093efc4c9a6c6c22d1abbbcfa161",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 80,
+            "char_end": 140,
+            "byte_start": 80,
+            "byte_end": 140,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-copy.markdown",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "3601c05789f64cf68e260b2caf8ccdea73d11204eef881c9d439b93a91103805",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:f680c1e0ad658767c1db1fdb309ba88f36ebd2bccfab83fda3645981a5852092",
+        "path": "topic-02-copy.markdown",
+        "raw_sha256": "sha256:3601c05789f64cf68e260b2caf8ccdea73d11204eef881c9d439b93a91103805",
+        "bytes": 32,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:6d26c02b625fd75756f66de09851e45d38468ea22fb01fde5aa2c316c18d902d",
+          "occurrence_id": "node:993fc43a39c5ab604d7158c106b0d59ac72cb1e5adfb1cc92f7880bdd910f22c",
+          "span": {
+            "source_id": "source:f680c1e0ad658767c1db1fdb309ba88f36ebd2bccfab83fda3645981a5852092",
+            "source_sha256": "sha256:3601c05789f64cf68e260b2caf8ccdea73d11204eef881c9d439b93a91103805",
+            "path": "topic-02-copy.markdown",
+            "char_start": 0,
+            "char_end": 32,
+            "byte_start": 0,
+            "byte_end": 32,
+            "text": "Tess wrote the Clock memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:c72e879548b444bdd43859917bbe52986b9c94bfdea76d270c68ece16b3e7371",
+              "kind": "exact_match",
+              "original_id": "DOC-3",
+              "original_path": "doc-3.html",
+              "byte_start": 579,
+              "byte_end": 611,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-mail.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "9245cc70018d257b9283af634ebd33f0c98bc35cc1d89861542b1aa44edd8b15",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:960cc3ea5f0cfa9bc69f612e98dc421169121c03c0043ec32bbd4af4e86ba8ea",
+        "path": "topic-02-mail.txt",
+        "raw_sha256": "sha256:9245cc70018d257b9283af634ebd33f0c98bc35cc1d89861542b1aa44edd8b15",
+        "bytes": 40,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:b0f8468c1655e935e94111b7621d0b132df87218f8d85a1a4c0a49acf76e0336",
+          "occurrence_id": "node:7205ab00003234927d15fe45d8d602c28fd6d65125c07f9051e6f1cb9faba225",
+          "span": {
+            "source_id": "source:960cc3ea5f0cfa9bc69f612e98dc421169121c03c0043ec32bbd4af4e86ba8ea",
+            "source_sha256": "sha256:9245cc70018d257b9283af634ebd33f0c98bc35cc1d89861542b1aa44edd8b15",
+            "path": "topic-02-mail.txt",
+            "char_start": 0,
+            "char_end": 40,
+            "byte_start": 0,
+            "byte_end": 40,
+            "text": "Tess did not write the Clock memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:c8c9735dce6d16a88613174fec0d7ecb8d04054915371700c5e88a92acc8b595",
+              "kind": "conflicting_wording",
+              "original_id": "DOC-3",
+              "original_path": "doc-3.html",
+              "byte_start": 579,
+              "byte_end": 611,
+              "reason": "Existing finite action grammar finds opposing polarity for the same literal actor/action/object. Event identity and truth remain unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "035b5f40014e3a7681f08528b751f063f23a793db70d30f662927671748a3ee4",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:3165a5fe9e6fb763bc2c40161127680785c4472a3a3f79a6fc26282e8e27b170",
+        "path": "topic-02-web-pointer.md",
+        "raw_sha256": "sha256:035b5f40014e3a7681f08528b751f063f23a793db70d30f662927671748a3ee4",
+        "bytes": 128,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:ea80425d2087cd020cd03d2a7b6a58b046d22970a57f61169dff02bb23f66460",
+          "occurrence_id": "node:4990dc7cb425c2866565727584055320bea5fbc1242151c46996fd612d4122f0",
+          "span": {
+            "source_id": "source:3165a5fe9e6fb763bc2c40161127680785c4472a3a3f79a6fc26282e8e27b170",
+            "source_sha256": "sha256:035b5f40014e3a7681f08528b751f063f23a793db70d30f662927671748a3ee4",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:047d72a767b5f06fbc6378db2b04efe33fad01747de539115d193af81d094458",
+          "occurrence_id": "node:4990dc7cb425c2866565727584055320bea5fbc1242151c46996fd612d4122f0",
+          "span": {
+            "source_id": "source:3165a5fe9e6fb763bc2c40161127680785c4472a3a3f79a6fc26282e8e27b170",
+            "source_sha256": "sha256:035b5f40014e3a7681f08528b751f063f23a793db70d30f662927671748a3ee4",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 24,
+            "char_end": 29,
+            "byte_start": 24,
+            "byte_end": 29,
+            "text": "Clock"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:ea397dc942b3109767f1eec65c33bbbb674e3bb9a5066e3cc00476adc0987dc0",
+          "occurrence_id": "node:4990dc7cb425c2866565727584055320bea5fbc1242151c46996fd612d4122f0",
+          "span": {
+            "source_id": "source:3165a5fe9e6fb763bc2c40161127680785c4472a3a3f79a6fc26282e8e27b170",
+            "source_sha256": "sha256:035b5f40014e3a7681f08528b751f063f23a793db70d30f662927671748a3ee4",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 31,
+            "char_end": 66,
+            "byte_start": 31,
+            "byte_end": 66,
+            "text": "https://en.wikipedia.org/wiki/Clock"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:a2df29220de1e485024a1b2fe56e29835840ffa4a81ffe4d17f55e0016c73d70",
+          "occurrence_id": "node:4990dc7cb425c2866565727584055320bea5fbc1242151c46996fd612d4122f0",
+          "span": {
+            "source_id": "source:3165a5fe9e6fb763bc2c40161127680785c4472a3a3f79a6fc26282e8e27b170",
+            "source_sha256": "sha256:035b5f40014e3a7681f08528b751f063f23a793db70d30f662927671748a3ee4",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 68,
+            "char_end": 128,
+            "byte_start": 68,
+            "byte_end": 128,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-copy.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "d25f24b413a2214d9a077cb6d61e23ed84e356f97f2c4de9515de5b7f758e674",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:7024e73b3114f8ffbce0c8bed0429ce5e388406f83e493fea0323663fabb37bf",
+        "path": "topic-03-copy.txt",
+        "raw_sha256": "sha256:d25f24b413a2214d9a077cb6d61e23ed84e356f97f2c4de9515de5b7f758e674",
+        "bytes": 34,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:869095086f76cbaf0a43ddfcbe3420c8ccbb4fd1ee8e2843006e8d2941340262",
+          "occurrence_id": "node:ff3948aed3a13f7322d08b986a97a7e66121efa2b0962bc06eaae63eb1b3daeb",
+          "span": {
+            "source_id": "source:7024e73b3114f8ffbce0c8bed0429ce5e388406f83e493fea0323663fabb37bf",
+            "source_sha256": "sha256:d25f24b413a2214d9a077cb6d61e23ed84e356f97f2c4de9515de5b7f758e674",
+            "path": "topic-03-copy.txt",
+            "char_start": 0,
+            "char_end": 34,
+            "byte_start": 0,
+            "byte_end": 34,
+            "text": "Tess wrote the Obesity memorandum."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "936c97a3f2bac26c372807a67f7975709afc82066095c6226dd01c84ec97ca2e",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:92bc677a145d435b3a5f876a62d6c09fb3128a55d52d7c2c64d399139265d8d3",
+        "path": "topic-03-web-pointer.md",
+        "raw_sha256": "sha256:936c97a3f2bac26c372807a67f7975709afc82066095c6226dd01c84ec97ca2e",
+        "bytes": 132,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:b2707a88ba9988cfe5c15c0ac3904313c43173297ab4fc5c464197595ae250e5",
+          "occurrence_id": "node:76909ba4b56c9e8ba5997fc5ff1a22b0ea983452e9cabb3bfd41cc3c95649251",
+          "span": {
+            "source_id": "source:92bc677a145d435b3a5f876a62d6c09fb3128a55d52d7c2c64d399139265d8d3",
+            "source_sha256": "sha256:936c97a3f2bac26c372807a67f7975709afc82066095c6226dd01c84ec97ca2e",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:9cbb7aa6f28c8d19f55f248d4fc8dc8a7cde7f1ac68951723600c4f68104c410",
+          "occurrence_id": "node:76909ba4b56c9e8ba5997fc5ff1a22b0ea983452e9cabb3bfd41cc3c95649251",
+          "span": {
+            "source_id": "source:92bc677a145d435b3a5f876a62d6c09fb3128a55d52d7c2c64d399139265d8d3",
+            "source_sha256": "sha256:936c97a3f2bac26c372807a67f7975709afc82066095c6226dd01c84ec97ca2e",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 24,
+            "char_end": 31,
+            "byte_start": 24,
+            "byte_end": 31,
+            "text": "Obesity"
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:f54b0bce3de982e2cda9426ff078f53374faf4051a336b3078ab52474307a80e",
+              "kind": "exact_match",
+              "original_id": "DOC-4",
+              "original_path": "doc-4.html",
+              "byte_start": 585,
+              "byte_end": 627,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            }
+          ],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:43c6988683a47c5e8f4db033d5d77dbc97fee6f55f30f5edaa782f1b4d23cf57",
+          "occurrence_id": "node:76909ba4b56c9e8ba5997fc5ff1a22b0ea983452e9cabb3bfd41cc3c95649251",
+          "span": {
+            "source_id": "source:92bc677a145d435b3a5f876a62d6c09fb3128a55d52d7c2c64d399139265d8d3",
+            "source_sha256": "sha256:936c97a3f2bac26c372807a67f7975709afc82066095c6226dd01c84ec97ca2e",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 33,
+            "char_end": 70,
+            "byte_start": 33,
+            "byte_end": 70,
+            "text": "https://en.wikipedia.org/wiki/Obesity"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:5cf5afe73b48b638da79a41a751d5315891a9b1b586764899f502080c12bc04c",
+          "occurrence_id": "node:76909ba4b56c9e8ba5997fc5ff1a22b0ea983452e9cabb3bfd41cc3c95649251",
+          "span": {
+            "source_id": "source:92bc677a145d435b3a5f876a62d6c09fb3128a55d52d7c2c64d399139265d8d3",
+            "source_sha256": "sha256:936c97a3f2bac26c372807a67f7975709afc82066095c6226dd01c84ec97ca2e",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 72,
+            "char_end": 132,
+            "byte_start": 72,
+            "byte_end": 132,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-copy.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "0088b5895488b0ada6ae893a35d0e718c8e3d2a55047545fb48192dd406f0043",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:f4c03bb7c1940197e18b1e7cc1bcef370dd617378bd2caabd3bd600ed657d9f9",
+        "path": "topic-04-copy.txt",
+        "raw_sha256": "sha256:0088b5895488b0ada6ae893a35d0e718c8e3d2a55047545fb48192dd406f0043",
+        "bytes": 18,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:864e5bf165c47653f5a8091d42f96174f552742c928f62ebee8b35d3571d391d",
+          "occurrence_id": "node:058624e5c838ec4812e83db7ac5cb41083ee88f423a5172db86cb95e49158de4",
+          "span": {
+            "source_id": "source:f4c03bb7c1940197e18b1e7cc1bcef370dd617378bd2caabd3bd600ed657d9f9",
+            "source_sha256": "sha256:0088b5895488b0ada6ae893a35d0e718c8e3d2a55047545fb48192dd406f0043",
+            "path": "topic-04-copy.txt",
+            "char_start": 0,
+            "char_end": 18,
+            "byte_start": 0,
+            "byte_end": 18,
+            "text": "Nora studied Town."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "ca3631bd5b1f7332ea550a8d4cf61ce88e03d48ff7eebd89fd369d478a9820ce",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:13776d2891ca4783fc2d02ee1bb6d57fe8b917190088130eaa9a002b934f97be",
+        "path": "topic-04-web-pointer.md",
+        "raw_sha256": "sha256:ca3631bd5b1f7332ea550a8d4cf61ce88e03d48ff7eebd89fd369d478a9820ce",
+        "bytes": 126,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:9560b28c2d3121b3768c330fa26100fc63d2d1a1d22e77f7e48e9068964195d3",
+          "occurrence_id": "node:40ac405479dcdc07c621859c67e3eabccf58b6571695eddbdf45c5d5a282970b",
+          "span": {
+            "source_id": "source:13776d2891ca4783fc2d02ee1bb6d57fe8b917190088130eaa9a002b934f97be",
+            "source_sha256": "sha256:ca3631bd5b1f7332ea550a8d4cf61ce88e03d48ff7eebd89fd369d478a9820ce",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:78b3b0a97ea829a1648232d22b197f88c7bf7e89ac0071228c8b7f52ad45604c",
+          "occurrence_id": "node:40ac405479dcdc07c621859c67e3eabccf58b6571695eddbdf45c5d5a282970b",
+          "span": {
+            "source_id": "source:13776d2891ca4783fc2d02ee1bb6d57fe8b917190088130eaa9a002b934f97be",
+            "source_sha256": "sha256:ca3631bd5b1f7332ea550a8d4cf61ce88e03d48ff7eebd89fd369d478a9820ce",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 24,
+            "char_end": 28,
+            "byte_start": 24,
+            "byte_end": 28,
+            "text": "Town"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:ca61eef8a07ef7647f2af2274e5a9a7ab1fedf1812cca683ec25bd186ae82e2e",
+          "occurrence_id": "node:40ac405479dcdc07c621859c67e3eabccf58b6571695eddbdf45c5d5a282970b",
+          "span": {
+            "source_id": "source:13776d2891ca4783fc2d02ee1bb6d57fe8b917190088130eaa9a002b934f97be",
+            "source_sha256": "sha256:ca3631bd5b1f7332ea550a8d4cf61ce88e03d48ff7eebd89fd369d478a9820ce",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 30,
+            "char_end": 64,
+            "byte_start": 30,
+            "byte_end": 64,
+            "text": "https://en.wikipedia.org/wiki/Town"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:f4997537ca999d2bcbc4add88495309d75aae068cbc2b3417897ff9bca58bfa2",
+          "occurrence_id": "node:40ac405479dcdc07c621859c67e3eabccf58b6571695eddbdf45c5d5a282970b",
+          "span": {
+            "source_id": "source:13776d2891ca4783fc2d02ee1bb6d57fe8b917190088130eaa9a002b934f97be",
+            "source_sha256": "sha256:ca3631bd5b1f7332ea550a8d4cf61ce88e03d48ff7eebd89fd369d478a9820ce",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 66,
+            "char_end": 126,
+            "byte_start": 66,
+            "byte_end": 126,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    }
+  ]
+}

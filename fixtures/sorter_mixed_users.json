@@ -1,0 +1,103 @@
+{
+  "users": [
+    {
+      "id": "records-clerk",
+      "task": "Reconcile a mailbox export and correction notes against a designated original.",
+      "question": "Who wrote the Copper memorandum?",
+      "originals": [
+        {"doc_id": "DOC-1", "title": "Copper memorandum", "body": "Mara wrote the Copper memorandum."}
+      ],
+      "processed": {
+        "mail-export.txt": "Message-ID: MAIL-17\r\nDate: 2026-11-02\r\n\r\nMara wrote the Copper memorandum.\r\n",
+        "team-chat.md": "# Team chat\n\nMara did not write the Copper memorandum.\n\nThe Copper memorandum was discussed over café Wi-Fi.\n",
+        "review-notes.text": "Corrects DOC-1: Copper memorandum wording remains unresolved.\n\nSee DOC-99 for the Copper memorandum.\n",
+        "literal-copy.txt": "Mara wrote the Copper memorandum.",
+        "raw-table.csv": "topic,status\nCopper memorandum,unconfirmed\n"
+      },
+      "expected": {
+        "owner_count": 1, "supported": true, "owner_id": "DOC-1",
+        "candidate_kinds": ["exact_match", "conflicting_wording", "possible_correction"],
+        "candidate_paths": {"exact_match": "literal-copy.txt", "shared_wording_review": "mail-export.txt"},
+        "unresolved_target": "DOC-99", "excluded": ["raw-table.csv"]
+      }
+    },
+    {
+      "id": "correspondence-reviewer",
+      "task": "Review a preferred copy when two approved originals claim the same subject.",
+      "question": "Who wrote the Amber memorandum?",
+      "originals": [
+        {"doc_id": "DOC-1", "title": "Amber memorandum", "body": "Mara wrote the Amber memorandum."},
+        {"doc_id": "DOC-2", "title": "Amber memorandum", "body": "Ivo wrote the Amber memorandum."}
+      ],
+      "processed": {
+        "preferred-copy.txt": "Mara wrote the Amber memorandum.",
+        "forwarded.markdown": "# Forwarded message\n\n> Corrects DOC-1: Amber memorandum.\n\nIvo wrote the Amber memorandum.\n",
+        "meeting-notes.md": "The Amber memorandum was marked for review.\n"
+      },
+      "expected": {
+        "owner_count": 2, "supported": false,
+        "competing_ids": ["DOC-1", "DOC-2"],
+        "candidate_kinds": ["exact_match", "quoted_or_qualified_reference_review"]
+      }
+    },
+    {
+      "id": "field-researcher",
+      "task": "Explore a new topic found only in unapproved field notes and transcript fragments.",
+      "question": "What about lunar lichens?",
+      "originals": [
+        {"doc_id": "DOC-1", "title": "Estuary inventory", "body": "The estuary inventory records samples from the sandbar."}
+      ],
+      "processed": {
+        "field-journal.txt": "Tess studied rare lunar lichens.\n\nThe lunar lichens samples were discussed.\n",
+        "interview.md": "# Interview notes\n\nLunar lichens remain unresolved.\n\nAn unrelated sample was found at the sandbar.\n",
+        "export.text": "The lunar lichens protocol is still a draft.\n",
+        "export.json": "{\"topic\":\"lunar lichens\",\"approval\":\"claimed\"}\n"
+      },
+      "expected": {
+        "owner_count": 0, "supported": false, "candidate_kinds": [],
+        "unmatched_paths": ["field-journal.txt", "interview.md", "export.text"],
+        "excluded": ["export.json"]
+      }
+    },
+    {
+      "id": "release-editor",
+      "task": "Check whether a processed attribution can bypass insufficient evidence, withdrawal, or delivery policy.",
+      "question": "Who wrote the Indigo memorandum?",
+      "profile": "external",
+      "originals": [
+        {"doc_id": "DOC-1", "title": "Indigo memorandum", "body": "The Indigo memorandum remains unassigned."},
+        {"doc_id": "DOC-2", "title": "Indigo memorandum", "body": "Ivo wrote the Indigo memorandum.", "withdrawn": true},
+        {"doc_id": "DOC-3", "title": "Indigo memorandum", "body": "Nora wrote the Indigo memorandum.", "external": "no"}
+      ],
+      "processed": {
+        "old-export.txt": "Ivo wrote the Indigo memorandum.\n",
+        "restricted-copy.md": "Nora wrote the Indigo memorandum.\n",
+        "draft-summary.text": "Mara wrote the Indigo memorandum.\n\nSee DOC-2 for the Indigo memorandum.\n"
+      },
+      "expected": {
+        "owner_count": 1, "supported": false, "owner_id": "DOC-1",
+        "blocked_originals": ["DOC-2", "DOC-3"], "unresolved_target": "DOC-2"
+      }
+    },
+    {
+      "id": "package-maintainer",
+      "task": "Compare public MPLPB documentation and synthetic review notes under a separate strict-proof budget.",
+      "topic": "exploration budgets strict proof slots",
+      "originals": [
+        {
+          "doc_id": "DOC-1", "title": "Exploration budgets and strict proof",
+          "body": "No exploration hint consumes a strict slot.",
+          "repo_path": "docs/CANDIDATE_REVIEW_WORKSPACE.md"
+        }
+      ],
+      "processed": {
+        "maintainer-notes.txt": "No exploration hint consumes a strict slot.\n\nExploration budgets should be reviewed alongside strict proof slots.\n",
+        "review-thread.md": "# Review thread\n\nCan we compare exploration budgets and strict proof slots on public documentation?\n"
+      },
+      "repo_paths": ["docs/CANDIDATE_REVIEW_WORKSPACE.md", "docs/PASSAGE_ADMISSION.md"],
+      "expected": {
+        "owner_count": null, "supported": false, "candidate_kinds": ["exact_match"]
+      }
+    }
+  ]
+}

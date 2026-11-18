@@ -1,0 +1,741 @@
+{
+  "approved": [
+    {
+      "id": "DOC-1",
+      "dump_path": "dump/approved/DOC-1.txt",
+      "sha256": "b05850b1ee3af05a413d70ea005c76053ee6272ffd32cf5743aa4510310aa8ee",
+      "ledger_path": "doc-1.html",
+      "ledger_sha256": "143e3161e87a048e2ffb64249ab41568a56e9c227f5163f3c70368761b490f22",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-2",
+      "dump_path": "dump/approved/DOC-2.txt",
+      "sha256": "69cc64c362a498df31a9175386a92e52563c6bed1d090364d126d257a8049901",
+      "ledger_path": "doc-2.html",
+      "ledger_sha256": "11d4d47676e797761798d288977f8f2ef4a8f05c8d59a8404635edfe24c6fb49",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-3",
+      "dump_path": "dump/approved/DOC-3.txt",
+      "sha256": "0dc9316857eb6d756a800ef5772e683b5a6ed3fbf7b2cc2ab15f34a0faceec34",
+      "ledger_path": "doc-3.html",
+      "ledger_sha256": "3f09a68533296b85eb9fd42695b7911710ed7381dd8fa48cf6fe2bc0261a3f91",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-4",
+      "dump_path": "dump/approved/DOC-4.txt",
+      "sha256": "bc98a9999b425109012a4faf3e769852ce745f6ee5fc43e8b8deb693a53ec078",
+      "ledger_path": "doc-4.html",
+      "ledger_sha256": "e9b524c79c6c6f867a092870a87414534f1748b51ce8f7d1f07893146fa141c8",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    }
+  ],
+  "processed": [
+    {
+      "path": "collection-notes.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "538b7fdb47e3cd244134886f7555c7d481ca2985b5aa4f227b3d36609f0c284f",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:f3102c4ea20c96c3fc6e581b92c47d6da090d53dc7472409c4e17765bd5773e8",
+        "path": "collection-notes.md",
+        "raw_sha256": "sha256:538b7fdb47e3cd244134886f7555c7d481ca2985b5aa4f227b3d36609f0c284f",
+        "bytes": 74,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:beb68baa9da9d90b2ce9f93972677da3317e6933d8002c08c5948eb5360a7cb4",
+          "occurrence_id": "node:1c60192eb242aff7bb0061d9a006e619d81d64e241917bd39ba0f25e6f6cd45a",
+          "span": {
+            "source_id": "source:f3102c4ea20c96c3fc6e581b92c47d6da090d53dc7472409c4e17765bd5773e8",
+            "source_sha256": "sha256:538b7fdb47e3cd244134886f7555c7d481ca2985b5aa4f227b3d36609f0c284f",
+            "path": "collection-notes.md",
+            "char_start": 0,
+            "char_end": 15,
+            "byte_start": 0,
+            "byte_end": 15,
+            "text": "# Archive notes"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:c14d165342747ddd12bc3753f8441ee53f3fadb9fd91f4f6b2dd54e983eccd31",
+          "occurrence_id": "node:1c60192eb242aff7bb0061d9a006e619d81d64e241917bd39ba0f25e6f6cd45a",
+          "span": {
+            "source_id": "source:f3102c4ea20c96c3fc6e581b92c47d6da090d53dc7472409c4e17765bd5773e8",
+            "source_sha256": "sha256:538b7fdb47e3cd244134886f7555c7d481ca2985b5aa4f227b3d36609f0c284f",
+            "path": "collection-notes.md",
+            "char_start": 17,
+            "char_end": 32,
+            "byte_start": 17,
+            "byte_end": 32,
+            "text": "Status: pending"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:d85d5f787209020b30832e1ab8fb481615ee4f096d955f5929171c305d0a9bb9",
+          "occurrence_id": "node:1c60192eb242aff7bb0061d9a006e619d81d64e241917bd39ba0f25e6f6cd45a",
+          "span": {
+            "source_id": "source:f3102c4ea20c96c3fc6e581b92c47d6da090d53dc7472409c4e17765bd5773e8",
+            "source_sha256": "sha256:538b7fdb47e3cd244134886f7555c7d481ca2985b5aa4f227b3d36609f0c284f",
+            "path": "collection-notes.md",
+            "char_start": 34,
+            "char_end": 74,
+            "byte_start": 34,
+            "byte_end": 74,
+            "text": "These entries came from several exports."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "index.csv",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "af2c153e24c8497ba212794a9a9e0b65233ee56b8bcbd97e47bcfeb56ff0e585",
+      "sorter_status": "excluded",
+      "sorter_source": null,
+      "statements": []
+    },
+    {
+      "path": "topic-01-copy.text",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "429655dfdf6eef7f352528547e98ae51cab502f5e35d458a48be9a1585a57697",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:79783d7d06b219feeba836e89d68af4931326efddbc805b89938ac5ec87c56b0",
+        "path": "topic-01-copy.text",
+        "raw_sha256": "sha256:429655dfdf6eef7f352528547e98ae51cab502f5e35d458a48be9a1585a57697",
+        "bytes": 33,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:84cf651d3c1b47881e87ef387a56fd801501bd33f8ce8c726efc52558384ebe5",
+          "occurrence_id": "node:338e7ddb4462ca024b86eb5708e11cf47a21e8648e8296df75b21d96ca762b1f",
+          "span": {
+            "source_id": "source:79783d7d06b219feeba836e89d68af4931326efddbc805b89938ac5ec87c56b0",
+            "source_sha256": "sha256:429655dfdf6eef7f352528547e98ae51cab502f5e35d458a48be9a1585a57697",
+            "path": "topic-01-copy.text",
+            "char_start": 0,
+            "char_end": 33,
+            "byte_start": 0,
+            "byte_end": 33,
+            "text": "Tess wrote the Cicero memorandum."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-01-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "04e66f988aeceed674178a090e60296c8dcd2884810f4b42b7ef2217553c10ec",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:12b7bef84499ff21c892f380b0b275a7798fa03047ced33b8c572b372da464c6",
+        "path": "topic-01-web-pointer.md",
+        "raw_sha256": "sha256:04e66f988aeceed674178a090e60296c8dcd2884810f4b42b7ef2217553c10ec",
+        "bytes": 130,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:d225f9bfcdd1b2c5ab31e22c129d0f3f493b26311202a9e1d15349964629f94b",
+          "occurrence_id": "node:cd315de714875154fef9aa538e83a4beef352bbad525e4ca87064769635291e1",
+          "span": {
+            "source_id": "source:12b7bef84499ff21c892f380b0b275a7798fa03047ced33b8c572b372da464c6",
+            "source_sha256": "sha256:04e66f988aeceed674178a090e60296c8dcd2884810f4b42b7ef2217553c10ec",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:db04e112aa6943948db6214730b2f12fd9315da7c76f73f16f6df0dd9c7eba08",
+          "occurrence_id": "node:cd315de714875154fef9aa538e83a4beef352bbad525e4ca87064769635291e1",
+          "span": {
+            "source_id": "source:12b7bef84499ff21c892f380b0b275a7798fa03047ced33b8c572b372da464c6",
+            "source_sha256": "sha256:04e66f988aeceed674178a090e60296c8dcd2884810f4b42b7ef2217553c10ec",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 24,
+            "char_end": 30,
+            "byte_start": 24,
+            "byte_end": 30,
+            "text": "Cicero"
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:431d44685c205c229f66568fa59d63fbc604b24d1bc406ff0730790fd21e1220",
+              "kind": "exact_match",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 582,
+              "byte_end": 623,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            }
+          ],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:47ca33a683f98a3d7f49d9584336048ae972259cc19a424c5abc670d33cf4f57",
+          "occurrence_id": "node:cd315de714875154fef9aa538e83a4beef352bbad525e4ca87064769635291e1",
+          "span": {
+            "source_id": "source:12b7bef84499ff21c892f380b0b275a7798fa03047ced33b8c572b372da464c6",
+            "source_sha256": "sha256:04e66f988aeceed674178a090e60296c8dcd2884810f4b42b7ef2217553c10ec",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 32,
+            "char_end": 68,
+            "byte_start": 32,
+            "byte_end": 68,
+            "text": "https://en.wikipedia.org/wiki/Cicero"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:a743aaf7d3e6b979be21706f07ae1de7df9018f13074d3104474293a3a0aa48e",
+          "occurrence_id": "node:cd315de714875154fef9aa538e83a4beef352bbad525e4ca87064769635291e1",
+          "span": {
+            "source_id": "source:12b7bef84499ff21c892f380b0b275a7798fa03047ced33b8c572b372da464c6",
+            "source_sha256": "sha256:04e66f988aeceed674178a090e60296c8dcd2884810f4b42b7ef2217553c10ec",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 70,
+            "char_end": 130,
+            "byte_start": 70,
+            "byte_end": 130,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-copy.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "69cc64c362a498df31a9175386a92e52563c6bed1d090364d126d257a8049901",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:413c831fc81c8988343d0bcf2d74b139f3a259e3416fda2ef3d6d3a4ac6b8987",
+        "path": "topic-02-copy.txt",
+        "raw_sha256": "sha256:69cc64c362a498df31a9175386a92e52563c6bed1d090364d126d257a8049901",
+        "bytes": 50,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:2e6003d698c032593347147a0603a646ec8f7fe0d92ea7d805e4ba1e6cf23644",
+          "occurrence_id": "node:ddf1008e75d69d3e25a95ff44fba05b2238005e0a8215fd6dbbc9d8743d6ac9e",
+          "span": {
+            "source_id": "source:413c831fc81c8988343d0bcf2d74b139f3a259e3416fda2ef3d6d3a4ac6b8987",
+            "source_sha256": "sha256:69cc64c362a498df31a9175386a92e52563c6bed1d090364d126d257a8049901",
+            "path": "topic-02-copy.txt",
+            "char_start": 0,
+            "char_end": 50,
+            "byte_start": 0,
+            "byte_end": 50,
+            "text": "Nora wrote the Three-dimensional space memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:f258b58dd5746f0c636cf2e75401742a66aa70e8f6b74cd0564f3865f42fef80",
+              "kind": "exact_match",
+              "original_id": "DOC-2",
+              "original_path": "doc-2.html",
+              "byte_start": 633,
+              "byte_end": 683,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-mail.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "b642f1284e1627f0cb295b086063ee450e5cd34b6ac35d318193c64f6c3adee3",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:22be8611fd510b766e92acd5894332b5408c1f965d94348dd2897413604d9f7d",
+        "path": "topic-02-mail.txt",
+        "raw_sha256": "sha256:b642f1284e1627f0cb295b086063ee450e5cd34b6ac35d318193c64f6c3adee3",
+        "bytes": 58,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:b2f8df1236ba41a3b14b2e5e738359aeee5c2d8b739e488c7d01a34cb033eac9",
+          "occurrence_id": "node:c530bb76801cfe31dcbee5076dd1dd1e70baa6553f8795f9e17ba9d9bb4a1c49",
+          "span": {
+            "source_id": "source:22be8611fd510b766e92acd5894332b5408c1f965d94348dd2897413604d9f7d",
+            "source_sha256": "sha256:b642f1284e1627f0cb295b086063ee450e5cd34b6ac35d318193c64f6c3adee3",
+            "path": "topic-02-mail.txt",
+            "char_start": 0,
+            "char_end": 58,
+            "byte_start": 0,
+            "byte_end": 58,
+            "text": "Nora did not write the Three-dimensional space memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:fcd06f432597e42243760687eaf3d6d7289b3c22adc715bff1971d60a2030acb",
+              "kind": "conflicting_wording",
+              "original_id": "DOC-2",
+              "original_path": "doc-2.html",
+              "byte_start": 633,
+              "byte_end": 683,
+              "reason": "Existing finite action grammar finds opposing polarity for the same literal actor/action/object. Event identity and truth remain unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "78d801eff4aeddfdffebf61847304114af12d84c8eb7e3ecb8e8914452863371",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:6ec9660fd378a13a699798c1f86f672633ccf223048bd94f3c8fa2d6300e89d6",
+        "path": "topic-02-web-pointer.md",
+        "raw_sha256": "sha256:78d801eff4aeddfdffebf61847304114af12d84c8eb7e3ecb8e8914452863371",
+        "bytes": 164,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:aa1367831cdd0fd6570529549169dc8bb47824da34e485c7c72c7639dbf5785f",
+          "occurrence_id": "node:a472e3025b0adc0616d29c037c50dcfc5bda2dd1c03698af71ead398b37b51d0",
+          "span": {
+            "source_id": "source:6ec9660fd378a13a699798c1f86f672633ccf223048bd94f3c8fa2d6300e89d6",
+            "source_sha256": "sha256:78d801eff4aeddfdffebf61847304114af12d84c8eb7e3ecb8e8914452863371",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:976761374db97c2994283a5d907ae9e42b762a03669d5808af8e37567d6a8460",
+          "occurrence_id": "node:a472e3025b0adc0616d29c037c50dcfc5bda2dd1c03698af71ead398b37b51d0",
+          "span": {
+            "source_id": "source:6ec9660fd378a13a699798c1f86f672633ccf223048bd94f3c8fa2d6300e89d6",
+            "source_sha256": "sha256:78d801eff4aeddfdffebf61847304114af12d84c8eb7e3ecb8e8914452863371",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 24,
+            "char_end": 47,
+            "byte_start": 24,
+            "byte_end": 47,
+            "text": "Three-dimensional space"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:78955e2b748aeda5c5953d8f0f4162a01128a3d91726bb3bc4b68dd2a1976d50",
+          "occurrence_id": "node:a472e3025b0adc0616d29c037c50dcfc5bda2dd1c03698af71ead398b37b51d0",
+          "span": {
+            "source_id": "source:6ec9660fd378a13a699798c1f86f672633ccf223048bd94f3c8fa2d6300e89d6",
+            "source_sha256": "sha256:78d801eff4aeddfdffebf61847304114af12d84c8eb7e3ecb8e8914452863371",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 49,
+            "char_end": 102,
+            "byte_start": 49,
+            "byte_end": 102,
+            "text": "https://en.wikipedia.org/wiki/Three-dimensional_space"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:a5b6e0106e28f35087381e8741f6c41b3b219f853992816ac364631e0a8e5fc6",
+          "occurrence_id": "node:a472e3025b0adc0616d29c037c50dcfc5bda2dd1c03698af71ead398b37b51d0",
+          "span": {
+            "source_id": "source:6ec9660fd378a13a699798c1f86f672633ccf223048bd94f3c8fa2d6300e89d6",
+            "source_sha256": "sha256:78d801eff4aeddfdffebf61847304114af12d84c8eb7e3ecb8e8914452863371",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 104,
+            "char_end": 164,
+            "byte_start": 104,
+            "byte_end": 164,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-copy.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "66230f0b212cee5e33dd8979662f9b1bfc22d3625437b236516f8e2de54a796e",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:66194daec4f3f67e3f6659f667c2c2e87e78ed33d4e64a3fe538b5f93acfb374",
+        "path": "topic-03-copy.txt",
+        "raw_sha256": "sha256:66230f0b212cee5e33dd8979662f9b1bfc22d3625437b236516f8e2de54a796e",
+        "bytes": 24,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:f76f4c85fe2afa19a6f66812b14dc598bf84c069d7ed3424922ae8e551b90020",
+          "occurrence_id": "node:7a37c7c2f1808d55e95a27b6390fbc63013628f1af3acea41587ea30e5a1e94e",
+          "span": {
+            "source_id": "source:66194daec4f3f67e3f6659f667c2c2e87e78ed33d4e64a3fe538b5f93acfb374",
+            "source_sha256": "sha256:66230f0b212cee5e33dd8979662f9b1bfc22d3625437b236516f8e2de54a796e",
+            "path": "topic-03-copy.txt",
+            "char_start": 0,
+            "char_end": 24,
+            "byte_start": 0,
+            "byte_end": 24,
+            "text": "Nora studied Mansa Musa."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "8c14570f40178e6923dc2dfe4e15af5d6291f7177fcd1fa9f9f6aa1a3e443499",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:12fbd1c58090eb1c01adf01956bd2291853c0f674ef392cbd3c12927220a596e",
+        "path": "topic-03-web-pointer.md",
+        "raw_sha256": "sha256:8c14570f40178e6923dc2dfe4e15af5d6291f7177fcd1fa9f9f6aa1a3e443499",
+        "bytes": 138,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:248ef6cd275bca33f0f1ce27eab5d419ef07466c2dbcd9dc3b8308049695bf1b",
+          "occurrence_id": "node:8fe51726cd697524202318947ad835084358bfe58165e870a75f73a55724b28a",
+          "span": {
+            "source_id": "source:12fbd1c58090eb1c01adf01956bd2291853c0f674ef392cbd3c12927220a596e",
+            "source_sha256": "sha256:8c14570f40178e6923dc2dfe4e15af5d6291f7177fcd1fa9f9f6aa1a3e443499",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:ffe440076de9c742c38733ad6cfd5d5c4edc927d5b21596fbc512412f0195c2d",
+          "occurrence_id": "node:8fe51726cd697524202318947ad835084358bfe58165e870a75f73a55724b28a",
+          "span": {
+            "source_id": "source:12fbd1c58090eb1c01adf01956bd2291853c0f674ef392cbd3c12927220a596e",
+            "source_sha256": "sha256:8c14570f40178e6923dc2dfe4e15af5d6291f7177fcd1fa9f9f6aa1a3e443499",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 24,
+            "char_end": 34,
+            "byte_start": 24,
+            "byte_end": 34,
+            "text": "Mansa Musa"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:2d4a7036b751d0d5eafe99fd590083adb7ec2670de3be0bfa984eb55de3fe8d0",
+          "occurrence_id": "node:8fe51726cd697524202318947ad835084358bfe58165e870a75f73a55724b28a",
+          "span": {
+            "source_id": "source:12fbd1c58090eb1c01adf01956bd2291853c0f674ef392cbd3c12927220a596e",
+            "source_sha256": "sha256:8c14570f40178e6923dc2dfe4e15af5d6291f7177fcd1fa9f9f6aa1a3e443499",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 36,
+            "char_end": 76,
+            "byte_start": 36,
+            "byte_end": 76,
+            "text": "https://en.wikipedia.org/wiki/Mansa_Musa"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:c1efc856827a9724b9f00d7e35363de7927fa36911f775a002faf4551f846b10",
+          "occurrence_id": "node:8fe51726cd697524202318947ad835084358bfe58165e870a75f73a55724b28a",
+          "span": {
+            "source_id": "source:12fbd1c58090eb1c01adf01956bd2291853c0f674ef392cbd3c12927220a596e",
+            "source_sha256": "sha256:8c14570f40178e6923dc2dfe4e15af5d6291f7177fcd1fa9f9f6aa1a3e443499",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 78,
+            "char_end": 138,
+            "byte_start": 78,
+            "byte_end": 138,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-copy.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "0dc9316857eb6d756a800ef5772e683b5a6ed3fbf7b2cc2ab15f34a0faceec34",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:b8991802711e1504bcce9fcb801f2790264cb3dd233b926c516bc8601739f28f",
+        "path": "topic-04-copy.txt",
+        "raw_sha256": "sha256:0dc9316857eb6d756a800ef5772e683b5a6ed3fbf7b2cc2ab15f34a0faceec34",
+        "bytes": 47,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:27c904bba14d8b383c32025e068c5ceee2494738fa646b0d600aa78b865d5986",
+          "occurrence_id": "node:b8998e518deb674c6df58019da3a5d7db5ec4a8affc0cf1a9b2f363cc9601f58",
+          "span": {
+            "source_id": "source:b8991802711e1504bcce9fcb801f2790264cb3dd233b926c516bc8601739f28f",
+            "source_sha256": "sha256:0dc9316857eb6d756a800ef5772e683b5a6ed3fbf7b2cc2ab15f34a0faceec34",
+            "path": "topic-04-copy.txt",
+            "char_start": 0,
+            "char_end": 47,
+            "byte_start": 0,
+            "byte_end": 47,
+            "text": "Ivo wrote the History of literature memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:3efab13e824da9e8634d4fc943a51aa7bbb530047f26760d9bb5a01e8b5b1fc2",
+              "kind": "exact_match",
+              "original_id": "DOC-3",
+              "original_path": "doc-3.html",
+              "byte_start": 627,
+              "byte_end": 674,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            },
+            {
+              "id": "sha256:72fcd3657f42e1ff5660f2743c16e3deb5e52e19d1d192d666f5815b3b94b85f",
+              "kind": "shared_wording_review",
+              "original_id": "DOC-4",
+              "original_path": "doc-4.html",
+              "byte_start": 627,
+              "byte_end": 675,
+              "reason": "Existing sorter four-word phrase evidence: ['history of literature memorandum', 'the history of literature', 'wrote the history of']. Lexical tokens only; identity, chronology, causation and correction are unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "eaf915f618eb0747d0331bce2ea40de09e165efe62eddb59172a3eede76a9563",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:7e337076f1b777618e57d7fa22dc08f22823710696711dba5dc622d217fa4118",
+        "path": "topic-04-web-pointer.md",
+        "raw_sha256": "sha256:eaf915f618eb0747d0331bce2ea40de09e165efe62eddb59172a3eede76a9563",
+        "bytes": 160,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:56327d77115c5f3783d50ea127c7348e9ec79b9abff93a52e480dc7e83c38286",
+          "occurrence_id": "node:842ddddc254723594800d44c2da9299690e4a3744e4986308b8d9ed1967860bf",
+          "span": {
+            "source_id": "source:7e337076f1b777618e57d7fa22dc08f22823710696711dba5dc622d217fa4118",
+            "source_sha256": "sha256:eaf915f618eb0747d0331bce2ea40de09e165efe62eddb59172a3eede76a9563",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:e23afc9bee98fb09153049280c2b5ff183961d3ebd31f5fd98d35b0cbee1d3d0",
+          "occurrence_id": "node:842ddddc254723594800d44c2da9299690e4a3744e4986308b8d9ed1967860bf",
+          "span": {
+            "source_id": "source:7e337076f1b777618e57d7fa22dc08f22823710696711dba5dc622d217fa4118",
+            "source_sha256": "sha256:eaf915f618eb0747d0331bce2ea40de09e165efe62eddb59172a3eede76a9563",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 24,
+            "char_end": 45,
+            "byte_start": 24,
+            "byte_end": 45,
+            "text": "History of literature"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:32cf8ed6700ca73829a62fe7b270a4cb6ea93c113fdefabfe5b8ebee871e4ae6",
+          "occurrence_id": "node:842ddddc254723594800d44c2da9299690e4a3744e4986308b8d9ed1967860bf",
+          "span": {
+            "source_id": "source:7e337076f1b777618e57d7fa22dc08f22823710696711dba5dc622d217fa4118",
+            "source_sha256": "sha256:eaf915f618eb0747d0331bce2ea40de09e165efe62eddb59172a3eede76a9563",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 47,
+            "char_end": 98,
+            "byte_start": 47,
+            "byte_end": 98,
+            "text": "https://en.wikipedia.org/wiki/History_of_literature"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:d20625f34dc47713c94302e0a2cd95b99f6ed924a65f0fd106cecc163699ba81",
+          "occurrence_id": "node:842ddddc254723594800d44c2da9299690e4a3744e4986308b8d9ed1967860bf",
+          "span": {
+            "source_id": "source:7e337076f1b777618e57d7fa22dc08f22823710696711dba5dc622d217fa4118",
+            "source_sha256": "sha256:eaf915f618eb0747d0331bce2ea40de09e165efe62eddb59172a3eede76a9563",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 100,
+            "char_end": 160,
+            "byte_start": 100,
+            "byte_end": 160,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    }
+  ]
+}

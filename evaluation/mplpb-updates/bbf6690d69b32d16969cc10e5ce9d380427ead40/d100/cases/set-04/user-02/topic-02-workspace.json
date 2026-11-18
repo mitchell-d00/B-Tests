@@ -1,0 +1,257 @@
+{
+  "schema": "candidate-review-workspace-v3",
+  "label": "Sorter suggestions for review. MPLPB has not verified these links or answers.",
+  "status": "candidate for review",
+  "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+  "approval_status": "outside_approved_evidence",
+  "answer_supported": false,
+  "content_truth_verified": false,
+  "approval_transferred": false,
+  "graph_sha256": "sha256:2bb929c50d41fee37a3ee9aed9f5b0cf13df4c10ff92f98bf1ccd81a7f024e88",
+  "implementation_sha256": "sha256:74fd28037d4c10cfe1164a7fa04ee53de4c0e6be63401e675762a1a7a9249290",
+  "configuration": {
+    "question": "What about Integer?",
+    "topic": "What about Integer?",
+    "profile": "lab",
+    "max_passages": 16,
+    "max_chars": 16000,
+    "strict_passages": 12,
+    "strict_chars": 8000,
+    "scan_passages": 256,
+    "pair_checks": 4096,
+    "as_of": null
+  },
+  "original_corpus_snapshot": "sha256:7c131274b2e070a08eb0883652ce7facb821edc74f697d761d757a6b94ae5a6f",
+  "original_policy": {
+    "gate_version": 2,
+    "mode": "separate_lexical_sources",
+    "max_depth": 2,
+    "prose": true,
+    "not_for": true,
+    "enforce_sealed_external_policy": true,
+    "synthesize": false,
+    "follow_pointers": false,
+    "require_current_dependencies": true,
+    "settings_hash": "sha256:c5f132ec431f1b0014972073317be495810947a073708955d3ad9b4769bfabea"
+  },
+  "reader_implementation_sha256": "sha256:e207dac173890540b5af36626e592c56cd293cb86a577c0c2a5d09cda441aea8",
+  "verifier_implementation_sha256": "sha256:9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+  "mplpb_decision": {
+    "status": "no_eligible_owner",
+    "eligible_owner_count": 0,
+    "strict_answer": null,
+    "page": null,
+    "competing_sources": [],
+    "native_kind": "not_in_corpus",
+    "reason": "no current page declares most of this question, and no page contains every word of it",
+    "message": "No MPLPB-supported answer is returned by this ownership route. Labeled exploration remains available."
+  },
+  "processed_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:789899233d6c15c811d08af074da1c0048fc2a0b305153789c986fcabfe75a55",
+      "occurrence_id": "node:a7946df8e74552b855b93dcfbda3667a047ba876ce0e8c06f44b66dcfab81df4",
+      "span": {
+        "source_id": "source:bd5c61bbca345ee1f12ef630d30b36281f38afdc80f20386e6618ed9ed4c0e84",
+        "source_sha256": "sha256:fec480c580dae745a073d9a2ecfc8cc8ec46776d22b5eea1f4c2c1ff6c135619",
+        "path": "topic-02-copy.markdown",
+        "char_start": 0,
+        "char_end": 21,
+        "byte_start": 0,
+        "byte_end": 21,
+        "text": "Tess studied Integer."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:f41b6eace963433e522e953cdd8b3db50ac1271d4915e74bfd77b9bc571fd16a",
+      "occurrence_id": "node:ebd3acf7dc726fed065127c8be2c176cb3ecd03382f9eaab4421e75656231cc2",
+      "span": {
+        "source_id": "source:648221b6177cc663e13d41f9a31a12ca9e84f15dfdf7e856f9d744c14db691a7",
+        "source_sha256": "sha256:7297de8370f89d891272c70510c4957db26aea55f31bf9f4b776d6e177e2c344",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 24,
+        "char_end": 31,
+        "byte_start": 24,
+        "byte_end": 31,
+        "text": "Integer"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:0c8aa752dfbcadac28c3ffcc113d717e973c27079134deba50371dd8797e9533",
+      "occurrence_id": "node:ebd3acf7dc726fed065127c8be2c176cb3ecd03382f9eaab4421e75656231cc2",
+      "span": {
+        "source_id": "source:648221b6177cc663e13d41f9a31a12ca9e84f15dfdf7e856f9d744c14db691a7",
+        "source_sha256": "sha256:7297de8370f89d891272c70510c4957db26aea55f31bf9f4b776d6e177e2c344",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 33,
+        "char_end": 70,
+        "byte_start": 33,
+        "byte_end": 70,
+        "text": "https://en.wikipedia.org/wiki/Integer"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "candidates": [],
+  "processed_disagreements": [],
+  "unresolved_references": [],
+  "unmatched_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:789899233d6c15c811d08af074da1c0048fc2a0b305153789c986fcabfe75a55",
+      "occurrence_id": "node:a7946df8e74552b855b93dcfbda3667a047ba876ce0e8c06f44b66dcfab81df4",
+      "span": {
+        "source_id": "source:bd5c61bbca345ee1f12ef630d30b36281f38afdc80f20386e6618ed9ed4c0e84",
+        "source_sha256": "sha256:fec480c580dae745a073d9a2ecfc8cc8ec46776d22b5eea1f4c2c1ff6c135619",
+        "path": "topic-02-copy.markdown",
+        "char_start": 0,
+        "char_end": 21,
+        "byte_start": 0,
+        "byte_end": 21,
+        "text": "Tess studied Integer."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:f41b6eace963433e522e953cdd8b3db50ac1271d4915e74bfd77b9bc571fd16a",
+      "occurrence_id": "node:ebd3acf7dc726fed065127c8be2c176cb3ecd03382f9eaab4421e75656231cc2",
+      "span": {
+        "source_id": "source:648221b6177cc663e13d41f9a31a12ca9e84f15dfdf7e856f9d744c14db691a7",
+        "source_sha256": "sha256:7297de8370f89d891272c70510c4957db26aea55f31bf9f4b776d6e177e2c344",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 24,
+        "char_end": 31,
+        "byte_start": 24,
+        "byte_end": 31,
+        "text": "Integer"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:0c8aa752dfbcadac28c3ffcc113d717e973c27079134deba50371dd8797e9533",
+      "occurrence_id": "node:ebd3acf7dc726fed065127c8be2c176cb3ecd03382f9eaab4421e75656231cc2",
+      "span": {
+        "source_id": "source:648221b6177cc663e13d41f9a31a12ca9e84f15dfdf7e856f9d744c14db691a7",
+        "source_sha256": "sha256:7297de8370f89d891272c70510c4957db26aea55f31bf9f4b776d6e177e2c344",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 33,
+        "char_end": 70,
+        "byte_start": 33,
+        "byte_end": 70,
+        "text": "https://en.wikipedia.org/wiki/Integer"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "exploration_budget": {
+    "max_passages": 16,
+    "max_characters": 16000,
+    "unique_spans": 3,
+    "characters": 65,
+    "omitted_items": 0,
+    "display_truncated": false,
+    "search_truncated": false,
+    "original_discovery_passage_limit": 64,
+    "original_discovery_character_limit": 64000,
+    "original_passages_considered": 4,
+    "processed_passages_considered": 3,
+    "original_pairs_examined": 12,
+    "processed_pairs_examined": 3,
+    "strict_slots_consumed": 0,
+    "phrase_token_limit_per_statement": 256
+  },
+  "strict_budget": {
+    "max_passages": 12,
+    "max_characters": 8000,
+    "evaluated": false,
+    "truncated": false
+  },
+  "limits_notice": "Unshown/unmatched items remain in the separately pinned sorter graph. No missing match or silence proves absence.",
+  "source_authority_changed": false,
+  "ownership_changed": false,
+  "workspace_sha256": "sha256:476f58bf5f9fe9a4b13f544a2d70ae8e1763a0b9fe722d2358c753721f09abae"
+}

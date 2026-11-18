@@ -1,0 +1,104 @@
+{
+  "revision": "bbf6690d69b32d16969cc10e5ce9d380427ead40",
+  "status": "PASS",
+  "passed": 5,
+  "users": [
+    {
+      "id": "records-clerk",
+      "task": "Reconcile a mailbox export and correction notes against a designated original.",
+      "status": "PASS",
+      "owner_count": 1,
+      "answer_supported": true,
+      "processed_files": 5,
+      "excluded_files": [
+        "raw-table.csv"
+      ],
+      "statements": 8,
+      "processed_passages_shown": 6,
+      "candidate_kinds": {
+        "conflicting_wording": 1,
+        "exact_match": 1,
+        "possible_correction": 1,
+        "shared_wording_review": 1
+      },
+      "sorter_limits_or_exclusions": [],
+      "ledger_unchanged": true,
+      "strict_decision_stable_at_tiny_budget": true,
+      "source_map": "records-clerk/source-map.json"
+    },
+    {
+      "id": "correspondence-reviewer",
+      "task": "Review a preferred copy when two approved originals claim the same subject.",
+      "status": "PASS",
+      "owner_count": 2,
+      "answer_supported": false,
+      "processed_files": 3,
+      "excluded_files": [],
+      "statements": 5,
+      "processed_passages_shown": 4,
+      "candidate_kinds": {
+        "exact_match": 1,
+        "quoted_or_qualified_reference_review": 1,
+        "shared_wording_review": 3
+      },
+      "sorter_limits_or_exclusions": [],
+      "ledger_unchanged": true,
+      "strict_decision_stable_at_tiny_budget": true,
+      "source_map": "correspondence-reviewer/source-map.json"
+    },
+    {
+      "id": "field-researcher",
+      "task": "Explore a new topic found only in unapproved field notes and transcript fragments.",
+      "status": "PASS",
+      "owner_count": 0,
+      "answer_supported": false,
+      "processed_files": 4,
+      "excluded_files": [
+        "export.json"
+      ],
+      "statements": 6,
+      "processed_passages_shown": 4,
+      "candidate_kinds": {},
+      "sorter_limits_or_exclusions": [],
+      "ledger_unchanged": true,
+      "strict_decision_stable_at_tiny_budget": true,
+      "source_map": "field-researcher/source-map.json"
+    },
+    {
+      "id": "release-editor",
+      "task": "Check whether a processed attribution can bypass insufficient evidence, withdrawal, or delivery policy.",
+      "status": "PASS",
+      "owner_count": 1,
+      "answer_supported": false,
+      "processed_files": 3,
+      "excluded_files": [],
+      "statements": 4,
+      "processed_passages_shown": 4,
+      "candidate_kinds": {},
+      "sorter_limits_or_exclusions": [],
+      "ledger_unchanged": true,
+      "strict_decision_stable_at_tiny_budget": true,
+      "source_map": "release-editor/source-map.json"
+    },
+    {
+      "id": "package-maintainer",
+      "task": "Compare public MPLPB documentation and synthetic review notes under a separate strict-proof budget.",
+      "status": "PASS",
+      "owner_count": null,
+      "answer_supported": false,
+      "processed_files": 4,
+      "excluded_files": [],
+      "statements": 37,
+      "processed_passages_shown": 13,
+      "candidate_kinds": {
+        "exact_match": 1,
+        "shared_wording_review": 1
+      },
+      "sorter_limits_or_exclusions": [],
+      "ledger_unchanged": true,
+      "strict_decision_stable_at_tiny_budget": true,
+      "source_map": "package-maintainer/source-map.json"
+    }
+  ],
+  "scope": "Five scripted synthetic users. Historical semantic accuracy unscored."
+}

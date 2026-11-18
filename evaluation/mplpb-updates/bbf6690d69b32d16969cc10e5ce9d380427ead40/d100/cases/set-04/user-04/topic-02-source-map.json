@@ -1,0 +1,734 @@
+{
+  "approved": [
+    {
+      "id": "DOC-1",
+      "dump_path": "dump/approved/DOC-1.txt",
+      "sha256": "6a1d5032828076e30f7a98c472fbe74a4c8a6ef03d9b45d92d6bee684303f666",
+      "ledger_path": "doc-1.html",
+      "ledger_sha256": "b4589626100cc432c0139914c846949bbde38c599b2fcd7f3f1bb00da2abb894",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-2",
+      "dump_path": "dump/approved/DOC-2.txt",
+      "sha256": "4f7a62f4d8f6c0b9310e736dd2f7c8b81854ac1a2601a6f8b96585349e8daeb9",
+      "ledger_path": "doc-2.html",
+      "ledger_sha256": "ddc2e61de7e7ce822aec022a943bdca6781e4f7a345470495ca7e536fa3d8d1a",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-3",
+      "dump_path": "dump/approved/DOC-3.txt",
+      "sha256": "ee952520fd719e64073615fd47c8e04bbeec31b294ad0a84a6bd680b8ed437fd",
+      "ledger_path": "doc-3.html",
+      "ledger_sha256": "b5e161ebfdc541238ec1d5747f0339bdc6c4e47020d002c65faf372cf433f619",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-4",
+      "dump_path": "dump/approved/DOC-4.txt",
+      "sha256": "752bbfaf90bd2437aaa0e84f302adf31341d1641e503a5e6ce782c8cda21d329",
+      "ledger_path": "doc-4.html",
+      "ledger_sha256": "9ff9c7ac17e7dd0d75d2166efe5479a8e62fc7e95a83e9bcb07c3425fa410b7c",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    }
+  ],
+  "processed": [
+    {
+      "path": "collection-notes.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "8073e2b43a954960e2ac5ad6e9f21b349b5f92a9c737e3ff0613dc8032bcff77",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:8e09260853f66e20297e1eee463396a70d5d9cde309349991326d84e576ac019",
+        "path": "collection-notes.md",
+        "raw_sha256": "sha256:8073e2b43a954960e2ac5ad6e9f21b349b5f92a9c737e3ff0613dc8032bcff77",
+        "bytes": 61,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:3ddd913c91bd6448bc442187648c610492d00658b1ff65d7c0df9dab541f4b3a",
+          "occurrence_id": "node:298708e3dfbf90b2d9f799be3be23459c22166159acdd9e28757076afd10457c",
+          "span": {
+            "source_id": "source:8e09260853f66e20297e1eee463396a70d5d9cde309349991326d84e576ac019",
+            "source_sha256": "sha256:8073e2b43a954960e2ac5ad6e9f21b349b5f92a9c737e3ff0613dc8032bcff77",
+            "path": "collection-notes.md",
+            "char_start": 0,
+            "char_end": 9,
+            "byte_start": 0,
+            "byte_end": 9,
+            "text": "# Handoff"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:dfd79f311148d6e8ce0bab0dffb17968f65d9078b2f8cf92109effd020094159",
+          "occurrence_id": "node:298708e3dfbf90b2d9f799be3be23459c22166159acdd9e28757076afd10457c",
+          "span": {
+            "source_id": "source:8e09260853f66e20297e1eee463396a70d5d9cde309349991326d84e576ac019",
+            "source_sha256": "sha256:8073e2b43a954960e2ac5ad6e9f21b349b5f92a9c737e3ff0613dc8032bcff77",
+            "path": "collection-notes.md",
+            "char_start": 11,
+            "char_end": 61,
+            "byte_start": 11,
+            "byte_end": 61,
+            "text": "> Review begins after the next maintenance window."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "index.csv",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "af2c153e24c8497ba212794a9a9e0b65233ee56b8bcbd97e47bcfeb56ff0e585",
+      "sorter_status": "excluded",
+      "sorter_source": null,
+      "statements": []
+    },
+    {
+      "path": "topic-01-copy.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "d2f745676b650a55a568374e348f9cec10f110bfd4d89f79087463aa01f12de0",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:34aa02e69892a623b293fc2469c10c229bb97b26b13576c4549918015fe8d6be",
+        "path": "topic-01-copy.md",
+        "raw_sha256": "sha256:d2f745676b650a55a568374e348f9cec10f110bfd4d89f79087463aa01f12de0",
+        "bytes": 37,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:bedcc4821fa8309946967004a028cfd7d3622a5d698429d02c0b58506d5c78d8",
+          "occurrence_id": "node:3553bfa34e2c6794cf497af1b5449ccf7b48a5bd152bbedcb329b403835daac1",
+          "span": {
+            "source_id": "source:34aa02e69892a623b293fc2469c10c229bb97b26b13576c4549918015fe8d6be",
+            "source_sha256": "sha256:d2f745676b650a55a568374e348f9cec10f110bfd4d89f79087463aa01f12de0",
+            "path": "topic-01-copy.md",
+            "char_start": 0,
+            "char_end": 37,
+            "byte_start": 0,
+            "byte_end": 37,
+            "text": "Ivo wrote the Middle East memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:33a805ac4fecf29f8e83f10f9948a9c660494c29ec782ef5accd05307168dda2",
+              "kind": "shared_wording_review",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 597,
+              "byte_end": 643,
+              "reason": "Existing sorter four-word phrase evidence: ['the middle east memorandum']. Lexical tokens only; identity, chronology, causation and correction are unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-01-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "2a56cfee151561a4d858b091f685953e22c3b81c3f2dd48762a446aeaf6ae511",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:6e3645fc82f11a2ffc937648edbd7615ef29b978e8f4ccd8944b33f52e075234",
+        "path": "topic-01-web-pointer.md",
+        "raw_sha256": "sha256:2a56cfee151561a4d858b091f685953e22c3b81c3f2dd48762a446aeaf6ae511",
+        "bytes": 140,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:0c2c14644f2094c5d1974a6e53b5fb50a8edbac58f7178ee54d31b741936c5ec",
+          "occurrence_id": "node:7562f45448f88bc9c66d08fa57d133bbf9ba44ad20cf7e3730435366478d852d",
+          "span": {
+            "source_id": "source:6e3645fc82f11a2ffc937648edbd7615ef29b978e8f4ccd8944b33f52e075234",
+            "source_sha256": "sha256:2a56cfee151561a4d858b091f685953e22c3b81c3f2dd48762a446aeaf6ae511",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:53e6926ee430cce5030a5fe7af0ffc0ed6d3eda76976416a8a386153667f9bbe",
+          "occurrence_id": "node:7562f45448f88bc9c66d08fa57d133bbf9ba44ad20cf7e3730435366478d852d",
+          "span": {
+            "source_id": "source:6e3645fc82f11a2ffc937648edbd7615ef29b978e8f4ccd8944b33f52e075234",
+            "source_sha256": "sha256:2a56cfee151561a4d858b091f685953e22c3b81c3f2dd48762a446aeaf6ae511",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 24,
+            "char_end": 35,
+            "byte_start": 24,
+            "byte_end": 35,
+            "text": "Middle East"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:ff07cf151017d896fa20cf64466d4ae4dee1efaac681d6543f9a495e88d53672",
+          "occurrence_id": "node:7562f45448f88bc9c66d08fa57d133bbf9ba44ad20cf7e3730435366478d852d",
+          "span": {
+            "source_id": "source:6e3645fc82f11a2ffc937648edbd7615ef29b978e8f4ccd8944b33f52e075234",
+            "source_sha256": "sha256:2a56cfee151561a4d858b091f685953e22c3b81c3f2dd48762a446aeaf6ae511",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 37,
+            "char_end": 78,
+            "byte_start": 37,
+            "byte_end": 78,
+            "text": "https://en.wikipedia.org/wiki/Middle_East"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:270d080e9f2ed80278c0a315c86fcda6896011325aeff4936e5d649f261a9293",
+          "occurrence_id": "node:7562f45448f88bc9c66d08fa57d133bbf9ba44ad20cf7e3730435366478d852d",
+          "span": {
+            "source_id": "source:6e3645fc82f11a2ffc937648edbd7615ef29b978e8f4ccd8944b33f52e075234",
+            "source_sha256": "sha256:2a56cfee151561a4d858b091f685953e22c3b81c3f2dd48762a446aeaf6ae511",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 80,
+            "char_end": 140,
+            "byte_start": 80,
+            "byte_end": 140,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-copy.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "4f7a62f4d8f6c0b9310e736dd2f7c8b81854ac1a2601a6f8b96585349e8daeb9",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:032d4bc0f0426906f4bea12d5bcd13f795227b7f442d8385f51a175ad3e2a72f",
+        "path": "topic-02-copy.md",
+        "raw_sha256": "sha256:4f7a62f4d8f6c0b9310e736dd2f7c8b81854ac1a2601a6f8b96585349e8daeb9",
+        "bytes": 44,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:feb21aa729c82475d29f36c1050f2d0ea952aa3107d90fb44f693d2e6f01c431",
+          "occurrence_id": "node:b3cebeeba608c0b06f9e9ff555370e5d8a3bf8025a75e10b5211631908a3af39",
+          "span": {
+            "source_id": "source:032d4bc0f0426906f4bea12d5bcd13f795227b7f442d8385f51a175ad3e2a72f",
+            "source_sha256": "sha256:4f7a62f4d8f6c0b9310e736dd2f7c8b81854ac1a2601a6f8b96585349e8daeb9",
+            "path": "topic-02-copy.md",
+            "char_start": 0,
+            "char_end": 44,
+            "byte_start": 0,
+            "byte_end": 44,
+            "text": "Mara wrote the Organic chemistry memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:5dcb3441a4f6c8e2485f5674fa84f901708cec4e867d01323bcd6b5c52dfda62",
+              "kind": "exact_match",
+              "original_id": "DOC-2",
+              "original_path": "doc-2.html",
+              "byte_start": 615,
+              "byte_end": 659,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-mail.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "407b91b84166909d46c9b61ec126feea4687601663a00b96ca6b634ba156b287",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:dbe26ba1cf27a38d8d173f97137c8a25c18a89aa828f8e9996838cc5efbe2b30",
+        "path": "topic-02-mail.txt",
+        "raw_sha256": "sha256:407b91b84166909d46c9b61ec126feea4687601663a00b96ca6b634ba156b287",
+        "bytes": 52,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:877ab700352c8d23a4c9939aa0d369b1475a9781a120912a368bc3ce6411526b",
+          "occurrence_id": "node:2f0d5044d891699c729d924caeb69c97d5e240dc82082fd7733b2f3ae418840e",
+          "span": {
+            "source_id": "source:dbe26ba1cf27a38d8d173f97137c8a25c18a89aa828f8e9996838cc5efbe2b30",
+            "source_sha256": "sha256:407b91b84166909d46c9b61ec126feea4687601663a00b96ca6b634ba156b287",
+            "path": "topic-02-mail.txt",
+            "char_start": 0,
+            "char_end": 52,
+            "byte_start": 0,
+            "byte_end": 52,
+            "text": "Mara did not write the Organic chemistry memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:064cabfe2afdd0f05415d0a4b504dd19a07ab0e7aee5224022b97de63653acd9",
+              "kind": "conflicting_wording",
+              "original_id": "DOC-2",
+              "original_path": "doc-2.html",
+              "byte_start": 615,
+              "byte_end": 659,
+              "reason": "Existing finite action grammar finds opposing polarity for the same literal actor/action/object. Event identity and truth remain unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "3d4843d11c5170dea73e67e0f21d2a81abca85fcb57e892b5cbb12609b7727f8",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:a645b0e69acde8f4e0dde8d6de8a983ed4df05bdf30a6582c6195df3534cd310",
+        "path": "topic-02-web-pointer.md",
+        "raw_sha256": "sha256:3d4843d11c5170dea73e67e0f21d2a81abca85fcb57e892b5cbb12609b7727f8",
+        "bytes": 152,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:74f5ab6119d5c9eec9ff13e2e58bb273393b441d722f2f22ee41f3930e945871",
+          "occurrence_id": "node:d3425ac38918f71b0b7a0860be8e70f40897eb9bc3ce2af1654c48d51efa9190",
+          "span": {
+            "source_id": "source:a645b0e69acde8f4e0dde8d6de8a983ed4df05bdf30a6582c6195df3534cd310",
+            "source_sha256": "sha256:3d4843d11c5170dea73e67e0f21d2a81abca85fcb57e892b5cbb12609b7727f8",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:7db02dec23fa8988972bd0859b1cf4945e8f2c47b0a0b0b2499aa0b7ef2507fd",
+          "occurrence_id": "node:d3425ac38918f71b0b7a0860be8e70f40897eb9bc3ce2af1654c48d51efa9190",
+          "span": {
+            "source_id": "source:a645b0e69acde8f4e0dde8d6de8a983ed4df05bdf30a6582c6195df3534cd310",
+            "source_sha256": "sha256:3d4843d11c5170dea73e67e0f21d2a81abca85fcb57e892b5cbb12609b7727f8",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 24,
+            "char_end": 41,
+            "byte_start": 24,
+            "byte_end": 41,
+            "text": "Organic chemistry"
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:58760bd2e609345b58cdb89c8909ae019dfa10b6626721658c2272fe9db11734",
+              "kind": "exact_match",
+              "original_id": "DOC-2",
+              "original_path": "doc-2.html",
+              "byte_start": 615,
+              "byte_end": 659,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            }
+          ],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:5d03767dfda4b478fc104e42c81c5bbceed42001246f23ffb0f6f95d74217d76",
+          "occurrence_id": "node:d3425ac38918f71b0b7a0860be8e70f40897eb9bc3ce2af1654c48d51efa9190",
+          "span": {
+            "source_id": "source:a645b0e69acde8f4e0dde8d6de8a983ed4df05bdf30a6582c6195df3534cd310",
+            "source_sha256": "sha256:3d4843d11c5170dea73e67e0f21d2a81abca85fcb57e892b5cbb12609b7727f8",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 43,
+            "char_end": 90,
+            "byte_start": 43,
+            "byte_end": 90,
+            "text": "https://en.wikipedia.org/wiki/Organic_chemistry"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:fc8498905b37abd6fddee628e0830a2150052a1f192eb782b2de37b532a35c2f",
+          "occurrence_id": "node:d3425ac38918f71b0b7a0860be8e70f40897eb9bc3ce2af1654c48d51efa9190",
+          "span": {
+            "source_id": "source:a645b0e69acde8f4e0dde8d6de8a983ed4df05bdf30a6582c6195df3534cd310",
+            "source_sha256": "sha256:3d4843d11c5170dea73e67e0f21d2a81abca85fcb57e892b5cbb12609b7727f8",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 92,
+            "char_end": 152,
+            "byte_start": 92,
+            "byte_end": 152,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-copy.markdown",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "24f7c3f362f880c4ad947115b952b201e9f0b73bb99647164df88685c50322cc",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:cc4a3d8864dded450b5df1b55985df44b1dc4ebca324a8856caf5c0a01ec5cfb",
+        "path": "topic-03-copy.markdown",
+        "raw_sha256": "sha256:24f7c3f362f880c4ad947115b952b201e9f0b73bb99647164df88685c50322cc",
+        "bytes": 31,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:1e580cd5e8f4460006852916df59c856076e1e9dd84591acdb1baacecc3ba3f9",
+          "occurrence_id": "node:3d5120b20ad89ddc6d77abe1611fa05c99938e14c569a938a78cd369320a3c31",
+          "span": {
+            "source_id": "source:cc4a3d8864dded450b5df1b55985df44b1dc4ebca324a8856caf5c0a01ec5cfb",
+            "source_sha256": "sha256:24f7c3f362f880c4ad947115b952b201e9f0b73bb99647164df88685c50322cc",
+            "path": "topic-03-copy.markdown",
+            "char_start": 0,
+            "char_end": 31,
+            "byte_start": 0,
+            "byte_end": 31,
+            "text": "Nora studied Scientific method."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "2158db7a50d934b01daf772361c37e5e135c10eb30bdcfe40515a4437ca5e461",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:677031f3bf94125ea1ad9ac8b7d354b0065221f18a18bcf7d5c77027866b8c59",
+        "path": "topic-03-web-pointer.md",
+        "raw_sha256": "sha256:2158db7a50d934b01daf772361c37e5e135c10eb30bdcfe40515a4437ca5e461",
+        "bytes": 152,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:9f575be62368ac21229fdbbbddcc911982fdf8255d1dad32fa9edc12ca41d1aa",
+          "occurrence_id": "node:8643524be381e7331b91293396c5b3455d7f76bb29b596c0c93856aa042c355a",
+          "span": {
+            "source_id": "source:677031f3bf94125ea1ad9ac8b7d354b0065221f18a18bcf7d5c77027866b8c59",
+            "source_sha256": "sha256:2158db7a50d934b01daf772361c37e5e135c10eb30bdcfe40515a4437ca5e461",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:9a2d1a04213c3d14bd324dd82b96c6c64d0151913b5c99ca9d02bcbeb2c4ed46",
+          "occurrence_id": "node:8643524be381e7331b91293396c5b3455d7f76bb29b596c0c93856aa042c355a",
+          "span": {
+            "source_id": "source:677031f3bf94125ea1ad9ac8b7d354b0065221f18a18bcf7d5c77027866b8c59",
+            "source_sha256": "sha256:2158db7a50d934b01daf772361c37e5e135c10eb30bdcfe40515a4437ca5e461",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 24,
+            "char_end": 41,
+            "byte_start": 24,
+            "byte_end": 41,
+            "text": "Scientific method"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:2b834db63c279455f05260834eee0c985e07b6fdc78cc36ffb9f8305eeb75425",
+          "occurrence_id": "node:8643524be381e7331b91293396c5b3455d7f76bb29b596c0c93856aa042c355a",
+          "span": {
+            "source_id": "source:677031f3bf94125ea1ad9ac8b7d354b0065221f18a18bcf7d5c77027866b8c59",
+            "source_sha256": "sha256:2158db7a50d934b01daf772361c37e5e135c10eb30bdcfe40515a4437ca5e461",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 43,
+            "char_end": 90,
+            "byte_start": 43,
+            "byte_end": 90,
+            "text": "https://en.wikipedia.org/wiki/Scientific_method"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:5c7c18523040c11f26318d85e942e9e95a844f44105dfba7bc65a5fea9fed0b1",
+          "occurrence_id": "node:8643524be381e7331b91293396c5b3455d7f76bb29b596c0c93856aa042c355a",
+          "span": {
+            "source_id": "source:677031f3bf94125ea1ad9ac8b7d354b0065221f18a18bcf7d5c77027866b8c59",
+            "source_sha256": "sha256:2158db7a50d934b01daf772361c37e5e135c10eb30bdcfe40515a4437ca5e461",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 92,
+            "char_end": 152,
+            "byte_start": 92,
+            "byte_end": 152,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-copy.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "ee952520fd719e64073615fd47c8e04bbeec31b294ad0a84a6bd680b8ed437fd",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:6a52b15f051bd040898206ec3549b29ac1e4d146e8c3c0a626d8738a812fc803",
+        "path": "topic-04-copy.md",
+        "raw_sha256": "sha256:ee952520fd719e64073615fd47c8e04bbeec31b294ad0a84a6bd680b8ed437fd",
+        "bytes": 43,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:0caaea4f065538e4c6c0285104c03b3ffad609e94adfb5dd402e218c8ce641f6",
+          "occurrence_id": "node:f9117ad99156a855f05c671ee2fcfcd805d46bc23eb69c2763f0e2ea69c1c1cc",
+          "span": {
+            "source_id": "source:6a52b15f051bd040898206ec3549b29ac1e4d146e8c3c0a626d8738a812fc803",
+            "source_sha256": "sha256:ee952520fd719e64073615fd47c8e04bbeec31b294ad0a84a6bd680b8ed437fd",
+            "path": "topic-04-copy.md",
+            "char_start": 0,
+            "char_end": 43,
+            "byte_start": 0,
+            "byte_end": 43,
+            "text": "Ivo wrote the Natural satellite memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:b64597f052565410a06a77c7c0fe05c99bf6190c479ec31fb4c7a1c13b109d51",
+              "kind": "exact_match",
+              "original_id": "DOC-3",
+              "original_path": "doc-3.html",
+              "byte_start": 615,
+              "byte_end": 658,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            },
+            {
+              "id": "sha256:b4bacc019a66ba6709b635bcd7e6b23c18554f35aaadd2d041f041863cd81fd2",
+              "kind": "shared_wording_review",
+              "original_id": "DOC-4",
+              "original_path": "doc-4.html",
+              "byte_start": 615,
+              "byte_end": 659,
+              "reason": "Existing sorter four-word phrase evidence: ['the natural satellite memorandum', 'wrote the natural satellite']. Lexical tokens only; identity, chronology, causation and correction are unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "5eb1007d930cbbb8aca1a75a7eaaed9333c65028a34df405b2d12677e0c6c153",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:8bbe1869a617577ff32c7f5a3f1cea1deba5cd2961a3d38b337293e0f6afed12",
+        "path": "topic-04-web-pointer.md",
+        "raw_sha256": "sha256:5eb1007d930cbbb8aca1a75a7eaaed9333c65028a34df405b2d12677e0c6c153",
+        "bytes": 152,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:9cf0483a8e3add34219e660d8d188962dcf0039acc116a37c525ec8d7aa0257f",
+          "occurrence_id": "node:dff4c7cb79b084e9966e24cf49616a118d0d1adc7ac20f09b9bfb0b9205a0d7e",
+          "span": {
+            "source_id": "source:8bbe1869a617577ff32c7f5a3f1cea1deba5cd2961a3d38b337293e0f6afed12",
+            "source_sha256": "sha256:5eb1007d930cbbb8aca1a75a7eaaed9333c65028a34df405b2d12677e0c6c153",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:6069777f380830392e83968962f4e1b570f22b9349f7a1cf0028b7265d04fdfb",
+          "occurrence_id": "node:dff4c7cb79b084e9966e24cf49616a118d0d1adc7ac20f09b9bfb0b9205a0d7e",
+          "span": {
+            "source_id": "source:8bbe1869a617577ff32c7f5a3f1cea1deba5cd2961a3d38b337293e0f6afed12",
+            "source_sha256": "sha256:5eb1007d930cbbb8aca1a75a7eaaed9333c65028a34df405b2d12677e0c6c153",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 24,
+            "char_end": 41,
+            "byte_start": 24,
+            "byte_end": 41,
+            "text": "Natural satellite"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:6dba4547fbc20a007726218e766c1680573cdcae747b7e13cbead816c9985990",
+          "occurrence_id": "node:dff4c7cb79b084e9966e24cf49616a118d0d1adc7ac20f09b9bfb0b9205a0d7e",
+          "span": {
+            "source_id": "source:8bbe1869a617577ff32c7f5a3f1cea1deba5cd2961a3d38b337293e0f6afed12",
+            "source_sha256": "sha256:5eb1007d930cbbb8aca1a75a7eaaed9333c65028a34df405b2d12677e0c6c153",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 43,
+            "char_end": 90,
+            "byte_start": 43,
+            "byte_end": 90,
+            "text": "https://en.wikipedia.org/wiki/Natural_satellite"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:9f5bdc46ca8d2200cd526917c5f486c02bee05ae39a91596ad22c236839a5f34",
+          "occurrence_id": "node:dff4c7cb79b084e9966e24cf49616a118d0d1adc7ac20f09b9bfb0b9205a0d7e",
+          "span": {
+            "source_id": "source:8bbe1869a617577ff32c7f5a3f1cea1deba5cd2961a3d38b337293e0f6afed12",
+            "source_sha256": "sha256:5eb1007d930cbbb8aca1a75a7eaaed9333c65028a34df405b2d12677e0c6c153",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 92,
+            "char_end": 152,
+            "byte_start": 92,
+            "byte_end": 152,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    }
+  ]
+}

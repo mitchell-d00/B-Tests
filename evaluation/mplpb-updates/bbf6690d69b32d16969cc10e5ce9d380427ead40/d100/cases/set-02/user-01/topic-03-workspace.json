@@ -1,0 +1,199 @@
+{
+  "schema": "candidate-review-workspace-v3",
+  "label": "Sorter suggestions for review. MPLPB has not verified these links or answers.",
+  "status": "candidate for review",
+  "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+  "approval_status": "outside_approved_evidence",
+  "answer_supported": false,
+  "content_truth_verified": false,
+  "approval_transferred": false,
+  "graph_sha256": "sha256:a1099a8b2066590a9f89743f3d2c979c91f9696152098852bf61b0064fc66039",
+  "implementation_sha256": "sha256:74fd28037d4c10cfe1164a7fa04ee53de4c0e6be63401e675762a1a7a9249290",
+  "configuration": {
+    "question": "What about Inorganic chemistry?",
+    "topic": "What about Inorganic chemistry?",
+    "profile": "internal",
+    "max_passages": 16,
+    "max_chars": 16000,
+    "strict_passages": 12,
+    "strict_chars": 8000,
+    "scan_passages": 256,
+    "pair_checks": 4096,
+    "as_of": null
+  },
+  "original_corpus_snapshot": "sha256:e06605700445e2abf8cf48316b543acf4adbb760d1e271386f4fef008ceb6fa7",
+  "original_policy": {
+    "gate_version": 2,
+    "mode": "separate_lexical_sources",
+    "max_depth": 1,
+    "prose": true,
+    "not_for": true,
+    "enforce_sealed_external_policy": true,
+    "synthesize": false,
+    "follow_pointers": false,
+    "require_current_dependencies": true,
+    "settings_hash": "sha256:2b95571a707e2341b9dedc11b579a05bdd494cc4f4f2f13d1cac7e67a2beb03c"
+  },
+  "reader_implementation_sha256": "sha256:e207dac173890540b5af36626e592c56cd293cb86a577c0c2a5d09cda441aea8",
+  "verifier_implementation_sha256": "sha256:9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+  "mplpb_decision": {
+    "status": "no_eligible_owner",
+    "eligible_owner_count": 0,
+    "strict_answer": null,
+    "page": null,
+    "competing_sources": [],
+    "native_kind": "not_in_corpus",
+    "reason": "no current page declares most of this question, and no page contains every word of it",
+    "message": "No MPLPB-supported answer is returned by this ownership route. Labeled exploration remains available."
+  },
+  "processed_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:702ee2a2061bde16bbdf4e94ea78b3185c7fefb1272253699284adb97cfb5955",
+      "occurrence_id": "node:be81717e007f030bebcf8bcc57a6a3f11cf95cefb594136a134c4a7b476ff06e",
+      "span": {
+        "source_id": "source:138ec4615f56ff8d515644c43b9523c21fd394ce3540b54a92f598b5ae8ac038",
+        "source_sha256": "sha256:ac795001fbcaafe8b0595b52c7bc7da74850fad52cff2a69cbb944cee9db9286",
+        "path": "topic-03-copy.text",
+        "char_start": 0,
+        "char_end": 33,
+        "byte_start": 0,
+        "byte_end": 33,
+        "text": "Mara studied Inorganic chemistry."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:64ca3bdbb9f1f21b7ddd1b8643b670d858b69235c409d003ed75e376c7baaf12",
+      "occurrence_id": "node:faad023531a836d9640dac72c6ace9cab4daaccb9c60a2ba0a2c431be4323a98",
+      "span": {
+        "source_id": "source:d5697683192fcc163f1b209b778186b5f4680fbe56eec5f324c5eeee2cedcad0",
+        "source_sha256": "sha256:2923f54838f75964d1ec7acd4b30fd74e3e282842077ac9adccf2441a6d81357",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 24,
+        "char_end": 43,
+        "byte_start": 24,
+        "byte_end": 43,
+        "text": "Inorganic chemistry"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "candidates": [],
+  "processed_disagreements": [],
+  "unresolved_references": [],
+  "unmatched_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:702ee2a2061bde16bbdf4e94ea78b3185c7fefb1272253699284adb97cfb5955",
+      "occurrence_id": "node:be81717e007f030bebcf8bcc57a6a3f11cf95cefb594136a134c4a7b476ff06e",
+      "span": {
+        "source_id": "source:138ec4615f56ff8d515644c43b9523c21fd394ce3540b54a92f598b5ae8ac038",
+        "source_sha256": "sha256:ac795001fbcaafe8b0595b52c7bc7da74850fad52cff2a69cbb944cee9db9286",
+        "path": "topic-03-copy.text",
+        "char_start": 0,
+        "char_end": 33,
+        "byte_start": 0,
+        "byte_end": 33,
+        "text": "Mara studied Inorganic chemistry."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:64ca3bdbb9f1f21b7ddd1b8643b670d858b69235c409d003ed75e376c7baaf12",
+      "occurrence_id": "node:faad023531a836d9640dac72c6ace9cab4daaccb9c60a2ba0a2c431be4323a98",
+      "span": {
+        "source_id": "source:d5697683192fcc163f1b209b778186b5f4680fbe56eec5f324c5eeee2cedcad0",
+        "source_sha256": "sha256:2923f54838f75964d1ec7acd4b30fd74e3e282842077ac9adccf2441a6d81357",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 24,
+        "char_end": 43,
+        "byte_start": 24,
+        "byte_end": 43,
+        "text": "Inorganic chemistry"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "exploration_budget": {
+    "max_passages": 16,
+    "max_characters": 16000,
+    "unique_spans": 2,
+    "characters": 52,
+    "omitted_items": 0,
+    "display_truncated": false,
+    "search_truncated": false,
+    "original_discovery_passage_limit": 64,
+    "original_discovery_character_limit": 64000,
+    "original_passages_considered": 4,
+    "processed_passages_considered": 2,
+    "original_pairs_examined": 8,
+    "processed_pairs_examined": 1,
+    "strict_slots_consumed": 0,
+    "phrase_token_limit_per_statement": 256
+  },
+  "strict_budget": {
+    "max_passages": 12,
+    "max_characters": 8000,
+    "evaluated": false,
+    "truncated": false
+  },
+  "limits_notice": "Unshown/unmatched items remain in the separately pinned sorter graph. No missing match or silence proves absence.",
+  "source_authority_changed": false,
+  "ownership_changed": false,
+  "workspace_sha256": "sha256:dbb01308588fdab0307920a42c071961138ac10157ed7d0dfd920e9421367d08"
+}

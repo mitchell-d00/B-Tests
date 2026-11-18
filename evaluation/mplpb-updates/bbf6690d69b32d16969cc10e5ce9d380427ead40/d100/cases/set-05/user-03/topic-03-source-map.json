@@ -1,0 +1,675 @@
+{
+  "approved": [
+    {
+      "id": "DOC-1",
+      "dump_path": "dump/approved/DOC-1.txt",
+      "sha256": "ae476aea4c0b04b7c84c1140f9f45fdc931b13642f95541b511405c63986b7af",
+      "ledger_path": "doc-1.html",
+      "ledger_sha256": "0cd440e9bdc25c46b94b452bbe1d2527bf46fb5ccf70ac53f52e8eea052576b1",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-2",
+      "dump_path": "dump/approved/DOC-2.txt",
+      "sha256": "c6b68cd79b3599656dcee075088452f846a555c9ff8fc8d9d36577dd9f76d222",
+      "ledger_path": "doc-2.html",
+      "ledger_sha256": "e5543efe2aeabe5b882d8ef61309bcc93033cb9e6be866bb208890fb05a092f1",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-3",
+      "dump_path": "dump/approved/DOC-3.txt",
+      "sha256": "76294b0364aa167075ce272636829e01ed1e1c8d0d06fe3bdbe60743ab1aeb22",
+      "ledger_path": "doc-3.html",
+      "ledger_sha256": "47ae031a44938a9cde9b23b06c122246edca84b9f1c5de11bf4d916503ce2a50",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-4",
+      "dump_path": "dump/approved/DOC-4.txt",
+      "sha256": "ac3c097c21d2770034519385b57ec35b0f7b36c25f323ef4f47b0be03e702ecf",
+      "ledger_path": "doc-4.html",
+      "ledger_sha256": "e68bda68b60e0b953a9e6d7d6b0a11f4d05779058f831ce2fe26314b55418225",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    }
+  ],
+  "processed": [
+    {
+      "path": "collection-notes.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "8073e2b43a954960e2ac5ad6e9f21b349b5f92a9c737e3ff0613dc8032bcff77",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:8e09260853f66e20297e1eee463396a70d5d9cde309349991326d84e576ac019",
+        "path": "collection-notes.md",
+        "raw_sha256": "sha256:8073e2b43a954960e2ac5ad6e9f21b349b5f92a9c737e3ff0613dc8032bcff77",
+        "bytes": 61,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:3ddd913c91bd6448bc442187648c610492d00658b1ff65d7c0df9dab541f4b3a",
+          "occurrence_id": "node:298708e3dfbf90b2d9f799be3be23459c22166159acdd9e28757076afd10457c",
+          "span": {
+            "source_id": "source:8e09260853f66e20297e1eee463396a70d5d9cde309349991326d84e576ac019",
+            "source_sha256": "sha256:8073e2b43a954960e2ac5ad6e9f21b349b5f92a9c737e3ff0613dc8032bcff77",
+            "path": "collection-notes.md",
+            "char_start": 0,
+            "char_end": 9,
+            "byte_start": 0,
+            "byte_end": 9,
+            "text": "# Handoff"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:dfd79f311148d6e8ce0bab0dffb17968f65d9078b2f8cf92109effd020094159",
+          "occurrence_id": "node:298708e3dfbf90b2d9f799be3be23459c22166159acdd9e28757076afd10457c",
+          "span": {
+            "source_id": "source:8e09260853f66e20297e1eee463396a70d5d9cde309349991326d84e576ac019",
+            "source_sha256": "sha256:8073e2b43a954960e2ac5ad6e9f21b349b5f92a9c737e3ff0613dc8032bcff77",
+            "path": "collection-notes.md",
+            "char_start": 11,
+            "char_end": 61,
+            "byte_start": 11,
+            "byte_end": 61,
+            "text": "> Review begins after the next maintenance window."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "index.csv",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "af2c153e24c8497ba212794a9a9e0b65233ee56b8bcbd97e47bcfeb56ff0e585",
+      "sorter_status": "excluded",
+      "sorter_source": null,
+      "statements": []
+    },
+    {
+      "path": "topic-01-copy.text",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "ae476aea4c0b04b7c84c1140f9f45fdc931b13642f95541b511405c63986b7af",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:e3ac287748ebc6a51389a45666d5020680e32f505027ada5723f0c5f7246f42f",
+        "path": "topic-01-copy.text",
+        "raw_sha256": "sha256:ae476aea4c0b04b7c84c1140f9f45fdc931b13642f95541b511405c63986b7af",
+        "bytes": 36,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:a024dc283da91e73676d7e0ab59b38f330b4b30ee0156a81d1791070c1c08d7e",
+          "occurrence_id": "node:e5a688e18a8d05b761c5fd83bd337acb47dc13a544d3d3c7adb8a040df0b0e1b",
+          "span": {
+            "source_id": "source:e3ac287748ebc6a51389a45666d5020680e32f505027ada5723f0c5f7246f42f",
+            "source_sha256": "sha256:ae476aea4c0b04b7c84c1140f9f45fdc931b13642f95541b511405c63986b7af",
+            "path": "topic-01-copy.text",
+            "char_start": 0,
+            "char_end": 36,
+            "byte_start": 0,
+            "byte_end": 36,
+            "text": "Tess wrote the Community memorandum."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-01-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "45d8a280079237ce578a35ae0abd45d35f2978ea0905ce05b41f6629f3e0a951",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:a8deec44ed7ff2db12c8d66951536e6f2baf465af59d5766c05d39594f7b0708",
+        "path": "topic-01-web-pointer.md",
+        "raw_sha256": "sha256:45d8a280079237ce578a35ae0abd45d35f2978ea0905ce05b41f6629f3e0a951",
+        "bytes": 136,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:f7cdcae7212b82ac55cb9e9fe04c5c2d8f7b24b03e454daf3bbe8fd70eca0f32",
+          "occurrence_id": "node:920c8934ead7ba3e8bbeecf6c9683736f8167031d1bfe07cdd2f5f0482a593e4",
+          "span": {
+            "source_id": "source:a8deec44ed7ff2db12c8d66951536e6f2baf465af59d5766c05d39594f7b0708",
+            "source_sha256": "sha256:45d8a280079237ce578a35ae0abd45d35f2978ea0905ce05b41f6629f3e0a951",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:c49422c842bf2be999f136a934a9a5aa5ca9a8e9eae0badb699b2eb22f4470c9",
+          "occurrence_id": "node:920c8934ead7ba3e8bbeecf6c9683736f8167031d1bfe07cdd2f5f0482a593e4",
+          "span": {
+            "source_id": "source:a8deec44ed7ff2db12c8d66951536e6f2baf465af59d5766c05d39594f7b0708",
+            "source_sha256": "sha256:45d8a280079237ce578a35ae0abd45d35f2978ea0905ce05b41f6629f3e0a951",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 24,
+            "char_end": 33,
+            "byte_start": 24,
+            "byte_end": 33,
+            "text": "Community"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:d54e96fb3f7a0988151a1639632085642ee08638b571f2d2ede08061dbcfcbbd",
+          "occurrence_id": "node:920c8934ead7ba3e8bbeecf6c9683736f8167031d1bfe07cdd2f5f0482a593e4",
+          "span": {
+            "source_id": "source:a8deec44ed7ff2db12c8d66951536e6f2baf465af59d5766c05d39594f7b0708",
+            "source_sha256": "sha256:45d8a280079237ce578a35ae0abd45d35f2978ea0905ce05b41f6629f3e0a951",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 35,
+            "char_end": 74,
+            "byte_start": 35,
+            "byte_end": 74,
+            "text": "https://en.wikipedia.org/wiki/Community"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:36a26a9ec81e0e3b5fc65f63d9236faa3b095528a8e4d84c4273257d914065db",
+          "occurrence_id": "node:920c8934ead7ba3e8bbeecf6c9683736f8167031d1bfe07cdd2f5f0482a593e4",
+          "span": {
+            "source_id": "source:a8deec44ed7ff2db12c8d66951536e6f2baf465af59d5766c05d39594f7b0708",
+            "source_sha256": "sha256:45d8a280079237ce578a35ae0abd45d35f2978ea0905ce05b41f6629f3e0a951",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 76,
+            "char_end": 136,
+            "byte_start": 76,
+            "byte_end": 136,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-copy.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "64799ca1cd91afaf621891fbce6d1e26c7c4a960d848d436f7e504a79d4e1968",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:8da2cfe4bef4088b8bb608d9d15bd3dfa99749c1d061309e90dc25fa75bba5ca",
+        "path": "topic-02-copy.txt",
+        "raw_sha256": "sha256:64799ca1cd91afaf621891fbce6d1e26c7c4a960d848d436f7e504a79d4e1968",
+        "bytes": 34,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:6a925c46c9823e1acfdc62becf2a0babe6d0fc3efd302fd26b67315d370083a0",
+          "occurrence_id": "node:fae9e6617fea8a97c974c207d2b9bad34d3da8b2cca148e2844332467d6ada30",
+          "span": {
+            "source_id": "source:8da2cfe4bef4088b8bb608d9d15bd3dfa99749c1d061309e90dc25fa75bba5ca",
+            "source_sha256": "sha256:64799ca1cd91afaf621891fbce6d1e26c7c4a960d848d436f7e504a79d4e1968",
+            "path": "topic-02-copy.txt",
+            "char_start": 0,
+            "char_end": 34,
+            "byte_start": 0,
+            "byte_end": 34,
+            "text": "Tess wrote the Theatre memorandum."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "62a305906447127205b21a0a5fdd9459c016a10350dec0408e456d502990537b",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:60dedd063425c3bc443c599b6e59e9c82cd8f16a3bc2d32b03b6033efa7a92e9",
+        "path": "topic-02-web-pointer.md",
+        "raw_sha256": "sha256:62a305906447127205b21a0a5fdd9459c016a10350dec0408e456d502990537b",
+        "bytes": 132,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:3039cc26be7756a59e573468814be648dabcab7dc3bd4b53bf646fd8e8ef4ac4",
+          "occurrence_id": "node:2883fd2620ce43d706b4acacbb7edd3aa76a83e7b2c8cc6965cb32a73069c07a",
+          "span": {
+            "source_id": "source:60dedd063425c3bc443c599b6e59e9c82cd8f16a3bc2d32b03b6033efa7a92e9",
+            "source_sha256": "sha256:62a305906447127205b21a0a5fdd9459c016a10350dec0408e456d502990537b",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:db02cc387ecb13000e9ce255cde05b069b75dc8587bc8149ffc3aaf33477d057",
+          "occurrence_id": "node:2883fd2620ce43d706b4acacbb7edd3aa76a83e7b2c8cc6965cb32a73069c07a",
+          "span": {
+            "source_id": "source:60dedd063425c3bc443c599b6e59e9c82cd8f16a3bc2d32b03b6033efa7a92e9",
+            "source_sha256": "sha256:62a305906447127205b21a0a5fdd9459c016a10350dec0408e456d502990537b",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 24,
+            "char_end": 31,
+            "byte_start": 24,
+            "byte_end": 31,
+            "text": "Theatre"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:ec600de5636288375f64430ec6af4745fa87cb227a43b7ba2a580f579112e7a9",
+          "occurrence_id": "node:2883fd2620ce43d706b4acacbb7edd3aa76a83e7b2c8cc6965cb32a73069c07a",
+          "span": {
+            "source_id": "source:60dedd063425c3bc443c599b6e59e9c82cd8f16a3bc2d32b03b6033efa7a92e9",
+            "source_sha256": "sha256:62a305906447127205b21a0a5fdd9459c016a10350dec0408e456d502990537b",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 33,
+            "char_end": 70,
+            "byte_start": 33,
+            "byte_end": 70,
+            "text": "https://en.wikipedia.org/wiki/Theatre"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:6b9cfa3bb66204cbae5aa4fa6812f2ede93cb7438f399865d46c4ca4db67622b",
+          "occurrence_id": "node:2883fd2620ce43d706b4acacbb7edd3aa76a83e7b2c8cc6965cb32a73069c07a",
+          "span": {
+            "source_id": "source:60dedd063425c3bc443c599b6e59e9c82cd8f16a3bc2d32b03b6033efa7a92e9",
+            "source_sha256": "sha256:62a305906447127205b21a0a5fdd9459c016a10350dec0408e456d502990537b",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 72,
+            "char_end": 132,
+            "byte_start": 72,
+            "byte_end": 132,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-copy.markdown",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "045df48f39c013ab4d5c7999a5834bd14d171228611f1f81dcc4a926a87b7c60",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:c5e9bd9368d7e60c0b4a6276b01439306989edfd2b7c0587911d74ddc948f6c5",
+        "path": "topic-03-copy.markdown",
+        "raw_sha256": "sha256:045df48f39c013ab4d5c7999a5834bd14d171228611f1f81dcc4a926a87b7c60",
+        "bytes": 19,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:331876cd0469e911351bc903163a22b6f8b3b4a77a4fb7a6a616c8a74c4a7e86",
+          "occurrence_id": "node:ed97704d0bc9cbcdeb91a1823adc51537f69fac17ca5542432efa2b1135a03df",
+          "span": {
+            "source_id": "source:c5e9bd9368d7e60c0b4a6276b01439306989edfd2b7c0587911d74ddc948f6c5",
+            "source_sha256": "sha256:045df48f39c013ab4d5c7999a5834bd14d171228611f1f81dcc4a926a87b7c60",
+            "path": "topic-03-copy.markdown",
+            "char_start": 0,
+            "char_end": 19,
+            "byte_start": 0,
+            "byte_end": 19,
+            "text": "Ivo studied Camera."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "cb8fdfab84809998b088a56f69732d1ddc039e7255a9f0d4796aeef65f00996a",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:8f45fed74c75e739dc94aed1212a31a51cc95135ddd04456d4932ade547260a0",
+        "path": "topic-03-web-pointer.md",
+        "raw_sha256": "sha256:cb8fdfab84809998b088a56f69732d1ddc039e7255a9f0d4796aeef65f00996a",
+        "bytes": 130,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:079a2f23e57f19f3218c5c930ed67294f8292aee6f97c532e271bf8d6a52c370",
+          "occurrence_id": "node:17b3a565664e5363ad529ba3a3aa2bad6e97978e035339944a71cb37776f697f",
+          "span": {
+            "source_id": "source:8f45fed74c75e739dc94aed1212a31a51cc95135ddd04456d4932ade547260a0",
+            "source_sha256": "sha256:cb8fdfab84809998b088a56f69732d1ddc039e7255a9f0d4796aeef65f00996a",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:64bad1237a28f2aa5919b4e0097fb93213476138f25b868c6264dbd97b1180a1",
+          "occurrence_id": "node:17b3a565664e5363ad529ba3a3aa2bad6e97978e035339944a71cb37776f697f",
+          "span": {
+            "source_id": "source:8f45fed74c75e739dc94aed1212a31a51cc95135ddd04456d4932ade547260a0",
+            "source_sha256": "sha256:cb8fdfab84809998b088a56f69732d1ddc039e7255a9f0d4796aeef65f00996a",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 24,
+            "char_end": 30,
+            "byte_start": 24,
+            "byte_end": 30,
+            "text": "Camera"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:7814cc7da4ac6104968e2f9fb118026bdc29c76324b3fbbcab588096f8449af9",
+          "occurrence_id": "node:17b3a565664e5363ad529ba3a3aa2bad6e97978e035339944a71cb37776f697f",
+          "span": {
+            "source_id": "source:8f45fed74c75e739dc94aed1212a31a51cc95135ddd04456d4932ade547260a0",
+            "source_sha256": "sha256:cb8fdfab84809998b088a56f69732d1ddc039e7255a9f0d4796aeef65f00996a",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 32,
+            "char_end": 68,
+            "byte_start": 32,
+            "byte_end": 68,
+            "text": "https://en.wikipedia.org/wiki/Camera"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:afa6eb064e4144ccba1b026b7aef704b25bf5f3538ef97827998c9fbaa12fad9",
+          "occurrence_id": "node:17b3a565664e5363ad529ba3a3aa2bad6e97978e035339944a71cb37776f697f",
+          "span": {
+            "source_id": "source:8f45fed74c75e739dc94aed1212a31a51cc95135ddd04456d4932ade547260a0",
+            "source_sha256": "sha256:cb8fdfab84809998b088a56f69732d1ddc039e7255a9f0d4796aeef65f00996a",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 70,
+            "char_end": 130,
+            "byte_start": 70,
+            "byte_end": 130,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-copy.text",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "ac3c097c21d2770034519385b57ec35b0f7b36c25f323ef4f47b0be03e702ecf",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:77e7ead476405e755e6a1f7ad091d7d7e3dbe9bb9da356bb9f755aabb63d7972",
+        "path": "topic-04-copy.text",
+        "raw_sha256": "sha256:ac3c097c21d2770034519385b57ec35b0f7b36c25f323ef4f47b0be03e702ecf",
+        "bytes": 44,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:88a8590e2a2cf09a5649fb7c3b3cc3dc8aad4047395eed63b9c46adcdfd2acdd",
+          "occurrence_id": "node:b3a96d514f7a0fbf80dc48834930f3548c13fd4b710df0dc9a599d52cf6c3a59",
+          "span": {
+            "source_id": "source:77e7ead476405e755e6a1f7ad091d7d7e3dbe9bb9da356bb9f755aabb63d7972",
+            "source_sha256": "sha256:ac3c097c21d2770034519385b57ec35b0f7b36c25f323ef4f47b0be03e702ecf",
+            "path": "topic-04-copy.text",
+            "char_start": 0,
+            "char_end": 44,
+            "byte_start": 0,
+            "byte_end": 44,
+            "text": "Ivo wrote the Sexual intercourse memorandum."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-mail.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "c0a8121e41d5fa025c1fd48db752f6e94941dce889e79c43d02b92f41b52f31c",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:717de7beac45563d445cee118f0735dc65c929638cc1edf21bdcc0df82f2ac94",
+        "path": "topic-04-mail.txt",
+        "raw_sha256": "sha256:c0a8121e41d5fa025c1fd48db752f6e94941dce889e79c43d02b92f41b52f31c",
+        "bytes": 52,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:ea3259868ab3977bccae87aa3a3dbe5a68589f29e87150f86ae4d1a5dababce6",
+          "occurrence_id": "node:34ac730756a194717a0650066255efe7c7d7408aff6db42a5a6985fd14ad754b",
+          "span": {
+            "source_id": "source:717de7beac45563d445cee118f0735dc65c929638cc1edf21bdcc0df82f2ac94",
+            "source_sha256": "sha256:c0a8121e41d5fa025c1fd48db752f6e94941dce889e79c43d02b92f41b52f31c",
+            "path": "topic-04-mail.txt",
+            "char_start": 0,
+            "char_end": 52,
+            "byte_start": 0,
+            "byte_end": 52,
+            "text": "Ivo did not write the Sexual intercourse memorandum."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "fe6a8e1b38ed2caec4570aeb9940b93f86b8e5da0ee19acb5d3e862fc56c543c",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:b5096a7e2f07748a795f14045d929af6e78f0dfeaad0b1abc894e3adaa8ff084",
+        "path": "topic-04-web-pointer.md",
+        "raw_sha256": "sha256:fe6a8e1b38ed2caec4570aeb9940b93f86b8e5da0ee19acb5d3e862fc56c543c",
+        "bytes": 154,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:616f827a22c52b4de90bc64df5577a8537543250fcd9011386d5d5744dd145a9",
+          "occurrence_id": "node:a08f91e82b0cf4f282068117e22254d4692533add09d1aecc1062ee28a69f438",
+          "span": {
+            "source_id": "source:b5096a7e2f07748a795f14045d929af6e78f0dfeaad0b1abc894e3adaa8ff084",
+            "source_sha256": "sha256:fe6a8e1b38ed2caec4570aeb9940b93f86b8e5da0ee19acb5d3e862fc56c543c",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:35df008baad67a8d20dbf08a7b2efaccee5301a441fe1d45053667f779c5b7ab",
+          "occurrence_id": "node:a08f91e82b0cf4f282068117e22254d4692533add09d1aecc1062ee28a69f438",
+          "span": {
+            "source_id": "source:b5096a7e2f07748a795f14045d929af6e78f0dfeaad0b1abc894e3adaa8ff084",
+            "source_sha256": "sha256:fe6a8e1b38ed2caec4570aeb9940b93f86b8e5da0ee19acb5d3e862fc56c543c",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 24,
+            "char_end": 42,
+            "byte_start": 24,
+            "byte_end": 42,
+            "text": "Sexual intercourse"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:59f4f67754de40c5b51145b82c992772d58368806d8f60b2f2eef6bdb624f519",
+          "occurrence_id": "node:a08f91e82b0cf4f282068117e22254d4692533add09d1aecc1062ee28a69f438",
+          "span": {
+            "source_id": "source:b5096a7e2f07748a795f14045d929af6e78f0dfeaad0b1abc894e3adaa8ff084",
+            "source_sha256": "sha256:fe6a8e1b38ed2caec4570aeb9940b93f86b8e5da0ee19acb5d3e862fc56c543c",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 44,
+            "char_end": 92,
+            "byte_start": 44,
+            "byte_end": 92,
+            "text": "https://en.wikipedia.org/wiki/Sexual_intercourse"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:cb8fc0ad6386d7b45889905792f30b7c262649e32a45241ba8e8f4c038c88856",
+          "occurrence_id": "node:a08f91e82b0cf4f282068117e22254d4692533add09d1aecc1062ee28a69f438",
+          "span": {
+            "source_id": "source:b5096a7e2f07748a795f14045d929af6e78f0dfeaad0b1abc894e3adaa8ff084",
+            "source_sha256": "sha256:fe6a8e1b38ed2caec4570aeb9940b93f86b8e5da0ee19acb5d3e862fc56c543c",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 94,
+            "char_end": 154,
+            "byte_start": 94,
+            "byte_end": 154,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    }
+  ]
+}

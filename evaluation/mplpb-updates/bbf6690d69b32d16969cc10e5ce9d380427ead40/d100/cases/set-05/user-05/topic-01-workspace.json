@@ -1,0 +1,199 @@
+{
+  "schema": "candidate-review-workspace-v3",
+  "label": "Sorter suggestions for review. MPLPB has not verified these links or answers.",
+  "status": "candidate for review",
+  "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+  "approval_status": "outside_approved_evidence",
+  "answer_supported": false,
+  "content_truth_verified": false,
+  "approval_transferred": false,
+  "graph_sha256": "sha256:3228d325d205d2f3a3918533cc0fcb06774e31b4c8aab4456d561ccc80c73259",
+  "implementation_sha256": "sha256:74fd28037d4c10cfe1164a7fa04ee53de4c0e6be63401e675762a1a7a9249290",
+  "configuration": {
+    "question": "What about History of Asia?",
+    "topic": "What about History of Asia?",
+    "profile": "external",
+    "max_passages": 20,
+    "max_chars": 16000,
+    "strict_passages": 12,
+    "strict_chars": 8000,
+    "scan_passages": 256,
+    "pair_checks": 4096,
+    "as_of": null
+  },
+  "original_corpus_snapshot": "sha256:6de16bf286f70ef21e360d32929acd2c34d68520fe15543d6819b5d6d04e5896",
+  "original_policy": {
+    "gate_version": 2,
+    "mode": "separate_lexical_sources",
+    "max_depth": 0,
+    "prose": false,
+    "not_for": true,
+    "enforce_sealed_external_policy": true,
+    "synthesize": false,
+    "follow_pointers": false,
+    "require_current_dependencies": true,
+    "settings_hash": "sha256:9a5792000912599856bb1ff33d484ba7c4a6c1ec67ac9e9b1ce950355b28f7a9"
+  },
+  "reader_implementation_sha256": "sha256:e207dac173890540b5af36626e592c56cd293cb86a577c0c2a5d09cda441aea8",
+  "verifier_implementation_sha256": "sha256:9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+  "mplpb_decision": {
+    "status": "no_eligible_owner",
+    "eligible_owner_count": 0,
+    "strict_answer": null,
+    "page": null,
+    "competing_sources": [],
+    "native_kind": "not_in_corpus",
+    "reason": "no current page declares most of this question; profile external does not consult prose",
+    "message": "No MPLPB-supported answer is returned by this ownership route. Labeled exploration remains available."
+  },
+  "processed_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:782babaae1b0e820b453749848d5d29524362608bb2caff85e18999f57120c08",
+      "occurrence_id": "node:601e5fd270117428feefe19352f16c4eda3494ebdb1ef1470d153b04de62a54f",
+      "span": {
+        "source_id": "source:39e50efd69097cc327d47213b4aaba28fbd0927cfe362e19648906d7fa5b64f4",
+        "source_sha256": "sha256:f19dc40ca5bd134e6fc1d88146a317b8274cdb0ffb89f2919e9bd0f6ca995e53",
+        "path": "topic-01-copy.md",
+        "char_start": 0,
+        "char_end": 29,
+        "byte_start": 0,
+        "byte_end": 29,
+        "text": "Mara studied History of Asia."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:4c00e43d7872e6cbced1dfc61a7c543dd17c3aa34ffc33de9c81d12acafb0483",
+      "occurrence_id": "node:5ea56b8c3e9d445ccb43cde7ce5f8db80acd6e6c315f096d6ea0ae152f14cedf",
+      "span": {
+        "source_id": "source:393df38c1c15406dd92ff55c2a11a8d3a007a80647be6b9816cb44104d90e7fb",
+        "source_sha256": "sha256:48f403073c9731aca547ff5c711a6da5f0b3b5478462cf94961209f424e1e7ec",
+        "path": "topic-01-web-pointer.md",
+        "char_start": 24,
+        "char_end": 39,
+        "byte_start": 24,
+        "byte_end": 39,
+        "text": "History of Asia"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "candidates": [],
+  "processed_disagreements": [],
+  "unresolved_references": [],
+  "unmatched_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:782babaae1b0e820b453749848d5d29524362608bb2caff85e18999f57120c08",
+      "occurrence_id": "node:601e5fd270117428feefe19352f16c4eda3494ebdb1ef1470d153b04de62a54f",
+      "span": {
+        "source_id": "source:39e50efd69097cc327d47213b4aaba28fbd0927cfe362e19648906d7fa5b64f4",
+        "source_sha256": "sha256:f19dc40ca5bd134e6fc1d88146a317b8274cdb0ffb89f2919e9bd0f6ca995e53",
+        "path": "topic-01-copy.md",
+        "char_start": 0,
+        "char_end": 29,
+        "byte_start": 0,
+        "byte_end": 29,
+        "text": "Mara studied History of Asia."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:4c00e43d7872e6cbced1dfc61a7c543dd17c3aa34ffc33de9c81d12acafb0483",
+      "occurrence_id": "node:5ea56b8c3e9d445ccb43cde7ce5f8db80acd6e6c315f096d6ea0ae152f14cedf",
+      "span": {
+        "source_id": "source:393df38c1c15406dd92ff55c2a11a8d3a007a80647be6b9816cb44104d90e7fb",
+        "source_sha256": "sha256:48f403073c9731aca547ff5c711a6da5f0b3b5478462cf94961209f424e1e7ec",
+        "path": "topic-01-web-pointer.md",
+        "char_start": 24,
+        "char_end": 39,
+        "byte_start": 24,
+        "byte_end": 39,
+        "text": "History of Asia"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "exploration_budget": {
+    "max_passages": 20,
+    "max_characters": 16000,
+    "unique_spans": 2,
+    "characters": 44,
+    "omitted_items": 0,
+    "display_truncated": false,
+    "search_truncated": false,
+    "original_discovery_passage_limit": 64,
+    "original_discovery_character_limit": 64000,
+    "original_passages_considered": 0,
+    "processed_passages_considered": 2,
+    "original_pairs_examined": 0,
+    "processed_pairs_examined": 1,
+    "strict_slots_consumed": 0,
+    "phrase_token_limit_per_statement": 256
+  },
+  "strict_budget": {
+    "max_passages": 12,
+    "max_characters": 8000,
+    "evaluated": false,
+    "truncated": false
+  },
+  "limits_notice": "Unshown/unmatched items remain in the separately pinned sorter graph. No missing match or silence proves absence.",
+  "source_authority_changed": false,
+  "ownership_changed": false,
+  "workspace_sha256": "sha256:815c941d93beda0ee84754e9c2795b8d07b995e2e364300d3b82d25e79e3d14a"
+}

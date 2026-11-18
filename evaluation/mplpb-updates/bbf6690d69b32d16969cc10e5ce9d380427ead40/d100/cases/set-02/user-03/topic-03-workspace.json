@@ -1,0 +1,257 @@
+{
+  "schema": "candidate-review-workspace-v3",
+  "label": "Sorter suggestions for review. MPLPB has not verified these links or answers.",
+  "status": "candidate for review",
+  "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+  "approval_status": "outside_approved_evidence",
+  "answer_supported": false,
+  "content_truth_verified": false,
+  "approval_transferred": false,
+  "graph_sha256": "sha256:0906581e4b9bad4fdbbc7063f6301430f756ef505de6a4fd7dcb54ce97372196",
+  "implementation_sha256": "sha256:74fd28037d4c10cfe1164a7fa04ee53de4c0e6be63401e675762a1a7a9249290",
+  "configuration": {
+    "question": "What about Microeconomics?",
+    "topic": "What about Microeconomics?",
+    "profile": "external",
+    "max_passages": 24,
+    "max_chars": 16000,
+    "strict_passages": 12,
+    "strict_chars": 8000,
+    "scan_passages": 256,
+    "pair_checks": 4096,
+    "as_of": null
+  },
+  "original_corpus_snapshot": "sha256:1dca035411c03e6799a3e75ba971d1ed42801dde761b00e25b61bc49d54f045f",
+  "original_policy": {
+    "gate_version": 2,
+    "mode": "separate_lexical_sources",
+    "max_depth": 0,
+    "prose": false,
+    "not_for": true,
+    "enforce_sealed_external_policy": true,
+    "synthesize": false,
+    "follow_pointers": false,
+    "require_current_dependencies": true,
+    "settings_hash": "sha256:9a5792000912599856bb1ff33d484ba7c4a6c1ec67ac9e9b1ce950355b28f7a9"
+  },
+  "reader_implementation_sha256": "sha256:e207dac173890540b5af36626e592c56cd293cb86a577c0c2a5d09cda441aea8",
+  "verifier_implementation_sha256": "sha256:9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+  "mplpb_decision": {
+    "status": "no_eligible_owner",
+    "eligible_owner_count": 0,
+    "strict_answer": null,
+    "page": null,
+    "competing_sources": [],
+    "native_kind": "not_in_corpus",
+    "reason": "no current page declares most of this question; profile external does not consult prose",
+    "message": "No MPLPB-supported answer is returned by this ownership route. Labeled exploration remains available."
+  },
+  "processed_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:585d2917d15846374d3d9a32ae674772daa9f4c5fe2949fff9f049b3f4ff1404",
+      "occurrence_id": "node:c72ce8f1741922bd5d59465a50facb16264ec50c85874303ea2f16c96b3fc159",
+      "span": {
+        "source_id": "source:6c64664af16a9bbeed1c983d15a8df667818ab7e4a9006bf3714c2b9c34a0227",
+        "source_sha256": "sha256:66c27443c2b690db238695fd0cb5ae3ce9cc0475c4c0ac0b3800cabede9e31ad",
+        "path": "topic-03-copy.text",
+        "char_start": 0,
+        "char_end": 28,
+        "byte_start": 0,
+        "byte_end": 28,
+        "text": "Mara studied Microeconomics."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:aa867921d35aedfd1f1ce5627238a69738f657deb0db75c86eaab986827fb32b",
+      "occurrence_id": "node:b8dab0c86c0ba925d60732ac7eb08b53125e4c78798b2a7889fde13040c7f2e4",
+      "span": {
+        "source_id": "source:1f92ba1427f68380a4072bb7324c687e9601334067fb31951b664ee8b2b3b71f",
+        "source_sha256": "sha256:8c6dd0f45bfde4dceabdd1036db7d2c79fdd7e3345c5e00be8d2bea3cb5e742c",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 24,
+        "char_end": 38,
+        "byte_start": 24,
+        "byte_end": 38,
+        "text": "Microeconomics"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:fb3a71bcf731ed8ff3d6363b509e064472e08a15a158f08078cf00b4c9e5e496",
+      "occurrence_id": "node:b8dab0c86c0ba925d60732ac7eb08b53125e4c78798b2a7889fde13040c7f2e4",
+      "span": {
+        "source_id": "source:1f92ba1427f68380a4072bb7324c687e9601334067fb31951b664ee8b2b3b71f",
+        "source_sha256": "sha256:8c6dd0f45bfde4dceabdd1036db7d2c79fdd7e3345c5e00be8d2bea3cb5e742c",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 40,
+        "char_end": 84,
+        "byte_start": 40,
+        "byte_end": 84,
+        "text": "https://en.wikipedia.org/wiki/Microeconomics"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "candidates": [],
+  "processed_disagreements": [],
+  "unresolved_references": [],
+  "unmatched_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:585d2917d15846374d3d9a32ae674772daa9f4c5fe2949fff9f049b3f4ff1404",
+      "occurrence_id": "node:c72ce8f1741922bd5d59465a50facb16264ec50c85874303ea2f16c96b3fc159",
+      "span": {
+        "source_id": "source:6c64664af16a9bbeed1c983d15a8df667818ab7e4a9006bf3714c2b9c34a0227",
+        "source_sha256": "sha256:66c27443c2b690db238695fd0cb5ae3ce9cc0475c4c0ac0b3800cabede9e31ad",
+        "path": "topic-03-copy.text",
+        "char_start": 0,
+        "char_end": 28,
+        "byte_start": 0,
+        "byte_end": 28,
+        "text": "Mara studied Microeconomics."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:aa867921d35aedfd1f1ce5627238a69738f657deb0db75c86eaab986827fb32b",
+      "occurrence_id": "node:b8dab0c86c0ba925d60732ac7eb08b53125e4c78798b2a7889fde13040c7f2e4",
+      "span": {
+        "source_id": "source:1f92ba1427f68380a4072bb7324c687e9601334067fb31951b664ee8b2b3b71f",
+        "source_sha256": "sha256:8c6dd0f45bfde4dceabdd1036db7d2c79fdd7e3345c5e00be8d2bea3cb5e742c",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 24,
+        "char_end": 38,
+        "byte_start": 24,
+        "byte_end": 38,
+        "text": "Microeconomics"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:fb3a71bcf731ed8ff3d6363b509e064472e08a15a158f08078cf00b4c9e5e496",
+      "occurrence_id": "node:b8dab0c86c0ba925d60732ac7eb08b53125e4c78798b2a7889fde13040c7f2e4",
+      "span": {
+        "source_id": "source:1f92ba1427f68380a4072bb7324c687e9601334067fb31951b664ee8b2b3b71f",
+        "source_sha256": "sha256:8c6dd0f45bfde4dceabdd1036db7d2c79fdd7e3345c5e00be8d2bea3cb5e742c",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 40,
+        "char_end": 84,
+        "byte_start": 40,
+        "byte_end": 84,
+        "text": "https://en.wikipedia.org/wiki/Microeconomics"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "exploration_budget": {
+    "max_passages": 24,
+    "max_characters": 16000,
+    "unique_spans": 3,
+    "characters": 86,
+    "omitted_items": 0,
+    "display_truncated": false,
+    "search_truncated": false,
+    "original_discovery_passage_limit": 64,
+    "original_discovery_character_limit": 64000,
+    "original_passages_considered": 0,
+    "processed_passages_considered": 3,
+    "original_pairs_examined": 0,
+    "processed_pairs_examined": 3,
+    "strict_slots_consumed": 0,
+    "phrase_token_limit_per_statement": 256
+  },
+  "strict_budget": {
+    "max_passages": 12,
+    "max_characters": 8000,
+    "evaluated": false,
+    "truncated": false
+  },
+  "limits_notice": "Unshown/unmatched items remain in the separately pinned sorter graph. No missing match or silence proves absence.",
+  "source_authority_changed": false,
+  "ownership_changed": false,
+  "workspace_sha256": "sha256:bdb19d21b828ebe25ec04864982cecbf7cdeb462cfe339b531a23ff9d91e5afb"
+}

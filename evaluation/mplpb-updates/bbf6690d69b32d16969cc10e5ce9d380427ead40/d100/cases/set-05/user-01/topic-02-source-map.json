@@ -1,0 +1,724 @@
+{
+  "approved": [
+    {
+      "id": "DOC-1",
+      "dump_path": "dump/approved/DOC-1.txt",
+      "sha256": "88a2ccee3ccf6e05b304c23f6bd003016964d001d77ea3831940a6b3ccc61d49",
+      "ledger_path": "doc-1.html",
+      "ledger_sha256": "bbfa2456a7d88b13a0e80ae0d499091aa62b640a5c10c4c1ec0816a6f0d9763b",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-2",
+      "dump_path": "dump/approved/DOC-2.txt",
+      "sha256": "e458f0fb52784e4acba7943753e3b848cb5f7036ee8e285cb3e96581ff5f2825",
+      "ledger_path": "doc-2.html",
+      "ledger_sha256": "08da37994246d2f4bc8b14e934c0f5af41eaf14ddbe3b3eff1a0f3fa03e763cb",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-3",
+      "dump_path": "dump/approved/DOC-3.txt",
+      "sha256": "bb51a8f4086c1f633882cde3f8ad9bcf9a5f1373db8cab6291ed5e695b80a2e7",
+      "ledger_path": "doc-3.html",
+      "ledger_sha256": "af56ad466f9f802f6cb2ae226670794ded08c2924514692f7130b4c62b0b6765",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-4",
+      "dump_path": "dump/approved/DOC-4.txt",
+      "sha256": "a6ef850556c275c777e56481ec014c39315147c30e3208c171f7f1be1edb82dc",
+      "ledger_path": "doc-4.html",
+      "ledger_sha256": "883eeee30a62584298cc4af26d39a60f63acdb29a92c2f0012b068b5885ba080",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    }
+  ],
+  "processed": [
+    {
+      "path": "collection-notes.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "887877201adaa1a02563a4f3aabff9265c30e9c736706d161a812e05520f51ff",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:c507b9122a0257d2e485b32df00fa06320c79038ca6e2f6b2a646c6f8ff229d1",
+        "path": "collection-notes.md",
+        "raw_sha256": "sha256:887877201adaa1a02563a4f3aabff9265c30e9c736706d161a812e05520f51ff",
+        "bytes": 70,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:a6d7c31bf58bbbbf210f232437fe42caaa98385ef3011c3a2560bccb054ba199",
+          "occurrence_id": "node:751d980c9e94e59ede94f0719caffaabded3756e4b7f19506651a993c270863b",
+          "span": {
+            "source_id": "source:c507b9122a0257d2e485b32df00fa06320c79038ca6e2f6b2a646c6f8ff229d1",
+            "source_sha256": "sha256:887877201adaa1a02563a4f3aabff9265c30e9c736706d161a812e05520f51ff",
+            "path": "collection-notes.md",
+            "char_start": 0,
+            "char_end": 15,
+            "byte_start": 0,
+            "byte_end": 15,
+            "text": "# Working notes"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:30194b18551851f3a130fbdf03be5d6920066295b3af1d7bc1b454a279b4a862",
+          "occurrence_id": "node:751d980c9e94e59ede94f0719caffaabded3756e4b7f19506651a993c270863b",
+          "span": {
+            "source_id": "source:c507b9122a0257d2e485b32df00fa06320c79038ca6e2f6b2a646c6f8ff229d1",
+            "source_sha256": "sha256:887877201adaa1a02563a4f3aabff9265c30e9c736706d161a812e05520f51ff",
+            "path": "collection-notes.md",
+            "char_start": 17,
+            "char_end": 70,
+            "byte_start": 17,
+            "byte_end": 70,
+            "text": "Draft inventory. Items require review before release."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "index.csv",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "af2c153e24c8497ba212794a9a9e0b65233ee56b8bcbd97e47bcfeb56ff0e585",
+      "sorter_status": "excluded",
+      "sorter_source": null,
+      "statements": []
+    },
+    {
+      "path": "topic-01-copy.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "acbfb9166a7d0fb5f1b85471ec4af5e129be4b02a9d4621b6d36a481d0245ca0",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:5613278d363e86c7daaf1860cceacc1ecfc31ba2979bf748caff7f658bf8f035",
+        "path": "topic-01-copy.md",
+        "raw_sha256": "sha256:acbfb9166a7d0fb5f1b85471ec4af5e129be4b02a9d4621b6d36a481d0245ca0",
+        "bytes": 24,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:e8d3b587ef4c41c994ddd9c4c81cb4d075b64b61731e7749e40c66590fcf0afd",
+          "occurrence_id": "node:1b8df300f3894e6cd108ce5fcbc63f27c734f0a84f1a7940cd679dbc222105c6",
+          "span": {
+            "source_id": "source:5613278d363e86c7daaf1860cceacc1ecfc31ba2979bf748caff7f658bf8f035",
+            "source_sha256": "sha256:acbfb9166a7d0fb5f1b85471ec4af5e129be4b02a9d4621b6d36a481d0245ca0",
+            "path": "topic-01-copy.md",
+            "char_start": 0,
+            "char_end": 24,
+            "byte_start": 0,
+            "byte_end": 24,
+            "text": "Tess studied Folk music."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-01-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "e60a1cbf94fa680ecb03f130aa9ccbed2bce5beece5c21cfcb0584cdcb8e158e",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:2f9c887b2881dacfc386f77f1e131659e56334083e480db22fe6ed0991b375dc",
+        "path": "topic-01-web-pointer.md",
+        "raw_sha256": "sha256:e60a1cbf94fa680ecb03f130aa9ccbed2bce5beece5c21cfcb0584cdcb8e158e",
+        "bytes": 138,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:ecaf26091032aa2325b651a81742f2b1797162d221e89eea6f163163516a3828",
+          "occurrence_id": "node:440c7b4200727ab40d4b3c2216cdbcfdc0f889640f22bbddd164c6d495c92f9d",
+          "span": {
+            "source_id": "source:2f9c887b2881dacfc386f77f1e131659e56334083e480db22fe6ed0991b375dc",
+            "source_sha256": "sha256:e60a1cbf94fa680ecb03f130aa9ccbed2bce5beece5c21cfcb0584cdcb8e158e",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:d392a21ae3a1818d92381607511eeb837ca5098bc76db1d41608092e17b03f65",
+          "occurrence_id": "node:440c7b4200727ab40d4b3c2216cdbcfdc0f889640f22bbddd164c6d495c92f9d",
+          "span": {
+            "source_id": "source:2f9c887b2881dacfc386f77f1e131659e56334083e480db22fe6ed0991b375dc",
+            "source_sha256": "sha256:e60a1cbf94fa680ecb03f130aa9ccbed2bce5beece5c21cfcb0584cdcb8e158e",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 24,
+            "char_end": 34,
+            "byte_start": 24,
+            "byte_end": 34,
+            "text": "Folk music"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:bde3bde0ee82e6298b634f499899fcb0b8a7173785704971df933ac8e8c52116",
+          "occurrence_id": "node:440c7b4200727ab40d4b3c2216cdbcfdc0f889640f22bbddd164c6d495c92f9d",
+          "span": {
+            "source_id": "source:2f9c887b2881dacfc386f77f1e131659e56334083e480db22fe6ed0991b375dc",
+            "source_sha256": "sha256:e60a1cbf94fa680ecb03f130aa9ccbed2bce5beece5c21cfcb0584cdcb8e158e",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 36,
+            "char_end": 76,
+            "byte_start": 36,
+            "byte_end": 76,
+            "text": "https://en.wikipedia.org/wiki/Folk_music"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:ddcc5701ddc0cf531b59fe7a51fec93d8efc969614f296d28d71dcc71646221a",
+          "occurrence_id": "node:440c7b4200727ab40d4b3c2216cdbcfdc0f889640f22bbddd164c6d495c92f9d",
+          "span": {
+            "source_id": "source:2f9c887b2881dacfc386f77f1e131659e56334083e480db22fe6ed0991b375dc",
+            "source_sha256": "sha256:e60a1cbf94fa680ecb03f130aa9ccbed2bce5beece5c21cfcb0584cdcb8e158e",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 78,
+            "char_end": 138,
+            "byte_start": 78,
+            "byte_end": 138,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-copy.markdown",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "88a2ccee3ccf6e05b304c23f6bd003016964d001d77ea3831940a6b3ccc61d49",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:6c75bb552059992a56bc57a70b122a5e8e1a119ad6c11d709d0e482c8a57d675",
+        "path": "topic-02-copy.markdown",
+        "raw_sha256": "sha256:88a2ccee3ccf6e05b304c23f6bd003016964d001d77ea3831940a6b3ccc61d49",
+        "bytes": 42,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:62aac43900a3d9de78ef38810e20cb3be2b5f73268a5fc93e9d3cc32d9ffbee5",
+          "occurrence_id": "node:961f5a2c5156c5ce937bcd4d84afffc7c95d882e55911299c6ed2f0b47577755",
+          "span": {
+            "source_id": "source:6c75bb552059992a56bc57a70b122a5e8e1a119ad6c11d709d0e482c8a57d675",
+            "source_sha256": "sha256:88a2ccee3ccf6e05b304c23f6bd003016964d001d77ea3831940a6b3ccc61d49",
+            "path": "topic-02-copy.markdown",
+            "char_start": 0,
+            "char_end": 42,
+            "byte_start": 0,
+            "byte_end": 42,
+            "text": "Tess wrote the Classical music memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:8a00645079a36b2888066d343189d7b600da4d85545980d940adf13488d9b123",
+              "kind": "exact_match",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 609,
+              "byte_end": 651,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-mail.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "f2dfad20720f6e02f49341bbf6d61eb0798c2c58dc1f48795c86ca438545ae90",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:fce6ef8a31df96093c865c98f47b66ff7ac97c43f2fe36c8a89240cc78c43351",
+        "path": "topic-02-mail.txt",
+        "raw_sha256": "sha256:f2dfad20720f6e02f49341bbf6d61eb0798c2c58dc1f48795c86ca438545ae90",
+        "bytes": 50,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:95b03f868c92b174f721c427976d6f8d55f740da6b72116348dafcce467d2da1",
+          "occurrence_id": "node:8938122798a47f9a5473760137b46e01550128a021fe5eed5ffaae0091579dce",
+          "span": {
+            "source_id": "source:fce6ef8a31df96093c865c98f47b66ff7ac97c43f2fe36c8a89240cc78c43351",
+            "source_sha256": "sha256:f2dfad20720f6e02f49341bbf6d61eb0798c2c58dc1f48795c86ca438545ae90",
+            "path": "topic-02-mail.txt",
+            "char_start": 0,
+            "char_end": 50,
+            "byte_start": 0,
+            "byte_end": 50,
+            "text": "Tess did not write the Classical music memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:f0283f3af8b5f8852f9003952fb2a0268984b9d30f5f629092d24d67a9eb03e6",
+              "kind": "conflicting_wording",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 609,
+              "byte_end": 651,
+              "reason": "Existing finite action grammar finds opposing polarity for the same literal actor/action/object. Event identity and truth remain unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "1dd4a7be3320832d62bc46c279f396496ed0828406ca26c602b2708430cdda11",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:20c2152f2ad9936654dc2144bbf0b311daa529e759074dcf3469c4b42d7e1ef4",
+        "path": "topic-02-web-pointer.md",
+        "raw_sha256": "sha256:1dd4a7be3320832d62bc46c279f396496ed0828406ca26c602b2708430cdda11",
+        "bytes": 148,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:c5ca4bba0b56e6f5ea2faedabe3022d93dfe053db65d89a63d1bd52d659f5a4a",
+          "occurrence_id": "node:3ab5fa3415ae0e790383dfdfc9c692502756d2c4b666ded4803f9da13e455468",
+          "span": {
+            "source_id": "source:20c2152f2ad9936654dc2144bbf0b311daa529e759074dcf3469c4b42d7e1ef4",
+            "source_sha256": "sha256:1dd4a7be3320832d62bc46c279f396496ed0828406ca26c602b2708430cdda11",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:eb4c8d56333147b826d0e0aebfbb5d65ea239fff3cadca7a7df7c219fe5cd992",
+          "occurrence_id": "node:3ab5fa3415ae0e790383dfdfc9c692502756d2c4b666ded4803f9da13e455468",
+          "span": {
+            "source_id": "source:20c2152f2ad9936654dc2144bbf0b311daa529e759074dcf3469c4b42d7e1ef4",
+            "source_sha256": "sha256:1dd4a7be3320832d62bc46c279f396496ed0828406ca26c602b2708430cdda11",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 24,
+            "char_end": 39,
+            "byte_start": 24,
+            "byte_end": 39,
+            "text": "Classical music"
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:7e66bf4155e8e5e8109c42ce0c963b9ebc73822feb79d0533ef1c95637bf8188",
+              "kind": "exact_match",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 609,
+              "byte_end": 651,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            }
+          ],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:839886cc72e03603af196b4df3a266e57ebfeebe07b958944aa7d29e0900d637",
+          "occurrence_id": "node:3ab5fa3415ae0e790383dfdfc9c692502756d2c4b666ded4803f9da13e455468",
+          "span": {
+            "source_id": "source:20c2152f2ad9936654dc2144bbf0b311daa529e759074dcf3469c4b42d7e1ef4",
+            "source_sha256": "sha256:1dd4a7be3320832d62bc46c279f396496ed0828406ca26c602b2708430cdda11",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 41,
+            "char_end": 86,
+            "byte_start": 41,
+            "byte_end": 86,
+            "text": "https://en.wikipedia.org/wiki/Classical_music"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:81a4ac51d921b585a6f7c3f5019a11e49e60d871b7f4f5aa99e975b2602faea5",
+          "occurrence_id": "node:3ab5fa3415ae0e790383dfdfc9c692502756d2c4b666ded4803f9da13e455468",
+          "span": {
+            "source_id": "source:20c2152f2ad9936654dc2144bbf0b311daa529e759074dcf3469c4b42d7e1ef4",
+            "source_sha256": "sha256:1dd4a7be3320832d62bc46c279f396496ed0828406ca26c602b2708430cdda11",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 88,
+            "char_end": 148,
+            "byte_start": 88,
+            "byte_end": 148,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-copy.markdown",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "31135ac4d5b26868643e6c25e54b58905652177fe097d7416b019c5caecbe521",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:01677933038441fe7cd7110a7d075441823692784c71ddf2207c293a8fb0e21e",
+        "path": "topic-03-copy.markdown",
+        "raw_sha256": "sha256:31135ac4d5b26868643e6c25e54b58905652177fe097d7416b019c5caecbe521",
+        "bytes": 35,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:690fd35cca4dfbd604fa163292bdb6d545dca4404bffc6310370b8c994ad8b86",
+          "occurrence_id": "node:f953f21bf89a1f46762ca1449fb93d1817958baff27805aabf0443c6bbfe5c6b",
+          "span": {
+            "source_id": "source:01677933038441fe7cd7110a7d075441823692784c71ddf2207c293a8fb0e21e",
+            "source_sha256": "sha256:31135ac4d5b26868643e6c25e54b58905652177fe097d7416b019c5caecbe521",
+            "path": "topic-03-copy.markdown",
+            "char_start": 0,
+            "char_end": 35,
+            "byte_start": 0,
+            "byte_end": 35,
+            "text": "Nora wrote the Infinity memorandum."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "50ac778d3b76fb630526a4993def2821406e29a6c0ac3d188be8944341d20945",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:126050d173596654642e4a3c8735fe2bde339038e14ee4c186e9c1884057b856",
+        "path": "topic-03-web-pointer.md",
+        "raw_sha256": "sha256:50ac778d3b76fb630526a4993def2821406e29a6c0ac3d188be8944341d20945",
+        "bytes": 134,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:8c953001a3bd520766cbfedaebeb4c428eb8cc0da1d129f23284f249c8f7a720",
+          "occurrence_id": "node:a2e3031d1fd01533cd46ae52c5aa7623577e59e0569e657e3b69b87d9f889d24",
+          "span": {
+            "source_id": "source:126050d173596654642e4a3c8735fe2bde339038e14ee4c186e9c1884057b856",
+            "source_sha256": "sha256:50ac778d3b76fb630526a4993def2821406e29a6c0ac3d188be8944341d20945",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:f026f39885464dc530fc3fd69ff420e07a0869fb3c4d72b8acddaf5afa193a96",
+          "occurrence_id": "node:a2e3031d1fd01533cd46ae52c5aa7623577e59e0569e657e3b69b87d9f889d24",
+          "span": {
+            "source_id": "source:126050d173596654642e4a3c8735fe2bde339038e14ee4c186e9c1884057b856",
+            "source_sha256": "sha256:50ac778d3b76fb630526a4993def2821406e29a6c0ac3d188be8944341d20945",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 24,
+            "char_end": 32,
+            "byte_start": 24,
+            "byte_end": 32,
+            "text": "Infinity"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:4edfdc43d0780531f9ca6b8d0d8a40546a4df6ceb7004ea87052321266f860f3",
+          "occurrence_id": "node:a2e3031d1fd01533cd46ae52c5aa7623577e59e0569e657e3b69b87d9f889d24",
+          "span": {
+            "source_id": "source:126050d173596654642e4a3c8735fe2bde339038e14ee4c186e9c1884057b856",
+            "source_sha256": "sha256:50ac778d3b76fb630526a4993def2821406e29a6c0ac3d188be8944341d20945",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 34,
+            "char_end": 72,
+            "byte_start": 34,
+            "byte_end": 72,
+            "text": "https://en.wikipedia.org/wiki/Infinity"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:1a239fda546c60d727da1edeb46ef211b8cfa1a3b49a4209c362cd45ccfbf215",
+          "occurrence_id": "node:a2e3031d1fd01533cd46ae52c5aa7623577e59e0569e657e3b69b87d9f889d24",
+          "span": {
+            "source_id": "source:126050d173596654642e4a3c8735fe2bde339038e14ee4c186e9c1884057b856",
+            "source_sha256": "sha256:50ac778d3b76fb630526a4993def2821406e29a6c0ac3d188be8944341d20945",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 74,
+            "char_end": 134,
+            "byte_start": 74,
+            "byte_end": 134,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-copy.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "bb51a8f4086c1f633882cde3f8ad9bcf9a5f1373db8cab6291ed5e695b80a2e7",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:df38968e316933a415208ea0c31d923793fe621675a4138dec3a8e7d68883a70",
+        "path": "topic-04-copy.md",
+        "raw_sha256": "sha256:bb51a8f4086c1f633882cde3f8ad9bcf9a5f1373db8cab6291ed5e695b80a2e7",
+        "bytes": 49,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:d49c00b00b12fa2f0c9f0009874c53eb642122813d53169f7f0c5162da313c8d",
+          "occurrence_id": "node:49b69407100990fbca96f14eefb142b893118631f7fea57b8a95b1b4a75599a1",
+          "span": {
+            "source_id": "source:df38968e316933a415208ea0c31d923793fe621675a4138dec3a8e7d68883a70",
+            "source_sha256": "sha256:bb51a8f4086c1f633882cde3f8ad9bcf9a5f1373db8cab6291ed5e695b80a2e7",
+            "path": "topic-04-copy.md",
+            "char_start": 0,
+            "char_end": 49,
+            "byte_start": 0,
+            "byte_end": 49,
+            "text": "Mara wrote the Cardiovascular disease memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:be6f59bb56f90995f51a3943f2b232ed22f2d5c713fe72cb9fb9b4ad06430429",
+              "kind": "exact_match",
+              "original_id": "DOC-3",
+              "original_path": "doc-3.html",
+              "byte_start": 630,
+              "byte_end": 679,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            },
+            {
+              "id": "sha256:446d2303dfd250190085656869c2547c3fda756cae6c5b799068710739b07e7d",
+              "kind": "shared_wording_review",
+              "original_id": "DOC-4",
+              "original_path": "doc-4.html",
+              "byte_start": 630,
+              "byte_end": 679,
+              "reason": "Existing sorter four-word phrase evidence: ['the cardiovascular disease memorandum', 'wrote the cardiovascular disease']. Lexical tokens only; identity, chronology, causation and correction are unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "957b954688f998b83095620628c702e60da84dad464ed903a89147996b5dc685",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:5cbf9a041c608dc9344e2464944332a04c3af5bc4d90ea3b68fe39ac3e7cb1d3",
+        "path": "topic-04-web-pointer.md",
+        "raw_sha256": "sha256:957b954688f998b83095620628c702e60da84dad464ed903a89147996b5dc685",
+        "bytes": 162,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:f68a430db800554747d3332687d3c888d2189c0c473175d323ab9f71e41729fa",
+          "occurrence_id": "node:e8e25659a134119857bfec01c638dcb6741c7f2d204d9037bb5b499648ade886",
+          "span": {
+            "source_id": "source:5cbf9a041c608dc9344e2464944332a04c3af5bc4d90ea3b68fe39ac3e7cb1d3",
+            "source_sha256": "sha256:957b954688f998b83095620628c702e60da84dad464ed903a89147996b5dc685",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:833941cdd5cbfd48e4737e2eba5b89768fa177259a2aad364d1923f12d339df5",
+          "occurrence_id": "node:e8e25659a134119857bfec01c638dcb6741c7f2d204d9037bb5b499648ade886",
+          "span": {
+            "source_id": "source:5cbf9a041c608dc9344e2464944332a04c3af5bc4d90ea3b68fe39ac3e7cb1d3",
+            "source_sha256": "sha256:957b954688f998b83095620628c702e60da84dad464ed903a89147996b5dc685",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 24,
+            "char_end": 46,
+            "byte_start": 24,
+            "byte_end": 46,
+            "text": "Cardiovascular disease"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:738ffe3c9949555c4104524cc20bbc4a73ce8cbf6b96658f4d5f8aeb8887c8e6",
+          "occurrence_id": "node:e8e25659a134119857bfec01c638dcb6741c7f2d204d9037bb5b499648ade886",
+          "span": {
+            "source_id": "source:5cbf9a041c608dc9344e2464944332a04c3af5bc4d90ea3b68fe39ac3e7cb1d3",
+            "source_sha256": "sha256:957b954688f998b83095620628c702e60da84dad464ed903a89147996b5dc685",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 48,
+            "char_end": 100,
+            "byte_start": 48,
+            "byte_end": 100,
+            "text": "https://en.wikipedia.org/wiki/Cardiovascular_disease"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:d55b2c01fe166fba75c1b80d0d91e0bef070d2424dfa2304e3ae5ed326f13782",
+          "occurrence_id": "node:e8e25659a134119857bfec01c638dcb6741c7f2d204d9037bb5b499648ade886",
+          "span": {
+            "source_id": "source:5cbf9a041c608dc9344e2464944332a04c3af5bc4d90ea3b68fe39ac3e7cb1d3",
+            "source_sha256": "sha256:957b954688f998b83095620628c702e60da84dad464ed903a89147996b5dc685",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 102,
+            "char_end": 162,
+            "byte_start": 102,
+            "byte_end": 162,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    }
+  ]
+}

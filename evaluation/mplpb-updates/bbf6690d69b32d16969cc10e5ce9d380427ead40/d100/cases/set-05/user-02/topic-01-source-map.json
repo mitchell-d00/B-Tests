@@ -1,0 +1,741 @@
+{
+  "approved": [
+    {
+      "id": "DOC-1",
+      "dump_path": "dump/approved/DOC-1.txt",
+      "sha256": "a05e719f7aff79f8bbfd1c9d61257996dc8bdf768be420c87f68789a8fba8532",
+      "ledger_path": "doc-1.html",
+      "ledger_sha256": "b7cbc438a09ae48232b14b943870395ac93d9752d56b554f2117358ea0096762",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-2",
+      "dump_path": "dump/approved/DOC-2.txt",
+      "sha256": "8b3be690daae5583b5e096171e86c4f4cca229258c434dc1b6db651ab09fed91",
+      "ledger_path": "doc-2.html",
+      "ledger_sha256": "cc52e2de895864473189a977a7e7252a8b723750eee2cd945a29b96d2dbad3ee",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-3",
+      "dump_path": "dump/approved/DOC-3.txt",
+      "sha256": "8a9148b589650e7674503bb636f165c96494283110c959ef269a9875594d8953",
+      "ledger_path": "doc-3.html",
+      "ledger_sha256": "fe1e80e9df2b18e2cfcde41fafda07ffe7cc290a68ef2b566178a136e6624c03",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-4",
+      "dump_path": "dump/approved/DOC-4.txt",
+      "sha256": "14799380dbab83a807471f97f4acdc930879b2568e3e05a3d5bc360dfbb756f3",
+      "ledger_path": "doc-4.html",
+      "ledger_sha256": "9ac98c782717cf62ebb9493d7b292980c58d8f7f2c12d344347fea865a3567f2",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    }
+  ],
+  "processed": [
+    {
+      "path": "collection-notes.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "538b7fdb47e3cd244134886f7555c7d481ca2985b5aa4f227b3d36609f0c284f",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:f3102c4ea20c96c3fc6e581b92c47d6da090d53dc7472409c4e17765bd5773e8",
+        "path": "collection-notes.md",
+        "raw_sha256": "sha256:538b7fdb47e3cd244134886f7555c7d481ca2985b5aa4f227b3d36609f0c284f",
+        "bytes": 74,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:beb68baa9da9d90b2ce9f93972677da3317e6933d8002c08c5948eb5360a7cb4",
+          "occurrence_id": "node:1c60192eb242aff7bb0061d9a006e619d81d64e241917bd39ba0f25e6f6cd45a",
+          "span": {
+            "source_id": "source:f3102c4ea20c96c3fc6e581b92c47d6da090d53dc7472409c4e17765bd5773e8",
+            "source_sha256": "sha256:538b7fdb47e3cd244134886f7555c7d481ca2985b5aa4f227b3d36609f0c284f",
+            "path": "collection-notes.md",
+            "char_start": 0,
+            "char_end": 15,
+            "byte_start": 0,
+            "byte_end": 15,
+            "text": "# Archive notes"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:c14d165342747ddd12bc3753f8441ee53f3fadb9fd91f4f6b2dd54e983eccd31",
+          "occurrence_id": "node:1c60192eb242aff7bb0061d9a006e619d81d64e241917bd39ba0f25e6f6cd45a",
+          "span": {
+            "source_id": "source:f3102c4ea20c96c3fc6e581b92c47d6da090d53dc7472409c4e17765bd5773e8",
+            "source_sha256": "sha256:538b7fdb47e3cd244134886f7555c7d481ca2985b5aa4f227b3d36609f0c284f",
+            "path": "collection-notes.md",
+            "char_start": 17,
+            "char_end": 32,
+            "byte_start": 17,
+            "byte_end": 32,
+            "text": "Status: pending"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:d85d5f787209020b30832e1ab8fb481615ee4f096d955f5929171c305d0a9bb9",
+          "occurrence_id": "node:1c60192eb242aff7bb0061d9a006e619d81d64e241917bd39ba0f25e6f6cd45a",
+          "span": {
+            "source_id": "source:f3102c4ea20c96c3fc6e581b92c47d6da090d53dc7472409c4e17765bd5773e8",
+            "source_sha256": "sha256:538b7fdb47e3cd244134886f7555c7d481ca2985b5aa4f227b3d36609f0c284f",
+            "path": "collection-notes.md",
+            "char_start": 34,
+            "char_end": 74,
+            "byte_start": 34,
+            "byte_end": 74,
+            "text": "These entries came from several exports."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "index.csv",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "af2c153e24c8497ba212794a9a9e0b65233ee56b8bcbd97e47bcfeb56ff0e585",
+      "sorter_status": "excluded",
+      "sorter_source": null,
+      "statements": []
+    },
+    {
+      "path": "topic-01-copy.markdown",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "a05e719f7aff79f8bbfd1c9d61257996dc8bdf768be420c87f68789a8fba8532",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:8806ada5bc6532de6c0a8f3a827620890a649a6447bfcc220378560abfcc21be",
+        "path": "topic-01-copy.markdown",
+        "raw_sha256": "sha256:a05e719f7aff79f8bbfd1c9d61257996dc8bdf768be420c87f68789a8fba8532",
+        "bytes": 34,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:bfc3f3580d90dbcfa12a2f4240edd1776fbf617c12f39b186cec5a1c2e929ff2",
+          "occurrence_id": "node:60edc0d36467fa7029754fbe1fcf9e6870310f5adb30e143c5cbd8a27db1bf84",
+          "span": {
+            "source_id": "source:8806ada5bc6532de6c0a8f3a827620890a649a6447bfcc220378560abfcc21be",
+            "source_sha256": "sha256:a05e719f7aff79f8bbfd1c9d61257996dc8bdf768be420c87f68789a8fba8532",
+            "path": "topic-01-copy.markdown",
+            "char_start": 0,
+            "char_end": 34,
+            "byte_start": 0,
+            "byte_end": 34,
+            "text": "Nora wrote the Drawing memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:8664dc391921f27f88165e652ee9397ff0fb971b92f2b48899e19d0ef03eb71f",
+              "kind": "exact_match",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 585,
+              "byte_end": 619,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-01-mail.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "8def67bfb93a7cb4adc2c7a7560d0376767ec520dce4ce7479eae04eda29f0f2",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:6cd1017fec395897db666a892cc1dbcd9ae61e7c84bd87fda16b18af186afa80",
+        "path": "topic-01-mail.txt",
+        "raw_sha256": "sha256:8def67bfb93a7cb4adc2c7a7560d0376767ec520dce4ce7479eae04eda29f0f2",
+        "bytes": 42,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:2ee728d05580a12e8cc883f7fd20439ae7b6fd355499ecde6c76bea2ed2d8bca",
+          "occurrence_id": "node:da58344d3ecd7143a26ae084645401b8a7d9271e3fdb44aeb184bde6e4e8f060",
+          "span": {
+            "source_id": "source:6cd1017fec395897db666a892cc1dbcd9ae61e7c84bd87fda16b18af186afa80",
+            "source_sha256": "sha256:8def67bfb93a7cb4adc2c7a7560d0376767ec520dce4ce7479eae04eda29f0f2",
+            "path": "topic-01-mail.txt",
+            "char_start": 0,
+            "char_end": 42,
+            "byte_start": 0,
+            "byte_end": 42,
+            "text": "Nora did not write the Drawing memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:b1e88e510594e13764c0789c4b477bf3ad935d8ea37b3b62bf0b2a5931a5d4a0",
+              "kind": "conflicting_wording",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 585,
+              "byte_end": 619,
+              "reason": "Existing finite action grammar finds opposing polarity for the same literal actor/action/object. Event identity and truth remain unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-01-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "19afc07801ed0ce3966cd677d9b8e883d47e05226566bc107da7f20741c94ca0",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:db43b84123f4177906f1df8609665322debd7e3ce1dd7682d74d57cb1d5dbbad",
+        "path": "topic-01-web-pointer.md",
+        "raw_sha256": "sha256:19afc07801ed0ce3966cd677d9b8e883d47e05226566bc107da7f20741c94ca0",
+        "bytes": 132,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:6d967814c94f6237d6048063b2f800a338cc3cff4ca562dd4eb56404eb0c631d",
+          "occurrence_id": "node:a7a6e7d630c86477a3d8029444d76f3d60ea47ab70f96b6e4504cbaacbeecd7d",
+          "span": {
+            "source_id": "source:db43b84123f4177906f1df8609665322debd7e3ce1dd7682d74d57cb1d5dbbad",
+            "source_sha256": "sha256:19afc07801ed0ce3966cd677d9b8e883d47e05226566bc107da7f20741c94ca0",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:48cc9013fd5e8801fb639247f16aa7a3cdd3517edc8c521188d7b93d797111b2",
+          "occurrence_id": "node:a7a6e7d630c86477a3d8029444d76f3d60ea47ab70f96b6e4504cbaacbeecd7d",
+          "span": {
+            "source_id": "source:db43b84123f4177906f1df8609665322debd7e3ce1dd7682d74d57cb1d5dbbad",
+            "source_sha256": "sha256:19afc07801ed0ce3966cd677d9b8e883d47e05226566bc107da7f20741c94ca0",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 24,
+            "char_end": 31,
+            "byte_start": 24,
+            "byte_end": 31,
+            "text": "Drawing"
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:b110f903965b75f3186d01bc61da48ccf0abe35b9176b1f0008943e4be5d3a37",
+              "kind": "exact_match",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 585,
+              "byte_end": 619,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            }
+          ],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:a4ef1a8063e4962d15206980530bcf5923b3fdb71a5baba5ec025e57bf3ab5cd",
+          "occurrence_id": "node:a7a6e7d630c86477a3d8029444d76f3d60ea47ab70f96b6e4504cbaacbeecd7d",
+          "span": {
+            "source_id": "source:db43b84123f4177906f1df8609665322debd7e3ce1dd7682d74d57cb1d5dbbad",
+            "source_sha256": "sha256:19afc07801ed0ce3966cd677d9b8e883d47e05226566bc107da7f20741c94ca0",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 33,
+            "char_end": 70,
+            "byte_start": 33,
+            "byte_end": 70,
+            "text": "https://en.wikipedia.org/wiki/Drawing"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:0abfcabe9223333f3d706a065dacdc9b48548a06ff4b2ed461fa4f6cada4c440",
+          "occurrence_id": "node:a7a6e7d630c86477a3d8029444d76f3d60ea47ab70f96b6e4504cbaacbeecd7d",
+          "span": {
+            "source_id": "source:db43b84123f4177906f1df8609665322debd7e3ce1dd7682d74d57cb1d5dbbad",
+            "source_sha256": "sha256:19afc07801ed0ce3966cd677d9b8e883d47e05226566bc107da7f20741c94ca0",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 72,
+            "char_end": 132,
+            "byte_start": 72,
+            "byte_end": 132,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-copy.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "1cf19a1228306cff7fedb077f73c0af651b0d170420c5188b94631f51c4dacfc",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:5d0ae442e41453862971d4b13fd8a420e99a428e20625128a31a3742b2182286",
+        "path": "topic-02-copy.txt",
+        "raw_sha256": "sha256:1cf19a1228306cff7fedb077f73c0af651b0d170420c5188b94631f51c4dacfc",
+        "bytes": 21,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:ea08dfd3ecb77c0d66134726dee9ea28f921eef26eeeda7ace4d9cfcf9f515bc",
+          "occurrence_id": "node:5fe664467ab4082a29be31fda0b112ce4f644745cb863cb000e1d5d234816972",
+          "span": {
+            "source_id": "source:5d0ae442e41453862971d4b13fd8a420e99a428e20625128a31a3742b2182286",
+            "source_sha256": "sha256:1cf19a1228306cff7fedb077f73c0af651b0d170420c5188b94631f51c4dacfc",
+            "path": "topic-02-copy.txt",
+            "char_start": 0,
+            "char_end": 21,
+            "byte_start": 0,
+            "byte_end": 21,
+            "text": "Tess studied Vehicle."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "0f869b1dc97e9d728f72e54479c7393c17e8b9b2945735d43433aee191482da2",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:a7186aa002be67841bf032b2139869867484ac23ad7ba3e3eb1be5ff72116f02",
+        "path": "topic-02-web-pointer.md",
+        "raw_sha256": "sha256:0f869b1dc97e9d728f72e54479c7393c17e8b9b2945735d43433aee191482da2",
+        "bytes": 132,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:3868da429ad253927c46fca15e8323493342e328817bc0a97392e14cb6672b26",
+          "occurrence_id": "node:d584a9e6b6ba7de4e9f38846b456b2dbd8eed05290a0ae73165dbcbd5a9006b6",
+          "span": {
+            "source_id": "source:a7186aa002be67841bf032b2139869867484ac23ad7ba3e3eb1be5ff72116f02",
+            "source_sha256": "sha256:0f869b1dc97e9d728f72e54479c7393c17e8b9b2945735d43433aee191482da2",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:f4d3187a2ba4d7ce05608276177676838da3fe33c6d4349a64c01edc67d5396e",
+          "occurrence_id": "node:d584a9e6b6ba7de4e9f38846b456b2dbd8eed05290a0ae73165dbcbd5a9006b6",
+          "span": {
+            "source_id": "source:a7186aa002be67841bf032b2139869867484ac23ad7ba3e3eb1be5ff72116f02",
+            "source_sha256": "sha256:0f869b1dc97e9d728f72e54479c7393c17e8b9b2945735d43433aee191482da2",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 24,
+            "char_end": 31,
+            "byte_start": 24,
+            "byte_end": 31,
+            "text": "Vehicle"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:8292dfd3dc9fa2c0d1951c354d6cdf563c26f85ac43b85173ebc694737910b6f",
+          "occurrence_id": "node:d584a9e6b6ba7de4e9f38846b456b2dbd8eed05290a0ae73165dbcbd5a9006b6",
+          "span": {
+            "source_id": "source:a7186aa002be67841bf032b2139869867484ac23ad7ba3e3eb1be5ff72116f02",
+            "source_sha256": "sha256:0f869b1dc97e9d728f72e54479c7393c17e8b9b2945735d43433aee191482da2",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 33,
+            "char_end": 70,
+            "byte_start": 33,
+            "byte_end": 70,
+            "text": "https://en.wikipedia.org/wiki/Vehicle"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:d8f25a95326b16db40efb2e806918d3f2b2d13d3b034a2db9167737dbd410bd4",
+          "occurrence_id": "node:d584a9e6b6ba7de4e9f38846b456b2dbd8eed05290a0ae73165dbcbd5a9006b6",
+          "span": {
+            "source_id": "source:a7186aa002be67841bf032b2139869867484ac23ad7ba3e3eb1be5ff72116f02",
+            "source_sha256": "sha256:0f869b1dc97e9d728f72e54479c7393c17e8b9b2945735d43433aee191482da2",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 72,
+            "char_end": 132,
+            "byte_start": 72,
+            "byte_end": 132,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-copy.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "8b3be690daae5583b5e096171e86c4f4cca229258c434dc1b6db651ab09fed91",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:6c3b15ffe8e2b58df0067b82d7f7050e9ab1f961eeb6d4f605b4b60b3df41cec",
+        "path": "topic-03-copy.md",
+        "raw_sha256": "sha256:8b3be690daae5583b5e096171e86c4f4cca229258c434dc1b6db651ab09fed91",
+        "bytes": 39,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:6d3fc6c848c5ef5fd6897ffc572429661020162972336dea6c28887e7337e34c",
+          "occurrence_id": "node:64abf07bc63868a62eb08b9ac924e8ae5b43906ce39e6118caccbe5e6d48d00e",
+          "span": {
+            "source_id": "source:6c3b15ffe8e2b58df0067b82d7f7050e9ab1f961eeb6d4f605b4b60b3df41cec",
+            "source_sha256": "sha256:8b3be690daae5583b5e096171e86c4f4cca229258c434dc1b6db651ab09fed91",
+            "path": "topic-03-copy.md",
+            "char_start": 0,
+            "char_end": 39,
+            "byte_start": 0,
+            "byte_end": 39,
+            "text": "Nora wrote the Trigonometry memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:2646309632f4c516d50b8df9d2855a1795737027ecefedf28fe2154a1ae2b080",
+              "kind": "exact_match",
+              "original_id": "DOC-2",
+              "original_path": "doc-2.html",
+              "byte_start": 600,
+              "byte_end": 639,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            },
+            {
+              "id": "sha256:f3299919ac7a7cc677c4d16613d92be02bb2e7de9dfa02e900d8144e5a9c1454",
+              "kind": "shared_wording_review",
+              "original_id": "DOC-3",
+              "original_path": "doc-3.html",
+              "byte_start": 600,
+              "byte_end": 639,
+              "reason": "Existing sorter four-word phrase evidence: ['wrote the trigonometry memorandum']. Lexical tokens only; identity, chronology, causation and correction are unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "a686d73d78a8a47ad8e84a99b281c250fe4405a7e92ad747c002a2f73c290cac",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:8fdc2d3c9c905ee5505f19f49845d285ede347243992f4a873aea851c087c0a4",
+        "path": "topic-03-web-pointer.md",
+        "raw_sha256": "sha256:a686d73d78a8a47ad8e84a99b281c250fe4405a7e92ad747c002a2f73c290cac",
+        "bytes": 142,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:f3509ce256763d28cb45417b24329e5283908db35702f67e57b79bd022ed47d1",
+          "occurrence_id": "node:edeb62caaf930bed0e08294fca75bb06369738683821ab033b84b50d6640963a",
+          "span": {
+            "source_id": "source:8fdc2d3c9c905ee5505f19f49845d285ede347243992f4a873aea851c087c0a4",
+            "source_sha256": "sha256:a686d73d78a8a47ad8e84a99b281c250fe4405a7e92ad747c002a2f73c290cac",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:4f802e790ab487b1a57da7c3ce9f34536de6e11145481615c8985e0b12b925ba",
+          "occurrence_id": "node:edeb62caaf930bed0e08294fca75bb06369738683821ab033b84b50d6640963a",
+          "span": {
+            "source_id": "source:8fdc2d3c9c905ee5505f19f49845d285ede347243992f4a873aea851c087c0a4",
+            "source_sha256": "sha256:a686d73d78a8a47ad8e84a99b281c250fe4405a7e92ad747c002a2f73c290cac",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 24,
+            "char_end": 36,
+            "byte_start": 24,
+            "byte_end": 36,
+            "text": "Trigonometry"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:ef51719fa14380a7134d44db5653067414103262867b5ae79d27e66d4908d81d",
+          "occurrence_id": "node:edeb62caaf930bed0e08294fca75bb06369738683821ab033b84b50d6640963a",
+          "span": {
+            "source_id": "source:8fdc2d3c9c905ee5505f19f49845d285ede347243992f4a873aea851c087c0a4",
+            "source_sha256": "sha256:a686d73d78a8a47ad8e84a99b281c250fe4405a7e92ad747c002a2f73c290cac",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 38,
+            "char_end": 80,
+            "byte_start": 38,
+            "byte_end": 80,
+            "text": "https://en.wikipedia.org/wiki/Trigonometry"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:fd2796de6eba4e38e08181de006fa1e9404dee30741357fa85494f15cf01db58",
+          "occurrence_id": "node:edeb62caaf930bed0e08294fca75bb06369738683821ab033b84b50d6640963a",
+          "span": {
+            "source_id": "source:8fdc2d3c9c905ee5505f19f49845d285ede347243992f4a873aea851c087c0a4",
+            "source_sha256": "sha256:a686d73d78a8a47ad8e84a99b281c250fe4405a7e92ad747c002a2f73c290cac",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 82,
+            "char_end": 142,
+            "byte_start": 82,
+            "byte_end": 142,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-copy.markdown",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "af8a6e231b49fa1838495ccbc1bec508ddead5d56cc818bd8ea1d73904ab8d0c",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:7a78fd95a93a4340d53a9cd938ead840167fa59c583e436e6115dfe83cf584f5",
+        "path": "topic-04-copy.markdown",
+        "raw_sha256": "sha256:af8a6e231b49fa1838495ccbc1bec508ddead5d56cc818bd8ea1d73904ab8d0c",
+        "bytes": 37,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:909c8ce1683c5eae603664f13aa5eae369b4429db5ef7d441cf16baca96dc388",
+          "occurrence_id": "node:54b4b3bb286464966ff6ca3b701d6ef8b5ea86827c7bbe0b9c4eff69a9cad8c2",
+          "span": {
+            "source_id": "source:7a78fd95a93a4340d53a9cd938ead840167fa59c583e436e6115dfe83cf584f5",
+            "source_sha256": "sha256:af8a6e231b49fa1838495ccbc1bec508ddead5d56cc818bd8ea1d73904ab8d0c",
+            "path": "topic-04-copy.markdown",
+            "char_start": 0,
+            "char_end": 37,
+            "byte_start": 0,
+            "byte_end": 37,
+            "text": "Tess wrote the Friendship memorandum."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "2e8476a2dddd3dab4f01769911df12de0838116523306576fab4a645bde5d794",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:f153b536e17be65f76fc119036bc1b3e73648d7ae4ce046913a617df239987b2",
+        "path": "topic-04-web-pointer.md",
+        "raw_sha256": "sha256:2e8476a2dddd3dab4f01769911df12de0838116523306576fab4a645bde5d794",
+        "bytes": 138,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:40ee489e1f90e66367afc6825dbe67744b14e2fe6db06827c7a5be1c0670d4c5",
+          "occurrence_id": "node:3aa23117f88af9a9a576a81fcd5177d9f03de669308cf8440184e1831d4fb950",
+          "span": {
+            "source_id": "source:f153b536e17be65f76fc119036bc1b3e73648d7ae4ce046913a617df239987b2",
+            "source_sha256": "sha256:2e8476a2dddd3dab4f01769911df12de0838116523306576fab4a645bde5d794",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:c05c3e0b487b1a81f70b12d13728d9a4c7a5c8db76f76deb4b6fc3fa2ca1faf4",
+          "occurrence_id": "node:3aa23117f88af9a9a576a81fcd5177d9f03de669308cf8440184e1831d4fb950",
+          "span": {
+            "source_id": "source:f153b536e17be65f76fc119036bc1b3e73648d7ae4ce046913a617df239987b2",
+            "source_sha256": "sha256:2e8476a2dddd3dab4f01769911df12de0838116523306576fab4a645bde5d794",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 24,
+            "char_end": 34,
+            "byte_start": 24,
+            "byte_end": 34,
+            "text": "Friendship"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:01b4b493ca5cd6d642d31ba0ee15eedf395509c477a4f5553542f8833a399167",
+          "occurrence_id": "node:3aa23117f88af9a9a576a81fcd5177d9f03de669308cf8440184e1831d4fb950",
+          "span": {
+            "source_id": "source:f153b536e17be65f76fc119036bc1b3e73648d7ae4ce046913a617df239987b2",
+            "source_sha256": "sha256:2e8476a2dddd3dab4f01769911df12de0838116523306576fab4a645bde5d794",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 36,
+            "char_end": 76,
+            "byte_start": 36,
+            "byte_end": 76,
+            "text": "https://en.wikipedia.org/wiki/Friendship"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:b3bd08fb84eba187e06bcac096777ff6d1fd6e99b4a869df617684d48a5720b4",
+          "occurrence_id": "node:3aa23117f88af9a9a576a81fcd5177d9f03de669308cf8440184e1831d4fb950",
+          "span": {
+            "source_id": "source:f153b536e17be65f76fc119036bc1b3e73648d7ae4ce046913a617df239987b2",
+            "source_sha256": "sha256:2e8476a2dddd3dab4f01769911df12de0838116523306576fab4a645bde5d794",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 78,
+            "char_end": 138,
+            "byte_start": 78,
+            "byte_end": 138,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,675 @@
+{
+  "approved": [
+    {
+      "id": "DOC-1",
+      "dump_path": "dump/approved/DOC-1.txt",
+      "sha256": "d7c81819e760fb9b16b07fab350548dbed01b788c244e1e69d8fbe52345dc12d",
+      "ledger_path": "doc-1.html",
+      "ledger_sha256": "d98972ffdab1af335bb43bacc59982d4bc2f1f24b785c35cd20b07c980292845",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-2",
+      "dump_path": "dump/approved/DOC-2.txt",
+      "sha256": "a60e80f41a608d0f8a38280c70fce307547cca8a5b469a9203005690baaa157b",
+      "ledger_path": "doc-2.html",
+      "ledger_sha256": "4ffe7b2c2bcd3264e6d9f74680a174ff882756a315e7eaa0eb98033e7d96d6c8",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-3",
+      "dump_path": "dump/approved/DOC-3.txt",
+      "sha256": "31a2f233f42e233e2600e8b20cdd2cd3b108421ef1a96d38be45dcb9ab55ed07",
+      "ledger_path": "doc-3.html",
+      "ledger_sha256": "22e78713b68e52e315195575bb1f37a22480930003edc96d259862b4d3be66b8",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-4",
+      "dump_path": "dump/approved/DOC-4.txt",
+      "sha256": "f9df039f1c13401c83242de2b1c8865f28c38157f905d5a5c31bf42f8ef47865",
+      "ledger_path": "doc-4.html",
+      "ledger_sha256": "35bd278009f16b6ebaa26c87ad2a2f357c4ebf0ec09891233f5f58341ef2bb22",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    }
+  ],
+  "processed": [
+    {
+      "path": "collection-notes.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "8073e2b43a954960e2ac5ad6e9f21b349b5f92a9c737e3ff0613dc8032bcff77",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:8e09260853f66e20297e1eee463396a70d5d9cde309349991326d84e576ac019",
+        "path": "collection-notes.md",
+        "raw_sha256": "sha256:8073e2b43a954960e2ac5ad6e9f21b349b5f92a9c737e3ff0613dc8032bcff77",
+        "bytes": 61,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:3ddd913c91bd6448bc442187648c610492d00658b1ff65d7c0df9dab541f4b3a",
+          "occurrence_id": "node:298708e3dfbf90b2d9f799be3be23459c22166159acdd9e28757076afd10457c",
+          "span": {
+            "source_id": "source:8e09260853f66e20297e1eee463396a70d5d9cde309349991326d84e576ac019",
+            "source_sha256": "sha256:8073e2b43a954960e2ac5ad6e9f21b349b5f92a9c737e3ff0613dc8032bcff77",
+            "path": "collection-notes.md",
+            "char_start": 0,
+            "char_end": 9,
+            "byte_start": 0,
+            "byte_end": 9,
+            "text": "# Handoff"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:dfd79f311148d6e8ce0bab0dffb17968f65d9078b2f8cf92109effd020094159",
+          "occurrence_id": "node:298708e3dfbf90b2d9f799be3be23459c22166159acdd9e28757076afd10457c",
+          "span": {
+            "source_id": "source:8e09260853f66e20297e1eee463396a70d5d9cde309349991326d84e576ac019",
+            "source_sha256": "sha256:8073e2b43a954960e2ac5ad6e9f21b349b5f92a9c737e3ff0613dc8032bcff77",
+            "path": "collection-notes.md",
+            "char_start": 11,
+            "char_end": 61,
+            "byte_start": 11,
+            "byte_end": 61,
+            "text": "> Review begins after the next maintenance window."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "index.csv",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "af2c153e24c8497ba212794a9a9e0b65233ee56b8bcbd97e47bcfeb56ff0e585",
+      "sorter_status": "excluded",
+      "sorter_source": null,
+      "statements": []
+    },
+    {
+      "path": "topic-01-copy.markdown",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "d7c81819e760fb9b16b07fab350548dbed01b788c244e1e69d8fbe52345dc12d",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:145afa4277bcd513e006f28557c17be770e93b898f45a218099e7af73f1f5a48",
+        "path": "topic-01-copy.markdown",
+        "raw_sha256": "sha256:d7c81819e760fb9b16b07fab350548dbed01b788c244e1e69d8fbe52345dc12d",
+        "bytes": 37,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:88ba8c6f573476ff59e318e814a545737b8570cd9fa1bc25651670a324e30951",
+          "occurrence_id": "node:c1075b0baaba6c3a4d5ab4a5fc29fafd744d234a902c9f7d88024dee7e2b2021",
+          "span": {
+            "source_id": "source:145afa4277bcd513e006f28557c17be770e93b898f45a218099e7af73f1f5a48",
+            "source_sha256": "sha256:d7c81819e760fb9b16b07fab350548dbed01b788c244e1e69d8fbe52345dc12d",
+            "path": "topic-01-copy.markdown",
+            "char_start": 0,
+            "char_end": 37,
+            "byte_start": 0,
+            "byte_end": 37,
+            "text": "Ivo wrote the Metaphysics memorandum."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-01-mail.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "570a76f53353fe8191ab025d65d887e7e2148facefd34416603d4422ad786f59",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:3cb4e0195acb03c736f56c594ef85eb80934f26138c01af9e5d0f40eb647bc5b",
+        "path": "topic-01-mail.txt",
+        "raw_sha256": "sha256:570a76f53353fe8191ab025d65d887e7e2148facefd34416603d4422ad786f59",
+        "bytes": 45,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:aa02334f15d8e3f642239a309b716b250793bbf18dc7f0804c7e7e3827368772",
+          "occurrence_id": "node:b680f1dd4314218580af5665e98bd724df424f184743dc23b661b1efc7423a3d",
+          "span": {
+            "source_id": "source:3cb4e0195acb03c736f56c594ef85eb80934f26138c01af9e5d0f40eb647bc5b",
+            "source_sha256": "sha256:570a76f53353fe8191ab025d65d887e7e2148facefd34416603d4422ad786f59",
+            "path": "topic-01-mail.txt",
+            "char_start": 0,
+            "char_end": 45,
+            "byte_start": 0,
+            "byte_end": 45,
+            "text": "Ivo did not write the Metaphysics memorandum."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-01-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "f25e4c5026cbf4c54c66fb3c25fb6ecbe2ef870a547a4c40fc3b3a3024130d9d",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:1e41f0416170c962d1943817aac96900c96449d5b74b4dd5cefae78571d82b6c",
+        "path": "topic-01-web-pointer.md",
+        "raw_sha256": "sha256:f25e4c5026cbf4c54c66fb3c25fb6ecbe2ef870a547a4c40fc3b3a3024130d9d",
+        "bytes": 140,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:a1d492e7d7ab1927d96483d4ca83f8b70fbf1006aff3ac9681e47dc0fa10bf73",
+          "occurrence_id": "node:69e1265aaddf27c4141e8598f0d9379b8b86bb70a2d33be63df4a22c84134ead",
+          "span": {
+            "source_id": "source:1e41f0416170c962d1943817aac96900c96449d5b74b4dd5cefae78571d82b6c",
+            "source_sha256": "sha256:f25e4c5026cbf4c54c66fb3c25fb6ecbe2ef870a547a4c40fc3b3a3024130d9d",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:cd080bbce5e4c74ed34dec8cb5141ce9895cc6377e093104813e7df692058bc8",
+          "occurrence_id": "node:69e1265aaddf27c4141e8598f0d9379b8b86bb70a2d33be63df4a22c84134ead",
+          "span": {
+            "source_id": "source:1e41f0416170c962d1943817aac96900c96449d5b74b4dd5cefae78571d82b6c",
+            "source_sha256": "sha256:f25e4c5026cbf4c54c66fb3c25fb6ecbe2ef870a547a4c40fc3b3a3024130d9d",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 24,
+            "char_end": 35,
+            "byte_start": 24,
+            "byte_end": 35,
+            "text": "Metaphysics"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:43a7ca63e1fa5bd9fde164f510cbe650002af710a2892d79c810f86b9c559508",
+          "occurrence_id": "node:69e1265aaddf27c4141e8598f0d9379b8b86bb70a2d33be63df4a22c84134ead",
+          "span": {
+            "source_id": "source:1e41f0416170c962d1943817aac96900c96449d5b74b4dd5cefae78571d82b6c",
+            "source_sha256": "sha256:f25e4c5026cbf4c54c66fb3c25fb6ecbe2ef870a547a4c40fc3b3a3024130d9d",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 37,
+            "char_end": 78,
+            "byte_start": 37,
+            "byte_end": 78,
+            "text": "https://en.wikipedia.org/wiki/Metaphysics"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:ebf9c7a72fdf9e0dead7611d8e1b9377159b161e3cec2e192efde39485c2a3ca",
+          "occurrence_id": "node:69e1265aaddf27c4141e8598f0d9379b8b86bb70a2d33be63df4a22c84134ead",
+          "span": {
+            "source_id": "source:1e41f0416170c962d1943817aac96900c96449d5b74b4dd5cefae78571d82b6c",
+            "source_sha256": "sha256:f25e4c5026cbf4c54c66fb3c25fb6ecbe2ef870a547a4c40fc3b3a3024130d9d",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 80,
+            "char_end": 140,
+            "byte_start": 80,
+            "byte_end": 140,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-copy.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "a60e80f41a608d0f8a38280c70fce307547cca8a5b469a9203005690baaa157b",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:2b25c39fc4d390a6b0e8c4aeff08ce27a685165cbd05cba57fc51d9efe0a3d42",
+        "path": "topic-02-copy.txt",
+        "raw_sha256": "sha256:a60e80f41a608d0f8a38280c70fce307547cca8a5b469a9203005690baaa157b",
+        "bytes": 36,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:ec6ffcf5aa6124d94f20ba06e000b1b9a5023f7d8c41a90f31c7d481c23f1061",
+          "occurrence_id": "node:effa56f3f5fad337e75ec60526ec47fc4484d1d4cb4aa5b972be2bb45c425bed",
+          "span": {
+            "source_id": "source:2b25c39fc4d390a6b0e8c4aeff08ce27a685165cbd05cba57fc51d9efe0a3d42",
+            "source_sha256": "sha256:a60e80f41a608d0f8a38280c70fce307547cca8a5b469a9203005690baaa157b",
+            "path": "topic-02-copy.txt",
+            "char_start": 0,
+            "char_end": 36,
+            "byte_start": 0,
+            "byte_end": 36,
+            "text": "Tess wrote the Influenza memorandum."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "8da220536b4e9566b5d71ba04f79ee47299d685ab83545c56c9288ab8048acce",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:72b000cc3eb88ade6bf557c84bc1b4c592033f854fa0ab2368f4740dfa683f93",
+        "path": "topic-02-web-pointer.md",
+        "raw_sha256": "sha256:8da220536b4e9566b5d71ba04f79ee47299d685ab83545c56c9288ab8048acce",
+        "bytes": 136,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:b1a45c2390d02c33c8f2166fe6c7e3a2633054dede0aeadc20f176debd356558",
+          "occurrence_id": "node:76f39d2b92efb140f3ea07ddccbff5368310ee547fbd6a3d60f255f14729eff5",
+          "span": {
+            "source_id": "source:72b000cc3eb88ade6bf557c84bc1b4c592033f854fa0ab2368f4740dfa683f93",
+            "source_sha256": "sha256:8da220536b4e9566b5d71ba04f79ee47299d685ab83545c56c9288ab8048acce",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:72cd3ee0d44ae19ab4f4df604d83e6f77226105bb19bc2bf943d2296328a609e",
+          "occurrence_id": "node:76f39d2b92efb140f3ea07ddccbff5368310ee547fbd6a3d60f255f14729eff5",
+          "span": {
+            "source_id": "source:72b000cc3eb88ade6bf557c84bc1b4c592033f854fa0ab2368f4740dfa683f93",
+            "source_sha256": "sha256:8da220536b4e9566b5d71ba04f79ee47299d685ab83545c56c9288ab8048acce",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 24,
+            "char_end": 33,
+            "byte_start": 24,
+            "byte_end": 33,
+            "text": "Influenza"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:6bfc9c8704a560b903ff510962972769c018fec96082f4e9d8103702bc5d827d",
+          "occurrence_id": "node:76f39d2b92efb140f3ea07ddccbff5368310ee547fbd6a3d60f255f14729eff5",
+          "span": {
+            "source_id": "source:72b000cc3eb88ade6bf557c84bc1b4c592033f854fa0ab2368f4740dfa683f93",
+            "source_sha256": "sha256:8da220536b4e9566b5d71ba04f79ee47299d685ab83545c56c9288ab8048acce",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 35,
+            "char_end": 74,
+            "byte_start": 35,
+            "byte_end": 74,
+            "text": "https://en.wikipedia.org/wiki/Influenza"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:fccedcd635f5e5675b7f635901664774075c64631e0da1413703a044d59a3068",
+          "occurrence_id": "node:76f39d2b92efb140f3ea07ddccbff5368310ee547fbd6a3d60f255f14729eff5",
+          "span": {
+            "source_id": "source:72b000cc3eb88ade6bf557c84bc1b4c592033f854fa0ab2368f4740dfa683f93",
+            "source_sha256": "sha256:8da220536b4e9566b5d71ba04f79ee47299d685ab83545c56c9288ab8048acce",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 76,
+            "char_end": 136,
+            "byte_start": 76,
+            "byte_end": 136,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-copy.text",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "5c770894ab8c2495bb75bdd655086801d56d90651da626f45ef13be9c9713194",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:16c4d25dfe944da7d531a98e7742144e7148114b7d603121c7cf63e5b9638cdf",
+        "path": "topic-03-copy.text",
+        "raw_sha256": "sha256:5c770894ab8c2495bb75bdd655086801d56d90651da626f45ef13be9c9713194",
+        "bytes": 17,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:55c31ed948a2b8515bcef79d4ff37cf08d185208534104f6d68bb8e5b45b0156",
+          "occurrence_id": "node:fd5fc92660408751199cf157c4994b0b8d60e551bae7ef4b1598d0dde1c4edf1",
+          "span": {
+            "source_id": "source:16c4d25dfe944da7d531a98e7742144e7148114b7d603121c7cf63e5b9638cdf",
+            "source_sha256": "sha256:5c770894ab8c2495bb75bdd655086801d56d90651da626f45ef13be9c9713194",
+            "path": "topic-03-copy.text",
+            "char_start": 0,
+            "char_end": 17,
+            "byte_start": 0,
+            "byte_end": 17,
+            "text": "Ivo studied Soul."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "e0b9fb3889cf51f48119de509b2b32a378fb90e1ae30e61d298369d996af5b93",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:bbc484c4f683f53677cd809fcd14f5e09dd753a880259397ccf2c1dab974b04b",
+        "path": "topic-03-web-pointer.md",
+        "raw_sha256": "sha256:e0b9fb3889cf51f48119de509b2b32a378fb90e1ae30e61d298369d996af5b93",
+        "bytes": 126,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:fa27ba1dfc0e01161b46cdde607a4bec9b82c7c6b6ce28dd2c8f5bbb25507606",
+          "occurrence_id": "node:5a7fdf33933d95be6bf593f5116e703d3446d943202028e95579a9fb3b6db1b5",
+          "span": {
+            "source_id": "source:bbc484c4f683f53677cd809fcd14f5e09dd753a880259397ccf2c1dab974b04b",
+            "source_sha256": "sha256:e0b9fb3889cf51f48119de509b2b32a378fb90e1ae30e61d298369d996af5b93",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:bee21f0bfd78d5ff5dbf16368d3d6845c2bac6cb9035ff95ef4829b7f1407bec",
+          "occurrence_id": "node:5a7fdf33933d95be6bf593f5116e703d3446d943202028e95579a9fb3b6db1b5",
+          "span": {
+            "source_id": "source:bbc484c4f683f53677cd809fcd14f5e09dd753a880259397ccf2c1dab974b04b",
+            "source_sha256": "sha256:e0b9fb3889cf51f48119de509b2b32a378fb90e1ae30e61d298369d996af5b93",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 24,
+            "char_end": 28,
+            "byte_start": 24,
+            "byte_end": 28,
+            "text": "Soul"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:b2f3d8ef18602e5e51706f0137197109a766da1d1f06666dbe30cb6da9e0430e",
+          "occurrence_id": "node:5a7fdf33933d95be6bf593f5116e703d3446d943202028e95579a9fb3b6db1b5",
+          "span": {
+            "source_id": "source:bbc484c4f683f53677cd809fcd14f5e09dd753a880259397ccf2c1dab974b04b",
+            "source_sha256": "sha256:e0b9fb3889cf51f48119de509b2b32a378fb90e1ae30e61d298369d996af5b93",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 30,
+            "char_end": 64,
+            "byte_start": 30,
+            "byte_end": 64,
+            "text": "https://en.wikipedia.org/wiki/Soul"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:38b8178c6e481843102b7d43f174c983cc530048566871426e241f7eb5fdc919",
+          "occurrence_id": "node:5a7fdf33933d95be6bf593f5116e703d3446d943202028e95579a9fb3b6db1b5",
+          "span": {
+            "source_id": "source:bbc484c4f683f53677cd809fcd14f5e09dd753a880259397ccf2c1dab974b04b",
+            "source_sha256": "sha256:e0b9fb3889cf51f48119de509b2b32a378fb90e1ae30e61d298369d996af5b93",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 66,
+            "char_end": 126,
+            "byte_start": 66,
+            "byte_end": 126,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-copy.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "e89901c7d06570c7ed9e23d587b47c22cc2b310ea809c361b7ab8b5148809a72",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:ba2e857101bd563bfb3f8ef3df763457470b6d5ebca43458b824c0e266bea8f0",
+        "path": "topic-04-copy.md",
+        "raw_sha256": "sha256:e89901c7d06570c7ed9e23d587b47c22cc2b310ea809c361b7ab8b5148809a72",
+        "bytes": 33,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:1b33531cf88b221ffbe3261b2474e09997bb9d245092a18c4145feb24b56e94e",
+          "occurrence_id": "node:ec6ce246b9e7bdfe9a1a92307e5ae57e7754ab9a594b56f606d551b8516f8b09",
+          "span": {
+            "source_id": "source:ba2e857101bd563bfb3f8ef3df763457470b6d5ebca43458b824c0e266bea8f0",
+            "source_sha256": "sha256:e89901c7d06570c7ed9e23d587b47c22cc2b310ea809c361b7ab8b5148809a72",
+            "path": "topic-04-copy.md",
+            "char_start": 0,
+            "char_end": 33,
+            "byte_start": 0,
+            "byte_end": 33,
+            "text": "Mara wrote the Reason memorandum."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "f42eb7c1619a932b10f84771f122fbda609a794e02cc1b5e40422d15694eb7e8",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:ed2b9a350a33e89a28316d3e0036a9eb1cf831641f02cada2cab83afc787b284",
+        "path": "topic-04-web-pointer.md",
+        "raw_sha256": "sha256:f42eb7c1619a932b10f84771f122fbda609a794e02cc1b5e40422d15694eb7e8",
+        "bytes": 130,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:6c4bc738e366d654787a3895648169d164d6ef63b325b9a5ee9e10d19f1fa340",
+          "occurrence_id": "node:2be9d56b93973cbbd6e0c8db5c12b0e14eda455c0cbac6c4ebebed175909002e",
+          "span": {
+            "source_id": "source:ed2b9a350a33e89a28316d3e0036a9eb1cf831641f02cada2cab83afc787b284",
+            "source_sha256": "sha256:f42eb7c1619a932b10f84771f122fbda609a794e02cc1b5e40422d15694eb7e8",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:969832c4f94721e02302dd46bf9631f359ac0df311a15f6d0d013d6d65d6fb87",
+          "occurrence_id": "node:2be9d56b93973cbbd6e0c8db5c12b0e14eda455c0cbac6c4ebebed175909002e",
+          "span": {
+            "source_id": "source:ed2b9a350a33e89a28316d3e0036a9eb1cf831641f02cada2cab83afc787b284",
+            "source_sha256": "sha256:f42eb7c1619a932b10f84771f122fbda609a794e02cc1b5e40422d15694eb7e8",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 24,
+            "char_end": 30,
+            "byte_start": 24,
+            "byte_end": 30,
+            "text": "Reason"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:5a57ce9ab93b639791b36110b5aba2731a2e81739c3d8e49697373fef33e13de",
+          "occurrence_id": "node:2be9d56b93973cbbd6e0c8db5c12b0e14eda455c0cbac6c4ebebed175909002e",
+          "span": {
+            "source_id": "source:ed2b9a350a33e89a28316d3e0036a9eb1cf831641f02cada2cab83afc787b284",
+            "source_sha256": "sha256:f42eb7c1619a932b10f84771f122fbda609a794e02cc1b5e40422d15694eb7e8",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 32,
+            "char_end": 68,
+            "byte_start": 32,
+            "byte_end": 68,
+            "text": "https://en.wikipedia.org/wiki/Reason"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:ae01c7623e4c734b5cf4383642aab38d63995234bce220ace4faedf17e4fff22",
+          "occurrence_id": "node:2be9d56b93973cbbd6e0c8db5c12b0e14eda455c0cbac6c4ebebed175909002e",
+          "span": {
+            "source_id": "source:ed2b9a350a33e89a28316d3e0036a9eb1cf831641f02cada2cab83afc787b284",
+            "source_sha256": "sha256:f42eb7c1619a932b10f84771f122fbda609a794e02cc1b5e40422d15694eb7e8",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 70,
+            "char_end": 130,
+            "byte_start": 70,
+            "byte_end": 130,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    }
+  ]
+}

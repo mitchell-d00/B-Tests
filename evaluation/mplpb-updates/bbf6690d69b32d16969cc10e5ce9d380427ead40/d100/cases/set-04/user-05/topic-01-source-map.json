@@ -1,0 +1,675 @@
+{
+  "approved": [
+    {
+      "id": "DOC-1",
+      "dump_path": "dump/approved/DOC-1.txt",
+      "sha256": "9d50f909001cd9d4c33d4c2ccfde33fc3f153bfc550c66edfc025b36c84987ec",
+      "ledger_path": "doc-1.html",
+      "ledger_sha256": "76634f884f815ae44b1f81e48345e86eef4cf77ade9179c18ec51465cea5082e",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-2",
+      "dump_path": "dump/approved/DOC-2.txt",
+      "sha256": "54cff62cf84b6c64aa7423e70009bc39b674a7dcf16fe23d7865c072005737e7",
+      "ledger_path": "doc-2.html",
+      "ledger_sha256": "90dda553d3434f0833c372a7bbb1257b9583722a3afdc217f43d1a11ec104d73",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-3",
+      "dump_path": "dump/approved/DOC-3.txt",
+      "sha256": "b074e189be292461528260768b0355e76159d4a49ae217e388b8118d7a5b92b0",
+      "ledger_path": "doc-3.html",
+      "ledger_sha256": "0050753d0948061f22612326e9420a6b6902912c3eba0c67542d1b79d8ae0c60",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-4",
+      "dump_path": "dump/approved/DOC-4.txt",
+      "sha256": "706fa9b49dc97a0dc2df5ec85dc1e6d9ddb5257beba5887ce7b2baad348854e9",
+      "ledger_path": "doc-4.html",
+      "ledger_sha256": "1bf53be86fb164e5019fa096a0a9c1a340a867e706735651850b4aea01f0ffca",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    }
+  ],
+  "processed": [
+    {
+      "path": "collection-notes.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "887877201adaa1a02563a4f3aabff9265c30e9c736706d161a812e05520f51ff",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:c507b9122a0257d2e485b32df00fa06320c79038ca6e2f6b2a646c6f8ff229d1",
+        "path": "collection-notes.md",
+        "raw_sha256": "sha256:887877201adaa1a02563a4f3aabff9265c30e9c736706d161a812e05520f51ff",
+        "bytes": 70,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:a6d7c31bf58bbbbf210f232437fe42caaa98385ef3011c3a2560bccb054ba199",
+          "occurrence_id": "node:751d980c9e94e59ede94f0719caffaabded3756e4b7f19506651a993c270863b",
+          "span": {
+            "source_id": "source:c507b9122a0257d2e485b32df00fa06320c79038ca6e2f6b2a646c6f8ff229d1",
+            "source_sha256": "sha256:887877201adaa1a02563a4f3aabff9265c30e9c736706d161a812e05520f51ff",
+            "path": "collection-notes.md",
+            "char_start": 0,
+            "char_end": 15,
+            "byte_start": 0,
+            "byte_end": 15,
+            "text": "# Working notes"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:30194b18551851f3a130fbdf03be5d6920066295b3af1d7bc1b454a279b4a862",
+          "occurrence_id": "node:751d980c9e94e59ede94f0719caffaabded3756e4b7f19506651a993c270863b",
+          "span": {
+            "source_id": "source:c507b9122a0257d2e485b32df00fa06320c79038ca6e2f6b2a646c6f8ff229d1",
+            "source_sha256": "sha256:887877201adaa1a02563a4f3aabff9265c30e9c736706d161a812e05520f51ff",
+            "path": "collection-notes.md",
+            "char_start": 17,
+            "char_end": 70,
+            "byte_start": 17,
+            "byte_end": 70,
+            "text": "Draft inventory. Items require review before release."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "index.csv",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "af2c153e24c8497ba212794a9a9e0b65233ee56b8bcbd97e47bcfeb56ff0e585",
+      "sorter_status": "excluded",
+      "sorter_source": null,
+      "statements": []
+    },
+    {
+      "path": "topic-01-copy.text",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "fb48185c5d2c8c56581c1963c7ac2cff5a986a970f8eed534beb3f64463de0a9",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:3a5ff4b330461b08dfdc465294d4b0c64ed7ca437aa416d5111c6c7731a6d530",
+        "path": "topic-01-copy.text",
+        "raw_sha256": "sha256:fb48185c5d2c8c56581c1963c7ac2cff5a986a970f8eed534beb3f64463de0a9",
+        "bytes": 19,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:c5f111b0677ccdba2ea66fac60204354ea8698df34aeb085b4382ef9f409d8ab",
+          "occurrence_id": "node:040f04f6febcb1b653334ba878fa317adad141270547371bcf544332e4bfb7b0",
+          "span": {
+            "source_id": "source:3a5ff4b330461b08dfdc465294d4b0c64ed7ca437aa416d5111c6c7731a6d530",
+            "source_sha256": "sha256:fb48185c5d2c8c56581c1963c7ac2cff5a986a970f8eed534beb3f64463de0a9",
+            "path": "topic-01-copy.text",
+            "char_start": 0,
+            "char_end": 19,
+            "byte_start": 0,
+            "byte_end": 19,
+            "text": "Nora studied Laozi."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-01-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "bfcba43074407d121a2224df42e74a69e34cc383cfff521c288368524772b1a7",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:6d066db63f15497b815d309f74d27fb38c25073c8fbe48b1e93e2a9587867a04",
+        "path": "topic-01-web-pointer.md",
+        "raw_sha256": "sha256:bfcba43074407d121a2224df42e74a69e34cc383cfff521c288368524772b1a7",
+        "bytes": 128,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:224b0443f6223fee32d961252eeae9151a7b65c43b5c1bd15e051e4c3a99652d",
+          "occurrence_id": "node:3a99ce6cfdea2297ea05e759f7cf25ea4f6ddf8c9eb2bc998bf601197d2b2668",
+          "span": {
+            "source_id": "source:6d066db63f15497b815d309f74d27fb38c25073c8fbe48b1e93e2a9587867a04",
+            "source_sha256": "sha256:bfcba43074407d121a2224df42e74a69e34cc383cfff521c288368524772b1a7",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:b4cad919c65c2bad55fa066bccd8a76d2fda9086e5f329230ca82876f86cbd01",
+          "occurrence_id": "node:3a99ce6cfdea2297ea05e759f7cf25ea4f6ddf8c9eb2bc998bf601197d2b2668",
+          "span": {
+            "source_id": "source:6d066db63f15497b815d309f74d27fb38c25073c8fbe48b1e93e2a9587867a04",
+            "source_sha256": "sha256:bfcba43074407d121a2224df42e74a69e34cc383cfff521c288368524772b1a7",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 24,
+            "char_end": 29,
+            "byte_start": 24,
+            "byte_end": 29,
+            "text": "Laozi"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:8082aca73eaba8eea37405833696d1b814a3266883bff5621c5664edae8adcd0",
+          "occurrence_id": "node:3a99ce6cfdea2297ea05e759f7cf25ea4f6ddf8c9eb2bc998bf601197d2b2668",
+          "span": {
+            "source_id": "source:6d066db63f15497b815d309f74d27fb38c25073c8fbe48b1e93e2a9587867a04",
+            "source_sha256": "sha256:bfcba43074407d121a2224df42e74a69e34cc383cfff521c288368524772b1a7",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 31,
+            "char_end": 66,
+            "byte_start": 31,
+            "byte_end": 66,
+            "text": "https://en.wikipedia.org/wiki/Laozi"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:076b3bc3eaae21da1b35748731142d2336d99a7089a5ffcae4eb3b3b38c9aa5f",
+          "occurrence_id": "node:3a99ce6cfdea2297ea05e759f7cf25ea4f6ddf8c9eb2bc998bf601197d2b2668",
+          "span": {
+            "source_id": "source:6d066db63f15497b815d309f74d27fb38c25073c8fbe48b1e93e2a9587867a04",
+            "source_sha256": "sha256:bfcba43074407d121a2224df42e74a69e34cc383cfff521c288368524772b1a7",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 68,
+            "char_end": 128,
+            "byte_start": 68,
+            "byte_end": 128,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-copy.text",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "9d50f909001cd9d4c33d4c2ccfde33fc3f153bfc550c66edfc025b36c84987ec",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:41e0b1e8d7d0c406074d56d7aea06fae432e742aa4480e85ee2940dc25fb7618",
+        "path": "topic-02-copy.text",
+        "raw_sha256": "sha256:9d50f909001cd9d4c33d4c2ccfde33fc3f153bfc550c66edfc025b36c84987ec",
+        "bytes": 49,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:09ec8296291b641abb162009e6ae1df0a28e31b9291283b6846d2c044c44fcd9",
+          "occurrence_id": "node:c4c0e87407e8dbe2d8966a9f4b2a00c16aa283de285047237b82fae4bad5b942",
+          "span": {
+            "source_id": "source:41e0b1e8d7d0c406074d56d7aea06fae432e742aa4480e85ee2940dc25fb7618",
+            "source_sha256": "sha256:9d50f909001cd9d4c33d4c2ccfde33fc3f153bfc550c66edfc025b36c84987ec",
+            "path": "topic-02-copy.text",
+            "char_start": 0,
+            "char_end": 49,
+            "byte_start": 0,
+            "byte_end": 49,
+            "text": "Ivo wrote the Intellectual disability memorandum."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "1fa34dd4663ccde984cf2e91e4618fc0b541ef11943ec7e7acb351089b439a4a",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:a5fab5abe5bb206ba2e86a638f51bab70f3d0ac5cb5b83485c58dcdf05b3b08e",
+        "path": "topic-02-web-pointer.md",
+        "raw_sha256": "sha256:1fa34dd4663ccde984cf2e91e4618fc0b541ef11943ec7e7acb351089b439a4a",
+        "bytes": 164,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:7dc85f9614b573f750f55cd9affe7d12d427a80b9c878e8401b1c65f5513658b",
+          "occurrence_id": "node:5747f70b8c21304bdd090d75a262db6f4a23fab26466981179c4c18dd0fcec40",
+          "span": {
+            "source_id": "source:a5fab5abe5bb206ba2e86a638f51bab70f3d0ac5cb5b83485c58dcdf05b3b08e",
+            "source_sha256": "sha256:1fa34dd4663ccde984cf2e91e4618fc0b541ef11943ec7e7acb351089b439a4a",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:69c58d8ef43a230209b1d35d69b6506f3726f2d697cec1b2b318a789190121af",
+          "occurrence_id": "node:5747f70b8c21304bdd090d75a262db6f4a23fab26466981179c4c18dd0fcec40",
+          "span": {
+            "source_id": "source:a5fab5abe5bb206ba2e86a638f51bab70f3d0ac5cb5b83485c58dcdf05b3b08e",
+            "source_sha256": "sha256:1fa34dd4663ccde984cf2e91e4618fc0b541ef11943ec7e7acb351089b439a4a",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 24,
+            "char_end": 47,
+            "byte_start": 24,
+            "byte_end": 47,
+            "text": "Intellectual disability"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:282a93086ffe0529f14b7ce4dd33d8f0c6a16f6c72aabad72b38549388c5167a",
+          "occurrence_id": "node:5747f70b8c21304bdd090d75a262db6f4a23fab26466981179c4c18dd0fcec40",
+          "span": {
+            "source_id": "source:a5fab5abe5bb206ba2e86a638f51bab70f3d0ac5cb5b83485c58dcdf05b3b08e",
+            "source_sha256": "sha256:1fa34dd4663ccde984cf2e91e4618fc0b541ef11943ec7e7acb351089b439a4a",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 49,
+            "char_end": 102,
+            "byte_start": 49,
+            "byte_end": 102,
+            "text": "https://en.wikipedia.org/wiki/Intellectual_disability"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:e17a0a04f0eb7d18b6ee4503821ee33204dfe51bf904b526c06ad3ce89d83339",
+          "occurrence_id": "node:5747f70b8c21304bdd090d75a262db6f4a23fab26466981179c4c18dd0fcec40",
+          "span": {
+            "source_id": "source:a5fab5abe5bb206ba2e86a638f51bab70f3d0ac5cb5b83485c58dcdf05b3b08e",
+            "source_sha256": "sha256:1fa34dd4663ccde984cf2e91e4618fc0b541ef11943ec7e7acb351089b439a4a",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 104,
+            "char_end": 164,
+            "byte_start": 104,
+            "byte_end": 164,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-copy.text",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "8d2577445b6d62c04932f3b771f6da574c6190a94babbfcaf79c67f18c3c437d",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:e8446c4e5af694065e6c1999f08ed8ad6069ec8a347283a4e8e06d929c3c7c57",
+        "path": "topic-03-copy.text",
+        "raw_sha256": "sha256:8d2577445b6d62c04932f3b771f6da574c6190a94babbfcaf79c67f18c3c437d",
+        "bytes": 38,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:5aba7019dbffcc4ebd58d52007d09676da4a81a01d40e5424e2cb767a0ff8a90",
+          "occurrence_id": "node:e0e68b838b5a610d989c142bae2724bcc103c38fd0e412ffba0b96b1b272af5f",
+          "span": {
+            "source_id": "source:e8446c4e5af694065e6c1999f08ed8ad6069ec8a347283a4e8e06d929c3c7c57",
+            "source_sha256": "sha256:8d2577445b6d62c04932f3b771f6da574c6190a94babbfcaf79c67f18c3c437d",
+            "path": "topic-03-copy.text",
+            "char_start": 0,
+            "char_end": 38,
+            "byte_start": 0,
+            "byte_end": 38,
+            "text": "Tess wrote the Temperature memorandum."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "a1b4d43d0b378db95ca0138884035982978739b5dcb31c02f591aee84323b63f",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:60a7b2249b7d0903c4c0bf9830071c9b6307b20fe3e25b74e27087aef0901e86",
+        "path": "topic-03-web-pointer.md",
+        "raw_sha256": "sha256:a1b4d43d0b378db95ca0138884035982978739b5dcb31c02f591aee84323b63f",
+        "bytes": 140,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:1a9b164f3784288d4c70d5f9c2653177f652225fdaa40ce19aa7b2793f04c458",
+          "occurrence_id": "node:29073e8262a53a50a19276035a3e5b3b1b1a470382794c0b19593882b201706b",
+          "span": {
+            "source_id": "source:60a7b2249b7d0903c4c0bf9830071c9b6307b20fe3e25b74e27087aef0901e86",
+            "source_sha256": "sha256:a1b4d43d0b378db95ca0138884035982978739b5dcb31c02f591aee84323b63f",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:89df34c35026ca93d3612700b8ee5f83e7cfaf1770ff692111c42d25ac478272",
+          "occurrence_id": "node:29073e8262a53a50a19276035a3e5b3b1b1a470382794c0b19593882b201706b",
+          "span": {
+            "source_id": "source:60a7b2249b7d0903c4c0bf9830071c9b6307b20fe3e25b74e27087aef0901e86",
+            "source_sha256": "sha256:a1b4d43d0b378db95ca0138884035982978739b5dcb31c02f591aee84323b63f",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 24,
+            "char_end": 35,
+            "byte_start": 24,
+            "byte_end": 35,
+            "text": "Temperature"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:0269f655484cca1cb859e27d98c1a01578b9fdf6ec10135199739bf2a54ea73e",
+          "occurrence_id": "node:29073e8262a53a50a19276035a3e5b3b1b1a470382794c0b19593882b201706b",
+          "span": {
+            "source_id": "source:60a7b2249b7d0903c4c0bf9830071c9b6307b20fe3e25b74e27087aef0901e86",
+            "source_sha256": "sha256:a1b4d43d0b378db95ca0138884035982978739b5dcb31c02f591aee84323b63f",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 37,
+            "char_end": 78,
+            "byte_start": 37,
+            "byte_end": 78,
+            "text": "https://en.wikipedia.org/wiki/Temperature"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:8c5eac816f55ac9abd65b4c5e57106caf625bcb92eda477677af8a1643d6bd14",
+          "occurrence_id": "node:29073e8262a53a50a19276035a3e5b3b1b1a470382794c0b19593882b201706b",
+          "span": {
+            "source_id": "source:60a7b2249b7d0903c4c0bf9830071c9b6307b20fe3e25b74e27087aef0901e86",
+            "source_sha256": "sha256:a1b4d43d0b378db95ca0138884035982978739b5dcb31c02f591aee84323b63f",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 80,
+            "char_end": 140,
+            "byte_start": 80,
+            "byte_end": 140,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-copy.text",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "706fa9b49dc97a0dc2df5ec85dc1e6d9ddb5257beba5887ce7b2baad348854e9",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:01df9adfc9a6b1f9c421489ec0b556cbe2a094f4271c0a91dc851f5b4fb354cb",
+        "path": "topic-04-copy.text",
+        "raw_sha256": "sha256:706fa9b49dc97a0dc2df5ec85dc1e6d9ddb5257beba5887ce7b2baad348854e9",
+        "bytes": 33,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:137752e9f78080ca1cffe07d1d3a064199f9eabfdcbfefec2712ec344a3399a3",
+          "occurrence_id": "node:1c47cbcf5ebafc098b025939840f1a58ca5dc984d639d7be83ce2daa08008022",
+          "span": {
+            "source_id": "source:01df9adfc9a6b1f9c421489ec0b556cbe2a094f4271c0a91dc851f5b4fb354cb",
+            "source_sha256": "sha256:706fa9b49dc97a0dc2df5ec85dc1e6d9ddb5257beba5887ce7b2baad348854e9",
+            "path": "topic-04-copy.text",
+            "char_start": 0,
+            "char_end": 33,
+            "byte_start": 0,
+            "byte_end": 33,
+            "text": "Mara wrote the Prayer memorandum."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-mail.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "9586e91db7a10f3334cada4e010003384127e28a093c263bec393a1995b4c702",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:484a8f37d39c53d754e66dd2aa95740c503c024296d7155ec097e28c91357001",
+        "path": "topic-04-mail.txt",
+        "raw_sha256": "sha256:9586e91db7a10f3334cada4e010003384127e28a093c263bec393a1995b4c702",
+        "bytes": 41,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:0ce18c9a275a3f3e6ba7eb2a1135a1b34620e6bdc3fea40747cc02bda891a409",
+          "occurrence_id": "node:5729731c5aacfa9ca4bac3bd1fc5ee333d55acb757e7e49f64dbf6ea041938a1",
+          "span": {
+            "source_id": "source:484a8f37d39c53d754e66dd2aa95740c503c024296d7155ec097e28c91357001",
+            "source_sha256": "sha256:9586e91db7a10f3334cada4e010003384127e28a093c263bec393a1995b4c702",
+            "path": "topic-04-mail.txt",
+            "char_start": 0,
+            "char_end": 41,
+            "byte_start": 0,
+            "byte_end": 41,
+            "text": "Mara did not write the Prayer memorandum."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "787732549979a3c4b08867b954669206b417b7efe0cbb0cd558e9d3b82e391f2",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:041bb67f439bdf9eca451b57977fc44fb8a1625eae46aa6318ecc8c73aa2851e",
+        "path": "topic-04-web-pointer.md",
+        "raw_sha256": "sha256:787732549979a3c4b08867b954669206b417b7efe0cbb0cd558e9d3b82e391f2",
+        "bytes": 130,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:31c8963a9f93b1cad4bcd376fe1914acf2b58bbf5c19e6e3f52e98819efd4a15",
+          "occurrence_id": "node:7a2da63b798cbbb0f9d1175d0f29f472fe680f63dd9837b9ee8f87dcaa25e162",
+          "span": {
+            "source_id": "source:041bb67f439bdf9eca451b57977fc44fb8a1625eae46aa6318ecc8c73aa2851e",
+            "source_sha256": "sha256:787732549979a3c4b08867b954669206b417b7efe0cbb0cd558e9d3b82e391f2",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:d22348f4ec522ce2621da1c6a71b465b14df70011256d4cccb1ecc5f9554bcb3",
+          "occurrence_id": "node:7a2da63b798cbbb0f9d1175d0f29f472fe680f63dd9837b9ee8f87dcaa25e162",
+          "span": {
+            "source_id": "source:041bb67f439bdf9eca451b57977fc44fb8a1625eae46aa6318ecc8c73aa2851e",
+            "source_sha256": "sha256:787732549979a3c4b08867b954669206b417b7efe0cbb0cd558e9d3b82e391f2",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 24,
+            "char_end": 30,
+            "byte_start": 24,
+            "byte_end": 30,
+            "text": "Prayer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:bc1a451514c50b6e2624242cce0b8570aed342200ae56d6bc44424697b6063e4",
+          "occurrence_id": "node:7a2da63b798cbbb0f9d1175d0f29f472fe680f63dd9837b9ee8f87dcaa25e162",
+          "span": {
+            "source_id": "source:041bb67f439bdf9eca451b57977fc44fb8a1625eae46aa6318ecc8c73aa2851e",
+            "source_sha256": "sha256:787732549979a3c4b08867b954669206b417b7efe0cbb0cd558e9d3b82e391f2",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 32,
+            "char_end": 68,
+            "byte_start": 32,
+            "byte_end": 68,
+            "text": "https://en.wikipedia.org/wiki/Prayer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:8ee5401fa3e9fd2137f7c7736c8647acdfbb1837ead792f2e7c8e2083a906e52",
+          "occurrence_id": "node:7a2da63b798cbbb0f9d1175d0f29f472fe680f63dd9837b9ee8f87dcaa25e162",
+          "span": {
+            "source_id": "source:041bb67f439bdf9eca451b57977fc44fb8a1625eae46aa6318ecc8c73aa2851e",
+            "source_sha256": "sha256:787732549979a3c4b08867b954669206b417b7efe0cbb0cd558e9d3b82e391f2",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 70,
+            "char_end": 130,
+            "byte_start": 70,
+            "byte_end": 130,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    }
+  ]
+}

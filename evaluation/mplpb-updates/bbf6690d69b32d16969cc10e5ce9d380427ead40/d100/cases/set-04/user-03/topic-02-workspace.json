@@ -1,0 +1,962 @@
+{
+  "schema": "candidate-review-workspace-v3",
+  "label": "Sorter suggestions for review. MPLPB has not verified these links or answers.",
+  "status": "candidate for review",
+  "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+  "approval_status": "outside_approved_evidence",
+  "answer_supported": false,
+  "content_truth_verified": false,
+  "approval_transferred": false,
+  "graph_sha256": "sha256:0811e166e00ac95c3fa9ef6d5c15ec665985cfdd8415df602c53241f02acd5c7",
+  "implementation_sha256": "sha256:74fd28037d4c10cfe1164a7fa04ee53de4c0e6be63401e675762a1a7a9249290",
+  "configuration": {
+    "question": "Who wrote the Injury memorandum?",
+    "topic": "Who wrote the Injury memorandum?",
+    "profile": "lab",
+    "max_passages": 12,
+    "max_chars": 16000,
+    "strict_passages": 12,
+    "strict_chars": 8000,
+    "scan_passages": 256,
+    "pair_checks": 4096,
+    "as_of": null
+  },
+  "original_corpus_snapshot": "sha256:cae78cf877cf2f303f3a5a547ce15f5a8ca7d61b01ef70eb27ed0da36c8a5105",
+  "original_policy": {
+    "gate_version": 2,
+    "mode": "separate_lexical_sources",
+    "max_depth": 2,
+    "prose": true,
+    "not_for": true,
+    "enforce_sealed_external_policy": true,
+    "synthesize": false,
+    "follow_pointers": false,
+    "require_current_dependencies": true,
+    "settings_hash": "sha256:c5f132ec431f1b0014972073317be495810947a073708955d3ad9b4769bfabea"
+  },
+  "reader_implementation_sha256": "sha256:e207dac173890540b5af36626e592c56cd293cb86a577c0c2a5d09cda441aea8",
+  "verifier_implementation_sha256": "sha256:9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+  "mplpb_decision": {
+    "status": "one_eligible_owner",
+    "eligible_owner_count": 1,
+    "strict_answer": {
+      "schema": "answer-contract-v1",
+      "mode": "strict",
+      "question": "Who wrote the Injury memorandum?",
+      "kind": "supported_answer",
+      "answer_supported": true,
+      "text": "Source assertion: Tess wrote the Injury memorandum. Source-attributed statement; event/person identity and historical truth are not independently verified.",
+      "claims": [
+        {
+          "text": "Source assertion: Tess wrote the Injury memorandum.",
+          "qualifiers": [
+            "Source-attributed statement; event/person identity and historical truth are not independently verified."
+          ],
+          "citations": [
+            {
+              "source_id": "DOC-3",
+              "path": "doc-3.html",
+              "hash": "sha256:3f9ab5423b6aaf12700590de78ee413797c1d805879122790804631286b93318",
+              "body_start": 0,
+              "body_end": 33,
+              "start": 0,
+              "end": 33,
+              "quote": "Tess wrote the Injury memorandum.",
+              "body_projection": "body-text-no-headings-v1"
+            }
+          ],
+          "proposition": {
+            "relation": "source_action_assertion",
+            "actor_text": "Tess",
+            "action": "write",
+            "object_text": "the Injury memorandum",
+            "negative": false,
+            "temporal_qualification_text": "",
+            "unresolved_reference": false,
+            "assertion_modality": "unconditional_source_assertion",
+            "event_identity": null
+          },
+          "source_support_established": true,
+          "support_scope": "source_attributed_assertion",
+          "verification": "documentary-assertion-kernel-v4",
+          "historical_truth_independently_verified": false,
+          "proof_sha256": "sha256:f3aebae548fe327c336838feebe16869c230e535293555b63967b53b550d2f42"
+        }
+      ],
+      "missing": [],
+      "clarification": "",
+      "confidence": null,
+      "confidence_calibrated": false,
+      "sources": [
+        {
+          "id": "DOC-3",
+          "path": "doc-3.html",
+          "hash": "sha256:3f9ab5423b6aaf12700590de78ee413797c1d805879122790804631286b93318"
+        }
+      ],
+      "retrieval": {
+        "eligible_pages": 4,
+        "total_passages": 4,
+        "passages": [],
+        "sources": [],
+        "search_complete": false,
+        "corpus_snapshot": "sha256:cae78cf877cf2f303f3a5a547ce15f5a8ca7d61b01ef70eb27ed0da36c8a5105",
+        "ranking": "not_run"
+      },
+      "verification": {
+        "structural": true,
+        "semantic": "documentary-assertion-kernel-v4",
+        "truth_verified": false,
+        "independence_verified": false
+      },
+      "reader": null,
+      "trace": [],
+      "diagnostic": {
+        "code": "supported_documentary_assertion",
+        "stage": "documentary_verification",
+        "message": "Checked source-attributed assertions only; unresolved question obligations remain explicit and historical truth is unverified.",
+        "category": "source_support_established",
+        "corpus_answerability": "not_established",
+        "next_steps": [
+          "Review the diagnostic and source evidence before retrying."
+        ]
+      },
+      "code_sha256": {
+        "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+        "__main__.py": "6b08b036aad956ce62e854e736939c4fb51bce7b3b71ee4a5b69839a07e1d460",
+        "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+        "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+        "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+        "documentary.py": "a23c38a041daf84cce40a59d479a29db63035807dc4c4431fdd738728b27aecc",
+        "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+        "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+        "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+        "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+        "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+        "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+        "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+        "local_narrator.py": "ab096ad599391f950e3e6fd026acc3f7572c69ac6c3c3189deec0bd9805cac36",
+        "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+        "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+        "passage_admission.py": "1c54ae6f933a1d841697ed4784a04aefa6cbc4e3e1cbc32c532ec3b0d70f98e7",
+        "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+        "pipeline.py": "cd0c166aeb4b58c80cd879cf6ecd390b3e8e66abbf4a5d4084abc17fb66c8e95",
+        "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+        "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+        "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+        "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+        "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+        "source_projection.py": "bf5d84912616e75c3fe3deb038325348f2f2ccb2ae210315cd8605798cf48c16",
+        "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+        "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+      },
+      "documentary_support": {
+        "schema": "documentary-composition-v1",
+        "original_question": "Who wrote the Injury memorandum?",
+        "profile": "lab",
+        "obligations": [
+          {
+            "question": "Who wrote the Injury memorandum",
+            "kind": "who_action",
+            "status": "supported_source_assertion",
+            "evidence_proof_sha256": [
+              "sha256:f3aebae548fe327c336838feebe16869c230e535293555b63967b53b550d2f42"
+            ],
+            "evidence_claim_indices": [
+              0
+            ],
+            "unadmitted_witness_candidate_count": 0,
+            "undisplayed_evidence_count": 0,
+            "unadmitted_candidates_verified": false
+          }
+        ],
+        "source_support_claims": 1,
+        "historical_truth_independently_verified": false,
+        "admission": {
+          "schema": "reader-witness-admission-v1",
+          "max_passages": 12,
+          "max_characters": 8000,
+          "passages_admitted": 3,
+          "characters_admitted": 106,
+          "deduplication": "Exact source ID/path/hash/half-open span; different revisions and distinct nested spans remain distinct.",
+          "duplicate_span_charges_avoided": 1,
+          "admitted": [
+            {
+              "source_id": "DOC-3",
+              "path": "doc-3.html",
+              "hash": "sha256:3f9ab5423b6aaf12700590de78ee413797c1d805879122790804631286b93318",
+              "body_start": 0,
+              "body_end": 33,
+              "start": 0,
+              "end": 33,
+              "quote": "Tess wrote the Injury memorandum.",
+              "body_projection": "body-text-no-headings-v1",
+              "reader_roles": [
+                "native_rule_candidates_for_question_parts:0",
+                "verified_question_evidence_or_counterevidence"
+              ]
+            },
+            {
+              "source_id": "DOC-1",
+              "path": "doc-1.html",
+              "hash": "sha256:82fa82e6532f7157d5a2969d87eb5b92faaa8ed519b8dfdd0ff8ad64ad27ab20",
+              "body_start": 0,
+              "body_end": 36,
+              "start": 0,
+              "end": 36,
+              "quote": "Ivo wrote the Video game memorandum.",
+              "body_projection": "body-text-no-headings-v1",
+              "reader_roles": [
+                "native_rule_candidates_for_question_parts:0"
+              ]
+            },
+            {
+              "source_id": "DOC-2",
+              "path": "doc-2.html",
+              "hash": "sha256:24abed8f2f81017f6181d3358ebc9f078a83db4f657a75765c268c24a8608731",
+              "body_start": 0,
+              "body_end": 37,
+              "start": 0,
+              "end": 37,
+              "quote": "Mara wrote the Video game memorandum.",
+              "body_projection": "body-text-no-headings-v1",
+              "reader_roles": [
+                "native_rule_candidates_for_question_parts:0"
+              ]
+            }
+          ],
+          "blocked": [],
+          "review_only_hints": [],
+          "review_only_hint_count": 0,
+          "search_only_hints_admitted": 0,
+          "relevant_counterevidence_did_not_fit": false,
+          "reader_witness_discovery": {
+            "rule": null,
+            "body_prefix_characters": 0,
+            "pair_attempts": 0,
+            "max_body_prefix_characters": 192000,
+            "max_pair_attempts": 32
+          },
+          "sorter_assigns_slots": false,
+          "historical_truth_verified": false
+        },
+        "composition_rule": "Conjunction of independently checked source assertions; no person/event co-reference inferred.",
+        "historical_conflict_verified": false,
+        "event_coreference_established": false,
+        "contrary_evidence_scan_complete": true,
+        "scan_scope": "Finite literal action assertions; request occurrence/correction/execution not certified.",
+        "examined_characters": 149,
+        "examined_units": 4,
+        "limits_reached": [],
+        "limits": {
+          "max_proposals": 12,
+          "max_scan_characters": 200000,
+          "max_units": 1000,
+          "max_assertions": 64
+        },
+        "rejected_proposals": [],
+        "context_limits": [],
+        "comparison_completion_scope": null,
+        "question_completion_scope": null,
+        "alternative_evidence": [],
+        "unshown_alternative_evidence_count": 0,
+        "retrieval_limits": {
+          "max_passages": 12,
+          "max_characters": 8000
+        }
+      },
+      "passage_budget": {
+        "max_passages": 12,
+        "max_characters": 8000,
+        "distinct_citation_spans": 1,
+        "citation_characters": 33,
+        "blocked_atomic_claims": 0,
+        "deduplicated_before_charge": true
+      },
+      "source_assurance": {
+        "basis": "source_attributed_only",
+        "outside_world_confirmation_required": true,
+        "outside_world_truth": "not_established",
+        "authorship_authenticated": false,
+        "independence_verified": false,
+        "declared_evidence_root_count": 1,
+        "single_declared_root": true,
+        "notice": "Source support establishes what eligible ledger pages state. Outside-world confirmation is required before treating those statements as historical truth. MPLPB cannot detect a coherent false original without contrary evidence, authenticate arbitrary testimony, or establish general historical reconstruction from source integrity alone."
+      }
+    },
+    "page": {
+      "id": "DOC-3",
+      "path": "doc-3.html",
+      "hash": "sha256:3f9ab5423b6aaf12700590de78ee413797c1d805879122790804631286b93318",
+      "title": "Injury memorandum",
+      "text": "Tess wrote the Injury memorandum.",
+      "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified."
+    },
+    "competing_sources": [
+      {
+        "id": "DOC-3",
+        "path": "doc-3.html",
+        "hash": "sha256:3f9ab5423b6aaf12700590de78ee413797c1d805879122790804631286b93318",
+        "title": "Injury memorandum",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified."
+      }
+    ],
+    "native_kind": "return",
+    "reason": "exactly one current page owns this question by declared scope"
+  },
+  "processed_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:9b5da7cecf74d0c807c1be9a8355ba5e622d18d898be9f03cb2035c7b95ad4db",
+      "occurrence_id": "node:01e84509c5f893a7ea69746b5abed06416a299511f57e67e228697be2de7fc43",
+      "span": {
+        "source_id": "source:911e5ec6ee3d8e45bff5d24a194833ecfc2b656d2d1cec78921e4e9b849a70bb",
+        "source_sha256": "sha256:be1d48119338d64fada3d6d6709a78fdba910cbf0a911305cf41d94b82403784",
+        "path": "topic-02-mail.txt",
+        "char_start": 0,
+        "char_end": 41,
+        "byte_start": 0,
+        "byte_end": 41,
+        "text": "Tess did not write the Injury memorandum."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "candidate_links_for_review"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:efca5b93f8f72c960b076881a2776d83715f9ad33dda1a686b141afbcbd004eb",
+      "occurrence_id": "node:941c080884e1cca4e3b740b6a625df0435aae27f9a88931ec03b89d137e8729e",
+      "span": {
+        "source_id": "source:074e1ff143ccf5b9f3d404a20923151a5da7fa906e843a37d08f59f4627633f8",
+        "source_sha256": "sha256:8fd2e33fd65326dbbcfb4fb07e6ab6ed3ad464ae48ffdde72905aca013e33457",
+        "path": "topic-01-copy.text",
+        "char_start": 0,
+        "char_end": 36,
+        "byte_start": 0,
+        "byte_end": 36,
+        "text": "Ivo wrote the Video game memorandum."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "candidate_links_for_review"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:9c63c59e6440b16bf1aa0ce4193a8ca907855483204a291dca282984c77b7204",
+      "occurrence_id": "node:bc7edb2f60a5259dcd3dc59b35b5103c5520626644c7e1517d2899432c9f7558",
+      "span": {
+        "source_id": "source:6a05cdc58528f20209a9a9e0aee8293d9ab4cc568fb26eae5322710c8b6f19dc",
+        "source_sha256": "sha256:c27a2ac3608c0bf03df7881261e36ceeff7f8c586b0c57e10e1a9c696e40eeda",
+        "path": "topic-02-copy.md",
+        "char_start": 0,
+        "char_end": 33,
+        "byte_start": 0,
+        "byte_end": 33,
+        "text": "Tess wrote the Injury memorandum."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "candidate_links_for_review"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:de3a2cd565331d62b5b1c8485cf92e0c3adcf2062f09ff245f02ed6328ce1602",
+      "occurrence_id": "node:1aaea03ed3c1ffbfef384c8c947cc408fd6264b9fcb416d9a4be0c1b6f7ab83b",
+      "span": {
+        "source_id": "source:b152613cfa9590064f221a972a53dc38c352f2fc56a0f7f61305c5946745b2d7",
+        "source_sha256": "sha256:d6044eae2e43a7922cbf86b56eb94fcf6670ba9bc493eb58d4a7c5073173beda",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 24,
+        "char_end": 30,
+        "byte_start": 24,
+        "byte_end": 30,
+        "text": "Injury"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "candidate_links_for_review"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:7d4ef08e646c0a68029c4e931b560745bde6df9dd2131126e7c9e7099e72e353",
+      "occurrence_id": "node:b0aa06f827560a7cd66a913871b059dc29111701a6d16923272c1ff4b1737560",
+      "span": {
+        "source_id": "source:f75cf8e6ecc5763e02473af3a20dafa5163d8136a483b48002ee709951ede655",
+        "source_sha256": "sha256:b8f787b7137bac16b5a678b30bdb20db0d1fec6795ec5cdcc12738bc2868958f",
+        "path": "topic-04-copy.markdown",
+        "char_start": 0,
+        "char_end": 35,
+        "byte_start": 0,
+        "byte_end": 35,
+        "text": "Nora wrote the Hospital memorandum."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:f42b42dc938a4dde069e0389d357a3b07c9114a11065ad5eb1586254dd87d3bd",
+      "occurrence_id": "node:1aaea03ed3c1ffbfef384c8c947cc408fd6264b9fcb416d9a4be0c1b6f7ab83b",
+      "span": {
+        "source_id": "source:b152613cfa9590064f221a972a53dc38c352f2fc56a0f7f61305c5946745b2d7",
+        "source_sha256": "sha256:d6044eae2e43a7922cbf86b56eb94fcf6670ba9bc493eb58d4a7c5073173beda",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 32,
+        "char_end": 68,
+        "byte_start": 32,
+        "byte_end": 68,
+        "text": "https://en.wikipedia.org/wiki/Injury"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "candidates": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "id": "sha256:a125c681d4bb1c90705d14d18a8bc641f9d199f7635d60cebf1d14a748d3dc90",
+      "kind": "conflicting_wording",
+      "processed": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:9b5da7cecf74d0c807c1be9a8355ba5e622d18d898be9f03cb2035c7b95ad4db",
+        "occurrence_id": "node:01e84509c5f893a7ea69746b5abed06416a299511f57e67e228697be2de7fc43",
+        "span": {
+          "source_id": "source:911e5ec6ee3d8e45bff5d24a194833ecfc2b656d2d1cec78921e4e9b849a70bb",
+          "source_sha256": "sha256:be1d48119338d64fada3d6d6709a78fdba910cbf0a911305cf41d94b82403784",
+          "path": "topic-02-mail.txt",
+          "char_start": 0,
+          "char_end": 41,
+          "byte_start": 0,
+          "byte_end": 41,
+          "text": "Tess did not write the Injury memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "original": {
+        "source_id": "DOC-3",
+        "path": "doc-3.html",
+        "hash": "sha256:3f9ab5423b6aaf12700590de78ee413797c1d805879122790804631286b93318",
+        "body_start": 0,
+        "body_end": 33,
+        "quote": "Tess wrote the Injury memorandum.",
+        "native_original_sha256": "sha256:7e6b811fdfa9f9d593fcb571bcd40dbf8374916a6389f449ccc583979ccd502e",
+        "byte_start": 582,
+        "byte_end": 615,
+        "raw_excerpt": "Tess wrote the Injury memorandum.",
+        "raw_excerpt_sha256": "sha256:c27a2ac3608c0bf03df7881261e36ceeff7f8c586b0c57e10e1a9c696e40eeda",
+        "byte_coordinate_basis": "Native original page UTF-8; external acquisition mapping, if any, remains separate.",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified.",
+        "approval_status": "eligible_original",
+        "profile": "lab",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "round_trip_quote_fidelity": true
+      },
+      "why": "Existing finite action grammar finds opposing polarity for the same literal actor/action/object. Event identity and truth remain unresolved.",
+      "identity": "unresolved",
+      "chronology": "unresolved",
+      "causation": "unresolved",
+      "correction_status": "unresolved"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "id": "sha256:00d5a6d1fe047c287cfb21673e696eaaee12c776e1230948207fcdbb3273b094",
+      "kind": "exact_match",
+      "processed": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:efca5b93f8f72c960b076881a2776d83715f9ad33dda1a686b141afbcbd004eb",
+        "occurrence_id": "node:941c080884e1cca4e3b740b6a625df0435aae27f9a88931ec03b89d137e8729e",
+        "span": {
+          "source_id": "source:074e1ff143ccf5b9f3d404a20923151a5da7fa906e843a37d08f59f4627633f8",
+          "source_sha256": "sha256:8fd2e33fd65326dbbcfb4fb07e6ab6ed3ad464ae48ffdde72905aca013e33457",
+          "path": "topic-01-copy.text",
+          "char_start": 0,
+          "char_end": 36,
+          "byte_start": 0,
+          "byte_end": 36,
+          "text": "Ivo wrote the Video game memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "original": {
+        "source_id": "DOC-1",
+        "path": "doc-1.html",
+        "hash": "sha256:82fa82e6532f7157d5a2969d87eb5b92faaa8ed519b8dfdd0ff8ad64ad27ab20",
+        "body_start": 0,
+        "body_end": 36,
+        "quote": "Ivo wrote the Video game memorandum.",
+        "native_original_sha256": "sha256:659f90380a8dfbfc2aac146833f2da037fb6e446d3ac2070eda6894bb5cb2a64",
+        "byte_start": 594,
+        "byte_end": 630,
+        "raw_excerpt": "Ivo wrote the Video game memorandum.",
+        "raw_excerpt_sha256": "sha256:8fd2e33fd65326dbbcfb4fb07e6ab6ed3ad464ae48ffdde72905aca013e33457",
+        "byte_coordinate_basis": "Native original page UTF-8; external acquisition mapping, if any, remains separate.",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified.",
+        "approval_status": "eligible_original",
+        "profile": "lab",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "round_trip_quote_fidelity": true
+      },
+      "why": "The complete processed wording occurs literally in this eligible original; approval does not transfer.",
+      "identity": "unresolved",
+      "chronology": "unresolved",
+      "causation": "unresolved",
+      "correction_status": "unresolved"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "id": "sha256:b6b184980dd94c0451c44f7853ec45dc01d335cbc3c88e8d74a82bc14abf63b2",
+      "kind": "exact_match",
+      "processed": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:9c63c59e6440b16bf1aa0ce4193a8ca907855483204a291dca282984c77b7204",
+        "occurrence_id": "node:bc7edb2f60a5259dcd3dc59b35b5103c5520626644c7e1517d2899432c9f7558",
+        "span": {
+          "source_id": "source:6a05cdc58528f20209a9a9e0aee8293d9ab4cc568fb26eae5322710c8b6f19dc",
+          "source_sha256": "sha256:c27a2ac3608c0bf03df7881261e36ceeff7f8c586b0c57e10e1a9c696e40eeda",
+          "path": "topic-02-copy.md",
+          "char_start": 0,
+          "char_end": 33,
+          "byte_start": 0,
+          "byte_end": 33,
+          "text": "Tess wrote the Injury memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "original": {
+        "source_id": "DOC-3",
+        "path": "doc-3.html",
+        "hash": "sha256:3f9ab5423b6aaf12700590de78ee413797c1d805879122790804631286b93318",
+        "body_start": 0,
+        "body_end": 33,
+        "quote": "Tess wrote the Injury memorandum.",
+        "native_original_sha256": "sha256:7e6b811fdfa9f9d593fcb571bcd40dbf8374916a6389f449ccc583979ccd502e",
+        "byte_start": 582,
+        "byte_end": 615,
+        "raw_excerpt": "Tess wrote the Injury memorandum.",
+        "raw_excerpt_sha256": "sha256:c27a2ac3608c0bf03df7881261e36ceeff7f8c586b0c57e10e1a9c696e40eeda",
+        "byte_coordinate_basis": "Native original page UTF-8; external acquisition mapping, if any, remains separate.",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified.",
+        "approval_status": "eligible_original",
+        "profile": "lab",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "round_trip_quote_fidelity": true
+      },
+      "why": "The complete processed wording occurs literally in this eligible original; approval does not transfer.",
+      "identity": "unresolved",
+      "chronology": "unresolved",
+      "causation": "unresolved",
+      "correction_status": "unresolved"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "id": "sha256:59f85e83d8ce9791e4b63059bce12fa29cb0be1bc462ca5e38492508523a7e67",
+      "kind": "exact_match",
+      "processed": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:de3a2cd565331d62b5b1c8485cf92e0c3adcf2062f09ff245f02ed6328ce1602",
+        "occurrence_id": "node:1aaea03ed3c1ffbfef384c8c947cc408fd6264b9fcb416d9a4be0c1b6f7ab83b",
+        "span": {
+          "source_id": "source:b152613cfa9590064f221a972a53dc38c352f2fc56a0f7f61305c5946745b2d7",
+          "source_sha256": "sha256:d6044eae2e43a7922cbf86b56eb94fcf6670ba9bc493eb58d4a7c5073173beda",
+          "path": "topic-02-web-pointer.md",
+          "char_start": 24,
+          "char_end": 30,
+          "byte_start": 24,
+          "byte_end": 30,
+          "text": "Injury"
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "original": {
+        "source_id": "DOC-3",
+        "path": "doc-3.html",
+        "hash": "sha256:3f9ab5423b6aaf12700590de78ee413797c1d805879122790804631286b93318",
+        "body_start": 0,
+        "body_end": 33,
+        "quote": "Tess wrote the Injury memorandum.",
+        "native_original_sha256": "sha256:7e6b811fdfa9f9d593fcb571bcd40dbf8374916a6389f449ccc583979ccd502e",
+        "byte_start": 582,
+        "byte_end": 615,
+        "raw_excerpt": "Tess wrote the Injury memorandum.",
+        "raw_excerpt_sha256": "sha256:c27a2ac3608c0bf03df7881261e36ceeff7f8c586b0c57e10e1a9c696e40eeda",
+        "byte_coordinate_basis": "Native original page UTF-8; external acquisition mapping, if any, remains separate.",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified.",
+        "approval_status": "eligible_original",
+        "profile": "lab",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "round_trip_quote_fidelity": true
+      },
+      "why": "The complete processed wording occurs literally in this eligible original; approval does not transfer.",
+      "identity": "unresolved",
+      "chronology": "unresolved",
+      "causation": "unresolved",
+      "correction_status": "unresolved"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "id": "sha256:39688392d6df8771aedad13a666bb30b94cfacfb19a63af105be3b4261f1dfad",
+      "kind": "shared_wording_review",
+      "processed": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:efca5b93f8f72c960b076881a2776d83715f9ad33dda1a686b141afbcbd004eb",
+        "occurrence_id": "node:941c080884e1cca4e3b740b6a625df0435aae27f9a88931ec03b89d137e8729e",
+        "span": {
+          "source_id": "source:074e1ff143ccf5b9f3d404a20923151a5da7fa906e843a37d08f59f4627633f8",
+          "source_sha256": "sha256:8fd2e33fd65326dbbcfb4fb07e6ab6ed3ad464ae48ffdde72905aca013e33457",
+          "path": "topic-01-copy.text",
+          "char_start": 0,
+          "char_end": 36,
+          "byte_start": 0,
+          "byte_end": 36,
+          "text": "Ivo wrote the Video game memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "original": {
+        "source_id": "DOC-2",
+        "path": "doc-2.html",
+        "hash": "sha256:24abed8f2f81017f6181d3358ebc9f078a83db4f657a75765c268c24a8608731",
+        "body_start": 0,
+        "body_end": 37,
+        "quote": "Mara wrote the Video game memorandum.",
+        "native_original_sha256": "sha256:80c4ea6cdebc5474466368b978c8fc593d97cc0386bb9171df4765a90066250d",
+        "byte_start": 594,
+        "byte_end": 631,
+        "raw_excerpt": "Mara wrote the Video game memorandum.",
+        "raw_excerpt_sha256": "sha256:081af17752fd2bd517e2962fce428b34eb7793552a59ab0d3cddd1bfecc76c13",
+        "byte_coordinate_basis": "Native original page UTF-8; external acquisition mapping, if any, remains separate.",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified.",
+        "approval_status": "eligible_original",
+        "profile": "lab",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "round_trip_quote_fidelity": true
+      },
+      "why": "Existing sorter four-word phrase evidence: ['the video game memorandum', 'wrote the video game']. Lexical tokens only; identity, chronology, causation and correction are unresolved.",
+      "identity": "unresolved",
+      "chronology": "unresolved",
+      "causation": "unresolved",
+      "correction_status": "unresolved"
+    }
+  ],
+  "processed_disagreements": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "kind": "conflicting_wording",
+      "left": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:9b5da7cecf74d0c807c1be9a8355ba5e622d18d898be9f03cb2035c7b95ad4db",
+        "occurrence_id": "node:01e84509c5f893a7ea69746b5abed06416a299511f57e67e228697be2de7fc43",
+        "span": {
+          "source_id": "source:911e5ec6ee3d8e45bff5d24a194833ecfc2b656d2d1cec78921e4e9b849a70bb",
+          "source_sha256": "sha256:be1d48119338d64fada3d6d6709a78fdba910cbf0a911305cf41d94b82403784",
+          "path": "topic-02-mail.txt",
+          "char_start": 0,
+          "char_end": 41,
+          "byte_start": 0,
+          "byte_end": 41,
+          "text": "Tess did not write the Injury memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "right": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:9c63c59e6440b16bf1aa0ce4193a8ca907855483204a291dca282984c77b7204",
+        "occurrence_id": "node:bc7edb2f60a5259dcd3dc59b35b5103c5520626644c7e1517d2899432c9f7558",
+        "span": {
+          "source_id": "source:6a05cdc58528f20209a9a9e0aee8293d9ab4cc568fb26eae5322710c8b6f19dc",
+          "source_sha256": "sha256:c27a2ac3608c0bf03df7881261e36ceeff7f8c586b0c57e10e1a9c696e40eeda",
+          "path": "topic-02-copy.md",
+          "char_start": 0,
+          "char_end": 33,
+          "byte_start": 0,
+          "byte_end": 33,
+          "text": "Tess wrote the Injury memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "why": "Existing finite action grammar finds opposing polarity for the same literal actor/action/object. Event identity and truth remain unresolved."
+    }
+  ],
+  "unresolved_references": [],
+  "unmatched_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:7d4ef08e646c0a68029c4e931b560745bde6df9dd2131126e7c9e7099e72e353",
+      "occurrence_id": "node:b0aa06f827560a7cd66a913871b059dc29111701a6d16923272c1ff4b1737560",
+      "span": {
+        "source_id": "source:f75cf8e6ecc5763e02473af3a20dafa5163d8136a483b48002ee709951ede655",
+        "source_sha256": "sha256:b8f787b7137bac16b5a678b30bdb20db0d1fec6795ec5cdcc12738bc2868958f",
+        "path": "topic-04-copy.markdown",
+        "char_start": 0,
+        "char_end": 35,
+        "byte_start": 0,
+        "byte_end": 35,
+        "text": "Nora wrote the Hospital memorandum."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:f42b42dc938a4dde069e0389d357a3b07c9114a11065ad5eb1586254dd87d3bd",
+      "occurrence_id": "node:1aaea03ed3c1ffbfef384c8c947cc408fd6264b9fcb416d9a4be0c1b6f7ab83b",
+      "span": {
+        "source_id": "source:b152613cfa9590064f221a972a53dc38c352f2fc56a0f7f61305c5946745b2d7",
+        "source_sha256": "sha256:d6044eae2e43a7922cbf86b56eb94fcf6670ba9bc493eb58d4a7c5073173beda",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 32,
+        "char_end": 68,
+        "byte_start": 32,
+        "byte_end": 68,
+        "text": "https://en.wikipedia.org/wiki/Injury"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "exploration_budget": {
+    "max_passages": 12,
+    "max_characters": 16000,
+    "unique_spans": 9,
+    "characters": 293,
+    "omitted_items": 0,
+    "display_truncated": false,
+    "search_truncated": false,
+    "original_discovery_passage_limit": 64,
+    "original_discovery_character_limit": 64000,
+    "original_passages_considered": 4,
+    "processed_passages_considered": 6,
+    "original_pairs_examined": 24,
+    "processed_pairs_examined": 15,
+    "strict_slots_consumed": 0,
+    "phrase_token_limit_per_statement": 256
+  },
+  "strict_budget": {
+    "max_passages": 12,
+    "max_characters": 8000,
+    "evaluated": true,
+    "truncated": false
+  },
+  "limits_notice": "Unshown/unmatched items remain in the separately pinned sorter graph. No missing match or silence proves absence.",
+  "source_authority_changed": false,
+  "ownership_changed": false,
+  "workspace_sha256": "sha256:601d2aa51d9c0b903d6f58517bb22657ac4c8f6603fee073ca0b3b22e1e701a1"
+}

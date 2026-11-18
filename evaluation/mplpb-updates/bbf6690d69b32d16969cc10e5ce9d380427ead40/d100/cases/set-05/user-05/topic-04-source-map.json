@@ -1,0 +1,733 @@
+{
+  "approved": [
+    {
+      "id": "DOC-1",
+      "dump_path": "dump/approved/DOC-1.txt",
+      "sha256": "fff62728d6df2e75e307fdcf048d3af68772f2bdd2022f7d2423fbce01986dfc",
+      "ledger_path": "doc-1.html",
+      "ledger_sha256": "08ebd1705069ac23adf01bb46073f0419d9aeab4444386b18478c733b155f7aa",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-2",
+      "dump_path": "dump/approved/DOC-2.txt",
+      "sha256": "874347529a768dda1278bc270ba654c00dd5de37c33566c26c2b3344186b5637",
+      "ledger_path": "doc-2.html",
+      "ledger_sha256": "18671c1bf9791ecd850ed0d4a92996fdb691d0f9891ce6d00b59c2508daeb3e0",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-3",
+      "dump_path": "dump/approved/DOC-3.txt",
+      "sha256": "9e7bea6e46d646740bb3f1086781b98fd1271d9cc9cab4ad26c95fe383aa8ffa",
+      "ledger_path": "doc-3.html",
+      "ledger_sha256": "8ab6453701e0668aa3b5be0067fbc5ac3e85e27e89a918ff63fc56a0f402e5f5",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-4",
+      "dump_path": "dump/approved/DOC-4.txt",
+      "sha256": "9df54c269c28e86723b46b86d4fa10c4e70f4f1b58b4ee4a87af2c3308ce43a8",
+      "ledger_path": "doc-4.html",
+      "ledger_sha256": "8dcc3f70afe3566a1e85035db4d27b64ae9a6ae52a5b1e53d14fe33d9cb213e0",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    }
+  ],
+  "processed": [
+    {
+      "path": "collection-notes.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "8073e2b43a954960e2ac5ad6e9f21b349b5f92a9c737e3ff0613dc8032bcff77",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:8e09260853f66e20297e1eee463396a70d5d9cde309349991326d84e576ac019",
+        "path": "collection-notes.md",
+        "raw_sha256": "sha256:8073e2b43a954960e2ac5ad6e9f21b349b5f92a9c737e3ff0613dc8032bcff77",
+        "bytes": 61,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:3ddd913c91bd6448bc442187648c610492d00658b1ff65d7c0df9dab541f4b3a",
+          "occurrence_id": "node:298708e3dfbf90b2d9f799be3be23459c22166159acdd9e28757076afd10457c",
+          "span": {
+            "source_id": "source:8e09260853f66e20297e1eee463396a70d5d9cde309349991326d84e576ac019",
+            "source_sha256": "sha256:8073e2b43a954960e2ac5ad6e9f21b349b5f92a9c737e3ff0613dc8032bcff77",
+            "path": "collection-notes.md",
+            "char_start": 0,
+            "char_end": 9,
+            "byte_start": 0,
+            "byte_end": 9,
+            "text": "# Handoff"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:dfd79f311148d6e8ce0bab0dffb17968f65d9078b2f8cf92109effd020094159",
+          "occurrence_id": "node:298708e3dfbf90b2d9f799be3be23459c22166159acdd9e28757076afd10457c",
+          "span": {
+            "source_id": "source:8e09260853f66e20297e1eee463396a70d5d9cde309349991326d84e576ac019",
+            "source_sha256": "sha256:8073e2b43a954960e2ac5ad6e9f21b349b5f92a9c737e3ff0613dc8032bcff77",
+            "path": "collection-notes.md",
+            "char_start": 11,
+            "char_end": 61,
+            "byte_start": 11,
+            "byte_end": 61,
+            "text": "> Review begins after the next maintenance window."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "index.csv",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "af2c153e24c8497ba212794a9a9e0b65233ee56b8bcbd97e47bcfeb56ff0e585",
+      "sorter_status": "excluded",
+      "sorter_source": null,
+      "statements": []
+    },
+    {
+      "path": "topic-01-copy.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "f19dc40ca5bd134e6fc1d88146a317b8274cdb0ffb89f2919e9bd0f6ca995e53",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:39e50efd69097cc327d47213b4aaba28fbd0927cfe362e19648906d7fa5b64f4",
+        "path": "topic-01-copy.md",
+        "raw_sha256": "sha256:f19dc40ca5bd134e6fc1d88146a317b8274cdb0ffb89f2919e9bd0f6ca995e53",
+        "bytes": 29,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:782babaae1b0e820b453749848d5d29524362608bb2caff85e18999f57120c08",
+          "occurrence_id": "node:601e5fd270117428feefe19352f16c4eda3494ebdb1ef1470d153b04de62a54f",
+          "span": {
+            "source_id": "source:39e50efd69097cc327d47213b4aaba28fbd0927cfe362e19648906d7fa5b64f4",
+            "source_sha256": "sha256:f19dc40ca5bd134e6fc1d88146a317b8274cdb0ffb89f2919e9bd0f6ca995e53",
+            "path": "topic-01-copy.md",
+            "char_start": 0,
+            "char_end": 29,
+            "byte_start": 0,
+            "byte_end": 29,
+            "text": "Mara studied History of Asia."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-01-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "48f403073c9731aca547ff5c711a6da5f0b3b5478462cf94961209f424e1e7ec",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:393df38c1c15406dd92ff55c2a11a8d3a007a80647be6b9816cb44104d90e7fb",
+        "path": "topic-01-web-pointer.md",
+        "raw_sha256": "sha256:48f403073c9731aca547ff5c711a6da5f0b3b5478462cf94961209f424e1e7ec",
+        "bytes": 148,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:fdc3a642a09e6445629337135cdf826931ab504238c7d137f0d7ce006c6f9f17",
+          "occurrence_id": "node:5ea56b8c3e9d445ccb43cde7ce5f8db80acd6e6c315f096d6ea0ae152f14cedf",
+          "span": {
+            "source_id": "source:393df38c1c15406dd92ff55c2a11a8d3a007a80647be6b9816cb44104d90e7fb",
+            "source_sha256": "sha256:48f403073c9731aca547ff5c711a6da5f0b3b5478462cf94961209f424e1e7ec",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:4c00e43d7872e6cbced1dfc61a7c543dd17c3aa34ffc33de9c81d12acafb0483",
+          "occurrence_id": "node:5ea56b8c3e9d445ccb43cde7ce5f8db80acd6e6c315f096d6ea0ae152f14cedf",
+          "span": {
+            "source_id": "source:393df38c1c15406dd92ff55c2a11a8d3a007a80647be6b9816cb44104d90e7fb",
+            "source_sha256": "sha256:48f403073c9731aca547ff5c711a6da5f0b3b5478462cf94961209f424e1e7ec",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 24,
+            "char_end": 39,
+            "byte_start": 24,
+            "byte_end": 39,
+            "text": "History of Asia"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:544e93a42c38838beb3dd30eaf24fc8cf77c5813abaa20b4654dd64df347b4e8",
+          "occurrence_id": "node:5ea56b8c3e9d445ccb43cde7ce5f8db80acd6e6c315f096d6ea0ae152f14cedf",
+          "span": {
+            "source_id": "source:393df38c1c15406dd92ff55c2a11a8d3a007a80647be6b9816cb44104d90e7fb",
+            "source_sha256": "sha256:48f403073c9731aca547ff5c711a6da5f0b3b5478462cf94961209f424e1e7ec",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 41,
+            "char_end": 86,
+            "byte_start": 41,
+            "byte_end": 86,
+            "text": "https://en.wikipedia.org/wiki/History_of_Asia"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:54c67596acf3906035ea0962fec522a3896ab8698b397b9d0067f886b9577f00",
+          "occurrence_id": "node:5ea56b8c3e9d445ccb43cde7ce5f8db80acd6e6c315f096d6ea0ae152f14cedf",
+          "span": {
+            "source_id": "source:393df38c1c15406dd92ff55c2a11a8d3a007a80647be6b9816cb44104d90e7fb",
+            "source_sha256": "sha256:48f403073c9731aca547ff5c711a6da5f0b3b5478462cf94961209f424e1e7ec",
+            "path": "topic-01-web-pointer.md",
+            "char_start": 88,
+            "char_end": 148,
+            "byte_start": 88,
+            "byte_end": 148,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-copy.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "e1014750e3249efbb1a1d4fb3a04b19bad91df93d010f4b65bee08c7ce08a469",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:c6b6b847fb767b387a90cc5f038c60d11b38a56c7bb581f8847324c46e7a09e1",
+        "path": "topic-02-copy.md",
+        "raw_sha256": "sha256:e1014750e3249efbb1a1d4fb3a04b19bad91df93d010f4b65bee08c7ce08a469",
+        "bytes": 35,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:413a0d9e2191e07f20a9fa5ce127869cb12944dece3c1d9cca49c3616cb1c720",
+          "occurrence_id": "node:0e5d299ba89c50e83b20489bca078c5456977822ec9bee18dbeb6d479c30a123",
+          "span": {
+            "source_id": "source:c6b6b847fb767b387a90cc5f038c60d11b38a56c7bb581f8847324c46e7a09e1",
+            "source_sha256": "sha256:e1014750e3249efbb1a1d4fb3a04b19bad91df93d010f4b65bee08c7ce08a469",
+            "path": "topic-02-copy.md",
+            "char_start": 0,
+            "char_end": 35,
+            "byte_start": 0,
+            "byte_end": 35,
+            "text": "Tess wrote the Painting memorandum."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-02-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "4e9651013274140a00b34704f1ad28476a09be4f8924e5ce7e9ac379ffdbdaee",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:a27fe2ebe4d3a1b11967995fe8452fd07ed6c6ad08718625a695865473587df3",
+        "path": "topic-02-web-pointer.md",
+        "raw_sha256": "sha256:4e9651013274140a00b34704f1ad28476a09be4f8924e5ce7e9ac379ffdbdaee",
+        "bytes": 134,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:0ae5701c7b2d489fb0d3224c2b62f21aaee2968793f615eb3b9aeafa24acad66",
+          "occurrence_id": "node:66a7f328a32e331ad9a03df523f57693ceff0f1bbc1a8cb93402dd9ce32294d2",
+          "span": {
+            "source_id": "source:a27fe2ebe4d3a1b11967995fe8452fd07ed6c6ad08718625a695865473587df3",
+            "source_sha256": "sha256:4e9651013274140a00b34704f1ad28476a09be4f8924e5ce7e9ac379ffdbdaee",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:24f8b5f7a1c9a5b4038c3e5486589333421f38c90a3a5817c425839b4b9be7ac",
+          "occurrence_id": "node:66a7f328a32e331ad9a03df523f57693ceff0f1bbc1a8cb93402dd9ce32294d2",
+          "span": {
+            "source_id": "source:a27fe2ebe4d3a1b11967995fe8452fd07ed6c6ad08718625a695865473587df3",
+            "source_sha256": "sha256:4e9651013274140a00b34704f1ad28476a09be4f8924e5ce7e9ac379ffdbdaee",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 24,
+            "char_end": 32,
+            "byte_start": 24,
+            "byte_end": 32,
+            "text": "Painting"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:c7376f66be9c2886b71e3044232d743da735529462daebe936433d80fceb0300",
+          "occurrence_id": "node:66a7f328a32e331ad9a03df523f57693ceff0f1bbc1a8cb93402dd9ce32294d2",
+          "span": {
+            "source_id": "source:a27fe2ebe4d3a1b11967995fe8452fd07ed6c6ad08718625a695865473587df3",
+            "source_sha256": "sha256:4e9651013274140a00b34704f1ad28476a09be4f8924e5ce7e9ac379ffdbdaee",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 34,
+            "char_end": 72,
+            "byte_start": 34,
+            "byte_end": 72,
+            "text": "https://en.wikipedia.org/wiki/Painting"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:1eeaf564fa0924bb74a007643badb98e8d276836020d066cac1b8307c354852c",
+          "occurrence_id": "node:66a7f328a32e331ad9a03df523f57693ceff0f1bbc1a8cb93402dd9ce32294d2",
+          "span": {
+            "source_id": "source:a27fe2ebe4d3a1b11967995fe8452fd07ed6c6ad08718625a695865473587df3",
+            "source_sha256": "sha256:4e9651013274140a00b34704f1ad28476a09be4f8924e5ce7e9ac379ffdbdaee",
+            "path": "topic-02-web-pointer.md",
+            "char_start": 74,
+            "char_end": 134,
+            "byte_start": 74,
+            "byte_end": 134,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-copy.text",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "874347529a768dda1278bc270ba654c00dd5de37c33566c26c2b3344186b5637",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:2d175977eb7e2ea7d80bb038e359381ac0904b263bc495a304ffc9168d54e28a",
+        "path": "topic-03-copy.text",
+        "raw_sha256": "sha256:874347529a768dda1278bc270ba654c00dd5de37c33566c26c2b3344186b5637",
+        "bytes": 30,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:e676388f9e14c545b67176ded0d98aae47fc274fd20828ff99e406db8056e3a2",
+          "occurrence_id": "node:7e69a5b7c3c7dce4d417d0c95133e64732034608293e1cd2ad01fe56fa163d0c",
+          "span": {
+            "source_id": "source:2d175977eb7e2ea7d80bb038e359381ac0904b263bc495a304ffc9168d54e28a",
+            "source_sha256": "sha256:874347529a768dda1278bc270ba654c00dd5de37c33566c26c2b3344186b5637",
+            "path": "topic-03-copy.text",
+            "char_start": 0,
+            "char_end": 30,
+            "byte_start": 0,
+            "byte_end": 30,
+            "text": "Tess wrote the Sea memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:78202aeed0c9df301cb4def3ab95451c923de904f5293e3edfb47b8e0caeee10",
+              "kind": "exact_match",
+              "original_id": "DOC-2",
+              "original_path": "doc-2.html",
+              "byte_start": 573,
+              "byte_end": 603,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-mail.txt",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "d663fa7c73d1cdfdb5c8534a5c9e7f34494eecac7f761762174137182173b546",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:e8ada8ca2ec54d36448372bcdb2cf56af0a2679cfacb03eee9a6c16e31692315",
+        "path": "topic-03-mail.txt",
+        "raw_sha256": "sha256:d663fa7c73d1cdfdb5c8534a5c9e7f34494eecac7f761762174137182173b546",
+        "bytes": 38,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:2d8fb4ac7d7851a871c1620382af1fbb13edb6d036259eed267c41baff8e6b66",
+          "occurrence_id": "node:7351d8a1461fe61261be2486d801467f25c649cfbf5c7761d3fd8d2156f4ab9d",
+          "span": {
+            "source_id": "source:e8ada8ca2ec54d36448372bcdb2cf56af0a2679cfacb03eee9a6c16e31692315",
+            "source_sha256": "sha256:d663fa7c73d1cdfdb5c8534a5c9e7f34494eecac7f761762174137182173b546",
+            "path": "topic-03-mail.txt",
+            "char_start": 0,
+            "char_end": 38,
+            "byte_start": 0,
+            "byte_end": 38,
+            "text": "Tess did not write the Sea memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:62a678c31678513aacc72978a8b0836b1ccd91b4795a8bd3e7d901fdef9bd9a7",
+              "kind": "conflicting_wording",
+              "original_id": "DOC-2",
+              "original_path": "doc-2.html",
+              "byte_start": 573,
+              "byte_end": 603,
+              "reason": "Existing finite action grammar finds opposing polarity for the same literal actor/action/object. Event identity and truth remain unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-03-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "f78fb657564bfd5361aad864c61bdb67c3aeb82e42b9654e51f309db9e99f761",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:eb0230c76345080129424414ddac3d9604156ca68e49876d6335fbea9caf6a5e",
+        "path": "topic-03-web-pointer.md",
+        "raw_sha256": "sha256:f78fb657564bfd5361aad864c61bdb67c3aeb82e42b9654e51f309db9e99f761",
+        "bytes": 124,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:46f5e7a9507f42b5c2ae4189bdbfd383ebda566c4b905f3782a153abecb4fe9f",
+          "occurrence_id": "node:e4653b45f862ec37e6801f82d99c1517324b16fb88d5d803886f97e320e09700",
+          "span": {
+            "source_id": "source:eb0230c76345080129424414ddac3d9604156ca68e49876d6335fbea9caf6a5e",
+            "source_sha256": "sha256:f78fb657564bfd5361aad864c61bdb67c3aeb82e42b9654e51f309db9e99f761",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:3d39225ae1c5ea0ca1bd537189dfff47ace7669fa9adfe0189b15e8f64f2b8ff",
+          "occurrence_id": "node:e4653b45f862ec37e6801f82d99c1517324b16fb88d5d803886f97e320e09700",
+          "span": {
+            "source_id": "source:eb0230c76345080129424414ddac3d9604156ca68e49876d6335fbea9caf6a5e",
+            "source_sha256": "sha256:f78fb657564bfd5361aad864c61bdb67c3aeb82e42b9654e51f309db9e99f761",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 24,
+            "char_end": 27,
+            "byte_start": 24,
+            "byte_end": 27,
+            "text": "Sea"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:28e4310f8a07c2aa079e52c5acd0fd2e419024b4510de58caab64ed52c62fcbc",
+          "occurrence_id": "node:e4653b45f862ec37e6801f82d99c1517324b16fb88d5d803886f97e320e09700",
+          "span": {
+            "source_id": "source:eb0230c76345080129424414ddac3d9604156ca68e49876d6335fbea9caf6a5e",
+            "source_sha256": "sha256:f78fb657564bfd5361aad864c61bdb67c3aeb82e42b9654e51f309db9e99f761",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 29,
+            "char_end": 62,
+            "byte_start": 29,
+            "byte_end": 62,
+            "text": "https://en.wikipedia.org/wiki/Sea"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:e054a6cfef72250fee22820661a08b3aa68b3ff82f695dc5ee6d1f3be44995c0",
+          "occurrence_id": "node:e4653b45f862ec37e6801f82d99c1517324b16fb88d5d803886f97e320e09700",
+          "span": {
+            "source_id": "source:eb0230c76345080129424414ddac3d9604156ca68e49876d6335fbea9caf6a5e",
+            "source_sha256": "sha256:f78fb657564bfd5361aad864c61bdb67c3aeb82e42b9654e51f309db9e99f761",
+            "path": "topic-03-web-pointer.md",
+            "char_start": 64,
+            "char_end": 124,
+            "byte_start": 64,
+            "byte_end": 124,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-copy.text",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "9e7bea6e46d646740bb3f1086781b98fd1271d9cc9cab4ad26c95fe383aa8ffa",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:ded0216c99c04837d80ec630b901520432c6a16c62179bc706cf49b2846d0753",
+        "path": "topic-04-copy.text",
+        "raw_sha256": "sha256:9e7bea6e46d646740bb3f1086781b98fd1271d9cc9cab4ad26c95fe383aa8ffa",
+        "bytes": 32,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:6678cbeadef8b7fd7a9aff52b24bc5631f36aaae844b7b5f99ad57604970dbab",
+          "occurrence_id": "node:cd2a7d1b4aa86337ab6df182cd845e030b0174d9277c2772c9fa20b08817e0ef",
+          "span": {
+            "source_id": "source:ded0216c99c04837d80ec630b901520432c6a16c62179bc706cf49b2846d0753",
+            "source_sha256": "sha256:9e7bea6e46d646740bb3f1086781b98fd1271d9cc9cab4ad26c95fe383aa8ffa",
+            "path": "topic-04-copy.text",
+            "char_start": 0,
+            "char_end": 32,
+            "byte_start": 0,
+            "byte_end": 32,
+            "text": "Mara wrote the Drink memorandum."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:0746449c2d80de7ea96f07a49996cb3c0280db3797da0fb45f58082b75e011dd",
+              "kind": "exact_match",
+              "original_id": "DOC-3",
+              "original_path": "doc-3.html",
+              "byte_start": 579,
+              "byte_end": 611,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            },
+            {
+              "id": "sha256:d3ba9bf758c88f75dd9e3cb5f56dfc2c80b5461d08d20bb619033608daddc0a4",
+              "kind": "shared_wording_review",
+              "original_id": "DOC-4",
+              "original_path": "doc-4.html",
+              "byte_start": 579,
+              "byte_end": 611,
+              "reason": "Existing sorter four-word phrase evidence: ['wrote the drink memorandum']. Lexical tokens only; identity, chronology, causation and correction are unresolved."
+            }
+          ],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "topic-04-web-pointer.md",
+      "input_type": "synthetic_or_web_topic_pointer",
+      "sha256": "cd76407aedac5f67bb5a8c041918ffecc2d434502114fd67b6445ee370c939df",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:4be4f7ff65865049a15ecda9648f8ea463ba08b9f806cd0080d53c3aff035301",
+        "path": "topic-04-web-pointer.md",
+        "raw_sha256": "sha256:cd76407aedac5f67bb5a8c041918ffecc2d434502114fd67b6445ee370c939df",
+        "bytes": 128,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:0f38c596ca767fbefc4afd9bdb846dcb2208267b46637ce776539f10393cd6e7",
+          "occurrence_id": "node:b125e06453830a6e6bebbf3ff75fac46c2835b3e07ce85166819d46d79e654b2",
+          "span": {
+            "source_id": "source:4be4f7ff65865049a15ecda9648f8ea463ba08b9f806cd0080d53c3aff035301",
+            "source_sha256": "sha256:cd76407aedac5f67bb5a8c041918ffecc2d434502114fd67b6445ee370c939df",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 0,
+            "char_end": 22,
+            "byte_start": 0,
+            "byte_end": 22,
+            "text": "# Public topic pointer"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:df91af447f129483372e63e4bbe5cad299b7f50e189cdafbf867e47dcb56ba1e",
+          "occurrence_id": "node:b125e06453830a6e6bebbf3ff75fac46c2835b3e07ce85166819d46d79e654b2",
+          "span": {
+            "source_id": "source:4be4f7ff65865049a15ecda9648f8ea463ba08b9f806cd0080d53c3aff035301",
+            "source_sha256": "sha256:cd76407aedac5f67bb5a8c041918ffecc2d434502114fd67b6445ee370c939df",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 24,
+            "char_end": 29,
+            "byte_start": 24,
+            "byte_end": 29,
+            "text": "Drink"
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:8b21d59defa1916a308c7cc0603274bbdc1fcac97c5680162278dbf5aa6efa00",
+              "kind": "exact_match",
+              "original_id": "DOC-3",
+              "original_path": "doc-3.html",
+              "byte_start": 579,
+              "byte_end": 611,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            },
+            {
+              "id": "sha256:9cb2f25f77300d68d77361b27041a2d3167f3349ceebb1469448f7aeaea94696",
+              "kind": "exact_match",
+              "original_id": "DOC-4",
+              "original_path": "doc-4.html",
+              "byte_start": 579,
+              "byte_end": 611,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            }
+          ],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:4c73bcc6cc519690ea5e6f79ccd99f3c75c1c232d4b9e3e2d46cee09eb89b413",
+          "occurrence_id": "node:b125e06453830a6e6bebbf3ff75fac46c2835b3e07ce85166819d46d79e654b2",
+          "span": {
+            "source_id": "source:4be4f7ff65865049a15ecda9648f8ea463ba08b9f806cd0080d53c3aff035301",
+            "source_sha256": "sha256:cd76407aedac5f67bb5a8c041918ffecc2d434502114fd67b6445ee370c939df",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 31,
+            "char_end": 66,
+            "byte_start": 31,
+            "byte_end": 66,
+            "text": "https://en.wikipedia.org/wiki/Drink"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:2a3999e69d62721c0a87b50cb0c3b4fdaf53fb3526de13bc7cab2ee2ae1413c5",
+          "occurrence_id": "node:b125e06453830a6e6bebbf3ff75fac46c2835b3e07ce85166819d46d79e654b2",
+          "span": {
+            "source_id": "source:4be4f7ff65865049a15ecda9648f8ea463ba08b9f806cd0080d53c3aff035301",
+            "source_sha256": "sha256:cd76407aedac5f67bb5a8c041918ffecc2d434502114fd67b6445ee370c939df",
+            "path": "topic-04-web-pointer.md",
+            "char_start": 68,
+            "char_end": 128,
+            "byte_start": 68,
+            "byte_end": 128,
+            "text": "This link supplies a topic for a fictional record exercise.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    }
+  ]
+}

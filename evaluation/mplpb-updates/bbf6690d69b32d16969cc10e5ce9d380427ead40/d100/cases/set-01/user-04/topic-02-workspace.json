@@ -1,0 +1,257 @@
+{
+  "schema": "candidate-review-workspace-v3",
+  "label": "Sorter suggestions for review. MPLPB has not verified these links or answers.",
+  "status": "candidate for review",
+  "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+  "approval_status": "outside_approved_evidence",
+  "answer_supported": false,
+  "content_truth_verified": false,
+  "approval_transferred": false,
+  "graph_sha256": "sha256:fcf59341fea0e179fdaf2a7679c4b1fac5c05c08001ebf5a12b39992208e6233",
+  "implementation_sha256": "sha256:74fd28037d4c10cfe1164a7fa04ee53de4c0e6be63401e675762a1a7a9249290",
+  "configuration": {
+    "question": "What about Lung?",
+    "topic": "What about Lung?",
+    "profile": "lab",
+    "max_passages": 12,
+    "max_chars": 16000,
+    "strict_passages": 12,
+    "strict_chars": 8000,
+    "scan_passages": 256,
+    "pair_checks": 4096,
+    "as_of": null
+  },
+  "original_corpus_snapshot": "sha256:076f5a4bf525b3c94acaded09b24c828bc30e4085d7ca959b4994167e2d5afcd",
+  "original_policy": {
+    "gate_version": 2,
+    "mode": "separate_lexical_sources",
+    "max_depth": 2,
+    "prose": true,
+    "not_for": true,
+    "enforce_sealed_external_policy": true,
+    "synthesize": false,
+    "follow_pointers": false,
+    "require_current_dependencies": true,
+    "settings_hash": "sha256:c5f132ec431f1b0014972073317be495810947a073708955d3ad9b4769bfabea"
+  },
+  "reader_implementation_sha256": "sha256:e207dac173890540b5af36626e592c56cd293cb86a577c0c2a5d09cda441aea8",
+  "verifier_implementation_sha256": "sha256:9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+  "mplpb_decision": {
+    "status": "no_eligible_owner",
+    "eligible_owner_count": 0,
+    "strict_answer": null,
+    "page": null,
+    "competing_sources": [],
+    "native_kind": "not_in_corpus",
+    "reason": "no current page declares most of this question, and no page contains every word of it",
+    "message": "No MPLPB-supported answer is returned by this ownership route. Labeled exploration remains available."
+  },
+  "processed_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:9070e698894a659a769c76817c87da72e80cc60b729fe110c854bb32366ed1b0",
+      "occurrence_id": "node:70c71df6ec3a8775cd5e3167fc42b5478998e6cf15b77c2a407dcf35012692f9",
+      "span": {
+        "source_id": "source:2bc707f263b87ff14a4084e9f77d98140b6eac02bac660493ba7f19e4c186328",
+        "source_sha256": "sha256:794e777ce1f28e8f59d757444015435cae46936697fdbb8f47abe7a2a31fc044",
+        "path": "topic-02-copy.md",
+        "char_start": 0,
+        "char_end": 18,
+        "byte_start": 0,
+        "byte_end": 18,
+        "text": "Mara studied Lung."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:9165d4ecc601a8fef25f22417bcdcb100cc03052c9749b420efb835b6f3f1b94",
+      "occurrence_id": "node:c9a2eb8cbcb7a8cf10fddf7c1969a8c8b189367ac34c63cc9cbc9a3b6ad3eb05",
+      "span": {
+        "source_id": "source:ef5fea7abf2fe3fc2be2948e519fb9f2edfc8459c789015cef30bdbb2f283016",
+        "source_sha256": "sha256:8c5ac62ed882c6dbbd157b478dcf15ced9358949723ab61813946cae52f1e4b0",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 24,
+        "char_end": 28,
+        "byte_start": 24,
+        "byte_end": 28,
+        "text": "Lung"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:5a8ead90a20554ef1bea8284da42d9589dfe2791c8c4302644f31b9a3debaf12",
+      "occurrence_id": "node:c9a2eb8cbcb7a8cf10fddf7c1969a8c8b189367ac34c63cc9cbc9a3b6ad3eb05",
+      "span": {
+        "source_id": "source:ef5fea7abf2fe3fc2be2948e519fb9f2edfc8459c789015cef30bdbb2f283016",
+        "source_sha256": "sha256:8c5ac62ed882c6dbbd157b478dcf15ced9358949723ab61813946cae52f1e4b0",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 30,
+        "char_end": 64,
+        "byte_start": 30,
+        "byte_end": 64,
+        "text": "https://en.wikipedia.org/wiki/Lung"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "candidates": [],
+  "processed_disagreements": [],
+  "unresolved_references": [],
+  "unmatched_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:9070e698894a659a769c76817c87da72e80cc60b729fe110c854bb32366ed1b0",
+      "occurrence_id": "node:70c71df6ec3a8775cd5e3167fc42b5478998e6cf15b77c2a407dcf35012692f9",
+      "span": {
+        "source_id": "source:2bc707f263b87ff14a4084e9f77d98140b6eac02bac660493ba7f19e4c186328",
+        "source_sha256": "sha256:794e777ce1f28e8f59d757444015435cae46936697fdbb8f47abe7a2a31fc044",
+        "path": "topic-02-copy.md",
+        "char_start": 0,
+        "char_end": 18,
+        "byte_start": 0,
+        "byte_end": 18,
+        "text": "Mara studied Lung."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:9165d4ecc601a8fef25f22417bcdcb100cc03052c9749b420efb835b6f3f1b94",
+      "occurrence_id": "node:c9a2eb8cbcb7a8cf10fddf7c1969a8c8b189367ac34c63cc9cbc9a3b6ad3eb05",
+      "span": {
+        "source_id": "source:ef5fea7abf2fe3fc2be2948e519fb9f2edfc8459c789015cef30bdbb2f283016",
+        "source_sha256": "sha256:8c5ac62ed882c6dbbd157b478dcf15ced9358949723ab61813946cae52f1e4b0",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 24,
+        "char_end": 28,
+        "byte_start": 24,
+        "byte_end": 28,
+        "text": "Lung"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:5a8ead90a20554ef1bea8284da42d9589dfe2791c8c4302644f31b9a3debaf12",
+      "occurrence_id": "node:c9a2eb8cbcb7a8cf10fddf7c1969a8c8b189367ac34c63cc9cbc9a3b6ad3eb05",
+      "span": {
+        "source_id": "source:ef5fea7abf2fe3fc2be2948e519fb9f2edfc8459c789015cef30bdbb2f283016",
+        "source_sha256": "sha256:8c5ac62ed882c6dbbd157b478dcf15ced9358949723ab61813946cae52f1e4b0",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 30,
+        "char_end": 64,
+        "byte_start": 30,
+        "byte_end": 64,
+        "text": "https://en.wikipedia.org/wiki/Lung"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "exploration_budget": {
+    "max_passages": 12,
+    "max_characters": 16000,
+    "unique_spans": 3,
+    "characters": 56,
+    "omitted_items": 0,
+    "display_truncated": false,
+    "search_truncated": false,
+    "original_discovery_passage_limit": 64,
+    "original_discovery_character_limit": 64000,
+    "original_passages_considered": 4,
+    "processed_passages_considered": 3,
+    "original_pairs_examined": 12,
+    "processed_pairs_examined": 3,
+    "strict_slots_consumed": 0,
+    "phrase_token_limit_per_statement": 256
+  },
+  "strict_budget": {
+    "max_passages": 12,
+    "max_characters": 8000,
+    "evaluated": false,
+    "truncated": false
+  },
+  "limits_notice": "Unshown/unmatched items remain in the separately pinned sorter graph. No missing match or silence proves absence.",
+  "source_authority_changed": false,
+  "ownership_changed": false,
+  "workspace_sha256": "sha256:4876e96677437be9aa09490a174f405d598efc5abd3cc88048f071be6ebce76b"
+}

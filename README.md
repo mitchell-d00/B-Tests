@@ -53,6 +53,41 @@ The [recorded instruction results](docs/CRITICAL_BENCHMARK_RESULTS.md),
 show the exact scope and outcomes. A written refusal and a verified blocked
 operation are different observations.
 
+## Use B-Tests with another system
+
+B-Tests measures how a system deals with originals, candidate material,
+competing claims, corrections, permissions, and incomplete handoffs. Give
+each target the same source records, task, allowed operations, and budget.
+Pin the software revision or record the model, instructions and tool access.
+Run each prompt treatment in a fresh session with only its assigned packet.
+
+| Target | How to run it | What the result can establish |
+|---|---|---|
+| MPLPB or another runnable system | Use its native interface. The supplied runner calls MPLPB directly. For another system, write an adapter that submits the same task and retains native decisions, citations, and state readbacks. | Source selection and proof behavior. Where the adapter observes the executor independently, it can also establish that an authorized effect occurred or that a prohibited one was blocked. |
+| OOCC/CAD or standard governance prompts | Use published CAD instructions or ordinary governance instructions with the same base model, packet, tools, and budget. Save the full response and available tool traces. | How the model applied the instructions, cited evidence, disclosed uncertainty, and requested or declined actions. |
+| A runnable OOCC controller | Pin the controller release and run the same tasks through its own storage and executor. Record current permissions, decisions, receipts, and independently checked effects. | Native behavior of that exact controller. Report unavailable native interfaces or checks as `NOT_RUN`. |
+
+The d100 generator in [the randomized protocol below](#repeatable-d100-test-with-100-web-sourced-topics)
+provides **25 individually assigned synthetic users**, each with a separate
+source collection and four topics. The five scripted mixed-dump users provide
+a readable starting point for checking specific cases. For a fresh comparison,
+have the evaluator prepare the packets and keep the seed, scoring key,
+and other conditions outside each target’s access. Give a target only its
+assigned packet. The native d100 runner passes MPLPB source paths and questions
+without exposing the operator key through its interface. The published run
+is replayable development evidence.
+
+For each case, record the returned or withheld answer, exact citations,
+candidate links, statuses and, if applicable, the observed effect. Use
+the same acceptance criteria across arms. Mark a capability outside a
+target’s declared scope explicitly and distinguish it from an executed
+failure. Freeze source bytes and expected results before testing, retain
+command receipts and negative attempts, and check effects through a
+separate readback. Report candidate discovery, supported answers, and
+enforced actions as separate outcomes. Use independent unseen source
+selection and blind human scoring for claims about historical accuracy.
+[Comparison protocol](PROTOCOL.md) · [Fresh-model packet procedure](#repeat-with-any-ai)
+
 ## Ben's native MPLPB run — 14 November 2026
 
 In [Beyond Guarded Retrieval](https://www.academia.edu/181013727/Beyond_Guarded_Retrieval_A_Source_Bounded_Evaluation_of_Combined_MPLPB_and_a_Roadmap_for_Historical_Reconstruction),
@@ -107,8 +142,8 @@ reported 58/58 selected regressions passed. His source-location and
 historical-question results describe that exact release.
 [Ben's results by experiment](docs/GELHAUS_EXTERNAL_EVALUATION.md)
 
-**Now.** As of 18 November 2026, Combined main is [`6350988`][mplpb-now-pin].
-The [pinned Git comparison][mplpb-pin-diff] spans 68 commits. The merged PRs
+**Now.** As of 18 November 2026, Combined main is [`bbf6690`][mplpb-now-pin].
+The [pinned Git comparison][mplpb-pin-diff] spans 79 commits. The merged PRs
 below show which capabilities were added, which existing behavior was extended,
 and where an observed defect was repaired.
 
@@ -127,6 +162,7 @@ and where an observed defect was repaired.
 | [#48][mplpb-pr48], [#49][mplpb-pr49] | Revised the sorter paper front matter and consolidated the package, installation and authority guides. The reader’s proof rules remained in place. [Package guide][mplpb-package] |
 | [#50][mplpb-pr50] | Fixed a sorter defect where quoted or fenced identifier headers could create false occurrence boundaries and enter primary identity clusters. Embedded headers retain their spans and review annotations. [Before/after report][mplpb-header-report] |
 | [#51][mplpb-pr51] | Added the optional strict-first local narrator for Ollama, llama.cpp and local OpenAI-compatible endpoints. An accepted rendering preserves the checked answer, and a fresh source and policy check runs before it is returned. Refusals, conflicts and partials bypass narration. [Narrator code][mplpb-narrator] |
+| [#52][mplpb-pr52] | Added the candidate review workspace, strict passage admission, and installed-runtime byte mapping. The workspace compares processed documents with eligible originals and preserves exploration at a separate budget. [Fresh B-Tests results](evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md) |
 
 ### How the sorter works
 
@@ -150,6 +186,69 @@ changed **three occurrence partitions to two** and removed the quoted example
 from the primary identity cluster while preserving its text. [B-Tests sorter
 rerun](evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/RESULTS.md#native-sorter-evidence)
 · [Header-scope regression][mplpb-header-report] · [Technical paper](docs/papers/README.md)
+
+### Mixed-dump sorter tests with five synthetic users
+
+Each scripted user builds a separate native MPLPB ledger from explicitly
+designated originals, sorts a mixed processed dump in both modes, and builds
+and replays candidate workspaces at normal and tiny exploration budgets.
+The five cases cover one owner with support, competing owners, no owner,
+one owner without support after withdrawal and profile filtering, and
+topic-only review of real MPLPB documentation alongside synthetic notes.
+
+The runner checks that both modes preserve the same source observations,
+candidate classification never transfers approval, original and processed
+byte spans replay, and exploration charges leave the strict decision intact.
+Every input gets a source-map entry, including CSV and JSON files outside
+the sorter’s input formats and extracted statements absent from the
+display. In the mailbox fixture the CRLF export yields a wording-review
+candidate, and a separate literal copy yields an exact-match candidate.
+
+From B-Tests, point at a clean Combined checkout at `bbf6690d69b32d16969cc10e5ce9d380427ead40`
+and use a fresh output directory:
+
+```sh
+python -m research_lab.sorter_mixed_users --mplpb-root ../combined --out /tmp/mplpb-mixed-users
+```
+
+The output includes each ledger, both sorter graphs, candidate workspaces,
+source maps, and command receipts. [Synthetic user fixtures](fixtures/sorter_mixed_users.json) ·
+[Five-user results](evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/mixed/summary.json)
+
+### Repeatable d100 test with 100 web-sourced topics
+
+Prepare a fresh batch, then run all 25 scripted users against the frozen
+Combined MPLPB revision. Each of five sets assigns five roles and gives each
+user four different topics in a separate native ledger.
+
+```sh
+OUT=/tmp/mplpb-d100-batch
+python -m research_lab.sorter_random_batches prepare --out "$OUT"
+python -m research_lab.sorter_random_batches run --out "$OUT" --mplpb-root ../combined
+```
+
+Omitting `--seed` draws a new seed. Pass the recorded seed to `prepare` with
+a new output directory to reconstruct the same packets and dice rolls.
+`--revision` on `prepare` pins a different Combined commit before generation.
+The runner records d100 rolls for topic selection, role assignment, case and
+actor order, file types, layouts, profiles, and exploration budgets.
+
+The frozen [web topic catalog](fixtures/sorter_web_topics.json) retains names
+and URLs selected from [Wikipedia’s Level 3 topic index](https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/3?oldid=1386325940).
+The topics name fictional exercises. Wiki pages supply topic metadata, and the
+exercise’s designated originals supply its evidence. Sampling draws across
+11 sections and filters titles to the finite test grammar. Each user runs one
+supported case, one competing-owner case, one processed-only case and one
+insufficient-original case in randomized order.
+
+Use `packets/` as the test input. Keep `operator-key.json` with the evaluator.
+MPLPB receives the packet sources and question. The runner compares its
+outputs with the expected results and retains source maps and command receipts.
+This exercises new randomized inputs under controlled synthetic conditions.
+An outside custodian and independent reviewers are still needed to evaluate
+historical reconstruction on unseen original records.
+[100-case results](evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/d100/summary.json) ·
+[Recorded d100 rolls](evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/d100/d100-rolls.json)
 
 ### Ben’s criticism and my response in code
 
@@ -196,8 +295,8 @@ much narrower reconstruction result. [Full acceptance matrix](docs/RESPONSE_TO_B
    after withdrawal or correction. [Current sorter limits][mplpb-sorter-guide]
 
 [mplpb-ben-pin]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/tree/257e54a51edac272eb6b2441457f38a40485ee4d
-[mplpb-now-pin]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/tree/6350988a2f64d8e5fa53bd187d368f4397bf4f4c
-[mplpb-pin-diff]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/compare/257e54a51edac272eb6b2441457f38a40485ee4d...6350988a2f64d8e5fa53bd187d368f4397bf4f4c
+[mplpb-now-pin]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/tree/bbf6690d69b32d16969cc10e5ce9d380427ead40
+[mplpb-pin-diff]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/compare/257e54a51edac272eb6b2441457f38a40485ee4d...bbf6690d69b32d16969cc10e5ce9d380427ead40
 [mplpb-pr40]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/40
 [mplpb-pr41]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/41
 [mplpb-pr42]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/42
@@ -210,6 +309,7 @@ much narrower reconstruction result. [Full acceptance matrix](docs/RESPONSE_TO_B
 [mplpb-pr49]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/49
 [mplpb-pr50]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/50
 [mplpb-pr51]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/51
+[mplpb-pr52]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/52
 [mplpb-work-support]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/mplpb_work/source_support.py
 [mplpb-investigation]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/mplpb_work/investigation.py
 [mplpb-study]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/docs/ORIGINAL_RECORD_STUDY.md
@@ -226,7 +326,22 @@ much narrower reconstruction result. [Full acceptance matrix](docs/RESPONSE_TO_B
 [mplpb-public-baseline]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/4fe099ca14175399f58369efcc39153c203a5677/evaluation/historical-experts/final-comparison.json
 [mplpb-narrator-report]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/evaluation/general-reader/2026-11-17-local-narrator/REPORT.md
 
-## Latest B-Tests native rerun — 17 November 2026, PR49
+## Latest B-Tests native rerun — 18 November 2026, PR52
+
+At `bbf6690`, **1,267 native tests**, seven additional native checks, all
+seven work-boundary probes, the clean installed-wheel check, and **52 public
+evidence controls** passed. All 22 historical outcomes, exact citations, and
+missing-information lists matched the baseline. Five source-linked workspace
+replays reproduced 39 processed passages, 15 exact-match candidates, and
+49 wording-review candidates.
+
+B-Tests also ran **five mixed-dump users** and **100 d100 cases across
+25 separately built ledgers**. Each scripted d100 case matched its expected
+ownership and support decision. The report links the previous attempts,
+all final source maps, workspace results, and replay checks.
+[PR52 run evidence](evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md)
+
+## Earlier B-Tests native rerun — 17 November 2026, PR49
 
 Current Combined pin **ccbb5804eb47f78c2338d57c142ad087b47be710** passed
 **1,186 native tests**, seven additional checks, seven B-Tests boundary probes,
@@ -405,7 +520,7 @@ python -m research_lab.human_export_bench replay --root evaluation/human-export-
 python -m research_lab.native_evidence
 ```
 
-The local suite passes **121 tests**. Public evidence is retained as inspectable UTF-8 JSON and JSONL. Replay verifies
+The local suite passes **123 tests**. Public evidence is retained as inspectable UTF-8 JSON and JSONL. Replay verifies
 original input hashes; optional lossless gzip input remains supported. Replay recomputes retained scores and file
 transfers; it makes **zero new model requests**. Unit-test passes are not target
 passes. Submitted local state/effects are saved before evaluation, without a hidden

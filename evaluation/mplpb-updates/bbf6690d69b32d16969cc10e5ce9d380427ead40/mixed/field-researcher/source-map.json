@@ -1,0 +1,195 @@
+{
+  "approved": [
+    {
+      "id": "DOC-1",
+      "dump_path": "dump/approved/DOC-1.txt",
+      "sha256": "ff92744b5448150c713902d3a35ddb4562f54fbd51e97741a8d9289de5607e71",
+      "ledger_path": "doc-1.html",
+      "ledger_sha256": "ec5a69adf6d475c0f37ba21fed54c26286b64cc7b63515c1f1edf3e6a5d38117",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    }
+  ],
+  "processed": [
+    {
+      "path": "export.json",
+      "input_type": "synthetic",
+      "sha256": "f81a6ea8c6a0becb59b83e97f496ac2ef6c7b216b49d3c6b4ac45078e689ef06",
+      "sorter_status": "excluded",
+      "sorter_source": null,
+      "statements": []
+    },
+    {
+      "path": "export.text",
+      "input_type": "synthetic",
+      "sha256": "760022172b0facd41b48af1a92a6930d77e046351a79fa2c6dc5a75b0d60be01",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:39fb4088d879346f8298b9136982d6dc796e5b0d4bb5528bae1d68a6fbfa3014",
+        "path": "export.text",
+        "raw_sha256": "sha256:760022172b0facd41b48af1a92a6930d77e046351a79fa2c6dc5a75b0d60be01",
+        "bytes": 45,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:ef15e030878f1ba42089fc530649b0c032552af57cd63e22f533f317d08e598e",
+          "occurrence_id": "node:0eb0847b14f273e4da5f031b7db1d7d493b4d2480e5b307570c7533372062827",
+          "span": {
+            "source_id": "source:39fb4088d879346f8298b9136982d6dc796e5b0d4bb5528bae1d68a6fbfa3014",
+            "source_sha256": "sha256:760022172b0facd41b48af1a92a6930d77e046351a79fa2c6dc5a75b0d60be01",
+            "path": "export.text",
+            "char_start": 0,
+            "char_end": 45,
+            "byte_start": 0,
+            "byte_end": 45,
+            "text": "The lunar lichens protocol is still a draft.\n"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "field-journal.txt",
+      "input_type": "synthetic",
+      "sha256": "e5d228d6e147f013ca78a95e834f0dbfeafefcb16387ae05ca197c2077394620",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:8ab70bcc9032435d6de12ea3836849515f5134c4f6ae4c4a2c09f4c13e3573ff",
+        "path": "field-journal.txt",
+        "raw_sha256": "sha256:e5d228d6e147f013ca78a95e834f0dbfeafefcb16387ae05ca197c2077394620",
+        "bytes": 76,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:0d520ce5180bfe3e16935f7a4255a8a6a0102a51938a8b95e42806ef0df92a28",
+          "occurrence_id": "node:2b29881d78ffcd0d088cce9ebccf12c5970990f5b9a583462c5d3eb6aff871f5",
+          "span": {
+            "source_id": "source:8ab70bcc9032435d6de12ea3836849515f5134c4f6ae4c4a2c09f4c13e3573ff",
+            "source_sha256": "sha256:e5d228d6e147f013ca78a95e834f0dbfeafefcb16387ae05ca197c2077394620",
+            "path": "field-journal.txt",
+            "char_start": 0,
+            "char_end": 32,
+            "byte_start": 0,
+            "byte_end": 32,
+            "text": "Tess studied rare lunar lichens."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:60f6a3d41bd2e8550115a2f6996f7cb67cb112605a014438d4fb80d378a5bdbc",
+          "occurrence_id": "node:2b29881d78ffcd0d088cce9ebccf12c5970990f5b9a583462c5d3eb6aff871f5",
+          "span": {
+            "source_id": "source:8ab70bcc9032435d6de12ea3836849515f5134c4f6ae4c4a2c09f4c13e3573ff",
+            "source_sha256": "sha256:e5d228d6e147f013ca78a95e834f0dbfeafefcb16387ae05ca197c2077394620",
+            "path": "field-journal.txt",
+            "char_start": 34,
+            "char_end": 76,
+            "byte_start": 34,
+            "byte_end": 76,
+            "text": "The lunar lichens samples were discussed.\n"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "interview.md",
+      "input_type": "synthetic",
+      "sha256": "90b8027ef840f8d1d3d621b6c0eece2426dcdc8553b377e153dad3579eea0eb6",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:8de3209dadc69ed1a59aae889653cbfa6c73c3940ec74599b975e90ec8b2436e",
+        "path": "interview.md",
+        "raw_sha256": "sha256:90b8027ef840f8d1d3d621b6c0eece2426dcdc8553b377e153dad3579eea0eb6",
+        "bytes": 99,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:c300fd8f14debc87a422cb72b779541a34adbc39bec7e8109d32be754933ab16",
+          "occurrence_id": "node:591b703aeefb41584351d1b6f36ae302114cc2ad421c4dd2ca5ca8303472d26f",
+          "span": {
+            "source_id": "source:8de3209dadc69ed1a59aae889653cbfa6c73c3940ec74599b975e90ec8b2436e",
+            "source_sha256": "sha256:90b8027ef840f8d1d3d621b6c0eece2426dcdc8553b377e153dad3579eea0eb6",
+            "path": "interview.md",
+            "char_start": 0,
+            "char_end": 17,
+            "byte_start": 0,
+            "byte_end": 17,
+            "text": "# Interview notes"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:d0269f7b46316eee98ece2d1cfc1a9fe18bfd36aad95954736db3225af8b9f94",
+          "occurrence_id": "node:591b703aeefb41584351d1b6f36ae302114cc2ad421c4dd2ca5ca8303472d26f",
+          "span": {
+            "source_id": "source:8de3209dadc69ed1a59aae889653cbfa6c73c3940ec74599b975e90ec8b2436e",
+            "source_sha256": "sha256:90b8027ef840f8d1d3d621b6c0eece2426dcdc8553b377e153dad3579eea0eb6",
+            "path": "interview.md",
+            "char_start": 19,
+            "char_end": 51,
+            "byte_start": 19,
+            "byte_end": 51,
+            "text": "Lunar lichens remain unresolved."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:36fa85d1935b4199c8fd29302523785c2bad8d48e60578f5998ddd184d77ff0a",
+          "occurrence_id": "node:591b703aeefb41584351d1b6f36ae302114cc2ad421c4dd2ca5ca8303472d26f",
+          "span": {
+            "source_id": "source:8de3209dadc69ed1a59aae889653cbfa6c73c3940ec74599b975e90ec8b2436e",
+            "source_sha256": "sha256:90b8027ef840f8d1d3d621b6c0eece2426dcdc8553b377e153dad3579eea0eb6",
+            "path": "interview.md",
+            "char_start": 53,
+            "char_end": 99,
+            "byte_start": 53,
+            "byte_end": 99,
+            "text": "An unrelated sample was found at the sandbar.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    }
+  ]
+}

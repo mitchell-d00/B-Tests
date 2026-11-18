@@ -1,0 +1,757 @@
+{
+  "approved": [
+    {
+      "id": "DOC-1",
+      "dump_path": "dump/approved/DOC-1.txt",
+      "sha256": "8603d0f2d03c077ec92f3a7f7e1fcc74a7e0a0c9938ad40294fa768e45813580",
+      "ledger_path": "doc-1.html",
+      "ledger_sha256": "54fbf99b77b9d2ea1642e2d1ac7b1e261bec54a0563bc6b32915c7c292445ffa",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": "docs/CANDIDATE_REVIEW_WORKSPACE.md"
+    }
+  ],
+  "processed": [
+    {
+      "path": "maintainer-notes.txt",
+      "input_type": "synthetic",
+      "sha256": "c5e0bb80a295b06fbf88e0eb52aa7b0a7e9dd403a7adace12bd6b91e3ddff723",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:9b8343a267bf3c8c0a5ce85867afc1db972cbcf95339ea0b80f62974cbf57ac1",
+        "path": "maintainer-notes.txt",
+        "raw_sha256": "sha256:c5e0bb80a295b06fbf88e0eb52aa7b0a7e9dd403a7adace12bd6b91e3ddff723",
+        "bytes": 114,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:d0719d3bbd38861d01c74b9ccb7f3846b0a2cba4d339b686800f79d751c9c3e6",
+          "occurrence_id": "node:9190ccbcddf77ec545a6ffe5b4cff859328da50eba71e20e7b7d023a191f5c8c",
+          "span": {
+            "source_id": "source:9b8343a267bf3c8c0a5ce85867afc1db972cbcf95339ea0b80f62974cbf57ac1",
+            "source_sha256": "sha256:c5e0bb80a295b06fbf88e0eb52aa7b0a7e9dd403a7adace12bd6b91e3ddff723",
+            "path": "maintainer-notes.txt",
+            "char_start": 0,
+            "char_end": 43,
+            "byte_start": 0,
+            "byte_end": 43,
+            "text": "No exploration hint consumes a strict slot."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:ef3f3d056db1096c00447799adf107e46ded7eca90645c61fdea658676ef3222",
+              "kind": "exact_match",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 639,
+              "byte_end": 682,
+              "reason": "The complete processed wording occurs literally in this eligible original; approval does not transfer."
+            }
+          ],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:720a15ddeba9ec96474b93ddb31d18b4b3f384996c64abc82a3f5a16eefdbc42",
+          "occurrence_id": "node:9190ccbcddf77ec545a6ffe5b4cff859328da50eba71e20e7b7d023a191f5c8c",
+          "span": {
+            "source_id": "source:9b8343a267bf3c8c0a5ce85867afc1db972cbcf95339ea0b80f62974cbf57ac1",
+            "source_sha256": "sha256:c5e0bb80a295b06fbf88e0eb52aa7b0a7e9dd403a7adace12bd6b91e3ddff723",
+            "path": "maintainer-notes.txt",
+            "char_start": 45,
+            "char_end": 114,
+            "byte_start": 45,
+            "byte_end": 114,
+            "text": "Exploration budgets should be reviewed alongside strict proof slots.\n"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+      "input_type": "repository:docs/CANDIDATE_REVIEW_WORKSPACE.md",
+      "sha256": "071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+        "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+        "raw_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+        "bytes": 7793,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:77e652ef9aa1564425e841231b40bb20923dbf355769d892db79063f2d67e78e",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 0,
+            "char_end": 28,
+            "byte_start": 0,
+            "byte_end": 28,
+            "text": "# Candidate review workspace"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:d7666d128693ac2c5a5dd467598b4d1bff939a11fffc9442f5051b78ba551c46",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 30,
+            "char_end": 56,
+            "byte_start": 30,
+            "byte_end": 56,
+            "text": "Last reviewed: 2026-11-18."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:c72828e9fa6c75848fdfa8e351666ffc167130addcaf5b4354bd6f08d6f78665",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 58,
+            "char_end": 284,
+            "byte_start": 58,
+            "byte_end": 284,
+            "text": "The opt-in offline workspace compares sorter passages with currently eligible native MPLPB originals. It is available through `mplpb_work.candidate_workspace`; default sorter modes and strict-reader entry points are unchanged."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:3cec00bcd5f81b38fe45671e1ced43dfdbdaa94e9d97d1fd8391bda290fac1f8",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 286,
+            "char_end": 365,
+            "byte_start": 286,
+            "byte_end": 365,
+            "text": "> Sorter suggestions for review. MPLPB has not verified these links or answers."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:f5bac823f953db64fcbc324926ec7521b5c0ab5a4f1fe66734cf2fd85a55a2fc",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 367,
+            "char_end": 686,
+            "byte_start": 367,
+            "byte_end": 687,
+            "text": "Every processed passage and proposed conclusion has status **candidate for review**, with **Exploratory · outside MPLPB-approved evidence.** Eligible-original endpoints carry their own citation and profile status. An exact copy, synonym, reference or correction candidate never transfers approval to processed material."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:f3dd9098f86de0882f2d5af959fcd7f14f76c900908dba832d35d1eed9e8c15b",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 688,
+            "char_end": 1069,
+            "byte_start": 689,
+            "byte_end": 1070,
+            "text": "```sh\npython -m mplpb_work.sorter sort PROCESSED --mode compare --output SORTER.json\npython -m mplpb_work.candidate_workspace build SORTER.json --processed PROCESSED --originals LEDGER --question 'Who wrote the Redwood memorandum?' --output REVIEW.json\npython -m mplpb_work.candidate_workspace peruse SORTER.json --processed PROCESSED --originals LEDGER --workspace REVIEW.json\n```"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:85d018f5d74fde47c41de7be276904a638a7470031b98788f2eb6f43fe8cdc2c",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 1071,
+            "char_end": 1546,
+            "byte_start": 1072,
+            "byte_end": 1547,
+            "text": "Use `--topic 'lunar lichens'` for exploration without a question, or alongside a question to explore a different topic. Use `--profile internal`, `lab` or `external`; optional `--as-of` reuses the native serving view. The ledger must be a directly resolved collection of native originals. The workspace does not import, revise, retire or approve any source, follow external links or invoke a model. Outputs must be new files outside processed sources and the original ledger."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:0ad145c08d2b55122ad094636d93d60658cda39807786542a3c5c7a7ebf682ea",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 1548,
+            "char_end": 1587,
+            "byte_start": 1549,
+            "byte_end": 1588,
+            "text": "## Two visible statuses and two budgets"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:bc3b7e7c26760d2847a596ed648e860b903cca63ba617d4b58fc0be1302b0fa4",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 1589,
+            "char_end": 2038,
+            "byte_start": 1590,
+            "byte_end": 2039,
+            "text": "The ownership panel uses the existing ownership algorithm after intersecting its pages with the reader's current evidence gate. Gate exclusions, hashes, lineage, permissions, depth, not-for declarations, supersession and field scope govern eligibility. A small private optional path filter in the native ownership reader avoids duplicating that algorithm; default callers behave identically. Sorter candidates and synonyms never enter the owner set."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:024f0625026669aab29b4a09175efc464477dfb789702a221b257b0b89f57546",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 2040,
+            "char_end": 2519,
+            "byte_start": 2041,
+            "byte_end": 2520,
+            "text": "| Eligible owners | Workspace behavior |\n|---|---|\n| One | Return its page with eligible-source status. Call the existing strict pipeline on originals, without any processed hints; body evidence must independently establish support. |\n| Two or more | Keep eligible competitors visible and ask for disambiguation; withhold the workspace strict answer. |\n| None | Report that no supported answer is returned by this ownership route; retain labeled processed-document exploration. |"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:a51de2b4e93ece21aa8783baac1995129773c2a1bac058adbf74276fb18654e7",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 2521,
+            "char_end": 3105,
+            "byte_start": 2522,
+            "byte_end": 3106,
+            "text": "The single-page owner route and multi-source evidence proof are distinct existing capabilities. H05's native comparison is complete through the multi-source strict pipeline even though the legacy page-ownership router finds no owner. The optional workspace applies the requested owner-disambiguation policy; it does not replace or relabel the standalone historical reader experiment. Its H05 regression checks the full standalone answer before and after workspace exploration at12 passages/8000 characters. Workspace ownership refusal is not a lost witness or a strict-budget failure."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:8431fd37d6fd3d110503e87005e692f2d5f1247226d4f57de217a72ed2b6251a",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 3107,
+            "char_end": 3637,
+            "byte_start": 3108,
+            "byte_end": 3638,
+            "text": "`--strict-passages` and `--strict-chars` configure the unchanged strict call. `--exploration-passages` (default24) and `--exploration-chars` (default16000) charge distinct processed and original review spans separately from strict proof. The same span is charged once within its own source domain; a processed copy and its eligible original are distinct. No exploration hint consumes a strict slot. Both budgets report truncation, and the ownership panel can withhold a strict answer while processed exploration remains available."
+          },
+          "review_status": "candidate_links_for_review",
+          "candidate_links": [
+            {
+              "id": "sha256:18d14d37424298c95037ed6d65c9abfca5c075f92a1b24bd8aef0a35293747c7",
+              "kind": "shared_wording_review",
+              "original_id": "DOC-1",
+              "original_path": "doc-1.html",
+              "byte_start": 639,
+              "byte_end": 682,
+              "reason": "Existing sorter four-word phrase evidence: ['consumes a strict slot', 'exploration hint consumes a', 'hint consumes a strict', 'no exploration hint consumes']. Lexical tokens only; identity, chronology, causation and correction are unresolved."
+            }
+          ],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:5984a37082d00ffd72a78b85e616502f657c4313a5aa7329460165a292bdd2ae",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 3639,
+            "char_end": 4284,
+            "byte_start": 3640,
+            "byte_end": 4285,
+            "text": "Exploration uses the existing native retrieval on eligible originals, with an explicitly bounded discovery pool (at most64 passages/64000 characters). `--scan-passages` bounds processed hits and the original pool; `--pair-checks` bounds comparisons. Output is capped at32MiB. Four-word comparison uses at most256 lexical tokens per statement, including unique processed/original phrases; it does not require repetition within processed files. Search truncation, display truncation and core sorter extraction limits are explicit. Unshown material remains in the separately pinned sorter graph; missing matches do not establish historical absence."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:022e6d74406bf194010fbdbd8ecfe980e36aad892e0fcfb8404c57b361be04fb",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 4286,
+            "char_end": 4318,
+            "byte_start": 4287,
+            "byte_end": 4319,
+            "text": "## Source-linked candidate kinds"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:2b114c2e2c13c40705f8d26f8f03ebaae41cb593b4ad5a6812410ea3d28957ea",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 4320,
+            "char_end": 4966,
+            "byte_start": 4321,
+            "byte_end": 4967,
+            "text": "Exact wording, literal record references, possible corrections, opposing polarity recognized by the existing small action grammar, and literal four-word phrase review are distinct. Quoted or qualified references retain a separate unresolved-scope label. References name documents; a shown target context does not resolve the intended earlier claim or the correction's field/time. Synonyms and shared topic words rank processed search hits only; they never generate a source link. Four-word phrase matches are lexical review cues, not relationships. Identity, chronology, causation, correction applicability and historical truth remain unresolved."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:db4e1dc0118da35e2e160d7bc23da7bfb3a4450b9d0373b29b4deeea40a4c97e",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 4968,
+            "char_end": 5572,
+            "byte_start": 4969,
+            "byte_end": 5573,
+            "text": "Processed statements retain sorter occurrence/node IDs, raw source hashes, exact UTF-8 byte spans and review annotations. Original endpoints retain the eligible native revision, canonical body coordinates and a reversible raw UTF-8 excerpt. The existing round-trip projection maps HTML entities/layout without pretending canonical characters are raw bytes. Native-page byte coordinates are explicitly distinguished from external acquisition coordinates. Processed-only topics, unmatched statements, unresolved references and processed disagreements remain explorable under their non-authoritative labels."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:9212aa818a0b3c77e52e042ffc2290a2806616ffc606845e94ecb5f90486cbbe",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 5574,
+            "char_end": 5894,
+            "byte_start": 5575,
+            "byte_end": 5895,
+            "text": "Perusal reloads sources and replays the whole workspace, including eligibility, ownership and strict decision. Changed/corrupt sources, revoked permissions, altered decisions, even resealed authority promotion refuse replay. This establishes source/decision fidelity, not semantic correctness of a proposed relationship."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:b78879b65e6a185091953bd020eb190733b87a58020445e3aafb9094b8ca26ea",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 5896,
+            "char_end": 5915,
+            "byte_start": 5897,
+            "byte_end": 5916,
+            "text": "## Validation scope"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:09c4258be472229855258fe9adcf72f67ed7b01b9292983d8679f63dadd54e82",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 5917,
+            "char_end": 7174,
+            "byte_start": 5918,
+            "byte_end": 7175,
+            "text": "[Workspace controls](../tests/test_candidate_workspace.py) cover all three owner outcomes, missing body support, processed contradictions, processed-only topics, quoted/conditional corrections, unresolved targets, Unicode/entity byte mapping, permission/integrity changes, forged promotion, separate budgets, CLI replay and H05 preservation. The initial workspace completed22 native replays unchanged and five public-source demonstrations, and passed1265 extracted-ZIP tests. A later disconnected-word control reproduced an unwanted broad lexical suggestion; its outputs and failure are retained. The conservative version uses existing four-word phrase observations. That trial passed1266 tests but a new positive phrase control and installed-wheel check exposed separate omissions, retained in its [report](../evaluation/candidate-review-workspace/2026-11-18-conservative/REPORT.md). The runtime repair passes both the positive and disconnected-word controls and an isolated installed-wheel smoke; its new frozen full execution is pending. The earlier [four-arm study](../evaluation/sorter-first-originals/2026-11-18-witness-admission-final/REPORT.md) remains frozen at2/22 complete answers. Independent human and unseen-original evaluation remain NOT RUN."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:58f1d074d88418d87d13530d94600edeaf3c7a139b07983c512254d82796f44b",
+          "occurrence_id": "node:57d5258b4f26c7a3b8ffcb2123b64a6645111a59a4b6caf6e925dac6148e9bf1",
+          "span": {
+            "source_id": "source:9792e7513ee2d54a2c8c5e4ce8230f1cb6b7866501af13c72acb49407ffb796a",
+            "source_sha256": "sha256:071ab79efc9ebf996702ee4f8398612f395307258b5f295d0d9b1b2e239a1e30",
+            "path": "repo/docs/CANDIDATE_REVIEW_WORKSPACE.md",
+            "char_start": 7176,
+            "char_end": 7792,
+            "byte_start": 7177,
+            "byte_end": 7793,
+            "text": "The [final runtime report](../evaluation/candidate-review-workspace/2026-11-18-runtime/REPORT.md) completes22 native replays unchanged, five source-linked workspace executions/fresh replays,1267 extracted-ZIP regressions and an isolated installed-wheel check. All15 exact candidates remain;49 literal phrase cues replace164 broad word-overlap suggestions, with39 processed passages shown versus28 in v1. These are unverified textual navigation cues; independent semantic accuracy remains unassessed. Pair/display bounds do not cap the existing native gate/index setup; actual read and processing costs are retained.\n"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "repo/docs/PASSAGE_ADMISSION.md",
+      "input_type": "repository:docs/PASSAGE_ADMISSION.md",
+      "sha256": "2501dd1b1751693d82088d8bad0096697f4b0dec3f151c596a5d240145508eeb",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:91a8e0141aeb222f8fca1eb3baf0958581d4012ca5ac405f96f9d6364f39e502",
+        "path": "repo/docs/PASSAGE_ADMISSION.md",
+        "raw_sha256": "sha256:2501dd1b1751693d82088d8bad0096697f4b0dec3f151c596a5d240145508eeb",
+        "bytes": 3937,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:9bf8d121153d61a00441b39d2fc5ed9c659f7f67f3819037e3e2968eb9bc8416",
+          "occurrence_id": "node:ab9a992a745b4dab5508bb526ed3914594e01e4f1d1c5ef4b189d99430a83887",
+          "span": {
+            "source_id": "source:91a8e0141aeb222f8fca1eb3baf0958581d4012ca5ac405f96f9d6364f39e502",
+            "source_sha256": "sha256:2501dd1b1751693d82088d8bad0096697f4b0dec3f151c596a5d240145508eeb",
+            "path": "repo/docs/PASSAGE_ADMISSION.md",
+            "char_start": 0,
+            "char_end": 32,
+            "byte_start": 0,
+            "byte_end": 32,
+            "text": "# Reader-owned passage admission"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:ff275153a7c21549196a974c4257a3dc61924db36525a5f14597e19f702f76ec",
+          "occurrence_id": "node:ab9a992a745b4dab5508bb526ed3914594e01e4f1d1c5ef4b189d99430a83887",
+          "span": {
+            "source_id": "source:91a8e0141aeb222f8fca1eb3baf0958581d4012ca5ac405f96f9d6364f39e502",
+            "source_sha256": "sha256:2501dd1b1751693d82088d8bad0096697f4b0dec3f151c596a5d240145508eeb",
+            "path": "repo/docs/PASSAGE_ADMISSION.md",
+            "char_start": 34,
+            "char_end": 60,
+            "byte_start": 34,
+            "byte_end": 60,
+            "text": "Last reviewed: 2026-11-18."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:914356366717126e3f14042dcf814dbd657ff6ffd75c836f7dd0857a64eb70a2",
+          "occurrence_id": "node:ab9a992a745b4dab5508bb526ed3914594e01e4f1d1c5ef4b189d99430a83887",
+          "span": {
+            "source_id": "source:91a8e0141aeb222f8fca1eb3baf0958581d4012ca5ac405f96f9d6364f39e502",
+            "source_sha256": "sha256:2501dd1b1751693d82088d8bad0096697f4b0dec3f151c596a5d240145508eeb",
+            "path": "repo/docs/PASSAGE_ADMISSION.md",
+            "char_start": 62,
+            "char_end": 370,
+            "byte_start": 62,
+            "byte_end": 370,
+            "text": "`mplpb_answers/passage_admission.py` assigns atomic source-witness sets to existing native question parts. The existing `documentary_verify.py` remains byte unchanged and independently checks admitted proposals against eligible originals. Admission does not establish truth, event identity or a relationship."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:ee634faf5561c1114cad579e3d03259906a4fc3419d76a25c5024736804e9b49",
+          "occurrence_id": "node:ab9a992a745b4dab5508bb526ed3914594e01e4f1d1c5ef4b189d99430a83887",
+          "span": {
+            "source_id": "source:91a8e0141aeb222f8fca1eb3baf0958581d4012ca5ac405f96f9d6364f39e502",
+            "source_sha256": "sha256:2501dd1b1751693d82088d8bad0096697f4b0dec3f151c596a5d240145508eeb",
+            "path": "repo/docs/PASSAGE_ADMISSION.md",
+            "char_start": 372,
+            "char_end": 733,
+            "byte_start": 372,
+            "byte_end": 733,
+            "text": "All admitted exact source ID/path/hash/half-open spans share the original passage and character limits. Repeated identical spans are charged once. Distinct nested spans and different revisions remain distinct. Multi-passage proofs must fit together; final assembly uses the same ledger. An independent final citation guard applies to other answer paths as well."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:da56ee167757fd45e448f28adeea26c2f5c84c0eff1b23853bc79f7e8afbb39c",
+          "occurrence_id": "node:ab9a992a745b4dab5508bb526ed3914594e01e4f1d1c5ef4b189d99430a83887",
+          "span": {
+            "source_id": "source:91a8e0141aeb222f8fca1eb3baf0958581d4012ca5ac405f96f9d6364f39e502",
+            "source_sha256": "sha256:2501dd1b1751693d82088d8bad0096697f4b0dec3f151c596a5d240145508eeb",
+            "path": "repo/docs/PASSAGE_ADMISSION.md",
+            "char_start": 735,
+            "char_end": 1185,
+            "byte_start": 735,
+            "byte_end": 1185,
+            "text": "Sorter classes explain inspection priority. Exact source ID/field/quote hints and explicit references/corrections can be considered for a relevant native question part. Shared wording and synonyms remain review-only; they receive no automatic slot or relationship traversal. Neither a class nor a ranking score bypasses source eligibility or verification. Optional API `source_hints` require exact pinned original locations and are non-authoritative."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:2daf43ac208ee6e855e88882c69c47e6e60450c811ab27ecb36332d85a5b4f37",
+          "occurrence_id": "node:ab9a992a745b4dab5508bb526ed3914594e01e4f1d1c5ef4b189d99430a83887",
+          "span": {
+            "source_id": "source:91a8e0141aeb222f8fca1eb3baf0958581d4012ca5ac405f96f9d6364f39e502",
+            "source_sha256": "sha256:2501dd1b1751693d82088d8bad0096697f4b0dec3f151c596a5d240145508eeb",
+            "path": "repo/docs/PASSAGE_ADMISSION.md",
+            "char_start": 1187,
+            "char_end": 1628,
+            "byte_start": 1187,
+            "byte_end": 1628,
+            "text": "Source-framed literal comparisons use a bounded reader discovery pass (at most32 records,6000-character prefix each,32 candidate pairs) and the existing comparison recognition rule to reserve content and framing witnesses. Fresh kernel verification remains required. This is a bounded existing grammar, not general historical semantic understanding. Native action and letter rules also reserve their multi-span dependencies by question part."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:541fc10433d9c14522e3bf866de41ddb9292cc96fd56ac02bd0c4b5ac5fd5f9a",
+          "occurrence_id": "node:ab9a992a745b4dab5508bb526ed3914594e01e4f1d1c5ef4b189d99430a83887",
+          "span": {
+            "source_id": "source:91a8e0141aeb222f8fca1eb3baf0958581d4012ca5ac405f96f9d6364f39e502",
+            "source_sha256": "sha256:2501dd1b1751693d82088d8bad0096697f4b0dec3f151c596a5d240145508eeb",
+            "path": "repo/docs/PASSAGE_ADMISSION.md",
+            "char_start": 1630,
+            "char_end": 1984,
+            "byte_start": 1630,
+            "byte_end": 1984,
+            "text": "Relevant contrary evidence remains subject to the existing independent scan. If a necessary competing witness cannot fit, completion is withheld and the budget limitation is reported. Admission metadata includes exact admitted passages, reader roles, deduplication, blocked locators and review-only hints. Unadmitted candidates are explicitly unverified."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:feedad067d672ce6ff1229422127397d9cd477c65a96beff63d8928c663e82f3",
+          "occurrence_id": "node:ab9a992a745b4dab5508bb526ed3914594e01e4f1d1c5ef4b189d99430a83887",
+          "span": {
+            "source_id": "source:91a8e0141aeb222f8fca1eb3baf0958581d4012ca5ac405f96f9d6364f39e502",
+            "source_sha256": "sha256:2501dd1b1751693d82088d8bad0096697f4b0dec3f151c596a5d240145508eeb",
+            "path": "repo/docs/PASSAGE_ADMISSION.md",
+            "char_start": 1986,
+            "char_end": 2357,
+            "byte_start": 1986,
+            "byte_end": 2357,
+            "text": "H05 is a development regression fixture, not a production routing exception. Its pilot recovered the same four Declaration source spans (4070 characters) at the original12-passage/8000-character limit despite high Darwin search hints. Generic two-part proofs, duplicate charging and over-budget counterevidence have separate controls in `tests/test_witness_admission.py`."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:7f144ab88c00d2dfb649dadeb9ff1d6c1598f849125c35abb0611a2210a2de2c",
+          "occurrence_id": "node:ab9a992a745b4dab5508bb526ed3914594e01e4f1d1c5ef4b189d99430a83887",
+          "span": {
+            "source_id": "source:91a8e0141aeb222f8fca1eb3baf0958581d4012ca5ac405f96f9d6364f39e502",
+            "source_sha256": "sha256:2501dd1b1751693d82088d8bad0096697f4b0dec3f151c596a5d240145508eeb",
+            "path": "repo/docs/PASSAGE_ADMISSION.md",
+            "char_start": 2359,
+            "char_end": 3001,
+            "byte_start": 2359,
+            "byte_end": 3001,
+            "text": "The frozen historical baseline remains2 complete answers out of22. The goal is22 correct outcomes: complete cited answers when established, or well-supported conflict/refusal where justified by originals. Generic retrieval, grammar and budget failures are not automatically correct. Complete-answer counts remain separate. The [final frozen study](../evaluation/sorter-first-originals/2026-11-18-witness-admission-final/REPORT.md) completes88 workers with2/22 complete answers and27/32 draft spans in every arm; no new complete-answer gain. All1249 extracted-ZIP regressions pass. Independent human and unseen-original evaluation are NOT RUN."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:52cbc4bfe20bbe9f10745f0a4e3f845692de1347427b2ce439bd24baa55ad4bf",
+          "occurrence_id": "node:ab9a992a745b4dab5508bb526ed3914594e01e4f1d1c5ef4b189d99430a83887",
+          "span": {
+            "source_id": "source:91a8e0141aeb222f8fca1eb3baf0958581d4012ca5ac405f96f9d6364f39e502",
+            "source_sha256": "sha256:2501dd1b1751693d82088d8bad0096697f4b0dec3f151c596a5d240145508eeb",
+            "path": "repo/docs/PASSAGE_ADMISSION.md",
+            "char_start": 3003,
+            "char_end": 3035,
+            "byte_start": 3003,
+            "byte_end": 3035,
+            "text": "Reproduce focused controls with:"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:3e56653df99dd78f201e5f3b1c6877a5a55a7d33a1a9cfd754af78ad7aeb5caa",
+          "occurrence_id": "node:ab9a992a745b4dab5508bb526ed3914594e01e4f1d1c5ef4b189d99430a83887",
+          "span": {
+            "source_id": "source:91a8e0141aeb222f8fca1eb3baf0958581d4012ca5ac405f96f9d6364f39e502",
+            "source_sha256": "sha256:2501dd1b1751693d82088d8bad0096697f4b0dec3f151c596a5d240145508eeb",
+            "path": "repo/docs/PASSAGE_ADMISSION.md",
+            "char_start": 3037,
+            "char_end": 3127,
+            "byte_start": 3037,
+            "byte_end": 3127,
+            "text": "```sh\npython -m unittest tests.test_witness_admission tests.test_sorter_suggestions -q\n```"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:718e5f970cb66a34f2bae3b22b2d1093f5bb7af99c2eda9aecbebba83f29dc8c",
+          "occurrence_id": "node:ab9a992a745b4dab5508bb526ed3914594e01e4f1d1c5ef4b189d99430a83887",
+          "span": {
+            "source_id": "source:91a8e0141aeb222f8fca1eb3baf0958581d4012ca5ac405f96f9d6364f39e502",
+            "source_sha256": "sha256:2501dd1b1751693d82088d8bad0096697f4b0dec3f151c596a5d240145508eeb",
+            "path": "repo/docs/PASSAGE_ADMISSION.md",
+            "char_start": 3129,
+            "char_end": 3549,
+            "byte_start": 3129,
+            "byte_end": 3551,
+            "text": "The first frozen admission trial (`4b6b1f6`) completed88 study workers but failed one of1249 full regression tests: an older adapter marked all native search results as hints. The compatibility repair falls back to the index’s independent native query retrieval when no ordinary passages remain. It does not admit synonym hints. The old test and failed trial remain unchanged. A new reader freeze and rerun are required."
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:5dd0976f67bc53386c31bd9eaa8ac4bca18a1d1b03f7f258f91fb574f6d20647",
+          "occurrence_id": "node:ab9a992a745b4dab5508bb526ed3914594e01e4f1d1c5ef4b189d99430a83887",
+          "span": {
+            "source_id": "source:91a8e0141aeb222f8fca1eb3baf0958581d4012ca5ac405f96f9d6364f39e502",
+            "source_sha256": "sha256:2501dd1b1751693d82088d8bad0096697f4b0dec3f151c596a5d240145508eeb",
+            "path": "repo/docs/PASSAGE_ADMISSION.md",
+            "char_start": 3551,
+            "char_end": 3935,
+            "byte_start": 3553,
+            "byte_end": 3937,
+            "text": "The compatibility-repaired runtime `6aa4ecd4d052af2b554abd0da2fd465f11c9fef6` passes the existing legacy adapter control and the full suite. [Final per-question evidence and budgets](../evaluation/sorter-first-originals/2026-11-18-witness-admission-final/witness-comparison.json) retain exact before/after source mappings, costs, missing information and unassessed semantic outcomes.\n"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "review-thread.md",
+      "input_type": "synthetic",
+      "sha256": "2281a2441b59211b79d7a11a72ef848e0f53e6660383a5cb3a76c5a26d2e238d",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:052fc4a44c413498fa63f20167f3d297a2535f6a1ebbdacfa0407eb457ae1fe3",
+        "path": "review-thread.md",
+        "raw_sha256": "sha256:2281a2441b59211b79d7a11a72ef848e0f53e6660383a5cb3a76c5a26d2e238d",
+        "bytes": 100,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:ccdf58ae5fb525df028e52abd010008ec8d989f3696c25c22504964844ad2e5c",
+          "occurrence_id": "node:5f9d2638fdb6cb28f6a13e83cd638958c9d73fb271dec9b471ba3254092bb097",
+          "span": {
+            "source_id": "source:052fc4a44c413498fa63f20167f3d297a2535f6a1ebbdacfa0407eb457ae1fe3",
+            "source_sha256": "sha256:2281a2441b59211b79d7a11a72ef848e0f53e6660383a5cb3a76c5a26d2e238d",
+            "path": "review-thread.md",
+            "char_start": 0,
+            "char_end": 15,
+            "byte_start": 0,
+            "byte_end": 15,
+            "text": "# Review thread"
+          },
+          "review_status": "not_displayed_for_this_query",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:68bc0fbeb563866513f73e54c2136a7995d2d71bd6eb96d6d4212912302e8f9a",
+          "occurrence_id": "node:5f9d2638fdb6cb28f6a13e83cd638958c9d73fb271dec9b471ba3254092bb097",
+          "span": {
+            "source_id": "source:052fc4a44c413498fa63f20167f3d297a2535f6a1ebbdacfa0407eb457ae1fe3",
+            "source_sha256": "sha256:2281a2441b59211b79d7a11a72ef848e0f53e6660383a5cb3a76c5a26d2e238d",
+            "path": "review-thread.md",
+            "char_start": 17,
+            "char_end": 100,
+            "byte_start": 17,
+            "byte_end": 100,
+            "text": "Can we compare exploration budgets and strict proof slots on public documentation?\n"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    }
+  ]
+}

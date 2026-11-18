@@ -1,0 +1,199 @@
+{
+  "schema": "candidate-review-workspace-v3",
+  "label": "Sorter suggestions for review. MPLPB has not verified these links or answers.",
+  "status": "candidate for review",
+  "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+  "approval_status": "outside_approved_evidence",
+  "answer_supported": false,
+  "content_truth_verified": false,
+  "approval_transferred": false,
+  "graph_sha256": "sha256:67a4af00967c82d966eaad135f3dc9e2dc9f887c2dc117b4692e3148bdbd3d6e",
+  "implementation_sha256": "sha256:74fd28037d4c10cfe1164a7fa04ee53de4c0e6be63401e675762a1a7a9249290",
+  "configuration": {
+    "question": "What about Silk Road?",
+    "topic": "What about Silk Road?",
+    "profile": "lab",
+    "max_passages": 20,
+    "max_chars": 16000,
+    "strict_passages": 12,
+    "strict_chars": 8000,
+    "scan_passages": 256,
+    "pair_checks": 4096,
+    "as_of": null
+  },
+  "original_corpus_snapshot": "sha256:8d284e0b7b960d156b1864ee3f79eef66e5dd4d5ba452389e78461f538c2a349",
+  "original_policy": {
+    "gate_version": 2,
+    "mode": "separate_lexical_sources",
+    "max_depth": 2,
+    "prose": true,
+    "not_for": true,
+    "enforce_sealed_external_policy": true,
+    "synthesize": false,
+    "follow_pointers": false,
+    "require_current_dependencies": true,
+    "settings_hash": "sha256:c5f132ec431f1b0014972073317be495810947a073708955d3ad9b4769bfabea"
+  },
+  "reader_implementation_sha256": "sha256:e207dac173890540b5af36626e592c56cd293cb86a577c0c2a5d09cda441aea8",
+  "verifier_implementation_sha256": "sha256:9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+  "mplpb_decision": {
+    "status": "no_eligible_owner",
+    "eligible_owner_count": 0,
+    "strict_answer": null,
+    "page": null,
+    "competing_sources": [],
+    "native_kind": "not_in_corpus",
+    "reason": "no current page declares most of this question, and no page contains every word of it",
+    "message": "No MPLPB-supported answer is returned by this ownership route. Labeled exploration remains available."
+  },
+  "processed_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:5ec9956083c53ae93a0e60b05117ed99251a88f4e39cbb427726efb8e4ad8032",
+      "occurrence_id": "node:59086649021f9c1adbb05f95c1e05401005879e37c76f4ba9c81ae98ff5703a1",
+      "span": {
+        "source_id": "source:50a298ec0fd45ad609996f7f14cb3916ef8c7b5ff18d9e3417344085fd50454d",
+        "source_sha256": "sha256:3e6ca61fe472a72662113eae6ae68f0e2d815f9fc567aa3a7a35555b3b6a6fdc",
+        "path": "topic-01-copy.md",
+        "char_start": 0,
+        "char_end": 23,
+        "byte_start": 0,
+        "byte_end": 23,
+        "text": "Mara studied Silk Road."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:dd5cf450ff0f31625b7a0f37a48994221c50019dc73e48caeac16aa5dc0f3601",
+      "occurrence_id": "node:2e6c2062074663a0c7756644b3b59a599bbb4ffec9bbc97170686a65a782ea45",
+      "span": {
+        "source_id": "source:5158365fa141c2589d8afde2f35a679f1c178af7bbf9ee4c5363f3af4890da7a",
+        "source_sha256": "sha256:c2041dfcfdc9603a309ec3271ec33e10450d26decfc8bf093fccc88dd76fca22",
+        "path": "topic-01-web-pointer.md",
+        "char_start": 24,
+        "char_end": 33,
+        "byte_start": 24,
+        "byte_end": 33,
+        "text": "Silk Road"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "candidates": [],
+  "processed_disagreements": [],
+  "unresolved_references": [],
+  "unmatched_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:5ec9956083c53ae93a0e60b05117ed99251a88f4e39cbb427726efb8e4ad8032",
+      "occurrence_id": "node:59086649021f9c1adbb05f95c1e05401005879e37c76f4ba9c81ae98ff5703a1",
+      "span": {
+        "source_id": "source:50a298ec0fd45ad609996f7f14cb3916ef8c7b5ff18d9e3417344085fd50454d",
+        "source_sha256": "sha256:3e6ca61fe472a72662113eae6ae68f0e2d815f9fc567aa3a7a35555b3b6a6fdc",
+        "path": "topic-01-copy.md",
+        "char_start": 0,
+        "char_end": 23,
+        "byte_start": 0,
+        "byte_end": 23,
+        "text": "Mara studied Silk Road."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:dd5cf450ff0f31625b7a0f37a48994221c50019dc73e48caeac16aa5dc0f3601",
+      "occurrence_id": "node:2e6c2062074663a0c7756644b3b59a599bbb4ffec9bbc97170686a65a782ea45",
+      "span": {
+        "source_id": "source:5158365fa141c2589d8afde2f35a679f1c178af7bbf9ee4c5363f3af4890da7a",
+        "source_sha256": "sha256:c2041dfcfdc9603a309ec3271ec33e10450d26decfc8bf093fccc88dd76fca22",
+        "path": "topic-01-web-pointer.md",
+        "char_start": 24,
+        "char_end": 33,
+        "byte_start": 24,
+        "byte_end": 33,
+        "text": "Silk Road"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "exploration_budget": {
+    "max_passages": 20,
+    "max_characters": 16000,
+    "unique_spans": 2,
+    "characters": 32,
+    "omitted_items": 0,
+    "display_truncated": false,
+    "search_truncated": false,
+    "original_discovery_passage_limit": 64,
+    "original_discovery_character_limit": 64000,
+    "original_passages_considered": 4,
+    "processed_passages_considered": 2,
+    "original_pairs_examined": 8,
+    "processed_pairs_examined": 1,
+    "strict_slots_consumed": 0,
+    "phrase_token_limit_per_statement": 256
+  },
+  "strict_budget": {
+    "max_passages": 12,
+    "max_characters": 8000,
+    "evaluated": false,
+    "truncated": false
+  },
+  "limits_notice": "Unshown/unmatched items remain in the separately pinned sorter graph. No missing match or silence proves absence.",
+  "source_authority_changed": false,
+  "ownership_changed": false,
+  "workspace_sha256": "sha256:442cb6e61e4b44b9a515fd47de2a132c01c27da1f33ee91f5e93b525ebf6d2f8"
+}

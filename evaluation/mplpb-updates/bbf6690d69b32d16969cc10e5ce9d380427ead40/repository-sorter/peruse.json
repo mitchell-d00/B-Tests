@@ -1,0 +1,221 @@
+{
+  "status": "source_fidelity_replayed",
+  "graph_sha256": "sha256:735768ff8e909ccd6fac42d656585e7544dda04bc8e7c85fccacedab9f477705",
+  "assessment": {
+    "status": "unassessed_candidate",
+    "answer_supported": false,
+    "source_support_established": false,
+    "historical_truth_independently_verified": false,
+    "serving_eligibility": "not_evaluated"
+  },
+  "complete": false,
+  "notice": "Exact extraction replay only; serving policy, semantic correctness and historical truth are not verified.",
+  "mode": "compare",
+  "items": [
+    {
+      "id": "node:c67b1f2be9eb620631475ae441e70ab970348c9cba926bc7d743760db1737ebd",
+      "kind": "source_occurrence",
+      "span": {
+        "source_id": "source:b0dd5bc9db80a0ef8e09bafb2917af246f8ddc7f46e7398af02d509169e8d7cc",
+        "source_sha256": "sha256:88609559b523ce0e04932d8c888a3d4b2662bb6a3179ec91c80d202aafbf6428",
+        "path": "README.md",
+        "char_start": 0,
+        "char_end": 15820,
+        "byte_start": 0,
+        "byte_end": 15830
+      },
+      "assessment": {
+        "status": "source_occurrence_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "boundary_basis": "whole_file_appearance",
+      "event_identity": null,
+      "independent_event_established": false,
+      "identity_role": "textual_appearance_only",
+      "body_span": {
+        "source_id": "source:b0dd5bc9db80a0ef8e09bafb2917af246f8ddc7f46e7398af02d509169e8d7cc",
+        "source_sha256": "sha256:88609559b523ce0e04932d8c888a3d4b2662bb6a3179ec91c80d202aafbf6428",
+        "path": "README.md",
+        "char_start": 0,
+        "char_end": 15820,
+        "byte_start": 0,
+        "byte_end": 15830
+      },
+      "body_sha256": "sha256:88609559b523ce0e04932d8c888a3d4b2662bb6a3179ec91c80d202aafbf6428",
+      "declared_status_candidates": [],
+      "provisional_ledger_status": "undetermined_candidate"
+    },
+    {
+      "id": "node:01349e698fee133fcc0c4832ebaf2fe8494315d57de3ccca8ad10d9d4b49ea64",
+      "kind": "statement",
+      "span": {
+        "source_id": "source:b0dd5bc9db80a0ef8e09bafb2917af246f8ddc7f46e7398af02d509169e8d7cc",
+        "source_sha256": "sha256:88609559b523ce0e04932d8c888a3d4b2662bb6a3179ec91c80d202aafbf6428",
+        "path": "README.md",
+        "char_start": 0,
+        "char_end": 16,
+        "byte_start": 0,
+        "byte_end": 16,
+        "text": "# Combined MPLPB"
+      },
+      "assessment": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "occurrence": "node:c67b1f2be9eb620631475ae441e70ab970348c9cba926bc7d743760db1737ebd",
+      "scope": "unqualified_text"
+    },
+    {
+      "id": "node:cb352523eeba64da11903b177957f4fd429822aaf35760695454d4249782bd57",
+      "kind": "statement",
+      "span": {
+        "source_id": "source:b0dd5bc9db80a0ef8e09bafb2917af246f8ddc7f46e7398af02d509169e8d7cc",
+        "source_sha256": "sha256:88609559b523ce0e04932d8c888a3d4b2662bb6a3179ec91c80d202aafbf6428",
+        "path": "README.md",
+        "char_start": 18,
+        "char_end": 44,
+        "byte_start": 18,
+        "byte_end": 44,
+        "text": "Last reviewed: 2026-11-18."
+      },
+      "assessment": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "occurrence": "node:c67b1f2be9eb620631475ae441e70ab970348c9cba926bc7d743760db1737ebd",
+      "scope": "unqualified_text"
+    },
+    {
+      "id": "node:eccda5615b6e70ed446f53b9eb998541ee1edfe39eae0564bd4808056201944f",
+      "kind": "date_expression",
+      "span": {
+        "source_id": "source:b0dd5bc9db80a0ef8e09bafb2917af246f8ddc7f46e7398af02d509169e8d7cc",
+        "source_sha256": "sha256:88609559b523ce0e04932d8c888a3d4b2662bb6a3179ec91c80d202aafbf6428",
+        "path": "README.md",
+        "char_start": 33,
+        "char_end": 43,
+        "byte_start": 33,
+        "byte_end": 43,
+        "text": "2026-11-18"
+      },
+      "assessment": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "statement": "node:cb352523eeba64da11903b177957f4fd429822aaf35760695454d4249782bd57",
+      "occurrence": "node:c67b1f2be9eb620631475ae441e70ab970348c9cba926bc7d743760db1737ebd",
+      "scope": "unqualified_text",
+      "value": "2026-11-18",
+      "date_role": "unresolved",
+      "normalized_event_time": null
+    },
+    {
+      "id": "node:8962219fdaf90ad265068b47b86670ccd21f8cb7e4e8edcd4a2c377e574086f4",
+      "kind": "statement",
+      "span": {
+        "source_id": "source:b0dd5bc9db80a0ef8e09bafb2917af246f8ddc7f46e7398af02d509169e8d7cc",
+        "source_sha256": "sha256:88609559b523ce0e04932d8c888a3d4b2662bb6a3179ec91c80d202aafbf6428",
+        "path": "README.md",
+        "char_start": 46,
+        "char_end": 280,
+        "byte_start": 46,
+        "byte_end": 280,
+        "text": "Combined MPLPB is a closed local ledger with tools for raw-material sorting,\nbounded source questions, documentary inspection and retained work history.\nIts browser, native CLI and agent adapters preserve the existing authority rules."
+      },
+      "assessment": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "occurrence": "node:c67b1f2be9eb620631475ae441e70ab970348c9cba926bc7d743760db1737ebd",
+      "scope": "unqualified_text"
+    },
+    {
+      "id": "node:8b8993abeee86a436fd0a4c2d9597bd7ffe900e8a329cac874c46fe25cc41e3b",
+      "kind": "statement",
+      "span": {
+        "source_id": "source:b0dd5bc9db80a0ef8e09bafb2917af246f8ddc7f46e7398af02d509169e8d7cc",
+        "source_sha256": "sha256:88609559b523ce0e04932d8c888a3d4b2662bb6a3179ec91c80d202aafbf6428",
+        "path": "README.md",
+        "char_start": 282,
+        "char_end": 672,
+        "byte_start": 282,
+        "byte_end": 672,
+        "text": "**One owner returns; two stop; none refuses.** This is the ownership rule:\none eligible owner may return its page, competing owners stop for ambiguity,\nand no eligible owner means refusal. A returned page is not automatically a\nsupported answer. Strict answering additionally checks eligible source wording\nunder the finite proof rules. Source integrity does not establish historical truth."
+      },
+      "assessment": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "occurrence": "node:c67b1f2be9eb620631475ae441e70ab970348c9cba926bc7d743760db1737ebd",
+      "scope": "unqualified_text"
+    },
+    {
+      "id": "node:fedc8c54b300a3dd8b1fface5dae125957ef51110a3459ca62c249ad66cb13c5",
+      "kind": "statement",
+      "span": {
+        "source_id": "source:b0dd5bc9db80a0ef8e09bafb2917af246f8ddc7f46e7398af02d509169e8d7cc",
+        "source_sha256": "sha256:88609559b523ce0e04932d8c888a3d4b2662bb6a3179ec91c80d202aafbf6428",
+        "path": "README.md",
+        "char_start": 674,
+        "char_end": 958,
+        "byte_start": 674,
+        "byte_end": 958,
+        "text": "**Research status:** attributable engineering contribution and technical case\nstudy, still being tested. The particular combination may be distinctive;\nit is not proven world-first. Independent historical semantic accuracy and\nshared-service production readiness remain unestablished."
+      },
+      "assessment": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "occurrence": "node:c67b1f2be9eb620631475ae441e70ab970348c9cba926bc7d743760db1737ebd",
+      "scope": "unqualified_text"
+    },
+    {
+      "id": "node:f9434693e99db3306634998ef30de00121ffcd047e5c876be4c30b156e722131",
+      "kind": "statement",
+      "span": {
+        "source_id": "source:b0dd5bc9db80a0ef8e09bafb2917af246f8ddc7f46e7398af02d509169e8d7cc",
+        "source_sha256": "sha256:88609559b523ce0e04932d8c888a3d4b2662bb6a3179ec91c80d202aafbf6428",
+        "path": "README.md",
+        "char_start": 960,
+        "char_end": 1259,
+        "byte_start": 960,
+        "byte_end": 1263,
+        "text": "[Open the application](https://mitchell-d00.github.io/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/)\n· [Package guide](docs/PACKAGE_GUIDE.md)\n· [Installation](docs/INSTALLATION.md)\n· [All documentation](docs/README.md)\n· [Current evidence](docs/CURRENT_STATUS.md)"
+      },
+      "assessment": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "occurrence": "node:c67b1f2be9eb620631475ae441e70ab970348c9cba926bc7d743760db1737ebd",
+      "scope": "unqualified_text"
+    }
+  ],
+  "displayed": 8,
+  "omitted": 483,
+  "wall_seconds": 0.13434964599946397,
+  "cpu_seconds": 0.133933552
+}

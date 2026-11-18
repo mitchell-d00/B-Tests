@@ -1,0 +1,257 @@
+{
+  "schema": "candidate-review-workspace-v3",
+  "label": "Sorter suggestions for review. MPLPB has not verified these links or answers.",
+  "status": "candidate for review",
+  "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+  "approval_status": "outside_approved_evidence",
+  "answer_supported": false,
+  "content_truth_verified": false,
+  "approval_transferred": false,
+  "graph_sha256": "sha256:b0f74e27e8cf3e0d0c56815dc4a012951c69472c6d3b490eb88971897ad17ffc",
+  "implementation_sha256": "sha256:74fd28037d4c10cfe1164a7fa04ee53de4c0e6be63401e675762a1a7a9249290",
+  "configuration": {
+    "question": "What about Reformation?",
+    "topic": "What about Reformation?",
+    "profile": "lab",
+    "max_passages": 20,
+    "max_chars": 16000,
+    "strict_passages": 12,
+    "strict_chars": 8000,
+    "scan_passages": 256,
+    "pair_checks": 4096,
+    "as_of": null
+  },
+  "original_corpus_snapshot": "sha256:2522e6c8cb5e38bfa5099f0c0056f1f98cbe0ba5d3bf7ba01820cb261bacd248",
+  "original_policy": {
+    "gate_version": 2,
+    "mode": "separate_lexical_sources",
+    "max_depth": 2,
+    "prose": true,
+    "not_for": true,
+    "enforce_sealed_external_policy": true,
+    "synthesize": false,
+    "follow_pointers": false,
+    "require_current_dependencies": true,
+    "settings_hash": "sha256:c5f132ec431f1b0014972073317be495810947a073708955d3ad9b4769bfabea"
+  },
+  "reader_implementation_sha256": "sha256:e207dac173890540b5af36626e592c56cd293cb86a577c0c2a5d09cda441aea8",
+  "verifier_implementation_sha256": "sha256:9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+  "mplpb_decision": {
+    "status": "no_eligible_owner",
+    "eligible_owner_count": 0,
+    "strict_answer": null,
+    "page": null,
+    "competing_sources": [],
+    "native_kind": "not_in_corpus",
+    "reason": "no current page declares most of this question, and no page contains every word of it",
+    "message": "No MPLPB-supported answer is returned by this ownership route. Labeled exploration remains available."
+  },
+  "processed_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:e90e8ce6451029a88e50271ad6ed6bc53245a6964e9111c39fbcf5c00374ef73",
+      "occurrence_id": "node:708b3da52a773dacc16991967de29c91b13ad4e2c514addcb9acef4167435bd3",
+      "span": {
+        "source_id": "source:e35d301afcc9ef1692aeae9e41e14a06b9953ca3ccdcc6f4e8726dfd236a5830",
+        "source_sha256": "sha256:15af31694ac2669936b7c5a5dcc6bbc853e75f2db80a54051cd8c9f2a0b48782",
+        "path": "topic-01-copy.markdown",
+        "char_start": 0,
+        "char_end": 25,
+        "byte_start": 0,
+        "byte_end": 25,
+        "text": "Tess studied Reformation."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:52a08908aa432cf88a96f59a1b982e9807cab63d507071f38f5579790a83ea23",
+      "occurrence_id": "node:fd4603d9b339c3315e80142696942850fc26ad7af8ad70113e41b564285897bb",
+      "span": {
+        "source_id": "source:c52f19aa90cddac03f8cde4c66645e86a907e6f151f1b7acffcc0e75a98eb68c",
+        "source_sha256": "sha256:ff5a8772bed36d3178db8ff2ce190ac9c49a900e182319cafb58550c2b4d9c90",
+        "path": "topic-01-web-pointer.md",
+        "char_start": 24,
+        "char_end": 35,
+        "byte_start": 24,
+        "byte_end": 35,
+        "text": "Reformation"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:7587b0cff7eaad0c29d1a20e386e9556df1bb9027656176a3db8aeb45f94e5d1",
+      "occurrence_id": "node:fd4603d9b339c3315e80142696942850fc26ad7af8ad70113e41b564285897bb",
+      "span": {
+        "source_id": "source:c52f19aa90cddac03f8cde4c66645e86a907e6f151f1b7acffcc0e75a98eb68c",
+        "source_sha256": "sha256:ff5a8772bed36d3178db8ff2ce190ac9c49a900e182319cafb58550c2b4d9c90",
+        "path": "topic-01-web-pointer.md",
+        "char_start": 37,
+        "char_end": 78,
+        "byte_start": 37,
+        "byte_end": 78,
+        "text": "https://en.wikipedia.org/wiki/Reformation"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "candidates": [],
+  "processed_disagreements": [],
+  "unresolved_references": [],
+  "unmatched_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:e90e8ce6451029a88e50271ad6ed6bc53245a6964e9111c39fbcf5c00374ef73",
+      "occurrence_id": "node:708b3da52a773dacc16991967de29c91b13ad4e2c514addcb9acef4167435bd3",
+      "span": {
+        "source_id": "source:e35d301afcc9ef1692aeae9e41e14a06b9953ca3ccdcc6f4e8726dfd236a5830",
+        "source_sha256": "sha256:15af31694ac2669936b7c5a5dcc6bbc853e75f2db80a54051cd8c9f2a0b48782",
+        "path": "topic-01-copy.markdown",
+        "char_start": 0,
+        "char_end": 25,
+        "byte_start": 0,
+        "byte_end": 25,
+        "text": "Tess studied Reformation."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:52a08908aa432cf88a96f59a1b982e9807cab63d507071f38f5579790a83ea23",
+      "occurrence_id": "node:fd4603d9b339c3315e80142696942850fc26ad7af8ad70113e41b564285897bb",
+      "span": {
+        "source_id": "source:c52f19aa90cddac03f8cde4c66645e86a907e6f151f1b7acffcc0e75a98eb68c",
+        "source_sha256": "sha256:ff5a8772bed36d3178db8ff2ce190ac9c49a900e182319cafb58550c2b4d9c90",
+        "path": "topic-01-web-pointer.md",
+        "char_start": 24,
+        "char_end": 35,
+        "byte_start": 24,
+        "byte_end": 35,
+        "text": "Reformation"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:7587b0cff7eaad0c29d1a20e386e9556df1bb9027656176a3db8aeb45f94e5d1",
+      "occurrence_id": "node:fd4603d9b339c3315e80142696942850fc26ad7af8ad70113e41b564285897bb",
+      "span": {
+        "source_id": "source:c52f19aa90cddac03f8cde4c66645e86a907e6f151f1b7acffcc0e75a98eb68c",
+        "source_sha256": "sha256:ff5a8772bed36d3178db8ff2ce190ac9c49a900e182319cafb58550c2b4d9c90",
+        "path": "topic-01-web-pointer.md",
+        "char_start": 37,
+        "char_end": 78,
+        "byte_start": 37,
+        "byte_end": 78,
+        "text": "https://en.wikipedia.org/wiki/Reformation"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "exploration_budget": {
+    "max_passages": 20,
+    "max_characters": 16000,
+    "unique_spans": 3,
+    "characters": 77,
+    "omitted_items": 0,
+    "display_truncated": false,
+    "search_truncated": false,
+    "original_discovery_passage_limit": 64,
+    "original_discovery_character_limit": 64000,
+    "original_passages_considered": 4,
+    "processed_passages_considered": 3,
+    "original_pairs_examined": 12,
+    "processed_pairs_examined": 3,
+    "strict_slots_consumed": 0,
+    "phrase_token_limit_per_statement": 256
+  },
+  "strict_budget": {
+    "max_passages": 12,
+    "max_characters": 8000,
+    "evaluated": false,
+    "truncated": false
+  },
+  "limits_notice": "Unshown/unmatched items remain in the separately pinned sorter graph. No missing match or silence proves absence.",
+  "source_authority_changed": false,
+  "ownership_changed": false,
+  "workspace_sha256": "sha256:6a940c01f339a6159c86b5896b373fe7341ee909eb9a2a37e3c42e3924b8b6d6"
+}

@@ -1,0 +1,153 @@
+{
+  "schema": "mplpb-native-suite-1",
+  "revision": "bbf6690d69b32d16969cc10e5ce9d380427ead40",
+  "git_tree": "5116c3495405f7f7a54cb91f20651ba49cfe5b35",
+  "results": [
+    {
+      "id": "python-full-suite",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-t",
+        ".",
+        "-v"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 587.2483968589986,
+      "unittest_count": 1267,
+      "stdout_sha256": "fbdbc1c04190e7cdd4a714cce3eac02d3997c867474138cd2fad700076025804",
+      "stderr_sha256": "59fd0cef08006aec5a1f86a962344267e051b0369ec1aa2bfb1b9e1126b75425",
+      "evidence_level": "native_unmodified_repository_execution",
+      "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+    },
+    {
+      "id": "ui-script",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "tools/check_ui_script.py"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.8289248979999684,
+      "unittest_count": null,
+      "stdout_sha256": "b8ecae0fe71214558bf3cf6ed1c280a32e09111b810ea76d49b89ef97ae72772",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_level": "native_unmodified_repository_execution",
+      "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+    },
+    {
+      "id": "browser-transport",
+      "command": [
+        "node",
+        "tools/check_browser_transport.cjs"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.060080201998061966,
+      "unittest_count": null,
+      "stdout_sha256": "91201614b643cc7a6851222c4f1e5684e34505c019a26e85a0afc8f3407b6343",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_level": "native_unmodified_repository_execution",
+      "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+    },
+    {
+      "id": "javascript-api",
+      "command": [
+        "node",
+        "tests/javascript-api.cjs"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.8511283899970294,
+      "unittest_count": null,
+      "stdout_sha256": "2ec7e959ed7d461981bbbc39199b9497fe1e251b0910b95729e2240408e92539",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_level": "native_unmodified_repository_execution",
+      "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+    },
+    {
+      "id": "crawler-worker",
+      "command": [
+        "node",
+        "crawler/test_worker.mjs"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.13073281700053485,
+      "unittest_count": null,
+      "stdout_sha256": "fc1a38f0e824cdaa186dede6ae2c87035cb7e65875a6678e8254918f2544cd03",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_level": "native_unmodified_repository_execution",
+      "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+    },
+    {
+      "id": "source-infrastructure",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "tools/check_repository_infrastructure.py"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.29749611700026435,
+      "unittest_count": null,
+      "stdout_sha256": "d6f35d84aebfb4332d37b7cf4dae46288cd3cd1effa68d3057cf875dbbebd13a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_level": "native_unmodified_repository_execution",
+      "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+    },
+    {
+      "id": "committed-handoff",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "tools/build_handoff.py",
+        "--check"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 5.4729789180019,
+      "unittest_count": null,
+      "stdout_sha256": "0a6223779a3ffdfdc81eb30b3957b2c3f534a520334b87fcab048d7a6f3a5657",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_level": "native_unmodified_repository_execution",
+      "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+    },
+    {
+      "id": "five-instance-recovery",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "tools.demo_specialist_continuity",
+        "--output",
+        "/workspace/mplpb-pr52-validation/results/native/five-instance-demo.json"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.615757437000866,
+      "unittest_count": null,
+      "stdout_sha256": "964ac99a9b58072ea904af00ec1e80131af60813b34fb6a0b541a03d204925ad",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_level": "native_unmodified_repository_execution",
+      "scope": "A failed command requires log review; this status alone does not classify an architectural defect."
+    }
+  ],
+  "counts": {
+    "PASS": 8,
+    "FAIL": 0,
+    "NOT_RUN": 0
+  },
+  "tracked_target_changed": false,
+  "tracked_status_after": "",
+  "model_calls": 0,
+  "native_oocc_access": false,
+  "independent_quality_validation": false,
+  "limits": [
+    "Authored development suites are not independent accuracy or usability studies.",
+    "JavaScript checks are not automatically real-browser or physical-device inference.",
+    "Ben original private benchmarks are not supplied or reproduced by this runner."
+  ]
+}

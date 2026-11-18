@@ -26,6 +26,8 @@ The primary snapshot records execution timestamps and code hashes before the sta
 
 No claim is made that Ben derived his suggestions from these repositories. The supported chronological claim is that Mitchell had already formulated and executed bounded explorations of related questions before the critique's stated date.
 
+The [November 18 follow-up](../evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md) records PR52’s candidate review workspace, the fresh native rerun, and the randomized synthetic user results. The 22-question reconstruction baseline and the scope of the matrix below remain tied to their recorded runs.
+
 ## What Ben actually tested and concluded
 
 **Credit for external evaluation:** Gelhaus publicly reports58/58 selected native tests passed, with additional positive source-location and safe-refusal results. [The study-by-study summary](GELHAUS_EXTERNAL_EVALUATION.md) records his measured limits too. His recommendations are proposed extensions, not automatically failures; safe out-of-grammar abstention is distinct from an incorrect answer.

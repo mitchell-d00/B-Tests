@@ -1,0 +1,199 @@
+{
+  "schema": "candidate-review-workspace-v3",
+  "label": "Sorter suggestions for review. MPLPB has not verified these links or answers.",
+  "status": "candidate for review",
+  "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+  "approval_status": "outside_approved_evidence",
+  "answer_supported": false,
+  "content_truth_verified": false,
+  "approval_transferred": false,
+  "graph_sha256": "sha256:0d7a1560da375aa2ed636e62fff469ea70c654ad594d11d85a5a59fbf4be7101",
+  "implementation_sha256": "sha256:74fd28037d4c10cfe1164a7fa04ee53de4c0e6be63401e675762a1a7a9249290",
+  "configuration": {
+    "question": "What about Johannes Gutenberg?",
+    "topic": "What about Johannes Gutenberg?",
+    "profile": "lab",
+    "max_passages": 20,
+    "max_chars": 16000,
+    "strict_passages": 12,
+    "strict_chars": 8000,
+    "scan_passages": 256,
+    "pair_checks": 4096,
+    "as_of": null
+  },
+  "original_corpus_snapshot": "sha256:6a4802ba6aeb5882d101e2f81319e41e9463c6b830b6e8e45b440f06c16f7703",
+  "original_policy": {
+    "gate_version": 2,
+    "mode": "separate_lexical_sources",
+    "max_depth": 2,
+    "prose": true,
+    "not_for": true,
+    "enforce_sealed_external_policy": true,
+    "synthesize": false,
+    "follow_pointers": false,
+    "require_current_dependencies": true,
+    "settings_hash": "sha256:c5f132ec431f1b0014972073317be495810947a073708955d3ad9b4769bfabea"
+  },
+  "reader_implementation_sha256": "sha256:e207dac173890540b5af36626e592c56cd293cb86a577c0c2a5d09cda441aea8",
+  "verifier_implementation_sha256": "sha256:9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+  "mplpb_decision": {
+    "status": "no_eligible_owner",
+    "eligible_owner_count": 0,
+    "strict_answer": null,
+    "page": null,
+    "competing_sources": [],
+    "native_kind": "not_in_corpus",
+    "reason": "no current page declares most of this question, and no page contains every word of it",
+    "message": "No MPLPB-supported answer is returned by this ownership route. Labeled exploration remains available."
+  },
+  "processed_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:cabc7cbd1f415e865a29dca12004a3a1188a19512523c89fed9e38c976c88789",
+      "occurrence_id": "node:4e24f3517d869fce5c5014c53ed6c4d9b00df77af636b4c0a87a79e443814933",
+      "span": {
+        "source_id": "source:b42cac291ee451ddf660fc2af9973459cb292f1b9779f8eab41a6e934d2db82e",
+        "source_sha256": "sha256:39a8ad1650fe63516369391733be92c7251169961592fd731a5beca5f92b02c4",
+        "path": "topic-02-copy.markdown",
+        "char_start": 0,
+        "char_end": 32,
+        "byte_start": 0,
+        "byte_end": 32,
+        "text": "Mara studied Johannes Gutenberg."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:4c21e8727cb69fe6e1770eb2493b279c2117767beb699f141ae94ab313d1fdb2",
+      "occurrence_id": "node:5d8c704be97459324786fb492bfa728fe064ef3b72104af152a58a10f0fcbf32",
+      "span": {
+        "source_id": "source:e074766a589799a77e3429ccebb07c1c49aace4faef1921772fd73e92308de91",
+        "source_sha256": "sha256:266b97167c895d803015cdc334a16b44a9f3b1264f9fbe6686b4fb9ba64f557e",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 24,
+        "char_end": 42,
+        "byte_start": 24,
+        "byte_end": 42,
+        "text": "Johannes Gutenberg"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "candidates": [],
+  "processed_disagreements": [],
+  "unresolved_references": [],
+  "unmatched_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:cabc7cbd1f415e865a29dca12004a3a1188a19512523c89fed9e38c976c88789",
+      "occurrence_id": "node:4e24f3517d869fce5c5014c53ed6c4d9b00df77af636b4c0a87a79e443814933",
+      "span": {
+        "source_id": "source:b42cac291ee451ddf660fc2af9973459cb292f1b9779f8eab41a6e934d2db82e",
+        "source_sha256": "sha256:39a8ad1650fe63516369391733be92c7251169961592fd731a5beca5f92b02c4",
+        "path": "topic-02-copy.markdown",
+        "char_start": 0,
+        "char_end": 32,
+        "byte_start": 0,
+        "byte_end": 32,
+        "text": "Mara studied Johannes Gutenberg."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:4c21e8727cb69fe6e1770eb2493b279c2117767beb699f141ae94ab313d1fdb2",
+      "occurrence_id": "node:5d8c704be97459324786fb492bfa728fe064ef3b72104af152a58a10f0fcbf32",
+      "span": {
+        "source_id": "source:e074766a589799a77e3429ccebb07c1c49aace4faef1921772fd73e92308de91",
+        "source_sha256": "sha256:266b97167c895d803015cdc334a16b44a9f3b1264f9fbe6686b4fb9ba64f557e",
+        "path": "topic-02-web-pointer.md",
+        "char_start": 24,
+        "char_end": 42,
+        "byte_start": 24,
+        "byte_end": 42,
+        "text": "Johannes Gutenberg"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "exploration_budget": {
+    "max_passages": 20,
+    "max_characters": 16000,
+    "unique_spans": 2,
+    "characters": 50,
+    "omitted_items": 0,
+    "display_truncated": false,
+    "search_truncated": false,
+    "original_discovery_passage_limit": 64,
+    "original_discovery_character_limit": 64000,
+    "original_passages_considered": 4,
+    "processed_passages_considered": 2,
+    "original_pairs_examined": 8,
+    "processed_pairs_examined": 1,
+    "strict_slots_consumed": 0,
+    "phrase_token_limit_per_statement": 256
+  },
+  "strict_budget": {
+    "max_passages": 12,
+    "max_characters": 8000,
+    "evaluated": false,
+    "truncated": false
+  },
+  "limits_notice": "Unshown/unmatched items remain in the separately pinned sorter graph. No missing match or silence proves absence.",
+  "source_authority_changed": false,
+  "ownership_changed": false,
+  "workspace_sha256": "sha256:33cc16e05bdf40ba20f0631061e3e1cbb3e2037fc8b4733a9480a628333add91"
+}

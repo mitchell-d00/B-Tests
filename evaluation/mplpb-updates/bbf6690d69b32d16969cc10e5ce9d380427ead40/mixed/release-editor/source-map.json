@@ -1,0 +1,189 @@
+{
+  "approved": [
+    {
+      "id": "DOC-1",
+      "dump_path": "dump/approved/DOC-1.txt",
+      "sha256": "4bcd80a386121f12b1e869ff537bd4282f027ade3a405275b89b66447bfe02c8",
+      "ledger_path": "doc-1.html",
+      "ledger_sha256": "3c791b4d35ccc1080ca3c5ac2740ff3c977348df9e6fdbe2b9d17fd4d463d693",
+      "withdrawn": false,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-2",
+      "dump_path": "dump/approved/DOC-2.txt",
+      "sha256": "69ad10970330fc4693fb3d3dc75d1e652bf6887e813645ce99794c6c1c3122c8",
+      "ledger_path": "doc-2.html",
+      "ledger_sha256": "8bbf39dc1c6664c23817b7e23e28c579abdc9a3aedf62fcbb1f2bfe0f3f77aeb",
+      "withdrawn": true,
+      "external": "yes",
+      "repository_source": null
+    },
+    {
+      "id": "DOC-3",
+      "dump_path": "dump/approved/DOC-3.txt",
+      "sha256": "27b4c87c45d5744f8ffa211dfda18d4a3935e1db396653e5cc3b5b0bf0e8f395",
+      "ledger_path": "doc-3.html",
+      "ledger_sha256": "98f9cf8529dcc25e165bdc3b91bf46477f54cd7f9e9e6354431255f6b2f55583",
+      "withdrawn": false,
+      "external": "no",
+      "repository_source": null
+    }
+  ],
+  "processed": [
+    {
+      "path": "draft-summary.text",
+      "input_type": "synthetic",
+      "sha256": "03118de2b16e3aabc02515ddd9bba233bd123c57d86354b8c68b1a7348b0298f",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:815e4a00a78b86602868c6b845f9c106c4c62560a6bad7cca43b59acc8148e9e",
+        "path": "draft-summary.text",
+        "raw_sha256": "sha256:03118de2b16e3aabc02515ddd9bba233bd123c57d86354b8c68b1a7348b0298f",
+        "bytes": 72,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:380791fd34cf870226485b43df5da7a99df9a85717259aa8395d8b4943099d1c",
+          "occurrence_id": "node:458299c859349c0910f39a17a31fd430d2ae767c7e32fb4288d303bd833f4abc",
+          "span": {
+            "source_id": "source:815e4a00a78b86602868c6b845f9c106c4c62560a6bad7cca43b59acc8148e9e",
+            "source_sha256": "sha256:03118de2b16e3aabc02515ddd9bba233bd123c57d86354b8c68b1a7348b0298f",
+            "path": "draft-summary.text",
+            "char_start": 0,
+            "char_end": 33,
+            "byte_start": 0,
+            "byte_end": 33,
+            "text": "Mara wrote the Indigo memorandum."
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        },
+        {
+          "node_id": "node:f432c90cfe33ba1ba8c0ad13404ca7c6f66881c6d24058478fefd5610ca9ae5d",
+          "occurrence_id": "node:458299c859349c0910f39a17a31fd430d2ae767c7e32fb4288d303bd833f4abc",
+          "span": {
+            "source_id": "source:815e4a00a78b86602868c6b845f9c106c4c62560a6bad7cca43b59acc8148e9e",
+            "source_sha256": "sha256:03118de2b16e3aabc02515ddd9bba233bd123c57d86354b8c68b1a7348b0298f",
+            "path": "draft-summary.text",
+            "char_start": 35,
+            "char_end": 72,
+            "byte_start": 35,
+            "byte_end": 72,
+            "text": "See DOC-2 for the Indigo memorandum.\n"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": [
+            {
+              "target": "DOC-2",
+              "span": {
+                "source_id": "source:815e4a00a78b86602868c6b845f9c106c4c62560a6bad7cca43b59acc8148e9e",
+                "source_sha256": "sha256:03118de2b16e3aabc02515ddd9bba233bd123c57d86354b8c68b1a7348b0298f",
+                "path": "draft-summary.text",
+                "char_start": 35,
+                "char_end": 44,
+                "byte_start": 35,
+                "byte_end": 44,
+                "text": "See DOC-2"
+              },
+              "eligible_document_identified": false,
+              "target_claim_status": "unresolved"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "old-export.txt",
+      "input_type": "synthetic",
+      "sha256": "a6e761642f9d86fc4ed699709ff8e51ebd650d41213e6e22b56921aa50deb3c9",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:84e2378932b180d1c589772df5d29bedb5de6f38f8c06202bf6b71033b6e8928",
+        "path": "old-export.txt",
+        "raw_sha256": "sha256:a6e761642f9d86fc4ed699709ff8e51ebd650d41213e6e22b56921aa50deb3c9",
+        "bytes": 33,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:f0010472472e8abaf1b397197f1d913323b0403f00a2189baed864fd37cf3969",
+          "occurrence_id": "node:364a3ff4f58ee9e717404cb3d714dc2c641c0ed61d1b9de31c08f77eb64ecdb0",
+          "span": {
+            "source_id": "source:84e2378932b180d1c589772df5d29bedb5de6f38f8c06202bf6b71033b6e8928",
+            "source_sha256": "sha256:a6e761642f9d86fc4ed699709ff8e51ebd650d41213e6e22b56921aa50deb3c9",
+            "path": "old-export.txt",
+            "char_start": 0,
+            "char_end": 33,
+            "byte_start": 0,
+            "byte_end": 33,
+            "text": "Ivo wrote the Indigo memorandum.\n"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    },
+    {
+      "path": "restricted-copy.md",
+      "input_type": "synthetic",
+      "sha256": "d31155cd2b7252783a20611500460938a4a5dd1838842cceac7245493ea6a757",
+      "sorter_status": "included",
+      "sorter_source": {
+        "id": "source:17a0d0cd75e86194fd8cccb6319afb3a51797f6c7c1be4cda83151f91a731cc1",
+        "path": "restricted-copy.md",
+        "raw_sha256": "sha256:d31155cd2b7252783a20611500460938a4a5dd1838842cceac7245493ea6a757",
+        "bytes": 34,
+        "encoding": "utf-8",
+        "policy_status": "not_evaluated",
+        "assessment": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "statements": [
+        {
+          "node_id": "node:4f76de03cf2b8f9e988abb28cd7397e21e98088cf2eb25c639a465b12865c17e",
+          "occurrence_id": "node:f863da51dffb534685bf43c3d17685370d3f7c2077509d1abe578ac5d2fdc897",
+          "span": {
+            "source_id": "source:17a0d0cd75e86194fd8cccb6319afb3a51797f6c7c1be4cda83151f91a731cc1",
+            "source_sha256": "sha256:d31155cd2b7252783a20611500460938a4a5dd1838842cceac7245493ea6a757",
+            "path": "restricted-copy.md",
+            "char_start": 0,
+            "char_end": 34,
+            "byte_start": 0,
+            "byte_end": 34,
+            "text": "Nora wrote the Indigo memorandum.\n"
+          },
+          "review_status": "unmatched_or_unresolved_within_search_limits",
+          "candidate_links": [],
+          "unresolved_references": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "schema": "candidate-review-workspace-v3",
+  "label": "Sorter suggestions for review. MPLPB has not verified these links or answers.",
+  "status": "candidate for review",
+  "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+  "approval_status": "outside_approved_evidence",
+  "answer_supported": false,
+  "content_truth_verified": false,
+  "approval_transferred": false,
+  "graph_sha256": "sha256:b8064426e59858fd63fd63070ba3d5becc7ed54deff7cbd88c60e5dcd5894419",
+  "implementation_sha256": "sha256:74fd28037d4c10cfe1164a7fa04ee53de4c0e6be63401e675762a1a7a9249290",
+  "configuration": {
+    "question": "What about Saturn?",
+    "topic": "What about Saturn?",
+    "profile": "external",
+    "max_passages": 20,
+    "max_chars": 16000,
+    "strict_passages": 12,
+    "strict_chars": 8000,
+    "scan_passages": 256,
+    "pair_checks": 4096,
+    "as_of": null
+  },
+  "original_corpus_snapshot": "sha256:4a9e56b6550b8d58f04e66571dc8a99d0ccaa232bf04c2fb89dba7d952bafe31",
+  "original_policy": {
+    "gate_version": 2,
+    "mode": "separate_lexical_sources",
+    "max_depth": 0,
+    "prose": false,
+    "not_for": true,
+    "enforce_sealed_external_policy": true,
+    "synthesize": false,
+    "follow_pointers": false,
+    "require_current_dependencies": true,
+    "settings_hash": "sha256:9a5792000912599856bb1ff33d484ba7c4a6c1ec67ac9e9b1ce950355b28f7a9"
+  },
+  "reader_implementation_sha256": "sha256:e207dac173890540b5af36626e592c56cd293cb86a577c0c2a5d09cda441aea8",
+  "verifier_implementation_sha256": "sha256:9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+  "mplpb_decision": {
+    "status": "no_eligible_owner",
+    "eligible_owner_count": 0,
+    "strict_answer": null,
+    "page": null,
+    "competing_sources": [],
+    "native_kind": "not_in_corpus",
+    "reason": "no current page declares most of this question; profile external does not consult prose",
+    "message": "No MPLPB-supported answer is returned by this ownership route. Labeled exploration remains available."
+  },
+  "processed_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:d033cc1537e08a78d4f68a628272e7af0202e21b9f608944f15f1ddb6d700437",
+      "occurrence_id": "node:85fd82e9b8e5f33270649e62ba4510448cc0923b1c47a84e51ca097cd343d8bc",
+      "span": {
+        "source_id": "source:f17b6cc59ca9df48529d926dfa15bff0275fff158fcdce36454b6a73dec630c6",
+        "source_sha256": "sha256:85d3a0e15ec86fd7f51bd5d41bc3ea97f19e94a4f0a6cc1b2258f1727bb15bc4",
+        "path": "topic-03-copy.markdown",
+        "char_start": 0,
+        "char_end": 20,
+        "byte_start": 0,
+        "byte_end": 20,
+        "text": "Tess studied Saturn."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:6a4cb4a1015c27b1144322ae022c516010a9ad9b9643d7e65895c93867f1aac5",
+      "occurrence_id": "node:4beda2c978495b2cd619307f1892116120bf29cb7a9988e5e84e0982b51f6bd8",
+      "span": {
+        "source_id": "source:79b35ba3f2732f68cc369a0b91d73cc466d0fd5b86664cd01be517224e09ba54",
+        "source_sha256": "sha256:f469e5082c2a7f520df8cac9fe9481ceed4662f23b4da9670f3f22edb3fa9202",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 24,
+        "char_end": 30,
+        "byte_start": 24,
+        "byte_end": 30,
+        "text": "Saturn"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:867e586d937239a161af555cae2acb7a370138859279712f1b805276cef039ce",
+      "occurrence_id": "node:4beda2c978495b2cd619307f1892116120bf29cb7a9988e5e84e0982b51f6bd8",
+      "span": {
+        "source_id": "source:79b35ba3f2732f68cc369a0b91d73cc466d0fd5b86664cd01be517224e09ba54",
+        "source_sha256": "sha256:f469e5082c2a7f520df8cac9fe9481ceed4662f23b4da9670f3f22edb3fa9202",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 32,
+        "char_end": 68,
+        "byte_start": 32,
+        "byte_end": 68,
+        "text": "https://en.wikipedia.org/wiki/Saturn"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "candidates": [],
+  "processed_disagreements": [],
+  "unresolved_references": [],
+  "unmatched_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:d033cc1537e08a78d4f68a628272e7af0202e21b9f608944f15f1ddb6d700437",
+      "occurrence_id": "node:85fd82e9b8e5f33270649e62ba4510448cc0923b1c47a84e51ca097cd343d8bc",
+      "span": {
+        "source_id": "source:f17b6cc59ca9df48529d926dfa15bff0275fff158fcdce36454b6a73dec630c6",
+        "source_sha256": "sha256:85d3a0e15ec86fd7f51bd5d41bc3ea97f19e94a4f0a6cc1b2258f1727bb15bc4",
+        "path": "topic-03-copy.markdown",
+        "char_start": 0,
+        "char_end": 20,
+        "byte_start": 0,
+        "byte_end": 20,
+        "text": "Tess studied Saturn."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:6a4cb4a1015c27b1144322ae022c516010a9ad9b9643d7e65895c93867f1aac5",
+      "occurrence_id": "node:4beda2c978495b2cd619307f1892116120bf29cb7a9988e5e84e0982b51f6bd8",
+      "span": {
+        "source_id": "source:79b35ba3f2732f68cc369a0b91d73cc466d0fd5b86664cd01be517224e09ba54",
+        "source_sha256": "sha256:f469e5082c2a7f520df8cac9fe9481ceed4662f23b4da9670f3f22edb3fa9202",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 24,
+        "char_end": 30,
+        "byte_start": 24,
+        "byte_end": 30,
+        "text": "Saturn"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:867e586d937239a161af555cae2acb7a370138859279712f1b805276cef039ce",
+      "occurrence_id": "node:4beda2c978495b2cd619307f1892116120bf29cb7a9988e5e84e0982b51f6bd8",
+      "span": {
+        "source_id": "source:79b35ba3f2732f68cc369a0b91d73cc466d0fd5b86664cd01be517224e09ba54",
+        "source_sha256": "sha256:f469e5082c2a7f520df8cac9fe9481ceed4662f23b4da9670f3f22edb3fa9202",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 32,
+        "char_end": 68,
+        "byte_start": 32,
+        "byte_end": 68,
+        "text": "https://en.wikipedia.org/wiki/Saturn"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "exploration_budget": {
+    "max_passages": 20,
+    "max_characters": 16000,
+    "unique_spans": 3,
+    "characters": 62,
+    "omitted_items": 0,
+    "display_truncated": false,
+    "search_truncated": false,
+    "original_discovery_passage_limit": 64,
+    "original_discovery_character_limit": 64000,
+    "original_passages_considered": 0,
+    "processed_passages_considered": 3,
+    "original_pairs_examined": 0,
+    "processed_pairs_examined": 3,
+    "strict_slots_consumed": 0,
+    "phrase_token_limit_per_statement": 256
+  },
+  "strict_budget": {
+    "max_passages": 12,
+    "max_characters": 8000,
+    "evaluated": false,
+    "truncated": false
+  },
+  "limits_notice": "Unshown/unmatched items remain in the separately pinned sorter graph. No missing match or silence proves absence.",
+  "source_authority_changed": false,
+  "ownership_changed": false,
+  "workspace_sha256": "sha256:110742dfdf374ef1b35046d91732ce83cc678600d14c515d88ea95334fb26e8b"
+}

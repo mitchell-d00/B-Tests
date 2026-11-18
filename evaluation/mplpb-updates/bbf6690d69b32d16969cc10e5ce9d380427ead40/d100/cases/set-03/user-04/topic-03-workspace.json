@@ -1,0 +1,962 @@
+{
+  "schema": "candidate-review-workspace-v3",
+  "label": "Sorter suggestions for review. MPLPB has not verified these links or answers.",
+  "status": "candidate for review",
+  "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+  "approval_status": "outside_approved_evidence",
+  "answer_supported": false,
+  "content_truth_verified": false,
+  "approval_transferred": false,
+  "graph_sha256": "sha256:67a4af00967c82d966eaad135f3dc9e2dc9f887c2dc117b4692e3148bdbd3d6e",
+  "implementation_sha256": "sha256:74fd28037d4c10cfe1164a7fa04ee53de4c0e6be63401e675762a1a7a9249290",
+  "configuration": {
+    "question": "Who wrote the Learning memorandum?",
+    "topic": "Who wrote the Learning memorandum?",
+    "profile": "lab",
+    "max_passages": 20,
+    "max_chars": 16000,
+    "strict_passages": 12,
+    "strict_chars": 8000,
+    "scan_passages": 256,
+    "pair_checks": 4096,
+    "as_of": null
+  },
+  "original_corpus_snapshot": "sha256:8d284e0b7b960d156b1864ee3f79eef66e5dd4d5ba452389e78461f538c2a349",
+  "original_policy": {
+    "gate_version": 2,
+    "mode": "separate_lexical_sources",
+    "max_depth": 2,
+    "prose": true,
+    "not_for": true,
+    "enforce_sealed_external_policy": true,
+    "synthesize": false,
+    "follow_pointers": false,
+    "require_current_dependencies": true,
+    "settings_hash": "sha256:c5f132ec431f1b0014972073317be495810947a073708955d3ad9b4769bfabea"
+  },
+  "reader_implementation_sha256": "sha256:e207dac173890540b5af36626e592c56cd293cb86a577c0c2a5d09cda441aea8",
+  "verifier_implementation_sha256": "sha256:9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+  "mplpb_decision": {
+    "status": "one_eligible_owner",
+    "eligible_owner_count": 1,
+    "strict_answer": {
+      "schema": "answer-contract-v1",
+      "mode": "strict",
+      "question": "Who wrote the Learning memorandum?",
+      "kind": "supported_answer",
+      "answer_supported": true,
+      "text": "Source assertion: Ivo wrote the Learning memorandum. Source-attributed statement; event/person identity and historical truth are not independently verified.",
+      "claims": [
+        {
+          "text": "Source assertion: Ivo wrote the Learning memorandum.",
+          "qualifiers": [
+            "Source-attributed statement; event/person identity and historical truth are not independently verified."
+          ],
+          "citations": [
+            {
+              "source_id": "DOC-3",
+              "path": "doc-3.html",
+              "hash": "sha256:7d229900b0c6f7461b70da4b5a7ff19d3aefaa29c520de23c79af962c15561af",
+              "body_start": 0,
+              "body_end": 34,
+              "start": 0,
+              "end": 34,
+              "quote": "Ivo wrote the Learning memorandum.",
+              "body_projection": "body-text-no-headings-v1"
+            }
+          ],
+          "proposition": {
+            "relation": "source_action_assertion",
+            "actor_text": "Ivo",
+            "action": "write",
+            "object_text": "the Learning memorandum",
+            "negative": false,
+            "temporal_qualification_text": "",
+            "unresolved_reference": false,
+            "assertion_modality": "unconditional_source_assertion",
+            "event_identity": null
+          },
+          "source_support_established": true,
+          "support_scope": "source_attributed_assertion",
+          "verification": "documentary-assertion-kernel-v4",
+          "historical_truth_independently_verified": false,
+          "proof_sha256": "sha256:7f03bc2ea8e70bf24bd0ab723e147a9b8d59a929fe51b440dd37868677149474"
+        }
+      ],
+      "missing": [],
+      "clarification": "",
+      "confidence": null,
+      "confidence_calibrated": false,
+      "sources": [
+        {
+          "id": "DOC-3",
+          "path": "doc-3.html",
+          "hash": "sha256:7d229900b0c6f7461b70da4b5a7ff19d3aefaa29c520de23c79af962c15561af"
+        }
+      ],
+      "retrieval": {
+        "eligible_pages": 4,
+        "total_passages": 4,
+        "passages": [],
+        "sources": [],
+        "search_complete": false,
+        "corpus_snapshot": "sha256:8d284e0b7b960d156b1864ee3f79eef66e5dd4d5ba452389e78461f538c2a349",
+        "ranking": "not_run"
+      },
+      "verification": {
+        "structural": true,
+        "semantic": "documentary-assertion-kernel-v4",
+        "truth_verified": false,
+        "independence_verified": false
+      },
+      "reader": null,
+      "trace": [],
+      "diagnostic": {
+        "code": "supported_documentary_assertion",
+        "stage": "documentary_verification",
+        "message": "Checked source-attributed assertions only; unresolved question obligations remain explicit and historical truth is unverified.",
+        "category": "source_support_established",
+        "corpus_answerability": "not_established",
+        "next_steps": [
+          "Review the diagnostic and source evidence before retrying."
+        ]
+      },
+      "code_sha256": {
+        "__init__.py": "d57d776eaaea962867814b5af3f0ac836fdd0c70ffbde910a801e6240697a095",
+        "__main__.py": "6b08b036aad956ce62e854e736939c4fb51bce7b3b71ee4a5b69839a07e1d460",
+        "assertions.py": "54a8a56e2e19bd3565098a3b66f28da590341405a454cf154319686ea0a51458",
+        "body_text.py": "f09d330007cd0cf396c1b1cec1d257eef58862247abde9205390b919b13bdbbc",
+        "corrections.py": "4f9cccee9fdc8d0b8c6eb37caf66cac34da8d9aa21a4a66e04b268eb122e0b6a",
+        "documentary.py": "a23c38a041daf84cce40a59d479a29db63035807dc4c4431fdd738728b27aecc",
+        "documentary_verify.py": "9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+        "evaluate.py": "8c6e4444d661f5a2982338a45673ff594ae4cc4a86d3ec6e0bce6b7f77c90969",
+        "evaluation.py": "4d58e13a85f6edb1443bf156baaa48b1cdf72ce38e5e16a0ce53d195ac395715",
+        "evidence_contract.py": "5fb4226e9407d3432cdbaa518b10af9a5d5dc7bef0036e204848fbda3a3ffbe5",
+        "frames.py": "82c23f7382f862d3b95960b017dda278022ccee1f1bc4e9b339bf7c45ba8dede",
+        "library.py": "7d1613c28f01453270c8a53bf0e3f015bf197dff25b43edc764802e1e1306e5b",
+        "literal_evidence.py": "4dff854bea0a7ae453be35ee016be2533d9ed0b08b98b7ee4a28d2f10b5983fa",
+        "local_narrator.py": "ab096ad599391f950e3e6fd026acc3f7572c69ac6c3c3189deec0bd9805cac36",
+        "local_reader.py": "6e7a6702f8296b63dd8a2be292ef620c9e67ed6170770e1222cfee58e23ea815",
+        "operational_evidence.py": "ac4ac4c1b9df9f412323674083dbc1bdb83a6570b8576fde9969eddafd791580",
+        "passage_admission.py": "1c54ae6f933a1d841697ed4784a04aefa6cbc4e3e1cbc32c532ec3b0d70f98e7",
+        "passages.py": "953da46f391003cdb4ea4f8c8f759d117dde38d0bd38e1c26a1ddc6bb0610dcb",
+        "pipeline.py": "cd0c166aeb4b58c80cd879cf6ecd390b3e8e66abbf4a5d4084abc17fb66c8e95",
+        "policy_evidence.py": "90ae363e5b2b92c52ef24a9ff4d820821a76729f012831c51e27f3ad54492c35",
+        "practical_evidence.py": "0ad115570d1a5c1f756f2931e331a083d6f9ca6f7512223b5160278f5cda33af",
+        "procedures.py": "90cc6108617b3e56e578039f793581687bb2862e448421d5e5c7f088d2dfac37",
+        "prose_retrieval.py": "7ae56c9cb4dfb5a59c6df85243bdc2018dfd544b900be615ba973a62256a6096",
+        "relation_graph.py": "2166e4a1f3e16726dce78613feb2aeb4b664b56c4c070b7c9b6ebb2f348b9e20",
+        "source_projection.py": "bf5d84912616e75c3fe3deb038325348f2f2ccb2ae210315cd8605798cf48c16",
+        "source_units.py": "17b938764534425019955e8cf6b24ff07924e5f4716b36e1939b3b0309692c77",
+        "support.py": "67821fc2399616dfbc10c52a440b3de5f6220a82aec44be595b60fd19b96f9ff"
+      },
+      "documentary_support": {
+        "schema": "documentary-composition-v1",
+        "original_question": "Who wrote the Learning memorandum?",
+        "profile": "lab",
+        "obligations": [
+          {
+            "question": "Who wrote the Learning memorandum",
+            "kind": "who_action",
+            "status": "supported_source_assertion",
+            "evidence_proof_sha256": [
+              "sha256:7f03bc2ea8e70bf24bd0ab723e147a9b8d59a929fe51b440dd37868677149474"
+            ],
+            "evidence_claim_indices": [
+              0
+            ],
+            "unadmitted_witness_candidate_count": 0,
+            "undisplayed_evidence_count": 0,
+            "unadmitted_candidates_verified": false
+          }
+        ],
+        "source_support_claims": 1,
+        "historical_truth_independently_verified": false,
+        "admission": {
+          "schema": "reader-witness-admission-v1",
+          "max_passages": 12,
+          "max_characters": 8000,
+          "passages_admitted": 3,
+          "characters_admitted": 105,
+          "deduplication": "Exact source ID/path/hash/half-open span; different revisions and distinct nested spans remain distinct.",
+          "duplicate_span_charges_avoided": 1,
+          "admitted": [
+            {
+              "source_id": "DOC-3",
+              "path": "doc-3.html",
+              "hash": "sha256:7d229900b0c6f7461b70da4b5a7ff19d3aefaa29c520de23c79af962c15561af",
+              "body_start": 0,
+              "body_end": 34,
+              "start": 0,
+              "end": 34,
+              "quote": "Ivo wrote the Learning memorandum.",
+              "body_projection": "body-text-no-headings-v1",
+              "reader_roles": [
+                "native_rule_candidates_for_question_parts:0",
+                "verified_question_evidence_or_counterevidence"
+              ]
+            },
+            {
+              "source_id": "DOC-1",
+              "path": "doc-1.html",
+              "hash": "sha256:b5ec8a752336227b25abd9439053374afc1f8ad81a1f47947da830f4301b3aa5",
+              "body_start": 0,
+              "body_end": 35,
+              "start": 0,
+              "end": 35,
+              "quote": "Ivo wrote the Indonesia memorandum.",
+              "body_projection": "body-text-no-headings-v1",
+              "reader_roles": [
+                "native_rule_candidates_for_question_parts:0"
+              ]
+            },
+            {
+              "source_id": "DOC-2",
+              "path": "doc-2.html",
+              "hash": "sha256:6a299994b468c682b6d804c6edc315cdaef14b4b0304b50db9e3ec685927f929",
+              "body_start": 0,
+              "body_end": 36,
+              "start": 0,
+              "end": 36,
+              "quote": "Nora wrote the Indonesia memorandum.",
+              "body_projection": "body-text-no-headings-v1",
+              "reader_roles": [
+                "native_rule_candidates_for_question_parts:0"
+              ]
+            }
+          ],
+          "blocked": [],
+          "review_only_hints": [],
+          "review_only_hint_count": 0,
+          "search_only_hints_admitted": 0,
+          "relevant_counterevidence_did_not_fit": false,
+          "reader_witness_discovery": {
+            "rule": null,
+            "body_prefix_characters": 0,
+            "pair_attempts": 0,
+            "max_body_prefix_characters": 192000,
+            "max_pair_attempts": 32
+          },
+          "sorter_assigns_slots": false,
+          "historical_truth_verified": false
+        },
+        "composition_rule": "Conjunction of independently checked source assertions; no person/event co-reference inferred.",
+        "historical_conflict_verified": false,
+        "event_coreference_established": false,
+        "contrary_evidence_scan_complete": true,
+        "scan_scope": "Finite literal action assertions; request occurrence/correction/execution not certified.",
+        "examined_characters": 147,
+        "examined_units": 4,
+        "limits_reached": [],
+        "limits": {
+          "max_proposals": 12,
+          "max_scan_characters": 200000,
+          "max_units": 1000,
+          "max_assertions": 64
+        },
+        "rejected_proposals": [],
+        "context_limits": [],
+        "comparison_completion_scope": null,
+        "question_completion_scope": null,
+        "alternative_evidence": [],
+        "unshown_alternative_evidence_count": 0,
+        "retrieval_limits": {
+          "max_passages": 12,
+          "max_characters": 8000
+        }
+      },
+      "passage_budget": {
+        "max_passages": 12,
+        "max_characters": 8000,
+        "distinct_citation_spans": 1,
+        "citation_characters": 34,
+        "blocked_atomic_claims": 0,
+        "deduplicated_before_charge": true
+      },
+      "source_assurance": {
+        "basis": "source_attributed_only",
+        "outside_world_confirmation_required": true,
+        "outside_world_truth": "not_established",
+        "authorship_authenticated": false,
+        "independence_verified": false,
+        "declared_evidence_root_count": 1,
+        "single_declared_root": true,
+        "notice": "Source support establishes what eligible ledger pages state. Outside-world confirmation is required before treating those statements as historical truth. MPLPB cannot detect a coherent false original without contrary evidence, authenticate arbitrary testimony, or establish general historical reconstruction from source integrity alone."
+      }
+    },
+    "page": {
+      "id": "DOC-3",
+      "path": "doc-3.html",
+      "hash": "sha256:7d229900b0c6f7461b70da4b5a7ff19d3aefaa29c520de23c79af962c15561af",
+      "title": "Learning memorandum",
+      "text": "Ivo wrote the Learning memorandum.",
+      "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified."
+    },
+    "competing_sources": [
+      {
+        "id": "DOC-3",
+        "path": "doc-3.html",
+        "hash": "sha256:7d229900b0c6f7461b70da4b5a7ff19d3aefaa29c520de23c79af962c15561af",
+        "title": "Learning memorandum",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified."
+      }
+    ],
+    "native_kind": "return",
+    "reason": "exactly one current page owns this question by declared scope"
+  },
+  "processed_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:2dcaa0b4f3eae80dc03f57f13a47c8d13cc44a2a57839c60d2dfaf1eb31b17ff",
+      "occurrence_id": "node:3a2ca6f36fc837cb37663a110f7b2fadc43f5f1cac0870711e9f4b20bcc15388",
+      "span": {
+        "source_id": "source:1a821aefc19a0bb6c7c1a6a766dfeabaad639e20deeab45ac883947ea7b57493",
+        "source_sha256": "sha256:52c7494b6992e2e6094c237ab98e996ffceabf15a97d171d92521264215946d8",
+        "path": "topic-03-mail.txt",
+        "char_start": 0,
+        "char_end": 42,
+        "byte_start": 0,
+        "byte_end": 42,
+        "text": "Ivo did not write the Learning memorandum."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "candidate_links_for_review"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:97eaa512f4241b9754b5f9f375544a9054e23018939a7796d378172b7d5673fc",
+      "occurrence_id": "node:cac408f46a13836472ddb05ec37c4006d042a954468339bd88b059db70a8a7f8",
+      "span": {
+        "source_id": "source:2154e9d793363b10ee258870d80eb09ad4960927abc4f335471acb92006567d4",
+        "source_sha256": "sha256:aa95bdc0c076610d1807d29eb4c46d3a157b079e4f0204054a2aeb863006a0d8",
+        "path": "topic-02-copy.markdown",
+        "char_start": 0,
+        "char_end": 35,
+        "byte_start": 0,
+        "byte_end": 35,
+        "text": "Ivo wrote the Indonesia memorandum."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "candidate_links_for_review"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:ae7e8bbfe7ca6a5f8ef45d2e9acf4bb336892883f7aea406457a2077e8f87dbb",
+      "occurrence_id": "node:08a1888215ad74c3aa38337b747535070131aed638dcd7d8effdd1994b7ebe19",
+      "span": {
+        "source_id": "source:70201c67b1de7e31cc30dfb2c15e8882871cc561b26f69a0424fe05e9237f579",
+        "source_sha256": "sha256:4dd65b67811da71549ba8d22793319b98e23afd88fe2c66c6234fc2a6f2d5f1d",
+        "path": "topic-03-copy.txt",
+        "char_start": 0,
+        "char_end": 34,
+        "byte_start": 0,
+        "byte_end": 34,
+        "text": "Ivo wrote the Learning memorandum."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "candidate_links_for_review"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:0f1d1158b8d5932013ec91d87277d924fd326590c9d47880af7847997896b7e4",
+      "occurrence_id": "node:c6faa394619376bd1efaa18e3b69ae9db359c36739beab5e5af07cebcf93feb4",
+      "span": {
+        "source_id": "source:c91b3d2a202757b83a2a0e37835641517140743a925482a57ca69394bf34d39f",
+        "source_sha256": "sha256:cbbfd9fcdd129c444a0ea5bc570ca01087ebdcc417f16f3033c96962bf280840",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 24,
+        "char_end": 32,
+        "byte_start": 24,
+        "byte_end": 32,
+        "text": "Learning"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "candidate_links_for_review"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:ede110f599d66fbb85e8f486d04f3eceaacf301d7b585f3a7b649e3c933288df",
+      "occurrence_id": "node:b7dc3fb8aeacd6f72214050eb60f68fa045880d14e0ecfcddfbba44e83e13350",
+      "span": {
+        "source_id": "source:6c35da6644a704bbe236553b65c6f511393aab36605b8108827cc5c2e86d303b",
+        "source_sha256": "sha256:b651cf68fe908106bf9a83d3c5194c9c79354c2df1465931c09b6834a0e93b77",
+        "path": "topic-04-copy.txt",
+        "char_start": 0,
+        "char_end": 33,
+        "byte_start": 0,
+        "byte_end": 33,
+        "text": "Ivo wrote the Malaria memorandum."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:fc1580eb2f10d9f833e22842aadd9ae158c74fb4ae54726973f62406a0c52535",
+      "occurrence_id": "node:c6faa394619376bd1efaa18e3b69ae9db359c36739beab5e5af07cebcf93feb4",
+      "span": {
+        "source_id": "source:c91b3d2a202757b83a2a0e37835641517140743a925482a57ca69394bf34d39f",
+        "source_sha256": "sha256:cbbfd9fcdd129c444a0ea5bc570ca01087ebdcc417f16f3033c96962bf280840",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 34,
+        "char_end": 72,
+        "byte_start": 34,
+        "byte_end": 72,
+        "text": "https://en.wikipedia.org/wiki/Learning"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "candidates": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "id": "sha256:7f797c6e7365dd40ce11e94d32879414557529c23e2bbe124fac00920d8a0f6b",
+      "kind": "conflicting_wording",
+      "processed": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:2dcaa0b4f3eae80dc03f57f13a47c8d13cc44a2a57839c60d2dfaf1eb31b17ff",
+        "occurrence_id": "node:3a2ca6f36fc837cb37663a110f7b2fadc43f5f1cac0870711e9f4b20bcc15388",
+        "span": {
+          "source_id": "source:1a821aefc19a0bb6c7c1a6a766dfeabaad639e20deeab45ac883947ea7b57493",
+          "source_sha256": "sha256:52c7494b6992e2e6094c237ab98e996ffceabf15a97d171d92521264215946d8",
+          "path": "topic-03-mail.txt",
+          "char_start": 0,
+          "char_end": 42,
+          "byte_start": 0,
+          "byte_end": 42,
+          "text": "Ivo did not write the Learning memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "original": {
+        "source_id": "DOC-3",
+        "path": "doc-3.html",
+        "hash": "sha256:7d229900b0c6f7461b70da4b5a7ff19d3aefaa29c520de23c79af962c15561af",
+        "body_start": 0,
+        "body_end": 34,
+        "quote": "Ivo wrote the Learning memorandum.",
+        "native_original_sha256": "sha256:1fbb2213df6f1804460944790e08e26452b5456de94bdc33f337277b73daeae0",
+        "byte_start": 588,
+        "byte_end": 622,
+        "raw_excerpt": "Ivo wrote the Learning memorandum.",
+        "raw_excerpt_sha256": "sha256:4dd65b67811da71549ba8d22793319b98e23afd88fe2c66c6234fc2a6f2d5f1d",
+        "byte_coordinate_basis": "Native original page UTF-8; external acquisition mapping, if any, remains separate.",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified.",
+        "approval_status": "eligible_original",
+        "profile": "lab",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "round_trip_quote_fidelity": true
+      },
+      "why": "Existing finite action grammar finds opposing polarity for the same literal actor/action/object. Event identity and truth remain unresolved.",
+      "identity": "unresolved",
+      "chronology": "unresolved",
+      "causation": "unresolved",
+      "correction_status": "unresolved"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "id": "sha256:f62195f04fe3e50e48ce9f4d8d813dd11db1eeaddbf658463f886b656954c22f",
+      "kind": "exact_match",
+      "processed": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:97eaa512f4241b9754b5f9f375544a9054e23018939a7796d378172b7d5673fc",
+        "occurrence_id": "node:cac408f46a13836472ddb05ec37c4006d042a954468339bd88b059db70a8a7f8",
+        "span": {
+          "source_id": "source:2154e9d793363b10ee258870d80eb09ad4960927abc4f335471acb92006567d4",
+          "source_sha256": "sha256:aa95bdc0c076610d1807d29eb4c46d3a157b079e4f0204054a2aeb863006a0d8",
+          "path": "topic-02-copy.markdown",
+          "char_start": 0,
+          "char_end": 35,
+          "byte_start": 0,
+          "byte_end": 35,
+          "text": "Ivo wrote the Indonesia memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "original": {
+        "source_id": "DOC-1",
+        "path": "doc-1.html",
+        "hash": "sha256:b5ec8a752336227b25abd9439053374afc1f8ad81a1f47947da830f4301b3aa5",
+        "body_start": 0,
+        "body_end": 35,
+        "quote": "Ivo wrote the Indonesia memorandum.",
+        "native_original_sha256": "sha256:f89b5d660bea3ec7746ac1328a1e42c405b1f84638769169ee697d8982a1f61a",
+        "byte_start": 591,
+        "byte_end": 626,
+        "raw_excerpt": "Ivo wrote the Indonesia memorandum.",
+        "raw_excerpt_sha256": "sha256:aa95bdc0c076610d1807d29eb4c46d3a157b079e4f0204054a2aeb863006a0d8",
+        "byte_coordinate_basis": "Native original page UTF-8; external acquisition mapping, if any, remains separate.",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified.",
+        "approval_status": "eligible_original",
+        "profile": "lab",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "round_trip_quote_fidelity": true
+      },
+      "why": "The complete processed wording occurs literally in this eligible original; approval does not transfer.",
+      "identity": "unresolved",
+      "chronology": "unresolved",
+      "causation": "unresolved",
+      "correction_status": "unresolved"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "id": "sha256:8a4a33e437deb00438f48fd6fbdbb16632814a988e06a1b5caba8fa2c793998e",
+      "kind": "exact_match",
+      "processed": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:ae7e8bbfe7ca6a5f8ef45d2e9acf4bb336892883f7aea406457a2077e8f87dbb",
+        "occurrence_id": "node:08a1888215ad74c3aa38337b747535070131aed638dcd7d8effdd1994b7ebe19",
+        "span": {
+          "source_id": "source:70201c67b1de7e31cc30dfb2c15e8882871cc561b26f69a0424fe05e9237f579",
+          "source_sha256": "sha256:4dd65b67811da71549ba8d22793319b98e23afd88fe2c66c6234fc2a6f2d5f1d",
+          "path": "topic-03-copy.txt",
+          "char_start": 0,
+          "char_end": 34,
+          "byte_start": 0,
+          "byte_end": 34,
+          "text": "Ivo wrote the Learning memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "original": {
+        "source_id": "DOC-3",
+        "path": "doc-3.html",
+        "hash": "sha256:7d229900b0c6f7461b70da4b5a7ff19d3aefaa29c520de23c79af962c15561af",
+        "body_start": 0,
+        "body_end": 34,
+        "quote": "Ivo wrote the Learning memorandum.",
+        "native_original_sha256": "sha256:1fbb2213df6f1804460944790e08e26452b5456de94bdc33f337277b73daeae0",
+        "byte_start": 588,
+        "byte_end": 622,
+        "raw_excerpt": "Ivo wrote the Learning memorandum.",
+        "raw_excerpt_sha256": "sha256:4dd65b67811da71549ba8d22793319b98e23afd88fe2c66c6234fc2a6f2d5f1d",
+        "byte_coordinate_basis": "Native original page UTF-8; external acquisition mapping, if any, remains separate.",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified.",
+        "approval_status": "eligible_original",
+        "profile": "lab",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "round_trip_quote_fidelity": true
+      },
+      "why": "The complete processed wording occurs literally in this eligible original; approval does not transfer.",
+      "identity": "unresolved",
+      "chronology": "unresolved",
+      "causation": "unresolved",
+      "correction_status": "unresolved"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "id": "sha256:41aeca32608c47915348ed9e133366480aa68aa5b8685cb7d48c6faa1c28adf3",
+      "kind": "exact_match",
+      "processed": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:0f1d1158b8d5932013ec91d87277d924fd326590c9d47880af7847997896b7e4",
+        "occurrence_id": "node:c6faa394619376bd1efaa18e3b69ae9db359c36739beab5e5af07cebcf93feb4",
+        "span": {
+          "source_id": "source:c91b3d2a202757b83a2a0e37835641517140743a925482a57ca69394bf34d39f",
+          "source_sha256": "sha256:cbbfd9fcdd129c444a0ea5bc570ca01087ebdcc417f16f3033c96962bf280840",
+          "path": "topic-03-web-pointer.md",
+          "char_start": 24,
+          "char_end": 32,
+          "byte_start": 24,
+          "byte_end": 32,
+          "text": "Learning"
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "original": {
+        "source_id": "DOC-3",
+        "path": "doc-3.html",
+        "hash": "sha256:7d229900b0c6f7461b70da4b5a7ff19d3aefaa29c520de23c79af962c15561af",
+        "body_start": 0,
+        "body_end": 34,
+        "quote": "Ivo wrote the Learning memorandum.",
+        "native_original_sha256": "sha256:1fbb2213df6f1804460944790e08e26452b5456de94bdc33f337277b73daeae0",
+        "byte_start": 588,
+        "byte_end": 622,
+        "raw_excerpt": "Ivo wrote the Learning memorandum.",
+        "raw_excerpt_sha256": "sha256:4dd65b67811da71549ba8d22793319b98e23afd88fe2c66c6234fc2a6f2d5f1d",
+        "byte_coordinate_basis": "Native original page UTF-8; external acquisition mapping, if any, remains separate.",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified.",
+        "approval_status": "eligible_original",
+        "profile": "lab",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "round_trip_quote_fidelity": true
+      },
+      "why": "The complete processed wording occurs literally in this eligible original; approval does not transfer.",
+      "identity": "unresolved",
+      "chronology": "unresolved",
+      "causation": "unresolved",
+      "correction_status": "unresolved"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "id": "sha256:1d71aefc10687cc1c35c7cbb4dd28defd1885ad5f056995f7d702af0c7b93a7f",
+      "kind": "shared_wording_review",
+      "processed": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:97eaa512f4241b9754b5f9f375544a9054e23018939a7796d378172b7d5673fc",
+        "occurrence_id": "node:cac408f46a13836472ddb05ec37c4006d042a954468339bd88b059db70a8a7f8",
+        "span": {
+          "source_id": "source:2154e9d793363b10ee258870d80eb09ad4960927abc4f335471acb92006567d4",
+          "source_sha256": "sha256:aa95bdc0c076610d1807d29eb4c46d3a157b079e4f0204054a2aeb863006a0d8",
+          "path": "topic-02-copy.markdown",
+          "char_start": 0,
+          "char_end": 35,
+          "byte_start": 0,
+          "byte_end": 35,
+          "text": "Ivo wrote the Indonesia memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "original": {
+        "source_id": "DOC-2",
+        "path": "doc-2.html",
+        "hash": "sha256:6a299994b468c682b6d804c6edc315cdaef14b4b0304b50db9e3ec685927f929",
+        "body_start": 0,
+        "body_end": 36,
+        "quote": "Nora wrote the Indonesia memorandum.",
+        "native_original_sha256": "sha256:7d83f159ea58c0ce2b7873190c390920bec69a7ba8cc3d4905c593bcc36fa24f",
+        "byte_start": 591,
+        "byte_end": 627,
+        "raw_excerpt": "Nora wrote the Indonesia memorandum.",
+        "raw_excerpt_sha256": "sha256:bca06b2be49bdbd4039ad28b201ce066125529ffaf57f0078786a43776c0d4b1",
+        "byte_coordinate_basis": "Native original page UTF-8; external acquisition mapping, if any, remains separate.",
+        "evidence_status": "Eligible MPLPB original under the current profile; source truth is not verified.",
+        "approval_status": "eligible_original",
+        "profile": "lab",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "round_trip_quote_fidelity": true
+      },
+      "why": "Existing sorter four-word phrase evidence: ['wrote the indonesia memorandum']. Lexical tokens only; identity, chronology, causation and correction are unresolved.",
+      "identity": "unresolved",
+      "chronology": "unresolved",
+      "causation": "unresolved",
+      "correction_status": "unresolved"
+    }
+  ],
+  "processed_disagreements": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "kind": "conflicting_wording",
+      "left": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:2dcaa0b4f3eae80dc03f57f13a47c8d13cc44a2a57839c60d2dfaf1eb31b17ff",
+        "occurrence_id": "node:3a2ca6f36fc837cb37663a110f7b2fadc43f5f1cac0870711e9f4b20bcc15388",
+        "span": {
+          "source_id": "source:1a821aefc19a0bb6c7c1a6a766dfeabaad639e20deeab45ac883947ea7b57493",
+          "source_sha256": "sha256:52c7494b6992e2e6094c237ab98e996ffceabf15a97d171d92521264215946d8",
+          "path": "topic-03-mail.txt",
+          "char_start": 0,
+          "char_end": 42,
+          "byte_start": 0,
+          "byte_end": 42,
+          "text": "Ivo did not write the Learning memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "right": {
+        "status": "candidate for review",
+        "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+        "approval_status": "outside_approved_evidence",
+        "answer_supported": false,
+        "content_truth_verified": false,
+        "approval_transferred": false,
+        "ownership_changed": false,
+        "node_id": "node:ae7e8bbfe7ca6a5f8ef45d2e9acf4bb336892883f7aea406457a2077e8f87dbb",
+        "occurrence_id": "node:08a1888215ad74c3aa38337b747535070131aed638dcd7d8effdd1994b7ebe19",
+        "span": {
+          "source_id": "source:70201c67b1de7e31cc30dfb2c15e8882871cc561b26f69a0424fe05e9237f579",
+          "source_sha256": "sha256:4dd65b67811da71549ba8d22793319b98e23afd88fe2c66c6234fc2a6f2d5f1d",
+          "path": "topic-03-copy.txt",
+          "char_start": 0,
+          "char_end": 34,
+          "byte_start": 0,
+          "byte_end": 34,
+          "text": "Ivo wrote the Learning memorandum."
+        },
+        "review_annotation": {
+          "status": "unassessed_candidate",
+          "answer_supported": false,
+          "source_support_established": false,
+          "historical_truth_independently_verified": false,
+          "serving_eligibility": "not_evaluated"
+        }
+      },
+      "why": "Existing finite action grammar finds opposing polarity for the same literal actor/action/object. Event identity and truth remain unresolved."
+    }
+  ],
+  "unresolved_references": [],
+  "unmatched_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:ede110f599d66fbb85e8f486d04f3eceaacf301d7b585f3a7b649e3c933288df",
+      "occurrence_id": "node:b7dc3fb8aeacd6f72214050eb60f68fa045880d14e0ecfcddfbba44e83e13350",
+      "span": {
+        "source_id": "source:6c35da6644a704bbe236553b65c6f511393aab36605b8108827cc5c2e86d303b",
+        "source_sha256": "sha256:b651cf68fe908106bf9a83d3c5194c9c79354c2df1465931c09b6834a0e93b77",
+        "path": "topic-04-copy.txt",
+        "char_start": 0,
+        "char_end": 33,
+        "byte_start": 0,
+        "byte_end": 33,
+        "text": "Ivo wrote the Malaria memorandum."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:fc1580eb2f10d9f833e22842aadd9ae158c74fb4ae54726973f62406a0c52535",
+      "occurrence_id": "node:c6faa394619376bd1efaa18e3b69ae9db359c36739beab5e5af07cebcf93feb4",
+      "span": {
+        "source_id": "source:c91b3d2a202757b83a2a0e37835641517140743a925482a57ca69394bf34d39f",
+        "source_sha256": "sha256:cbbfd9fcdd129c444a0ea5bc570ca01087ebdcc417f16f3033c96962bf280840",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 34,
+        "char_end": 72,
+        "byte_start": 34,
+        "byte_end": 72,
+        "text": "https://en.wikipedia.org/wiki/Learning"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "exploration_budget": {
+    "max_passages": 20,
+    "max_characters": 16000,
+    "unique_spans": 9,
+    "characters": 295,
+    "omitted_items": 0,
+    "display_truncated": false,
+    "search_truncated": false,
+    "original_discovery_passage_limit": 64,
+    "original_discovery_character_limit": 64000,
+    "original_passages_considered": 4,
+    "processed_passages_considered": 6,
+    "original_pairs_examined": 24,
+    "processed_pairs_examined": 15,
+    "strict_slots_consumed": 0,
+    "phrase_token_limit_per_statement": 256
+  },
+  "strict_budget": {
+    "max_passages": 12,
+    "max_characters": 8000,
+    "evaluated": true,
+    "truncated": false
+  },
+  "limits_notice": "Unshown/unmatched items remain in the separately pinned sorter graph. No missing match or silence proves absence.",
+  "source_authority_changed": false,
+  "ownership_changed": false,
+  "workspace_sha256": "sha256:1bedf125584fde72ca1e36a4ac8a4af3d90497e945b2f9a392738188846a4bd7"
+}

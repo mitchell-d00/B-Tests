@@ -1,0 +1,257 @@
+{
+  "schema": "candidate-review-workspace-v3",
+  "label": "Sorter suggestions for review. MPLPB has not verified these links or answers.",
+  "status": "candidate for review",
+  "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+  "approval_status": "outside_approved_evidence",
+  "answer_supported": false,
+  "content_truth_verified": false,
+  "approval_transferred": false,
+  "graph_sha256": "sha256:a1f67cba7317aeba6ca0a8432fd2ad4dfc34d3f3548789f48cf5a16cef6d2f4a",
+  "implementation_sha256": "sha256:74fd28037d4c10cfe1164a7fa04ee53de4c0e6be63401e675762a1a7a9249290",
+  "configuration": {
+    "question": "What about Modernism?",
+    "topic": "What about Modernism?",
+    "profile": "lab",
+    "max_passages": 12,
+    "max_chars": 16000,
+    "strict_passages": 12,
+    "strict_chars": 8000,
+    "scan_passages": 256,
+    "pair_checks": 4096,
+    "as_of": null
+  },
+  "original_corpus_snapshot": "sha256:d097fb75742973a11e7362e837e12d06484b1fd45025ef8ed83dd53d67c9a8e8",
+  "original_policy": {
+    "gate_version": 2,
+    "mode": "separate_lexical_sources",
+    "max_depth": 2,
+    "prose": true,
+    "not_for": true,
+    "enforce_sealed_external_policy": true,
+    "synthesize": false,
+    "follow_pointers": false,
+    "require_current_dependencies": true,
+    "settings_hash": "sha256:c5f132ec431f1b0014972073317be495810947a073708955d3ad9b4769bfabea"
+  },
+  "reader_implementation_sha256": "sha256:e207dac173890540b5af36626e592c56cd293cb86a577c0c2a5d09cda441aea8",
+  "verifier_implementation_sha256": "sha256:9b01a7370287178552ce17e57337d271b277457e1ba8131f8a4c931ae8064d8a",
+  "mplpb_decision": {
+    "status": "no_eligible_owner",
+    "eligible_owner_count": 0,
+    "strict_answer": null,
+    "page": null,
+    "competing_sources": [],
+    "native_kind": "not_in_corpus",
+    "reason": "no current page declares most of this question, and no page contains every word of it",
+    "message": "No MPLPB-supported answer is returned by this ownership route. Labeled exploration remains available."
+  },
+  "processed_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:095b42db6c106d1c587fa4dd5753f66f996f5d876b31f43f9f0e5ab65a253954",
+      "occurrence_id": "node:c9aa05c46004d20f625494fa28ad75373f8b2568c0c380bdf9de34ad51cfdd50",
+      "span": {
+        "source_id": "source:ba29346f9e364c0ed9076300b8e0b53bb81913e3020669b1eab38db91df6b318",
+        "source_sha256": "sha256:a568b4a92614d58e3b0c4ae42480dab2544e0f12fe075596861838fd2bb2adbf",
+        "path": "topic-03-copy.markdown",
+        "char_start": 0,
+        "char_end": 23,
+        "byte_start": 0,
+        "byte_end": 23,
+        "text": "Nora studied Modernism."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:a15f2d518a22dc74b447c2a98ebce19ae42ae20cf3e635f6273ffc45faf11952",
+      "occurrence_id": "node:348fd0fd44abc7e7c1bd446a1ece3e6ba6a0d1bb17c5d808d52c486677578693",
+      "span": {
+        "source_id": "source:a6374b450b4dbdc3690a42949caa96ef7be1304005efc2e8b0ec547a8f4d4c88",
+        "source_sha256": "sha256:02262e76c4f4967f5d7ee6fba3423e8aedcb44c9a2a115cd854bc013e8587580",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 24,
+        "char_end": 33,
+        "byte_start": 24,
+        "byte_end": 33,
+        "text": "Modernism"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:ab46761c5fdc8e4c5b7a205f126c449db44552064065fb336abb65b5cafe384b",
+      "occurrence_id": "node:348fd0fd44abc7e7c1bd446a1ece3e6ba6a0d1bb17c5d808d52c486677578693",
+      "span": {
+        "source_id": "source:a6374b450b4dbdc3690a42949caa96ef7be1304005efc2e8b0ec547a8f4d4c88",
+        "source_sha256": "sha256:02262e76c4f4967f5d7ee6fba3423e8aedcb44c9a2a115cd854bc013e8587580",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 35,
+        "char_end": 74,
+        "byte_start": 35,
+        "byte_end": 74,
+        "text": "https://en.wikipedia.org/wiki/Modernism"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "candidates": [],
+  "processed_disagreements": [],
+  "unresolved_references": [],
+  "unmatched_passages": [
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:095b42db6c106d1c587fa4dd5753f66f996f5d876b31f43f9f0e5ab65a253954",
+      "occurrence_id": "node:c9aa05c46004d20f625494fa28ad75373f8b2568c0c380bdf9de34ad51cfdd50",
+      "span": {
+        "source_id": "source:ba29346f9e364c0ed9076300b8e0b53bb81913e3020669b1eab38db91df6b318",
+        "source_sha256": "sha256:a568b4a92614d58e3b0c4ae42480dab2544e0f12fe075596861838fd2bb2adbf",
+        "path": "topic-03-copy.markdown",
+        "char_start": 0,
+        "char_end": 23,
+        "byte_start": 0,
+        "byte_end": 23,
+        "text": "Nora studied Modernism."
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:a15f2d518a22dc74b447c2a98ebce19ae42ae20cf3e635f6273ffc45faf11952",
+      "occurrence_id": "node:348fd0fd44abc7e7c1bd446a1ece3e6ba6a0d1bb17c5d808d52c486677578693",
+      "span": {
+        "source_id": "source:a6374b450b4dbdc3690a42949caa96ef7be1304005efc2e8b0ec547a8f4d4c88",
+        "source_sha256": "sha256:02262e76c4f4967f5d7ee6fba3423e8aedcb44c9a2a115cd854bc013e8587580",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 24,
+        "char_end": 33,
+        "byte_start": 24,
+        "byte_end": 33,
+        "text": "Modernism"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    },
+    {
+      "status": "candidate for review",
+      "evidence_status": "Exploratory · outside MPLPB-approved evidence.",
+      "approval_status": "outside_approved_evidence",
+      "answer_supported": false,
+      "content_truth_verified": false,
+      "approval_transferred": false,
+      "ownership_changed": false,
+      "node_id": "node:ab46761c5fdc8e4c5b7a205f126c449db44552064065fb336abb65b5cafe384b",
+      "occurrence_id": "node:348fd0fd44abc7e7c1bd446a1ece3e6ba6a0d1bb17c5d808d52c486677578693",
+      "span": {
+        "source_id": "source:a6374b450b4dbdc3690a42949caa96ef7be1304005efc2e8b0ec547a8f4d4c88",
+        "source_sha256": "sha256:02262e76c4f4967f5d7ee6fba3423e8aedcb44c9a2a115cd854bc013e8587580",
+        "path": "topic-03-web-pointer.md",
+        "char_start": 35,
+        "char_end": 74,
+        "byte_start": 35,
+        "byte_end": 74,
+        "text": "https://en.wikipedia.org/wiki/Modernism"
+      },
+      "review_annotation": {
+        "status": "unassessed_candidate",
+        "answer_supported": false,
+        "source_support_established": false,
+        "historical_truth_independently_verified": false,
+        "serving_eligibility": "not_evaluated"
+      },
+      "original_match_status": "unmatched_or_unresolved_within_search_limits"
+    }
+  ],
+  "exploration_budget": {
+    "max_passages": 12,
+    "max_characters": 16000,
+    "unique_spans": 3,
+    "characters": 71,
+    "omitted_items": 0,
+    "display_truncated": false,
+    "search_truncated": false,
+    "original_discovery_passage_limit": 64,
+    "original_discovery_character_limit": 64000,
+    "original_passages_considered": 4,
+    "processed_passages_considered": 3,
+    "original_pairs_examined": 12,
+    "processed_pairs_examined": 3,
+    "strict_slots_consumed": 0,
+    "phrase_token_limit_per_statement": 256
+  },
+  "strict_budget": {
+    "max_passages": 12,
+    "max_characters": 8000,
+    "evaluated": false,
+    "truncated": false
+  },
+  "limits_notice": "Unshown/unmatched items remain in the separately pinned sorter graph. No missing match or silence proves absence.",
+  "source_authority_changed": false,
+  "ownership_changed": false,
+  "workspace_sha256": "sha256:727a36e85773b28d08811a283b55c5f9325c2e2c56f155ea6e273e4245da94a7"
+}
