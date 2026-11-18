@@ -1,0 +1,178 @@
+MPLPB Mixed Dump
+
+Source-Bounded Review, Proof Admission, and Reproducible Tests on Mixed Documents
+
+Mitchell D. McPhetridge
+
+18 November 2026 · Technical research report
+
+Abstract
+
+MPLPB is a closed local ledger whose reader checks source eligibility and finite
+source-body support. This report follows its development from the first B-Tests version
+comparisons to a workspace that can inspect a mixed dump of processed documents
+alongside approved originals. The workspace maps passages to source bytes, shows
+possible relationships and contradictions for review, and keeps exploration from
+spending strict proof slots. At the tested Combined MPLPB revision, 1,267 native tests,
+52 public controls, seven work-boundary probes, and an isolated installed-wheel check
+passed. Five mixed-dump users and all 100 cases in a seeded experiment across 25
+separate ledgers met their scripted acceptance criteria. The 22-question historical
+replay still gave two complete source-supported answers. These results establish
+reproducible behavior on the named software contracts and fixtures. General historical
+reconstruction and independent user performance remain open.
+
+1. From a closed reader to a review workspace
+
+The early B-Tests comparison used Combined MPLPB at revision 257e54a. It already sealed
+sources, checked integrity and lineage, retained supersession, and used eligible
+ownership to select pages. Its strict reader also applied finite proof rules to source
+bodies. A page identified by the ownership router could still lack body support for the
+question. The specialist-work coordinator carried tasks, claims, and receipts across
+runs.
+
+Two later B-Tests probes exposed a gap in the older work path. A contradictory
+component-status claim and a claim backed only by another claim both reached a real
+local executor. The repair checks the current pinned source body before a claim can
+authorize downstream work. The paired probes observed both effects blocked on the
+repaired revision while the valid control still executed. These were finite checks on
+the stated claim and action inputs. Paired native comparison
+(https://github.com/mitchell-d00/B-Tests/blob/main/docs/MPLPB_NATIVE_COMPARISON.md)
+
+Subsequent changes added exact identifier and field routing, more specific refusal
+diagnostics, separate source occurrences and event candidates, scoped corrections, and
+historical read-only views. Documentary checking gained support for some
+source-attributed assertions, literal wording comparisons, and arrangements expressly
+recorded in the source. Checked parts, unresolved obligations, and candidate links
+remain distinguishable. The release chronology links the corresponding merged changes.
+Then-and-now code history
+(https://github.com/mitchell-d00/B-Tests/blob/main/README.md#mplpb-then-and-now)
+
+The dual-mode sorter added offline intake for UTF-8 text and Markdown. Observation mode
+extracts exact spans, headings, identifiers, date cues, references, and other bounded
+observations. Compare mode keeps the same sources and nodes and adds review links.
+Repeated literal phrasing can point reviewers to related passages. A shared topic or
+synonym may improve discovery, while evidence of event identity, chronology, and
+causation requires its own checks. Embedded and quoted headers remain observations and
+cannot define primary occurrence boundaries merely because their wording resembles a
+declaration. Sorter contract
+(https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/bbf6690d69b32d16969cc10e5ce9d380427ead40/docs/PREPROCESSING_SORTER.md)
+
+2. What a mixed dump runs through
+
+A mixed dump can contain forwarded notes, copied passages, disputed claims, partial
+correction requests, unresolved references, and unrelated material. A user designates
+originals separately and can compare them with the processed dump under a selected
+profile. The optional candidate review workspace puts each processed passage beside its
+eligible original when there is a candidate link. It carries a visible exploratory
+label, occurrence identifiers, hashes, and exact byte spans. An exact copy, wording
+match, proposed correction, or contradictory passage does not confer source authority on
+the processed material.
+
+The single-page ownership panel returns a page for one eligible owner, asks for
+disambiguation when eligible owners compete, and reports that the route cannot support
+an answer when no owner qualifies. A returned page earns a strict answer only if its
+eligible body supports the requested proposition. Processed-only topics remain
+searchable and reviewable. The standalone strict reader also has finite multi-source
+proofs, which can support comparisons outside the single-page ownership route.
+
+The workspace distinguishes exact matches, literal references, possible corrections,
+opposing wording, and shared four-word phrases. Synonyms help rank exploratory hits. The
+source and decision replay reloads both collections, verifies exact bytes and current
+eligibility, and recomputes the visible outcome. The tests exercise replay rejection
+when original bytes, permissions, or authority flags change. Candidate review workspace
+(https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/bbf6690d69b32d16969cc10e5ce9d380427ead40/docs/CANDIDATE_REVIEW_WORKSPACE.md)
+
+3. Why the reader owns passage admission
+
+The initial sorter-first historical experiment exposed an evidence-budget regression.
+H05, the Declaration wording comparison, went from complete to partial when exploratory
+hints displaced required passages inside the shared cutoff. The early sorter and
+synonym/relater arms all ended at one complete answer out of 22. The relater also
+reduced discovery on the draft reference spans from 26 of 32 to 24 of 32 in that trial.
+The outputs and failed configurations remain in the experimental record.
+
+The repair classifies suggestions before admission and keeps weak wording matches
+available for review. The reader reserves the evidence a proof requires as a group,
+charges each distinct span against the applicable budget, and checks the admitted
+originals with the existing verifier. If relevant counterevidence cannot fit, completion
+is withheld. Exploration has a separate budget. H05 recovered at the original limits of
+12 strict passages and 8,000 characters. Its proof used four source passages and 4,070
+characters. This was recovery of a demonstrated answer. The final four-arm study
+retained two complete answers in every arm. Passage admission contract
+(https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/bbf6690d69b32d16969cc10e5ce9d380427ead40/docs/PASSAGE_ADMISSION.md)
+· Four-arm study
+(https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/bbf6690d69b32d16969cc10e5ce9d380427ead40/evaluation/sorter-first-originals/2026-11-18-witness-admission-final/REPORT.md)
+
+4. What the tests demonstrate
+
+Native regression and actual effects. B-Tests ran Combined MPLPB at
+bbf6690d69b32d16969cc10e5ce9d380427ead40. All 1,267 Python tests, seven additional
+commands, and 52 public controls passed. No false-supported link was observed in the 52
+controls. The seven work-boundary probes observed one permitted local effect and six
+cases without a prohibited effect. The clean installed wheel reproduced the candidate
+workspace without checkout-only tools. These runs establish behavior on the tested entry
+points and cases. A native gate can decide whether an action is permitted and leave an
+effect that a checker can independently inspect. A strong governance prompting treatment
+can be evaluated for how it follows source and action rules using the same scenario.
+Evidence of enforcement requires an independently observed decision and effect. Native
+results and receipts
+(https://github.com/mitchell-d00/B-Tests/blob/main/evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md#native-historical-and-repository-documentation-runs)
+
+Five separate mixed-dump ledgers. A records clerk received one supported answer despite
+conflicting processed wording. A correspondence reviewer saw two eligible owners and was
+asked to disambiguate. A field researcher explored a processed-only topic. A release
+editor saw an eligible page without body support and kept withdrawn and restricted
+entries out of candidate links. A package maintainer reviewed actual MPLPB documentation
+alongside fictional notes. The source maps account for 19 processed files, 60 extracted
+statements, and 11 candidate links. Two files with unsupported formats remained in the
+inventory as exclusions. The strict decisions held at both exploration budgets. An
+initial expectation of an exact match failed when the processed span retained its
+trailing CRLF. The retained output classified it as shared wording, and a separate
+literal copy provided the exact-match control. Mixed-dump outcomes and maps
+(https://github.com/mitchell-d00/B-Tests/blob/main/evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md#mixed-processed-dumps)
+
+One hundred seeded cases. The d100 generator drew 100 distinct web-sourced topic names
+from 11 catalog sections and assigned them to five sets of five scripted users. It
+randomized roles, case order, actors, file formats, layouts, profiles, and exploration
+budgets. Each of the 25 ledgers received one supported case, one competing-owner case,
+one processed-only case, and one eligible-owner case with insufficient original support.
+The web supplies topic names and links. The fictional records supply the evidentiary
+cases. The evaluator keeps the expected outcomes outside the native input packets. The
+final run matched all 100 expected outcomes, including 25 strict supported answers, and
+retained all 100 maps and replay checks. The recorded seed reproduced the exact packets
+and dice rolls. A fresh seed changed the topic selection. d100 results, source maps, and
+replays
+(https://github.com/mitchell-d00/B-Tests/blob/main/evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md#randomized-d100-batch)
+
+Historical evidence and self-inspection. The fresh direct replay matched all 22
+historical outcomes, citations, and missing-information lists. Its observed totals were
+two complete, one partial, three conflicts, and sixteen abstentions. Five workspace
+replays displayed 39 processed passages and reproduced 15 exact-match and 49
+wording-review candidates. On eight Markdown files from MPLPB’s own repository, both
+sorter modes retained the same 491 observations and 555 observation links. Compare mode
+added 54 review links and surfaced the phrase limits that constrained the run. These are
+inspectable results for discovery, fidelity, and decision preservation. Independent
+reviewers have yet to score the correctness of the historical outcomes and proposed
+relationships. Source-linked development runs
+(https://github.com/mitchell-d00/B-Tests/blob/main/evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md)
+
+5. Reproduction and remaining evaluation
+
+A reproduction pins the Combined revision, prepares fresh ledgers and output
+directories, and runs the mixed-dump and d100 commands documented with the results. Use
+seed 502548331403503517 to replay the published d100 batch. The retained freeze records
+the catalog, generator, harness, and individual packet hashes. Source maps and native
+command receipts let another operator trace why an output falls into its category and
+inspect the cited bytes. An independent comparison can reuse the same inputs, questions,
+and acceptance criteria across runnable systems and strong governance prompting
+treatments. Record any unavailable native observations separately. Run protocol and
+commands
+(https://github.com/mitchell-d00/B-Tests/blob/main/evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md#reproduce)
+
+The demonstrated contribution is a reproducible route from mixed documents to
+inspectable candidates alongside executable source and proof rules. The next historical
+test needs raw originals selected by an outside custodian, concealed expected outcomes,
+matched budgets, and independent assessment of event identities, partial corrections,
+exact citations, false links, conflicts, and appropriate abstentions. Complete supported
+answers should be counted against answerable cases. Correct refusals and conflicts
+should be scored alongside them against all cases.

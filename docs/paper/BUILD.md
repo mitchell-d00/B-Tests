@@ -18,6 +18,14 @@ python tools/build_critical_paper.py
 python tools/build_critical_paper.py --check
 ```
 
+Generate and verify the separate [MPLPB Mixed Dump manuscript](MPLPB_MIXED_DUMP.md)
+with the same renderer:
+
+```sh
+python tools/build_critical_paper.py --paper mixed-dump
+python tools/build_critical_paper.py --paper mixed-dump --check
+```
+
 Install pandoc/DejaVu through the host's package manager if absent. The build uses
 fixed PDF metadata for repeatability; a different renderer/font version may change
 PDF bytes. Do not infer different research findings from that formatting difference.

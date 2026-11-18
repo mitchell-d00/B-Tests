@@ -12,8 +12,10 @@ from xml.sax.saxutils import escape
 
 ROOT=Path(__file__).resolve().parents[1]
 STEM='WHEN_THE_MAP_BECOMES_THE_AUTHORITY'
+MIXED_STEM='MPLPB_MIXED_DUMP'
 
-def build(out):
+
+def build(out, stem=STEM):
     from reportlab.lib import colors
     from reportlab.lib.enums import TA_CENTER
     from reportlab.lib.styles import ParagraphStyle
@@ -22,7 +24,13 @@ def build(out):
     from reportlab.pdfbase.ttfonts import TTFont
     from reportlab.pdfgen import canvas
     from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,Preformatted
-    source=ROOT/'docs/paper'/f'{STEM}.md'
+    source=ROOT/'docs/paper'/f'{stem}.md'
+    mixed=stem==MIXED_STEM
+    title_text='MPLPB Mixed Dump' if mixed else 'MPLPB and OOCC/CAD: Comparative Experiments'
+    subject=('Source-bounded review, proof admission, and mixed-document testing' if mixed
+             else 'Critical OOCC/CAD experiments and source-governance boundaries')
+    footer_text=('McPhetridge · MPLPB Mixed Dump · 18 November 2026' if mixed
+                 else 'McPhetridge · Research draft · 16 November 2026')
     out.mkdir(parents=True,exist_ok=True)
     # Preserve link destinations in TXT/PDF; pandoc plain otherwise drops them.
     def link_text(match):
@@ -33,7 +41,7 @@ def build(out):
         return label+' ('+url+')'
     printable=re.sub(r'\[([^\]]+)\]\(([^)]+)\)',link_text,source.read_text())
     plain=subprocess.run(['pandoc','-f','gfm','-t','plain','--wrap=auto','--columns=88'],input=printable,check=True,capture_output=True,text=True).stdout
-    (out/f'{STEM}.txt').write_text(plain)
+    (out/f'{stem}.txt').write_text(plain)
     fontdir=Path('/usr/share/fonts/truetype/dejavu')
     for name,file in [('PaperSerif','DejaVuSerif.ttf'),('PaperSans','DejaVuSans.ttf'),('PaperSansBold','DejaVuSans-Bold.ttf'),('PaperMono','DejaVuSansMono.ttf')]:
         pdfmetrics.registerFont(TTFont(name,str(fontdir/file)))
@@ -54,25 +62,29 @@ def build(out):
         story.append(Paragraph(escape(text),style))
     def footer(c,doc):
         c.saveState();c.setFont('PaperSans',7);c.setFillColor(colors.HexColor('#555555'))
-        c.drawString(43,25,'McPhetridge · Research draft · 16 November 2026')
+        c.drawString(43,25,footer_text)
         c.drawRightString(A4[0]-43,25,str(doc.page));c.restoreState()
     def fixed_canvas(*args,**kwargs):kwargs['invariant']=1;return canvas.Canvas(*args,**kwargs)
-    doc=SimpleDocTemplate(str(out/f'{STEM}.pdf'),pagesize=A4,rightMargin=43,leftMargin=43,topMargin=42,bottomMargin=42,
-        title='MPLPB and OOCC/CAD: Comparative Experiments',author='Mitchell D. McPhetridge',subject='Critical OOCC/CAD experiments and source-governance boundaries')
+    doc=SimpleDocTemplate(str(out/f'{stem}.pdf'),pagesize=A4,rightMargin=43,leftMargin=43,topMargin=42,bottomMargin=42,
+        title=title_text,author='Mitchell D. McPhetridge',subject=subject)
     doc.build(story,onFirstPage=footer,onLaterPages=footer,canvasmaker=fixed_canvas)
     return plain
 
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--check',action='store_true');a=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--check',action='store_true')
+    p.add_argument('--paper',choices=('critical','mixed-dump'),default='critical')
+    a=p.parse_args()
+    stem=MIXED_STEM if a.paper=='mixed-dump' else STEM
     destination=ROOT/'docs/paper'
     if a.check:
         with tempfile.TemporaryDirectory() as tmp:
-            out=Path(tmp);build(out)
+            out=Path(tmp);build(out,stem)
             for suffix in ('txt','pdf'):
-                assert (out/f'{STEM}.{suffix}').read_bytes()==(destination/f'{STEM}.{suffix}').read_bytes(),suffix+' differs; rebuild or check document-tool/font versions'
+                assert (out/f'{stem}.{suffix}').read_bytes()==(destination/f'{stem}.{suffix}').read_bytes(),suffix+' differs; rebuild or check document-tool/font versions'
         print('TXT and PDF match canonical Markdown under this renderer')
     else:
-        build(destination);print(destination)
+        build(destination,stem);print(destination)
 
 if __name__=='__main__':main()

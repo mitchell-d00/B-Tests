@@ -472,6 +472,12 @@ projects, independent validation or proof against all inherited-error reinforcem
 
 ## Paper and public-work comparison
 
+**MPLPB Mixed Dump**, by Mitchell D. McPhetridge, 18 November 2026, documents
+the development from the early B-Tests runs through candidate review, reader-owned
+passage admission, and 100 reproducible mixed-dump cases.
+[Markdown](docs/paper/MPLPB_MIXED_DUMP.md) · [TXT](docs/paper/MPLPB_MIXED_DUMP.txt) ·
+[PDF](docs/paper/MPLPB_MIXED_DUMP.pdf)
+
 **MPLPB and OOCC/CAD: Comparative Experiments**, by Mitchell D. McPhetridge, research draft
 16 November 2026: [Markdown](docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md) ·
 [TXT](docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.txt) ·
