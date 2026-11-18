@@ -92,6 +92,135 @@ the Combined MPLPB commit Ben later tested. GitHub records that commit at
 
 [Timeline through November 18, including the response to Ben’s critique](docs/RESPONSE_TO_BEYOND_GUARDED_RETRIEVAL.md#exact-chronology)
 
+## MPLPB then and now
+
+**Then.** Ben tested Combined MPLPB 2.1.0rc1 at [`257e54a`][mplpb-ben-pin].
+It already had sealed sources, integrity and lineage checks, supersession,
+profile eligibility, passage ranking, finite source-body proof, an evidence
+graph and a specialist work coordinator. Ben used the upstream harness and
+reported 58/58 selected regressions passed. His source-location and
+historical-question results describe that exact release.
+[Ben's results by experiment](docs/GELHAUS_EXTERNAL_EVALUATION.md)
+
+**Now.** As of 18 November 2026, Combined main is [`6350988`][mplpb-now-pin].
+The [pinned Git comparison][mplpb-pin-diff] spans 68 commits. The merged PRs
+below show which capabilities were added, which existing behavior was extended,
+and where an observed defect was repaired.
+
+### What changed after Ben’s pin
+
+| Combined PR | Added or changed |
+|---|---|
+| [#40][mplpb-pr40] | The work coordinator now rechecks finite source-body support before handoff, dependency use and dispatch. Direct evidence is required and contradictory or claim-only dependencies stop downstream work. Prior assessments and failed attempts remain in history. [Source-support checker][mplpb-work-support] |
+| [#41][mplpb-pr41] | Added an opt-in documentary investigation with documentary, chronology and separately parsing verification roles. It follows explicit, bounded references with citations and stop reasons, retains separate event appearances and body variants, and adds explicit scoped correction that preserves the predecessor and unaffected text. Added the published 52-case evaluation. [Investigation code][mplpb-investigation] |
+| [#42][mplpb-pr42] | Added the original-record study runner with pinned inputs, sealed question and gold commitments, isolated execution, source-cited reviewer submissions and adjudication. This gives an outside evaluator a runnable protocol on unchanged originals. [Study protocol][mplpb-study] |
+| [#43][mplpb-pr43] | Added exact ID/hash and unique body-field routing, distinct diagnostic reasons and conflict retention under display budgets. Separated declared event IDs, repeated event keys and source appearances. Added field/time correction windows, read-only as-of views, up to two source-quoted relation steps, separation of receipts from claim support, and optional operator-time recording. [Scoped evidence contracts][mplpb-scoped] |
+| [#44][mplpb-pr44] | Extended gated passage discovery for ordinary prose and reverse mapping to original bytes. Improved candidate dates and relations, retained unresolved links, and published raw-original transfer tests, omissions and failed attempts. [Prose recovery report][mplpb-prose] |
+| [#45][mplpb-pr45] | Added a fresh-source documentary assertion checker and compound-question handling. Each checked part carries quotes, qualifications and provenance. Missing obligations and contrary evidence stay visible, including in the browser. [Documentary verifier][mplpb-doc-verify] |
+| [#46][mplpb-pr46] | Added checked literal wording comparisons and proof of limited arrangements explicitly recorded in the source. Added source-unit inspection, candidate graphs, typed historical review, clearer refusals, bounded parsing reuse, native local-artifact storage checks and raw crawler identity rehashing. [Reconstruction engine][mplpb-reconstruction] |
+| [#47][mplpb-pr47] | Added the offline dual-mode sorter, source-anchored candidate graphs and verified retired-ledger export that the pre-sorter reader can open. Published the technical paper and reproduction tooling. [Sorter code][mplpb-sorter-code] |
+| [#48][mplpb-pr48], [#49][mplpb-pr49] | Revised the sorter paper front matter and consolidated the package, installation and authority guides. The reader’s proof rules remained in place. [Package guide][mplpb-package] |
+| [#50][mplpb-pr50] | Fixed a sorter defect where quoted or fenced identifier headers could create false occurrence boundaries and enter primary identity clusters. Embedded headers retain their spans and review annotations. [Before/after report][mplpb-header-report] |
+| [#51][mplpb-pr51] | Added the optional strict-first local narrator for Ollama, llama.cpp and local OpenAI-compatible endpoints. An accepted rendering preserves the checked answer, and a fresh source and policy check runs before it is returned. Refusals, conflicts and partials bypass narration. [Narrator code][mplpb-narrator] |
+
+### How the sorter works
+
+The sorter runs offline on UTF-8 text and Markdown. It records occurrences,
+headers, dates, references, correction cues and other observations with the
+original file hash and exact character and byte spans. PDF and image sources
+need text extraction first. [Sorter guide][mplpb-sorter-guide]
+
+| Mode | Output |
+|---|---|
+| `not-compared` | Source observations and textual links such as containment or co-occurrence. These let a reviewer see what each source says in context. |
+| `compare` | The same sources, nodes, spans and observation edges, plus review edges for possible duplicates, different bodies under the same identifier, possible corrections and explicit references. Ambiguous or missing reference targets stay unresolved. |
+
+The earlier fixture retained **176 identical nodes** and **264 observation
+edges**, with **77 review edges** added in compare mode. A verified graph can
+be stored as a sealed, retired, machine-origin snapshot. The unchanged
+pre-sorter reader showed the snapshot for inspection and withheld it from
+answers under lab, internal and external profiles. Candidate links carry no
+answer support. In a later defect probe, classifying embedded headers first
+changed **three occurrence partitions to two** and removed the quoted example
+from the primary identity cluster while preserving its text. [B-Tests sorter
+rerun](evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/RESULTS.md#native-sorter-evidence)
+· [Header-scope regression][mplpb-header-report] · [Technical paper](docs/papers/README.md)
+
+### Ben’s criticism and my response in code
+
+| What Ben measured or asked for | What I implemented | What the evidence establishes |
+|---|---|---|
+| **P0 · Make refusals and retrieval gaps legible.** The existing contract already separated several answer states, but a user needed to distinguish unsupported grammar, absent eligible evidence, conflict, insufficient support and budget exhaustion. | Added more specific native diagnostic categories and bounded investigation stop reasons. [#43][mplpb-pr43] · [#46][mplpb-pr46] | Public controls exercise those failure categories. Cross-adapter consistency and whether the labels improve operators’ decisions still need measurement. |
+| **P1 · Improve access to the right original passages.** Exact phrases reached the expected source in the top five on **31/49** queries, even though rich communication headers ranked it first on **40/42**. Analyst notes could displace originals at rank one. | Exact ID/hash and body-field routing, conflict retention, source-layer inspection, gated prose search and mapping back to original spans. [#43][mplpb-pr43] · [#44][mplpb-pr44] · [#46][mplpb-pr46] | Zero/one/multiple-match and contradiction controls pass. The prose recovery run located **18/23** reference spans on a different development set. Ben’s 515-page comparison still needs the authorized originals or a matched replacement. [Prose recovery report][mplpb-prose] |
+| **P1 · Separate appearances from communication identity.** One message can appear in several places, equal subjects can refer to distinct messages, and matching headers can accompany conflicting bodies. | Separate source occurrences and event candidates, explicit identifier namespaces, body-variant review, and sorter scope checks for quoted or forwarded headers. [#41][mplpb-pr41] · [#43][mplpb-pr43] · [#50][mplpb-pr50] | Public controls and the repaired sorter probe demonstrate these distinctions on the tested inputs. Unseen event-identity precision and recall remain open. |
+| **P2 · Keep partial corrections and time provenance.** A later correction can change one claim while earlier text remains historically relevant. | Exact-span scoped corrections preserve predecessor text and unaffected fields. Field/time windows and read-only as-of views retain historical inspection without authorizing current work on retired sources. [#41][mplpb-pr41] · [#43][mplpb-pr43] | Public controls cover partial corrections, ambiguous spans, stale bases and scoped history. Uncertain dates and real partial retractions need independent scoring. |
+| **P2 · Reconstruct justified relationships from originals.** The old strict grammar abstained on **57** event-question forms. A supplied graph or plausible bridge leaves historical reconstruction unmeasured. | Opt-in source-quoted relation exploration stops at missing bridges. Separate documentary proofs check particular source assertions, wording comparisons and recorded arrangements with citations, qualifications and missing obligations. [#41][mplpb-pr41] · [#43][mplpb-pr43] · [#45][mplpb-pr45] · [#46][mplpb-pr46] | On **22 unchanged development questions**, native complete source support moved **0 → 1 → 2** across the reported reconstruction stages. The latest fresh-context AI assessment rated **2 complete correct, 4 correct refusals and 16 errors or over-refusals**. Independent human scoring and general historical reconstruction remain open. [Solo evaluation][mplpb-solo] |
+| **Appendix A · Preserve authority and distinguish operational receipts.** A stored, sent or narrated claim supplies no proof of delivery, acknowledgment or completion. | Recheck source bodies before downstream work, keep storage and host receipt types distinct, and require strict proof before optional narration. [#40][mplpb-pr40] · [#43][mplpb-pr43] · [#46][mplpb-pr46] · [#51][mplpb-pr51] | At the old pin a contradictory component-status claim and a claim-only chain both reached the executor. The repaired pin blocked both and still ran the direct-source positive control. Independent external delivery, READ/ACK and completion trials remain open. [Paired native probes](docs/MPLPB_NATIVE_COMPARISON.md#seven-paired-boundary-probes) |
+| **P3 · Measure scale, missed evidence and review effort.** Compare budgets, coverage, false bridges, compute and human labor. | Added source/hop/discovery limits, explicit stop reasons, bounded immutable parsing reuse, workload metrics and optional operator time. The study harness preserves pinned inputs, receipts and reviewer disagreements. [#41][mplpb-pr41] · [#42][mplpb-pr42] · [#43][mplpb-pr43] · [#46][mplpb-pr46] | A matched solo replay recorded lower worker CPU on that workload. Repeated scaling on matched corpora and actual human review and correction times remain open. [Solo evaluation][mplpb-solo] |
+
+The [same 52 public software controls][mplpb-public-baseline] recorded **10 passes
+and 42 capability gaps** at Ben’s pin and **52/52** at the fixed PR41 implementation.
+The gaps describe missing or unimplemented capabilities in that developer suite.
+At the subsequent narrator implementation freeze, the [upstream report][mplpb-narrator-report]
+records **1,219 native tests** and **52/52 public controls** passing. These
+measurements cover software behavior. The 22-question study measures a separate,
+much narrower reconstruction result. [Full acceptance matrix](docs/RESPONSE_TO_BEYOND_GUARDED_RETRIEVAL.md#requirement-by-requirement-map)
+
+### What would narrow the remaining criticism
+
+1. **Replay Ben’s released synthetic benchmark on both pins.** Obtain and
+   hash-check his named public companion archive. Run its original probes at
+   `257e54a` and `6350988` using the same corpus, questions and machine budgets.
+   Report source-location recall, refusals, occurrence/body collisions, scoped
+   corrections and false bridges. Record missing interfaces and any harness
+   adaptation explicitly. [Companion archive and replay limits](docs/GELHAUS_EXTERNAL_EVALUATION.md#what-is-public-and-what-remains-reproducible-only-in-part)
+2. **Run a blinded historical evaluation on unseen originals.** An outside
+   custodian freezes the source bytes and hidden questions. Two independent
+   reviewers score exact citations, distinct events, corrections, qualifying
+   language, justified relationships and appropriate refusals against a
+   predeclared rubric. Compare the old strict reader, current strict reader,
+   and current reader with sorter-assisted discovery under matched budgets.
+   In the sorter arm, reviewers use candidate links to locate originals and
+   the reader checks the originals under the same authority rules. Keep labels
+   and expected links out of the input corpus. [Existing study protocol][mplpb-study]
+3. **Measure whether the sorter saves reviewers work.** Compare manual review
+   with sorter-assisted review on the same task types. Time source location,
+   adjudication and re-entry after an interruption. Report missed originals,
+   false identity groups and bridges, reviewer disagreement, bytes read,
+   CPU and memory. Preserve corpus sizes, repeated-run variation and regressions
+   after withdrawal or correction. [Current sorter limits][mplpb-sorter-guide]
+
+[mplpb-ben-pin]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/tree/257e54a51edac272eb6b2441457f38a40485ee4d
+[mplpb-now-pin]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/tree/6350988a2f64d8e5fa53bd187d368f4397bf4f4c
+[mplpb-pin-diff]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/compare/257e54a51edac272eb6b2441457f38a40485ee4d...6350988a2f64d8e5fa53bd187d368f4397bf4f4c
+[mplpb-pr40]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/40
+[mplpb-pr41]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/41
+[mplpb-pr42]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/42
+[mplpb-pr43]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/43
+[mplpb-pr44]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/44
+[mplpb-pr45]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/45
+[mplpb-pr46]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/46
+[mplpb-pr47]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/47
+[mplpb-pr48]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/48
+[mplpb-pr49]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/49
+[mplpb-pr50]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/50
+[mplpb-pr51]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/51
+[mplpb-work-support]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/mplpb_work/source_support.py
+[mplpb-investigation]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/mplpb_work/investigation.py
+[mplpb-study]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/docs/ORIGINAL_RECORD_STUDY.md
+[mplpb-scoped]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/docs/SCOPED_EVIDENCE_EXTENSIONS.md
+[mplpb-prose]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/ff386a6f22b00d703d91665d5efc4ab284a34bf5/evaluation/unprepared-originals/2026-11-16-recovery/REPORT.md
+[mplpb-doc-verify]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/mplpb_answers/documentary_verify.py
+[mplpb-reconstruction]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/docs/HISTORICAL_RECONSTRUCTION_ENGINE.md
+[mplpb-sorter-code]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/mplpb_work/sorter.py
+[mplpb-package]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/docs/PACKAGE_GUIDE.md
+[mplpb-header-report]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/evaluation/preprocessing-sorter/2026-11-17-header-scope/REPORT.md
+[mplpb-narrator]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/mplpb_answers/local_narrator.py
+[mplpb-sorter-guide]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/docs/PREPROCESSING_SORTER.md
+[mplpb-solo]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/evaluation/solo-milestone/2026-11-17/RESULTS.md
+[mplpb-public-baseline]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/4fe099ca14175399f58369efcc39153c203a5677/evaluation/historical-experts/final-comparison.json
+[mplpb-narrator-report]: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/evaluation/general-reader/2026-11-17-local-narrator/REPORT.md
+
 ## Latest B-Tests native rerun — 17 November 2026, PR49
 
 Current Combined pin **ccbb5804eb47f78c2338d57c142ad087b47be710** passed
