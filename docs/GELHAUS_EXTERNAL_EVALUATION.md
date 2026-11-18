@@ -1,12 +1,12 @@
 # Ben Gelhaus's external evaluation of MPLPB
 
-Last reviewed: 17 November 2026.
+Last reviewed: 18 November 2026.
 
 Benjamin Gelhaus's [Beyond Guarded Retrieval](https://www.academia.edu/181013727/Beyond_Guarded_Retrieval_A_Source_Bounded_Evaluation_of_Combined_MPLPB_and_a_Roadmap_for_Historical_Reconstruction), dated **14 November 2026**, publicly reports an external engineering evaluation of Combined MPLPB **2.1.0rc1**, pinned to [`257e54a51edac272eb6b2441457f38a40485ee4d`](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/tree/257e54a51edac272eb6b2441457f38a40485ee4d).
 
 **MPLPB already has external testing.** Gelhaus authored this evaluation without Mitchell as a coauthor and disclosed ChatGPT assistance and his involvement in OOCC (§12.3, p.13). It is external to Mitchell's own development tests. Its questions and labels were not blinded to the evaluator (§5.1, p.5), and its scope is an engineering probe rather than independently adjudicated general historical accuracy. These distinctions qualify the evidence without erasing the external evaluation.
 
-The paper reports **58/58 selected upstream regression tests passed** after omitted fixtures were restored (§4.1 p.4; Table3 p.6). Its conclusion credits implemented source identity, integrity, supersession, eligibility and deterministic support safeguards (§13 pp.13–14).
+Gelhaus designed the evaluation and ran selected tests from the native MPLPB regression harness built and published by Mitchell D. McPhetridge. Section 4.1 identifies the unchanged writer, validator, strict-answer interface, provenance/source bundle and passage ranking used for the evaluation. The paper reports **58/58 selected upstream regression tests passed** after omitted fixtures were restored (§4.1 p.4 and Table 3 p.6). Its conclusion credits implemented source identity, integrity, supersession, eligibility and deterministic support safeguards (§13 pp.13–14).
 
 ## How MPLPB performed in the reported runs
 
@@ -51,4 +51,4 @@ The full supplied text and its content hash are retained in the [source manifest
 
 B-Tests subsequently executed different native work-boundary probes on the old and later implementations. Those findings have their own fixtures and criteria. They must not be attributed to Gelhaus's experiment merely because the old commit matches. Likewise, current passing regressions do not retroactively alter the old pin's measured results or independently establish that every new acceptance criterion has been met.
 
-Ben's external evaluation belongs in the evidence chain: **Mitchell's earlier explorations and tests → Gelhaus's version-pinned external evaluation → later implementation and B-Tests results → external reproduction of the updated version when performed**.
+The dated record starts with McPhetridge's self-review and prototype runs, then follows Gelhaus's external evaluation, the later implementation changes and the B-Tests reruns. [Full chronology and sources](RESPONSE_TO_BEYOND_GUARDED_RETRIEVAL.md#exact-chronology)

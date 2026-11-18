@@ -53,8 +53,10 @@ operation are different observations.
 In [Beyond Guarded Retrieval](https://www.academia.edu/181013727/Beyond_Guarded_Retrieval_A_Source_Bounded_Evaluation_of_Combined_MPLPB_and_a_Roadmap_for_Historical_Reconstruction),
 Benjamin Gelhaus evaluated Combined MPLPB 2.1.0rc1 at pinned commit
 [`257e54a51edac272eb6b2441457f38a40485ee4d`](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/tree/257e54a51edac272eb6b2441457f38a40485ee4d).
-He used MPLPB's own unmodified native writer, validator, strict-answer interface,
-provenance/source bundle and passage-ranking machinery.
+Gelhaus selected and ran 58 tests from the native MPLPB regression harness I
+built and published with the release. For his evaluation probes he used the
+unchanged writer, validator, strict-answer interface, provenance/source bundle
+and passage ranking. He designed the evaluation and reported the results.
 
 **All 58 selected native regression tests passed.** His reported retrieval results
 included **31/49** exact-phrase targets in the top five and **40/42**
@@ -67,7 +69,30 @@ I’m looking for more people willing to run MPLPB and repeat the public tests.
 and [share your results in an issue](https://github.com/mitchell-d00/B-Tests/issues/new),
 including the exact commit, commands, output logs and any failures you find.
 
-## Current comparison — 17 November 2026, PR49
+## Two projects I was working on before Ben's critique
+
+In my May 2026 self-review, I revisited and withdrew the completion claims in
+my own research account. *The Residual of Logic* traces how that self-correction
+led to a software question about preserving the ability to reject stale claims
+after recovery. [Self-review account](https://github.com/mitchell-d00/mplpb-residual-experiment/blob/1ec160051ba306ce61d74ba3186f0aa5873694c5/paper/The_Residual_of_Logic.md#2-the-research-arc-the-method-corrects-its-writer)
+
+I was already working on both projects on **10 November 2026**, the day I made
+the Combined MPLPB commit Ben later tested. GitHub records that commit at
+**15:17:53 UTC**. Both projects have public commits and recorded runs on
+**11 November 2026**, before Ben's paper dated **14 November 2026**.
+
+- **MPLPB Residual Experiment** tested whether the ledger still enforces
+  ownership, eligibility and refusal after recovery. The pilot started at
+  **13:05:28 UTC** on November 11 and used the same Combined pin Ben tested.
+  [Repository](https://github.com/mitchell-d00/mplpb-residual-experiment) · [Pinned run record](https://github.com/mitchell-d00/mplpb-residual-experiment/blob/1ec160051ba306ce61d74ba3186f0aa5873694c5/results/pilot-1/environment.json)
+- **Portable Evidence Runtime** tested offline transfer of a package containing
+  records, rules and a verifier. Its November 11 record shows **15/15 synthetic
+  cases passed** at **14:59:48 UTC**.
+  [Repository](https://github.com/mitchell-d00/portable-evidence-runtime) · [Pinned run record](https://github.com/mitchell-d00/portable-evidence-runtime/blob/4fdc20193c01f82baea0598b4c7d8ef3040772d5/experiment/results/synthetic_run.json)
+
+[Timeline through November 18, including the response to Ben’s critique](docs/RESPONSE_TO_BEYOND_GUARDED_RETRIEVAL.md#exact-chronology)
+
+## Latest B-Tests native rerun — 17 November 2026, PR49
 
 Current Combined pin **ccbb5804eb47f78c2338d57c142ad087b47be710** passed
 **1,186 native tests**, seven additional checks, seven B-Tests boundary probes,
@@ -78,12 +103,9 @@ that the unchanged pre-sorter reader withheld under all three profiles.
 [Requirement-by-requirement response to Ben](docs/RESPONSE_TO_BEYOND_GUARDED_RETRIEVAL.md)
 marks already-present, partial, newly added and still-open portions separately from
 software PASS and independent acceptance. [Exact fresh results and commands](evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/RESULTS.md)
-retain earlier-project reproductions too. The November11 Portable and residual
-repositories document a **thought-to-execution sequence** before the paper's
-stated November14 date: research questions → working verifiers/gates → recorded
-experiments → current reproduction → later Combined integration. They explore
-ideas also found in Ben's roadmap; they do not claim to have completed every
-later recommendation or establish influence between the researchers.
+include reproductions of both November 11 experiments. Combined later merged the
+optional strict-first narrator in PR51. Its separate upstream report records
+1,219 native tests at the frozen implementation revision. [Upstream validation](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/evaluation/general-reader/2026-11-17-local-narrator/REPORT.md)
 
 **Substantial implementation coverage is demonstrated; independent historical
 accuracy and general reconstruction remain unestablished.** Inspection, graph

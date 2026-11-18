@@ -1,6 +1,6 @@
 # Response to Beyond Guarded Retrieval — implementation and acceptance map
 
-Last reviewed: 17 November 2026. Only B-Tests was edited. MPLPB, Portable Evidence Runtime and the residual experiment remain unmodified test targets.
+Last reviewed: 18 November 2026. Only B-Tests was edited. MPLPB, Portable Evidence Runtime and the residual experiment remain unmodified test targets.
 
 [Ben Gelhaus's original publication](https://www.academia.edu/181013727/Beyond_Guarded_Retrieval_A_Source_Bounded_Evaluation_of_Combined_MPLPB_and_a_Roadmap_for_Historical_Reconstruction) is a 16-page paper dated 14 November 2026. The newly supplied full text was read for this update. The earlier B-Tests response had only pp.14–16; its dated statements retain that historical scope. [Exact supplied full text and hash](../research/public-papers/manifest.json) and [machine-readable matrix](../research/BEYOND_ACCEPTANCE_MATRIX_2026-11-17.json) identify the evidence.
 
@@ -8,7 +8,9 @@ The strongest supported conclusion is **substantial implementation coverage, wit
 
 ## Mitchell's thought-to-execution sequence
 
-The two November11 repositories are **earlier explorations of ideas that later appear in Gelhaus's critique and roadmap**. Their relevance is a documented sequence of research questions, executable mechanisms and measured behavior. This establishes more than overlapping terminology; it does not claim that every later recommendation was already implemented.
+McPhetridge's May 2026 self-review applied his own criteria to his earlier research account and withdrew its completion claims. *The Residual of Logic* identifies the problem he was investigating in his own work. Recovering the original account could preserve a conclusion while losing the correction that disqualified it. *Portable Evidence Runtime* approached a related question by putting records, eligibility rules and a verifier in a package that could be tested offline. [Self-review and research question](https://github.com/mitchell-d00/mplpb-residual-experiment/blob/1ec160051ba306ce61d74ba3186f0aa5873694c5/paper/The_Residual_of_Logic.md#2-the-research-arc-the-method-corrects-its-writer)
+
+Mitchell D. McPhetridge recalls working on both projects on 10 November 2026, the day he made the Combined MPLPB commit Gelhaus later tested. The public record documents both prototypes and their runs on 11 November, before the paper's stated 14 November date. The projects explored questions that also appear in Gelhaus's roadmap. [MPLPB Residual Experiment](https://github.com/mitchell-d00/mplpb-residual-experiment) · [Portable Evidence Runtime](https://github.com/mitchell-d00/portable-evidence-runtime)
 
 | Stage | Portable Evidence Runtime | MPLPB residual experiment |
 |---|---|---|
@@ -28,7 +30,7 @@ No claim is made that Ben derived his suggestions from these repositories. The s
 
 **Credit for external evaluation:** Gelhaus publicly reports58/58 selected native tests passed, with additional positive source-location and safe-refusal results. [The study-by-study summary](GELHAUS_EXTERNAL_EVALUATION.md) records his measured limits too. His recommendations are proposed extensions, not automatically failures; safe out-of-grammar abstention is distinct from an incorrect answer.
 
-The paper pins Combined `257e54a51edac272eb6b2441457f38a40485ee4d`, committed 10 November. Sections3.1–3.4 explicitly credit integrity, bounded inference, assisted/strict separation, historical revisions and the specialist coordinator. It is incorrect to say he described the whole system as mere passage retrieval. Section4.1 says browser, Networked, Swarm, SCOPE and assisted-model paths were not matched end-to-end tests.
+Gelhaus designed and reported the external evaluation. He selected 58 tests from the native upstream regression harness McPhetridge built and published with Combined MPLPB 2.1.0rc1 at commit `257e54a51edac272eb6b2441457f38a40485ee4d`. For the evaluation probes he used the unchanged native writer, validator, strict-answer interface, provenance/source bundle and passage ranking. Section 4.1 also records a ZIP hash check and restoration of fixtures missing from the initial extraction. Sections 3.1–3.4 explicitly credit integrity, bounded inference, assisted/strict separation, historical revisions and the specialist coordinator. It is incorrect to say he described the whole system as mere passage retrieval. Section4.1 says browser, Networked, Swarm, SCOPE and assisted-model paths were not matched end-to-end tests.
 
 His reported 58 selected native tests passed. He measured source-location and strict-interface coverage limits on engineering probes, including 0/57 supported event-question forms, and explicitly distinguishes safe refusal from failed reasoning (§§5–6). Those private raw-source benchmarks are not reproduced here. The public companion ZIP is named with a hash in §12.1, but the actual archive has not been furnished or acquired in this run; a name/hash is not access. Public synthetic material should be tested if that archive is supplied, rather than called private by assumption.
 
@@ -36,21 +38,32 @@ The proposed extensions preserve authority. The current response should credit t
 
 ## Exact chronology
 
-| Record | Pin/date | What the date establishes |
+| Record | Date (UTC for exact timestamps) | Evidence and scope |
 |---|---|---|
-| Ben-tested Combined | `257e54a51edac272eb6b2441457f38a40485ee4d`; 2026-11-10T10:17:53-05:00 | Identified historical implementation |
-| Residual experiment | [`1ec160051ba306ce61d74ba3186f0aa5873694c5`](https://github.com/mitchell-d00/mplpb-residual-experiment/tree/1ec160051ba306ce61d74ba3186f0aa5873694c5); 2026-11-11T13:16:02Z | Related bounded-recovery experiment before the paper date |
-| Portable Evidence Runtime | [`4fdc20193c01f82baea0598b4c7d8ef3040772d5`](https://github.com/mitchell-d00/portable-evidence-runtime/tree/4fdc20193c01f82baea0598b4c7d8ef3040772d5); 2026-11-11T15:18:07Z | Related capsule/portable evidence work before the paper date |
-| Ben paper | Stated14 November2026; publication URL above | Manuscript date; exact initial upload timestamp not independently verified |
-| New candidate/correction/investigation modules | `8fb3eb82cde1781c1402d57986b63179b82ad4e5`; 2026-11-16T03:22:27-05:00 | Recorded addition after the paper date |
+| McPhetridge's research account and self-review | 18 and 20 May 2026 | Archive dates cited in *The Residual of Logic*. McPhetridge applied his own criteria to his completion narrative and withdrew the closure claims. [Dated references and source limits](https://github.com/mitchell-d00/mplpb-residual-experiment/blob/1ec160051ba306ce61d74ba3186f0aa5873694c5/paper/The_Residual_of_Logic.md#2-the-research-arc-the-method-corrects-its-writer) |
+| McPhetridge working on both prototypes | 10 November 2026 | McPhetridge's account of development on the day of the Combined commit below. |
+| Ben-tested Combined | 2026-11-10T15:17:53Z | GitHub records the merge for the exact Combined pin. [`257e54a51eda`](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/commit/257e54a51edac272eb6b2441457f38a40485ee4d) |
+| Residual experiment initial commit | 2026-11-11T12:58:18Z | First commit in the public repository. [`ca002ace6a7c`](https://github.com/mitchell-d00/mplpb-residual-experiment/commit/ca002ace6a7c54a5ad3022e6032a8ae877b269f6) |
+| Residual experiment pilot | 2026-11-11T13:05:28.919832Z | Recorded start of the pilot using the same Combined pin Gelhaus evaluated. [Run record](https://github.com/mitchell-d00/mplpb-residual-experiment/blob/1ec160051ba306ce61d74ba3186f0aa5873694c5/results/pilot-1/environment.json) |
+| Residual experiment paper and pilot artifacts | 2026-11-11T13:16:02Z | Git commit containing the paper and pilot evidence. [`1ec160051ba3`](https://github.com/mitchell-d00/mplpb-residual-experiment/commit/1ec160051ba306ce61d74ba3186f0aa5873694c5) |
+| Portable Evidence Runtime initial commit | 2026-11-11T14:51:32Z | First commit in the public repository. [`c5164110d25d`](https://github.com/mitchell-d00/portable-evidence-runtime/commit/c5164110d25df94d611c38712fad5dc4b9f7a6a2) |
+| Portable Evidence Runtime synthetic run | 2026-11-11T14:59:48Z | Recorded result for 15 synthetic cases. [Run record](https://github.com/mitchell-d00/portable-evidence-runtime/blob/4fdc20193c01f82baea0598b4c7d8ef3040772d5/experiment/results/synthetic_run.json) |
+| Portable Evidence Runtime and papers merged | 2026-11-11T15:18:07Z | GitHub records the merge containing the runtime and core papers. [`4fdc20193c01`](https://github.com/mitchell-d00/portable-evidence-runtime/commit/4fdc20193c01f82baea0598b4c7d8ef3040772d5) |
+| Ben paper | 14 November 2026 | Stated manuscript date |
+| Combined work gate repair | 2026-11-16T01:27:49Z (15 November Eastern) | PR40 added a source-support check before a claim could enable downstream work. [Merge](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/commit/cc21ce300b5ec228c07fc77a149804fba6c89792) |
+| New candidate, correction and investigation modules | 2026-11-16T08:22:27Z | Added source-occurrence candidates, correction history and bounded relation investigation using public evidence controls. [`8fb3eb82cde1`](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/commit/8fb3eb82cde1781c1402d57986b63179b82ad4e5) |
+| McPhetridge's comparative paper and B-Tests native evaluation | 16 November 2026 | Later pin passed 887 native tests and all seven paired work-boundary probes. The original pin passed five of those probes and failed two, which were retained. The paper also reports the 30 earlier instruction-level sessions. [Native comparison](MPLPB_NATIVE_COMPARISON.md) · [Comparative paper](papers/README.md) |
+| Combined source-bounded reconstruction and B-Tests rerun | 2026-11-17T11:40:10Z (PR46 merge) | B-Tests recorded 1,157 native tests, seven work-boundary probes and 52 public-evidence cases. [Merge](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/commit/3df2c6e22f0ef454f3ee67b88d43402a42f63443) · [B-Tests report](../evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/RESULTS.md) |
 | Initial sorter | `d528b65d6b00f4777f6224591eaed81b4ee25ad1`; 2026-11-17T12:45:59Z | Source-anchored offline preprocessing added later |
 | Refined sorter runtime | `30f0d89c5954b1f1226d0e30c78dc671011849e1`; 2026-11-17T12:57:37Z | Native validation and exact graph round-trip refinement |
 | Sorter compatibility record | `26ca2b5be17281684551ca2649ff62e7c0aa250f`; 2026-11-17T13:04:58Z | Separate pre-sorter-reader compatibility evidence |
-| Current evaluated Combined | `ccbb5804eb47f78c2338d57c142ad087b47be710`; 2026-11-17T10:20:03-05:00 | PR49 package/documentation head tested here |
+| B-Tests PR49 rerun and response to the full paper | 2026-11-17T15:20:03Z (PR49 merge) | B-Tests recorded 1,186 native tests, seven additional checks, seven work-boundary probes, ten applicable query contracts and 52 public-evidence cases. B-Tests reproduced both November 11 projects and verified sorter compatibility and withholding with the pre-sorter reader. The response below maps the full paper's criteria to implementation and evidence. [Versioned report](../evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/RESULTS.md) · [Sorter paper](papers/README.md) |
+| Optional constrained narrator | 2026-11-17T20:33:34Z (PR51 merge) | The narrator formats answers only after strict proof and rechecks source and policy state. The upstream report records 1,219 native tests and 52 public-evidence cases at the exact tested implementation revision `cc49d6e9a31b`. Live neural generation was untested. [Merge](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/commit/6350988a2f64d8e5fa53bd187d368f4397bf4f4c) · [Upstream report](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/6350988a2f64d8e5fa53bd187d368f4397bf4f4c/evaluation/general-reader/2026-11-17-local-narrator/REPORT.md) |
+| B-Tests chronology and attribution update | 18 November 2026 | Checked commit and run timestamps, linked the self-review and the two prototypes, and documented which harness and interfaces Gelhaus used. This documentation update used the retained runs. |
 
 The complete Git ancestry was fetched before recording module additions. The answer pipeline was introduced October31, the relation graph November1 and work coordinator October31; all three are present in Ben's tested pin. [Exact commit/module records](../research/MPLPB_RESPONSE_PIN_CHRONOLOGY.json) and [GitHub metadata for the two earlier repositories](../research/BEYOND_GUARDED_RETRIEVAL_TIMELINE_2026-11-17.json) retain the dates and URLs.
 
-Both separate repositories postdate the tested November10 Combined pin and predate the paper's November14 date. They are relevant prior public work, but separate codebases are not automatically integrations into Combined. Recorded Git/repository dates are not independently authenticated authorship or first-public-availability dates. No claim of copying, priority or deliberate omission follows. Ben's motive for selecting the pin is unknown.
+GitHub records the commits and merges above. The two run timestamps come from the projects' retained experiment logs. The November 10 development account comes from McPhetridge. The repository histories document the two prototypes separately from the Combined release Gelhaus tested.
 
 ## Requirement-by-requirement map
 
