@@ -11,6 +11,11 @@ and evaluator controls, alongside separate native MPLPB executions. They do not 
 scheduler, recipient acceptance or native action enforcement. See
 [system scope](docs/OOCC_2026_SYSTEM_SCOPE.md).
 
+On November 18, 2026, GitHub returned HTTP 404 for `MrMeNotU/OOCC`,
+the repository cited in Gelhaus’s research. The controller code at that
+location was unavailable for inspection or independent testing.
+[Reference G7](docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md#references)
+
 ## What the testbench has tested
 
 B-Tests supplies the test cases, published instructions, fresh-session procedures,
