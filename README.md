@@ -472,6 +472,14 @@ projects, independent validation or proof against all inherited-error reinforcem
 
 ## Paper and public-work comparison
 
+**Probabilistic Prompts and MPLPB Deterministic Contracts**, by Mitchell D.
+McPhetridge, 18 November 2026, uses the 8 a.m. light switch to explain
+how B-Tests measures instruction following and independently verifies
+permitted and withheld effects.
+[Markdown](docs/paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.md) ·
+[TXT](docs/paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.txt) ·
+[PDF](docs/paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.pdf)
+
 **MPLPB Mixed Dump**, by Mitchell D. McPhetridge, 18 November 2026, documents
 the development from the early B-Tests runs through candidate review, reader-owned
 passage admission, and 100 reproducible mixed-dump cases.

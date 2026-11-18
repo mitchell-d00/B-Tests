@@ -13,6 +13,19 @@ from xml.sax.saxutils import escape
 ROOT=Path(__file__).resolve().parents[1]
 STEM='WHEN_THE_MAP_BECOMES_THE_AUTHORITY'
 MIXED_STEM='MPLPB_MIXED_DUMP'
+SWITCH_STEM='PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS'
+PAPERS={'critical':STEM,'mixed-dump':MIXED_STEM,'switch-test':SWITCH_STEM}
+METADATA={
+    STEM:('MPLPB and OOCC/CAD: Comparative Experiments',
+          'Critical OOCC/CAD experiments and source-governance boundaries',
+          'McPhetridge · Research draft · 16 November 2026'),
+    MIXED_STEM:('MPLPB Mixed Dump',
+                'Source-bounded review, proof admission, and mixed-document testing',
+                'McPhetridge · MPLPB Mixed Dump · 18 November 2026'),
+    SWITCH_STEM:('Probabilistic Prompts and MPLPB Deterministic Contracts',
+                 'The 8 a.m. Switch Test for Instructions and Effects',
+                 'McPhetridge · The Switch Test · 18 November 2026'),
+}
 
 
 def build(out, stem=STEM):
@@ -25,12 +38,7 @@ def build(out, stem=STEM):
     from reportlab.pdfgen import canvas
     from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,Preformatted
     source=ROOT/'docs/paper'/f'{stem}.md'
-    mixed=stem==MIXED_STEM
-    title_text='MPLPB Mixed Dump' if mixed else 'MPLPB and OOCC/CAD: Comparative Experiments'
-    subject=('Source-bounded review, proof admission, and mixed-document testing' if mixed
-             else 'Critical OOCC/CAD experiments and source-governance boundaries')
-    footer_text=('McPhetridge · MPLPB Mixed Dump · 18 November 2026' if mixed
-                 else 'McPhetridge · Research draft · 16 November 2026')
+    title_text,subject,footer_text=METADATA[stem]
     out.mkdir(parents=True,exist_ok=True)
     # Preserve link destinations in TXT/PDF; pandoc plain otherwise drops them.
     def link_text(match):
@@ -74,9 +82,9 @@ def build(out, stem=STEM):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--check',action='store_true')
-    p.add_argument('--paper',choices=('critical','mixed-dump'),default='critical')
+    p.add_argument('--paper',choices=PAPERS,default='critical')
     a=p.parse_args()
-    stem=MIXED_STEM if a.paper=='mixed-dump' else STEM
+    stem=PAPERS[a.paper]
     destination=ROOT/'docs/paper'
     if a.check:
         with tempfile.TemporaryDirectory() as tmp:

@@ -26,6 +26,13 @@ python tools/build_critical_paper.py --paper mixed-dump
 python tools/build_critical_paper.py --paper mixed-dump --check
 ```
 
+Generate and verify [Probabilistic Prompts and MPLPB Deterministic Contracts](PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.md):
+
+```sh
+python tools/build_critical_paper.py --paper switch-test
+python tools/build_critical_paper.py --paper switch-test --check
+```
+
 Install pandoc/DejaVu through the host's package manager if absent. The build uses
 fixed PDF metadata for repeatability; a different renderer/font version may change
 PDF bytes. Do not infer different research findings from that formatting difference.

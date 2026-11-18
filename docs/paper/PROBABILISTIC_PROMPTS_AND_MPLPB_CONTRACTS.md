@@ -1,0 +1,144 @@
+# Probabilistic Prompts and MPLPB Deterministic Contracts
+
+## The 8 a.m. Switch Test for Instructions and Effects
+
+**Mitchell D. McPhetridge**
+
+18 November 2026 · Technical research note
+
+## Abstract
+
+Asking someone to turn on a light at 8 a.m. and setting a plug timer for
+8 a.m. express the same intention through different mechanisms. The first
+depends on someone remembering and carrying out the request. The second
+puts the schedule in the path that supplies power to the lamp. An observer
+can check whether the light came on and whether it stayed off after the
+schedule was canceled. This distinction applies to AI-assisted work.
+Strong governance prompting can shape a model’s decisions. An MPLPB
+contract can check the current source and permission state before a
+guarded action reaches its executor. B-Tests records both kinds of
+observations. Seven native probes on the current tested revision reproduced
+the expected allowed or withheld outcomes using a real local executor,
+an effect file, and a separate event-store read.
+
+## 1. Where the rule lives
+
+Imagine asking a child to turn the light on at 8 a.m. The child can repeat
+the request accurately, write it down, and carry it out. A change of routine
+or a missed correction can change what happens. A report that the light is
+on can be checked by looking at the lamp. Setting a plug timer puts the
+switching rule in the circuit. Its effect depends on a correct setting,
+a working timer, power, and a working lamp. Those dependencies give an
+observer concrete failure conditions to inspect.
+
+A prompt can carry the working rules for sources, corrections, and allowed
+actions. A model can use those rules to plan, make a good decision, and
+explain it. The model’s available context, source retrieval, and handling
+of a handoff affect how it applies the rules. A well-designed prompt test
+therefore scores the model’s recorded decision against the current source
+and permissions. A claim that an action happened calls for a separate
+observation of the effect. [B-Tests operator method](../../README.md#use-b-tests-with-another-system)
+
+MPLPB places a different sort of check at a guarded entry point. The model
+or operator can propose work. The program evaluates the applicable contract
+against the state it can verify. In the bounded work path tested here,
+current authority and finite source support govern whether the executor
+may be invoked. A proposal or a confident completion message cannot
+authorize that invocation. The switch analogy concerns the placement of
+the check in the execution path. The B-Tests probes use a local artifact,
+with no timed electrical operation in the fixture.
+[Native work comparison](../MPLPB_NATIVE_COMPARISON.md#seven-paired-boundary-probes)
+
+## 2. The switch test
+
+Use one observable operation and hold its inputs steady across a positive
+case and a withholding case. For the lamp, configure an active schedule in
+the first case. Cancel it before the scheduled time in the second. Measure
+the state of the lamp in both cases. The allowed result shows that the path
+can produce the effect. The withheld result shows what happens when the
+governing condition changes.
+
+For a source-bound workflow, give a valid claim a current original and
+an authorized executor. Run the same operation with a revoked permission,
+a changed source, a contradictory claim, or a claim backed only by
+another claim. Keep the requested operation constant within each pair.
+Record the software revision, authority state, requested operation,
+and expected effect before execution. Read the effect or resulting state
+through a separate surface. A denied request can be a correct outcome.
+A missing readback leaves the effect undecided.
+
+A strong governance prompting treatment can use these same source cases
+to test whether a fresh model session chooses the allowed action or
+declines the prohibited one. Preserve the model’s original response,
+the sources it received, and any tool traces. If a runnable system exposes
+the action boundary, exercise that boundary separately and inspect what
+changed. In a mixed model-and-software system, record the model proposal,
+the gate decision, and the resulting state so each observation can be
+attributed to its source. [Blind packet procedure](../BLIND_HANDOFF_EXPERIMENT.md)
+
+## 3. What the MPLPB probes observed
+
+The paired native experiment used a source saying that configuration
+AX-14 was discontinued and Component X remained available. The allowed
+control proposed work from the supported component-status statement.
+The prohibited cases included a contradictory component-status claim
+and a claim whose supporting chain ended at another claim. The executor
+wrote a marker file when called. The evaluator read the event store
+through a separate read-only connection.
+
+At historical revision `257e54a`, both the contradictory claim and the
+claim-only chain reached the executor. At the repaired revision
+`cc21ce3`, both were blocked, with no marker and no new event from the
+attempt. The supported control still produced its marker. These were
+observed differences under identical probe criteria. The historical
+outcomes remain part of the result. [Paired native observations and commands](../MPLPB_NATIVE_COMPARISON.md#seven-paired-boundary-probes)
+
+The later rerun at Combined revision
+`bbf6690d69b32d16969cc10e5ce9d380427ead40` passed all seven native
+work-boundary probes. It observed the authorized local effect and
+verified that the prohibited cases produced no effect. The same
+revision passed 1,267 native Python tests and 52 public evidence
+controls. These counts describe different test sets. The seven work
+probes check the execution boundary, the public controls check defined
+source and evidence contracts, and the full suite covers the named
+software revision and its fixtures.
+[Latest rerun and individual results](../../evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md)
+
+## 4. What the contract buys
+
+A deterministic contract makes an authority rule inspectable at the
+point where the program consumes it. With the same checked inputs and
+state, the applicable rule gives a repeatable decision. The test can
+change one input, such as a source revision or permission, and check
+whether the effect changes as specified. A defect in the implementation,
+an incomplete rule, or a false original can still limit what the
+system establishes. The claim follows the contract, the invoked path,
+and the readback.
+
+This also leaves room for useful exploration. A model, sorter, or
+other retrieval process can bring a new possibility to the reader.
+MPLPB’s candidate workspace preserves that suggestion with source
+coordinates and a review label. A strict answer requires support from
+eligible originals within the reader’s budget. In the latest
+22-question direct historical replay, two complete answers, one
+partial, three conflicts, and sixteen abstentions matched the
+retained baseline. Historical reconstruction on unseen originals and
+independent assessment of those outcomes remain open.
+[Historical replay and candidate-workspace evidence](../../evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md#native-historical-and-repository-documentation-runs)
+
+The switch test gives a direct question for any proposed enforcement
+mechanism. Under the prescribed conditions, did the allowed operation
+produce its effect, and did the prohibited operation leave the relevant
+state unchanged? Preserve both observations and the rule that connects
+them. That is the evidence a reviewer can reproduce.
+
+## Reproducibility
+
+Use clean pinned checkouts and a fresh output directory. The B-Tests
+[paired native runner and commands](../MPLPB_NATIVE_COMPARISON.md#reproduce-native-executions)
+retain each command and its outcome. The
+[current results](../../evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/native/work-boundaries/)
+contain the later per-case decisions, effect observations, and event
+counts. Rerunning a retained record verifies its consistency. Repeating
+the native test requires executing the pinned program and observing fresh
+effects.
