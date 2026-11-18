@@ -146,7 +146,7 @@ Mitchell D. McPhetridge develops MPLPB and commissioned this critical comparison
 
 [G6] Gelhaus, B. (2026). *The Object as Filter: Holographic Return, AI Continuity, and Human-Readable Interfaces*. Source B10; Sections 4–8 distinguish structural resemblance from stronger metaphysical conclusions. SHA-256 `f510bb74c882bc2f1761255d9d55df4f369f456fb30fc780b8081ed42fb3034e`.
 
-[G7] Gelhaus, B. (2026). *Beyond Guarded Retrieval*, stated November 14. Supplied concluding excerpt only, pp. 14–16, including Appendix A. Its private reference packages were not examined. Publication entry point for Gelhaus's manuscripts: [author profile](https://independent.academia.edu/BenG197); public code: [MrMeNotU/OOCC](https://github.com/MrMeNotU/OOCC). Profile links do not imply private records were read.
+[G7] Gelhaus, B. (2026). *Beyond Guarded Retrieval*, stated November 14. Supplied concluding excerpt only, pp. 14–16, including Appendix A. Its private reference packages were not examined. Publication entry point for Gelhaus's manuscripts: [author profile](https://independent.academia.edu/BenG197). The cited OOCC repository returned HTTP 404 when checked on November 18, 2026. Profile links do not imply private records were read.
 
 Original-document identities and selected source-linked claims: [source manifest](../../research/oocc_v1/source_manifest.json) and [claim matrix](../OOCC_CORRECTION_EVALUATION.md). Primary PDF page references distinguish documentary claims from reproduced outcomes.
 
