@@ -379,9 +379,8 @@ f510bb74c882bc2f1761255d9d55df4f369f456fb30fc780b8081ed42fb3034e.
 [G7] Gelhaus, B. (2026). Beyond Guarded Retrieval, stated November 14. Supplied
 concluding excerpt only, pp. 14–16, including Appendix A. Its private reference packages
 were not examined. Publication entry point for Gelhaus's manuscripts: author profile
-(https://independent.academia.edu/BenG197); public code: MrMeNotU/OOCC
-(https://github.com/MrMeNotU/OOCC). Profile links do not imply private records were
-read.
+(https://independent.academia.edu/BenG197). The cited OOCC repository returned HTTP 404
+when checked on November 18, 2026. Profile links do not imply private records were read.
 
 Original-document identities and selected source-linked claims: source manifest
 (https://github.com/mitchell-d00/B-Tests/blob/main/research/oocc_v1/source_manifest.json)
