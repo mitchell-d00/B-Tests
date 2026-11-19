@@ -1,0 +1,9 @@
+{
+  "observed_effect": "available",
+  "effect_only_rejected": false,
+  "contract_issues": [
+    "inherited_state_conflict"
+  ],
+  "case": "inherited-conflict",
+  "expected_issue": "inherited_state_conflict"
+}

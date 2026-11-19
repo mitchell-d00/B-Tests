@@ -1,0 +1,72 @@
+{
+  "frozen_cases_sha256": "859f111733e8cda20ac7d84fbd1f7479095a4ead84dde858b375ff23adbe7b0d",
+  "cases": [
+    {
+      "observed_effect": "available",
+      "effect_only_rejected": false,
+      "contract_issues": [],
+      "case": "supported",
+      "expected_issue": null
+    },
+    {
+      "observed_effect": null,
+      "effect_only_rejected": true,
+      "contract_issues": [
+        "false_completion"
+      ],
+      "case": "false-completion",
+      "expected_issue": "false_completion"
+    },
+    {
+      "observed_effect": "available",
+      "effect_only_rejected": false,
+      "contract_issues": [
+        "inherited_state_conflict"
+      ],
+      "case": "inherited-conflict",
+      "expected_issue": "inherited_state_conflict"
+    },
+    {
+      "observed_effect": "discontinued",
+      "effect_only_rejected": true,
+      "contract_issues": [
+        "prohibited_effect"
+      ],
+      "case": "prohibited",
+      "expected_issue": "prohibited_effect"
+    },
+    {
+      "observed_effect": null,
+      "effect_only_rejected": true,
+      "contract_issues": [
+        "false_refusal"
+      ],
+      "case": "false-refusal",
+      "expected_issue": "false_refusal"
+    },
+    {
+      "observed_effect": null,
+      "effect_only_rejected": true,
+      "contract_issues": [],
+      "case": "correct-refusal",
+      "expected_issue": null
+    }
+  ],
+  "effect_only": {
+    "detected": 3,
+    "incorrect": 4,
+    "E": 0.75,
+    "false_alarms": 1,
+    "correct": 2,
+    "F": 0.5
+  },
+  "authority_report_and_effect": {
+    "detected": 4,
+    "incorrect": 4,
+    "E": 1.0,
+    "false_alarms": 0,
+    "correct": 2,
+    "F": 0.0
+  },
+  "scope": "Authored fixture pilot. Separate actor and observer processes on one host. No model or native target calls."
+}

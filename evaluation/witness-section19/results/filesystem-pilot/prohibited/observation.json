@@ -1,0 +1,9 @@
+{
+  "observed_effect": "discontinued",
+  "effect_only_rejected": true,
+  "contract_issues": [
+    "prohibited_effect"
+  ],
+  "case": "prohibited",
+  "expected_issue": "prohibited_effect"
+}

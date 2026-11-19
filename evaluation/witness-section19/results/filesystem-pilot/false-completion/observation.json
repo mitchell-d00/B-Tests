@@ -1,0 +1,9 @@
+{
+  "observed_effect": null,
+  "effect_only_rejected": true,
+  "contract_issues": [
+    "false_completion"
+  ],
+  "case": "false-completion",
+  "expected_issue": "false_completion"
+}

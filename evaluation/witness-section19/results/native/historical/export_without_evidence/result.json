@@ -1,0 +1,18 @@
+{
+  "case": "export_without_evidence",
+  "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+  "status": "PASS",
+  "criterion": "A claimed supported human export with no pinned evidence cannot be promoted as supported work.",
+  "expected_effect": false,
+  "observed_effect": false,
+  "support_promotion_rejected": true,
+  "exception": {
+    "type": "WorkError",
+    "message": "Working support needs pinned evidence or claim dependencies"
+  },
+  "event_count_before": 3,
+  "event_count_after": 3,
+  "verification": "Independent read-only SQLite event counts before and after attempted support promotion.",
+  "scope": "Native record-creation contract, not detection of a false outside-world original.",
+  "model_calls": 0
+}

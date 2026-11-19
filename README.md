@@ -478,6 +478,15 @@ projects, independent validation or proof against all inherited-error reinforcem
 
 ## Paper and public-work comparison
 
+**The Witness Inside the Machine**, by Mitchell D. McPhetridge, examines how to
+check a runtime’s report against an independently observed effect. B-Tests
+replayed the supplied Section 19 scripts, ran a filesystem pilot, and checked
+native MPLPB on two pins. The historical pin met 5/7 checks and the newer pin
+met 7/7, including the supported execution control.
+[Markdown](docs/paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.md) ·
+[PDF](docs/paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.pdf) ·
+[Results and replay commands](evaluation/witness-section19/RESULTS.md)
+
 **Probabilistic Prompts and MPLPB Deterministic Contracts**, by Mitchell D.
 McPhetridge, 18 November 2026, uses the 8 a.m. light switch to explain
 how B-Tests measures instruction following and independently verifies

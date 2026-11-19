@@ -1,0 +1,35 @@
+{
+  "archive_sha256": "0322c429a214752d25b3ede08567a8f76d2a8ed894a10fdd23f742f96ca1d395",
+  "public_rules_sha256": "5580f40c2bcbdcf47626cdad4abf382a531927afd5673555f968428ca10715a3",
+  "replicated": [
+    {
+      "script": "witness-package/witness-experiment/run_witness_experiment.py",
+      "script_sha256": "e3206239fe0a6283831477bb56176df2df5be45f51faf01cb92d6f8fb42ba94a",
+      "exit_code": 0,
+      "matched_shipped_except_run_at": true,
+      "path_substitutions": [
+        "output directory"
+      ]
+    },
+    {
+      "script": "witness-package/witness-oocc/run_on_cad.py",
+      "script_sha256": "ebb04f2e17ed04a4ad99abf05fcf1337385e658aafbf8f4bc520c46f50ee6c1e",
+      "exit_code": 0,
+      "matched_shipped_except_run_at": true,
+      "path_substitutions": [
+        "output directory",
+        "public rules file"
+      ]
+    },
+    {
+      "script": "witness-package/witness-oocc/run_cad_vs_mplpb.py",
+      "script_sha256": "3b59c52b47d7387c8209f7ea76395c001494ded78216345925cee114cad497df",
+      "exit_code": 0,
+      "matched_shipped_except_run_at": true,
+      "path_substitutions": [
+        "output directory"
+      ]
+    }
+  ],
+  "scope": "Scripted reports and in-memory effects. Zero model or native target calls."
+}

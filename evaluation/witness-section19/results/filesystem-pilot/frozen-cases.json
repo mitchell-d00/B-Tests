@@ -1,0 +1,95 @@
+{
+  "fixtures": [
+    {
+      "case": "supported",
+      "authority": {
+        "source_status": "available",
+        "permitted": true
+      },
+      "actor": {
+        "declared": {
+          "source_status": "available",
+          "completed": true
+        },
+        "effect": "available"
+      },
+      "expected_issue": null
+    },
+    {
+      "case": "false-completion",
+      "authority": {
+        "source_status": "available",
+        "permitted": true
+      },
+      "actor": {
+        "declared": {
+          "source_status": "available",
+          "completed": true
+        },
+        "effect": null
+      },
+      "expected_issue": "false_completion"
+    },
+    {
+      "case": "inherited-conflict",
+      "authority": {
+        "source_status": "available",
+        "permitted": true
+      },
+      "actor": {
+        "declared": {
+          "source_status": "discontinued",
+          "completed": true
+        },
+        "effect": "available"
+      },
+      "expected_issue": "inherited_state_conflict"
+    },
+    {
+      "case": "prohibited",
+      "authority": {
+        "source_status": "discontinued",
+        "permitted": false
+      },
+      "actor": {
+        "declared": {
+          "source_status": "discontinued",
+          "completed": true
+        },
+        "effect": "discontinued"
+      },
+      "expected_issue": "prohibited_effect"
+    },
+    {
+      "case": "false-refusal",
+      "authority": {
+        "source_status": "available",
+        "permitted": true
+      },
+      "actor": {
+        "declared": {
+          "source_status": "available",
+          "completed": false
+        },
+        "effect": null
+      },
+      "expected_issue": "false_refusal"
+    },
+    {
+      "case": "correct-refusal",
+      "authority": {
+        "source_status": "discontinued",
+        "permitted": false
+      },
+      "actor": {
+        "declared": {
+          "source_status": "discontinued",
+          "completed": false
+        },
+        "effect": null
+      },
+      "expected_issue": null
+    }
+  ],
+  "runner_sha256": "9781e67c0caafa741307fe7c2983dc1dd91f6852f554faf31ae20ef8fbab6bb0"
+}
