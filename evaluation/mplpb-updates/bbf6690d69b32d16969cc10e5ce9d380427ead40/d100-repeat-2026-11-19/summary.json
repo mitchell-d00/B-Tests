@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "target_revision": "bbf6690d69b32d16969cc10e5ce9d380427ead40",
+  "b_tests_revision": "52cd9a95042d9fb34577e7a22d2fca1a45548283",
+  "batches_passed": 5,
+  "synthetic_ledgers": 125,
+  "cases_passed": 500,
+  "workspace_replays_passed": 500,
+  "source_maps_checked": 500,
+  "scenarios": {
+    "processed-only": 125,
+    "supported": 125,
+    "insufficient": 125,
+    "competing": 125
+  },
+  "distinct_topics_across_batches": 375,
+  "candidate_kinds": {
+    "conflicting_wording": 375,
+    "exact_match": 1256,
+    "shared_wording_review": 493
+  },
+  "batches": [
+    {
+      "batch": "batch-01",
+      "seed": 9345879386501493789,
+      "users_passed": 25,
+      "cases_passed": 100,
+      "scenarios": {
+        "processed-only": 25,
+        "supported": 25,
+        "insufficient": 25,
+        "competing": 25
+      },
+      "run_summary": "batch-01/run/summary.json"
+    },
+    {
+      "batch": "batch-02",
+      "seed": 13985914196358497236,
+      "users_passed": 25,
+      "cases_passed": 100,
+      "scenarios": {
+        "competing": 25,
+        "insufficient": 25,
+        "processed-only": 25,
+        "supported": 25
+      },
+      "run_summary": "batch-02/run/summary.json"
+    },
+    {
+      "batch": "batch-03",
+      "seed": 2531403106825998858,
+      "users_passed": 25,
+      "cases_passed": 100,
+      "scenarios": {
+        "competing": 25,
+        "insufficient": 25,
+        "processed-only": 25,
+        "supported": 25
+      },
+      "run_summary": "batch-03/run/summary.json"
+    },
+    {
+      "batch": "batch-04",
+      "seed": 16772941843601119137,
+      "users_passed": 25,
+      "cases_passed": 100,
+      "scenarios": {
+        "competing": 25,
+        "processed-only": 25,
+        "insufficient": 25,
+        "supported": 25
+      },
+      "run_summary": "batch-04/run/summary.json"
+    },
+    {
+      "batch": "batch-05",
+      "seed": 12380574512768247101,
+      "users_passed": 25,
+      "cases_passed": 100,
+      "scenarios": {
+        "processed-only": 25,
+        "supported": 25,
+        "competing": 25,
+        "insufficient": 25
+      },
+      "run_summary": "batch-05/run/summary.json"
+    }
+  ],
+  "scope": "Five seeded development batches with scripted users and fictional evidence. Topics may recur across batches. No model requests."
+}

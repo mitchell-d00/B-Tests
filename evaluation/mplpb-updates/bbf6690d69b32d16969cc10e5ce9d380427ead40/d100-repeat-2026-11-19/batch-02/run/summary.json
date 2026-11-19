@@ -1,0 +1,1632 @@
+{
+  "revision": "bbf6690d69b32d16969cc10e5ce9d380427ead40",
+  "seed": 13985914196358497236,
+  "passed_users": 25,
+  "users": [
+    {
+      "user": "set-01/user-01",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "People",
+            "topic": "Leonhard Euler",
+            "url": "https://en.wikipedia.org/wiki/Leonhard_Euler"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-1",
+            "DOC-2"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Society and social sciences",
+            "topic": "Imagination",
+            "url": "https://en.wikipedia.org/wiki/Imagination"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-3"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "History",
+            "topic": "History of Asia",
+            "url": "https://en.wikipedia.org/wiki/History_of_Asia"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Society and social sciences",
+            "topic": "Liberalism",
+            "url": "https://en.wikipedia.org/wiki/Liberalism"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-4"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-01/user-02",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Science",
+            "topic": "Brain",
+            "url": "https://en.wikipedia.org/wiki/Brain"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-1"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Geography",
+            "topic": "Vietnam",
+            "url": "https://en.wikipedia.org/wiki/Vietnam"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-2"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Health, medicine and disease",
+            "topic": "Infection",
+            "url": "https://en.wikipedia.org/wiki/Infection"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-3",
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "History",
+            "topic": "French Revolution",
+            "url": "https://en.wikipedia.org/wiki/French_Revolution"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-01/user-03",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Health, medicine and disease",
+            "topic": "Sanitation",
+            "url": "https://en.wikipedia.org/wiki/Sanitation"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-1"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "People",
+            "topic": "Cicero",
+            "url": "https://en.wikipedia.org/wiki/Cicero"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-2",
+            "DOC-3"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Mathematics",
+            "topic": "Natural number",
+            "url": "https://en.wikipedia.org/wiki/Natural_number"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "People",
+            "topic": "Wolfgang Amadeus Mozart",
+            "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-4"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-01/user-04",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Arts",
+            "topic": "Pottery",
+            "url": "https://en.wikipedia.org/wiki/Pottery"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "History",
+            "topic": "Reformation",
+            "url": "https://en.wikipedia.org/wiki/Reformation"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-1"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Health, medicine and disease",
+            "topic": "Exercise",
+            "url": "https://en.wikipedia.org/wiki/Exercise"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-2"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Mathematics",
+            "topic": "Exponentiation",
+            "url": "https://en.wikipedia.org/wiki/Exponentiation"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-3",
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-01/user-05",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Arts",
+            "topic": "Rock music",
+            "url": "https://en.wikipedia.org/wiki/Rock_music"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-1",
+            "DOC-2"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 7,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "History",
+            "topic": "Military history",
+            "url": "https://en.wikipedia.org/wiki/Military_history"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Science",
+            "topic": "Internal structure of Earth",
+            "url": "https://en.wikipedia.org/wiki/Internal_structure_of_Earth"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-3"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "People",
+            "topic": "Henry Ford",
+            "url": "https://en.wikipedia.org/wiki/Henry_Ford"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-02/user-01",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Arts",
+            "topic": "Orchestra",
+            "url": "https://en.wikipedia.org/wiki/Orchestra"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-1",
+            "DOC-2"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Philosophy and religion",
+            "topic": "Jainism",
+            "url": "https://en.wikipedia.org/wiki/Jainism"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-3"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "History",
+            "topic": "History of science",
+            "url": "https://en.wikipedia.org/wiki/History_of_science"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Health, medicine and disease",
+            "topic": "Arthritis",
+            "url": "https://en.wikipedia.org/wiki/Arthritis"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-4"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-02/user-02",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Everyday life",
+            "topic": "Man",
+            "url": "https://en.wikipedia.org/wiki/Man"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Everyday life",
+            "topic": "Jewellery",
+            "url": "https://en.wikipedia.org/wiki/Jewellery"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-1"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Mathematics",
+            "topic": "Number theory",
+            "url": "https://en.wikipedia.org/wiki/Number_theory"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-2",
+            "DOC-3"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Society and social sciences",
+            "topic": "Swahili",
+            "url": "https://en.wikipedia.org/wiki/Swahili"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-02/user-03",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Geography",
+            "topic": "Amazon rainforest",
+            "url": "https://en.wikipedia.org/wiki/Amazon_rainforest"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Mathematics",
+            "topic": "Linear algebra",
+            "url": "https://en.wikipedia.org/wiki/Linear_algebra"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-1"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Mathematics",
+            "topic": "Circle",
+            "url": "https://en.wikipedia.org/wiki/Circle"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-2",
+            "DOC-3"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 7,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Technology",
+            "topic": "Artificial intelligence",
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-02/user-04",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Technology",
+            "topic": "Electric motor",
+            "url": "https://en.wikipedia.org/wiki/Electric_motor"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-1"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Everyday life",
+            "topic": "Sugar",
+            "url": "https://en.wikipedia.org/wiki/Sugar"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-2"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "People",
+            "topic": "Catherine the Great",
+            "url": "https://en.wikipedia.org/wiki/Catherine_the_Great"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-3",
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 7,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Health, medicine and disease",
+            "topic": "Hygiene",
+            "url": "https://en.wikipedia.org/wiki/Hygiene"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-02/user-05",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "History",
+            "topic": "Middle Ages",
+            "url": "https://en.wikipedia.org/wiki/Middle_Ages"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-1",
+            "DOC-2"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 7,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "People",
+            "topic": "Ramesses II",
+            "url": "https://en.wikipedia.org/wiki/Ramesses_II"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Everyday life",
+            "topic": "Video game",
+            "url": "https://en.wikipedia.org/wiki/Video_game"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-3"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Philosophy and religion",
+            "topic": "Christianity",
+            "url": "https://en.wikipedia.org/wiki/Christianity"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-4"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 6,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-03/user-01",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Science",
+            "topic": "Paleontology",
+            "url": "https://en.wikipedia.org/wiki/Paleontology"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-1"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Technology",
+            "topic": "Civil engineering",
+            "url": "https://en.wikipedia.org/wiki/Civil_engineering"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-2"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Philosophy and religion",
+            "topic": "Vedas",
+            "url": "https://en.wikipedia.org/wiki/Vedas"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-3",
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 7,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Technology",
+            "topic": "Solar energy",
+            "url": "https://en.wikipedia.org/wiki/Solar_energy"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-03/user-02",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Health, medicine and disease",
+            "topic": "Antibiotic",
+            "url": "https://en.wikipedia.org/wiki/Antibiotic"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Science",
+            "topic": "Silver",
+            "url": "https://en.wikipedia.org/wiki/Silver"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-1",
+            "DOC-2"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Society and social sciences",
+            "topic": "Police",
+            "url": "https://en.wikipedia.org/wiki/Police"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-3"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Arts",
+            "topic": "Jazz",
+            "url": "https://en.wikipedia.org/wiki/Jazz"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-03/user-03",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Society and social sciences",
+            "topic": "Anger",
+            "url": "https://en.wikipedia.org/wiki/Anger"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-1",
+            "DOC-2"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Philosophy and religion",
+            "topic": "Meditation",
+            "url": "https://en.wikipedia.org/wiki/Meditation"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-3"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Arts",
+            "topic": "Art",
+            "url": "https://en.wikipedia.org/wiki/Art"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-4"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "History",
+            "topic": "Renaissance",
+            "url": "https://en.wikipedia.org/wiki/Renaissance"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-03/user-04",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Geography",
+            "topic": "Hong Kong",
+            "url": "https://en.wikipedia.org/wiki/Hong_Kong"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Arts",
+            "topic": "Novel",
+            "url": "https://en.wikipedia.org/wiki/Novel"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-1"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Philosophy and religion",
+            "topic": "Bible",
+            "url": "https://en.wikipedia.org/wiki/Bible"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-2"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "History",
+            "topic": "Classical antiquity",
+            "url": "https://en.wikipedia.org/wiki/Classical_antiquity"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-3",
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-03/user-05",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Science",
+            "topic": "Star",
+            "url": "https://en.wikipedia.org/wiki/Star"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "History",
+            "topic": "Crusades",
+            "url": "https://en.wikipedia.org/wiki/Crusades"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-1"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Health, medicine and disease",
+            "topic": "Malaria",
+            "url": "https://en.wikipedia.org/wiki/Malaria"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-2"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Mathematics",
+            "topic": "Prime number",
+            "url": "https://en.wikipedia.org/wiki/Prime_number"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-3",
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-04/user-01",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Everyday life",
+            "topic": "Maize",
+            "url": "https://en.wikipedia.org/wiki/Maize"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "History",
+            "topic": "Information Age",
+            "url": "https://en.wikipedia.org/wiki/Information_Age"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-1"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Philosophy and religion",
+            "topic": "Shamanism",
+            "url": "https://en.wikipedia.org/wiki/Shamanism"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-2",
+            "DOC-3"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 7,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Mathematics",
+            "topic": "Mathematical proof",
+            "url": "https://en.wikipedia.org/wiki/Mathematical_proof"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-4"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 6,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-04/user-02",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "People",
+            "topic": "Joseph Stalin",
+            "url": "https://en.wikipedia.org/wiki/Joseph_Stalin"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-1"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Mathematics",
+            "topic": "Triangle",
+            "url": "https://en.wikipedia.org/wiki/Triangle"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-2"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Geography",
+            "topic": "Democratic Republic of the Congo",
+            "url": "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Everyday life",
+            "topic": "Old age",
+            "url": "https://en.wikipedia.org/wiki/Old_age"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-3",
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 7,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-04/user-03",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Everyday life",
+            "topic": "Bean",
+            "url": "https://en.wikipedia.org/wiki/Bean"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-1",
+            "DOC-2"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Society and social sciences",
+            "topic": "Nationalism",
+            "url": "https://en.wikipedia.org/wiki/Nationalism"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-3"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Everyday life",
+            "topic": "Child",
+            "url": "https://en.wikipedia.org/wiki/Child"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Society and social sciences",
+            "topic": "Liberty",
+            "url": "https://en.wikipedia.org/wiki/Liberty"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-04/user-04",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Society and social sciences",
+            "topic": "Homicide",
+            "url": "https://en.wikipedia.org/wiki/Homicide"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-1"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Science",
+            "topic": "Weather",
+            "url": "https://en.wikipedia.org/wiki/Weather"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Arts",
+            "topic": "Short story",
+            "url": "https://en.wikipedia.org/wiki/Short_story"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-2"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Philosophy and religion",
+            "topic": "Eastern Orthodox Church",
+            "url": "https://en.wikipedia.org/wiki/Eastern_Orthodox_Church"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-3",
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-04/user-05",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Arts",
+            "topic": "Musical instrument",
+            "url": "https://en.wikipedia.org/wiki/Musical_instrument"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-1"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "People",
+            "topic": "Sigmund Freud",
+            "url": "https://en.wikipedia.org/wiki/Sigmund_Freud"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-2",
+            "DOC-3"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Geography",
+            "topic": "Sub-Saharan Africa",
+            "url": "https://en.wikipedia.org/wiki/Sub-Saharan_Africa"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Science",
+            "topic": "Primate",
+            "url": "https://en.wikipedia.org/wiki/Primate"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-05/user-01",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Health, medicine and disease",
+            "topic": "Cancer",
+            "url": "https://en.wikipedia.org/wiki/Cancer"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-1"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Society and social sciences",
+            "topic": "Trade union",
+            "url": "https://en.wikipedia.org/wiki/Trade_union"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-2"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Technology",
+            "topic": "Train",
+            "url": "https://en.wikipedia.org/wiki/Train"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Health, medicine and disease",
+            "topic": "Nursing",
+            "url": "https://en.wikipedia.org/wiki/Nursing"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-3",
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-05/user-02",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Technology",
+            "topic": "Fertilizer",
+            "url": "https://en.wikipedia.org/wiki/Fertilizer"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-1",
+            "DOC-2"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "People",
+            "topic": "Avicenna",
+            "url": "https://en.wikipedia.org/wiki/Avicenna"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Science",
+            "topic": "Flood",
+            "url": "https://en.wikipedia.org/wiki/Flood"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-3"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Technology",
+            "topic": "Domestication",
+            "url": "https://en.wikipedia.org/wiki/Domestication"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-4"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-05/user-03",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Technology",
+            "topic": "Wheel",
+            "url": "https://en.wikipedia.org/wiki/Wheel"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-1"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Geography",
+            "topic": "Lake",
+            "url": "https://en.wikipedia.org/wiki/Lake"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-2"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Philosophy and religion",
+            "topic": "Western philosophy",
+            "url": "https://en.wikipedia.org/wiki/Western_philosophy"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-3",
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Arts",
+            "topic": "Modernism",
+            "url": "https://en.wikipedia.org/wiki/Modernism"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-05/user-04",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Geography",
+            "topic": "Tokyo",
+            "url": "https://en.wikipedia.org/wiki/Tokyo"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-1",
+            "DOC-2"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 7,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Philosophy and religion",
+            "topic": "Free will",
+            "url": "https://en.wikipedia.org/wiki/Free_will"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-3"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Geography",
+            "topic": "Malaysia",
+            "url": "https://en.wikipedia.org/wiki/Malaysia"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Technology",
+            "topic": "Knife",
+            "url": "https://en.wikipedia.org/wiki/Knife"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-4"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 6,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "user": "set-05/user-05",
+      "status": "PASS",
+      "cases": [
+        {
+          "id": "topic-01",
+          "web_topic": {
+            "section": "Everyday life",
+            "topic": "Alcoholic beverage",
+            "url": "https://en.wikipedia.org/wiki/Alcoholic_beverage"
+          },
+          "scenario": "competing",
+          "owners": [
+            "DOC-1",
+            "DOC-2"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 6,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-02",
+          "web_topic": {
+            "section": "Science",
+            "topic": "Lightning",
+            "url": "https://en.wikipedia.org/wiki/Lightning"
+          },
+          "scenario": "supported",
+          "owners": [
+            "DOC-3"
+          ],
+          "strict_answer_supported": true,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-03",
+          "web_topic": {
+            "section": "Mathematics",
+            "topic": "Polygon",
+            "url": "https://en.wikipedia.org/wiki/Polygon"
+          },
+          "scenario": "insufficient",
+          "owners": [
+            "DOC-4"
+          ],
+          "strict_answer_supported": false,
+          "candidate_count": 5,
+          "status": "PASS"
+        },
+        {
+          "id": "topic-04",
+          "web_topic": {
+            "section": "Geography",
+            "topic": "Poland",
+            "url": "https://en.wikipedia.org/wiki/Poland"
+          },
+          "scenario": "processed-only",
+          "owners": [],
+          "strict_answer_supported": false,
+          "candidate_count": 0,
+          "status": "PASS"
+        }
+      ]
+    }
+  ]
+}

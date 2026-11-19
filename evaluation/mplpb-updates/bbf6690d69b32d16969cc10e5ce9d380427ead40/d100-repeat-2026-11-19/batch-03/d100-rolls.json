@@ -1,0 +1,3108 @@
+{
+  "tables": {
+    "experience": [
+      [
+        25,
+        "beginner"
+      ],
+      [
+        50,
+        "occasional"
+      ],
+      [
+        75,
+        "regular"
+      ],
+      [
+        100,
+        "advanced"
+      ]
+    ],
+    "layout": [
+      [
+        25,
+        "mail export"
+      ],
+      [
+        50,
+        "working notes"
+      ],
+      [
+        75,
+        "hand-off transcript"
+      ],
+      [
+        100,
+        "mixed archive"
+      ]
+    ],
+    "profile": [
+      [
+        40,
+        "internal"
+      ],
+      [
+        70,
+        "lab"
+      ],
+      [
+        100,
+        "external"
+      ]
+    ],
+    "exploration_passages": [
+      [
+        25,
+        12
+      ],
+      [
+        50,
+        16
+      ],
+      [
+        75,
+        20
+      ],
+      [
+        100,
+        24
+      ]
+    ],
+    "copy_format": [
+      [
+        25,
+        "txt"
+      ],
+      [
+        50,
+        "md"
+      ],
+      [
+        75,
+        "text"
+      ],
+      [
+        100,
+        "markdown"
+      ]
+    ]
+  },
+  "rolls": [
+    {
+      "chart": "extra_topic_section",
+      "roll": 42
+    },
+    {
+      "chart": "topic:Arts",
+      "roll": 39
+    },
+    {
+      "chart": "topic:Arts",
+      "roll": 83
+    },
+    {
+      "chart": "topic:Arts",
+      "roll": 95
+    },
+    {
+      "chart": "topic:Arts",
+      "roll": 78
+    },
+    {
+      "chart": "topic:Arts",
+      "roll": 98
+    },
+    {
+      "chart": "topic:Arts",
+      "roll": 5
+    },
+    {
+      "chart": "topic:Arts",
+      "roll": 54
+    },
+    {
+      "chart": "topic:Arts",
+      "roll": 34
+    },
+    {
+      "chart": "topic:Arts",
+      "roll": 84
+    },
+    {
+      "chart": "topic:Arts",
+      "roll": 67
+    },
+    {
+      "chart": "topic:Arts",
+      "roll": 53
+    },
+    {
+      "chart": "topic:Arts",
+      "roll": 49
+    },
+    {
+      "chart": "topic:Everyday life",
+      "roll": 98
+    },
+    {
+      "chart": "topic:Everyday life",
+      "roll": 9
+    },
+    {
+      "chart": "topic:Everyday life",
+      "roll": 3
+    },
+    {
+      "chart": "topic:Everyday life",
+      "roll": 97
+    },
+    {
+      "chart": "topic:Everyday life",
+      "roll": 36
+    },
+    {
+      "chart": "topic:Everyday life",
+      "roll": 16
+    },
+    {
+      "chart": "topic:Everyday life",
+      "roll": 16
+    },
+    {
+      "chart": "topic:Everyday life",
+      "roll": 1
+    },
+    {
+      "chart": "topic:Everyday life",
+      "roll": 64
+    },
+    {
+      "chart": "topic:Everyday life",
+      "roll": 70
+    },
+    {
+      "chart": "topic:Everyday life",
+      "roll": 79
+    },
+    {
+      "chart": "topic:Geography",
+      "roll": 70
+    },
+    {
+      "chart": "topic:Geography",
+      "roll": 3
+    },
+    {
+      "chart": "topic:Geography",
+      "roll": 95
+    },
+    {
+      "chart": "topic:Geography",
+      "roll": 54
+    },
+    {
+      "chart": "topic:Geography",
+      "roll": 62
+    },
+    {
+      "chart": "topic:Geography",
+      "roll": 66
+    },
+    {
+      "chart": "topic:Geography",
+      "roll": 40
+    },
+    {
+      "chart": "topic:Geography",
+      "roll": 45
+    },
+    {
+      "chart": "topic:Geography",
+      "roll": 34
+    },
+    {
+      "chart": "topic:Health, medicine and disease",
+      "roll": 59
+    },
+    {
+      "chart": "topic:Health, medicine and disease",
+      "roll": 96
+    },
+    {
+      "chart": "topic:Health, medicine and disease",
+      "roll": 84
+    },
+    {
+      "chart": "topic:Health, medicine and disease",
+      "roll": 13
+    },
+    {
+      "chart": "topic:Health, medicine and disease",
+      "roll": 30
+    },
+    {
+      "chart": "topic:Health, medicine and disease",
+      "roll": 45
+    },
+    {
+      "chart": "topic:Health, medicine and disease",
+      "roll": 69
+    },
+    {
+      "chart": "topic:Health, medicine and disease",
+      "roll": 51
+    },
+    {
+      "chart": "topic:Health, medicine and disease",
+      "roll": 95
+    },
+    {
+      "chart": "topic:Health, medicine and disease",
+      "roll": 3
+    },
+    {
+      "chart": "topic:Health, medicine and disease",
+      "roll": 39
+    },
+    {
+      "chart": "topic:Health, medicine and disease",
+      "roll": 93
+    },
+    {
+      "chart": "topic:History",
+      "roll": 83
+    },
+    {
+      "chart": "topic:History",
+      "roll": 59
+    },
+    {
+      "chart": "topic:History",
+      "roll": 61
+    },
+    {
+      "chart": "topic:History",
+      "roll": 31
+    },
+    {
+      "chart": "topic:History",
+      "roll": 56
+    },
+    {
+      "chart": "topic:History",
+      "roll": 95
+    },
+    {
+      "chart": "topic:History",
+      "roll": 28
+    },
+    {
+      "chart": "topic:History",
+      "roll": 48
+    },
+    {
+      "chart": "topic:History",
+      "roll": 64
+    },
+    {
+      "chart": "topic:History",
+      "roll": 22
+    },
+    {
+      "chart": "topic:History",
+      "roll": 62
+    },
+    {
+      "chart": "topic:Mathematics",
+      "roll": 73
+    },
+    {
+      "chart": "topic:Mathematics",
+      "roll": 80
+    },
+    {
+      "chart": "topic:Mathematics",
+      "roll": 76
+    },
+    {
+      "chart": "topic:Mathematics",
+      "roll": 7
+    },
+    {
+      "chart": "topic:Mathematics",
+      "roll": 16
+    },
+    {
+      "chart": "topic:Mathematics",
+      "roll": 11
+    },
+    {
+      "chart": "topic:Mathematics",
+      "roll": 8
+    },
+    {
+      "chart": "topic:Mathematics",
+      "roll": 70
+    },
+    {
+      "chart": "topic:Mathematics",
+      "roll": 93
+    },
+    {
+      "chart": "topic:People",
+      "roll": 8
+    },
+    {
+      "chart": "topic:People",
+      "roll": 86
+    },
+    {
+      "chart": "topic:People",
+      "roll": 12
+    },
+    {
+      "chart": "topic:People",
+      "roll": 87
+    },
+    {
+      "chart": "topic:People",
+      "roll": 88
+    },
+    {
+      "chart": "topic:People",
+      "roll": 22
+    },
+    {
+      "chart": "topic:People",
+      "roll": 10
+    },
+    {
+      "chart": "topic:People",
+      "roll": 24
+    },
+    {
+      "chart": "topic:People",
+      "roll": 2
+    },
+    {
+      "chart": "topic:Philosophy and religion",
+      "roll": 95
+    },
+    {
+      "chart": "topic:Philosophy and religion",
+      "roll": 7
+    },
+    {
+      "chart": "topic:Philosophy and religion",
+      "roll": 94
+    },
+    {
+      "chart": "topic:Philosophy and religion",
+      "roll": 71
+    },
+    {
+      "chart": "topic:Philosophy and religion",
+      "roll": 80
+    },
+    {
+      "chart": "topic:Philosophy and religion",
+      "roll": 11
+    },
+    {
+      "chart": "topic:Philosophy and religion",
+      "roll": 33
+    },
+    {
+      "chart": "topic:Philosophy and religion",
+      "roll": 55
+    },
+    {
+      "chart": "topic:Philosophy and religion",
+      "roll": 51
+    },
+    {
+      "chart": "topic:Philosophy and religion",
+      "roll": 53
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 64
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 22
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 16
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 95
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 79
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 95
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 30
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 53
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 43
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 84
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 15
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 3
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 5
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 71
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 42
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 92
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 61
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 12
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 39
+    },
+    {
+      "chart": "topic:Science",
+      "roll": 79
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 97
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 56
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 68
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 54
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 54
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 63
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 44
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 24
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 62
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 51
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 77
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 88
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 39
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 20
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 99
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 11
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 28
+    },
+    {
+      "chart": "topic:Society and social sciences",
+      "roll": 88
+    },
+    {
+      "chart": "topic:Technology",
+      "roll": 79
+    },
+    {
+      "chart": "topic:Technology",
+      "roll": 86
+    },
+    {
+      "chart": "topic:Technology",
+      "roll": 28
+    },
+    {
+      "chart": "topic:Technology",
+      "roll": 99
+    },
+    {
+      "chart": "topic:Technology",
+      "roll": 67
+    },
+    {
+      "chart": "topic:Technology",
+      "roll": 67
+    },
+    {
+      "chart": "topic:Technology",
+      "roll": 37
+    },
+    {
+      "chart": "topic:Technology",
+      "roll": 67
+    },
+    {
+      "chart": "topic:Technology",
+      "roll": 31
+    },
+    {
+      "chart": "topic:Technology",
+      "roll": 99
+    },
+    {
+      "chart": "topic:Technology",
+      "roll": 66
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 20
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 30
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 49
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 31
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 92
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 15
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 84
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 18
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 5
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 49
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 31
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 31
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 99
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 33
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 71
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 77
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 45
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 98
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 36
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 78
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 7
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 26
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 60
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 76
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 73
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 26
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 93
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 37
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 37
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 84
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 41
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 50
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 5
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 83
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 52
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 49
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 75
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 49
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 29
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 9
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 35
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 13
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 82
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 1
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 12
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 80
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 5
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 39
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 45
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 80
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 84
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 62
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 32
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 84
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 24
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 100
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 27
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 68
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 32
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 30
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 82
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 58
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 8
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 34
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 25
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 7
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 45
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 31
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 13
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 66
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 64
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 58
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 27
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 15
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 5
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 73
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 72
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 99
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 92
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 93
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 35
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 35
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 11
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 82
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 45
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 51
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 14
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 81
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 82
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 33
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 50
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 96
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 43
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 4
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 3
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 75
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 64
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 13
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 12
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 43
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 5
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 28
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 42
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 57
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 76
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 7
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 92
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 98
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 1
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 93
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 91
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 11
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 21
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 88
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 75
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 89
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 67
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 8
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 14
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 67
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 62
+    },
+    {
+      "chart": "topic_assignment",
+      "roll": 26
+    },
+    {
+      "chart": "role_assignment:set-01",
+      "roll": 7
+    },
+    {
+      "chart": "role_assignment:set-01",
+      "roll": 31
+    },
+    {
+      "chart": "role_assignment:set-01",
+      "roll": 77
+    },
+    {
+      "chart": "role_assignment:set-01",
+      "roll": 21
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 14
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 42
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 38
+    },
+    {
+      "chart": "experience",
+      "roll": 97
+    },
+    {
+      "chart": "layout",
+      "roll": 88
+    },
+    {
+      "chart": "profile",
+      "roll": 1
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 33
+    },
+    {
+      "chart": "record_actor",
+      "roll": 70
+    },
+    {
+      "chart": "record_actor",
+      "roll": 51
+    },
+    {
+      "chart": "copy_format",
+      "roll": 4
+    },
+    {
+      "chart": "record_actor",
+      "roll": 82
+    },
+    {
+      "chart": "record_actor",
+      "roll": 57
+    },
+    {
+      "chart": "copy_format",
+      "roll": 18
+    },
+    {
+      "chart": "record_actor",
+      "roll": 67
+    },
+    {
+      "chart": "record_actor",
+      "roll": 27
+    },
+    {
+      "chart": "copy_format",
+      "roll": 13
+    },
+    {
+      "chart": "record_actor",
+      "roll": 16
+    },
+    {
+      "chart": "record_actor",
+      "roll": 1
+    },
+    {
+      "chart": "copy_format",
+      "roll": 7
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 4
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 96
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 40
+    },
+    {
+      "chart": "experience",
+      "roll": 30
+    },
+    {
+      "chart": "layout",
+      "roll": 50
+    },
+    {
+      "chart": "profile",
+      "roll": 92
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 23
+    },
+    {
+      "chart": "record_actor",
+      "roll": 74
+    },
+    {
+      "chart": "record_actor",
+      "roll": 25
+    },
+    {
+      "chart": "copy_format",
+      "roll": 28
+    },
+    {
+      "chart": "record_actor",
+      "roll": 47
+    },
+    {
+      "chart": "record_actor",
+      "roll": 89
+    },
+    {
+      "chart": "copy_format",
+      "roll": 10
+    },
+    {
+      "chart": "record_actor",
+      "roll": 58
+    },
+    {
+      "chart": "record_actor",
+      "roll": 46
+    },
+    {
+      "chart": "copy_format",
+      "roll": 72
+    },
+    {
+      "chart": "record_actor",
+      "roll": 71
+    },
+    {
+      "chart": "record_actor",
+      "roll": 44
+    },
+    {
+      "chart": "copy_format",
+      "roll": 80
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 85
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 76
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 95
+    },
+    {
+      "chart": "experience",
+      "roll": 24
+    },
+    {
+      "chart": "layout",
+      "roll": 42
+    },
+    {
+      "chart": "profile",
+      "roll": 58
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 40
+    },
+    {
+      "chart": "record_actor",
+      "roll": 24
+    },
+    {
+      "chart": "record_actor",
+      "roll": 66
+    },
+    {
+      "chart": "copy_format",
+      "roll": 96
+    },
+    {
+      "chart": "record_actor",
+      "roll": 42
+    },
+    {
+      "chart": "record_actor",
+      "roll": 55
+    },
+    {
+      "chart": "copy_format",
+      "roll": 65
+    },
+    {
+      "chart": "record_actor",
+      "roll": 45
+    },
+    {
+      "chart": "record_actor",
+      "roll": 52
+    },
+    {
+      "chart": "copy_format",
+      "roll": 74
+    },
+    {
+      "chart": "record_actor",
+      "roll": 12
+    },
+    {
+      "chart": "record_actor",
+      "roll": 43
+    },
+    {
+      "chart": "copy_format",
+      "roll": 48
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 79
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 67
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 69
+    },
+    {
+      "chart": "experience",
+      "roll": 66
+    },
+    {
+      "chart": "layout",
+      "roll": 45
+    },
+    {
+      "chart": "profile",
+      "roll": 35
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 18
+    },
+    {
+      "chart": "record_actor",
+      "roll": 24
+    },
+    {
+      "chart": "record_actor",
+      "roll": 84
+    },
+    {
+      "chart": "copy_format",
+      "roll": 5
+    },
+    {
+      "chart": "record_actor",
+      "roll": 1
+    },
+    {
+      "chart": "record_actor",
+      "roll": 58
+    },
+    {
+      "chart": "copy_format",
+      "roll": 40
+    },
+    {
+      "chart": "record_actor",
+      "roll": 4
+    },
+    {
+      "chart": "record_actor",
+      "roll": 90
+    },
+    {
+      "chart": "copy_format",
+      "roll": 14
+    },
+    {
+      "chart": "record_actor",
+      "roll": 66
+    },
+    {
+      "chart": "record_actor",
+      "roll": 72
+    },
+    {
+      "chart": "copy_format",
+      "roll": 61
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 1
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 59
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 50
+    },
+    {
+      "chart": "experience",
+      "roll": 21
+    },
+    {
+      "chart": "layout",
+      "roll": 52
+    },
+    {
+      "chart": "profile",
+      "roll": 54
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 73
+    },
+    {
+      "chart": "record_actor",
+      "roll": 1
+    },
+    {
+      "chart": "record_actor",
+      "roll": 18
+    },
+    {
+      "chart": "copy_format",
+      "roll": 34
+    },
+    {
+      "chart": "record_actor",
+      "roll": 18
+    },
+    {
+      "chart": "record_actor",
+      "roll": 88
+    },
+    {
+      "chart": "copy_format",
+      "roll": 67
+    },
+    {
+      "chart": "record_actor",
+      "roll": 86
+    },
+    {
+      "chart": "record_actor",
+      "roll": 25
+    },
+    {
+      "chart": "copy_format",
+      "roll": 30
+    },
+    {
+      "chart": "record_actor",
+      "roll": 100
+    },
+    {
+      "chart": "record_actor",
+      "roll": 83
+    },
+    {
+      "chart": "copy_format",
+      "roll": 17
+    },
+    {
+      "chart": "role_assignment:set-02",
+      "roll": 56
+    },
+    {
+      "chart": "role_assignment:set-02",
+      "roll": 77
+    },
+    {
+      "chart": "role_assignment:set-02",
+      "roll": 48
+    },
+    {
+      "chart": "role_assignment:set-02",
+      "roll": 100
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 20
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 50
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 68
+    },
+    {
+      "chart": "experience",
+      "roll": 26
+    },
+    {
+      "chart": "layout",
+      "roll": 73
+    },
+    {
+      "chart": "profile",
+      "roll": 59
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 7
+    },
+    {
+      "chart": "record_actor",
+      "roll": 12
+    },
+    {
+      "chart": "record_actor",
+      "roll": 89
+    },
+    {
+      "chart": "copy_format",
+      "roll": 81
+    },
+    {
+      "chart": "record_actor",
+      "roll": 95
+    },
+    {
+      "chart": "record_actor",
+      "roll": 69
+    },
+    {
+      "chart": "copy_format",
+      "roll": 71
+    },
+    {
+      "chart": "record_actor",
+      "roll": 65
+    },
+    {
+      "chart": "record_actor",
+      "roll": 35
+    },
+    {
+      "chart": "copy_format",
+      "roll": 73
+    },
+    {
+      "chart": "record_actor",
+      "roll": 95
+    },
+    {
+      "chart": "record_actor",
+      "roll": 1
+    },
+    {
+      "chart": "copy_format",
+      "roll": 21
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 70
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 96
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 81
+    },
+    {
+      "chart": "experience",
+      "roll": 89
+    },
+    {
+      "chart": "layout",
+      "roll": 44
+    },
+    {
+      "chart": "profile",
+      "roll": 19
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 18
+    },
+    {
+      "chart": "record_actor",
+      "roll": 20
+    },
+    {
+      "chart": "record_actor",
+      "roll": 77
+    },
+    {
+      "chart": "copy_format",
+      "roll": 44
+    },
+    {
+      "chart": "record_actor",
+      "roll": 84
+    },
+    {
+      "chart": "record_actor",
+      "roll": 54
+    },
+    {
+      "chart": "copy_format",
+      "roll": 19
+    },
+    {
+      "chart": "record_actor",
+      "roll": 17
+    },
+    {
+      "chart": "record_actor",
+      "roll": 50
+    },
+    {
+      "chart": "copy_format",
+      "roll": 67
+    },
+    {
+      "chart": "record_actor",
+      "roll": 59
+    },
+    {
+      "chart": "record_actor",
+      "roll": 17
+    },
+    {
+      "chart": "copy_format",
+      "roll": 60
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 69
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 48
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 6
+    },
+    {
+      "chart": "experience",
+      "roll": 31
+    },
+    {
+      "chart": "layout",
+      "roll": 64
+    },
+    {
+      "chart": "profile",
+      "roll": 62
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 18
+    },
+    {
+      "chart": "record_actor",
+      "roll": 23
+    },
+    {
+      "chart": "record_actor",
+      "roll": 71
+    },
+    {
+      "chart": "copy_format",
+      "roll": 51
+    },
+    {
+      "chart": "record_actor",
+      "roll": 73
+    },
+    {
+      "chart": "record_actor",
+      "roll": 100
+    },
+    {
+      "chart": "record_actor",
+      "roll": 80
+    },
+    {
+      "chart": "copy_format",
+      "roll": 23
+    },
+    {
+      "chart": "record_actor",
+      "roll": 38
+    },
+    {
+      "chart": "record_actor",
+      "roll": 14
+    },
+    {
+      "chart": "copy_format",
+      "roll": 55
+    },
+    {
+      "chart": "record_actor",
+      "roll": 85
+    },
+    {
+      "chart": "record_actor",
+      "roll": 90
+    },
+    {
+      "chart": "copy_format",
+      "roll": 81
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 54
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 20
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 49
+    },
+    {
+      "chart": "experience",
+      "roll": 23
+    },
+    {
+      "chart": "layout",
+      "roll": 77
+    },
+    {
+      "chart": "profile",
+      "roll": 71
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 53
+    },
+    {
+      "chart": "record_actor",
+      "roll": 25
+    },
+    {
+      "chart": "record_actor",
+      "roll": 29
+    },
+    {
+      "chart": "copy_format",
+      "roll": 98
+    },
+    {
+      "chart": "record_actor",
+      "roll": 41
+    },
+    {
+      "chart": "record_actor",
+      "roll": 54
+    },
+    {
+      "chart": "copy_format",
+      "roll": 18
+    },
+    {
+      "chart": "record_actor",
+      "roll": 43
+    },
+    {
+      "chart": "record_actor",
+      "roll": 28
+    },
+    {
+      "chart": "copy_format",
+      "roll": 61
+    },
+    {
+      "chart": "record_actor",
+      "roll": 65
+    },
+    {
+      "chart": "record_actor",
+      "roll": 54
+    },
+    {
+      "chart": "copy_format",
+      "roll": 39
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 47
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 5
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 36
+    },
+    {
+      "chart": "experience",
+      "roll": 27
+    },
+    {
+      "chart": "layout",
+      "roll": 99
+    },
+    {
+      "chart": "profile",
+      "roll": 60
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 96
+    },
+    {
+      "chart": "record_actor",
+      "roll": 84
+    },
+    {
+      "chart": "record_actor",
+      "roll": 38
+    },
+    {
+      "chart": "copy_format",
+      "roll": 39
+    },
+    {
+      "chart": "record_actor",
+      "roll": 50
+    },
+    {
+      "chart": "record_actor",
+      "roll": 33
+    },
+    {
+      "chart": "copy_format",
+      "roll": 9
+    },
+    {
+      "chart": "record_actor",
+      "roll": 37
+    },
+    {
+      "chart": "record_actor",
+      "roll": 73
+    },
+    {
+      "chart": "copy_format",
+      "roll": 92
+    },
+    {
+      "chart": "record_actor",
+      "roll": 51
+    },
+    {
+      "chart": "record_actor",
+      "roll": 64
+    },
+    {
+      "chart": "copy_format",
+      "roll": 85
+    },
+    {
+      "chart": "role_assignment:set-03",
+      "roll": 38
+    },
+    {
+      "chart": "role_assignment:set-03",
+      "roll": 69
+    },
+    {
+      "chart": "role_assignment:set-03",
+      "roll": 36
+    },
+    {
+      "chart": "role_assignment:set-03",
+      "roll": 49
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 92
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 56
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 81
+    },
+    {
+      "chart": "experience",
+      "roll": 93
+    },
+    {
+      "chart": "layout",
+      "roll": 74
+    },
+    {
+      "chart": "profile",
+      "roll": 87
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 55
+    },
+    {
+      "chart": "record_actor",
+      "roll": 75
+    },
+    {
+      "chart": "record_actor",
+      "roll": 96
+    },
+    {
+      "chart": "copy_format",
+      "roll": 22
+    },
+    {
+      "chart": "record_actor",
+      "roll": 64
+    },
+    {
+      "chart": "record_actor",
+      "roll": 87
+    },
+    {
+      "chart": "copy_format",
+      "roll": 1
+    },
+    {
+      "chart": "record_actor",
+      "roll": 58
+    },
+    {
+      "chart": "record_actor",
+      "roll": 41
+    },
+    {
+      "chart": "copy_format",
+      "roll": 76
+    },
+    {
+      "chart": "record_actor",
+      "roll": 88
+    },
+    {
+      "chart": "record_actor",
+      "roll": 71
+    },
+    {
+      "chart": "copy_format",
+      "roll": 53
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 30
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 9
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 17
+    },
+    {
+      "chart": "experience",
+      "roll": 4
+    },
+    {
+      "chart": "layout",
+      "roll": 13
+    },
+    {
+      "chart": "profile",
+      "roll": 71
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 4
+    },
+    {
+      "chart": "record_actor",
+      "roll": 42
+    },
+    {
+      "chart": "record_actor",
+      "roll": 64
+    },
+    {
+      "chart": "copy_format",
+      "roll": 71
+    },
+    {
+      "chart": "record_actor",
+      "roll": 3
+    },
+    {
+      "chart": "record_actor",
+      "roll": 3
+    },
+    {
+      "chart": "copy_format",
+      "roll": 11
+    },
+    {
+      "chart": "record_actor",
+      "roll": 1
+    },
+    {
+      "chart": "record_actor",
+      "roll": 34
+    },
+    {
+      "chart": "copy_format",
+      "roll": 33
+    },
+    {
+      "chart": "record_actor",
+      "roll": 68
+    },
+    {
+      "chart": "record_actor",
+      "roll": 83
+    },
+    {
+      "chart": "copy_format",
+      "roll": 78
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 52
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 80
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 45
+    },
+    {
+      "chart": "experience",
+      "roll": 8
+    },
+    {
+      "chart": "layout",
+      "roll": 26
+    },
+    {
+      "chart": "profile",
+      "roll": 55
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 46
+    },
+    {
+      "chart": "record_actor",
+      "roll": 78
+    },
+    {
+      "chart": "record_actor",
+      "roll": 63
+    },
+    {
+      "chart": "copy_format",
+      "roll": 38
+    },
+    {
+      "chart": "record_actor",
+      "roll": 72
+    },
+    {
+      "chart": "record_actor",
+      "roll": 86
+    },
+    {
+      "chart": "copy_format",
+      "roll": 92
+    },
+    {
+      "chart": "record_actor",
+      "roll": 30
+    },
+    {
+      "chart": "record_actor",
+      "roll": 65
+    },
+    {
+      "chart": "copy_format",
+      "roll": 90
+    },
+    {
+      "chart": "record_actor",
+      "roll": 85
+    },
+    {
+      "chart": "record_actor",
+      "roll": 49
+    },
+    {
+      "chart": "copy_format",
+      "roll": 50
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 4
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 80
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 40
+    },
+    {
+      "chart": "experience",
+      "roll": 9
+    },
+    {
+      "chart": "layout",
+      "roll": 73
+    },
+    {
+      "chart": "profile",
+      "roll": 28
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 31
+    },
+    {
+      "chart": "record_actor",
+      "roll": 55
+    },
+    {
+      "chart": "record_actor",
+      "roll": 2
+    },
+    {
+      "chart": "copy_format",
+      "roll": 95
+    },
+    {
+      "chart": "record_actor",
+      "roll": 13
+    },
+    {
+      "chart": "record_actor",
+      "roll": 52
+    },
+    {
+      "chart": "copy_format",
+      "roll": 72
+    },
+    {
+      "chart": "record_actor",
+      "roll": 11
+    },
+    {
+      "chart": "record_actor",
+      "roll": 56
+    },
+    {
+      "chart": "copy_format",
+      "roll": 4
+    },
+    {
+      "chart": "record_actor",
+      "roll": 52
+    },
+    {
+      "chart": "record_actor",
+      "roll": 81
+    },
+    {
+      "chart": "copy_format",
+      "roll": 17
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 47
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 78
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 40
+    },
+    {
+      "chart": "experience",
+      "roll": 91
+    },
+    {
+      "chart": "layout",
+      "roll": 78
+    },
+    {
+      "chart": "profile",
+      "roll": 23
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 17
+    },
+    {
+      "chart": "record_actor",
+      "roll": 96
+    },
+    {
+      "chart": "record_actor",
+      "roll": 65
+    },
+    {
+      "chart": "copy_format",
+      "roll": 36
+    },
+    {
+      "chart": "record_actor",
+      "roll": 21
+    },
+    {
+      "chart": "record_actor",
+      "roll": 17
+    },
+    {
+      "chart": "copy_format",
+      "roll": 43
+    },
+    {
+      "chart": "record_actor",
+      "roll": 34
+    },
+    {
+      "chart": "record_actor",
+      "roll": 55
+    },
+    {
+      "chart": "copy_format",
+      "roll": 28
+    },
+    {
+      "chart": "record_actor",
+      "roll": 25
+    },
+    {
+      "chart": "record_actor",
+      "roll": 36
+    },
+    {
+      "chart": "copy_format",
+      "roll": 52
+    },
+    {
+      "chart": "role_assignment:set-04",
+      "roll": 12
+    },
+    {
+      "chart": "role_assignment:set-04",
+      "roll": 91
+    },
+    {
+      "chart": "role_assignment:set-04",
+      "roll": 21
+    },
+    {
+      "chart": "role_assignment:set-04",
+      "roll": 74
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 11
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 97
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 84
+    },
+    {
+      "chart": "experience",
+      "roll": 67
+    },
+    {
+      "chart": "layout",
+      "roll": 64
+    },
+    {
+      "chart": "profile",
+      "roll": 33
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 78
+    },
+    {
+      "chart": "record_actor",
+      "roll": 75
+    },
+    {
+      "chart": "record_actor",
+      "roll": 45
+    },
+    {
+      "chart": "copy_format",
+      "roll": 92
+    },
+    {
+      "chart": "record_actor",
+      "roll": 1
+    },
+    {
+      "chart": "record_actor",
+      "roll": 58
+    },
+    {
+      "chart": "copy_format",
+      "roll": 41
+    },
+    {
+      "chart": "record_actor",
+      "roll": 98
+    },
+    {
+      "chart": "record_actor",
+      "roll": 6
+    },
+    {
+      "chart": "copy_format",
+      "roll": 77
+    },
+    {
+      "chart": "record_actor",
+      "roll": 80
+    },
+    {
+      "chart": "record_actor",
+      "roll": 26
+    },
+    {
+      "chart": "copy_format",
+      "roll": 80
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 8
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 36
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 40
+    },
+    {
+      "chart": "experience",
+      "roll": 63
+    },
+    {
+      "chart": "layout",
+      "roll": 94
+    },
+    {
+      "chart": "profile",
+      "roll": 50
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 44
+    },
+    {
+      "chart": "record_actor",
+      "roll": 44
+    },
+    {
+      "chart": "record_actor",
+      "roll": 44
+    },
+    {
+      "chart": "copy_format",
+      "roll": 76
+    },
+    {
+      "chart": "record_actor",
+      "roll": 7
+    },
+    {
+      "chart": "record_actor",
+      "roll": 2
+    },
+    {
+      "chart": "copy_format",
+      "roll": 24
+    },
+    {
+      "chart": "record_actor",
+      "roll": 68
+    },
+    {
+      "chart": "record_actor",
+      "roll": 38
+    },
+    {
+      "chart": "copy_format",
+      "roll": 30
+    },
+    {
+      "chart": "record_actor",
+      "roll": 70
+    },
+    {
+      "chart": "record_actor",
+      "roll": 98
+    },
+    {
+      "chart": "copy_format",
+      "roll": 3
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 62
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 100
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 35
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 51
+    },
+    {
+      "chart": "experience",
+      "roll": 4
+    },
+    {
+      "chart": "layout",
+      "roll": 95
+    },
+    {
+      "chart": "profile",
+      "roll": 70
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 41
+    },
+    {
+      "chart": "record_actor",
+      "roll": 100
+    },
+    {
+      "chart": "record_actor",
+      "roll": 63
+    },
+    {
+      "chart": "copy_format",
+      "roll": 53
+    },
+    {
+      "chart": "record_actor",
+      "roll": 53
+    },
+    {
+      "chart": "record_actor",
+      "roll": 8
+    },
+    {
+      "chart": "copy_format",
+      "roll": 30
+    },
+    {
+      "chart": "record_actor",
+      "roll": 83
+    },
+    {
+      "chart": "record_actor",
+      "roll": 70
+    },
+    {
+      "chart": "copy_format",
+      "roll": 45
+    },
+    {
+      "chart": "record_actor",
+      "roll": 94
+    },
+    {
+      "chart": "record_actor",
+      "roll": 64
+    },
+    {
+      "chart": "copy_format",
+      "roll": 27
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 37
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 33
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 48
+    },
+    {
+      "chart": "experience",
+      "roll": 67
+    },
+    {
+      "chart": "layout",
+      "roll": 67
+    },
+    {
+      "chart": "profile",
+      "roll": 80
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 35
+    },
+    {
+      "chart": "record_actor",
+      "roll": 61
+    },
+    {
+      "chart": "record_actor",
+      "roll": 100
+    },
+    {
+      "chart": "record_actor",
+      "roll": 70
+    },
+    {
+      "chart": "copy_format",
+      "roll": 58
+    },
+    {
+      "chart": "record_actor",
+      "roll": 12
+    },
+    {
+      "chart": "record_actor",
+      "roll": 40
+    },
+    {
+      "chart": "copy_format",
+      "roll": 75
+    },
+    {
+      "chart": "record_actor",
+      "roll": 87
+    },
+    {
+      "chart": "record_actor",
+      "roll": 89
+    },
+    {
+      "chart": "copy_format",
+      "roll": 25
+    },
+    {
+      "chart": "record_actor",
+      "roll": 48
+    },
+    {
+      "chart": "record_actor",
+      "roll": 46
+    },
+    {
+      "chart": "copy_format",
+      "roll": 47
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 11
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 49
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 65
+    },
+    {
+      "chart": "experience",
+      "roll": 63
+    },
+    {
+      "chart": "layout",
+      "roll": 10
+    },
+    {
+      "chart": "profile",
+      "roll": 36
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 77
+    },
+    {
+      "chart": "record_actor",
+      "roll": 82
+    },
+    {
+      "chart": "record_actor",
+      "roll": 96
+    },
+    {
+      "chart": "copy_format",
+      "roll": 41
+    },
+    {
+      "chart": "record_actor",
+      "roll": 79
+    },
+    {
+      "chart": "record_actor",
+      "roll": 23
+    },
+    {
+      "chart": "copy_format",
+      "roll": 8
+    },
+    {
+      "chart": "record_actor",
+      "roll": 52
+    },
+    {
+      "chart": "record_actor",
+      "roll": 19
+    },
+    {
+      "chart": "copy_format",
+      "roll": 9
+    },
+    {
+      "chart": "record_actor",
+      "roll": 38
+    },
+    {
+      "chart": "record_actor",
+      "roll": 47
+    },
+    {
+      "chart": "copy_format",
+      "roll": 90
+    },
+    {
+      "chart": "role_assignment:set-05",
+      "roll": 41
+    },
+    {
+      "chart": "role_assignment:set-05",
+      "roll": 54
+    },
+    {
+      "chart": "role_assignment:set-05",
+      "roll": 97
+    },
+    {
+      "chart": "role_assignment:set-05",
+      "roll": 59
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 58
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 5
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 100
+    },
+    {
+      "chart": "experience",
+      "roll": 55
+    },
+    {
+      "chart": "layout",
+      "roll": 82
+    },
+    {
+      "chart": "profile",
+      "roll": 40
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 62
+    },
+    {
+      "chart": "record_actor",
+      "roll": 23
+    },
+    {
+      "chart": "record_actor",
+      "roll": 8
+    },
+    {
+      "chart": "copy_format",
+      "roll": 50
+    },
+    {
+      "chart": "record_actor",
+      "roll": 95
+    },
+    {
+      "chart": "record_actor",
+      "roll": 41
+    },
+    {
+      "chart": "copy_format",
+      "roll": 30
+    },
+    {
+      "chart": "record_actor",
+      "roll": 42
+    },
+    {
+      "chart": "record_actor",
+      "roll": 22
+    },
+    {
+      "chart": "copy_format",
+      "roll": 8
+    },
+    {
+      "chart": "record_actor",
+      "roll": 29
+    },
+    {
+      "chart": "record_actor",
+      "roll": 100
+    },
+    {
+      "chart": "record_actor",
+      "roll": 96
+    },
+    {
+      "chart": "copy_format",
+      "roll": 55
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 3
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 23
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 17
+    },
+    {
+      "chart": "experience",
+      "roll": 31
+    },
+    {
+      "chart": "layout",
+      "roll": 96
+    },
+    {
+      "chart": "profile",
+      "roll": 92
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 71
+    },
+    {
+      "chart": "record_actor",
+      "roll": 58
+    },
+    {
+      "chart": "record_actor",
+      "roll": 77
+    },
+    {
+      "chart": "copy_format",
+      "roll": 69
+    },
+    {
+      "chart": "record_actor",
+      "roll": 59
+    },
+    {
+      "chart": "record_actor",
+      "roll": 60
+    },
+    {
+      "chart": "copy_format",
+      "roll": 18
+    },
+    {
+      "chart": "record_actor",
+      "roll": 3
+    },
+    {
+      "chart": "record_actor",
+      "roll": 35
+    },
+    {
+      "chart": "copy_format",
+      "roll": 51
+    },
+    {
+      "chart": "record_actor",
+      "roll": 86
+    },
+    {
+      "chart": "record_actor",
+      "roll": 96
+    },
+    {
+      "chart": "copy_format",
+      "roll": 25
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 51
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 43
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 52
+    },
+    {
+      "chart": "experience",
+      "roll": 10
+    },
+    {
+      "chart": "layout",
+      "roll": 88
+    },
+    {
+      "chart": "profile",
+      "roll": 67
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 74
+    },
+    {
+      "chart": "record_actor",
+      "roll": 52
+    },
+    {
+      "chart": "record_actor",
+      "roll": 33
+    },
+    {
+      "chart": "copy_format",
+      "roll": 8
+    },
+    {
+      "chart": "record_actor",
+      "roll": 11
+    },
+    {
+      "chart": "record_actor",
+      "roll": 96
+    },
+    {
+      "chart": "copy_format",
+      "roll": 67
+    },
+    {
+      "chart": "record_actor",
+      "roll": 81
+    },
+    {
+      "chart": "record_actor",
+      "roll": 89
+    },
+    {
+      "chart": "copy_format",
+      "roll": 6
+    },
+    {
+      "chart": "record_actor",
+      "roll": 38
+    },
+    {
+      "chart": "record_actor",
+      "roll": 35
+    },
+    {
+      "chart": "copy_format",
+      "roll": 45
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 8
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 50
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 20
+    },
+    {
+      "chart": "experience",
+      "roll": 65
+    },
+    {
+      "chart": "layout",
+      "roll": 87
+    },
+    {
+      "chart": "profile",
+      "roll": 74
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 72
+    },
+    {
+      "chart": "record_actor",
+      "roll": 96
+    },
+    {
+      "chart": "record_actor",
+      "roll": 29
+    },
+    {
+      "chart": "copy_format",
+      "roll": 97
+    },
+    {
+      "chart": "record_actor",
+      "roll": 28
+    },
+    {
+      "chart": "record_actor",
+      "roll": 19
+    },
+    {
+      "chart": "copy_format",
+      "roll": 4
+    },
+    {
+      "chart": "record_actor",
+      "roll": 71
+    },
+    {
+      "chart": "record_actor",
+      "roll": 75
+    },
+    {
+      "chart": "copy_format",
+      "roll": 64
+    },
+    {
+      "chart": "record_actor",
+      "roll": 56
+    },
+    {
+      "chart": "record_actor",
+      "roll": 55
+    },
+    {
+      "chart": "copy_format",
+      "roll": 54
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 4
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 40
+    },
+    {
+      "chart": "scenario_order",
+      "roll": 41
+    },
+    {
+      "chart": "experience",
+      "roll": 67
+    },
+    {
+      "chart": "layout",
+      "roll": 36
+    },
+    {
+      "chart": "profile",
+      "roll": 52
+    },
+    {
+      "chart": "exploration_passages",
+      "roll": 63
+    },
+    {
+      "chart": "record_actor",
+      "roll": 73
+    },
+    {
+      "chart": "record_actor",
+      "roll": 14
+    },
+    {
+      "chart": "copy_format",
+      "roll": 25
+    },
+    {
+      "chart": "record_actor",
+      "roll": 44
+    },
+    {
+      "chart": "record_actor",
+      "roll": 94
+    },
+    {
+      "chart": "copy_format",
+      "roll": 14
+    },
+    {
+      "chart": "record_actor",
+      "roll": 42
+    },
+    {
+      "chart": "record_actor",
+      "roll": 47
+    },
+    {
+      "chart": "copy_format",
+      "roll": 92
+    },
+    {
+      "chart": "record_actor",
+      "roll": 16
+    },
+    {
+      "chart": "record_actor",
+      "roll": 75
+    },
+    {
+      "chart": "copy_format",
+      "roll": 71
+    }
+  ]
+}

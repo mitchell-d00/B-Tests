@@ -250,6 +250,12 @@ historical reconstruction on unseen original records.
 [100-case results](evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/d100/summary.json) ·
 [Recorded d100 rolls](evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/d100/d100-rolls.json)
 
+A November 19 follow-up ran **five fresh d100 seeds** against the same
+Combined pin. **500/500 cases and 500 workspace replays passed** across
+125 separately built ledgers. The run retains each seed, frozen packet
+and dice hashes, per-case outcomes, and replay receipt digests.
+[Seeds, evidence, and five-batch rerun commands](evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/d100-repeat-2026-11-19/RESULTS.md)
+
 ### Ben’s criticism and my response in code
 
 | What Ben measured or asked for | What I implemented | What the evidence establishes |
