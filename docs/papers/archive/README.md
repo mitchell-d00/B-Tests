@@ -17,11 +17,12 @@ Distinct editions remain distinct; copies are not independent research results.
 | PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS | [MD](../../paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.md) · [TXT](../../paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.txt) · [PDF](../../paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.pdf) |
 | MPLPB_MIXED_DUMP | [MD](../../paper/MPLPB_MIXED_DUMP.md) · [TXT](../../paper/MPLPB_MIXED_DUMP.txt) · [PDF](../../paper/MPLPB_MIXED_DUMP.pdf) |
 | THE_WITNESS_INSIDE_THE_MACHINE_REVISED | [MD](../../paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.md) · [PDF](../../paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.pdf) |
-| TESTING_OOCC v1.1 (current author-review draft) | [MD](../../paper/TESTING_OOCC.md) · [TXT](../../paper/TESTING_OOCC.txt) · [PDF](../../paper/TESTING_OOCC.pdf) |
+| TESTING_OOCC v1.2 (current author-review draft) | [MD](../../paper/TESTING_OOCC.md) · [TXT](../../paper/TESTING_OOCC.txt) · [PDF](../../paper/TESTING_OOCC.pdf) |
 | map-response-supplied | [PDF](map-response-supplied/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf) |
 | mplpb-residual-experiment | [MD](mplpb-residual-experiment/The_Residual_of_Logic.md) · [PDF](mplpb-residual-experiment/The_Residual_of_Logic.pdf) · [TXT](mplpb-residual-experiment/The_Residual_of_Logic.txt) |
 | portable-evidence-runtime | [MD](portable-evidence-runtime/Portable_Evidence_Runtime.md) · [PDF](portable-evidence-runtime/Portable_Evidence_Runtime.pdf) · [TXT](portable-evidence-runtime/Portable_Evidence_Runtime.txt) |
 | TESTING_OOCC v1.0 (preserved first edition) | [MD](testing-oocc-v1.0/TESTING_OOCC.md) · [TXT](testing-oocc-v1.0/TESTING_OOCC.txt) · [PDF](testing-oocc-v1.0/TESTING_OOCC.pdf) |
+| TESTING_OOCC v1.1 (preserved author-review edition) | [MD](testing-oocc-v1.1/TESTING_OOCC.md) · [TXT](testing-oocc-v1.1/TESTING_OOCC.txt) · [PDF](testing-oocc-v1.1/TESTING_OOCC.pdf) |
 
 ## Source identity and remaining availability gaps
 

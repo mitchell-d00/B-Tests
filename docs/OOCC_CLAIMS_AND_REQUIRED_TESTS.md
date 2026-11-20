@@ -1,8 +1,10 @@
 # OOCC claims and required tests
 
-Mitchell D. McPhetridge · 20 November 2026 · Testing OOCC v1.1
+Mitchell D. McPhetridge · 20 November 2026 · Testing OOCC v1.2
 
 This is a proposed test roadmap, not 34 newly completed experiments or 34 demonstrated defects. Claims below are attributed paraphrases. The source pages identify the mechanism, reported result, proposal or limitation being tested; a design objective is not represented as an achieved result. The catalogue covers identified claim families in the reviewed sections of ten supplied documents, not every claim in more than one thousand pages.
+
+The directly inspected evidence for Gelhaus's development checkpoints is the supplied publication text. A dated description, numerical table or claim of a passing verifier documents what its author reports; it does not independently verify the original database, code, assertions, canary or execution. No standalone public runnable packet for those specific checkpoints was obtained in this review. Their outcomes remain author-reported and NOT_INDEPENDENTLY_REPRODUCED_HERE. This is an access and verification limit, not proof that the artifacts never existed or were never shared elsewhere. The public MPLPB paraphrase package is a different artifact with public replication materials; it must not be pooled with these unavailable OOCC checkpoint tests.
 
 Several tests are already proposed by Gelhaus. Each entry credits that origin where identified; McPhetridge's recommendations specify stronger controls, observable outcomes or publication steps. Missing code, participants or observations leave a test NOT_RUN. Conceptual terms without a distinguishing definition require definition before experimental scoring.
 

@@ -3,7 +3,7 @@
   "title": "Testing OOCC — source-linked claims and required tests",
   "author": "Mitchell D. McPhetridge",
   "date": "2026-11-20",
-  "paper_version": "1.1",
+  "paper_version": "1.2",
   "scope": "All identified claim families in the selected claims/evidence/limitations sections of ten supplied PDFs; not an exhaustive sentence-by-sentence audit or a claim that every proposed capability is implemented.",
   "source_inventory": "evaluation/public-claims/2026-11-20/sources.json",
   "citation_convention": "Physical PDF pages; claims are attributed paraphrases, not verbatim quotations.",
@@ -1099,5 +1099,6 @@
       "related_completed_probes": [],
       "measured_native_oocc_result": null
     }
-  ]
+  ],
+  "checkpoint_evidence_status": "AUTHOR_REPORTED / NOT_INDEPENDENTLY_REPRODUCED_HERE; no standalone runnable checkpoint packet obtained"
 }

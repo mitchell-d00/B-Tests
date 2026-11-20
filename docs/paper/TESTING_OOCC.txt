@@ -4,7 +4,7 @@ Claims, Required Tests, and a Roadmap to Verified Behavior
 
 Mitchell D. McPhetridge
 
-20 November 2026 · Technical research paper · Version 1.1 · Author-review draft
+20 November 2026 · Technical research paper · Version 1.2 · Author-review draft
 
 Abstract
 
@@ -22,11 +22,12 @@ expansions under the stated encoding; this challenges a general decimal-minimali
 argument, not OOCC's overall performance. Indexed handles were cheaper in 15 of 20
 serialization scenarios and more expensive in five. Four evaluator-reference controls
 and seven native MPLPB boundary probes met their criteria. New paired model trials and
-native OOCC comparisons remain NOT_RUN. This revision adds a source-linked roadmap of 34
-claim/test families and engineering recommendations from Mitchell D. McPhetridge. It
-distinguishes Gelhaus's own proposed tests from the present additions, preserves the
-evidence level of earlier test-design scripts, and applies the same standards to MPLPB.
-The roadmap is not 34 new experiments or a declaration of 34 defects.
+native OOCC comparisons remain NOT_RUN. This revision explicitly labels unavailable OOCC
+checkpoint outcomes as author-reported and adds a source-linked roadmap of 34 claim/test
+families and engineering recommendations from Mitchell D. McPhetridge. It distinguishes
+Gelhaus's own proposed tests from the present additions, preserves the evidence level of
+earlier test-design scripts, and applies the same standards to MPLPB. The roadmap is not
+34 new experiments or a declaration of 34 defects.
 
 1. The question and the objects being tested
 
@@ -70,6 +71,17 @@ p. 10]. Both routes returned HTTP 404 during this review on 20 November 2026. Th
 records access failure through those routes. It does not establish whether the project
 is private, renamed, removed, accessible through another account, or historically
 nonexistent. No controller was fabricated to fill that access gap.
+
+The directly inspected evidence for Gelhaus's development checkpoints is the supplied
+publication text. A dated description, numerical table or claim of a passing verifier
+documents what its author reports; it does not independently verify the original
+database, code, assertions, canary or execution. No standalone public runnable packet
+for those specific checkpoints was obtained in this review. Their outcomes remain
+author-reported and NOT_INDEPENDENTLY_REPRODUCED_HERE. This is an access and
+verification limit, not proof that the artifacts never existed or were never shared
+elsewhere. The public MPLPB paraphrase package is a different artifact with public
+replication materials; it must not be pooled with these unavailable OOCC checkpoint
+tests.
 
 The underlying private exports, device state and source-held audit packages were not
 independently acquired or rerun. Their outcomes are attributed to the publications. The
@@ -208,12 +220,14 @@ maintains and verifies those conditions across changes and cold-session recovery
 
 7. Retrieval, continuity and educational evidence
 
-The research book provides unusually useful negative evidence. Its seven-query retrieval
-diagnostic uses 35 top-five slots per condition. Literal TF-IDF returned 4 directly
-relevant results, fixed function expansion 6, and unconditional shared-reference graph
-hopping 3. A hybrid's selected source spans passed 35 of 35 original-byte checks, but
-that did not establish their semantic relevance. Labels came from a single reviewer
-after retrieval, and the hybrids reused those labels [G9, PDF pp. 10–12].
+The research book reports negative findings that would be useful to reproduce. The
+following figures are Gelhaus-reported outcomes, not experiments independently
+reproduced in this review. Its seven-query retrieval diagnostic uses 35 top-five slots
+per condition. Literal TF-IDF returned 4 directly relevant results, fixed function
+expansion 6, and unconditional shared-reference graph hopping 3. A hybrid's selected
+source spans passed 35 of 35 original-byte checks, but that did not establish their
+semantic relevance. Labels came from a single reviewer after retrieval, and the hybrids
+reused those labels [G9, PDF pp. 10–12].
 
 The defensible conclusion is narrow: function expansion helped this direct-relevance
 count, while unconditional graph hopping and several hybrids did not reliably improve
@@ -225,8 +239,10 @@ different denominators and meanings.
 The same volume reports a useful recovery episode and a failed requested-manuscript
 revision despite successful source discovery. It explicitly says the initial failure
 should not be credited as success because later human intervention recovered the
-deliverable [G9, PDF pp. 7–8]. The reported archive checks establish bounded structural
-fidelity, not complete semantic understanding. Those distinctions strengthen the
+deliverable [G9, PDF pp. 7–8]. If reproduced as described, the archive checks would
+establish bounded structural fidelity, not complete semantic understanding. Here, the
+publication establishes that these checks and outcomes were reported; the underlying
+archive checks remain unverified by this review. Those distinctions strengthen the
 account; they are not evidence of an attempt to conceal every failure.
 
 Headmaster reports an Android prototype and implemented components, while identifying
@@ -242,6 +258,36 @@ Holographic Return lacks a completed public definition in that document [G4, PDF
 4–5]. Such analogies may guide design; their recurrence is not a validation of a
 software mechanism. The byline paper's role-enactment effects are also identified as
 prospective hypotheses rather than completed controlled outcomes [G1, PDF p. 11].
+
+7.1 Checkpoint claims and verification status
+
+V2 archive recovery and verifier. The supplied book assigns 289 conversation graphs and
+86,120 nodes to CP050 and predecessor cumulative packages, while separately attributing
+a 45/45 source/SQLite verification result to CP045 [G9, PDF pp. 9, 14]. The book also
+reports replay and duplicate/tamper-canary controls. These are distinct reported
+populations and procedures; they must not be collapsed into one independently confirmed
+CP045 result. The original package, database and assertion/canary execution were not
+rerun here. Status: AUTHOR_REPORTED / NOT_INDEPENDENTLY_REPRODUCED_HERE.
+
+V3 retrieval ablation. The book attributes the seven-task, 35-slot comparison to
+CP004/CP005 and describes a negative graph-hop result [G9, PDF p. 11]. This review can
+inspect the published table and its limitations; it has not independently executed that
+retrieval experiment or verified that the described design change occurred in a deployed
+controller. Status: AUTHOR_REPORTED / NOT_INDEPENDENTLY_REPRODUCED_HERE.
+
+The quoted HLC CP014 account. A discussion summary supplied during this revision names
+HLC CP014, dated 30 October 2026, and missing automatic version propagation. That
+specific account was not located in the extracted text of the ten supplied PDFs during
+this check. It is not promoted to a confirmed checkpoint or a measured failure. Status:
+QUOTED_CLAIM_NOT_LOCATED_IN_REVIEWED_TEXT / NOT_RUN. Missing or imperfect text
+extraction is also possible; the original checkpoint artifact is required to settle it.
+
+Sampling, corrections and handoffs. Publication descriptions and embedded receipts can
+document what was claimed and where a reader should look. Without the original permitted
+source and execution evidence, they do not establish independent role attribution,
+correction accuracy, worker independence or semantic correctness. Dates and lineage
+labels do not create independent replication. Test access, actual reruns and
+source-linked adjudication remain necessary.
 
 8. Actual native MPLPB controls and their limits
 
@@ -1277,11 +1323,48 @@ It would be inaccurate to say these papers never acknowledge that influence. Cit
 does not independently resolve every priority or implementation-provenance question, but
 such questions require actual source histories and code comparisons.
 
-Likewise, an evaluator may legitimately test MPLPB through its native writer and answer
-API. The implementation and pre-existing test infrastructure remain McPhetridge's
-contribution; newly authored fixtures, questions and analysis remain the evaluator's
-contribution. These ten OOCC papers do not establish that a particular later evaluation
-used M6. No unavailable harness is inferred or given an invented capability.
+13.1 Attribution: McPhetridge's machinery, Gelhaus's benchmarks
+
+For the MPLPB evaluations, the implementation and pre-existing automated native test
+machinery are McPhetridge's work. Gelhaus's benchmark framing, test selection and
+reported analysis are evaluation activities; they are not authorship of that
+implementation or machinery. Gelhaus did not build Combined MPLPB by testing it.
+Execution of an upstream test does not transfer authorship of that test or its
+underlying machinery.
+
+The retained review of Beyond Guarded Retrieval records that Gelhaus selected and ran
+McPhetridge's native MPLPB regression tests, reporting 58/58 passing after omitted
+fixtures were restored [G11, PDF pp. 4, 6; B-Tests docs/GELHAUS_EXTERNAL_EVALUATION.md].
+The test implementation, ledger writer, validator, strict reader, provenance bundle and
+passage-ranking machinery were upstream MPLPB components, not newly implemented OOCC
+components. The selection and interpretation were Gelhaus's evaluation work. This
+paragraph attributes the reported run; it does not claim a fresh 58-test execution in
+the present revision.
+
+The later public publication package supplies reproduce.py, whose inspected imports
+include mplpb_combined.ledger.write, mplpb_answers.pipeline.answer_query and
+mplpb_combined.reader.PROFILES [G12]. It builds source pages with McPhetridge's writer
+and asks questions through McPhetridge's strict answer pipeline. The supplied script
+also contains fixture-generation and query-template code. Its inclusion in Gelhaus's
+publication package does not establish that he authored it or built a separate execution
+harness. This review assigns no new implementation credit on that basis. The
+demonstrated execution machinery is the imported upstream MPLPB machinery.
+
+The public package README itself credits McPhetridge as the software developer and calls
+the script a method-equivalent driver using the engine's own writer. The package audit
+preserves its SHA-256, script/import evidence and manifest verification in
+evaluation/public-claims/2026-11-20/attribution-audit.json. This is directly inspectable
+provenance for the test machinery; it is not evidence that the unavailable native OOCC
+controller passed any test.
+
+M6 and B-Tests must not be invented as components of that public driver. Inspection
+found no M6 runtime or B-Tests implementation in this package; the shown
+non-standard-library imports are MPLPB's own modules. The package does not establish
+that Gelhaus used McPhetridge's private M6. These ten OOCC papers do not settle that
+separate question either. McPhetridge's authorship of MPLPB, its pre-existing automated
+tests, B-Tests and any separately evidenced private tools remains distinct from
+evaluation reporting. No separate Gelhaus-built test framework or driver is established
+by the evidence inspected here.
 
 The next discriminating study should compare published CAD instructions with strong
 conventional source governance using the same model and source access, and compare
@@ -1298,8 +1381,9 @@ time and native OOCC performance remain null or NOT_RUN in the present release.
 
 14. Conclusion
 
-OOCC contains useful distinctions and reported engineering work that deserve direct
-examination. Its public reader method is a structured procedure delivered through
+OOCC publications describe design distinctions and report engineering outcomes that
+require direct examination; the unavailable checkpoint outcomes are not verified by this
+review. Its public reader method is a structured procedure delivered through
 instructions; its broader architecture also includes reported workflows and software
 components. Declared rules, prototype existence, exact source retrieval, reference
 resolution, native integration and comparative benefit are distinct evidentiary
@@ -1316,9 +1400,11 @@ the same standards to MPLPB.
 References
 
 G1–G10 identify Benjamin Gelhaus's ten supplied papers. G11 is his earlier MPLPB
-evaluation, cited as prior context rather than newly reproduced here. Page references
-identify physical PDF pages. Exact supplied filenames, hashes and page counts are in the
-companion source inventory; the original third-party PDFs are not redistributed here.
+evaluation, cited as prior context rather than newly reproduced here. G12 identifies the
+later public MPLPB benchmark package inspected for code attribution, not an OOCC
+checkpoint release. Page references identify physical PDF pages. Exact supplied
+filenames, hashes and page counts are in the companion source inventory; the original
+third-party PDFs are not redistributed here.
 
 [G1] Gelhaus, Benjamin. The Contribution Is Not the Byline: Role-Enacted Human–AI
 Collaboration, Intellectual Provenance, and Accountable Research. Revised edition v1.1,
@@ -1360,6 +1446,15 @@ Combined MPLPB and a Roadmap for Historical Reconstruction. Stated 14 November 2
 https://www.academia.edu/181013727/Beyond_Guarded_Retrieval_A_Source_Bounded_Evaluation_of_Combined_MPLPB_and_a_Roadmap_for_Historical_Reconstruction
 . Prior attribution and pinned-run scope are retained in B-Tests
 docs/GELHAUS_EXTERNAL_EVALUATION.md; no private benchmark reproduction is claimed here.
+
+[G12] Gelhaus, Benjamin. Guarded Retrieval, Paraphrase Blindness, and Evidence-Grounded
+Answering. Public publication package, 19 November 2026, supplied ZIP
+Ben MPLPB_Oct2026_Publication_Package.zip, SHA-256
+f4d1c8263dbb8dcf9f7ddbc9fc85be5d005864db4c74fce1a93cda1bb4865718. Inspected files:
+README.md, reproduce.py and MANIFEST_SHA256.txt. Publication folder:
+https://drive.google.com/drive/folders/1i_n34wkDoHEky-5p7-pmu4Xs2IPblli0 . Engine pin
+bbf6690d69b32d16969cc10e5ce9d380427ead40. Package code inspection is separate from
+retained full-engine replication evidence.
 
 [M1] McPhetridge, Mitchell D. B-Tests public-claims experiment, 20 November 2026.
 research_lab/public_claims.py; evaluation/public-claims/2026-11-20/observed. Native

@@ -266,29 +266,29 @@
         {
           "format": "md",
           "path": "docs/paper/TESTING_OOCC.md",
-          "sha256": "69b0c931d06de68c7b57f33113c3034a13d0e7676afff77fe83c6e2d448d3f34",
+          "sha256": "748b265d8ef71e6b5ee15176700f927902b6a399f13b28f637ba610a7adba415",
           "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/TESTING_OOCC.md",
           "source_repo": "mitchell-d00/B-Tests",
-          "status": "Revised paper v1.1"
+          "status": "Revised paper v1.2"
         },
         {
           "format": "txt",
           "path": "docs/paper/TESTING_OOCC.txt",
-          "sha256": "18b815336e06c94673e2d7bb5b4a68ce945c1493632e852450f97ce4ce97ed30",
+          "sha256": "2b418a20558ab01194a4b418bf5da162ebcb5164d727102cdaaceacbc2d3f9ea",
           "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/TESTING_OOCC.txt",
           "source_repo": "mitchell-d00/B-Tests",
-          "status": "Revised paper v1.1"
+          "status": "Revised paper v1.2"
         },
         {
           "format": "pdf",
           "path": "docs/paper/TESTING_OOCC.pdf",
-          "sha256": "de4172a6b5ae03fa12f2106340cd07af690d2e4b1e1e96d62dbe40459f71df35",
+          "sha256": "8606c930654885724484eea6fc9c908f48fda9abd54d17f289f19f5978f35528",
           "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/TESTING_OOCC.pdf",
           "source_repo": "mitchell-d00/B-Tests",
-          "status": "Revised paper v1.1"
+          "status": "Revised paper v1.2"
         }
       ],
-      "status": "Current v1.1 author-review draft; first edition preserved separately"
+      "status": "Current v1.2 author-review draft; first and v1.1 editions preserved separately"
     },
     {
       "paper": "map-response-supplied",
@@ -402,6 +402,36 @@
           "source_path": "docs/paper/TESTING_OOCC.txt",
           "source_repo": "mitchell-d00/B-Tests",
           "source_revision": "44cda23fd35216684e6f39932db7fcf5ff49ef3d"
+        }
+      ]
+    },
+    {
+      "paper": "TESTING_OOCC-v1.1",
+      "status": "Preserved author-review edition from commit8ce1bfbb74c37d4d9516a14db5e19faa2804b41d",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/papers/archive/testing-oocc-v1.1/TESTING_OOCC.md",
+          "sha256": "69b0c931d06de68c7b57f33113c3034a13d0e7676afff77fe83c6e2d448d3f34",
+          "source_path": "docs/paper/TESTING_OOCC.md",
+          "source_repo": "mitchell-d00/B-Tests",
+          "source_revision": "8ce1bfbb74c37d4d9516a14db5e19faa2804b41d"
+        },
+        {
+          "format": "txt",
+          "path": "docs/papers/archive/testing-oocc-v1.1/TESTING_OOCC.txt",
+          "sha256": "18b815336e06c94673e2d7bb5b4a68ce945c1493632e852450f97ce4ce97ed30",
+          "source_path": "docs/paper/TESTING_OOCC.txt",
+          "source_repo": "mitchell-d00/B-Tests",
+          "source_revision": "8ce1bfbb74c37d4d9516a14db5e19faa2804b41d"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/papers/archive/testing-oocc-v1.1/TESTING_OOCC.pdf",
+          "sha256": "de4172a6b5ae03fa12f2106340cd07af690d2e4b1e1e96d62dbe40459f71df35",
+          "source_path": "docs/paper/TESTING_OOCC.pdf",
+          "source_repo": "mitchell-d00/B-Tests",
+          "source_revision": "8ce1bfbb74c37d4d9516a14db5e19faa2804b41d"
         }
       ]
     }
