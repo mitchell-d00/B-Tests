@@ -1,0 +1,66 @@
+name: Pinned MPLPB bounded documentary acceptance
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/bounded-documentary-acceptance.yml'
+      - 'docs/MPLPB_BOUNDED_DOCUMENTARY_ACCEPTANCE.md'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/bounded-documentary-acceptance.yml'
+      - 'docs/MPLPB_BOUNDED_DOCUMENTARY_ACCEPTANCE.md'
+
+permissions:
+  contents: read
+
+env:
+  MPLPB_REVISION: '3342461cd22c177bc8fcab5f2a34075c5e1cbfb6'
+
+jobs:
+  pinned-mplpb:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages
+          ref: ${{ env.MPLPB_REVISION }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check the pinned native implementation
+        run: |
+          test "$(git rev-parse HEAD)" = "$MPLPB_REVISION"
+          python -m unittest tests.test_compound_fields tests.test_field_aliases tests.test_scoped_extensions tests.test_pinned_documentary_inspection -v
+          node tests/documentary-render.cjs
+          python -m tools.evaluate_public_evidence --output "$RUNNER_TEMP/bounded-public-controls.json" --require-capabilities
+      - name: Install the isolated worker dependency
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends bubblewrap
+      - name: Reproduce expanded acceptance without the custodian key
+        run: |
+          # The isolated worker cannot bind the Actions workspace below /home.
+          stage="$(sudo mktemp -d /tmp/mplpb-bounded.XXXXXX)"
+          status=0
+          sudo "$(command -v python)" -m tools.verify_bounded_repair --output "$stage/bounded-repair" || status=$?
+          sudo cp -R "$stage/bounded-repair" "$RUNNER_TEMP/bounded-repair"
+          if ((status)); then
+            find "$RUNNER_TEMP/bounded-repair/run" -name failure.json -print -quit |
+              while IFS= read -r failure; do head -20 "$(dirname "$failure")/worker.log"; done
+          fi
+          exit "$status"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pinned-mplpb-bounded-acceptance-${{ github.run_id }}
+          path: |
+            ${{ runner.temp }}/bounded-public-controls.json
+            ${{ runner.temp }}/bounded-repair/acceptance.json
+            ${{ runner.temp }}/bounded-repair/run/run.json
+            ${{ runner.temp }}/bounded-repair/run/*/failure.json
+            ${{ runner.temp }}/bounded-repair/run/*/worker.log
+          if-no-files-found: warn
