@@ -266,29 +266,29 @@
         {
           "format": "md",
           "path": "docs/paper/TESTING_OOCC.md",
-          "sha256": "748b265d8ef71e6b5ee15176700f927902b6a399f13b28f637ba610a7adba415",
+          "sha256": "02923b2f41243884537f5c2363684024d78343ca2cd77b87e6e6704049cad724",
           "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/TESTING_OOCC.md",
           "source_repo": "mitchell-d00/B-Tests",
-          "status": "Revised paper v1.2"
+          "status": "Revised paper v1.3"
         },
         {
           "format": "txt",
           "path": "docs/paper/TESTING_OOCC.txt",
-          "sha256": "2b418a20558ab01194a4b418bf5da162ebcb5164d727102cdaaceacbc2d3f9ea",
+          "sha256": "b1ae3d40a27955972eb9862fb5ba46e48548582cbb708506e2a81d840230a552",
           "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/TESTING_OOCC.txt",
           "source_repo": "mitchell-d00/B-Tests",
-          "status": "Revised paper v1.2"
+          "status": "Revised paper v1.3"
         },
         {
           "format": "pdf",
           "path": "docs/paper/TESTING_OOCC.pdf",
-          "sha256": "8606c930654885724484eea6fc9c908f48fda9abd54d17f289f19f5978f35528",
+          "sha256": "66997b021ab96d6cf551dbd8f920c0a0d09803a08a6d55c0d536a59cb166dc38",
           "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/TESTING_OOCC.pdf",
           "source_repo": "mitchell-d00/B-Tests",
-          "status": "Revised paper v1.2"
+          "status": "Revised paper v1.3"
         }
       ],
-      "status": "Current v1.2 author-review draft; first and v1.1 editions preserved separately"
+      "status": "Current v1.3 author-review draft; M6 attribution corrected; earlier editions preserved"
     },
     {
       "paper": "map-response-supplied",
@@ -432,6 +432,36 @@
           "source_path": "docs/paper/TESTING_OOCC.pdf",
           "source_repo": "mitchell-d00/B-Tests",
           "source_revision": "8ce1bfbb74c37d4d9516a14db5e19faa2804b41d"
+        }
+      ]
+    },
+    {
+      "paper": "TESTING_OOCC-v1.2",
+      "status": "Preserved edition from109299c52bc92ce66e783a453c521a1e9c53db1a; contains M6 ownership attribution error corrected in v1.3; see docs/paper/TESTING_OOCC_ERRATA.md",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/papers/archive/testing-oocc-v1.2/TESTING_OOCC.md",
+          "sha256": "748b265d8ef71e6b5ee15176700f927902b6a399f13b28f637ba610a7adba415",
+          "source_path": "docs/paper/TESTING_OOCC.md",
+          "source_repo": "mitchell-d00/B-Tests",
+          "source_revision": "109299c52bc92ce66e783a453c521a1e9c53db1a"
+        },
+        {
+          "format": "txt",
+          "path": "docs/papers/archive/testing-oocc-v1.2/TESTING_OOCC.txt",
+          "sha256": "2b418a20558ab01194a4b418bf5da162ebcb5164d727102cdaaceacbc2d3f9ea",
+          "source_path": "docs/paper/TESTING_OOCC.txt",
+          "source_repo": "mitchell-d00/B-Tests",
+          "source_revision": "109299c52bc92ce66e783a453c521a1e9c53db1a"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/papers/archive/testing-oocc-v1.2/TESTING_OOCC.pdf",
+          "sha256": "8606c930654885724484eea6fc9c908f48fda9abd54d17f289f19f5978f35528",
+          "source_path": "docs/paper/TESTING_OOCC.pdf",
+          "source_repo": "mitchell-d00/B-Tests",
+          "source_revision": "109299c52bc92ce66e783a453c521a1e9c53db1a"
         }
       ]
     }

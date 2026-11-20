@@ -18,17 +18,19 @@ location was unavailable for inspection or independent testing.
 
 ## Testing OOCC — explicit comparison ledger, 20 November 2026
 
-**Mitchell D. McPhetridge, Testing OOCC: Claims, Required Tests, and a Roadmap to Verified Behavior (v1.2).** [MD](docs/paper/TESTING_OOCC.md) · [TXT](docs/paper/TESTING_OOCC.txt)
+**Mitchell D. McPhetridge, Testing OOCC: Claims, Required Tests, and a Roadmap to Verified Behavior (v1.3).** [MD](docs/paper/TESTING_OOCC.md) · [TXT](docs/paper/TESTING_OOCC.txt)
 · [PDF](docs/paper/TESTING_OOCC.pdf) · [New reproducible results](evaluation/public-claims/2026-11-20/RESULTS.md)
 · [Mitchell paper archive and original source paths](docs/papers/archive/README.md).
 
 The revision adds [34 source-linked claim/test families](docs/OOCC_CLAIMS_AND_REQUIRED_TESTS.md), a [machine-readable roadmap](research/oocc_claim_tests_v1.json), and McPhetridge's engineering recommendations. Each entry separates the attributed claim, current evidence, required comparison, adversarial cases, metrics, prerequisites and proposal credit. Gelhaus's already proposed experiments are credited; this roadmap is **not 34 completed tests or 34 demonstrated defects**. Native OOCC and new model trials remain **NOT_RUN**. The [first edition](docs/papers/archive/testing-oocc-v1.0/TESTING_OOCC.md) and its hashes are preserved.
 
-[Revision verification and exact commands](evaluation/public-claims/2026-11-20/PAPER_V1_2.md). The paper, catalogue and archive can be checked with `python -m tools.verify_oocc_claim_roadmap`; this verifies artifact consistency, not semantic correctness.
+[Revision verification and exact commands](evaluation/public-claims/2026-11-20/PAPER_V1_3.md). The paper, catalogue and archive can be checked with `python -m tools.verify_oocc_claim_roadmap`; this verifies artifact consistency, not semantic correctness.
 
 **OOCC checkpoint counts are author-reported, not independently reproduced here.** The supplied papers can be inspected; the underlying checkpoint databases, verifiers and retrieval runs were not executed by this review. No standalone public runnable packet for those checkpoints was obtained. The public MPLPB paraphrase replication is a different experiment. A reported pass, a published artifact and an independently reproduced result are separate evidence states. See [checkpoint attribution and verification limits](docs/paper/TESTING_OOCC.md#71-checkpoint-claims-and-verification-status).
 
-**Authorship:** MPLPB and its pre-existing native test machinery were built by Mitchell D. McPhetridge. Gelhaus reports benchmark selections and analysis; running upstream tests does not transfer authorship. A script bundled in his package does not establish that he authored a separate driver or test framework. The later public driver imports MPLPB’s own writer, strict answer pipeline and profiles. It does not establish use of private M6 or B-Tests. [Exact attribution and package evidence](docs/paper/TESTING_OOCC.md#131-attribution-mcphetridges-machinery-gelhauss-benchmarks) · [Code/import audit](evaluation/public-claims/2026-11-20/attribution-audit.json).
+[M6 attribution correction and preserved-edition erratum](docs/paper/TESTING_OOCC_ERRATA.md).
+
+**Authorship:** MPLPB, B-Tests and MPLPB’s pre-existing native test machinery were built by Mitchell D. McPhetridge. Gelhaus reports benchmark selections and analysis; running upstream tests does not transfer authorship. A script bundled in his package does not establish that he authored a separate driver or test framework. The later public driver imports MPLPB’s own writer, strict answer pipeline and profiles. According to McPhetridge’s clarification, M6 is an additional component Gelhaus adds; it is absent from the supplied ZIP. Its internal behavior and original execution role cannot be independently established from that package. McPhetridge’s [first response, PDF pages 2 and 7](docs/papers/archive/field-access-response/response.pdf), already states that M6 was not included. It is not McPhetridge’s private M6. [Exact attribution and package evidence](docs/paper/TESTING_OOCC.md#131-attribution-mcphetridges-machinery-gelhauss-benchmarks) · [Code/import audit](evaluation/public-claims/2026-11-20/attribution-audit.json).
 
 The table below identifies what is compared with what. A source discussion,
 reference-program check, model response and native effect are different evidence

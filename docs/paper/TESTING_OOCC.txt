@@ -4,7 +4,7 @@ Claims, Required Tests, and a Roadmap to Verified Behavior
 
 Mitchell D. McPhetridge
 
-20 November 2026 · Technical research paper · Version 1.2 · Author-review draft
+20 November 2026 · Technical research paper · Version 1.3 · Author-review draft
 
 Abstract
 
@@ -1357,14 +1357,24 @@ evaluation/public-claims/2026-11-20/attribution-audit.json. This is directly ins
 provenance for the test machinery; it is not evidence that the unavailable native OOCC
 controller passed any test.
 
-M6 and B-Tests must not be invented as components of that public driver. Inspection
-found no M6 runtime or B-Tests implementation in this package; the shown
-non-standard-library imports are MPLPB's own modules. The package does not establish
-that Gelhaus used McPhetridge's private M6. These ten OOCC papers do not settle that
-separate question either. McPhetridge's authorship of MPLPB, its pre-existing automated
-tests, B-Tests and any separately evidenced private tools remains distinct from
-evaluation reporting. No separate Gelhaus-built test framework or driver is established
-by the evidence inspected here.
+McPhetridge built MPLPB and B-Tests. According to McPhetridge's clarification on 20
+November 2026, M6 is an additional component Gelhaus adds; it is not McPhetridge's
+private tool. The supplied public package does not include an M6 implementation, so its
+internal operation and exact role cannot be inspected or independently reproduced from
+that package. The published script's inspected non-standard-library imports are MPLPB's
+own modules; no B-Tests implementation is supplied by that script. These observations
+distinguish the available public execution path from the reported additional M6 layer;
+absence from the ZIP does not prove M6 was never used privately.
+
+McPhetridge's first response already states that M6 was not included or available for
+inspection, and that no supplied M6-specific interface or execution trace establishes
+its original role [P4, PDF pp. 2, 7]. The newly supplied response.pdf is byte-identical
+to the archived field-access response. This paper therefore retains that original
+evidence limit. It does not infer authorship or performance of an unavailable M6
+implementation. The earlier wording calling M6 “McPhetridge's private M6” was an
+attribution error in this review, corrected here; it was not a claim made in the first
+response. No separate Gelhaus-built test framework or driver is established by the
+package evidence inspected here.
 
 The next discriminating study should compare published CAD instructions with strong
 conventional source governance using the same model and source access, and compare
@@ -1484,3 +1494,12 @@ B-Tests replication audit. evaluation/witness-section19/RESULTS.md; supplied exp
 ZIP SHA-256 0322c429a214752d25b3ede08567a8f76d2a8ed894a10fdd23f742f96ca1d395 . Original
 scripted records, later filesystem controls and native execution records are separate
 evidence.
+
+[P4] McPhetridge, Mitchell D. From Paraphrase Refusal to Bounded Field Access: A
+Reproduction and Engineering Response to “Guarded Retrieval, Paraphrase Blindness, and
+Evidence-Grounded Answering.” 20 November 2026, version 1.0, 8 PDF pages. M6 limits at
+physical PDF pages 2 and 7. Supplied response.pdf SHA-256
+9f1ba62c4425f29af7908a5736e3f6c0c84bce05f30909fdc1a4b3a9dafcdb16; byte-identical
+archived copy:
+https://github.com/mitchell-d00/B-Tests/blob/109299c52bc92ce66e783a453c521a1e9c53db1a/docs/papers/archive/field-access-response/response.pdf
+.

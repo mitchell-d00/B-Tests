@@ -3,34 +3,38 @@
   "subtitle": "Claims, Required Tests, and a Roadmap to Verified Behavior",
   "author": "Mitchell D. McPhetridge",
   "date": "2026-11-20",
-  "version": "1.2",
+  "version": "1.3",
   "status": "author-review draft; not independently validated",
   "renderer": "tools/build_critical_paper.py",
-  "renderer_sha256": "825baa095d82e853689b4c704b64506cfe7cb5dc1d0bf89dcc5bd0a35f93811b",
+  "renderer_sha256": "1b2c84e2676abac199532b25fba5db0062cd4c3a343d1e3e4d49ce1a65e1330c",
   "files": {
     "docs/paper/TESTING_OOCC.md": {
-      "sha256": "748b265d8ef71e6b5ee15176700f927902b6a399f13b28f637ba610a7adba415",
-      "bytes": 85498
+      "sha256": "02923b2f41243884537f5c2363684024d78343ca2cd77b87e6e6704049cad724",
+      "bytes": 86820
     },
     "docs/paper/TESTING_OOCC.txt": {
-      "sha256": "2b418a20558ab01194a4b418bf5da162ebcb5164d727102cdaaceacbc2d3f9ea",
-      "bytes": 84568
+      "sha256": "b1ae3d40a27955972eb9862fb5ba46e48548582cbb708506e2a81d840230a552",
+      "bytes": 85890
     },
     "docs/paper/TESTING_OOCC.pdf": {
-      "sha256": "8606c930654885724484eea6fc9c908f48fda9abd54d17f289f19f5978f35528",
-      "bytes": 133108
+      "sha256": "66997b021ab96d6cf551dbd8f920c0a0d09803a08a6d55c0d536a59cb166dc38",
+      "bytes": 134011
     },
     "docs/OOCC_CLAIMS_AND_REQUIRED_TESTS.md": {
-      "sha256": "50e2d4744c7ddb340fbcf5e52abb2cb64036476a7d39b79bbefe3a12ceeec095",
+      "sha256": "f2bcd6b8077654a0dd921d8f8313bef3bc14ca31e0a8ae579b3e65d4139f7d80",
       "bytes": 47255
     },
     "research/oocc_claim_tests_v1.json": {
-      "sha256": "ed8d826471ebcb02bdaa82fdd9626879acf3dad802e0f8b8211726bcc2b87a43",
+      "sha256": "cd8873631280dd5c81043e75bbb761b902a2c1a8e7e7be64aa80c51fa180fc2c",
       "bytes": 61342
     },
     "evaluation/public-claims/2026-11-20/attribution-audit.json": {
-      "sha256": "2f6a9eaea9fc408863d441b99fc2b0da8395ba93fc89c68f1fbbf99a98bb2a1f",
-      "bytes": 1628
+      "sha256": "5c33a4a0ac71b0d172e8be7848ae0328cd2fb406f9cf62f9245feb11b63b6983",
+      "bytes": 2409
+    },
+    "docs/paper/TESTING_OOCC_ERRATA.md": {
+      "sha256": "71ee994cf17a33b864f09dfdbc16cd3a0415f8f1ad5e74a4b84dfd5b041fa629",
+      "bytes": 1368
     }
   },
   "native_target_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
@@ -51,8 +55,9 @@
   "new_executions_in_this_revision": false,
   "checkpoint_claim_status": "Author-reported; not independently reproduced here",
   "previous_edition": {
-    "path": "docs/papers/archive/testing-oocc-v1.1",
-    "source_revision": "8ce1bfbb74c37d4d9516a14db5e19faa2804b41d"
+    "path": "docs/papers/archive/testing-oocc-v1.2",
+    "source_revision": "109299c52bc92ce66e783a453c521a1e9c53db1a"
   },
-  "public_package_attribution": "evaluation/public-claims/2026-11-20/attribution-audit.json"
+  "public_package_attribution": "evaluation/public-claims/2026-11-20/attribution-audit.json",
+  "erratum": "docs/paper/TESTING_OOCC_ERRATA.md"
 }

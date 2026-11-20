@@ -3,7 +3,7 @@
   "date": "2026-11-20",
   "repository": "mitchell-d00/B-Tests",
   "base_revision": "7771497",
-  "latest_user_clarification": "The repo automated test machinery is McPhetridge’s; do not infer Gelhaus authored a driver from its inclusion in a package.",
+  "latest_user_clarification": "M6 is something Ben adds, not included in his ZIP. Mitchell built B-Tests. First response already states M6 was not included.",
   "authorized_work": [
     "Testing OOCC paper by Mitchell D. McPhetridge in MD/TXT/PDF",
     "Develop necessary critique tests and push to B-Tests",
@@ -21,7 +21,8 @@
     "v1.1 renderer check and artifact verifier passed; 130 B-Tests passed; representative PDF pages inspected",
     "Clarified checkpoint reports versus reproduced execution; CP050 archive totals kept separate from CP045 verifier; quoted CP014 not located and not adopted as verified",
     "Removed unsupported attribution of wrapper/driver authorship to Gelhaus; upstream machinery credit explicit; package inspection does not infer code authorship",
-    "v1.2: 59 package checksums matched; current 130 software tests and artifact/renderer checks passed; both native CI comparisons passed at prior code-identical head8ce1bfb"
+    "v1.2: 59 package checksums matched; current 130 software tests and artifact/renderer checks passed; both native CI comparisons passed at prior code-identical head8ce1bfb",
+    "v1.3 removes mistaken McPhetridge private M6 attribution, cites byte-identical first response pp2/7 and preserves v1.2 with an erratum"
   ],
   "not_run": [
     "New model instruction trials",
@@ -33,9 +34,9 @@
     "Three known PhilArchive paper pages returned403; linked in archive manifest, no missing PDF contents invented"
   ],
   "next_steps": [
-    "Validate and push v1.2, then merge PR3 as authorized after latest-head checks pass",
-    "Native OOCC/new model/independent human review remain NOT_RUN; do not credit checkpoint narratives as reproduced tests"
+    "Verify updated paper formats and hashes, then push the authorized documentation correction to main",
+    "Do not relabel author clarification as independently verified M6 execution; no new native/model runs in this correction"
   ],
   "latest_user_instruction": "Say and list all tests his work needs vs claims he makes rewrite the paper and put my suggestions in it like he did me when he started this in his first critical paper",
-  "paper_version": "1.2"
+  "paper_version": "1.3"
 }

@@ -1,6 +1,6 @@
 # OOCC claims and required tests
 
-Mitchell D. McPhetridge · 20 November 2026 · Testing OOCC v1.2
+Mitchell D. McPhetridge · 20 November 2026 · Testing OOCC v1.3
 
 This is a proposed test roadmap, not 34 newly completed experiments or 34 demonstrated defects. Claims below are attributed paraphrases. The source pages identify the mechanism, reported result, proposal or limitation being tested; a design objective is not represented as an achieved result. The catalogue covers identified claim families in the reviewed sections of ten supplied documents, not every claim in more than one thousand pages.
 

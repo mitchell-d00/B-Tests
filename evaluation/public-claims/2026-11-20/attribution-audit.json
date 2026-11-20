@@ -35,10 +35,26 @@
   "package_contains_btests_implementation": false,
   "scope": "File/AST inspection and package integrity only; no engine or model execution in this audit. Imported writer/pipeline/profile modules are upstream MPLPB. Publishing or bundling the script does not establish its authorship. No separate Gelhaus-built driver or framework is established by this audit.",
   "claims_not_established": [
-    "Private M6 was used",
+    "The exact M6 role or execution behavior is established by this package",
     "B-Tests was imported by this driver",
     "Native OOCC was executed",
     "Gelhaus authored the upstream MPLPB engine or pre-existing tests",
     "Gelhaus authored the supplied script or a separate execution framework"
-  ]
+  ],
+  "m6_clarification": {
+    "attributed_to": "Mitchell D. McPhetridge, author clarification, 20 November 2026",
+    "statement": "M6 is an additional component Gelhaus adds; it is not McPhetridge’s private tool.",
+    "package_contains_implementation": false,
+    "implementation_inspected": false,
+    "execution_role_independently_verified": false,
+    "original_response": {
+      "path": "docs/papers/archive/field-access-response/response.pdf",
+      "sha256": "9f1ba62c4425f29af7908a5736e3f6c0c84bce05f30909fdc1a4b3a9dafcdb16",
+      "pdf_pages": [
+        2,
+        7
+      ],
+      "finding": "Original response states M6 was not included and its role was not established; new attachment is byte-identical."
+    }
+  }
 }

@@ -1,0 +1,58 @@
+{
+  "title": "Testing OOCC",
+  "subtitle": "Claims, Required Tests, and a Roadmap to Verified Behavior",
+  "author": "Mitchell D. McPhetridge",
+  "date": "2026-11-20",
+  "version": "1.2",
+  "status": "author-review draft; not independently validated",
+  "renderer": "tools/build_critical_paper.py",
+  "renderer_sha256": "825baa095d82e853689b4c704b64506cfe7cb5dc1d0bf89dcc5bd0a35f93811b",
+  "files": {
+    "docs/paper/TESTING_OOCC.md": {
+      "sha256": "748b265d8ef71e6b5ee15176700f927902b6a399f13b28f637ba610a7adba415",
+      "bytes": 85498
+    },
+    "docs/paper/TESTING_OOCC.txt": {
+      "sha256": "2b418a20558ab01194a4b418bf5da162ebcb5164d727102cdaaceacbc2d3f9ea",
+      "bytes": 84568
+    },
+    "docs/paper/TESTING_OOCC.pdf": {
+      "sha256": "8606c930654885724484eea6fc9c908f48fda9abd54d17f289f19f5978f35528",
+      "bytes": 133108
+    },
+    "docs/OOCC_CLAIMS_AND_REQUIRED_TESTS.md": {
+      "sha256": "50e2d4744c7ddb340fbcf5e52abb2cb64036476a7d39b79bbefe3a12ceeec095",
+      "bytes": 47255
+    },
+    "research/oocc_claim_tests_v1.json": {
+      "sha256": "ed8d826471ebcb02bdaa82fdd9626879acf3dad802e0f8b8211726bcc2b87a43",
+      "bytes": 61342
+    },
+    "evaluation/public-claims/2026-11-20/attribution-audit.json": {
+      "sha256": "2f6a9eaea9fc408863d441b99fc2b0da8395ba93fc89c68f1fbbf99a98bb2a1f",
+      "bytes": 1628
+    }
+  },
+  "native_target_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
+  "source_inventory": "evaluation/public-claims/2026-11-20/sources.json",
+  "experiment": "evaluation/public-claims/2026-11-20/observed/summary.json",
+  "native_oocc": "NOT_RUN",
+  "new_model_instruction_trials": "NOT_RUN",
+  "renderer_environment": {
+    "reportlab": "4.4.9",
+    "pandoc": "pandoc 3.1.11.1"
+  },
+  "claim_test_catalogue": "research/oocc_claim_tests_v1.json",
+  "claim_test_families": 34,
+  "first_edition": {
+    "path": "docs/papers/archive/testing-oocc-v1.0",
+    "source_revision": "44cda23fd35216684e6f39932db7fcf5ff49ef3d"
+  },
+  "new_executions_in_this_revision": false,
+  "checkpoint_claim_status": "Author-reported; not independently reproduced here",
+  "previous_edition": {
+    "path": "docs/papers/archive/testing-oocc-v1.1",
+    "source_revision": "8ce1bfbb74c37d4d9516a14db5e19faa2804b41d"
+  },
+  "public_package_attribution": "evaluation/public-claims/2026-11-20/attribution-audit.json"
+}
