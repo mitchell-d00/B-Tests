@@ -1,0 +1,15 @@
+======================================================================
+FAIL: test_unrequested_claims_do_not_receive_a_perfect_contract_score (tests.test_public_claims.PublicClaimTests.test_unrequested_claims_do_not_receive_a_perfect_contract_score)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/mplpb-b-tests-20261119/tests/test_public_claims.py", line 82, in test_unrequested_claims_do_not_receive_a_perfect_contract_score
+    self.assertEqual(row['status'],'INVALID_RESPONSE')
+AssertionError: 'RESPONSE_SCORED' != 'INVALID_RESPONSE'
+- RESPONSE_SCORED
++ INVALID_RESPONSE
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (failures=1)

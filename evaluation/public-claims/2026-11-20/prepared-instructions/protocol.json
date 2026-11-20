@@ -1,0 +1,14 @@
+{
+  "schema": "public-claims-1-paired-instructions",
+  "status": "NOT_RUN",
+  "seed": 20261120,
+  "source_pdf_sha256": "375750e2b35939b6452d5be3b61ec94ce0cd23288cb04c0c03fce49faf1a50e7",
+  "cad_passage_artifact_sha256": "0eeb56e20200d978fd6871c1e324eee5faf51de1490151359deb85ec3ecfb8f9",
+  "conditions": "Fresh sessions, identical source/task bodies and base model/tools/budgets; instructions differ, including length. No fabricated model responses.",
+  "model_configuration": null,
+  "usage": null,
+  "cases_per_arm": 5,
+  "independent_validation": "NOT_RUN",
+  "scoring": "Value and exact source-span fidelity are separate checks; matching quotations alone do not establish semantic correctness.",
+  "expected_sha256": "a4f78878da3bb8a2c077b06378b79c346b93c7a0c13f4285004ba791b63eaeb5"
+}

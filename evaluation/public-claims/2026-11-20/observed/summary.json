@@ -1,0 +1,34 @@
+{
+  "schema": "public-claims-1",
+  "analytical_samples": 512,
+  "shorter_expression_counterexamples": 512,
+  "small_literal_controls": 10,
+  "dictionary_scenarios": 20,
+  "dictionary_indexed_cheaper": 15,
+  "reference_controls_passed": 4,
+  "reference_controls_total": 4,
+  "native_mplpb_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
+  "native_mplpb": {
+    "status": "OBSERVED",
+    "cases": 7,
+    "passed": 7,
+    "not_run": 0
+  },
+  "gelhaus_native_oocc": {
+    "status": "NOT_RUN",
+    "cases": 0,
+    "accuracy": null
+  },
+  "new_model_instruction_trials": {
+    "status": "NOT_RUN",
+    "cases": 0,
+    "accuracy": null
+  },
+  "semantic_relationship_accuracy": null,
+  "human_review_seconds": null,
+  "model_calls": 0,
+  "cpu_seconds_parent": 0.041799301,
+  "wall_seconds": 1.5494703370059142,
+  "peak_parent_rss_bytes": 16121856,
+  "interpretation": "Byte comparisons, reference-program controls and native action fixtures are distinct units; do not pool them into an OOCC score."
+}

@@ -1,0 +1,27 @@
+{
+  "Q1": {
+    "value": 4,
+    "source_id": "CURRENT",
+    "required_span": "Current owner-approved record: vessel count4."
+  },
+  "Q2": {
+    "value": false,
+    "source_id": "RECEIPT",
+    "required_span": "No receiver read, acknowledgement or completed action has been established."
+  },
+  "Q3": {
+    "value": 1,
+    "source_id": "ROOT",
+    "required_span": "This is one original observation."
+  },
+  "Q4": {
+    "value": false,
+    "source_id": "GRANT",
+    "required_span": "The prior publish grant is revoked."
+  },
+  "Q5": {
+    "value": false,
+    "source_id": "CAUSE",
+    "required_span": "No causal connection was established."
+  }
+}

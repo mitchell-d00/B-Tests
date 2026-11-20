@@ -1,0 +1,72 @@
+[
+  {
+    "id": "G1",
+    "filename": "1-THE_CONTRIBUTION_IS_NOT_THE_BYLINE.pdf",
+    "sha256": "3fb30e4e7ccca8594023a26bc6d38da3807e380d6dbc45e052e472e351e57d5b",
+    "pdf_pages": 12,
+    "scope": "User-supplied paper; selected claims/evidence sections reviewed. Underlying private experiments not independently rerun."
+  },
+  {
+    "id": "G2",
+    "filename": "2-OOCC_FUNCTIONAL_LAYERS_MASTER_RESEARCH_B.pdf",
+    "sha256": "9a38625db9e640eeae5b792ee732f7e646605a3dc7dc17dd97bf342ed02efe15",
+    "pdf_pages": 439,
+    "scope": "User-supplied paper; selected claims/evidence sections reviewed. Underlying private experiments not independently rerun."
+  },
+  {
+    "id": "G3",
+    "filename": "3-Artificial_Tangibility_as_a_Low_Infrastr.pdf",
+    "sha256": "d9cb839baefdd39c6a8369326d50674909089fd34d6f5c65ad426b3e7bdcd4c4",
+    "pdf_pages": 6,
+    "scope": "User-supplied paper; selected claims/evidence sections reviewed. Underlying private experiments not independently rerun."
+  },
+  {
+    "id": "G4",
+    "filename": "4-The_Object_as_Filter_The_Object_as_Filte.pdf",
+    "sha256": "f510bb74c882bc2f1761255d9d55df4f369f456fb30fc780b8081ed42fb3034e",
+    "pdf_pages": 7,
+    "scope": "User-supplied paper; selected claims/evidence sections reviewed. Underlying private experiments not independently rerun."
+  },
+  {
+    "id": "G5",
+    "filename": "5-Condensed_technical_paper_derived_from_t.pdf",
+    "sha256": "e8d533e9638def80f39af03c5e2e5f503a1dc985316bd4d5add8f3293a09e998",
+    "pdf_pages": 10,
+    "scope": "User-supplied paper; selected claims/evidence sections reviewed. Underlying private experiments not independently rerun."
+  },
+  {
+    "id": "G6",
+    "filename": "6-CAD_Control_Grammar_Continuity_Authority.pdf",
+    "sha256": "375750e2b35939b6452d5be3b61ec94ce0cd23288cb04c0c03fce49faf1a50e7",
+    "pdf_pages": 8,
+    "scope": "User-supplied paper; selected claims/evidence sections reviewed. Underlying private experiments not independently rerun."
+  },
+  {
+    "id": "G7",
+    "filename": "7-Canonical_Tokens_A_Minimal_Representatio.pdf",
+    "sha256": "0cb68eb99bb84bd446829e78256115cd5b529f6f9abd66e45b2a66a669a8a759",
+    "pdf_pages": 6,
+    "scope": "User-supplied paper; selected claims/evidence sections reviewed. Underlying private experiments not independently rerun."
+  },
+  {
+    "id": "G8",
+    "filename": "8-No_More_First_Dates_With_AI_updated_Publ.pdf",
+    "sha256": "ff77cc4e63b6416f8613635b788842d1af93aa48ed33195b71b974aef42fa9bb",
+    "pdf_pages": 445,
+    "scope": "User-supplied paper; selected claims/evidence sections reviewed. Underlying private experiments not independently rerun."
+  },
+  {
+    "id": "G9",
+    "filename": "9-OOCC_Research_Book_with_longitudinal_add.pdf",
+    "sha256": "8075794a16bb50dd7cafd4f6469ae1f82c594bf039014b05f2490d2a06ca403b",
+    "pdf_pages": 202,
+    "scope": "User-supplied paper; selected claims/evidence sections reviewed. Underlying private experiments not independently rerun."
+  },
+  {
+    "id": "G10",
+    "filename": "10-From_Verbatim_Evidence_to_Independent_Un.pdf",
+    "sha256": "96f2cd6d88c36398d58fcd2f5ecc9f1bf5e3f6a45af90cfd1450b477d12ff587",
+    "pdf_pages": 10,
+    "scope": "User-supplied paper; selected claims/evidence sections reviewed. Underlying private experiments not independently rerun."
+  }
+]

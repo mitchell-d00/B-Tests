@@ -1,0 +1,44 @@
+{
+  "schema": "public-package-attribution-audit-v1",
+  "date": "2026-11-20",
+  "package_name": "1-Ben-MPLPB_Oct2026_Publication_Package.zip",
+  "package_sha256": "f4d1c8263dbb8dcf9f7ddbc9fc85be5d005864db4c74fce1a93cda1bb4865718",
+  "package_readme_sha256": "7d1bd86f417d200671623e2bb2d954ee078df47ce9c63aaaef97e18da219c03b",
+  "reproduction_script_sha256": "64886e58e4a96bc484609a646b4efb2a6e916fe6e070dedece031c4979a7137d",
+  "manifest_checks": {
+    "total": 59,
+    "matched": 59
+  },
+  "imports_from": [
+    {
+      "module": "mplpb_answers.pipeline",
+      "names": [
+        "answer_query"
+      ]
+    },
+    {
+      "module": "mplpb_combined.ledger",
+      "names": [
+        "write"
+      ]
+    },
+    {
+      "module": "mplpb_combined.reader",
+      "names": [
+        "PROFILES"
+      ]
+    }
+  ],
+  "upstream_target": "Mitchell D. McPhetridge Combined MPLPB",
+  "upstream_revision": "bbf6690d69b32d16969cc10e5ce9d380427ead40",
+  "package_contains_m6_runtime": false,
+  "package_contains_btests_implementation": false,
+  "scope": "File/AST inspection and package integrity only; no engine or model execution in this audit. Imported writer/pipeline/profile modules are upstream MPLPB. Publishing or bundling the script does not establish its authorship. No separate Gelhaus-built driver or framework is established by this audit.",
+  "claims_not_established": [
+    "Private M6 was used",
+    "B-Tests was imported by this driver",
+    "Native OOCC was executed",
+    "Gelhaus authored the upstream MPLPB engine or pre-existing tests",
+    "Gelhaus authored the supplied script or a separate execution framework"
+  ]
+}

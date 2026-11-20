@@ -1,0 +1,462 @@
+{
+  "schema": "mitchell-paper-archive-v1",
+  "date": "2026-11-20",
+  "author": "Mitchell D. McPhetridge",
+  "scope": "Available Mitchell-authored papers in supplied attachments, current MPLPB docs and two linked pinned public author repositories, plus existing B-Tests papers; not a global completeness claim.",
+  "duplicate_policy": "Existing byte-identical B-Tests files are indexed in place, not recopied. Distinct editions/carriers retained; no original deleted or overwritten.",
+  "papers": [
+    {
+      "paper": "combined-current",
+      "status": "source-pinned edition",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/papers/archive/combined-current/Combined_MPLPB.md",
+          "sha256": "c56db5020f273c2f223c13e036e3c34aeec293e7a043f6aab4bbff88a0b820fc",
+          "source_path": "/workspace/mplpb/docs/Combined_MPLPB.md",
+          "source_repo": "mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+          "source_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
+          "repository_source_path": "docs/Combined_MPLPB.md"
+        },
+        {
+          "format": "txt",
+          "path": "docs/papers/archive/combined-current/Combined_MPLPB.txt",
+          "sha256": "8343eaf0803fd6f102e9aeb4a761eb37ce214eb286af0f2ff01ec20f3cf6b68b",
+          "source_path": "/workspace/mplpb/docs/Combined_MPLPB.txt",
+          "source_repo": "mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+          "source_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
+          "repository_source_path": "docs/Combined_MPLPB.txt"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/papers/archive/combined-current/Combined_MPLPB.pdf",
+          "sha256": "97fab0e1d23c866bd1d0f9a55edd7966d66c7884fe39da2f216cfa9f345968b4",
+          "source_path": "/workspace/mplpb/docs/Combined_MPLPB.pdf",
+          "source_repo": "mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+          "source_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
+          "repository_source_path": "docs/Combined_MPLPB.pdf"
+        }
+      ]
+    },
+    {
+      "paper": "combined-v1",
+      "status": "superseded original",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/papers/archive/combined-v1/Combined_MPLPB_v1.md",
+          "sha256": "9f74f123e390e5fe8341c8cd3a7621755a5ef908f42fd1aa049a02707e084467",
+          "source_path": "/workspace/mplpb/docs/superseded/Combined_MPLPB_v1.md",
+          "source_repo": "mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+          "source_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
+          "repository_source_path": "docs/superseded/Combined_MPLPB_v1.md"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/papers/archive/combined-v1/Combined_MPLPB_v1.pdf",
+          "sha256": "0726f94362d21c3e16a0ec76c57857a0a35c218c27ddae246e99717090a37c82",
+          "source_path": "/workspace/mplpb/docs/superseded/Combined_MPLPB_v1.pdf",
+          "source_repo": "mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+          "source_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
+          "repository_source_path": "docs/superseded/Combined_MPLPB_v1.pdf"
+        }
+      ]
+    },
+    {
+      "paper": "combined-v2",
+      "status": "superseded original",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/papers/archive/combined-v2/Combined_MPLPB_v2.md",
+          "sha256": "01cd06fb2bde36596b5888b4a2c545b6b44c84e47df182ae33da644bafca65e5",
+          "source_path": "/workspace/mplpb/docs/superseded/Combined_MPLPB_v2.md",
+          "source_repo": "mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+          "source_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
+          "repository_source_path": "docs/superseded/Combined_MPLPB_v2.md"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/papers/archive/combined-v2/Combined_MPLPB_v2.pdf",
+          "sha256": "d3331a5b719e52f67b50f21d6fd416c20d435219971f95f1470f33da542800cf",
+          "source_path": "/workspace/mplpb/docs/superseded/Combined_MPLPB_v2.pdf",
+          "source_repo": "mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+          "source_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
+          "repository_source_path": "docs/superseded/Combined_MPLPB_v2.pdf"
+        }
+      ]
+    },
+    {
+      "paper": "field-access-response",
+      "status": "source-pinned edition",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/papers/archive/field-access-response/response.md",
+          "sha256": "3e5d51cd1318ead5eb5ae49826f41a0ff078d3d9a5acb29fb8a9c4b76298701e",
+          "source_path": "/workspace/mplpb/docs/research/field-question-normalization/response.md",
+          "source_repo": "mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+          "source_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
+          "repository_source_path": "docs/research/field-question-normalization/response.md"
+        },
+        {
+          "format": "txt",
+          "path": "docs/papers/archive/field-access-response/response.txt",
+          "sha256": "1fba29fbb4137ff640109e167d799d75f8cc039f2a4ded293599d13b2a408f8f",
+          "source_path": "/workspace/mplpb/docs/research/field-question-normalization/response.txt",
+          "source_repo": "mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+          "source_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
+          "repository_source_path": "docs/research/field-question-normalization/response.txt"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/papers/archive/field-access-response/response.pdf",
+          "sha256": "9f1ba62c4425f29af7908a5736e3f6c0c84bce05f30909fdc1a4b3a9dafcdb16",
+          "source_path": "/workspace/mplpb/docs/research/field-question-normalization/response.pdf",
+          "source_repo": "mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+          "source_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
+          "repository_source_path": "docs/research/field-question-normalization/response.pdf"
+        }
+      ]
+    },
+    {
+      "paper": "dual-mode-sorter",
+      "status": "source-pinned edition",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/papers/dual-mode-sorter/dual-mode-sorter.md",
+          "sha256": "45e905bb271623c7f287bdbbb00b7da30d2bcca24c32f6e3d080029ca555a181",
+          "source_path": "/workspace/mplpb/docs/research/dual-mode-sorter/dual-mode-sorter.md",
+          "source_repo": "mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+          "source_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
+          "repository_source_path": "docs/research/dual-mode-sorter/dual-mode-sorter.md"
+        },
+        {
+          "format": "txt",
+          "path": "docs/papers/dual-mode-sorter/dual-mode-sorter.txt",
+          "sha256": "95ace481f3b3d402d7729f9d716c42c16524ac1530d6133035bd34caa9957cbc",
+          "source_path": "/workspace/mplpb/docs/research/dual-mode-sorter/dual-mode-sorter.txt",
+          "source_repo": "mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+          "source_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
+          "repository_source_path": "docs/research/dual-mode-sorter/dual-mode-sorter.txt"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/papers/dual-mode-sorter/dual-mode-sorter.pdf",
+          "sha256": "8c4aa7e6cd2f464e5ae358106cfb9edb002142f996c8fdf53be6f735cde28fb3",
+          "source_path": "/workspace/mplpb/docs/research/dual-mode-sorter/dual-mode-sorter.pdf",
+          "source_repo": "mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+          "source_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
+          "repository_source_path": "docs/research/dual-mode-sorter/dual-mode-sorter.pdf"
+        }
+      ]
+    },
+    {
+      "paper": "WHEN_THE_MAP_BECOMES_THE_AUTHORITY",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md",
+          "sha256": "db1926d3e86d20eccaafd9a54a6d181830bce0c60f72fcebbe952925ad46fed5",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "existing edition retained"
+        },
+        {
+          "format": "txt",
+          "path": "docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.txt",
+          "sha256": "c70666d6e6a50287d51c2ccdd153be0395338eef12e716f43b41cabba4be4662",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.txt",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "existing edition retained"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf",
+          "sha256": "4f04e5424354d42718650598457295bf67a652bdf8c13b2c9fda2521dc3501a6",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "existing edition retained"
+        }
+      ]
+    },
+    {
+      "paper": "PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.md",
+          "sha256": "9936dd825bb183d2aaba6a7f50df6254bf42ba0f9420f3494f478f741bb2bae8",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.md",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "existing edition retained"
+        },
+        {
+          "format": "txt",
+          "path": "docs/paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.txt",
+          "sha256": "19a4813b148811f58623e2f5b85a28c70acbbb1a7332ee9bf5c20bbb60e34bfb",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.txt",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "existing edition retained"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.pdf",
+          "sha256": "6e11e792f917683b45e5932674c88ca92e94b70ac7f063cb900e1c5e18a616f7",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.pdf",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "existing edition retained"
+        }
+      ]
+    },
+    {
+      "paper": "MPLPB_MIXED_DUMP",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/paper/MPLPB_MIXED_DUMP.md",
+          "sha256": "8a183e739866ef505945b4669a40d0ac84e8259f2531a098b534ec8efe1db51a",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/MPLPB_MIXED_DUMP.md",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "existing edition retained"
+        },
+        {
+          "format": "txt",
+          "path": "docs/paper/MPLPB_MIXED_DUMP.txt",
+          "sha256": "8c6cc164138017b285a7c9263c9c0f2db3e0ca404c46116848405574efe1edd3",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/MPLPB_MIXED_DUMP.txt",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "existing edition retained"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/paper/MPLPB_MIXED_DUMP.pdf",
+          "sha256": "672f428a702453c84c4ee7ce8195c205fd9c30be0f91170fc460d32f036006e3",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/MPLPB_MIXED_DUMP.pdf",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "existing edition retained"
+        }
+      ]
+    },
+    {
+      "paper": "THE_WITNESS_INSIDE_THE_MACHINE_REVISED",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.md",
+          "sha256": "f3d3908d534e5002755b3bb1ef32d39575cbd79477c879b6b5f46f9560e957d7",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.md",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "existing edition retained"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.pdf",
+          "sha256": "b21e7d8a37c215ceaa4189c754810c331ea1823408225e248b1aa1064e56391b",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.pdf",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "existing edition retained"
+        }
+      ]
+    },
+    {
+      "paper": "TESTING_OOCC",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/paper/TESTING_OOCC.md",
+          "sha256": "748b265d8ef71e6b5ee15176700f927902b6a399f13b28f637ba610a7adba415",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/TESTING_OOCC.md",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "Revised paper v1.2"
+        },
+        {
+          "format": "txt",
+          "path": "docs/paper/TESTING_OOCC.txt",
+          "sha256": "2b418a20558ab01194a4b418bf5da162ebcb5164d727102cdaaceacbc2d3f9ea",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/TESTING_OOCC.txt",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "Revised paper v1.2"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/paper/TESTING_OOCC.pdf",
+          "sha256": "8606c930654885724484eea6fc9c908f48fda9abd54d17f289f19f5978f35528",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/TESTING_OOCC.pdf",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "Revised paper v1.2"
+        }
+      ],
+      "status": "Current v1.2 author-review draft; first and v1.1 editions preserved separately"
+    },
+    {
+      "paper": "map-response-supplied",
+      "status": "Byte-distinct supplied PDF carrier; extraction differs; semantic revision not adjudicated. No date inferred from filename.",
+      "files": [
+        {
+          "format": "pdf",
+          "path": "docs/papers/archive/map-response-supplied/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf",
+          "sha256": "6f834e307b66aa188b0c53212cc247fb143500a3b1304bfc8460d1152d8a54ce",
+          "source_path": "/tmp/codex-remote-attachments/6afb6881-2680-8191-93ee-7170563560ff/2FA19087-3080-49EE-948D-50C78104E22D/3-WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf",
+          "source_repo": null
+        }
+      ]
+    },
+    {
+      "paper": "mplpb-residual-experiment",
+      "status": "Pinned public author repository edition; Git blob bytes verified",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/papers/archive/mplpb-residual-experiment/The_Residual_of_Logic.md",
+          "sha256": "f81112920e63dc6b148e5619bb257a74512b3e4d6091fe2ee66e50effbbe641e",
+          "source_path": "https://raw.githubusercontent.com/mitchell-d00/mplpb-residual-experiment/1ec160051ba306ce61d74ba3186f0aa5873694c5/paper/The_Residual_of_Logic.md",
+          "source_repo": "mitchell-d00/mplpb-residual-experiment",
+          "source_revision": "1ec160051ba306ce61d74ba3186f0aa5873694c5",
+          "repository_source_path": "paper/The_Residual_of_Logic.md",
+          "upstream_git_blob_sha1": "28944885fa32ac211e7c63a6a0847a2bc3a1af95"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/papers/archive/mplpb-residual-experiment/The_Residual_of_Logic.pdf",
+          "sha256": "91747bb9595a0df17ff81bfcb4e57683e96d124eede10a16778e8330fbe49b13",
+          "source_path": "https://raw.githubusercontent.com/mitchell-d00/mplpb-residual-experiment/1ec160051ba306ce61d74ba3186f0aa5873694c5/paper/The_Residual_of_Logic.pdf",
+          "source_repo": "mitchell-d00/mplpb-residual-experiment",
+          "source_revision": "1ec160051ba306ce61d74ba3186f0aa5873694c5",
+          "repository_source_path": "paper/The_Residual_of_Logic.pdf",
+          "upstream_git_blob_sha1": "10c96071866823ed6dad3f78ef2eeb8ebc314313"
+        },
+        {
+          "format": "txt",
+          "path": "docs/papers/archive/mplpb-residual-experiment/The_Residual_of_Logic.txt",
+          "sha256": "6f879254866bcb418f79f13548c85ca6d41af96dcb32ede6c97b80e3477d697d",
+          "source_path": "https://raw.githubusercontent.com/mitchell-d00/mplpb-residual-experiment/1ec160051ba306ce61d74ba3186f0aa5873694c5/paper/The_Residual_of_Logic.txt",
+          "source_repo": "mitchell-d00/mplpb-residual-experiment",
+          "source_revision": "1ec160051ba306ce61d74ba3186f0aa5873694c5",
+          "repository_source_path": "paper/The_Residual_of_Logic.txt",
+          "upstream_git_blob_sha1": "d521377c9a4eb7eb53d116b1da6db74eb70fd658"
+        }
+      ]
+    },
+    {
+      "paper": "portable-evidence-runtime",
+      "status": "Pinned public author repository edition; Git blob bytes verified",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/papers/archive/portable-evidence-runtime/Portable_Evidence_Runtime.md",
+          "sha256": "5a10d8c508eeb022715afaf95ed3eeceb81d8f84bc8cbc8df80a912637703cb6",
+          "source_path": "https://raw.githubusercontent.com/mitchell-d00/portable-evidence-runtime/4fdc20193c01f82baea0598b4c7d8ef3040772d5/paper/Portable_Evidence_Runtime.md",
+          "source_repo": "mitchell-d00/portable-evidence-runtime",
+          "source_revision": "4fdc20193c01f82baea0598b4c7d8ef3040772d5",
+          "repository_source_path": "paper/Portable_Evidence_Runtime.md",
+          "upstream_git_blob_sha1": "2a3cbe0ef3d4e7d74819d30f6ccf78af6cd50bc6"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/papers/archive/portable-evidence-runtime/Portable_Evidence_Runtime.pdf",
+          "sha256": "42a4963b88729b09098b814d6cb438e786f6ebc88c2d92c41034e11efc43c7dc",
+          "source_path": "https://raw.githubusercontent.com/mitchell-d00/portable-evidence-runtime/4fdc20193c01f82baea0598b4c7d8ef3040772d5/paper/Portable_Evidence_Runtime.pdf",
+          "source_repo": "mitchell-d00/portable-evidence-runtime",
+          "source_revision": "4fdc20193c01f82baea0598b4c7d8ef3040772d5",
+          "repository_source_path": "paper/Portable_Evidence_Runtime.pdf",
+          "upstream_git_blob_sha1": "36d2415fa8c5a51d7b4563b834e13d131876feaa"
+        },
+        {
+          "format": "txt",
+          "path": "docs/papers/archive/portable-evidence-runtime/Portable_Evidence_Runtime.txt",
+          "sha256": "5fd69ad01728c7c6eb578efd86b38e297103cfbcfe21397b5e68d2b62f078a46",
+          "source_path": "https://raw.githubusercontent.com/mitchell-d00/portable-evidence-runtime/4fdc20193c01f82baea0598b4c7d8ef3040772d5/paper/Portable_Evidence_Runtime.txt",
+          "source_repo": "mitchell-d00/portable-evidence-runtime",
+          "source_revision": "4fdc20193c01f82baea0598b4c7d8ef3040772d5",
+          "repository_source_path": "paper/Portable_Evidence_Runtime.txt",
+          "upstream_git_blob_sha1": "00689fadd14d1e813bd79c76ac9c380826e00950"
+        }
+      ]
+    },
+    {
+      "paper": "TESTING_OOCC-v1.0",
+      "status": "Preserved first edition from B-Tests commit44cda23fd35216684e6f39932db7fcf5ff49ef3d; new current edition will be1.1",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/papers/archive/testing-oocc-v1.0/TESTING_OOCC.md",
+          "sha256": "b35606285caf4749993702b3f9d840e075953aa4b4823c39ed992a605eceb567",
+          "source_path": "docs/paper/TESTING_OOCC.md",
+          "source_repo": "mitchell-d00/B-Tests",
+          "source_revision": "44cda23fd35216684e6f39932db7fcf5ff49ef3d"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/papers/archive/testing-oocc-v1.0/TESTING_OOCC.pdf",
+          "sha256": "d8476d5bd900b32918f9d42a293504da1158b0311ac50d70fef7a5117db1124a",
+          "source_path": "docs/paper/TESTING_OOCC.pdf",
+          "source_repo": "mitchell-d00/B-Tests",
+          "source_revision": "44cda23fd35216684e6f39932db7fcf5ff49ef3d"
+        },
+        {
+          "format": "txt",
+          "path": "docs/papers/archive/testing-oocc-v1.0/TESTING_OOCC.txt",
+          "sha256": "243c77a604c956a2c71d2683efee617d6c157b022833868a06f51f6158b23eef",
+          "source_path": "docs/paper/TESTING_OOCC.txt",
+          "source_repo": "mitchell-d00/B-Tests",
+          "source_revision": "44cda23fd35216684e6f39932db7fcf5ff49ef3d"
+        }
+      ]
+    },
+    {
+      "paper": "TESTING_OOCC-v1.1",
+      "status": "Preserved author-review edition from commit8ce1bfbb74c37d4d9516a14db5e19faa2804b41d",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/papers/archive/testing-oocc-v1.1/TESTING_OOCC.md",
+          "sha256": "69b0c931d06de68c7b57f33113c3034a13d0e7676afff77fe83c6e2d448d3f34",
+          "source_path": "docs/paper/TESTING_OOCC.md",
+          "source_repo": "mitchell-d00/B-Tests",
+          "source_revision": "8ce1bfbb74c37d4d9516a14db5e19faa2804b41d"
+        },
+        {
+          "format": "txt",
+          "path": "docs/papers/archive/testing-oocc-v1.1/TESTING_OOCC.txt",
+          "sha256": "18b815336e06c94673e2d7bb5b4a68ce945c1493632e852450f97ce4ce97ed30",
+          "source_path": "docs/paper/TESTING_OOCC.txt",
+          "source_repo": "mitchell-d00/B-Tests",
+          "source_revision": "8ce1bfbb74c37d4d9516a14db5e19faa2804b41d"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/papers/archive/testing-oocc-v1.1/TESTING_OOCC.pdf",
+          "sha256": "de4172a6b5ae03fa12f2106340cd07af690d2e4b1e1e96d62dbe40459f71df35",
+          "source_path": "docs/paper/TESTING_OOCC.pdf",
+          "source_repo": "mitchell-d00/B-Tests",
+          "source_revision": "8ce1bfbb74c37d4d9516a14db5e19faa2804b41d"
+        }
+      ]
+    }
+  ],
+  "not_acquired": [
+    {
+      "title": "I Build Like I Am Dead",
+      "source_url": "https://philarchive.org/rec/MCPIBL",
+      "status": "ACCESS_BLOCKED_HTTP_403",
+      "paper_bytes_retained": false,
+      "sha256": null
+    },
+    {
+      "title": "A Bridge Language Is Tested by Load",
+      "source_url": "https://philarchive.org/rec/MCPABL",
+      "status": "ACCESS_BLOCKED_HTTP_403",
+      "paper_bytes_retained": false,
+      "sha256": null
+    },
+    {
+      "title": "The Dual-System Architecture",
+      "source_url": "https://philarchive.org/rec/MCPTDA",
+      "status": "ACCESS_BLOCKED_HTTP_403",
+      "paper_bytes_retained": false,
+      "sha256": null
+    }
+  ]
+}

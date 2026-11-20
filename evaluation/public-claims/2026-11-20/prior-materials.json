@@ -1,0 +1,34 @@
+{
+  "prior_materials": [
+    {
+      "supplied_path": "/tmp/codex-remote-attachments/6afb6881-2680-8191-93ee-7170563560ff/2FA19087-3080-49EE-948D-50C78104E22D/1-witness-section19-experiments.zip",
+      "retained_path": "evaluation/witness-section19/supplied/witness-section19-experiments.zip",
+      "sha256": "0322c429a214752d25b3ede08567a8f76d2a8ed894a10fdd23f742f96ca1d395",
+      "comparison": "byte-identical existing artifact; not a new replication"
+    },
+    {
+      "supplied_path": "/tmp/codex-remote-attachments/6afb6881-2680-8191-93ee-7170563560ff/2FA19087-3080-49EE-948D-50C78104E22D/2-PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.md",
+      "retained_path": "docs/paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.md",
+      "sha256": "9936dd825bb183d2aaba6a7f50df6254bf42ba0f9420f3494f478f741bb2bae8",
+      "comparison": "byte-identical existing paper"
+    },
+    {
+      "supplied_path": "/tmp/codex-remote-attachments/6afb6881-2680-8191-93ee-7170563560ff/2FA19087-3080-49EE-948D-50C78104E22D/3-WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf",
+      "retained_path": "docs/papers/archive/map-response-supplied/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf",
+      "sha256": "6f834e307b66aa188b0c53212cc247fb143500a3b1304bfc8460d1152d8a54ce",
+      "comparison": "distinct supplied PDF, separately preserved"
+    },
+    {
+      "supplied_path": "/tmp/codex-remote-attachments/6afb6881-2680-8191-93ee-7170563560ff/32512977-487D-4F3C-A8E5-F6BA812E3639/1-The-Witness-Inside-the-Machine-Revised.pdf",
+      "retained_path": "docs/paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.pdf",
+      "sha256": "b21e7d8a37c215ceaa4189c754810c331ea1823408225e248b1aa1064e56391b",
+      "comparison": "byte-identical current revised paper"
+    },
+    {
+      "supplied_path": "/tmp/codex-remote-attachments/6afb6881-2680-8191-93ee-7170563560ff/32512977-487D-4F3C-A8E5-F6BA812E3639/2-witness-section19-experiments.zip",
+      "retained_path": "evaluation/witness-section19/supplied/witness-section19-experiments.zip",
+      "sha256": "0322c429a214752d25b3ede08567a8f76d2a8ed894a10fdd23f742f96ca1d395",
+      "comparison": "byte-identical historical scripted ZIP; distinguish from revised paper and later native runs"
+    }
+  ]
+}

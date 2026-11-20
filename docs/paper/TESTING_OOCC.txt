@@ -1,0 +1,1486 @@
+Testing OOCC
+
+Claims, Required Tests, and a Roadmap to Verified Behavior
+
+Mitchell D. McPhetridge
+
+20 November 2026 · Technical research paper · Version 1.2 · Author-review draft
+
+Abstract
+
+Object-Oriented Cognition and Continuity (OOCC) combines source-linked project state,
+human-readable governance, research workflows and reported software development. A
+useful evaluation must distinguish these components. This paper reviews ten supplied
+Benjamin Gelhaus documents, examines their evidence boundaries, and adds reproducible
+B-Tests probes. The new observations compare decimal representations with equivalent
+exponentiation expressions, repeated descriptions with indexed handles including
+dictionary cost, reference resolution with current authority in an evaluator-owned CAD
+implementation, and requested MPLPB actions with independently inspected local effects.
+They do not constitute an execution of Gelhaus's native controller. In a seeded sample
+of 512 powers of ten, all 512 exponentiation expressions were shorter than their decimal
+expansions under the stated encoding; this challenges a general decimal-minimality
+argument, not OOCC's overall performance. Indexed handles were cheaper in 15 of 20
+serialization scenarios and more expensive in five. Four evaluator-reference controls
+and seven native MPLPB boundary probes met their criteria. New paired model trials and
+native OOCC comparisons remain NOT_RUN. This revision explicitly labels unavailable OOCC
+checkpoint outcomes as author-reported and adds a source-linked roadmap of 34 claim/test
+families and engineering recommendations from Mitchell D. McPhetridge. It distinguishes
+Gelhaus's own proposed tests from the present additions, preserves the evidence level of
+earlier test-design scripts, and applies the same standards to MPLPB. The roadmap is not
+34 new experiments or a declaration of 34 defects.
+
+1. The question and the objects being tested
+
+The important question is whether a claimed mechanism produces its specified result
+under inspectable conditions. Counting documents, governance labels, test assertions or
+retrieved passages does not answer that question by itself.
+
+Gelhaus's public-facing work is not accurately reduced to a single prompt. It includes
+conceptual arguments, a portable reader procedure, external research and retrieval
+reports, and descriptions of software prototypes. The October technical paper expressly
+distinguishes documented artifacts, external workflows, host execution, historical
+application runs, current native acceptance and comparative validation [G5, PDF pp.
+2–3]. The distinction is sound. The present evaluation adopts it.
+
+Three different objects must therefore remain separate: published instructions supplied
+to a model; an evaluator's implementation of selected ideas; and Gelhaus's actual
+versioned controller and applications. A fourth object, Combined MPLPB, is a separately
+developed executable system. Testing one does not automatically test the others.
+
+This is a developer-authored technical review, not an independent certification. The
+author develops MPLPB and B-Tests and therefore has a direct comparative interest. No
+new human-reviewed historical accuracy estimate or educational effectiveness result is
+claimed.
+
+2. Materials, provenance and access
+
+The review uses ten supplied PDFs [G1–G10]. Physical PDF page numbers are used
+throughout; original manuscript-page identifiers inside the research books can differ.
+File-level SHA-256 values and page counts are retained in
+evaluation/public-claims/2026-11-20/sources.json. Review concentrated on claims,
+implementation/evidence sections, limitations, attribution and the activation appendix.
+It is not a line-by-line certification of every page or external reference.
+
+The books preserve overlapping historical manuscripts and checkpoints. Repeated accounts
+across editions are documentary appearances, not independent replications. The November
+3 research edition explicitly preserves earlier source text and distinguishes later
+supplements from new experimental verification [G9, PDF pp. 1, 7].
+
+The technical paper cites https://github.com/MrMeNotU/OOCC and development PR 2 [G5, PDF
+p. 10]. Both routes returned HTTP 404 during this review on 20 November 2026. This
+records access failure through those routes. It does not establish whether the project
+is private, renamed, removed, accessible through another account, or historically
+nonexistent. No controller was fabricated to fill that access gap.
+
+The directly inspected evidence for Gelhaus's development checkpoints is the supplied
+publication text. A dated description, numerical table or claim of a passing verifier
+documents what its author reports; it does not independently verify the original
+database, code, assertions, canary or execution. No standalone public runnable packet
+for those specific checkpoints was obtained in this review. Their outcomes remain
+author-reported and NOT_INDEPENDENTLY_REPRODUCED_HERE. This is an access and
+verification limit, not proof that the artifacts never existed or were never shared
+elsewhere. The public MPLPB paraphrase package is a different artifact with public
+replication materials; it must not be pooled with these unavailable OOCC checkpoint
+tests.
+
+The underlying private exports, device state and source-held audit packages were not
+independently acquired or rerun. Their outcomes are attributed to the publications. The
+new tests use public code and synthetic fixtures only; they do not expose private
+correspondence or grant access to Gelhaus's accounts.
+
+3. Explicit comparison matrix
+
+The six comparisons below have distinct units. Their counts must not be pooled into an
+architectural accuracy score.
+
+1.  C1 — Numeral encoding. Compare the decimal spelling of a power of ten with an
+    equivalent Python exponentiation expression. Observe ASCII byte lengths and integer
+    equality, with the shared notation stated explicitly.
+2.  C2 — Reference encoding. Compare repeated expanded referent text with handle uses
+    plus a serialized dictionary entry. Observe total UTF-8 bytes, including the
+    definition.
+3.  C3 — Reference versus authority. Compare B-Tests CADLab handle resolution with that
+    program's separately checked source state and query. Observe scoped resolution,
+    historical-reference status and grant behavior. This is our program.
+4.  C4 — Request versus native effect. Compare a requested action through actual MPLPB
+    with read-only event counts and a local executor marker. Observe whether the guarded
+    adapter actually ran.
+5.  C5 — Instruction treatment. Compare selected published CAD passages with strong
+    conventional instructions, using the same fresh base model and source/task packet.
+    This is a proposed model comparison, NOT_RUN here.
+6.  C6 — Native systems. Compare Gelhaus's runnable native OOCC controller with native
+    MPLPB under matched operations and budgets. This requires actual controller access
+    and independent readbacks; it is NOT_RUN here.
+
+C1 and C2 are analytical and serialization probes. C3 is explicitly our reference
+implementation, not Gelhaus's software. C4 runs real MPLPB, not an in-memory function
+labelled "MPLPB-style." C5 uses physical CAD pages 3, 4 and 7, not every OOCC book,
+personal Memory state or private Orientation. C6 requires the actual system and
+independently checked effects.
+
+The C5 packets contain identical fictional sources, questions and output requirements.
+Instructions differ in both wording and length; those lengths are recorded. Any future
+comparison must hold model snapshot, tools, sampling, output budget and source access
+constant, use fresh conversations, retain interventions and report truncation. Equal
+tasks do not remove the instruction-length confound. Exact fact and citation scoring
+does not by itself certify general semantic correctness.
+
+4. What CAD declares and what enforces it
+
+CAD separates Continuity, Authority and Directive. These categories can make task state
+clearer and errors easier to diagnose. The paper also says CAD is not a conventional
+compiled programming language and does not enforce access control by itself [G6, PDF pp.
+4, 7]. Artificial Tangibility similarly distinguishes human-readable orientation from
+durable execution infrastructure [G3, PDF pp. 3–5]. Those qualifications should be
+preserved.
+
+A declaration that a source is current, a draft is unpromoted or an action is forbidden
+is useful information. It is not evidence that every route to the relevant operation
+checks that declaration. A model may apply the rule correctly; an application may
+independently enforce it; a human may supervise it. These are different mechanisms with
+different failure conditions.
+
+The relevant executable test asks whether a prohibited request reaches an actual
+adapter, and whether current source and permission checks precede that effect. A
+natural-language refusal is an observed response. A separate effect file and event-store
+read can establish a bounded local effect or its absence. Neither observation
+automatically establishes outside-world truth or completion of a larger task.
+
+This does not refute CAD as a workflow. It limits what follows from its vocabulary
+alone. Code could enforce CAD-derived policies; such enforcement must be demonstrated in
+the particular implementation. The same requirement applies to MPLPB: its gates govern
+checked software entry points, not every action a person or unrelated program could
+take.
+
+5. Canonical tokens: a useful convention and an unsupported inference
+
+The canonical-token paper recommends stable names and handles and connects their reuse
+to minimal-description ideas. It also makes stronger claims about numbers and references
+already being at their shortest correct form [G7, PDF pp. 1–3]. These propositions need
+to be separated.
+
+Stable handles can reduce repeated explanation. That practical observation does not
+establish that a familiar numeral is a shortest description in algorithmic information
+theory. For example, 10**1000 specifies the same integer as a decimal one followed by
+1,000 zeros, using far fewer characters under a shared exponentiation notation. More
+generally, a short procedure can generate a highly regular string. A chosen conventional
+representation and a shortest generating program are different things. Minimal-program
+length also depends on the chosen interpreter; this experiment does not compute
+Kolmogorov complexity.
+
+C1 samples 512 distinct exponents uniformly without replacement from 1 through 2,048,
+using seed 20261120. There is no performance-based acceptance filter. For each exponent,
+ordinary bounded Python arithmetic checks equality between the decimal string's integer
+and the corresponding power. The report retains decimal length, expression length and a
+hash of the decimal spelling. All 512 sampled expressions were shorter. Ten
+small-integer controls also retain cases where an ordinary literal is shorter than an
+equivalent expression formed by adding zero.
+
+These numbers describe a deliberately structured family of integers. They are not a
+random sample of all practical numbers, a tokenizer study, a latency result or 512
+independent OOCC failures. One valid counterexample is enough to reject an unrestricted
+minimality inference; many similar examples do not establish broad performance
+superiority.
+
+C2 includes the dictionary rather than treating it as free. Four referent lengths and
+five reuse counts produce 20 serialization scenarios. Handle-plus-dictionary encoding is
+smaller in 15 scenarios and larger in five. This supports a conditional efficiency
+claim: indirection can save space when reuse amortizes its definition cost. It does not
+establish a universal shortest representation, lower model-token use, or cheaper
+retrieval.
+
+The paper's distinction between documentation and tokenizer internals is appropriate
+[G7, PDF pp. 3–5]. It does not, however, supply the missing proof of minimality. A
+stronger formulation would specify the encoding, index availability, reuse count and
+measured total cost.
+
+6. Reference identity is separate from current authority
+
+A stable identifier may correctly designate an old object. It does not follow that the
+old object currently governs a new action. A fresh session may also lack its dictionary,
+encounter a namespace collision, or retain a source pointer after permission has been
+revoked.
+
+C3 uses the existing B-Tests CADLab program to make those distinctions inspectable. It
+registers a handle for source S1, then creates a valid successor S2. The handle still
+correctly resolves to S1, while S1 is historical and the current query returns S2's
+value. Other controls test an unscoped name shared across two namespaces, an absent
+reference, and a private-source grant before and after revocation. All four controls
+meet their criteria.
+
+These are successful controls in an evaluator-owned structured workbench. They are
+neither failures nor passes of Gelhaus's native software. The result also does not
+refute stable naming: the original handle remains a valid historical reference. It
+demonstrates why reference resolution, current source status and operation permission
+should be separately checked.
+
+Gelhaus acknowledges ambiguous introduction and handle reuse as boundary conditions [G7,
+PDF p. 5]. The remaining empirical question is how reliably a real implementation
+maintains and verifies those conditions across changes and cold-session recovery.
+
+7. Retrieval, continuity and educational evidence
+
+The research book reports negative findings that would be useful to reproduce. The
+following figures are Gelhaus-reported outcomes, not experiments independently
+reproduced in this review. Its seven-query retrieval diagnostic uses 35 top-five slots
+per condition. Literal TF-IDF returned 4 directly relevant results, fixed function
+expansion 6, and unconditional shared-reference graph hopping 3. A hybrid's selected
+source spans passed 35 of 35 original-byte checks, but that did not establish their
+semantic relevance. Labels came from a single reviewer after retrieval, and the hybrids
+reused those labels [G9, PDF pp. 10–12].
+
+The defensible conclusion is narrow: function expansion helped this direct-relevance
+count, while unconditional graph hopping and several hybrids did not reliably improve
+it. These measurements do not establish general retrieval quality or a controlled
+advantage of the whole OOCC architecture. They also cannot be compared numerically with
+MPLPB's complete-answer rate, because retrieval slots and answer obligations have
+different denominators and meanings.
+
+The same volume reports a useful recovery episode and a failed requested-manuscript
+revision despite successful source discovery. It explicitly says the initial failure
+should not be credited as success because later human intervention recovered the
+deliverable [G9, PDF pp. 7–8]. If reproduced as described, the archive checks would
+establish bounded structural fidelity, not complete semantic understanding. Here, the
+publication establishes that these checks and outcomes were reported; the underlying
+archive checks remain unverified by this review. Those distinctions strengthen the
+account; they are not evidence of an attempt to conceal every failure.
+
+Headmaster reports an Android prototype and implemented components, while identifying
+the complete teaching loop, current installed-version verification and independent
+learning assessment as unfinished [G10, PDF pp. 7–8]. Reported prototype operation is
+evidence about a prototype. Improved unaided explanation, transfer and retention require
+the proposed educational experiments. The public activation book likewise says its
+procedure is not executable software or guaranteed cross-instance continuity [G8, PDF
+pp. 439–445].
+
+The Object as Filter offers cross-domain conceptual parallels, but acknowledges that
+Holographic Return lacks a completed public definition in that document [G4, PDF pp.
+4–5]. Such analogies may guide design; their recurrence is not a validation of a
+software mechanism. The byline paper's role-enactment effects are also identified as
+prospective hypotheses rather than completed controlled outcomes [G1, PDF p. 11].
+
+7.1 Checkpoint claims and verification status
+
+V2 archive recovery and verifier. The supplied book assigns 289 conversation graphs and
+86,120 nodes to CP050 and predecessor cumulative packages, while separately attributing
+a 45/45 source/SQLite verification result to CP045 [G9, PDF pp. 9, 14]. The book also
+reports replay and duplicate/tamper-canary controls. These are distinct reported
+populations and procedures; they must not be collapsed into one independently confirmed
+CP045 result. The original package, database and assertion/canary execution were not
+rerun here. Status: AUTHOR_REPORTED / NOT_INDEPENDENTLY_REPRODUCED_HERE.
+
+V3 retrieval ablation. The book attributes the seven-task, 35-slot comparison to
+CP004/CP005 and describes a negative graph-hop result [G9, PDF p. 11]. This review can
+inspect the published table and its limitations; it has not independently executed that
+retrieval experiment or verified that the described design change occurred in a deployed
+controller. Status: AUTHOR_REPORTED / NOT_INDEPENDENTLY_REPRODUCED_HERE.
+
+The quoted HLC CP014 account. A discussion summary supplied during this revision names
+HLC CP014, dated 30 October 2026, and missing automatic version propagation. That
+specific account was not located in the extracted text of the ten supplied PDFs during
+this check. It is not promoted to a confirmed checkpoint or a measured failure. Status:
+QUOTED_CLAIM_NOT_LOCATED_IN_REVIEWED_TEXT / NOT_RUN. Missing or imperfect text
+extraction is also possible; the original checkpoint artifact is required to settle it.
+
+Sampling, corrections and handoffs. Publication descriptions and embedded receipts can
+document what was claimed and where a reader should look. Without the original permitted
+source and execution evidence, they do not establish independent role attribution,
+correction accuracy, worker independence or semantic correctness. Dates and lineage
+labels do not create independent replication. Test access, actual reruns and
+source-linked adjudication remain necessary.
+
+8. Actual native MPLPB controls and their limits
+
+C4 reuses the existing seven-case B-Tests seam adapter against unmodified Combined MPLPB
+commit 61cc7c04ebdfa84c8d783e005c6e7857c07600b2. The cases concern a contradictory
+premise, a claim-only dependency chain, a supported control, a revoked seat, a changed
+source, an unavailable original, and an export-related supported record without
+evidence. Read-only SQLite event counts and a real local adapter marker provide effect
+checks. All seven meet their specified criteria [M1].
+
+The positive control matters: refusing every request would not satisfy the suite. The
+source and worker files, source pins, command logs and observed results are retained.
+This is an execution of native MPLPB under authored conditions, not an instruction-level
+model comparison or a test of Ben's unavailable controller.
+
+MPLPB's own broader limits remain substantial. At the recorded native freeze, the
+unchanged expanded stress set improved from 168 to 189 complete matches out of 420 with
+580 expected refusals preserved. The separate 4,096-case known-weakness study produced
+657 complete matches from 1,262 authored answerable cases, 605 misses in eleven classes,
+and 2,834 expected refusals. Thirty-seven sorter graphs disclosed repeated-phrase budget
+limits. The historical replay remained three native complete answers, two partials,
+three conflicts and fourteen abstentions across 22 unchanged questions [M2–M3].
+
+These are different populations, not one combined success rate. They are developer
+measurements, not independent historical certification. A correctly hashed source can be
+false. A permitted action can rest on insufficient evidence. A finite checker can
+contain bugs. A matching citation is not automatically semantic proof. MPLPB's useful
+software boundary does not establish that the general historical-reconstruction problem
+is solved.
+
+9. Earlier responses and the supplied witness scripts
+
+The earlier response papers and Section 19 material are prior work, not additional new
+replications [P1–P3]. Gelhaus's earlier Beyond Guarded Retrieval evaluated MPLPB, not
+the native OOCC controller [G11]. The present paper examines published OOCC/CAD claims
+and separately identified program controls; the two evaluation directions must not be
+conflated. The supplied switch-test Markdown matches the existing B-Tests bytes. The
+supplied witness ZIP matches the already retained archive. The supplied map-response PDF
+differs from the currently stored edition and is preserved separately with its own hash.
+
+The newly supplied revised Witness PDF is byte-identical to the revised paper already in
+B-Tests. Its Section 19 specifies a proposed experiment with detection and false-alarm
+measures, not a claim that the old ZIP constitutes a completed native comparison. The
+revised paper, the retained historical ZIP, the later filesystem pilot and the actual
+native probes are distinct artifacts. The limitation below belongs to the old scripted
+demonstration; it is not presented as an unfixed defect in the revised paper or as
+evidence that the later real tests did not occur.
+
+The author clarified on 20 November 2026 that the old ZIP was the structure he built to
+think through ways of testing OOCC and MPLPB. It should therefore be classified as a
+test-design scaffold: frozen-packet examples, planted error classes, candidate
+observation functions and proposed detection/false-alarm measures. Prewritten decisions
+are appropriate for illustrating that structure. They are not observations of how a live
+model or native controller behaved.
+
+The historical script labels and README must be read under that scope. The scripts
+produce two-of-four detection counts for their authored values and four-of-five decision
+disagreements; these demonstrate the scoring arrangement, not an empirical architectural
+winner. In particular, an effect-only observer can miss an inherited contradiction or
+misclassify a correct refusal if it lacks current authority and reporting context. That
+is a reason to improve the experiment design, not evidence that the author had no real
+tests.
+
+The later B-Tests filesystem pilot uses actual subprocess-created files, and its native
+probes invoke the real MPLPB program. Their observations are documented separately [P3].
+The original ZIP remains unchanged; a dated author-intent note accompanies it. This
+review credits the design contribution, the revised paper and the later executions
+without double-counting their evidence or attributing native performance to the
+scaffold.
+
+10. Claims and the tests required to establish them
+
+This is a proposed test roadmap, not 34 newly completed experiments or 34 demonstrated
+defects. Claims below are attributed paraphrases. The source pages identify the
+mechanism, reported result, proposal or limitation being tested; a design objective is
+not represented as an achieved result. The catalogue covers identified claim families in
+the reviewed sections of ten supplied documents, not every claim in more than one
+thousand pages.
+
+Several tests are already proposed by Gelhaus. Each entry credits that origin where
+identified; McPhetridge's recommendations specify stronger controls, observable outcomes
+or publication steps. Missing code, participants or observations leave a test NOT_RUN.
+Conceptual terms without a distinguishing definition require definition before
+experimental scoring.
+
+All future comparisons must freeze sources, implementation/model versions, questions,
+outcome rules and budgets before execution; keep sealed expected outcomes out of target
+inputs; retain every failure, timeout and human repair; and score both false support and
+unnecessary refusal. Choose effect sizes, sample sizes and uncertainty estimates before
+the final study. Do not import arbitrary percentage targets or claim universal
+zero-error safety. Blinded AI assessment must be labelled AI assessment; it is not
+independent human review. Native comparison applies only to mutually declared
+implemented capabilities.
+
+T01 — Cold-session continuity and useful completion
+
+Claim and scope (claimed workflow benefit). Externalized state and orientation are
+intended to let a fresh AI session resume useful work without reconstructing the whole
+conversation. [G6, PDF pp. 5, 6, 7; G9, PDF pp. 7, 8, 14]
+
+Current evidence. The publications report recovery episodes and a failed deliverable
+later recovered through human intervention; no matched general continuity effect is
+established here.
+
+Required test. On identical interrupted projects compare ordinary notes plus a capable
+handoff, full transcript, CAD instructions and an available complete OOCC
+implementation. Use the same model, tools and source access. Challenge cases: Cold
+sessions; lost conversational context; stale drafts; ambiguous next steps; missing
+source; one source-correct deliverable that each arm can actually complete.
+
+Measure and decide. Correct complete deliverables, false completion, time to useful
+completion, source/version mistakes, all human corrections and total context cost. Count
+recovery only when the requested artifact is correct. Predeclare a practically useful
+quality/cost difference; successful orientation alone is insufficient.
+
+Access and credit. Frozen projects, fresh sessions, model pins and blinded source-linked
+deliverable scoring. Gelhaus proposes comparative recovery work; McPhetridge recommends
+strong conventional handoffs and artifact-level success criteria.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T02 — Current authority versus a salient old map
+
+Claim and scope (claimed governance mechanism). Current source selection should govern
+work while historical orientation remains recoverable. [G6, PDF pp. 3, 5, 7; G8, PDF pp.
+442, 443, 444]
+
+Current evidence. The reader procedure describes source selection; CAD alone expressly
+does not enforce access control.
+
+Required test. Compare current-selector behavior with stale promoted maps and
+conventional version-aware source lookup, using identical source histories. Challenge
+cases: An old approved map; a newer unapproved draft; an explicitly promoted successor;
+an as-of historical question; a corrupted current pointer.
+
+Measure and decide. Current/as-of selection accuracy, unjustified freshness assumptions,
+source-state readbacks and correct conflict/absence decisions. Neither recency nor
+salience alone may confer authority. An old handle can remain a correct historical
+reference while losing current authority.
+
+Access and credit. Explicit source-state rules and separately inspectable version
+histories. McPhetridge operationalizes the source-selection distinction; Gelhaus already
+distinguishes orientation from governing sources.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN. Related completed
+probes: C3; these do not execute native OOCC.
+
+T03 — Canonical numerical minimality
+
+Claim and scope (mathematical argument). The canonical-token argument connects stable
+numerical/reference forms with shortest correct descriptions. [G7, PDF pp. 1, 2, 3, 4,
+5]
+
+Current evidence. C1 supplies bounded counterexamples to unrestricted decimal
+minimality; this is an encoding argument, not a native OOCC performance test.
+
+Required test. Compare decimal strings and equivalent generating expressions under a
+declared shared interpreter, including literals for which expression overhead loses.
+Challenge cases: Powers, repetitive numbers, small integers, irregular values and
+different notation/interpreter overheads.
+
+Measure and decide. Integer equality and total description bytes under each declared
+encoding; model tokens only with an actual named tokenizer. One valid shorter
+description defeats an unrestricted minimality inference. These probes cannot compute
+Kolmogorov complexity or establish a universally best encoding.
+
+Access and credit. Explicit description language, decoder assumptions and a stated
+mathematical claim. McPhetridge supplies counterexamples and recommends a conditional
+encoding claim instead of universal minimality.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN. Related completed
+probes: C1; these do not execute native OOCC.
+
+T04 — Reference savings including dictionary and lookup costs
+
+Claim and scope (claimed efficiency benefit). Reused canonical handles can reduce
+restatement and context burden. [G7, PDF pp. 3, 4, 5; G6, PDF pp. 5, 6, 7]
+
+Current evidence. C2 shows savings in fifteen serialization scenarios and losses in
+five; no model-token or full operating-cost advantage follows.
+
+Required test. Compare expanded text with handles plus their definitions, namespaces,
+source retrieval and maintenance; evaluate at equal answer quality. Challenge cases: Low
+and high reuse, short and long referents, absent dictionaries, collisions, changed
+definitions and fresh-session initialization.
+
+Measure and decide. Total bytes, measured tokens, lookup latency, source bytes read,
+maintenance work and source-correct answers. Report break-even conditions and losses. A
+free preloaded dictionary or reduced quality cannot establish a fair cost advantage.
+
+Access and credit. Named tokenizer/runtime if used, complete initialization accounting
+and frozen workloads. McPhetridge recommends all-in accounting; Gelhaus acknowledges
+reference-introduction and reuse conditions.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN. Related completed
+probes: C2, C3; these do not execute native OOCC.
+
+T05 — Enforced policy at the operation boundary
+
+Claim and scope (implementation acceptance requirement). An implementation that claims
+enforced authority must prevent prohibited operations, beyond describing policies in
+language. [G6, PDF pp. 7; G5, PDF pp. 5, 6, 7, 8]
+
+Current evidence. CAD explicitly disclaims access-control enforcement by itself; native
+integrated enforcement is a separate acceptance question.
+
+Required test. Compare the actual guarded adapter with independent effect/event
+readbacks under allowed and prohibited requests; keep instruction-only compliance a
+separate arm. Challenge cases: Forged approval, revoked grants, stale authority,
+claim-only premises, changed source bytes and one genuinely authorized positive task.
+
+Measure and decide. Attempted and committed effects, policy/source checks before
+execution, denied legitimate actions and unauthorized effects. A refusal message does
+not prove no effect occurred. Universal refusal fails the positive control; any
+prohibited effect is a bounded contract violation.
+
+Access and credit. Authorized runnable controller, real adapter and an observer that can
+inspect actual effects. McPhetridge recommends native effect verification; Gelhaus
+identifies authenticated integration as unfinished.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN. Related completed
+probes: C4; these do not execute native OOCC.
+
+T06 — Deliberate activation and instruction injection
+
+Claim and scope (documented procedure boundary). The public activation procedure is
+reader-operated guidance, not automatic execution or permission expansion. [G8, PDF pp.
+439, 440, 441, 442, 443, 444, 445; G9, PDF pp. 106]
+
+Current evidence. The appendix disclaims executable-software and continuity guarantees;
+forged-authority tests are already proposed in the research volume.
+
+Required test. Compare explicit authorized activation with exposure to identical
+instructions only as untrusted source text. Challenge cases: Quoted ACTIVATE text, an
+uploaded PDF, embedded forged owner instructions, recursive-copy destinations and a
+legitimate requested activation.
+
+Measure and decide. Unrequested state changes, permission expansion, private data
+movement, correct inert treatment of quotes and authorized task completion. Document
+exposure must not silently activate privileged operations. Score an intended inert
+example separately from a failed authorized activation.
+
+Access and credit. Declared activation semantics, tool access logs and observable
+effects. Gelhaus already proposes forged-authority and copy-boundary checks; McPhetridge
+adds paired quoted-versus-authorized activation cases.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T07 — Quotation fidelity versus proposition correctness
+
+Claim and scope (evidence distinction). Exact source retrieval and provenance checks
+establish fidelity; a reconstructed assertion additionally needs the correct meaning and
+scope. [G9, PDF pp. 9, 10, 11; G5, PDF pp. 4, 5]
+
+Current evidence. The research book separates original-byte checks from relevance. Its
+reports do not establish comprehensive semantic accuracy.
+
+Required test. Compare source-linked outputs with original passages and blinded
+proposition labels; score span fidelity independently. Challenge cases: A real quote
+attached to the wrong actor, negation, conditional, reported claim, date role or
+incomplete context; correct supported controls.
+
+Measure and decide. Exact-span fidelity, proposition precision/recall, qualification
+retention, unsupported-positive rate and incorrect refusals. An authentic quotation with
+an incorrect proposition fails semantic support even if every byte matches.
+
+Access and credit. Frozen original spans, complete context and independent scoring or a
+clearly labelled AI assessment. McPhetridge recommends adversarial semantic mutations;
+Gelhaus already separates byte fidelity from relevance.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T08 — Evidence-level calibration
+
+Claim and scope (reported evidence taxonomy). Artifacts, external workflows, host
+execution, native acceptance and comparative validation represent different evidence
+levels. [G5, PDF pp. 2, 3]
+
+Current evidence. The technical paper explicitly distinguishes these levels; the
+taxonomy itself is useful and not a demonstrated failure.
+
+Required test. Audit each reported claim against its actual underlying artifacts, native
+traces and comparative design. Challenge cases: Passing host tests without device
+installation, an old APK, a source file without execution and a comparative claim
+without a comparator.
+
+Measure and decide. Correct evidence-level assignments, unsupported promotions, missing
+artifacts and version/date coverage. Credit evidence at the level actually demonstrated;
+do not convert unavailable evidence into either a native pass or a native failure.
+
+Access and credit. Versioned claim inventory and access to the artifacts being asserted.
+Gelhaus supplies the evidence taxonomy; McPhetridge recommends an auditable
+claim-to-artifact ledger.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T09 — Archive integrity and complete structural coverage
+
+Claim and scope (reported bounded result). The reported archive procedures check
+structure, source roles and byte correspondence within specified populations. [G9, PDF
+pp. 9, 10, 14]
+
+Current evidence. The publications report structural audits; the underlying private
+archive was not independently acquired here.
+
+Required test. Compare exported/indexed records with a hash-pinned original manifest,
+including absent and malformed entries. Challenge cases: Missing records, duplicate
+appearances, branch changes, corrected counts, UTF-8/CRLF offsets, changed sources and
+deliberately excluded canaries.
+
+Measure and decide. Full population counts, byte/hash agreement, missing/extra records,
+exclusion accuracy and unresolved lineage. Structural coverage needs a declared
+denominator; it does not establish semantic comprehension or historical truth.
+
+Access and credit. Authorized original archive or a public synthetic substitute clearly
+labelled as a different corpus. McPhetridge recommends complete-denominator mutation
+tests; Gelhaus already reports bounded structural checks.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T10 — Intellectual provenance without invented priority
+
+Claim and scope (claimed provenance method). Origin, development, verification and
+responsibility should be tracked separately rather than inferred from the last byline or
+appearance. [G1, PDF pp. 7; G5, PDF pp. 3, 4; G9, PDF pp. 9, 10]
+
+Current evidence. The byline paper proposes these distinctions; a comprehensive
+independently adjudicated provenance study is not supplied here.
+
+Required test. Compare provenance assignments with a frozen message/edit history
+containing known local origins, copies and later developments. Challenge cases: A human
+message quoting AI text; AI restating a human idea; parallel contributions; a missing
+predecessor; multiple documentary copies.
+
+Measure and decide. Local attribution accuracy, unresolved origins, false priority
+claims, role assignments and provenance-root preservation. Earliest observed local
+appearance is not proof of worldwide invention. Missing history must remain unresolved.
+
+Access and credit. Consented original histories and source-linked adjudication. Gelhaus
+supplies the ODVR distinctions; McPhetridge recommends planted-copy and missing-history
+controls.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T11 — Partial corrections and time-scoped history
+
+Claim and scope (claimed governance mechanism). Corrections should update their stated
+scope while retaining prior documentary material and unaffected claims. [G5, PDF pp. 4,
+5; G9, PDF pp. 11, 12]
+
+Current evidence. The publications discuss correction and source-governed lineage; no
+native end-to-end correction run is claimed here.
+
+Required test. Compare current and as-of queries before and after a scoped correction,
+using the same immutable prior sources. Challenge cases: One-field correction,
+contradictory testimony, revised intention, quoted correction, withdrawn source and an
+ambiguous target.
+
+Measure and decide. Correction scope precision, preservation of unaffected claims,
+historical reversibility, unresolved targets and serving eligibility. A later
+disagreement is not automatically an authorized correction. A partial correction cannot
+retire unrelated claims.
+
+Access and credit. Explicit source/version semantics and independent before/after
+readbacks. McPhetridge recommends scoped mutation and as-of tests; Gelhaus identifies
+correction/lineage as governance concerns.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T12 — Independent roots versus repeated documentary appearances
+
+Claim and scope (evidence dependency requirement). Source-linked relationships require
+distinguishing an originating account from its copies and dependent retellings. [G5, PDF
+pp. 4; G9, PDF pp. 201; G1, PDF pp. 7]
+
+Current evidence. The publications discuss source ancestry and attribution; no native
+independent-corroboration accuracy estimate is available.
+
+Required test. Compare inferred corroboration groups with a declared provenance graph of
+copies, independent observations and unknown ancestry. Challenge cases: Three documents
+copying one mistaken account; a genuinely independent witness; identical headers with
+different bodies; unknown lineage.
+
+Measure and decide. Independent-root counts, false corroboration, incorrect identity
+merges, unresolved ancestry and preserved source occurrences. Three dependent
+appearances cannot be scored as three independent witnesses. Unknown ancestry is not
+independence.
+
+Access and credit. Original-source dependency labels or machine-verifiable synthetic
+ancestry. McPhetridge recommends this decisive reconstruction demonstration;
+source-attribution distinctions are also present in Gelhaus.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T13 — Known-pointer retrieval
+
+Claim and scope (reported bounded retrieval result). An exact pointer can recover an
+identified source without re-reading the entire archive. [G2, PDF pp. 8, 9]
+
+Current evidence. The research volume reports a bounded pointer-retrieval demonstration;
+it is not a broad semantic-search result.
+
+Required test. Compare exact-ID lookup with ordinary indexed exact-ID lookup on the same
+source population; keep no-ID semantic questions separate. Challenge cases: Existing,
+missing, colliding, stale and restricted identifiers, plus correct source readback.
+
+Measure and decide. Exact retrieval success, source/version fidelity, latency, source
+coverage and restricted-source exclusion. Pointer success supports pointer retrieval
+only. A small set of known targets cannot establish open-ended research completeness.
+
+Access and credit. The reported retrieval code/data or a separately labelled public
+replication corpus. McPhetridge recommends a matched indexed baseline and separate
+pointer versus semantic denominators.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T14 — Semantic retrieval beyond seven queries
+
+Claim and scope (reported preliminary experiment). Function expansion and source-linked
+graph methods may improve retrieval of relevant documentary evidence. [G9, PDF pp. 10,
+11, 12, 14]
+
+Current evidence. The reported diagnostic found 4, 6 and 3 directly relevant slots out
+of 35 for literal search, expansion and unconditional hopping respectively; labels were
+post-retrieval and single-reviewer.
+
+Required test. Compare capable lexical search, fixed expansion, graph hopping and the
+implemented OOCC method at equal access and budgets. Challenge cases: Unseen query
+forms, contradictory eligible sources, multi-part questions, low-overlap relevant
+passages and misleading shared phrases.
+
+Measure and decide. Precision/recall at k, relevant-span coverage, complete-answer
+obligations, counterevidence retention and resource cost. Freeze questions and labels
+before final retrieval; release negative transfers and uncertainty. Byte-valid spans
+alone are not relevant evidence.
+
+Access and credit. Hash-pinned corpus, independently authored holdout and blinded
+source-linked scoring. Gelhaus reports the negative diagnostic and calls for stronger
+work; McPhetridge specifies unchanged holdout and counterevidence requirements.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T15 — Explicit relationships and missing bridges
+
+Claim and scope (implementation research objective). Source-linked reconstruction should
+preserve explicit links without inventing identity, chronology or causes. [G5, PDF pp.
+7, 8; G9, PDF pp. 201]
+
+Current evidence. The technical roadmap identifies relationship/misuse checks;
+unfamiliar native relationship accuracy remains unmeasured here.
+
+Required test. Compare each proposed or accepted edge with source evidence for that
+exact connection; assess graph-level chains only after edge-level checks. Challenge
+cases: Missing intermediate record, reported instruction without execution, negation,
+conditional action, shared name, chronological succession without cause.
+
+Measure and decide. Edge precision/recall, false bridges, incorrect event merges, false
+causal edges and complete versus partial evidence paths. Similarity may propose a
+candidate but cannot establish a historical identity. A missing necessary edge stops an
+accepted chain.
+
+Access and credit. Edge-level source annotations, uncertainty labels and actual callable
+implementation. McPhetridge recommends one-connection-at-a-time proof checks; Gelhaus
+identifies relationship verification as an acceptance task.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T16 — Prospective cross-domain diagnosis and prediction
+
+Claim and scope (proposed stronger hypothesis). Functional Layers describes WHY, WHAT
+NEXT and WHAT INTERVENTION queries over typed, dated dependencies across different
+domains. [G2, PDF pp. 37, 38, 39]
+
+Current evidence. The chapter explicitly does not establish a trained, independently
+validated cross-substrate predictor.
+
+Required test. Compare frozen mappings with target-domain history, dependency-centrality
+and strong domain-specific baselines on unseen outcomes. Challenge cases: Time-cutoff
+incidents, failed analogy transfers, plausible mechanisms with different rates and
+counterfactual interventions with explicit assumptions.
+
+Measure and decide. Precision at k, false alerts, time-to-event performance and Brier
+score only if actual probabilities are emitted. Freeze ontology, mappings and horizons
+before outcomes. Retrospective resemblance is not predictive or causal validation.
+
+Access and credit. Operational mapping rules, dated outcomes, comparable baseline inputs
+and a prospective or genuinely held-out design. Gelhaus already proposes frozen mappings
+and strong baselines; McPhetridge recommends executing and publishing that design,
+including null results.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T17 — Weight and salience without authority promotion
+
+Claim and scope (proposed ablation). Object weighting may improve useful continuity,
+while salience must remain separate from evidence and permissions. [G3, PDF pp. 5; G9,
+PDF pp. 106]
+
+Current evidence. The research volume already proposes weight carryover, removal and
+high-weight false-object tests.
+
+Required test. Compare intact, removed and shuffled weights while original sources and
+access policy remain constant. Challenge cases: A salient false object; a quiet correct
+source; persistent disagreement; permission revocation despite high importance.
+
+Measure and decide. Task quality, retrieval changes, false promotion, current-source
+fidelity and weight-maintenance costs. Weights help only if useful outcomes improve
+without conflating importance with truth or permission.
+
+Access and credit. Explicit weighting algorithm, ablatable implementation and frozen
+source-state rules. Gelhaus proposes tests62–65; McPhetridge recommends controlled
+ablation and complete-cost reporting.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T18 — Valence, intention, confidence and action separation
+
+Claim and scope (proposed representation check). Object-related salience, valuation and
+intention should not collapse into one behavioral or truth signal. [G5, PDF pp. 4, 5, 7]
+
+Current evidence. The technical paper describes distinctions and a representation test;
+native behavioral validity was not rerun here.
+
+Required test. Compare typed internal/output states against controlled source
+descriptions while varying one qualifier at a time. Challenge cases: An important
+disliked object; positive sentiment without intent; an intention canceled before action;
+a confident but unsupported statement.
+
+Measure and decide. Cross-category errors, qualifier retention, candidate/accepted
+separation and incorrect execution claims. Valuation does not establish intent; intent
+does not establish execution; confidence does not establish source support.
+
+Access and credit. Operational definitions and inspectable implementation states.
+Gelhaus identifies this representation issue; McPhetridge adds counterfactual qualifier
+mutations.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T19 — Operational receipts and actual worker independence
+
+Claim and scope (native integration requirement). Storage, dispatch, receipt, reading,
+acknowledgment and completion are distinguishable operational states. [G5, PDF pp. 5, 6;
+G8, PDF pp. 442, 443]
+
+Current evidence. The publications describe worker and receipt structures but identify
+authenticated integration boundaries; no native multi-worker run occurred here.
+
+Required test. Compare each claimed transition with a separately inspectable receiver or
+effect record, not the sender wording alone. Challenge cases: Sent but unread, received
+but rejected, acknowledged but uncompleted, forged receipt, retried message and
+duplicated labels for one principal.
+
+Measure and decide. Transition precision, missing receipts, duplicate actions, real
+principal counts and false completion. A stored completion statement is not independent
+completion evidence. Exercise the exact workers and paths the selected version claims,
+without inventing unimplemented topology.
+
+Access and credit. Consented worker identities, authenticated channels and independent
+receiver/effect access. McPhetridge recommends transition-specific receipts and
+independent effects; Gelhaus describes these as integration requirements.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T20 — Scheduler, checkpoint and completion semantics
+
+Claim and scope (reported/proposed workflow). Bounded batches, checkpoints and queued
+intent can organize continued work when an execution mechanism is actually available.
+[G5, PDF pp. 5, 6; G8, PDF pp. 442; G9, PDF pp. 12, 13]
+
+Current evidence. The documents discuss scheduling/checkpoints; a prompt by itself
+cannot wake an inactive session.
+
+Required test. Compare a runnable dispatcher with an ordinary bounded task queue under
+identical quotas and stop rules; test instruction-only handoffs separately. Challenge
+cases: Tool-action cap, interrupted batch, queued HUNCH without dispatcher, explicit
+STOP, exhausted budget and permitted continuation.
+
+Measure and decide. Executed versus merely queued work, correct checkpoints, quota
+overruns, stop latency, missed tasks and false completion. Count completed effects and
+artifacts, not labels or future intentions. Clearly distinguish an inactive prompt from
+an installed scheduler.
+
+Access and credit. Exact scheduler version, real clock/process control and declared
+quotas. McPhetridge recommends native scheduling readbacks and positive/negative stop
+controls; Gelhaus describes bounded checkpoint workflows.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T21 — Restart and crash durability
+
+Claim and scope (unfinished integration acceptance). Durable continuity requires
+recoverable committed state across process interruption, not only orderly session
+handoffs. [G5, PDF pp. 7, 8; G3, PDF pp. 3]
+
+Current evidence. The technical paper identifies restart-safe controller integration as
+unfinished; ordinary host tests do not settle crash safety.
+
+Required test. Compare the installed persistence protocol before and after forced
+termination at every publication/write boundary. Challenge cases: Kill before/after
+write, fsync, rename and pointer publication; concurrent readers; replay; permissions
+revoked while offline.
+
+Measure and decide. Lost/duplicated events, torn generations, source/hash consistency,
+stale authorizations and recovery time. Require one recoverable committed state under
+the declared failure model. Successful exception rollback alone is not crash-atomicity
+evidence.
+
+Access and credit. Testable durable store, controlled process termination and
+publication-stage instrumentation. McPhetridge recommends publication-step fault
+injection; Gelhaus identifies the restart-safe acceptance gap.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T22 — Total cost and human intervention
+
+Claim and scope (claimed practical feasibility). Low-infrastructure continuity should
+reduce practical burden, including the work needed to maintain and repair state. [G9,
+PDF pp. 8; G5, PDF pp. 8]
+
+Current evidence. The book reports a particular subscription/tool-cost episode; no
+general all-in operating-cost advantage is established.
+
+Required test. Compare complete matched tasks using strong ordinary handoffs, available
+OOCC and other declared baselines, at equivalent correctness. Challenge cases: Cold
+starts, repairs, index rebuilds, human reorientation, long transcripts and failed runs
+requiring intervention.
+
+Measure and decide. Wall/CPU time, peak memory, tokens, tool/subscription costs, source
+bytes read and genuinely timed human work. Report existing subscriptions and failed
+attempts; absence of an incremental charge is not zero total cost. Unmeasured human time
+stays null.
+
+Access and credit. Instrumented runs, declared hardware and consenting time logs where
+used. McPhetridge recommends all-in paired accounting; Gelhaus already separates
+feasibility reports from controlled validation.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T23 — Current Android/native full-loop acceptance
+
+Claim and scope (reported prototype with limits). Reported host modules and historical
+app behavior should be distinguished from current installed, integrated native
+acceptance. [G10, PDF pp. 7, 8; G5, PDF pp. 5, 6]
+
+Current evidence. Headmaster reports a prototype and unfinished full teaching
+loop/current-install verification.
+
+Required test. Compare selected current app behavior with its versioned acceptance
+contract on an actual device or explicitly labelled emulator. Challenge cases: Clean
+install, database persistence, source ingestion, permission denial, restart,
+package/signer mismatch and complete source-to-output loop.
+
+Measure and decide. Exact package/build/signer identity, accepted paths, crashes, data
+retention and evidence-level accuracy. Host/CI success does not establish device
+acceptance; device acceptance does not establish educational effectiveness.
+
+Access and credit. Runnable authorized package, device/emulator logs and current
+installation readback. McPhetridge recommends a reproducible current-install packet;
+Gelhaus already acknowledges unfinished integration.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T24 — Headmaster educational benefit
+
+Claim and scope (proposed empirical hypothesis). Guided teaching from original material
+aims to improve independent understanding, transfer and retention. [G10, PDF pp. 7, 8]
+
+Current evidence. The paper proposes learning experiments; prototype existence alone is
+not a learning outcome.
+
+Required test. Compare normal source reading, a capable generic tutor and Headmaster
+with matched source material and study time. Challenge cases: Unfamiliar material,
+unaided explanation, novel transfer questions and delayed retention, with prior
+knowledge measured.
+
+Measure and decide. Blinded learning scores, transfer/retention, time, correction burden
+and uncertainty with a predeclared sample-size rationale. Only actual learner outcomes
+can support an educational-benefit claim. Do not substitute model fluency or simulated
+learners for human evidence.
+
+Access and credit. Functional teaching loop, consenting participants and blinded
+scoring; unavailable participants mean NOT_RUN. Gelhaus already proposes
+learning/transfer/retention tests; McPhetridge recommends strong tutor and unaided
+delayed controls.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T25 — Exposure and extracted learning claims
+
+Claim and scope (representation/evaluation requirement). Finding learning-related
+language or exposing a user to material is different from demonstrating mastery. [G9,
+PDF pp. 11, 12; G10, PDF pp. 3, 4, 5]
+
+Current evidence. The archive includes learning-oriented extraction; no comprehensive
+mastery certification was independently established here.
+
+Required test. Compare exposure/utterance labels with later unaided performance, using
+source-role and branch-aware records. Challenge cases: Quoted learner text, repeated AI
+explanations, claimed understanding followed by errors, and genuine correct transfer.
+
+Measure and decide. Exposure-label accuracy, false mastery labels, role attribution and
+later independent performance. A source statement that someone learned is evidence of
+that statement, not proof of mastery or original authorship.
+
+Access and credit. Consented longitudinal records and actual learning tasks; synthetic
+fixtures test labels only. McPhetridge recommends separating mention/exposure from
+demonstrated competence; Gelhaus proposes understanding-oriented assessment.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T26 — Role enactment and byline effects
+
+Claim and scope (prospective hypothesis). Actual critical/dialogic interaction may
+matter more than whether the AI is called a tool or collaborator. [G1, PDF pp. 8, 11]
+
+Current evidence. The byline paper proposes a factorial study rather than reporting a
+completed controlled effect.
+
+Required test. Use the proposed 2x2 design: tool/collaborator label crossed with
+directive/critical-dialogic behavior, holding model, sources, time and tools constant.
+Challenge cases: Matched tasks requiring correction, valid disagreement, final human
+judgment and resistance to unsupported confident advice.
+
+Measure and decide. Blinded output quality, valid error detection, correction uptake,
+unsupported claims and human effort. Estimate label and behavior effects separately with
+a predeclared analysis. Different prose labels alone do not establish a mechanism.
+
+Access and credit. Frozen instructions, randomized/counterbalanced tasks and independent
+scoring. The factorial design belongs to Gelhaus; McPhetridge recommends executing it
+with source-linked error and effort outcomes.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T27 — Operational definitions for analogy and Holographic Return
+
+Claim and scope (conceptual proposal requiring definition). Object/filter analogies and
+Holographic Return are offered as conceptual design resources; a completed public
+definition is acknowledged as absent. [G4, PDF pp. 4, 5]
+
+Current evidence. The manuscript itself identifies a definition gap. This is not
+evidence of a failed implemented prediction.
+
+Required test. First specify inputs, transformations, outputs and distinguishing
+predictions; then compare with a simpler operational explanation. Challenge cases:
+Counterexamples that share surface analogy but lack the proposed mechanism; examples on
+either side of the declared boundary.
+
+Measure and decide. Definition agreement and, only after operationalization, prospective
+discriminating predictions and counterexamples. Until a testable definition exists, mark
+DEFINITION_REQUIRED, not a fabricated experimental failure. Physical analogies do not
+validate software or consciousness claims.
+
+Access and credit. Public operational definition and a claim that differs observably
+from alternatives. McPhetridge recommends operational boundaries before stronger
+validation; Gelhaus acknowledges the incomplete definition.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T28 — Privacy, revocation and cross-worker restrictions
+
+Claim and scope (proposed safety/authorization tests). Approved identities, storage
+scopes and revocation should constrain actions despite salience or persistent
+instructions. [G5, PDF pp. 7, 8; G8, PDF pp. 441; G9, PDF pp. 106]
+
+Current evidence. The research volume already proposes authority forgery, unapproved
+destination, revocation and stop-chain tests.
+
+Required test. Compare allowed and denied reads/writes against independent access logs
+and the currently effective grant set. Challenge cases: Revoked grant, private
+namespace, eligible document referencing restricted evidence, existence leak,
+unauthorized export and high-weight false approval.
+
+Measure and decide. Private content/metadata disclosure, unauthorized effects, valid
+allowed operations and revocation latency. Important or copied text cannot expand
+permissions. Report every critical violation with its denominator; do not infer
+universal safety from zero observed violations.
+
+Access and credit. Authorized multi-scope fixtures, readback logs and real policy
+checks. Gelhaus proposes tests66–70; McPhetridge recommends content/metadata leak checks
+and matched allowed controls.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T29 — Coherent false original and truth calibration
+
+Claim and scope (documented epistemic boundary). Internal source consistency and correct
+governance cannot by themselves establish outside-world truth. [G6, PDF pp. 7; G5, PDF
+pp. 8]
+
+Current evidence. The work recognizes external verification limits; MPLPB has the same
+coherent-false-original boundary.
+
+Required test. Compare source-attributed answers with claims of independently
+established truth, first using a closed ledger and then explicitly authorized external
+evidence. Challenge cases: One internally coherent false source, dependent copies, no
+contrary source, and a later authenticated independent correction.
+
+Measure and decide. Correct attribution, unwarranted truth promotion, evidence-limit
+disclosure and behavior after genuinely new evidence. Do not require an engine to detect
+an unknowable falsehood. Require honest support labels and no invented outside-world
+verification.
+
+Access and credit. Separate source statements from the experimenter-known synthetic
+truth; authorized external-check path if tested. McPhetridge recommends an explicit
+calibration test and applies it equally to MPLPB; this is a limit, not a unique OOCC
+defect.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T30 — Reproducible version-pinned release
+
+Claim and scope (independent verification prerequisite). Independent replication needs
+the exact implementation, permitted sources, procedures and outputs behind the selected
+claim. [G5, PDF pp. 8, 10; G9, PDF pp. 14]
+
+Current evidence. The cited repository/PR returned404 during review. This is an access
+observation, not proof that code never existed.
+
+Required test. Have a fresh operator reproduce the released public-safe packet from a
+clean checkout with recorded versions and no private author memory. Challenge cases:
+Missing dependency, wrong pin, absent private source, stale instructions, failed run and
+inaccessible endpoint.
+
+Measure and decide. Installation/reproduction success, byte-identical artifacts where
+applicable, discrepancies, missing prerequisites and total effort. Keep unavailable arms
+NOT_RUN and unknown metrics null. A synthetic substitute tests its own corpus, not an
+unreleased private archive.
+
+Access and credit. Accessible code/model pins, source seals, commands, budgets, complete
+outputs and safe data-release rights. McPhetridge recommends a minimal public-safe
+reproducibility packet; Gelhaus identifies independent validation as future work.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T31 — Independent observer and receipt validation
+
+Claim and scope (test-design recommendation). Independent observations can check
+completion and authority claims when the observer has the necessary source, policy and
+effect context. [G5, PDF pp. 2, 5, 6, 7, 8]
+
+Current evidence. McPhetridge's old witness ZIP is a test-design scaffold; later
+filesystem and native executions are separately recorded. It is not a native OOCC
+result.
+
+Required test. Compare self-report and a separate observer under equal necessary
+evidence, then separately ablate policy/source/effect access. Challenge cases: False
+completion, a correct refusal, inherited contradiction, forged ACK and a valid completed
+task.
+
+Measure and decide. Detection rate, false-alarm rate, evidence access, missed failure
+types and intervention cost. An effect-only observer may falsely flag a valid refusal.
+Distinguish the effect of separation from unequal information; scripted decisions are
+not runtime observations.
+
+Access and credit. Actual subject/observer executions, pinned evidence access and
+independently read effects. McPhetridge supplies the witness experimental structure and
+this recommendation; G5 provides evidence-level and receipt context, not authorship of
+that scaffold.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T32 — Complete useful tasks and justified refusals
+
+Claim and scope (comparative evaluation requirement). A research workflow should deliver
+the requested source-correct result, preserve uncertainty and refuse unsupported
+demands. [G9, PDF pp. 7, 8, 14; G5, PDF pp. 8; G8, PDF pp. 444]
+
+Current evidence. The publications record source discovery without successful
+deliverable completion; no overall comparative completeness rate is independently
+established.
+
+Required test. Compare methods on balanced answerable, unsupported, conflicting and
+resource-limited tasks within their declared capabilities. Challenge cases: Multi-part
+task, answerable question with unusual wording, absent source, source conflict, missing
+bridge and an exhausted budget.
+
+Measure and decide. Complete/partial correct outputs, wrong support, correct refusal,
+over-refusal, conflict handling, execution failures and all resource costs. Source found
+is not task complete. Refusing everything cannot win; unsupported completion cannot
+compensate for failures elsewhere.
+
+Access and credit. Frozen unchanged questions, independently sealed expectations, full
+outputs and a declared scope for each method. McPhetridge recommends bidirectional
+scoring and applies the same criteria to MPLPB; Gelhaus explicitly preserves failed
+deliverables.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T33 — Unified cross-index edge identity and revision
+
+Claim and scope (specific implementation acceptance proposal). A proposed unified graph
+should return the same typed edge identity and source state through root and
+participating local indexes. [G9, PDF pp. 201]
+
+Current evidence. The supplement describes OI-C2/T-105 as design/work-order artifacts;
+synthetic host tests do not establish a deployed unified native graph.
+
+Required test. Compare the root T0 view and each participating T1/T2 view with one
+canonical source-backed edge record under the selected implementation contract.
+Challenge cases: Three or more index memberships, a revision arriving out of order,
+stale generations, rejected edges, a revoked source grant and a fabricated causal edge.
+
+Measure and decide. Canonical edge-ID/type agreement, complete membership preservation,
+revision convergence, stale/grant invalidation and hidden-metadata leakage. Local
+sidecars must not become separately authoritative contradictory copies. Native graph
+acceptance requires the actual graph, not only a synthetic reference demonstration.
+
+Access and credit. Accessible versioned graph implementation, independently readable
+source state and root/local query interfaces. Gelhaus explicitly proposes these
+acceptance tests in the supplement; McPhetridge recommends executing and publishing the
+same contract across all views.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+T34 — Exact comparisons and claims about omissions
+
+Claim and scope (documentary comparison requirement). A difference or omission claim
+must refer to the correct complete source editions rather than an incomplete excerpt or
+derivative. [G9, PDF pp. 201; G2, PDF pp. 8, 9]
+
+Current evidence. The supplement names an apparent omission that disappears on searching
+a full publication edition; the editorial bridge distinguishes publication identity from
+timestamps and derivatives.
+
+Required test. Compare pinned original editions at exact spans, separately recording
+edition identity, completeness and permitted source access. Challenge cases: Excerpt
+missing a later paragraph, a TTS derivative, two distinct editions, unchanged claims
+beside a partial revision and restricted or unavailable sections.
+
+Measure and decide. Exact added/deleted/unchanged spans, edition-selection accuracy,
+inspected-source coverage, false omission claims and unresolved comparisons. Absence is
+established only within the fully inspected declared scope. Partial search cannot prove
+that a complete work omits a claim, and different carriers are not automatically
+different propositions.
+
+Access and credit. Authorized complete editions, source hashes, reversible span maps and
+honest retrieval/completeness limits. Gelhaus records the omission/source-selection
+counterexamples; McPhetridge recommends complete-edition controls and exact comparison
+reporting.
+
+Status. Required test NOT_RUN in this iteration; native OOCC NOT_RUN.
+
+11. Engineering recommendations from Mitchell D. McPhetridge
+
+The following recommendations concern observable behavior and reproducibility. They are
+offered in the same spirit as an actionable engineering review of MPLPB: isolate the
+mechanism, preserve the failure, repair a general class if needed, and rerun unchanged
+tests. They do not presume that an unavailable capability failed, and they do not demand
+private personal records.
+
+1.  Publish a minimal runnable claim packet first (T08, T23, T30). Identify the selected
+    current version, supported operations and known omissions. Include public-safe
+    synthetic sources, installation commands, source hashes, execution limits and raw
+    outputs. Keep host tests, historical builds, current native acceptance and
+    comparative benefits in separate rows. If code cannot be shared, specify exactly
+    which claims an external researcher cannot reproduce.
+2.  Demonstrate one complete cold-session task (T01–T02, T22, T32). Begin with an
+    unfamiliar source-governed archival or editing task, not an architecture-wide
+    superiority claim. Compare with a capable ordinary handoff, match
+    models/tools/source access, and judge the completed requested artifact. Count every
+    manual repair, not only the successful restart. Then repeat on unseen tasks without
+    changing the frozen criteria.
+3.  Demonstrate one real enforced boundary (T05–T06, T19–T21, T28). Use an actual
+    adapter, a valid permitted operation, a revoked or forged request, and independent
+    effect readbacks. Preserve authenticated receipts and crash/interruption results.
+    Instruction compliance may be useful, but it must not be reported as programmatic
+    enforcement. Gelhaus already identifies much of this integration work as unfinished;
+    the recommendation is to complete and publish it.
+4.  Separate retrieval, checked claims and relationship suggestions (T07, T09–T15).
+    Publish source coverage and semantic relevance separately. Preserve contradictory
+    sources. Do not let a shared identifier, copied account or valid quote stand in for
+    independent corroboration. Check one explicit connection at a time and stop at
+    missing evidence. A candidate graph can remain useful without being accepted
+    history.
+5.  Narrow theoretical claims to testable statements (T03–T04, T16–T18, T27). Replace
+    unrestricted numerical minimality with a stated encoding and measured break-even
+    conditions. Define terms before treating analogies as mechanisms. Execute the
+    already proposed weight ablations and prospective transfer baselines, preserving
+    negative transfers and maintenance cost.
+6.  Test the current teaching loop before claiming educational benefit (T23–T26). First
+    publish current native acceptance. Then run the learning, transfer and retention
+    comparisons already proposed in Headmaster, using real consenting learners when
+    available. A prototype, extracted learning phrase or fluent model answer is not a
+    learning outcome. Without participants, keep the educational study NOT_RUN.
+7.  Make the final assessment genuinely separable from development (T10, T29–T34).
+    Freeze outputs for source-linked scoring; keep evaluator expectations out of runtime
+    inputs; disclose self-authored labels and conflicts of interest. A fresh AI session
+    can provide a labelled AI assessment, not independent human certification. Apply the
+    same test requirements to MPLPB, including its known over-refusals, incomplete
+    historical answers and coherent-false-original limit.
+
+These are recommendations, not an invented new pass/fail verdict. Where Gelhaus has
+already specified the needed experiment—such as the role-enactment factorial design,
+weight ablations, forged-authority checks or prospective Functional Layers
+comparisons—the contribution here is an explicit execution and reporting roadmap with
+stronger attribution and evidence separation, not a claim to have invented his
+proposals.
+
+12. Matched comparison and reporting protocol
+
+For each test, record the claim ID, target and comparator, exact implementation and
+model pins, source manifest hash, permissions, tool and source-read budgets,
+randomization, instructions, outcomes and human interventions. State whether the unit is
+a quotation, retrieved slot, proposed edge, accepted proposition, completed deliverable,
+native effect or learner outcome. A retrieval percentage must never be compared directly
+with an answer-completion percentage.
+
+Declare supported positive controls and unsupported negative controls before testing.
+Report complete correct answers, partial correct answers, correct refusals, unnecessary
+refusals, wrong accepted claims, conflicts, unavailable evidence and execution failures
+separately. Release denominators, all raw outcomes, uncertainty and missing
+measurements. A critical unauthorized effect is reported even if many other cases pass;
+zero observed effects has a sample-dependent uncertainty bound, not universal certainty.
+
+Use the same evidence access when measuring the value of observer separation; vary
+access only in an explicitly labelled ablation. Compare native systems only where both
+implement the declared operation. An unavailable controller remains NOT_RUN; an
+out-of-scope function is not silently a native failure. Independently assess semantic
+correctness where possible; a hash or software test is not a semantic judge.
+
+The companion research/oocc_claim_tests_v1.json carries each claim paraphrase, physical
+source pages, current evidence, comparator, challenge cases, measurements,
+interpretation rule, access prerequisites, proposal credit and execution status.
+docs/OOCC_CLAIMS_AND_REQUIRED_TESTS.md provides a per-test reading copy. Neither file
+executes the proposed studies. Existing C1–C4 outputs remain frozen; C5/C6 remain
+NOT_RUN.
+
+13. Credit, reproducibility and the next fair test
+
+The supplied research volume explicitly credits McPhetridge's Dual-System Architecture,
+bridge-language load testing and externalized cognitive-runtime work [G2, PDF p. 143].
+It would be inaccurate to say these papers never acknowledge that influence. Citation
+does not independently resolve every priority or implementation-provenance question, but
+such questions require actual source histories and code comparisons.
+
+13.1 Attribution: McPhetridge's machinery, Gelhaus's benchmarks
+
+For the MPLPB evaluations, the implementation and pre-existing automated native test
+machinery are McPhetridge's work. Gelhaus's benchmark framing, test selection and
+reported analysis are evaluation activities; they are not authorship of that
+implementation or machinery. Gelhaus did not build Combined MPLPB by testing it.
+Execution of an upstream test does not transfer authorship of that test or its
+underlying machinery.
+
+The retained review of Beyond Guarded Retrieval records that Gelhaus selected and ran
+McPhetridge's native MPLPB regression tests, reporting 58/58 passing after omitted
+fixtures were restored [G11, PDF pp. 4, 6; B-Tests docs/GELHAUS_EXTERNAL_EVALUATION.md].
+The test implementation, ledger writer, validator, strict reader, provenance bundle and
+passage-ranking machinery were upstream MPLPB components, not newly implemented OOCC
+components. The selection and interpretation were Gelhaus's evaluation work. This
+paragraph attributes the reported run; it does not claim a fresh 58-test execution in
+the present revision.
+
+The later public publication package supplies reproduce.py, whose inspected imports
+include mplpb_combined.ledger.write, mplpb_answers.pipeline.answer_query and
+mplpb_combined.reader.PROFILES [G12]. It builds source pages with McPhetridge's writer
+and asks questions through McPhetridge's strict answer pipeline. The supplied script
+also contains fixture-generation and query-template code. Its inclusion in Gelhaus's
+publication package does not establish that he authored it or built a separate execution
+harness. This review assigns no new implementation credit on that basis. The
+demonstrated execution machinery is the imported upstream MPLPB machinery.
+
+The public package README itself credits McPhetridge as the software developer and calls
+the script a method-equivalent driver using the engine's own writer. The package audit
+preserves its SHA-256, script/import evidence and manifest verification in
+evaluation/public-claims/2026-11-20/attribution-audit.json. This is directly inspectable
+provenance for the test machinery; it is not evidence that the unavailable native OOCC
+controller passed any test.
+
+M6 and B-Tests must not be invented as components of that public driver. Inspection
+found no M6 runtime or B-Tests implementation in this package; the shown
+non-standard-library imports are MPLPB's own modules. The package does not establish
+that Gelhaus used McPhetridge's private M6. These ten OOCC papers do not settle that
+separate question either. McPhetridge's authorship of MPLPB, its pre-existing automated
+tests, B-Tests and any separately evidenced private tools remains distinct from
+evaluation reporting. No separate Gelhaus-built test framework or driver is established
+by the evidence inspected here.
+
+The next discriminating study should compare published CAD instructions with strong
+conventional source governance using the same model and source access, and compare
+native systems only when both are available. It should freeze tasks and criteria before
+execution, include supported actions as well as prohibited ones, preserve missing and
+contradictory evidence, and retain every failure. An evaluator-owned reference program
+belongs in a labelled control arm.
+
+Primary outcomes should be correct bounded deliverables, unnecessary refusals, incorrect
+answers, source/version fidelity, verified effects, preservation of corrections, human
+intervention and resource costs. Fresh-session transfer must be observed rather than
+asserted. New model configuration, usage, independent semantic accuracy, human review
+time and native OOCC performance remain null or NOT_RUN in the present release.
+
+14. Conclusion
+
+OOCC publications describe design distinctions and report engineering outcomes that
+require direct examination; the unavailable checkpoint outcomes are not verified by this
+review. Its public reader method is a structured procedure delivered through
+instructions; its broader architecture also includes reported workflows and software
+components. Declared rules, prototype existence, exact source retrieval, reference
+resolution, native integration and comparative benefit are distinct evidentiary
+achievements.
+
+The retained probes expose a bounded mathematical overstatement, demonstrate conditional
+reference compression, and verify selected behavior in two explicitly identified
+programs. The 34-family roadmap specifies what further evidence the reviewed claims
+need; the recommendations identify a practical order for obtaining it. They do not
+establish a global winner. Testing OOCC fairly means making its claims executable and
+inspectable where possible, preserving unavailable tests as unavailable, and applying
+the same standards to MPLPB.
+
+References
+
+G1–G10 identify Benjamin Gelhaus's ten supplied papers. G11 is his earlier MPLPB
+evaluation, cited as prior context rather than newly reproduced here. G12 identifies the
+later public MPLPB benchmark package inspected for code attribution, not an OOCC
+checkpoint release. Page references identify physical PDF pages. Exact supplied
+filenames, hashes and page counts are in the companion source inventory; the original
+third-party PDFs are not redistributed here.
+
+[G1] Gelhaus, Benjamin. The Contribution Is Not the Byline: Role-Enacted Human–AI
+Collaboration, Intellectual Provenance, and Accountable Research. Revised edition v1.1,
+7 November 2026. 12 pages.
+
+[G2] Gelhaus, Benjamin. OOCC / Functional Layers master research volume, supplied public
+reader edition. File OOCC_FUNCTIONAL_LAYERS_MASTER_RESEARCH_B.pdf. 439 pages. Use the
+file hash to distinguish editions; this review does not infer one publication date for
+every incorporated chapter.
+
+[G3] Gelhaus, Benjamin. Artificial Tangibility as a Low-Infrastructure Governance Layer
+for AI State Management. Supplied manuscript, 2026. 6 pages.
+
+[G4] Gelhaus, Benjamin. The Object as Filter: Holographic Return, AI Continuity, and
+Human-Readable Interfaces. Supplied manuscript, 2026. 7 pages.
+
+[G5] Gelhaus, Benjamin. From Work Exhaust to Source-Governed Collaborative Continuity.
+OOCC Research Paper v0.16, 26 October 2026. 10 pages. Supplied filename begins
+Condensed_technical_paper_derived_from_t.
+
+[G6] Gelhaus, Benjamin. Continuity, Authority, Directive: A Plain-Language Control
+Grammar for AI Work. Supplied CAD Control Grammar manuscript, 2026. 8 pages.
+
+[G7] Gelhaus, Benjamin. Canonical Tokens: A Minimal-Representation Principle for
+AI-Assisted Continuity. Supplied manuscript, 2026. 6 pages.
+
+[G8] Gelhaus, Benjamin. No More First Dates With AI. Supplied updated public reader
+edition. 445 pages; activation appendix at physical PDF pages 439–445.
+
+[G9] Gelhaus, Benjamin. OOCC / Voltron: Complete Native-Source Research Edition +
+Longitudinal Feasibility Addendum. Original research dated 2 November 2026; PDF
+conversion dated 3 November 2026. 202 physical PDF pages.
+
+[G10] Gelhaus, Benjamin. Headmaster: From Verbatim Evidence to Independent
+Understanding. November 2026 manuscript. 10 pages.
+
+[G11] Gelhaus, Benjamin. Beyond Guarded Retrieval: A Source-Bounded Evaluation of
+Combined MPLPB and a Roadmap for Historical Reconstruction. Stated 14 November 2026.
+https://www.academia.edu/181013727/Beyond_Guarded_Retrieval_A_Source_Bounded_Evaluation_of_Combined_MPLPB_and_a_Roadmap_for_Historical_Reconstruction
+. Prior attribution and pinned-run scope are retained in B-Tests
+docs/GELHAUS_EXTERNAL_EVALUATION.md; no private benchmark reproduction is claimed here.
+
+[G12] Gelhaus, Benjamin. Guarded Retrieval, Paraphrase Blindness, and Evidence-Grounded
+Answering. Public publication package, 19 November 2026, supplied ZIP
+Ben MPLPB_Oct2026_Publication_Package.zip, SHA-256
+f4d1c8263dbb8dcf9f7ddbc9fc85be5d005864db4c74fce1a93cda1bb4865718. Inspected files:
+README.md, reproduce.py and MANIFEST_SHA256.txt. Publication folder:
+https://drive.google.com/drive/folders/1i_n34wkDoHEky-5p7-pmu4Xs2IPblli0 . Engine pin
+bbf6690d69b32d16969cc10e5ce9d380427ead40. Package code inspection is separate from
+retained full-engine replication evidence.
+
+[M1] McPhetridge, Mitchell D. B-Tests public-claims experiment, 20 November 2026.
+research_lab/public_claims.py; evaluation/public-claims/2026-11-20/observed. Native
+MPLPB source:
+https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/tree/61cc7c04ebdfa84c8d783e005c6e7857c07600b2
+. Code and result hashes identify this experiment separately from its B-Tests baseline
+ancestry.
+
+[M2] McPhetridge, Mitchell D. Source-grounded field-alias iteration. 20 November 2026.
+https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/61cc7c04ebdfa84c8d783e005c6e7857c07600b2/evaluation/field-aliases/2026-11-20/REPORT.md
+.
+
+[M3] McPhetridge, Mitchell D. D% known-weakness study. 20 November 2026.
+https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/61cc7c04ebdfa84c8d783e005c6e7857c07600b2/evaluation/dpercent-known-weaknesses/2026-11-20/REPORT.md
+.
+
+[P1] McPhetridge, Mitchell D. Probabilistic Prompts and MPLPB Deterministic Contracts:
+The 8 a.m. Switch Test for Instructions and Effects. 18 November 2026.
+docs/paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.md.
+
+[P2] McPhetridge, Mitchell D. MPLPB and OOCC/CAD: Comparative Experiments / When the Map
+Becomes the Authority. Prior supplied and repository editions are distinguished by the
+paper archive manifest. docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md.
+
+[P3] McPhetridge, Mitchell D. The Witness Inside the Machine, Section 19 experiments and
+B-Tests replication audit. evaluation/witness-section19/RESULTS.md; supplied experiment
+ZIP SHA-256 0322c429a214752d25b3ede08567a8f76d2a8ed894a10fdd23f742f96ca1d395 . Original
+scripted records, later filesystem controls and native execution records are separate
+evidence.

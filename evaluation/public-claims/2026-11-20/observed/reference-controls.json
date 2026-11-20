@@ -1,0 +1,70 @@
+{
+  "implementation": "oocc_lab.engine.CADLab",
+  "ownership": "B-Tests evaluator reference; NOT Gelhaus native OOCC",
+  "source_sha256": "fde75a1f07820e1c300b1b13ce2108871ce401c557992146f2a1997211532efa",
+  "rows": [
+    {
+      "case": "stable_handle_historical_referent",
+      "handle": {
+        "decision": "RESOLVED",
+        "referent": "S1",
+        "namespace": "project"
+      },
+      "referent_state": "historical",
+      "current_query": {
+        "decision": "SUPPORTED_SOURCE_STATEMENT",
+        "answer": "4",
+        "evidence": [
+          {
+            "claim_id": "C2",
+            "value": "4",
+            "source_id": "S2",
+            "source_sha256": "5a8762ffd9d74d66b1105265d62fb27ac6ddbc6d05c091d602c6c86d649de17b",
+            "quote": "vessel | count | 4"
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "case": "unscoped_namespace_collision",
+      "actual": {
+        "decision": "AMBIGUOUS",
+        "namespaces": [
+          "other-project",
+          "project"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "case": "unavailable_reference",
+      "actual": {
+        "decision": "ABSENT"
+      },
+      "passed": true
+    },
+    {
+      "case": "revoked_grant",
+      "before": {
+        "decision": "SUPPORTED_SOURCE_STATEMENT",
+        "answer": "8",
+        "evidence": [
+          {
+            "claim_id": "PC",
+            "value": "8",
+            "source_id": "PRIVATE",
+            "source_sha256": "65d8ccde1445cc047686307105d41b2300c05418b5e086af86b1c2871b0c1692",
+            "quote": "vessel | count | 8"
+          }
+        ]
+      },
+      "after": {
+        "decision": "ABSENT",
+        "answer": null,
+        "evidence": []
+      },
+      "passed": true
+    }
+  ]
+}
