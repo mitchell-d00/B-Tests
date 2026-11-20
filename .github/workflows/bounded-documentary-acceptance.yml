@@ -16,7 +16,7 @@ permissions:
   contents: read
 
 env:
-  MPLPB_REVISION: '2bba39e07abc6dccf6e99591d3df61c03ba8cf38'
+  MPLPB_REVISION: '3342461cd22c177bc8fcab5f2a34075c5e1cbfb6'
 
 jobs:
   pinned-mplpb:
