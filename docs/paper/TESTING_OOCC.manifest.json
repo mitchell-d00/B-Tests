@@ -1,0 +1,33 @@
+{
+  "title": "Testing OOCC",
+  "subtitle": "Published Instructions, Executable Controls, and Evidence Boundaries",
+  "author": "Mitchell D. McPhetridge",
+  "date": "2026-11-20",
+  "version": "1.0",
+  "status": "author-review draft; not independently validated",
+  "renderer": "tools/build_critical_paper.py",
+  "renderer_sha256": "2826b712b20bee7b8eb0d85e60b0bf3e7d5653c2e7cda08f7198de1cd3c258a9",
+  "files": {
+    "docs/paper/TESTING_OOCC.md": {
+      "sha256": "b35606285caf4749993702b3f9d840e075953aa4b4823c39ed992a605eceb567",
+      "bytes": 26705
+    },
+    "docs/paper/TESTING_OOCC.txt": {
+      "sha256": "243c77a604c956a2c71d2683efee617d6c157b022833868a06f51f6158b23eef",
+      "bytes": 26668
+    },
+    "docs/paper/TESTING_OOCC.pdf": {
+      "sha256": "d8476d5bd900b32918f9d42a293504da1158b0311ac50d70fef7a5117db1124a",
+      "bytes": 86534
+    }
+  },
+  "native_target_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
+  "source_inventory": "evaluation/public-claims/2026-11-20/sources.json",
+  "experiment": "evaluation/public-claims/2026-11-20/observed/summary.json",
+  "native_oocc": "NOT_RUN",
+  "new_model_instruction_trials": "NOT_RUN",
+  "renderer_environment": {
+    "reportlab": "4.4.9",
+    "pandoc": "pandoc 3.1.11.1"
+  }
+}

@@ -1,5 +1,8 @@
 # Public papers and current comparison
 
+- **Testing OOCC: Published Instructions, Executable Controls, and Evidence Boundaries**, Mitchell D. McPhetridge, 20 November 2026, author-review draft. [MD](../paper/TESTING_OOCC.md) · [TXT](../paper/TESTING_OOCC.txt) · [PDF](../paper/TESTING_OOCC.pdf) · [Explicit comparisons and new probes](../../evaluation/public-claims/2026-11-20/RESULTS.md).
+- **[Complete available Mitchell paper archive](archive/README.md)**: existing papers indexed without duplication; missing MPLPB editions, the field-access response, earlier project papers and the distinct supplied map-response PDF preserved with source paths/revisions/hashes. Availability gaps are explicit in the manifest.
+
 - **The Witness Inside the Machine**, Mitchell D. McPhetridge, revised. Internal witness collapse, evidence from observed effects, and a Section 19 experiment design. [Markdown](../paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.md) · [PDF](../paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.pdf) · [Replication, pilot, and native checks](../../evaluation/witness-section19/RESULTS.md)
 - **Probabilistic Prompts and MPLPB Deterministic Contracts**, Mitchell D. McPhetridge, 18 November 2026. The 8 a.m. switch analogy and the recorded work-boundary probes. [Markdown](../paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.md) · [TXT](../paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.txt) · [PDF](../paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.pdf)
 - **MPLPB Mixed Dump**, Mitchell D. McPhetridge, 18 November 2026. Source-bounded review, proof admission, and reproducible tests on mixed documents. [Markdown](../paper/MPLPB_MIXED_DUMP.md) · [TXT](../paper/MPLPB_MIXED_DUMP.txt) · [PDF](../paper/MPLPB_MIXED_DUMP.pdf)

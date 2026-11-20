@@ -1,0 +1,34 @@
+{
+  "schema": "public-claims-handoff-v1",
+  "date": "2026-11-20",
+  "repository": "mitchell-d00/B-Tests",
+  "base_revision": "7771497",
+  "latest_user_clarification": "I\u2019d the old zip as the structure I built to think about the ways to test oocc and mplpb",
+  "authorized_work": [
+    "Testing OOCC paper by Mitchell D. McPhetridge in MD/TXT/PDF",
+    "Develop necessary critique tests and push to B-Tests",
+    "Make all comparisons explicit and update README",
+    "Archive all identified available missing Mitchell papers without overwriting originals"
+  ],
+  "completed": [
+    "New paper and source inventory; explicit C1\u2013C6 comparison matrix",
+    "512 mathematical representation probes;20 byte-cost scenarios;4 evaluator-reference controls;7 actual native MPLPB seam controls",
+    "Full B-Tests130 tests pass; exact PDF/TXT reproduction checks pass",
+    "Revised Witness PDF confirmed byte-identical to current repository; ZIP classified as author test-design scaffold; historical outputs unchanged",
+    "13 available paper editions indexed with source paths, hashes and pinned public-repository copies"
+  ],
+  "not_run": [
+    "New model instruction trials",
+    "Gelhaus native OOCC controller",
+    "Independent human/semantic validation"
+  ],
+  "access_limits": [
+    "Cited MrMeNotU/OOCC repository/PR returned404 during review; no inference of historical nonexistence",
+    "Three known PhilArchive paper pages returned403; linked in archive manifest, no missing PDF contents invented"
+  ],
+  "next_steps": [
+    "Push complete branch and inspect CI",
+    "Keep model keys/custody out of target inputs; only claim real executions after recording them",
+    "A native OOCC comparison requires authorized runnable exact version and independent readbacks; never substitute evaluator CADLab"
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "C1",
+    "left": "Decimal spelling of 10**n",
+    "right": "Python exponentiation expression for the identical integer",
+    "unit": "ASCII bytes under an explicitly shared Python notation",
+    "status": "EXECUTABLE_ANALYTICAL_PROBE",
+    "establishes": "Counterexamples to universal decimal-minimality; does not compute Kolmogorov complexity or measure model tokens.",
+    "not_compared": "OOCC runtime performance, tokenizer quality, learning or historical truth"
+  },
+  {
+    "id": "C2",
+    "left": "Repeated expanded referent strings",
+    "right": "Handle uses plus a serialized dictionary entry",
+    "unit": "UTF-8 bytes including the dictionary",
+    "status": "EXECUTABLE_SERIALIZATION_PROBE",
+    "establishes": "Encoding-specific break-even examples, not universal context efficiency or safe reference resolution.",
+    "not_compared": "Actual model latency, token counts or retrieval cost"
+  },
+  {
+    "id": "C3",
+    "left": "B-Tests CADLab handle resolution",
+    "right": "Its separately checked current source state/query",
+    "unit": "Evaluator-owned structured fixtures",
+    "status": "EVALUATOR_REFERENCE_CONTROL",
+    "establishes": "An immutable reference can still designate a historical source; namespacing and grant checks matter.",
+    "not_compared": "Benjamin Gelhaus's controller; CADLab is our reference implementation"
+  },
+  {
+    "id": "C4",
+    "left": "Requested native MPLPB action",
+    "right": "Read-only event counts and actual local executor marker",
+    "unit": "Seven existing seam-probe fixtures at an exact native commit",
+    "status": "OPTIONAL_NATIVE_EXECUTION",
+    "establishes": "Allow/block behavior on these authored fixtures, not general semantic truth or an OOCC head-to-head.",
+    "not_compared": "A model agreeing to refuse; external real-world completion"
+  },
+  {
+    "id": "C5",
+    "left": "Published CAD passages with a fresh model",
+    "right": "Strong conventional source-governance instructions with the same model",
+    "unit": "Identical source/task packet and output contract; fresh independent conversations",
+    "status": "NOT_RUN",
+    "establishes": "If executed, instruction-treatment behavior only. Instruction lengths differ and must be reported.",
+    "not_compared": "The private OOCC native app, Memory/Drive controller, installed Android release or background scheduler"
+  },
+  {
+    "id": "C6",
+    "left": "Gelhaus native OOCC controller",
+    "right": "Native MPLPB under matched source/operation budgets",
+    "unit": "Version-pinned runnable systems plus independently read effects",
+    "status": "NOT_RUN",
+    "establishes": "Requires authorized runnable OOCC, adapters and readbacks; none substituted here.",
+    "not_compared": "A fabricated controller, evaluator CADLab or a missing capability scored as a failure"
+  }
+]

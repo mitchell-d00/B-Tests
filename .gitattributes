@@ -1,0 +1,4 @@
+# Paper PDFs are byte-preserved artifacts, even when their streams look textual.
+*.pdf binary
+# Archived source editions retain original line endings and intentional whitespace.
+docs/papers/archive/** -text -whitespace

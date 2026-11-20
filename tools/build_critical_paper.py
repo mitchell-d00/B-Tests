@@ -14,8 +14,11 @@ ROOT=Path(__file__).resolve().parents[1]
 STEM='WHEN_THE_MAP_BECOMES_THE_AUTHORITY'
 MIXED_STEM='MPLPB_MIXED_DUMP'
 SWITCH_STEM='PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS'
-PAPERS={'critical':STEM,'mixed-dump':MIXED_STEM,'switch-test':SWITCH_STEM}
+PAPERS={'critical':STEM,'mixed-dump':MIXED_STEM,'switch-test':SWITCH_STEM,'testing-oocc':'TESTING_OOCC'}
 METADATA={
+    'TESTING_OOCC':('Testing OOCC',
+                    'Published Instructions, Executable Controls, and Evidence Boundaries',
+                    'McPhetridge · Testing OOCC · 20 November 2026 · Author-review draft'),
     STEM:('MPLPB and OOCC/CAD: Comparative Experiments',
           'Critical OOCC/CAD experiments and source-governance boundaries',
           'McPhetridge · Research draft · 16 November 2026'),

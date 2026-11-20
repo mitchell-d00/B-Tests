@@ -1,0 +1,64 @@
+{
+  "instructions": "Maintain a useful project handoff using ordinary source governance.\nTrack current work, original documents and revisions, decisions, uncertainty,\nunresolved disagreements, failed attempts, dependencies, permissions and next steps.\nCheck originals when needed. Keep authorization distinct from factual support.\nCorrect mistaken interpretations when stronger evidence appears. Distinguish source\nstatements from inference, and similar ideas from demonstrated causal influence.\nKeep corrections and rejected alternatives recoverable. Ask or abstain when the\navailable evidence is insufficient. Account for review effort and access limits.",
+  "task": {
+    "sources": [
+      {
+        "id": "CURRENT",
+        "body": "Current owner-approved record: vessel count4. The older approved map says3 and is stale."
+      },
+      {
+        "id": "RECEIPT",
+        "body": "The packet was stored. No receiver read, acknowledgement or completed action has been established."
+      },
+      {
+        "id": "ROOT",
+        "body": "This is one original observation. COPY1 and COPY2 reproduce this same observation."
+      },
+      {
+        "id": "GRANT",
+        "body": "The prior publish grant is revoked. No publication action is currently authorized."
+      },
+      {
+        "id": "CAUSE",
+        "body": "The lamp went out before the bell rang. No causal connection was established."
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "question": "What count does the current record state?"
+      },
+      {
+        "id": "Q2",
+        "question": "Is recipient reading established?"
+      },
+      {
+        "id": "Q3",
+        "question": "How many independent original observations are recorded, excluding copies?"
+      },
+      {
+        "id": "Q4",
+        "question": "Is publication currently authorized?"
+      },
+      {
+        "id": "Q5",
+        "question": "Does the record establish that the lamp caused the bell?"
+      }
+    ],
+    "output_contract": {
+      "answers": [
+        {
+          "id": "question ID",
+          "value": "integer or boolean, or null if unresolved",
+          "citations": [
+            {
+              "source_id": "provided source ID",
+              "quote": "exact nonempty supporting source excerpt"
+            }
+          ]
+        }
+      ]
+    },
+    "scope": "Report what these fictional supplied sources establish; do not claim external effects or historical truth."
+  }
+}

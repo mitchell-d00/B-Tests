@@ -16,6 +16,59 @@ the repository cited in Gelhaus’s research. The controller code at that
 location was unavailable for inspection or independent testing.
 [Reference G7](docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md#references)
 
+## Testing OOCC — explicit comparison ledger, 20 November 2026
+
+**Mitchell D. McPhetridge, Testing OOCC: Published Instructions, Executable Controls,
+and Evidence Boundaries.** [MD](docs/paper/TESTING_OOCC.md) · [TXT](docs/paper/TESTING_OOCC.txt)
+· [PDF](docs/paper/TESTING_OOCC.pdf) · [New reproducible results](evaluation/public-claims/2026-11-20/RESULTS.md)
+· [Mitchell paper archive and original source paths](docs/papers/archive/README.md).
+
+The table below identifies what is compared with what. A source discussion,
+reference-program check, model response and native effect are different evidence
+units. **Our CADLab is not Ben's OOCC controller.** A mocked or prewritten result
+is not a model observation. No missing native OOCC arm receives an invented zero.
+
+| Comparison | Exact objects/arms | What was measured / status |
+|---|---|---|
+| Published-instruction model trials (retained earlier studies) | Selected published CAD instructions versus capable conventional governance, matched sources and base model within each recorded condition | Recorded model answers and handoffs; original model/session limitations and dated denominators remain in their reports. Not native OOCC enforcement. |
+| Independent CAD reference controls | B-Tests `oocc_lab.engine.CADLab` versus authored structured-source and permission expectations | Behavior of our program; never credited as tests of Gelhaus's implementation. New public-claims run4/4 controls. |
+| Native MPLPB before/after (retained) | Actual pinned MPLPB revisions, same local source/task seam fixtures | Real adapter markers and event counts. Historical/current pins differ across dated reports; they are not silently combined or described as OOCC arms. |
+| Native MPLPB current, new C4 | Actual61cc7c04ebdfa84c8d783e005c6e7857c07600b2 versus the seven seam criteria and independent local readbacks |7/7 criteria met; one real allowed control,6 expected denials. Not an unconstrained language or historical-truth evaluation. |
+| Sorter modes (retained) | `compare` versus `not-compared` on identical source bytes and recorded target revision | Same observations, additional non-authoritative review edges; separate snapshot/reader profile checks. Not event-identity accuracy. |
+| Mixed-dump/d100 users (retained) | Designated original ledgers versus processed candidate dumps/workspaces, per recorded user/profile/budget | Native decisions, source maps, candidate preservation and no candidate promotion. Web topics are fixture metadata, not factual evidence. |
+| Public-paper reader probes (retained) | Older strict reader against bounded extracted public-paper text | Whole-page selection/withholding at the recorded pin. A returned page or absent support field is not a supported proposition. |
+| New C1 numeral probes | Decimal powers of ten versus equivalent Python expressions |512 sampled counterexamples to a broad decimal-minimality inference; byte counts, not token/latency data or512 OOCC failures. |
+| New C2 encoding probes | Repeated referent text versus dictionary plus handles |15/20 indexed cases cheaper,5 more expensive; explicit encoding assumptions and definition cost. |
+| New C5 prepared instruction comparison | CAD pages3,4,7 versus conventional instructions, identical future model and task |NOT_RUN. Five authored source questions per arm; instruction lengths differ and are recorded. Packets/scorer ready; no generated responses masquerade as measurements. |
+| Native OOCC versus native MPLPB, C6 | Gelhaus's version-pinned controller and actual storage/executor versus native MPLPB under matched operations |NOT_RUN. Requires authorized runnable controller, adapter, current permissions and independent effect readbacks. |
+
+[Exact comparison metadata](evaluation/public-claims/2026-11-20/comparisons.json)
+· [Ten-paper source hashes](evaluation/public-claims/2026-11-20/sources.json)
+· [Prior supplied artifacts and duplicate map](evaluation/public-claims/2026-11-20/prior-materials.json).
+New model/human accuracy remains unmeasured. The existing observations below retain
+their own dates: older “current” labels are not automatically updated to61cc7c0.
+The [Section19 author clarification](evaluation/witness-section19/AUTHOR_INTENT_2026-11-20.md)
+identifies the old witness ZIP as Mitchell's test-design scaffold, separate from
+the revised paper, later filesystem pilot and native runs. Scripted examples are
+credited as design rather than counted as target performance.
+The new critique cites Ben's explicit limits and his acknowledgments of Mitchell's
+work; it does not claim his entire project is merely one prompt or that every
+unimplemented proposal failed an operational test.
+
+### MPLPB limits retained in this comparison
+
+The new native pin is61cc7c0, not the older “current” revisions in dated reports.
+Its source-grounded alias iteration increased unchanged expanded-stress complete
+matches168→189/420 while preserving580 expected refusals. Its retained historical
+replay is3 native complete,2 partial,3 conflicts and14 abstentions out of22; those
+are not independently adjudicated historical answers. The separate4096-case D%
+study reports657/1262 complete key matches and2834/2834 expected refusals. These
+populations and metrics are distinct and are not pooled or used to claim a global
+OOCC/MPLPB winner. These are linked MPLPB development measurements, not extra
+new B-Tests model trials or independent accuracy certification.
+[Alias evidence](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/61cc7c04ebdfa84c8d783e005c6e7857c07600b2/evaluation/field-aliases/2026-11-20/REPORT.md)
+· [Known-weakness study](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/61cc7c04ebdfa84c8d783e005c6e7857c07600b2/evaluation/dpercent-known-weaknesses/2026-11-20/REPORT.md).
+
 ## What the testbench has tested
 
 B-Tests supplies the test cases, published instructions, fresh-session procedures,

@@ -1,0 +1,54 @@
+name: Public claim probes and native controls
+on:
+  push:
+    paths:
+      - 'research_lab/public_claims.py'
+      - 'tests/test_public_claims.py'
+      - 'docs/paper/TESTING_OOCC*'
+      - 'evaluation/public-claims/**'
+      - '.github/workflows/public-claims.yml'
+  pull_request:
+    paths:
+      - 'research_lab/public_claims.py'
+      - 'tests/test_public_claims.py'
+      - 'docs/paper/TESTING_OOCC*'
+      - 'evaluation/public-claims/**'
+      - '.github/workflows/public-claims.yml'
+permissions:
+  contents: read
+jobs:
+  authored-probes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: btests
+      - uses: actions/checkout@v4
+        with:
+          repository: mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages
+          ref: 61cc7c04ebdfa84c8d783e005c6e7857c07600b2
+          path: mplpb
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Reproduce analytical and actual native controls without inference
+        working-directory: btests
+        run: |
+          python -m research_lab.public_claims run --out ci-public-claims --mplpb-root ../mplpb
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          result=json.loads(Path('ci-public-claims/summary.json').read_text())
+          assert result['reference_controls_passed']==result['reference_controls_total']==4
+          assert result['native_mplpb']['passed']==result['native_mplpb']['cases']==7
+          assert result['native_mplpb']['not_run']==0
+          assert result['gelhaus_native_oocc']['status']=='NOT_RUN'
+          assert result['new_model_instruction_trials']['status']=='NOT_RUN'
+          assert result['model_calls']==0
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: public-claim-observations
+          path: btests/ci-public-claims/
