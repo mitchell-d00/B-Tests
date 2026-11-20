@@ -16,7 +16,7 @@ permissions:
   contents: read
 
 env:
-  MPLPB_REVISION: '2f173ca9b201a21ff01eb3aef720e9c4ac0deab7'
+  MPLPB_REVISION: '2bba39e07abc6dccf6e99591d3df61c03ba8cf38'
 
 jobs:
   pinned-mplpb:
@@ -34,7 +34,8 @@ jobs:
       - name: Check the pinned native implementation
         run: |
           test "$(git rev-parse HEAD)" = "$MPLPB_REVISION"
-          python -m unittest tests.test_compound_fields tests.test_field_aliases tests.test_scoped_extensions -v
+          python -m unittest tests.test_compound_fields tests.test_field_aliases tests.test_scoped_extensions tests.test_pinned_documentary_inspection -v
+          node tests/documentary-render.cjs
           python -m tools.evaluate_public_evidence --output "$RUNNER_TEMP/bounded-public-controls.json" --require-capabilities
       - name: Install the isolated worker dependency
         run: |
@@ -42,7 +43,16 @@ jobs:
           sudo apt-get install --yes --no-install-recommends bubblewrap
       - name: Reproduce expanded acceptance without the custodian key
         run: |
-          sudo "$(command -v python)" -m tools.verify_bounded_repair --output "$RUNNER_TEMP/bounded-repair"
+          # The isolated worker cannot bind the Actions workspace below /home.
+          stage="$(sudo mktemp -d /tmp/mplpb-bounded.XXXXXX)"
+          status=0
+          sudo "$(command -v python)" -m tools.verify_bounded_repair --output "$stage/bounded-repair" || status=$?
+          sudo cp -R "$stage/bounded-repair" "$RUNNER_TEMP/bounded-repair"
+          if ((status)); then
+            find "$RUNNER_TEMP/bounded-repair/run" -name failure.json -print -quit |
+              while IFS= read -r failure; do head -20 "$(dirname "$failure")/worker.log"; done
+          fi
+          exit "$status"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
