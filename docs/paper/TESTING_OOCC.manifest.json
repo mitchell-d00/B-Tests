@@ -1,24 +1,32 @@
 {
   "title": "Testing OOCC",
-  "subtitle": "Published Instructions, Executable Controls, and Evidence Boundaries",
+  "subtitle": "Claims, Required Tests, and a Roadmap to Verified Behavior",
   "author": "Mitchell D. McPhetridge",
   "date": "2026-11-20",
-  "version": "1.0",
+  "version": "1.1",
   "status": "author-review draft; not independently validated",
   "renderer": "tools/build_critical_paper.py",
-  "renderer_sha256": "2826b712b20bee7b8eb0d85e60b0bf3e7d5653c2e7cda08f7198de1cd3c258a9",
+  "renderer_sha256": "854e684ecf0412185ba5f5b4e3a3d327c0ff9a1da9100ef6bfd18751f4268ce7",
   "files": {
     "docs/paper/TESTING_OOCC.md": {
-      "sha256": "b35606285caf4749993702b3f9d840e075953aa4b4823c39ed992a605eceb567",
-      "bytes": 26705
+      "sha256": "69b0c931d06de68c7b57f33113c3034a13d0e7676afff77fe83c6e2d448d3f34",
+      "bytes": 79092
     },
     "docs/paper/TESTING_OOCC.txt": {
-      "sha256": "243c77a604c956a2c71d2683efee617d6c157b022833868a06f51f6158b23eef",
-      "bytes": 26668
+      "sha256": "18b815336e06c94673e2d7bb5b4a68ce945c1493632e852450f97ce4ce97ed30",
+      "bytes": 78201
     },
     "docs/paper/TESTING_OOCC.pdf": {
-      "sha256": "d8476d5bd900b32918f9d42a293504da1158b0311ac50d70fef7a5117db1124a",
-      "bytes": 86534
+      "sha256": "de4172a6b5ae03fa12f2106340cd07af690d2e4b1e1e96d62dbe40459f71df35",
+      "bytes": 127864
+    },
+    "docs/OOCC_CLAIMS_AND_REQUIRED_TESTS.md": {
+      "sha256": "37eedcd3c4da4c7915a2e3f71cf61c33cffa8ef37522e601f04968b5cf3ddd7d",
+      "bytes": 46498
+    },
+    "research/oocc_claim_tests_v1.json": {
+      "sha256": "f817a323728473f1d4ea3db84c1abbacb5a4ceed705f8ebf586c107560c5c205",
+      "bytes": 61204
     }
   },
   "native_target_revision": "61cc7c04ebdfa84c8d783e005c6e7857c07600b2",
@@ -29,5 +37,12 @@
   "renderer_environment": {
     "reportlab": "4.4.9",
     "pandoc": "pandoc 3.1.11.1"
-  }
+  },
+  "claim_test_catalogue": "research/oocc_claim_tests_v1.json",
+  "claim_test_families": 34,
+  "first_edition": {
+    "path": "docs/papers/archive/testing-oocc-v1.0",
+    "source_revision": "44cda23fd35216684e6f39932db7fcf5ff49ef3d"
+  },
+  "new_executions_in_this_revision": false
 }

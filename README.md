@@ -18,10 +18,13 @@ location was unavailable for inspection or independent testing.
 
 ## Testing OOCC — explicit comparison ledger, 20 November 2026
 
-**Mitchell D. McPhetridge, Testing OOCC: Published Instructions, Executable Controls,
-and Evidence Boundaries.** [MD](docs/paper/TESTING_OOCC.md) · [TXT](docs/paper/TESTING_OOCC.txt)
+**Mitchell D. McPhetridge, Testing OOCC: Claims, Required Tests, and a Roadmap to Verified Behavior (v1.1).** [MD](docs/paper/TESTING_OOCC.md) · [TXT](docs/paper/TESTING_OOCC.txt)
 · [PDF](docs/paper/TESTING_OOCC.pdf) · [New reproducible results](evaluation/public-claims/2026-11-20/RESULTS.md)
 · [Mitchell paper archive and original source paths](docs/papers/archive/README.md).
+
+The revision adds [34 source-linked claim/test families](docs/OOCC_CLAIMS_AND_REQUIRED_TESTS.md), a [machine-readable roadmap](research/oocc_claim_tests_v1.json), and McPhetridge's engineering recommendations. Each entry separates the attributed claim, current evidence, required comparison, adversarial cases, metrics, prerequisites and proposal credit. Gelhaus's already proposed experiments are credited; this roadmap is **not 34 completed tests or 34 demonstrated defects**. Native OOCC and new model trials remain **NOT_RUN**. The [first edition](docs/papers/archive/testing-oocc-v1.0/TESTING_OOCC.md) and its hashes are preserved.
+
+[Revision verification and exact commands](evaluation/public-claims/2026-11-20/PAPER_V1_1.md). The paper, catalogue and archive can be checked with `python -m tools.verify_oocc_claim_roadmap`; this verifies artifact consistency, not semantic correctness.
 
 The table below identifies what is compared with what. A source discussion,
 reference-program check, model response and native effect are different evidence

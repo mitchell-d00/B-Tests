@@ -17,8 +17,8 @@ SWITCH_STEM='PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS'
 PAPERS={'critical':STEM,'mixed-dump':MIXED_STEM,'switch-test':SWITCH_STEM,'testing-oocc':'TESTING_OOCC'}
 METADATA={
     'TESTING_OOCC':('Testing OOCC',
-                    'Published Instructions, Executable Controls, and Evidence Boundaries',
-                    'McPhetridge · Testing OOCC · 20 November 2026 · Author-review draft'),
+                    'Claims, Required Tests, and a Roadmap to Verified Behavior',
+                    'McPhetridge · Testing OOCC v1.1 · 20 November 2026 · Author-review draft'),
     STEM:('MPLPB and OOCC/CAD: Comparative Experiments',
           'Critical OOCC/CAD experiments and source-governance boundaries',
           'McPhetridge · Research draft · 16 November 2026'),

@@ -3,7 +3,7 @@
   "date": "2026-11-20",
   "repository": "mitchell-d00/B-Tests",
   "base_revision": "7771497",
-  "latest_user_clarification": "I\u2019d the old zip as the structure I built to think about the ways to test oocc and mplpb",
+  "latest_user_clarification": "I’d the old zip as the structure I built to think about the ways to test oocc and mplpb",
   "authorized_work": [
     "Testing OOCC paper by Mitchell D. McPhetridge in MD/TXT/PDF",
     "Develop necessary critique tests and push to B-Tests",
@@ -11,11 +11,14 @@
     "Archive all identified available missing Mitchell papers without overwriting originals"
   ],
   "completed": [
-    "New paper and source inventory; explicit C1\u2013C6 comparison matrix",
+    "New paper and source inventory; explicit C1–C6 comparison matrix",
     "512 mathematical representation probes;20 byte-cost scenarios;4 evaluator-reference controls;7 actual native MPLPB seam controls",
     "Full B-Tests130 tests pass; exact PDF/TXT reproduction checks pass",
     "Revised Witness PDF confirmed byte-identical to current repository; ZIP classified as author test-design scaffold; historical outputs unchanged",
-    "13 available paper editions indexed with source paths, hashes and pinned public-repository copies"
+    "14 available paper editions (including preserved Testing OOCC v1.0) indexed with source paths, hashes and pinned public-repository copies",
+    "34 source-linked required test families and McPhetridge recommendations; proposed tests not executed",
+    "First Testing OOCC edition preserved unchanged before v1.1 rewrite",
+    "v1.1 renderer check and artifact verifier passed; 130 B-Tests passed; representative PDF pages inspected"
   ],
   "not_run": [
     "New model instruction trials",
@@ -27,8 +30,10 @@
     "Three known PhilArchive paper pages returned403; linked in archive manifest, no missing PDF contents invented"
   ],
   "next_steps": [
-    "Push complete branch and inspect CI",
-    "Keep model keys/custody out of target inputs; only claim real executions after recording them",
-    "A native OOCC comparison requires authorized runnable exact version and independent readbacks; never substitute evaluator CADLab"
-  ]
+    "Commit and push v1.1 to existing PR3; inspect CI; no B-Tests merge yet",
+    "Keep native OOCC/new model/human review NOT_RUN until actual executions",
+    "Run the proposed studies only with the declared implementations, access and consent"
+  ],
+  "latest_user_instruction": "Say and list all tests his work needs vs claims he makes rewrite the paper and put my suggestions in it like he did me when he started this in his first critical paper",
+  "paper_version": "1.1"
 }
