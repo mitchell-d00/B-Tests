@@ -86,6 +86,11 @@ of a README rule and the same rule enforced by a pre-receive hook. The package
 retains the paper, original probes, and reproduced marker, event, and server-state
 readbacks. The measurements cover the named local fixtures.
 
+The [dispatch enforcement follow-up](comparative-tests/dispatch-enforcement/README.md)
+adds 28 controls across Python, seat RPC, loopback HTTP and the stock CLI. It
+reports the effect and event history separately. Complete mediation under
+adversarial conditions remains unestablished.
+
 B-Tests supplies the test cases, published instructions, fresh-session procedures,
 scoring code and retained logs needed to examine Ben's published OOCC/CAD ideas.
 **I have the testbench; I do not have Ben's private system to put on it.** His papers
