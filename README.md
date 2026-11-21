@@ -80,6 +80,12 @@ new B-Tests model trials or independent accuracy certification.
 
 ## What the testbench has tested
 
+The [Executable Gates comparative tests](comparative-tests/executable-gates/REPRODUCTION.md)
+pair seven native MPLPB dispatch controls and variants with a local Git comparison
+of a README rule and the same rule enforced by a pre-receive hook. The package
+retains the paper, original probes, and reproduced marker, event, and server-state
+readbacks. The measurements cover the named local fixtures.
+
 B-Tests supplies the test cases, published instructions, fresh-session procedures,
 scoring code and retained logs needed to examine Ben's published OOCC/CAD ideas.
 **I have the testbench; I do not have Ben's private system to put on it.** His papers
