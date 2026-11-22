@@ -1,0 +1,1209 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "important_distinction": "Inventory presence is not an execution or a passed result. Read the source records.",
+    "coverage": "Git-indexed repository files. Archive member names are indexed one layer deep.",
+    "record_semantics": "Raw status fields are transcribed. File and record counts may include repeat runs and references."
+  },
+  "counts": {
+    "files": 1224,
+    "collections": 26,
+    "test_source_files": 20,
+    "python_test_definitions": 187,
+    "archives": 11,
+    "archive_member_files": 2077
+  },
+  "details": {
+    "path": "research/test-inventory.jsonl",
+    "format": "jsonl",
+    "record_scope": "one repository file per line"
+  },
+  "collections": [
+    {
+      "path": ".",
+      "files": 5,
+      "entry_points": [
+        "README.md"
+      ],
+      "records_with_case_or_status": 0
+    },
+    {
+      "path": ".github/workflows",
+      "files": 10,
+      "entry_points": [],
+      "records_with_case_or_status": 0
+    },
+    {
+      "path": "blind",
+      "files": 9,
+      "entry_points": [
+        "blind/START.md"
+      ],
+      "records_with_case_or_status": 0
+    },
+    {
+      "path": "comparative-tests/dispatch-enforcement",
+      "files": 10,
+      "entry_points": [
+        "comparative-tests/dispatch-enforcement/README.md",
+        "comparative-tests/dispatch-enforcement/results.json"
+      ],
+      "records_with_case_or_status": 2
+    },
+    {
+      "path": "comparative-tests/executable-gates",
+      "files": 12,
+      "entry_points": [
+        "comparative-tests/executable-gates/README.md",
+        "comparative-tests/executable-gates/REPRODUCTION.md",
+        "comparative-tests/executable-gates/probes/results.json"
+      ],
+      "records_with_case_or_status": 0
+    },
+    {
+      "path": "docs",
+      "files": 18,
+      "entry_points": [],
+      "records_with_case_or_status": 0
+    },
+    {
+      "path": "docs/paper",
+      "files": 18,
+      "entry_points": [],
+      "records_with_case_or_status": 1
+    },
+    {
+      "path": "docs/papers",
+      "files": 38,
+      "entry_points": [
+        "docs/papers/README.md",
+        "docs/papers/archive/README.md"
+      ],
+      "records_with_case_or_status": 3
+    },
+    {
+      "path": "evaluation",
+      "files": 10,
+      "entry_points": [
+        "evaluation/findings-index.json"
+      ],
+      "records_with_case_or_status": 6
+    },
+    {
+      "path": "evaluation/agent-pilot-1",
+      "files": 3,
+      "entry_points": [
+        "evaluation/agent-pilot-1/summary.json"
+      ],
+      "records_with_case_or_status": 1
+    },
+    {
+      "path": "evaluation/critical-bench-1",
+      "files": 20,
+      "entry_points": [
+        "evaluation/critical-bench-1/summary.json"
+      ],
+      "records_with_case_or_status": 4
+    },
+    {
+      "path": "evaluation/discovery-1",
+      "files": 4,
+      "entry_points": [
+        "evaluation/discovery-1/summary.json"
+      ],
+      "records_with_case_or_status": 1
+    },
+    {
+      "path": "evaluation/human-export-1",
+      "files": 3,
+      "entry_points": [
+        "evaluation/human-export-1/summary.json"
+      ],
+      "records_with_case_or_status": 0
+    },
+    {
+      "path": "evaluation/mplpb-native",
+      "files": 148,
+      "entry_points": [
+        "evaluation/mplpb-native/component-check/summary.json",
+        "evaluation/mplpb-native/final-seven-case-pairs/summary.json",
+        "evaluation/mplpb-native/initial-five-case-pairs/summary.json",
+        "evaluation/mplpb-native/network-enabled/summary.json",
+        "evaluation/mplpb-native/restricted-environment/summary.json"
+      ],
+      "records_with_case_or_status": 48
+    },
+    {
+      "path": "evaluation/mplpb-updates",
+      "files": 575,
+      "entry_points": [
+        "evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/RESULTS.md",
+        "evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/summary.json",
+        "evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md",
+        "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/RESULTS.md",
+        "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/summary.json",
+        "evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/components/summary.json",
+        "evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/extras/summary.json",
+        "evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/image-retry/summary.json",
+        "evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/native/summary.json",
+        "evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/networked-retry/summary.json",
+        "evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/public-papers/RESULTS.md",
+        "evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/d100-repeat-2026-11-19/RESULTS.md",
+        "evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/d100-repeat-2026-11-19/summary.json",
+        "evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/d100/summary.json",
+        "evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/mixed/summary.json",
+        "evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/native/summary.json",
+        "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/components/summary.json",
+        "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/extras/summary.json",
+        "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/native/summary.json",
+        "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/summary.json",
+        "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/public-paper-repeat/results.json",
+        "evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/checks/seams/summary.json",
+        "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/checks/seams/summary.json",
+        "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/predecessors/residual/summary.json",
+        "evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/d100-repeat-2026-11-19/batch-01/run/summary.json",
+        "evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/d100-repeat-2026-11-19/batch-02/run/summary.json",
+        "evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/d100-repeat-2026-11-19/batch-03/run/summary.json",
+        "evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/d100-repeat-2026-11-19/batch-04/run/summary.json",
+        "evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/d100-repeat-2026-11-19/batch-05/run/summary.json"
+      ],
+      "records_with_case_or_status": 189
+    },
+    {
+      "path": "evaluation/propagation-1",
+      "files": 3,
+      "entry_points": [
+        "evaluation/propagation-1/summary.json"
+      ],
+      "records_with_case_or_status": 0
+    },
+    {
+      "path": "evaluation/public-claims",
+      "files": 129,
+      "entry_points": [
+        "evaluation/public-claims/2026-11-20/RESULTS.md",
+        "evaluation/public-claims/2026-11-20/observed-initial/summary.json",
+        "evaluation/public-claims/2026-11-20/observed/summary.json"
+      ],
+      "records_with_case_or_status": 24
+    },
+    {
+      "path": "evaluation/public-papers",
+      "files": 34,
+      "entry_points": [
+        "evaluation/public-papers/RESULTS.md"
+      ],
+      "records_with_case_or_status": 1
+    },
+    {
+      "path": "evaluation/witness-section19",
+      "files": 101,
+      "entry_points": [
+        "evaluation/witness-section19/RESULTS.md",
+        "evaluation/witness-section19/live/README.md",
+        "evaluation/witness-section19/live/REPORT.md",
+        "evaluation/witness-section19/research-archive/README.md",
+        "evaluation/witness-section19/results/archive-replay/summary.json",
+        "evaluation/witness-section19/results/filesystem-pilot/summary.json"
+      ],
+      "records_with_case_or_status": 27
+    },
+    {
+      "path": "fixtures",
+      "files": 5,
+      "entry_points": [],
+      "records_with_case_or_status": 3
+    },
+    {
+      "path": "oocc_lab",
+      "files": 1,
+      "entry_points": [],
+      "records_with_case_or_status": 0
+    },
+    {
+      "path": "research",
+      "files": 17,
+      "entry_points": [],
+      "records_with_case_or_status": 2
+    },
+    {
+      "path": "research_lab",
+      "files": 21,
+      "entry_points": [],
+      "records_with_case_or_status": 0
+    },
+    {
+      "path": "side_by_side",
+      "files": 7,
+      "entry_points": [
+        "side_by_side/README.md"
+      ],
+      "records_with_case_or_status": 1
+    },
+    {
+      "path": "tests",
+      "files": 18,
+      "entry_points": [],
+      "records_with_case_or_status": 0
+    },
+    {
+      "path": "tools",
+      "files": 5,
+      "entry_points": [],
+      "records_with_case_or_status": 0
+    }
+  ],
+  "test_sources": [
+    {
+      "path": "evaluation/witness-section19/research-archive/tests/test_separation.py",
+      "collection": "evaluation/witness-section19",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "TestParse.test_labels",
+          "line": 59
+        },
+        {
+          "name": "TestSeparationEffect.test_graded_improvement_supports",
+          "line": 66
+        },
+        {
+          "name": "TestSeparationEffect.test_flat_performance_weakens",
+          "line": 75
+        },
+        {
+          "name": "TestSeparationEffect.test_reversed_order_weakens",
+          "line": 84
+        },
+        {
+          "name": "TestSeparationEffect.test_stricter_is_not_better",
+          "line": 91
+        },
+        {
+          "name": "TestSeparationEffect.test_reject_all_scores_like_accept_all",
+          "line": 102
+        },
+        {
+          "name": "TestSeparationEffect.test_evidence_not_separation",
+          "line": 109
+        },
+        {
+          "name": "TestSeparationEffect.test_mixed_when_only_one_mode_shows_effect",
+          "line": 121
+        },
+        {
+          "name": "TestSeparationEffect.test_abstain_counts_against_overall_judgment",
+          "line": 129
+        },
+        {
+          "name": "TestSeparationEffect.test_permutation_is_deterministic",
+          "line": 136
+        },
+        {
+          "name": "TestSeparationEffect.test_single_level_is_not_run",
+          "line": 143
+        },
+        {
+          "name": "TestSeparationEffect.test_refuses_tampered_run",
+          "line": 148
+        },
+        {
+          "name": "TestSeparationEffect.test_writes_report",
+          "line": 156
+        },
+        {
+          "name": "TestFalseSupportRate.test_no_effect_rarely_reported_as_support",
+          "line": 166
+        },
+        {
+          "name": "TestDeterministicJudgesOnDemo.test_deterministic_stratum_is_flagged_as_confounded",
+          "line": 182
+        },
+        {
+          "name": "TestAbstentionMetrics.test_abstention_reduces_accuracy_and_coverage_without_a_false_alarm",
+          "line": 194
+        }
+      ]
+    },
+    {
+      "path": "evaluation/witness-section19/research-archive/tests/test_wie.py",
+      "collection": "evaluation/witness-section19",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "TestGenerate.test_balanced_and_complete",
+          "line": 29
+        },
+        {
+          "name": "TestGenerate.test_same_seed_same_bytes",
+          "line": 36
+        },
+        {
+          "name": "TestGenerate.test_different_seed_differs",
+          "line": 43
+        },
+        {
+          "name": "TestGenerate.test_refuses_to_overwrite",
+          "line": 48
+        },
+        {
+          "name": "TestGenerate.test_generated_cases_have_no_synthetic_self_assessment",
+          "line": 52
+        },
+        {
+          "name": "TestGenerate.test_every_case_has_all_records",
+          "line": 59
+        },
+        {
+          "name": "TestNoLeak.test_key_facts_not_in_case_files_or_exports",
+          "line": 66
+        },
+        {
+          "name": "TestNoLeak.test_i0_export_labels_generated_records_as_a_proxy",
+          "line": 78
+        },
+        {
+          "name": "TestNoLeak.test_packet_and_report_do_not_reveal_staleness",
+          "line": 85
+        },
+        {
+          "name": "TestNoLeak.test_record_shapes_are_identical_across_classes",
+          "line": 92
+        },
+        {
+          "name": "TestFreeze.test_verify_clean",
+          "line": 102
+        },
+        {
+          "name": "TestFreeze.test_case_tamper_detected",
+          "line": 105
+        },
+        {
+          "name": "TestFreeze.test_key_tamper_detected",
+          "line": 113
+        },
+        {
+          "name": "TestFreeze.test_added_file_detected",
+          "line": 119
+        },
+        {
+          "name": "TestFreeze.test_refreeze_refused",
+          "line": 125
+        },
+        {
+          "name": "TestJudgesAndScore.test_unrun_i0_has_no_verdict_file_or_metrics_even_with_opt_in",
+          "line": 139
+        },
+        {
+          "name": "TestJudgesAndScore.test_archived_i0_can_only_be_regenerated_with_opt_in",
+          "line": 144
+        },
+        {
+          "name": "TestJudgesAndScore.test_i1_catches_exactly_the_same_frame_contradictions",
+          "line": 151
+        },
+        {
+          "name": "TestJudgesAndScore.test_i4_catches_state_errors_but_not_interpretation",
+          "line": 160
+        },
+        {
+          "name": "TestJudgesAndScore.test_i1_never_opens_workspace_and_i0_reads_only_self_assessment",
+          "line": 167
+        },
+        {
+          "name": "TestJudgesAndScore.test_judges_do_not_read_sealed",
+          "line": 180
+        },
+        {
+          "name": "TestImport.test_import_roundtrip_and_validation",
+          "line": 189
+        },
+        {
+          "name": "TestImport.test_import_rejects_unknown_ids_and_bad_verdicts",
+          "line": 200
+        },
+        {
+          "name": "TestImport.test_missing_requires_flag",
+          "line": 210
+        },
+        {
+          "name": "TestStats.test_wilson",
+          "line": 222
+        },
+        {
+          "name": "TestStats.test_mcnemar",
+          "line": 228
+        }
+      ]
+    },
+    {
+      "path": "tests/test_blind_handoff.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "BlindHandoffTests.test_target_packet_excludes_oracle_other_arm_and_hypothesis",
+          "line": 13
+        },
+        {
+          "name": "BlindHandoffTests.test_matched_arms_share_source_bytes",
+          "line": 19
+        },
+        {
+          "name": "BlindHandoffTests.test_future_source_is_unavailable_before_its_stage",
+          "line": 25
+        },
+        {
+          "name": "BlindHandoffTests.test_fault_injections_detect_smoothing_and_transfer_errors",
+          "line": 30
+        },
+        {
+          "name": "BlindHandoffTests.test_fabricated_read_cannot_pass",
+          "line": 36
+        },
+        {
+          "name": "BlindHandoffTests.test_export_contains_current_evidence_but_no_private_key",
+          "line": 42
+        }
+      ]
+    },
+    {
+      "path": "tests/test_cad_reference.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "TestMapIsNotAuthority.test_stale_canonical_map_does_not_override_new_source",
+          "line": 32
+        },
+        {
+          "name": "TestMapIsNotAuthority.test_map_only_never_becomes_cited_fact",
+          "line": 41
+        },
+        {
+          "name": "TestMapIsNotAuthority.test_maximum_map_weight_is_not_more_evidence",
+          "line": 47
+        },
+        {
+          "name": "TestMapIsNotAuthority.test_draft_not_current_authority",
+          "line": 53
+        },
+        {
+          "name": "TestMapIsNotAuthority.test_blocked_source_cannot_support_claim",
+          "line": 58
+        },
+        {
+          "name": "TestMapIsNotAuthority.test_orientation_carries_warning_and_current_status",
+          "line": 63
+        },
+        {
+          "name": "TestMapIsNotAuthority.test_authorized_wrong_source_is_not_certified_truth",
+          "line": 71
+        },
+        {
+          "name": "TestMapIsNotAuthority.test_no_claim_from_title_or_partial_literal_overlap",
+          "line": 79
+        },
+        {
+          "name": "TestSourceConflictAndCorrection.test_two_intact_conflicting_sources_force_conflict",
+          "line": 86
+        },
+        {
+          "name": "TestSourceConflictAndCorrection.test_unsupported_question_does_not_guess",
+          "line": 93
+        },
+        {
+          "name": "TestSourceConflictAndCorrection.test_proposed_without_promotion_is_not_fact",
+          "line": 97
+        },
+        {
+          "name": "TestSourceConflictAndCorrection.test_partial_correction_changes_one_field_only",
+          "line": 102
+        },
+        {
+          "name": "TestSourceConflictAndCorrection.test_old_evidence_stops_after_successor_promotion",
+          "line": 113
+        },
+        {
+          "name": "TestSourceConflictAndCorrection.test_stale_proposed_claim_cannot_be_promoted",
+          "line": 119
+        },
+        {
+          "name": "TestSourceConflictAndCorrection.test_invalid_double_correction_refused",
+          "line": 125
+        },
+        {
+          "name": "TestSourceConflictAndCorrection.test_wrong_subject_cannot_be_corrected",
+          "line": 132
+        },
+        {
+          "name": "TestSourceConflictAndCorrection.test_reused_source_id_is_rejected",
+          "line": 138
+        },
+        {
+          "name": "TestSourceConflictAndCorrection.test_successor_missing_old_source_rejected",
+          "line": 142
+        },
+        {
+          "name": "TestProvenanceAndToEPressure.test_similarity_bridge_is_only_a_candidate",
+          "line": 148
+        },
+        {
+          "name": "TestProvenanceAndToEPressure.test_repeated_map_as_proof_is_unsupported",
+          "line": 156
+        },
+        {
+          "name": "TestProvenanceAndToEPressure.test_repeated_claim_mentions_do_not_create_other_fields",
+          "line": 161
+        },
+        {
+          "name": "TestProvenanceAndToEPressure.test_authoritative_map_cannot_grant_itself_permissions",
+          "line": 166
+        },
+        {
+          "name": "TestProvenanceAndToEPressure.test_copied_source_counts_are_not_independent_truth",
+          "line": 170
+        },
+        {
+          "name": "TestProvenanceAndToEPressure.test_handle_collision_requires_namespace",
+          "line": 178
+        },
+        {
+          "name": "TestProvenanceAndToEPressure.test_duplicate_handle_in_one_namespace_blocked",
+          "line": 184
+        },
+        {
+          "name": "TestAuthorityContinuityAndReceipts.test_ungranted_worker_may_not_create_source",
+          "line": 190
+        },
+        {
+          "name": "TestAuthorityContinuityAndReceipts.test_grant_is_narrow_and_revocable",
+          "line": 193
+        },
+        {
+          "name": "TestAuthorityContinuityAndReceipts.test_worker_cannot_promote_fact",
+          "line": 199
+        },
+        {
+          "name": "TestAuthorityContinuityAndReceipts.test_private_source_not_visible_to_unauthorized_guest",
+          "line": 205
+        },
+        {
+          "name": "TestAuthorityContinuityAndReceipts.test_private_grant_revoke_rehides",
+          "line": 211
+        },
+        {
+          "name": "TestAuthorityContinuityAndReceipts.test_message_stored_is_not_read_or_ack",
+          "line": 219
+        },
+        {
+          "name": "TestAuthorityContinuityAndReceipts.test_sender_cannot_ack_for_recipient",
+          "line": 230
+        },
+        {
+          "name": "TestAuthorityContinuityAndReceipts.test_ack_without_read_refused",
+          "line": 234
+        },
+        {
+          "name": "TestAuthorityContinuityAndReceipts.test_restart_persists_source_and_revocation",
+          "line": 239
+        },
+        {
+          "name": "TestAuthorityContinuityAndReceipts.test_event_tampering_detected_on_query",
+          "line": 249
+        },
+        {
+          "name": "TestAuthorityContinuityAndReceipts.test_unauthorized_attempt_does_not_append_event",
+          "line": 254
+        },
+        {
+          "name": "TestAuthorityContinuityAndReceipts.test_atomic_invalid_correction_does_not_append",
+          "line": 259
+        },
+        {
+          "name": "TestAuthorityContinuityAndReceipts.test_actor_string_is_not_identity_authentication",
+          "line": 265
+        }
+      ]
+    },
+    {
+      "path": "tests/test_critical_bench.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "CriticalBenchTests.test_reproducible_dimensions_and_unanimous_refusal_control",
+          "line": 19
+        },
+        {
+          "name": "CriticalBenchTests.test_false_promotions_receipts_relations_and_duplicates_are_detected",
+          "line": 31
+        },
+        {
+          "name": "CriticalBenchTests.test_fabricated_quote_and_missing_answers_fail",
+          "line": 42
+        },
+        {
+          "name": "CriticalBenchTests.test_packets_match_evidence_hide_key_and_commit_before_scoring",
+          "line": 51
+        },
+        {
+          "name": "CriticalBenchTests.test_retained_real_agent_records_replay",
+          "line": 69
+        },
+        {
+          "name": "CriticalBenchTests.test_retained_critical_benchmark_and_known_score_limitations_replay",
+          "line": 74
+        },
+        {
+          "name": "CriticalBenchTests.test_malformed_citation_is_a_failure_not_an_evaluator_crash",
+          "line": 81
+        }
+      ]
+    },
+    {
+      "path": "tests/test_discovery_bench.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "DiscoveryTests.test_published_observations_replay_including_literal_action_failure",
+          "line": 11
+        },
+        {
+          "name": "DiscoveryTests.test_unknown_error_not_announced_and_sources_match_across_treatments",
+          "line": 18
+        },
+        {
+          "name": "DiscoveryTests.test_approved_error_is_persistently_wrong_without_evidential_override",
+          "line": 29
+        }
+      ]
+    },
+    {
+      "path": "tests/test_human_export_bench.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "HumanExportTests.test_observed_export_responses_replay_with_actions_preserved",
+          "line": 9
+        },
+        {
+          "name": "HumanExportTests.test_same_single_project_export_and_no_hidden_error_disclosure",
+          "line": 16
+        },
+        {
+          "name": "HumanExportTests.test_invented_independent_support_and_lineage_are_detected",
+          "line": 25
+        }
+      ]
+    },
+    {
+      "path": "tests/test_independent_audit.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "IndependentAuditControls.test_refusal_label_does_not_certify_false_answer",
+          "line": 11
+        },
+        {
+          "name": "IndependentAuditControls.test_handoff_missing_failure_is_detected",
+          "line": 17
+        },
+        {
+          "name": "IndependentAuditControls.test_no_semantic_pass_from_matching_fields",
+          "line": 24
+        },
+        {
+          "name": "IndependentAuditControls.test_invented_citation_fails",
+          "line": 29
+        },
+        {
+          "name": "IndependentAuditControls.test_uncertainty_after_information_loss_is_not_hallucination",
+          "line": 33
+        },
+        {
+          "name": "IndependentAuditControls.test_confident_wrong_conclusion_surviving_compression_is_identified",
+          "line": 39
+        },
+        {
+          "name": "IndependentAuditControls.test_graph_scale_is_actual_input_not_a_thousand_word_claim",
+          "line": 44
+        },
+        {
+          "name": "IndependentAuditControls.test_requests_have_no_hidden_oracle_or_prior_provider_session",
+          "line": 49
+        },
+        {
+          "name": "IndependentAuditControls.test_verbatim_treatment_has_identifiable_published_boundaries",
+          "line": 54
+        }
+      ]
+    },
+    {
+      "path": "tests/test_kill_harness.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "TestFixtureAndContract.test_case_coverage_and_unique_ids",
+          "line": 22
+        },
+        {
+          "name": "TestFixtureAndContract.test_anchors_and_source_hashes",
+          "line": 25
+        },
+        {
+          "name": "TestFixtureAndContract.test_oracle_is_never_transmitted_to_target",
+          "line": 29
+        },
+        {
+          "name": "TestFixtureAndContract.test_no_adapter_is_not_run",
+          "line": 34
+        },
+        {
+          "name": "TestFixtureAndContract.test_stale_map_current_original_passes_contract",
+          "line": 38
+        },
+        {
+          "name": "TestFixtureAndContract.test_false_map_value_fails",
+          "line": 40
+        },
+        {
+          "name": "TestFixtureAndContract.test_map_citation_not_primary",
+          "line": 43
+        },
+        {
+          "name": "TestFixtureAndContract.test_invented_source_quote_fails",
+          "line": 48
+        },
+        {
+          "name": "TestFixtureAndContract.test_approved_false_claim_fails",
+          "line": 51
+        },
+        {
+          "name": "TestFixtureAndContract.test_proven_influence_from_similarity_fails",
+          "line": 54
+        },
+        {
+          "name": "TestFixtureAndContract.test_relational_saturation_at_three_scales_has_gates",
+          "line": 57
+        },
+        {
+          "name": "TestFixtureAndContract.test_private_token_exposure_fails",
+          "line": 61
+        },
+        {
+          "name": "TestFixtureAndContract.test_returning_restricted_citation_fails",
+          "line": 64
+        },
+        {
+          "name": "TestFixtureAndContract.test_kill_gate_self_attestation_is_not_evidence",
+          "line": 67
+        },
+        {
+          "name": "TestFixtureAndContract.test_independent_readback_detects_invalid_effect",
+          "line": 72
+        },
+        {
+          "name": "TestFixtureAndContract.test_pruning_requires_zero_active_false_links",
+          "line": 79
+        },
+        {
+          "name": "TestFixtureAndContract.test_independent_readback_requires_snapshot_pin",
+          "line": 83
+        },
+        {
+          "name": "TestFixtureAndContract.test_modified_fixture_fails_closed",
+          "line": 86
+        }
+      ]
+    },
+    {
+      "path": "tests/test_native_evidence.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "NativeEvidenceTests.test_unmodified_full_native_suite_and_environment_failure_are_both_retained",
+          "line": 7
+        },
+        {
+          "name": "NativeEvidenceTests.test_component_checks_preserve_exact_counts",
+          "line": 15
+        },
+        {
+          "name": "NativeEvidenceTests.test_paired_current_guards_and_historical_gaps_are_not_erased",
+          "line": 20
+        }
+      ]
+    },
+    {
+      "path": "tests/test_oocc_correction.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "CorrectionControls.test_oracle_controls_are_explicitly_not_model_results",
+          "line": 9
+        },
+        {
+          "name": "CorrectionControls.test_oracle_not_transmitted",
+          "line": 12
+        },
+        {
+          "name": "CorrectionControls.test_poisoned_state_is_not_repaired_by_harness",
+          "line": 19
+        },
+        {
+          "name": "CorrectionControls.test_bad_response_is_preserved_as_failure_not_clean_refusal",
+          "line": 29
+        }
+      ]
+    },
+    {
+      "path": "tests/test_paired.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "PairedHarnessTests.test_no_duplicate_cases",
+          "line": 15
+        },
+        {
+          "name": "PairedHarnessTests.test_references_pin_mplpb",
+          "line": 18
+        },
+        {
+          "name": "PairedHarnessTests.test_cad_and_baseline_see_identical_evidence",
+          "line": 21
+        },
+        {
+          "name": "PairedHarnessTests.test_correct_exact_answer_passes",
+          "line": 26
+        },
+        {
+          "name": "PairedHarnessTests.test_absent_citation_fails",
+          "line": 30
+        },
+        {
+          "name": "PairedHarnessTests.test_fabricated_citation_fails",
+          "line": 34
+        },
+        {
+          "name": "PairedHarnessTests.test_false_continuation_fails",
+          "line": 38
+        },
+        {
+          "name": "PairedHarnessTests.test_unwarranted_causation_fails",
+          "line": 42
+        },
+        {
+          "name": "PairedHarnessTests.test_refusal_passes_only_matching_oracle",
+          "line": 46
+        },
+        {
+          "name": "PairedHarnessTests.test_unsupported_arms_not_run",
+          "line": 50
+        },
+        {
+          "name": "PairedHarnessTests.test_no_native_as_theory_of_everything_proxy",
+          "line": 56
+        },
+        {
+          "name": "PairedHarnessTests.test_missing_native_source_marks_not_run",
+          "line": 61
+        },
+        {
+          "name": "PairedHarnessTests.test_unknown_manifest_schema_rejected",
+          "line": 66
+        }
+      ]
+    },
+    {
+      "path": "tests/test_propagation_bench.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "PropagationTests.test_preserved_actual_chains_replay_without_truth_detection_claim",
+          "line": 8
+        },
+        {
+          "name": "PropagationTests.test_only_original_access_changes_and_derivative_roots_never_multiply",
+          "line": 15
+        },
+        {
+          "name": "PropagationTests.test_harness_detects_authority_inflation_without_repairing_submission",
+          "line": 23
+        }
+      ]
+    },
+    {
+      "path": "tests/test_public_claims.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "PublicClaimTests.test_number_comparison_replays_and_retains_contrary_cases",
+          "line": 10
+        },
+        {
+          "name": "PublicClaimTests.test_dictionary_cost_includes_first_definition",
+          "line": 20
+        },
+        {
+          "name": "PublicClaimTests.test_reference_program_is_explicitly_ours",
+          "line": 26
+        },
+        {
+          "name": "PublicClaimTests.test_native_and_prompt_comparisons_are_never_pooled",
+          "line": 33
+        },
+        {
+          "name": "PublicClaimTests.test_packet_task_identity_and_missing_responses_stay_not_run",
+          "line": 44
+        },
+        {
+          "name": "PublicClaimTests.test_quotes_cannot_substitute_for_correct_values_or_source_binding",
+          "line": 54
+        },
+        {
+          "name": "PublicClaimTests.test_unrequested_claims_do_not_receive_a_perfect_contract_score",
+          "line": 73
+        }
+      ]
+    },
+    {
+      "path": "tests/test_runner_subprocess.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "TestSubprocessBoundary.test_readonly_contract_mock_pass_not_native",
+          "line": 15
+        },
+        {
+          "name": "TestSubprocessBoundary.test_fake_i_stopped_not_accepted_without_readback",
+          "line": 21
+        },
+        {
+          "name": "TestSubprocessBoundary.test_observed_prohibited_publication_fails",
+          "line": 26
+        },
+        {
+          "name": "TestSubprocessBoundary.test_invalid_json_is_adapter_error",
+          "line": 33
+        }
+      ]
+    },
+    {
+      "path": "tests/test_score_scaling.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "TestScalingScorer.test_negative_results_are_retained",
+          "line": 20
+        },
+        {
+          "name": "TestScalingScorer.test_requires_preoutcome_registration",
+          "line": 26
+        },
+        {
+          "name": "TestScalingScorer.test_requires_equal_access",
+          "line": 29
+        },
+        {
+          "name": "TestScalingScorer.test_requires_blinded_reviews",
+          "line": 32
+        },
+        {
+          "name": "TestScalingScorer.test_rejects_incomplete_scales",
+          "line": 35
+        },
+        {
+          "name": "TestScalingScorer.test_rejects_mismatched_source_corpus",
+          "line": 38
+        },
+        {
+          "name": "TestScalingScorer.test_rejects_bool_counts",
+          "line": 41
+        },
+        {
+          "name": "TestScalingScorer.test_rejects_duplicate_arm",
+          "line": 44
+        },
+        {
+          "name": "TestScalingScorer.test_rejects_false_links_exceeding_judged",
+          "line": 47
+        },
+        {
+          "name": "TestScalingScorer.test_rejects_refuted_links_beyond_total",
+          "line": 50
+        }
+      ]
+    },
+    {
+      "path": "tests/test_sorter_random_batches.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "SorterRandomBatchTests.test_seed_recreates_the_batch_and_key",
+          "line": 10
+        },
+        {
+          "name": "SorterRandomBatchTests.test_five_sets_and_four_distinct_cases_per_user",
+          "line": 19
+        }
+      ]
+    },
+    {
+      "path": "tests/test_test_index.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "TestArchiveIndex.test_indexes_new_tests_and_evidence_without_treating_them_as_executions",
+          "line": 14
+        }
+      ]
+    },
+    {
+      "path": "tests/test_witness_live.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "WitnessLiveHarness.test_writer_and_observer_use_real_slot_and_policy",
+          "line": 21
+        },
+        {
+          "name": "WitnessLiveHarness.test_missing_model_has_no_fabricated_scores",
+          "line": 39
+        },
+        {
+          "name": "WitnessLiveHarness.test_seeded_case_packet_is_repeatable",
+          "line": 53
+        },
+        {
+          "name": "WitnessLiveHarness.test_outside_judge_accepts_verified_outcomes",
+          "line": 96
+        },
+        {
+          "name": "WitnessLiveHarness.test_outside_judge_checks_claim_and_permission_against_effect",
+          "line": 108
+        },
+        {
+          "name": "WitnessLiveHarness.test_outside_judge_blocks_when_retained_bytes_changed",
+          "line": 122
+        }
+      ]
+    },
+    {
+      "path": "tests/test_witness_separation.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "WitnessSeparationTests.test_greater_rejection_does_not_imply_discrimination",
+          "line": 27
+        },
+        {
+          "name": "WitnessSeparationTests.test_gain_exceeding_false_alarm_budget_still_fails",
+          "line": 36
+        },
+        {
+          "name": "WitnessSeparationTests.test_evidence_improvement_cannot_be_credited_to_separation",
+          "line": 43
+        },
+        {
+          "name": "WitnessSeparationTests.test_abstention_can_raise_j_while_reducing_correct_decisions",
+          "line": 51
+        },
+        {
+          "name": "WitnessSeparationTests.test_a_gain_with_state_does_not_make_the_gradient_monotonic",
+          "line": 60
+        },
+        {
+          "name": "WitnessSeparationTests.test_genuine_monotonic_detection_gain_is_recognized",
+          "line": 69
+        },
+        {
+          "name": "WitnessSeparationTests.test_missing_cases_are_not_silently_dropped_or_counted_as_abstentions",
+          "line": 78
+        },
+        {
+          "name": "WitnessSeparationTests.test_missing_ground_truth_class_is_inconclusive",
+          "line": 87
+        }
+      ]
+    }
+  ],
+  "runners_and_workflows": [
+    ".github/workflows/bounded-documentary-acceptance.yml",
+    ".github/workflows/codex-handoff.yml",
+    ".github/workflows/current-mplpb-acceptance.yml",
+    ".github/workflows/mplpb-native-comparison.yml",
+    ".github/workflows/oocc-correction.yml",
+    ".github/workflows/paired-cad-live.yml",
+    ".github/workflows/paired-mplpb.yml",
+    ".github/workflows/public-claims.yml",
+    ".github/workflows/test-index.yml",
+    ".github/workflows/tests.yml",
+    "comparative-tests/dispatch-enforcement/run_controls.py",
+    "comparative-tests/executable-gates/probes/git_probe.sh",
+    "comparative-tests/executable-gates/verify.py",
+    "evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/retry_component.py",
+    "evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/run_checks.py",
+    "evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/run_components.py",
+    "evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/run_extras.py",
+    "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/run_checks.py",
+    "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/run_components.py",
+    "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/run_extras.py",
+    "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/run_frozen_papers.py",
+    "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/run_predecessors.py",
+    "evaluation/public-claims/2026-11-20/producer-initial.py",
+    "evaluation/public-claims/2026-11-20/producer.py",
+    "evaluation/public-papers/run.py",
+    "evaluation/witness-section19/live/check_tools.py",
+    "evaluation/witness-section19/live/effects.py",
+    "evaluation/witness-section19/live/handoff.py",
+    "evaluation/witness-section19/live/judge.py",
+    "evaluation/witness-section19/live/outside_judge.py",
+    "evaluation/witness-section19/live/run.py",
+    "evaluation/witness-section19/live/score.py",
+    "evaluation/witness-section19/live/separation.py",
+    "evaluation/witness-section19/research-archive/wie/__main__.py",
+    "make_cases.py",
+    "research_lab/agent_entry.py",
+    "research_lab/agent_replay.py",
+    "research_lab/archive_monitor.py",
+    "research_lab/blind_handoff.py",
+    "research_lab/critical_bench.py",
+    "research_lab/discovery_bench.py",
+    "research_lab/freeze.py",
+    "research_lab/human_export_bench.py",
+    "research_lab/live.py",
+    "research_lab/mplpb_native_suite.py",
+    "research_lab/mplpb_parts_suite.py",
+    "research_lab/mplpb_seam_probe.py",
+    "research_lab/native_evidence.py",
+    "research_lab/oocc_adversarial.py",
+    "research_lab/propagation_bench.py",
+    "research_lab/public_claims.py",
+    "research_lab/sorter_mixed_users.py",
+    "research_lab/sorter_random_batches.py",
+    "research_lab/witness_section19.py",
+    "side_by_side/github_models_adapter.py",
+    "side_by_side/run.py",
+    "tools/build_critical_paper.py",
+    "tools/build_test_index.py",
+    "tools/kill_harness.py",
+    "tools/score_scaling.py",
+    "tools/verify_oocc_claim_roadmap.py"
+  ]
+}

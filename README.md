@@ -16,6 +16,13 @@ the repository cited in Gelhaus’s research. The controller code at that
 location was unavailable for inspection or independent testing.
 [Reference G7](docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md#references)
 
+## Find a test or experiment
+
+The [test and archive index](docs/TEST_INDEX.md) lists suites, runners, evidence,
+and proposed tests. AI readers can start with [test-index.json](research/test-index.json)
+and search the [full file and case inventory](research/test-inventory.jsonl).
+GitHub Actions refreshes the index after changes reach `main`.
+
 ## Testing OOCC — explicit comparison ledger, 20 November 2026
 
 **Mitchell D. McPhetridge, Testing OOCC: Claims, Required Tests, and a Roadmap to Verified Behavior (v1.3).** [MD](docs/paper/TESTING_OOCC.md) · [TXT](docs/paper/TESTING_OOCC.txt)
