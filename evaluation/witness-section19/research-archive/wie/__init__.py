@@ -4,7 +4,7 @@ Tests whether evaluators with more causal separation from an acting runtime
 detect incorrect execution claims better, without more false alarms.
 """
 
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 
 ACCEPT = "ACCEPT"
 REJECT = "REJECT"

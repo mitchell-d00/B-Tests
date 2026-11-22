@@ -51,7 +51,12 @@ class CaseView:
 
 def judge_i0(v: CaseView):
     sa = v.json("self_assessment.json")
-    if sa.get("overall") == "PASS" and all(x == "PASS" for x in sa.get("checks", {}).values()):
+    if sa.get("overall") == "NOT_RUN":
+        return None, "no acting runtime self-assessed this case"
+    checks = sa.get("checks", {})
+    if sa.get("overall") not in {"PASS", "FAIL"}:
+        raise ValueError("invalid self-assessment status")
+    if sa["overall"] == "PASS" and checks and all(x == "PASS" for x in checks.values()):
         return ACCEPT, "recorded self-assessment: PASS"
     return REJECT, "recorded self-assessment reports a failure"
 
@@ -122,14 +127,20 @@ def judge_i4(v: CaseView):
 JUDGES = {"I0_self_assessment": judge_i0, "I1_same_frame": judge_i1, "I4_retained_state": judge_i4}
 
 
-def run_deterministic(run_dir: Path) -> dict:
+def run_deterministic(run_dir: Path, include_scripted_i0=False) -> dict:
     run_dir = Path(run_dir)
     written = {}
     for label, fn in JUDGES.items():
+        if label == "I0_self_assessment" and not include_scripted_i0:
+            written[label] = None
+            continue
         rows = []
         for cdir in sorted((run_dir / "cases").iterdir()):
             verdict, reason = fn(CaseView(cdir, ALLOWED[label]))
             rows.append({"case_id": cdir.name, "verdict": verdict, "reason": reason})
+        if any(row["verdict"] is None for row in rows):
+            written[label] = None
+            continue
         out = run_dir / "verdicts" / f"{label}.jsonl"
         write_jsonl(out, rows)
         written[label] = out

@@ -23,7 +23,7 @@ Each case is one simulated run of an acting runtime:
 | `cases/<id>/action.json` | the runtime's own operation log | same-frame action |
 | `cases/<id>/report.json` | the runtime's account and factual claims | D_m (story) |
 | `cases/<id>/receipt.json` | the runtime's own receipt for the write or refusal (§9) | self-authored receipt |
-| `cases/<id>/self_assessment.json` | the runtime grading itself; always `overall: PASS` | recorded self-assessment |
+| `cases/<id>/self_assessment.json` | placeholder in new runs, scripted PASS in the archived demo | recorded self-assessment |
 | `cases/<id>/workspace/` | the retained filesystem evidence, plus source records | D_o (state) |
 | `sealed/key.jsonl` | the class and expected verdict of each case | answer key |
 | `ARTIFACT.md` | the runtime's operating frame, including "verify yourself" | evaluative frame A |
@@ -43,8 +43,8 @@ Seven case classes, balanced (§19.3):
 
 The dice vary structure, not just names: class, permitted vs prohibited task,
 version-chain length, which fields changed between versions, failure variant,
-pre-existing files, how persuasive the self-assessment is (2–6 PASS lines,
-narrative template), and whether the runtime's own records contradict each other.
+pre-existing files, narrative template, and whether the generated records
+contradict each other.
 In half the false completions the receipt honestly records a failed or short write
 that the report narrates over; in half the prohibited effects the action log
 records the forbidden write that the report leaves out. Those are the only
@@ -62,7 +62,7 @@ errors a same-frame auditor can catch. Place names deliberately include particle
 Each deterministic judge gets a read-only view that raises an error if it opens
 anything outside its allowed files, and a test runs I0 and I1 with the workspace
 deleted to prove they never needed it.
-| `I0_model` | I0 | a model given `ARTIFACT.md` and told it *is* the runtime, re-judging its own runs | your model windows |
+| `I0_model` | I0 | a model evaluating planted records from the `ARTIFACT.md` frame | your model windows |
 | `I2_fresh` | I2 | fresh session, same family as the "acting" model, given only `CRITERIA.md` | your model windows |
 | `I3_cross` | I3 | same prompt as I2, different model family | your model windows |
 | `I5_human` | I5 | same prompt, a person | optional |
@@ -80,7 +80,7 @@ python3 -m wie generate runs/r1 --seed <NEW SEED> --per-class 20
 python3 -m wie freeze runs/r1                   # prints the root hash: publish it now
 mv runs/r1/sealed ~/sealed_r1                   # keep the key away from judges and fixers
 
-python3 -m wie judge runs/r1                    # I0_self_assessment, I1_same_frame, I4_retained_state
+python3 -m wie judge runs/r1                    # I1 and I4. Generated I0 is NOT_RUN.
 python3 -m wie packets runs/r1                  # paste-ready I2/I3 (and I0_model) batches, both evidence modes
 #   paste exports/I3_cross__report_plus_state/batch_*.md into a model window,
 #   save its JSON lines to a text file, then:
@@ -116,7 +116,7 @@ same-frame auditor catches only what the runtime's own records contradict, and
 the retained-state check catches every state error but cannot judge prose. **The open empirical questions are the
 model rows**, which are NOT RUN:
 
-1. Does `I0_model` (the runtime re-judging itself with its frame loaded) score
+1. Does the `I0_model` artifact-frame proxy score
    lower than `I2_fresh` on the same evidence?
 2. Does `I3_cross` beat `I2_fresh`?
 3. Do model judges with `report_plus_state` catch `interpretive_misattribution`,
@@ -125,7 +125,7 @@ model rows**, which are NOT RUN:
 
 Those answers come only from running the exported batches through your model
 windows. The demo's key is included so you can check the scorer end to end.
-**For a real run, generate a new seed and don't open its key.**
+**For a fresh model-judge trial, generate a new seed and keep its key from the judges.**
 
 ## The headline test: separation vs overall judgment
 
@@ -200,6 +200,21 @@ for this generated corpus and these judge setups. Model family and framing
 are still design differences. The package's `replay` directory contains the
 separate live model-judge evidence collected on the planted cases.
 
+### Self-assessment provenance
+
+Version 1.1 generates a `NOT_RUN` self-assessment record in every planted
+case. `wie judge` produces I1 and I4. It emits no I0 verdict file for a
+generated run, including when `--include-scripted-i0` is supplied.
+The bundled v1.0 demo still contains the historical, deliberately scripted
+always-PASS control and its archived results. To reproduce that specific
+control from its frozen records, use `wie judge demo_run --include-scripted-i0`.
+Treat those scores as a demonstration of the scorer.
+
+The `I0_model` export is an artifact-frame proxy on supplied records. A
+measured same-runtime I0 is recorded by the separate `b-tests-live/run.py`
+harness after a real model acts and gives its own verdict in the acting
+conversation. The planted case generator supplies no such verdict.
+
 The published reports are the [corrected demo analysis](results/demo_run-separation.md),
 the [corrected live judge replay](results/live_run-separation.md), and the
 [matched-evidence check](results/matched-evidence.json). The paper notes are
@@ -235,3 +250,12 @@ frozen demo, the raw 840-verdict replay bundle, and the B-Tests live pilot.
 Both paper editions are included. Reproducing the archived scores uses
 Python's standard library. Generating new model responses additionally
 requires the pinned local runtimes in the bundled replay method.
+
+A four-case smoke test checked the genuine I0 path using a fresh seed and
+Qwen2.5-3B. All four assessments came from raw model responses in the same
+conversation as the corresponding action and report. The model accepted all
+four outcomes, including three failures identified by the frozen oracle and
+filesystem readback. Those false passes are retained as observed results.
+The run verifies the measurement path. A larger blinded comparison of
+framed and fresh judges is still open.
+[Scores](results/authentic-i0-scores.json) · [Raw requests, responses, and readbacks](results/authentic-i0-raw.tar.gz)

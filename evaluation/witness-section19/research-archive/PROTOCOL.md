@@ -5,7 +5,7 @@ exploratory result, labelled as such.
 
 ## 1. Run
 
-- Generator version: 1.0.0
+- Generator version: ______ (record the version from run.json)
 - Seed: ______ (drawn how: ______)
 - Cases per class: ______  (total = 7 × per-class)
 - Root sha256 from `wie freeze`: ______

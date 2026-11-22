@@ -28,6 +28,8 @@ def main(argv=None):
 
     j = sub.add_parser("judge", help="run deterministic judges I0_self_assessment, I1_same_frame, I4_retained_state")
     j.add_argument("run_dir")
+    j.add_argument("--include-scripted-i0", action="store_true",
+                   help="reproduce the historical scripted I0 control on frozen v1.0 demo cases")
 
     e = sub.add_parser("export", help="write paste-ready batches for model judges")
     e.add_argument("run_dir"); e.add_argument("--condition", choices=CONDITIONS, required=True)
@@ -63,8 +65,8 @@ def main(argv=None):
             print(f"ok: unchanged since freeze. root sha256: {m['root_sha256']}")
         elif a.cmd == "judge":
             verify(Path(a.run_dir), need_key=False)
-            for label, p in run_deterministic(Path(a.run_dir)).items():
-                print(f"{label}: {p}")
+            for label, p in run_deterministic(Path(a.run_dir), a.include_scripted_i0).items():
+                print(f"{label}: {p if p is not None else 'NOT_RUN'}")
         elif a.cmd == "export":
             verify(Path(a.run_dir), need_key=False)
             ps = export(Path(a.run_dir), a.condition, a.evidence, a.batch_size)
