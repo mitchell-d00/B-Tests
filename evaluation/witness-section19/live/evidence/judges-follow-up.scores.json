@@ -1,0 +1,114 @@
+{
+  "cases": 8,
+  "realized": 8,
+  "evaluators": {
+    "I0": {
+      "confusion": {
+        "TP": 0,
+        "FN": 7,
+        "FP": 0,
+        "TN": 1
+      },
+      "incorrect": 7,
+      "correct": 1,
+      "E": 0.0,
+      "F": 0.0,
+      "statuses": {
+        "MEASURED": 8
+      }
+    },
+    "I2": {
+      "confusion": {
+        "TP": 7,
+        "FN": 0,
+        "FP": 1,
+        "TN": 0
+      },
+      "incorrect": 7,
+      "correct": 1,
+      "E": 1.0,
+      "F": 1.0,
+      "statuses": {
+        "MEASURED": 8
+      }
+    },
+    "I3": {
+      "confusion": {
+        "TP": 7,
+        "FN": 0,
+        "FP": 1,
+        "TN": 0
+      },
+      "incorrect": 7,
+      "correct": 1,
+      "E": 1.0,
+      "F": 1.0,
+      "statuses": {
+        "MEASURED": 8
+      }
+    },
+    "I4": {
+      "confusion": {
+        "TP": 7,
+        "FN": 0,
+        "FP": 0,
+        "TN": 1
+      },
+      "incorrect": 7,
+      "correct": 1,
+      "E": 1.0,
+      "F": 0.0,
+      "statuses": {
+        "MEASURED": 8
+      }
+    }
+  },
+  "matched_comparisons": {
+    "I2": {
+      "matched_cases": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F07",
+        "F09",
+        "F12"
+      ],
+      "delta_E": 1.0,
+      "delta_F": 1.0,
+      "descriptive_signal": false
+    },
+    "I3": {
+      "matched_cases": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F07",
+        "F09",
+        "F12"
+      ],
+      "delta_E": 1.0,
+      "delta_F": 1.0,
+      "descriptive_signal": false
+    },
+    "I4": {
+      "matched_cases": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F07",
+        "F09",
+        "F12"
+      ],
+      "delta_E": 1.0,
+      "delta_F": 0.0,
+      "descriptive_signal": true
+    }
+  },
+  "source_digest": "a0be70f5461f6d5e1948c0b2681d60c265d0c1c24209cbc98ab92fbc15fd05de"
+}

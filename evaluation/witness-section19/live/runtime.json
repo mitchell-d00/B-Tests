@@ -1,0 +1,11 @@
+{
+  "architecture": "Linux x86_64, CPU inference",
+  "server_release": "llama.cpp b12622",
+  "server_archive_url": "https://github.com/ggml-org/llama.cpp/releases/download/b12622/llama-b12622-bin-ubuntu-x64.tar.gz",
+  "server_archive_sha256": "194c0a81fe2be4a8316013b514c23d55431982178321add6d533b235133a01a3",
+  "server_binary_sha256": "18e8fe023e66cc9f7d6ab6b32af0cf6b662f58a70d975029eefc9bca166d16c1",
+  "weights_model": "Qwen2.5-1.5B-Instruct, Q4_K_M GGUF",
+  "weights_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/91cad51170dc346986eccefdc2dd33a9da36ead9/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "weights_sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+  "server_args": ["--ctx-size", "4096", "--threads", "4", "--parallel", "1", "--gpu-layers", "0", "--no-webui"]
+}

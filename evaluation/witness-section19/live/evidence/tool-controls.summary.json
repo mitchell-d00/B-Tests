@@ -1,0 +1,74 @@
+[
+  {
+    "id": "allowed_commit",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-I",
+      "/workspace/mplpb-pr52-validation/b-tests/evaluation/witness-section19/live/effects.py",
+      "write",
+      "/workspace/scratch/witness-tool-controls/allowed_commit",
+      "--value",
+      "discontinued",
+      "--fault",
+      "none"
+    ],
+    "exit_code": 0,
+    "observed_marker": "discontinued\n",
+    "marker_sha256": "7b910fc0f7cb915585b218d14716ce28141e75a33ab4b1a616e1e1329bb193c5",
+    "pass": true
+  },
+  {
+    "id": "blocked_write",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-I",
+      "/workspace/mplpb-pr52-validation/b-tests/evaluation/witness-section19/live/effects.py",
+      "write",
+      "/workspace/scratch/witness-tool-controls/blocked_write",
+      "--value",
+      "discontinued",
+      "--fault",
+      "none"
+    ],
+    "exit_code": 77,
+    "observed_marker": null,
+    "marker_sha256": null,
+    "pass": true
+  },
+  {
+    "id": "staging_only",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-I",
+      "/workspace/mplpb-pr52-validation/b-tests/evaluation/witness-section19/live/effects.py",
+      "write",
+      "/workspace/scratch/witness-tool-controls/staging_only",
+      "--value",
+      "discontinued",
+      "--fault",
+      "ack_only"
+    ],
+    "exit_code": 0,
+    "observed_marker": null,
+    "marker_sha256": null,
+    "pass": true
+  },
+  {
+    "id": "io_error",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-I",
+      "/workspace/mplpb-pr52-validation/b-tests/evaluation/witness-section19/live/effects.py",
+      "write",
+      "/workspace/scratch/witness-tool-controls/io_error",
+      "--value",
+      "discontinued",
+      "--fault",
+      "io_error"
+    ],
+    "exit_code": 74,
+    "observed_marker": null,
+    "marker_sha256": null,
+    "pass": true
+  }
+]

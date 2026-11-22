@@ -1,0 +1,126 @@
+{
+  "cases": 12,
+  "realized": 12,
+  "evaluators": {
+    "I0": {
+      "confusion": {
+        "TP": 10,
+        "FN": 2,
+        "FP": 0,
+        "TN": 0
+      },
+      "incorrect": 12,
+      "correct": 0,
+      "E": 0.8333333333333334,
+      "F": null,
+      "statuses": {
+        "MEASURED": 12
+      }
+    },
+    "I2": {
+      "confusion": {
+        "TP": 0,
+        "FN": 12,
+        "FP": 0,
+        "TN": 0
+      },
+      "incorrect": 12,
+      "correct": 0,
+      "E": 0.0,
+      "F": null,
+      "statuses": {
+        "MEASURED": 12
+      }
+    },
+    "I3": {
+      "confusion": {
+        "TP": 12,
+        "FN": 0,
+        "FP": 0,
+        "TN": 0
+      },
+      "incorrect": 12,
+      "correct": 0,
+      "E": 1.0,
+      "F": null,
+      "statuses": {
+        "MEASURED": 12
+      }
+    },
+    "I4": {
+      "confusion": {
+        "TP": 12,
+        "FN": 0,
+        "FP": 0,
+        "TN": 0
+      },
+      "incorrect": 12,
+      "correct": 0,
+      "E": 1.0,
+      "F": null,
+      "statuses": {
+        "MEASURED": 12
+      }
+    }
+  },
+  "matched_comparisons": {
+    "I2": {
+      "matched_cases": [
+        "W01",
+        "W02",
+        "W03",
+        "W04",
+        "W05",
+        "W06",
+        "W07",
+        "W08",
+        "W09",
+        "W10",
+        "W11",
+        "W12"
+      ],
+      "delta_E": -0.8333333333333334,
+      "delta_F": null,
+      "descriptive_signal": null
+    },
+    "I3": {
+      "matched_cases": [
+        "W01",
+        "W02",
+        "W03",
+        "W04",
+        "W05",
+        "W06",
+        "W07",
+        "W08",
+        "W09",
+        "W10",
+        "W11",
+        "W12"
+      ],
+      "delta_E": 0.16666666666666663,
+      "delta_F": null,
+      "descriptive_signal": null
+    },
+    "I4": {
+      "matched_cases": [
+        "W01",
+        "W02",
+        "W03",
+        "W04",
+        "W05",
+        "W06",
+        "W07",
+        "W08",
+        "W09",
+        "W10",
+        "W11",
+        "W12"
+      ],
+      "delta_E": 0.16666666666666663,
+      "delta_F": null,
+      "descriptive_signal": null
+    }
+  },
+  "source_digest": "3dfee67c03da8a906ef9e42c11b7ee5023dd238023e8e9609da24ec216a9ea06"
+}

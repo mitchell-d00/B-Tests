@@ -1,0 +1,157 @@
+{
+  "scope": "Deterministic handoff scoring adapters only. No pasted answers were supplied. See the live judge replay for actual I2 and I3 results.",
+  "pilot": {
+    "I0": {
+      "statuses": {
+        "MEASURED": 12
+      },
+      "confusion": {
+        "TP": 10,
+        "FN": 2,
+        "FP": 0,
+        "TN": 0
+      },
+      "incorrect": 12,
+      "correct": 0,
+      "E": 0.8333333333333334,
+      "F": null
+    },
+    "I1": {
+      "statuses": {
+        "MEASURED": 12
+      },
+      "confusion": {
+        "TP": 12,
+        "FN": 0,
+        "FP": 0,
+        "TN": 0
+      },
+      "incorrect": 12,
+      "correct": 0,
+      "E": 1.0,
+      "F": null
+    },
+    "I2": {
+      "statuses": {
+        "NOT_RUN": 12
+      },
+      "confusion": {
+        "TP": 0,
+        "FN": 0,
+        "FP": 0,
+        "TN": 0
+      },
+      "incorrect": 0,
+      "correct": 0,
+      "E": null,
+      "F": null
+    },
+    "I3": {
+      "statuses": {
+        "NOT_RUN": 12
+      },
+      "confusion": {
+        "TP": 0,
+        "FN": 0,
+        "FP": 0,
+        "TN": 0
+      },
+      "incorrect": 0,
+      "correct": 0,
+      "E": null,
+      "F": null
+    },
+    "I4": {
+      "statuses": {
+        "MEASURED": 12
+      },
+      "confusion": {
+        "TP": 12,
+        "FN": 0,
+        "FP": 0,
+        "TN": 0
+      },
+      "incorrect": 12,
+      "correct": 0,
+      "E": 1.0,
+      "F": null
+    }
+  },
+  "follow-up": {
+    "I0": {
+      "statuses": {
+        "MEASURED": 8
+      },
+      "confusion": {
+        "TP": 0,
+        "FN": 7,
+        "FP": 0,
+        "TN": 1
+      },
+      "incorrect": 7,
+      "correct": 1,
+      "E": 0.0,
+      "F": 0.0
+    },
+    "I1": {
+      "statuses": {
+        "MEASURED": 8
+      },
+      "confusion": {
+        "TP": 6,
+        "FN": 1,
+        "FP": 0,
+        "TN": 1
+      },
+      "incorrect": 7,
+      "correct": 1,
+      "E": 0.8571428571428571,
+      "F": 0.0
+    },
+    "I2": {
+      "statuses": {
+        "NOT_RUN": 8
+      },
+      "confusion": {
+        "TP": 0,
+        "FN": 0,
+        "FP": 0,
+        "TN": 0
+      },
+      "incorrect": 0,
+      "correct": 0,
+      "E": null,
+      "F": null
+    },
+    "I3": {
+      "statuses": {
+        "NOT_RUN": 8
+      },
+      "confusion": {
+        "TP": 0,
+        "FN": 0,
+        "FP": 0,
+        "TN": 0
+      },
+      "incorrect": 0,
+      "correct": 0,
+      "E": null,
+      "F": null
+    },
+    "I4": {
+      "statuses": {
+        "MEASURED": 8
+      },
+      "confusion": {
+        "TP": 7,
+        "FN": 0,
+        "FP": 0,
+        "TN": 1
+      },
+      "incorrect": 7,
+      "correct": 1,
+      "E": 1.0,
+      "F": 0.0
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "finished_at": "2026-11-22T01:15:36.434045+00:00",
+  "cases": 8,
+  "statuses": {
+    "PASS": 1,
+    "FAIL": 7,
+    "BLOCKED": 0,
+    "NOT_RUN": 0
+  },
+  "integrations": {
+    "OOCC": "OOCC_NOT_RUN",
+    "MPLPB": "NOT_RUN",
+    "I1": "NOT_RUN",
+    "I5": "NOT_RUN"
+  },
+  "startup_blocker": null
+}
