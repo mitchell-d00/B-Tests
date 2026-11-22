@@ -559,7 +559,9 @@ met 7/7, including the supported execution control.
 [Markdown](docs/paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.md) ·
 [PDF](docs/paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.pdf) ·
 [Earlier results and replay commands](evaluation/witness-section19/RESULTS.md) ·
-[Live evaluator-independence replication](evaluation/witness-section19/live/README.md)
+[Live evaluator-independence replication](evaluation/witness-section19/live/README.md) ·
+[November 22 research archive](evaluation/witness-section19/research-archive/README.md) ·
+[Download the complete research package](evaluation/witness-section19/research-archive/witness-research-package-2026-11-22.zip)
 
 **Probabilistic Prompts and MPLPB Deterministic Contracts**, by Mitchell D.
 McPhetridge, 18 November 2026, uses the 8 a.m. light switch to explain

@@ -226,3 +226,36 @@ I4 independently checks external state. The scorer reports each level’s
 E/F, confusion matrix, and measured versus missing cases. The I1 comparator
 is a reference condition in this workflow. A separate same-frame model
 assessment remains outside the measured pilot.
+
+## Analyze separation at matched evidence
+
+Run the crossed analysis on a scored Witness-Independence Experiment (WIE)
+directory containing the sealed case key and one verdict file per model
+condition and evidence mode. A run with an external key can use `--key`.
+
+```bash
+python separation.py /path/to/scored-run > separation-analysis.json
+```
+
+The analysis compares I0 → I2 and I2 → I3 within each evidence mode using
+identical case IDs. The filenames declare the evidence mode. Check the
+retained requests to verify that each mode delivered equivalent evidence.
+The tool also compares report-only against report-plus-state
+within each judge and reports how the separation contrasts change when state
+is added. The mechanical I4 result remains a reference in the WIE scorer.
+Its detector and evidence requirements differ from the crossed model arms.
+
+A quality gain requires higher discrimination `J = E − F` and a higher
+class-balanced rate of correct verdicts. The latter counts abstentions as
+missed decisions on either class. The default false-alarm increase limit is
+10 percentage points. The default permitted coverage drop is zero within
+each class. Use `--max-false-alarm-increase` and `--max-coverage-drop` to set
+those limits before collecting new results. A detection gain additionally
+requires an increase in E. Missing cases or an absent truth class make the
+comparison inconclusive.
+
+The analysis distinguishes a gain at matched evidence from an evidence
+gain within the same judge. Verdicts still depend on the rubric, model, and
+session context. The analysis reports descriptive contrasts. A causal study
+would hold evaluator framing and implementation fixed while varying the
+session separation, or cross those factors in advance.

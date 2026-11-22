@@ -10,7 +10,7 @@ The original ZIP is preserved unchanged at
 [supplied/witness-section19-experiments.zip](supplied/witness-section19-experiments.zip),
 SHA-256 `0322c429a214752d25b3ede08567a8f76d2a8ed894a10fdd23f742f96ca1d395`.
 The revised Witness PDF supplied again on20November is byte-identical to the
-[existing revised paper](../../docs/paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.pdf),
+[existing revised paper](../../docs/papers/archive/witness-2026-11-19/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.pdf),
 SHA-256 `b21e7d8a37c215ceaa4189c754810c331ea1823408225e248b1aa1064e56391b`.
 Its Section19 is an experimental design with proposed evaluator conditions and
 separate detection and false-alarm measures.

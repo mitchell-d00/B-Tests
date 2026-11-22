@@ -16,7 +16,7 @@ Distinct editions remain distinct; copies are not independent research results.
 | WHEN_THE_MAP_BECOMES_THE_AUTHORITY | [MD](../../paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md) · [TXT](../../paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.txt) · [PDF](../../paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf) |
 | PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS | [MD](../../paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.md) · [TXT](../../paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.txt) · [PDF](../../paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.pdf) |
 | MPLPB_MIXED_DUMP | [MD](../../paper/MPLPB_MIXED_DUMP.md) · [TXT](../../paper/MPLPB_MIXED_DUMP.txt) · [PDF](../../paper/MPLPB_MIXED_DUMP.pdf) |
-| THE_WITNESS_INSIDE_THE_MACHINE_REVISED | [MD](../../paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.md) · [PDF](../../paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.pdf) |
+| THE_WITNESS_INSIDE_THE_MACHINE_REVISED | [MD](witness-2026-11-19/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.md) · [PDF](witness-2026-11-19/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.pdf) |
 | TESTING_OOCC v1.3 (current author-review draft) | [MD](../../paper/TESTING_OOCC.md) · [TXT](../../paper/TESTING_OOCC.txt) · [PDF](../../paper/TESTING_OOCC.pdf) |
 | map-response-supplied | [PDF](map-response-supplied/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf) |
 | mplpb-residual-experiment | [MD](mplpb-residual-experiment/The_Residual_of_Logic.md) · [PDF](mplpb-residual-experiment/The_Residual_of_Logic.pdf) · [TXT](mplpb-residual-experiment/The_Residual_of_Logic.txt) |

@@ -1,0 +1,71 @@
+{
+  "alpha": 0.05,
+  "evidence_effect": [],
+  "permutations": 5000,
+  "root_sha256": "a87a121bdeccbc6371ab1ca24751df4f0ca5c62bcc9974ae2a664e93a307c9dd",
+  "strata": {
+    "all_judges": {
+      "holm_significant": true,
+      "judges": [
+        {
+          "BA": 0.5,
+          "E": 0.0,
+          "F": 0.0,
+          "J": 0.0,
+          "abstentions_on_correct": 0,
+          "abstentions_on_incorrect": 0,
+          "coverage": 1.0,
+          "label": "I0_self_assessment",
+          "level": "I0",
+          "rank": 0
+        },
+        {
+          "BA": 0.71,
+          "E": 0.42,
+          "F": 0.0,
+          "J": 0.42,
+          "abstentions_on_correct": 0,
+          "abstentions_on_incorrect": 0,
+          "coverage": 1.0,
+          "label": "I1_same_frame",
+          "level": "I1",
+          "rank": 1
+        },
+        {
+          "BA": 0.9,
+          "E": 0.8,
+          "F": 0.0,
+          "J": 0.8,
+          "abstentions_on_correct": 0,
+          "abstentions_on_incorrect": 0,
+          "coverage": 1.0,
+          "label": "I4_retained_state",
+          "level": "I4",
+          "rank": 4
+        }
+      ],
+      "lowest_to_highest": {
+        "delta_BA": 0.4,
+        "delta_E": 0.8,
+        "delta_F": 0.0,
+        "from": "I0",
+        "skeptical_not_discriminating": false,
+        "to": "I4"
+      },
+      "n_levels": 3,
+      "p_one_sided": 0.0001999600079984003,
+      "slope_BA_per_level": 0.09153846153846154
+    }
+  },
+  "verdict": {
+    "basis": "all judges, mixed evidence (confounded: no clean stratum available yet)",
+    "not_supported_in": [],
+    "notes": [
+      "BA rises with level across these judges, but they see different evidence (I4 reads state, I0/I1 don't), so separation and information access can't be told apart. Add model judges at two or more levels in the same evidence mode."
+    ],
+    "status": "CONFOUNDED_NO_VERDICT",
+    "supported_in": [
+      "all_judges"
+    ]
+  }
+}

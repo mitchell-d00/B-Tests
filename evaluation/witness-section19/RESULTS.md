@@ -3,8 +3,8 @@
 This run reproduces Mitchell D. McPhetridge’s supplied scripts, exercises a
 six-case filesystem pilot, and checks the actual MPLPB work boundary at two
 pinned revisions. The original materials are preserved as supplied.
-[Paper Markdown](../../docs/paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.md) ·
-[Paper PDF](../../docs/paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.pdf) ·
+[Paper Markdown](../../docs/papers/archive/witness-2026-11-19/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.md) ·
+[Paper PDF](../../docs/papers/archive/witness-2026-11-19/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.pdf) ·
 [Experiment ZIP](supplied/witness-section19-experiments.zip) ·
 [Source hashes](source-manifest.json)
 

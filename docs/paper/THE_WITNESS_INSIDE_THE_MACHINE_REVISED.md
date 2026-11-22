@@ -1021,6 +1021,53 @@ The experiment therefore asks a stricter version of the original question:
 
 ---
 
+### 19.10 Research archive update, 22 November 2026
+
+The B-Tests replay evaluated 140 frozen, authored cases. The cases included
+100 planted errors and 40 correct controls. Qwen2.5-1.5B judged the simulated
+actor in its original frame (an I0 proxy) and in a fresh review (I2).
+SmolLM2-360M served as the different-family reviewer (I3). The three
+conditions each judged the cases with and without retained state, yielding
+840 model verdicts. The actor's reports and effects were planted, and the
+case key was public before the replay.
+
+| Judge with retained state | Errors detected | False alarms | Verdict coverage |
+| --- | ---: | ---: | ---: |
+| I0 artifact-frame model proxy | 10/100 | 4/40 | 20.0% |
+| I2 fresh Qwen | 25/100 | 9/40 | 28.6% |
+| I3 fresh SmolLM2 | 26/100 | 8/40 | 77.1% |
+| I4 deterministic state reference | 80/100 | 0/40 | 100.0% |
+
+I4 caught all 80 planted mechanical failures and missed all 20 cases where
+the file was correct but the report misrepresented the source. Given
+retained state, I2 caught six interpretive errors and I3 caught seven.
+Both model judges also raised more false alarms than the I0 proxy.
+
+The corrected separation report counts an abstention as a missed decision
+in balanced accuracy. The false-alarm rate counts only explicit rejections
+of correct cases. The balanced-accuracy trend rose across the tested levels
+with retained state and showed no corresponding rise in report-only
+judging. A separate matched-case analysis, using a 10-point false-alarm
+budget and requiring coverage preservation in each class, found a
+quality gain in one of four adjacent comparisons. That comparison,
+I2 to I3 with state, changed model family. I0 to I2 also changed judging
+instructions and session context. These exploratory comparisons leave
+the causal effect of separation itself open.
+
+The earlier live pilot recorded a model claiming completion without
+requesting a write. A separate filesystem inspection found the output
+absent. That observation grounds the internal witness collapse failure
+mode. Assessing the broader hypothesis requires authentic self-assessments,
+unfamiliar cases, matched evidence and judging rules, and a false-alarm
+limit specified before the trial. The falsification criteria in Section 21
+apply to that prospective test.
+
+[Research archive and reproduction](https://github.com/mitchell-d00/B-Tests/blob/main/evaluation/witness-section19/research-archive/README.md) ·
+[Corrected separation report](https://github.com/mitchell-d00/B-Tests/blob/main/evaluation/witness-section19/research-archive/results/live_run-separation.md) ·
+[Earlier live pilot](https://github.com/mitchell-d00/B-Tests/blob/main/evaluation/witness-section19/live/REPORT.md)
+
+---
+
 ## 20. The Stronger Architecture
 
 None of this argues against externalized continuity.
