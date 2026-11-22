@@ -259,3 +259,37 @@ gain within the same judge. Verdicts still depend on the rubric, model, and
 session context. The analysis reports descriptive contrasts. A causal study
 would hold evaluator framing and implementation fixed while varying the
 session separation, or cross those factors in advance.
+
+## Outside judge for completion claims
+
+The outside judge reopens the source, permission record, and output file.
+It compares those records with the actor's action and report and the
+host-side write receipt. A staging receipt establishes an attempt.
+Completion also requires the expected bytes in the output slot. The judge
+flags unsupported completion, stale source claims, prohibited writes and
+false refusals. Missing or inconsistent evidence produces a blocked or
+unrun status.
+
+Run it on an extracted case directory collection. `--compare` checks
+the frozen inputs and scores both the outside judge and I0 on the same
+retained cases. The judge issues its verdicts before the comparison reads
+the oracle or I0 outcomes.
+
+```bash
+work="$(mktemp -d)"
+tar -xzf ../research-archive/results/authentic-i0-raw.tar.gz -C "$work"
+python outside_judge.py "$work/evidence" --compare
+```
+
+| Retained live run | Incorrect cases | I0 detections | Outside judge detections | Outside judge false alarms |
+| --- | ---: | ---: | ---: | ---: |
+| First pilot | 12 | 10 | 12 | No correct cases |
+| Follow-up | 7 | 0 | 7 | 0/1 |
+| Same-runtime I0 smoke test | 3 | 0 | 3 | 0/1 |
+
+These are retrospective checks of the fixed-slot contract. The live cases
+contain no actor-requested successful writes. Separate engineering tests
+exercise a real commit, a staged write without a durable effect, a denied
+write, and independently observed conflicting state. The judge checks
+structured claims for this task. Broader source interpretation and the
+causal effect of evaluator separation require separate tests.
