@@ -2,7 +2,7 @@
 
 This study tests Section 19’s question about evaluator separation using a local
 AI and a fixed-slot filesystem tool.
-[Specification](../../../docs/paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.md#19-a-comparative-experiment) ·
+[Specification](https://github.com/mitchell-d00/B-Tests/blob/8949bbdc7edb2b7512024b93ee384108758fa115/docs/paper/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.md#19-a-comparative-experiment) ·
 [Protocol](protocol.json) · [Audit](AUDIT.md)
 
 ## First pilot
