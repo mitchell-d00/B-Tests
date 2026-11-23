@@ -25,6 +25,16 @@ and proposed tests. AI readers can start with [test-index.json](research/test-in
 and search the [full file and case inventory](research/test-inventory.jsonl).
 GitHub Actions refreshes the index after changes reach `main`.
 
+## Research practice
+
+B-Tests is part of a distinctive, independently developed approach to making AI
+research inspectable and reproducible. The strongest evidence for that
+description is the record we leave when a test fails. We keep the tested
+revision, inputs, commands, and logs alongside any rerun so reviewers can see
+what changed. In the PR #46 replay, the initial socket-setup failures and the
+successful retries with the same code are both preserved.
+[PR #46 replay and logs](evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/RESULTS.md)
+
 ## Testing OOCC — explicit comparison ledger, 20 November 2026
 
 **Mitchell D. McPhetridge, Testing OOCC: Claims, Required Tests, and a Roadmap to Verified Behavior (v1.4).** [MD](docs/paper/TESTING_OOCC.md) · [TXT](docs/paper/TESTING_OOCC.txt)
