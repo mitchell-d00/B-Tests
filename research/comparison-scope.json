@@ -153,7 +153,14 @@
         "mplpb_answers.pipeline.answer_query",
         "mplpb_combined.reader.PROFILES"
       ],
-      "record": "evaluation/public-claims/2026-11-20/attribution-audit.json"
+      "record": "evaluation/public-claims/2026-11-20/attribution-audit.json",
+      "driver_role": "Generate synthetic fixtures and question variants, call the upstream engine, and tally its support flags and errors.",
+      "question_and_key_files": {
+        "test_questions.csv": "Queries and expected answerability",
+        "fixtures.csv": "Expected source field values"
+      },
+      "driver_reads_csv_key": false,
+      "fresh_verification": "evaluation/public-claims/2026-11-23/public-driver-verification.json"
     },
     {
       "id": "btests_cadlab",

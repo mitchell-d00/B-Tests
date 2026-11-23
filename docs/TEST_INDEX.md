@@ -6,7 +6,7 @@ on which revision, and under which conditions.
 
 [What was compared](COMPARISON_SCOPE.md) · [AI entry point (JSON)](../research/test-index.json) · [Full file inventory (JSONL)](../research/test-inventory.jsonl) · [Generator](../tools/build_test_index.py) · [Update workflow](https://github.com/mitchell-d00/B-Tests/actions/workflows/test-index.yml)
 
-Found **189 Python test definitions** in **21 files**, **1234 repository files** and **11 archives** with **2077 listed member files**.
+Found **190 Python test definitions** in **21 files**, **1236 repository files** and **11 archives** with **2077 listed member files**.
 Case records may include repeated trials, references, and unrun cases.
 
 ## Automated test definitions
@@ -21,7 +21,7 @@ suite from `evaluation/witness-section19/research-archive` with the same command
 | [evaluation/witness-section19/research-archive/tests/test_wie.py](../evaluation/witness-section19/research-archive/tests/test_wie.py) | 26 |
 | [tests/test_blind_handoff.py](../tests/test_blind_handoff.py) | 6 |
 | [tests/test_cad_reference.py](../tests/test_cad_reference.py) | 38 |
-| [tests/test_comparison_scope.py](../tests/test_comparison_scope.py) | 2 |
+| [tests/test_comparison_scope.py](../tests/test_comparison_scope.py) | 3 |
 | [tests/test_critical_bench.py](../tests/test_critical_bench.py) | 7 |
 | [tests/test_discovery_bench.py](../tests/test_discovery_bench.py) | 3 |
 | [tests/test_human_export_bench.py](../tests/test_human_export_bench.py) | 3 |
@@ -142,8 +142,9 @@ suite from `evaluation/witness-section19/research-archive` with the same command
 
 **[tests/test_comparison_scope.py](../tests/test_comparison_scope.py)**
 
-- [TestComparisonScope.test_instruction_and_native_counts_remain_separate](../tests/test_comparison_scope.py#L16)
-- [TestComparisonScope.test_attribution_and_unrun_claims_are_preserved](../tests/test_comparison_scope.py#L33)
+- [TestComparisonScope.test_instruction_and_native_counts_remain_separate](../tests/test_comparison_scope.py#L17)
+- [TestComparisonScope.test_attribution_and_unrun_claims_are_preserved](../tests/test_comparison_scope.py#L34)
+- [TestComparisonScope.test_public_driver_replay_distinguishes_question_labels_from_engine_results](../tests/test_comparison_scope.py#L51)
 
 **[tests/test_critical_bench.py](../tests/test_critical_bench.py)**
 
@@ -321,7 +322,7 @@ Read the linked evidence for results and limitations. For example, search only W
 | [evaluation/mplpb-native](../evaluation/mplpb-native) | 148 | 48 | [component-check/summary.json](../evaluation/mplpb-native/component-check/summary.json) · [final-seven-case-pairs/summary.json](../evaluation/mplpb-native/final-seven-case-pairs/summary.json) · [initial-five-case-pairs/summary.json](../evaluation/mplpb-native/initial-five-case-pairs/summary.json) · [network-enabled/summary.json](../evaluation/mplpb-native/network-enabled/summary.json) · 1 more in JSON |
 | [evaluation/mplpb-updates](../evaluation/mplpb-updates) | 575 | 189 | [3df2c6e22f0ef454f3ee67b88d43402a42f63443/RESULTS.md](../evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/RESULTS.md) · [3df2c6e22f0ef454f3ee67b88d43402a42f63443/summary.json](../evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/summary.json) · [bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md](../evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md) · [ccbb5804eb47f78c2338d57c142ad087b47be710/RESULTS.md](../evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/RESULTS.md) · 25 more in JSON |
 | [evaluation/propagation-1](../evaluation/propagation-1) | 3 | 0 | [summary.json](../evaluation/propagation-1/summary.json) |
-| [evaluation/public-claims](../evaluation/public-claims) | 129 | 24 | [2026-11-20/RESULTS.md](../evaluation/public-claims/2026-11-20/RESULTS.md) · [2026-11-20/observed-initial/summary.json](../evaluation/public-claims/2026-11-20/observed-initial/summary.json) · [2026-11-20/observed/summary.json](../evaluation/public-claims/2026-11-20/observed/summary.json) |
+| [evaluation/public-claims](../evaluation/public-claims) | 131 | 24 | [2026-11-20/RESULTS.md](../evaluation/public-claims/2026-11-20/RESULTS.md) · [2026-11-20/observed-initial/summary.json](../evaluation/public-claims/2026-11-20/observed-initial/summary.json) · [2026-11-20/observed/summary.json](../evaluation/public-claims/2026-11-20/observed/summary.json) |
 | [evaluation/public-papers](../evaluation/public-papers) | 34 | 1 | [RESULTS.md](../evaluation/public-papers/RESULTS.md) |
 | [evaluation/witness-section19](../evaluation/witness-section19) | 101 | 27 | [RESULTS.md](../evaluation/witness-section19/RESULTS.md) · [live/README.md](../evaluation/witness-section19/live/README.md) · [live/REPORT.md](../evaluation/witness-section19/live/REPORT.md) · [research-archive/README.md](../evaluation/witness-section19/research-archive/README.md) · 2 more in JSON |
 | [fixtures](../fixtures) | 5 | 3 |  |

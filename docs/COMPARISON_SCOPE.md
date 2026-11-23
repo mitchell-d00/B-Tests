@@ -78,6 +78,32 @@ Later native runs retain their own pins, counts, and reports.
   here. [Native system scope](OOCC_2026_SYSTEM_SCOPE.md) ·
   [M6 correction](paper/TESTING_OOCC_ERRATA.md)
 
+### What the public benchmark driver actually does
+
+B-Tests reverified the public ZIP and all 59 manifest entries on 23 November.
+The benchmark package provides 50 synthetic records and 900 positive field
+questions. The question CSV records whether an answer is expected. The fixture
+CSV supplies the field values. At its default settings, `reproduce.py` generates
+the records and questions from templates and adds 200 negative controls.
+It does not load either CSV or feed an answer key to the engine. It tallies the
+native support flags and errors. The prior field-access response separately
+checked the returned field values against the public benchmark data.
+
+The script creates the actual ledger pages through `mplpb_combined.ledger.write`.
+It asks each question through `mplpb_answers.pipeline.answer_query` and selects
+the external profile via `mplpb_combined.reader.PROFILES`. Those are pieces of
+McPhetridge’s existing MPLPB engine. The benchmark contributes the cases,
+expectations, orchestration and reporting. The older regression suite is
+another existing MPLPB artifact. The source package establishes where the
+benchmark was published and leaves individual authorship of the wrapper and
+CSV files unverified.
+
+Running the unchanged driver against its cited pin `bbf6690` reproduced
+150/150 canonical supported answers, 0/750 supported paraphrases and 200/200
+rejected negative controls. These are strict-engine support counts.
+[Fresh verification and exact call sites](../evaluation/public-claims/2026-11-23/public-driver-verification.json) ·
+[Field-value reproduction](papers/archive/field-access-response/response.md)
+
 The later *Testing OOCC* paper distinguishes the earlier 30 sessions from
 its newly prepared C5 prompt comparison and C6 native systems comparison.
 C5 and C6 were `NOT_RUN` in that paper. Its 34-family roadmap is a catalogue

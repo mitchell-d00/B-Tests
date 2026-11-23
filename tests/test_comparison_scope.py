@@ -2,6 +2,7 @@
 
 import json
 from pathlib import Path
+import hashlib
 import unittest
 
 
@@ -45,3 +46,23 @@ class TestComparisonScope(unittest.TestCase):
                     imported = {f"{entry['module']}.{name}"
                                 for entry in audit["imports_from"] for name in entry["names"]}
                     self.assertEqual(set(row["upstream_modules"]), imported)
+
+
+    def test_public_driver_replay_distinguishes_question_labels_from_engine_results(self):
+        scope = read("research/comparison-scope.json")
+        entry = next(row for row in scope["comparisons"] if row["id"] == "gelhaus_public_mplpb_package")
+        verification = read(entry["fresh_verification"])
+        earlier_audit = read(entry["record"])
+        identity = verification["published_package"]
+        self.assertEqual(identity["zip_sha256"], earlier_audit["package_sha256"])
+        self.assertEqual(identity["script_sha256"], earlier_audit["reproduction_script_sha256"])
+        self.assertFalse(verification["benchmark_inputs"]["driver_loads_csv_key"])
+        replay = verification["unchanged_replay"]
+        result_bytes = (ROOT / replay["retained_result"]).read_bytes()
+        self.assertEqual(hashlib.sha256(result_bytes).hexdigest(), replay["source_result_sha256"])
+        result = json.loads(result_bytes)
+        self.assertEqual(replay["canonical_supported"], result["exact_supported"])
+        self.assertEqual(replay["paraphrases_supported"], result["paraphrase_supported"])
+        negative_cases = sum(row["cases"] for row in replay["negative_controls"].values())
+        self.assertEqual(replay["total_engine_queries"],
+                         verification["benchmark_inputs"]["positive_questions"] + negative_cases)

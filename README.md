@@ -10,7 +10,9 @@ adapter marker files and ledger event counts.
 **Native Gelhaus OOCC/CAD and M6 were not run in B-Tests.** Gelhaus’s later
 public MPLPB benchmark package includes a reproduction script with fixture
 and query code. Its inspected engine imports are McPhetridge’s MPLPB
-writer, answer pipeline, and reader profiles. The package supplied no
+writer, answer pipeline, and reader profiles. The driver prepares and counts
+benchmark cases. MPLPB supplies the code that writes the ledger and decides
+which answers are supported. The package supplied no
 runnable native OOCC controller or M6. The cited OOCC repository returned
 404 when checked again on November 23, 2026.
 [What was tested and who wrote what](docs/COMPARISON_SCOPE.md) ·

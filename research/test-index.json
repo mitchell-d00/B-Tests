@@ -10,10 +10,10 @@
     "record_semantics": "Raw status fields are transcribed. File and record counts may include repeat runs and references."
   },
   "counts": {
-    "files": 1234,
+    "files": 1236,
     "collections": 26,
     "test_source_files": 21,
-    "python_test_definitions": 189,
+    "python_test_definitions": 190,
     "archives": 11,
     "archive_member_files": 2077
   },
@@ -183,7 +183,7 @@
     },
     {
       "path": "evaluation/public-claims",
-      "files": 129,
+      "files": 131,
       "entry_points": [
         "evaluation/public-claims/2026-11-20/RESULTS.md",
         "evaluation/public-claims/2026-11-20/observed-initial/summary.json",
@@ -637,11 +637,15 @@
       "test_definitions": [
         {
           "name": "TestComparisonScope.test_instruction_and_native_counts_remain_separate",
-          "line": 16
+          "line": 17
         },
         {
           "name": "TestComparisonScope.test_attribution_and_unrun_claims_are_preserved",
-          "line": 33
+          "line": 34
+        },
+        {
+          "name": "TestComparisonScope.test_public_driver_replay_distinguishes_question_labels_from_engine_results",
+          "line": 51
         }
       ]
     },

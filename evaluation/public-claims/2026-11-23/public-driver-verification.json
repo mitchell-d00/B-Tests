@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-11-23",
+  "published_package": {
+    "publisher": "Benjamin Gelhaus",
+    "retained_zip": "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/61cc7c04ebdfa84c8d783e005c6e7857c07600b2/evaluation/field-question-normalization/2026-11-20/public-reproduction.zip",
+    "zip_sha256": "f4d1c8263dbb8dcf9f7ddbc9fc85be5d005864db4c74fce1a93cda1bb4865718",
+    "script_sha256": "64886e58e4a96bc484609a646b4efb2a6e916fe6e070dedece031c4979a7137d",
+    "verified_manifest_entries": 59
+  },
+  "benchmark_inputs": {
+    "synthetic_records": 50,
+    "positive_questions": 900,
+    "question_form_counts": {
+      "0": 150,
+      "1": 150,
+      "2": 150,
+      "3": 150,
+      "4": 150,
+      "5": 150
+    },
+    "question_label_column": "expected_answerability",
+    "expected_answerability_counts": {
+      "supported": 900
+    },
+    "expected_values_source": "fixtures.csv",
+    "driver_loads_csv_key": false
+  },
+  "division_of_work": [
+    {
+      "artifact": "reproduce.py:11–18,34–40,44–68",
+      "role": "Creates synthetic records and question variants, supplies negative controls, and tallies the engine's support and error fields."
+    },
+    {
+      "artifact": "reproduce.py:7–9,20–24,41–43,57",
+      "role": "Uses McPhetridge's existing ledger writer, strict answer pipeline, and reader profiles."
+    }
+  ],
+  "unchanged_replay": {
+    "engine": "Combined MPLPB",
+    "engine_author": "Mitchell D. McPhetridge",
+    "engine_revision": "bbf6690d69b32d16969cc10e5ce9d380427ead40",
+    "command": "PYTHONPATH=/path/to/pinned-Combined-MPLPB python /path/to/extracted-public-ZIP/reproduce.py --output /path/to/new-results",
+    "exit_status": 0,
+    "total_engine_queries": 1100,
+    "canonical_supported": 150,
+    "canonical_tested": 150,
+    "paraphrases_supported": 0,
+    "paraphrases_tested": 750,
+    "negative_controls": {
+      "nonexistent": {
+        "cases": 50,
+        "rejected": 50
+      },
+      "missing_field": {
+        "cases": 50,
+        "rejected": 50
+      },
+      "external": {
+        "cases": 50,
+        "rejected": 50
+      },
+      "identity": {
+        "cases": 50,
+        "rejected": 50
+      }
+    },
+    "source_result_sha256": "de6caf08366be948a3911e872534b80223b2415563d344a23e26723ae911889d",
+    "retained_result": "evaluation/public-claims/2026-11-23/public-driver-results.json"
+  },
+  "attribution_limit": "Package publication establishes the benchmark source. Individual authorship of the wrapper or CSV files is not independently established by the package. No native OOCC or M6 engine appears in this execution path."
+}
