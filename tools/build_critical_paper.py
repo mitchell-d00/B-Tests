@@ -18,7 +18,7 @@ PAPERS={'critical':STEM,'mixed-dump':MIXED_STEM,'switch-test':SWITCH_STEM,'testi
 METADATA={
     'TESTING_OOCC':('Testing OOCC',
                     'Claims, Required Tests, and a Roadmap to Verified Behavior',
-                    'McPhetridge · Testing OOCC v1.3 · 20 November 2026 · Author-review draft'),
+                    'McPhetridge · Testing OOCC v1.4 · 23 November 2026 · Scope and attribution clarification'),
     STEM:('MPLPB and OOCC/CAD: Comparative Experiments',
           'Critical OOCC/CAD experiments and source-governance boundaries',
           'McPhetridge · Research draft · 16 November 2026'),

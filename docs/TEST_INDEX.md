@@ -4,9 +4,9 @@ This index covers the repository's test code, experiment runners, fixtures, reta
 results, and proposed comparisons. Use the linked records to determine which cases ran,
 on which revision, and under which conditions.
 
-[AI entry point (JSON)](../research/test-index.json) · [Full file inventory (JSONL)](../research/test-inventory.jsonl) · [Generator](../tools/build_test_index.py) · [Update workflow](https://github.com/mitchell-d00/B-Tests/actions/workflows/test-index.yml)
+[What was compared](COMPARISON_SCOPE.md) · [AI entry point (JSON)](../research/test-index.json) · [Full file inventory (JSONL)](../research/test-inventory.jsonl) · [Generator](../tools/build_test_index.py) · [Update workflow](https://github.com/mitchell-d00/B-Tests/actions/workflows/test-index.yml)
 
-Found **187 Python test definitions** in **20 files**, **1224 repository files** and **11 archives** with **2077 listed member files**.
+Found **189 Python test definitions** in **21 files**, **1234 repository files** and **11 archives** with **2077 listed member files**.
 Case records may include repeated trials, references, and unrun cases.
 
 ## Automated test definitions
@@ -21,6 +21,7 @@ suite from `evaluation/witness-section19/research-archive` with the same command
 | [evaluation/witness-section19/research-archive/tests/test_wie.py](../evaluation/witness-section19/research-archive/tests/test_wie.py) | 26 |
 | [tests/test_blind_handoff.py](../tests/test_blind_handoff.py) | 6 |
 | [tests/test_cad_reference.py](../tests/test_cad_reference.py) | 38 |
+| [tests/test_comparison_scope.py](../tests/test_comparison_scope.py) | 2 |
 | [tests/test_critical_bench.py](../tests/test_critical_bench.py) | 7 |
 | [tests/test_discovery_bench.py](../tests/test_discovery_bench.py) | 3 |
 | [tests/test_human_export_bench.py](../tests/test_human_export_bench.py) | 3 |
@@ -138,6 +139,11 @@ suite from `evaluation/witness-section19/research-archive` with the same command
 - [TestAuthorityContinuityAndReceipts.test_unauthorized_attempt_does_not_append_event](../tests/test_cad_reference.py#L254)
 - [TestAuthorityContinuityAndReceipts.test_atomic_invalid_correction_does_not_append](../tests/test_cad_reference.py#L259)
 - [TestAuthorityContinuityAndReceipts.test_actor_string_is_not_identity_authentication](../tests/test_cad_reference.py#L265)
+
+**[tests/test_comparison_scope.py](../tests/test_comparison_scope.py)**
+
+- [TestComparisonScope.test_instruction_and_native_counts_remain_separate](../tests/test_comparison_scope.py#L16)
+- [TestComparisonScope.test_attribution_and_unrun_claims_are_preserved](../tests/test_comparison_scope.py#L33)
 
 **[tests/test_critical_bench.py](../tests/test_critical_bench.py)**
 
@@ -304,9 +310,9 @@ Read the linked evidence for results and limitations. For example, search only W
 | [blind](../blind) | 9 | 0 | [START.md](../blind/START.md) |
 | [comparative-tests/dispatch-enforcement](../comparative-tests/dispatch-enforcement) | 10 | 2 | [README.md](../comparative-tests/dispatch-enforcement/README.md) · [results.json](../comparative-tests/dispatch-enforcement/results.json) |
 | [comparative-tests/executable-gates](../comparative-tests/executable-gates) | 12 | 0 | [README.md](../comparative-tests/executable-gates/README.md) · [REPRODUCTION.md](../comparative-tests/executable-gates/REPRODUCTION.md) · [probes/results.json](../comparative-tests/executable-gates/probes/results.json) |
-| [docs](../docs) | 18 | 0 |  |
+| [docs](../docs) | 19 | 0 |  |
 | [docs/paper](../docs/paper) | 18 | 1 |  |
-| [docs/papers](../docs/papers) | 38 | 3 | [README.md](../docs/papers/README.md) · [archive/README.md](../docs/papers/archive/README.md) |
+| [docs/papers](../docs/papers) | 45 | 4 | [README.md](../docs/papers/README.md) · [archive/README.md](../docs/papers/archive/README.md) |
 | [evaluation](../evaluation) | 10 | 6 | [findings-index.json](../evaluation/findings-index.json) |
 | [evaluation/agent-pilot-1](../evaluation/agent-pilot-1) | 3 | 1 | [summary.json](../evaluation/agent-pilot-1/summary.json) |
 | [evaluation/critical-bench-1](../evaluation/critical-bench-1) | 20 | 4 | [summary.json](../evaluation/critical-bench-1/summary.json) |
@@ -320,10 +326,10 @@ Read the linked evidence for results and limitations. For example, search only W
 | [evaluation/witness-section19](../evaluation/witness-section19) | 101 | 27 | [RESULTS.md](../evaluation/witness-section19/RESULTS.md) · [live/README.md](../evaluation/witness-section19/live/README.md) · [live/REPORT.md](../evaluation/witness-section19/live/REPORT.md) · [research-archive/README.md](../evaluation/witness-section19/research-archive/README.md) · 2 more in JSON |
 | [fixtures](../fixtures) | 5 | 3 |  |
 | [oocc_lab](../oocc_lab) | 1 | 0 |  |
-| [research](../research) | 17 | 2 |  |
+| [research](../research) | 18 | 3 |  |
 | [research_lab](../research_lab) | 21 | 0 |  |
 | [side_by_side](../side_by_side) | 7 | 1 | [README.md](../side_by_side/README.md) |
-| [tests](../tests) | 18 | 0 |  |
+| [tests](../tests) | 19 | 0 |  |
 | [tools](../tools) | 5 | 0 |  |
 
 ## Runnable scripts and workflow entry points

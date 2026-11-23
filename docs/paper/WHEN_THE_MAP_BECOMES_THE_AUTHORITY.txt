@@ -2,7 +2,8 @@ MPLPB AND OOCC/CAD: COMPARATIVE EXPERIMENTS
 
 Native source-governance checks, inherited-error tests and fresh-session handoffs
 
-Mitchell D. McPhetridge · 16 November 2026 · Research draft
+Mitchell D. McPhetridge · 16 November 2026 · Scope and attribution clarified 23 November
+2026
 
 Canonical paper: Markdown; derived TXT and PDF accompany it. The historical filename is
 retained to preserve links; the present paper reports bounded empirical findings rather
@@ -10,23 +11,27 @@ than a worldview claim.
 
 Abstract
 
-This study compares executable evidence from Mitchell D. McPhetridge's current MPLPB
-implementation with tests of Benjamin Gelhaus's published OOCC/CAD instructions. It does
-not access Gelhaus's live or private system. Thirty real fresh AI target sessions across
-five conditions tested contradictory approved maps, archive discovery, compressed
-handoffs, false originals, relationship expansion and simulated human export. Both
-instruction treatments corrected available contradictions and resisted unsupported
-causal expansion. CAD produced an extra unrequested answer and one over-budget handoff;
-conventional governance exceeded two handoff budgets. In one export pair CAD deferred
-release while the conventional treatment requested it. Neither treatment detected an
-error for which no distinguishing observation was accessible. Separately, the unmodified
-current MPLPB checkout passed 887 native Python tests, seven additional commands,
-bundled component suites and seven authored native boundary probes. Two of those probes
-allowed incorrect downstream work in the older MPLPB revision identified in Gelhaus's
-critique; the current revision blocked those effects. These different evidence levels do
-not establish a general winner. The results support specific enforcement and
-instruction-following findings, retain historical defects, and leave native OOCC/CAD
-enforcement, general inference and Functional Layers forecasting unresolved.
+Thirty fresh AI target sessions compared two prompt treatments: Benjamin Gelhaus’s
+published OOCC/CAD governance instructions and a strong conventional governance prompt
+prepared by B-Tests. Combined MPLPB was not a prompt arm. Both treatments corrected
+accessible contradictions and resisted unsupported causal expansion. CAD produced one
+unrequested answer and one over-budget handoff. The conventional treatment exceeded two
+handoff limits. The limits were measured in characters. A separate native software
+experiment compared two versions of Mitchell D. McPhetridge’s Combined MPLPB. The older
+pin met five of seven authored boundary probes. The newer tested pin met seven of seven
+and blocked a contradictory claim and a claim-only chain before their local executor
+effects. Marker files and ledger event counts verified those outcomes. The newer pin
+also passed its 887-test development suite. No runnable Gelhaus-native OOCC/CAD
+controller or M6 implementation was supplied to B-Tests for independent execution.
+Gelhaus’s later public MPLPB benchmark package includes a reproduction script whose
+inspected engine imports are McPhetridge’s MPLPB modules. That public artifact does not
+establish native OOCC execution. Native OOCC/CAD enforcement, independent checkpoint
+reproduction, and a native head-to-head comparison remain NOT_RUN here.
+
+Comparison scope and attribution
+(https://github.com/mitchell-d00/B-Tests/blob/main/docs/COMPARISON_SCOPE.md) ·
+Machine-readable comparison ledger
+(https://github.com/mitchell-d00/B-Tests/blob/main/research/comparison-scope.json)
 
 1. Research question and evidentiary standard
 
@@ -73,16 +78,16 @@ The historical comparison is 257e54a51edac272eb6b2441457f38a40485ee4d
 explicitly identified in Gelhaus's supplied excerpt [G7]. Genuine Git checkouts were
 verified; tracked target files remained unchanged.
 
-The AI arm uses published CAD operational text, not a replacement implementation with
-hidden truth enforcement. The conventional arm uses capable ordinary source governance.
-Underlying evidence and task budgets are matched within each condition. Thirty sessions
-are real fresh sub-agent requests, not scripted answers: 16 historical simplified
-sessions, two critical-benchmark sessions, four archive-discovery sessions, six
-propagation sessions and two human-export sessions. Dependent handoff stages are not
-independent trials. The exact provider snapshot, seed, sampling settings, token usage
-and price were not exposed. Original collaboration responses are the authoritative
-session outputs; retained JSON is a normalized transcription, not a raw provider API
-transcript.
+The first AI arm receives Gelhaus’s published CAD operational text as governance
+instructions. The second AI arm receives B-Tests’ strong conventional governance
+instructions. Both arms are model instruction trials. Underlying evidence and task
+budgets are matched within each condition. Thirty sessions are real fresh sub-agent
+requests, not scripted answers: 16 historical simplified sessions, two
+critical-benchmark sessions, four archive-discovery sessions, six propagation sessions
+and two human-export sessions. Dependent handoff stages are not independent trials. The
+exact provider snapshot, seed, sampling settings, token usage and price were not
+exposed. Original collaboration responses are the authoritative session outputs;
+retained JSON is a normalized transcription, not a raw provider API transcript.
 
 The operator knew the fixtures and treatments; review was unblinded. Fresh sessions used
 no parent conversation, but shared-filesystem isolation was instruction-based rather
@@ -253,13 +258,15 @@ counted as independent replication.
 
 5. Gelhaus's critique and version chronology
 
-The supplied Beyond Guarded Retrieval file contains concluding discussion, references
-and Appendix A, physical excerpt pages 14–16; its main body and private E0–E5 packages
-are not available here [G7]. It identifies the November 10 MPLPB pin and proposes
-diagnostic precision, exact-field routing, distinct event identity, scoped corrections,
-candidate inference boundaries and independent operational receipts. The public excerpt
-does not itself supply sufficient raw inputs and outputs to reproduce its claimed
-scores.
+The original version of this study used only the supplied Beyond Guarded Retrieval
+excerpt, physical pages 14–16, including Appendix A [G7]. B-Tests subsequently reviewed
+the full public article. Its original private E0–E5 packages remain unavailable for
+independent reproduction. Follow-up source review
+(https://github.com/mitchell-d00/B-Tests/blob/main/docs/GELHAUS_EXTERNAL_EVALUATION.md).
+It identifies the November 10 MPLPB pin and proposes diagnostic precision, exact-field
+routing, distinct event identity, scoped corrections, candidate inference boundaries and
+independent operational receipts. The public excerpt does not itself supply sufficient
+raw inputs and outputs to reproduce its claimed scores.
 
 The historical pin already contains bounded answer inference, a relation graph,
 supersession and the specialist coordinator. Several documentation and answer-engine

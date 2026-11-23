@@ -4,7 +4,8 @@ Claims, Required Tests, and a Roadmap to Verified Behavior
 
 Mitchell D. McPhetridge
 
-20 November 2026 · Technical research paper · Version 1.3 · Author-review draft
+23 November 2026 · Technical research paper · Version 1.4 · Scope and attribution
+clarification
 
 Abstract
 
@@ -28,6 +29,18 @@ families and engineering recommendations from Mitchell D. McPhetridge. It distin
 Gelhaus's own proposed tests from the present additions, preserves the evidence level of
 earlier test-design scripts, and applies the same standards to MPLPB. The roadmap is not
 34 new experiments or a declaration of 34 defects.
+
+The earlier B-Tests comparative study used 30 fresh target sessions to compare Gelhaus’s
+published OOCC/CAD governance instructions with a conventional governance prompt
+prepared by B-Tests. That count excludes native MPLPB runs. The native before-and-after
+study executed two McPhetridge MPLPB revisions. The C5 prompt trial and C6 native
+comparison designed in this paper remain unrun. The inspected public MPLPB benchmark
+package includes a reproduction script and uses McPhetridge’s existing writer, answer
+pipeline, and reader profiles. No runnable Gelhaus-native OOCC controller or M6 was
+supplied to B-Tests for independent execution. Comparison scope and attribution
+(https://github.com/mitchell-d00/B-Tests/blob/main/docs/COMPARISON_SCOPE.md) ·
+Machine-readable scope
+(https://github.com/mitchell-d00/B-Tests/blob/main/research/comparison-scope.json)
 
 1. The question and the objects being tested
 
@@ -67,10 +80,11 @@ across editions are documentary appearances, not independent replications. The N
 supplements from new experimental verification [G9, PDF pp. 1, 7].
 
 The technical paper cites https://github.com/MrMeNotU/OOCC and development PR 2 [G5, PDF
-p. 10]. Both routes returned HTTP 404 during this review on 20 November 2026. This
-records access failure through those routes. It does not establish whether the project
-is private, renamed, removed, accessible through another account, or historically
-nonexistent. No controller was fabricated to fill that access gap.
+p. 10]. Both routes returned HTTP 404 during the review on 20 November 2026. The
+repository lookup returned HTTP 404 again on 23 November 2026. This records access
+failure through those routes. It does not establish whether the project is private,
+renamed, removed, accessible through another account, or historically nonexistent. No
+controller was fabricated to fill that access gap.
 
 The directly inspected evidence for Gelhaus's development checkpoints is the supplied
 publication text. A dated description, numerical table or claim of a passing verifier

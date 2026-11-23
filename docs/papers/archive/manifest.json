@@ -158,28 +158,29 @@
         {
           "format": "md",
           "path": "docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md",
-          "sha256": "db1926d3e86d20eccaafd9a54a6d181830bce0c60f72fcebbe952925ad46fed5",
-          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md",
+          "sha256": "61bc032d05f34705685cea5b07dc3f5a6feb65e6c3ea55536ba2cba17e46aa76",
+          "source_path": "docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md",
           "source_repo": "mitchell-d00/B-Tests",
-          "status": "existing edition retained"
+          "status": "Scope and attribution clarified 23 November 2026"
         },
         {
           "format": "txt",
           "path": "docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.txt",
-          "sha256": "c70666d6e6a50287d51c2ccdd153be0395338eef12e716f43b41cabba4be4662",
-          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.txt",
+          "sha256": "5cbb58ac778c677ec3fdf5533c67c88604c07dd3f5b40a58e6af587572d450f6",
+          "source_path": "docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.txt",
           "source_repo": "mitchell-d00/B-Tests",
-          "status": "existing edition retained"
+          "status": "Scope and attribution clarified 23 November 2026"
         },
         {
           "format": "pdf",
           "path": "docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf",
-          "sha256": "4f04e5424354d42718650598457295bf67a652bdf8c13b2c9fda2521dc3501a6",
-          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf",
+          "sha256": "99fb329246960ac1a47cdab9599f2c6984091b52d3938fdb12aeca1c9e48eb09",
+          "source_path": "docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf",
           "source_repo": "mitchell-d00/B-Tests",
-          "status": "existing edition retained"
+          "status": "Scope and attribution clarified 23 November 2026"
         }
-      ]
+      ],
+      "status": "Scope and attribution clarified 23 November 2026"
     },
     {
       "paper": "PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS",
@@ -266,29 +267,29 @@
         {
           "format": "md",
           "path": "docs/paper/TESTING_OOCC.md",
-          "sha256": "02923b2f41243884537f5c2363684024d78343ca2cd77b87e6e6704049cad724",
-          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/TESTING_OOCC.md",
+          "sha256": "ce36ddc7dd8b12355fd309093b5a5c3952193aaa881d2a29b9d6544f9a3a004f",
+          "source_path": "docs/paper/TESTING_OOCC.md",
           "source_repo": "mitchell-d00/B-Tests",
-          "status": "Revised paper v1.3"
+          "status": "Current v1.4 scope and attribution clarification"
         },
         {
           "format": "txt",
           "path": "docs/paper/TESTING_OOCC.txt",
-          "sha256": "b1ae3d40a27955972eb9862fb5ba46e48548582cbb708506e2a81d840230a552",
-          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/TESTING_OOCC.txt",
+          "sha256": "19f0494ec4aa10fe3379e25f46e9f562b3124bf243815e431b26c02fa88014a8",
+          "source_path": "docs/paper/TESTING_OOCC.txt",
           "source_repo": "mitchell-d00/B-Tests",
-          "status": "Revised paper v1.3"
+          "status": "Current v1.4 scope and attribution clarification"
         },
         {
           "format": "pdf",
           "path": "docs/paper/TESTING_OOCC.pdf",
-          "sha256": "66997b021ab96d6cf551dbd8f920c0a0d09803a08a6d55c0d536a59cb166dc38",
-          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/TESTING_OOCC.pdf",
+          "sha256": "d4eec29f4d942f304b36717715983cef3da747910d7633b6ef2781744dbef95b",
+          "source_path": "docs/paper/TESTING_OOCC.pdf",
           "source_repo": "mitchell-d00/B-Tests",
-          "status": "Revised paper v1.3"
+          "status": "Current v1.4 scope and attribution clarification"
         }
       ],
-      "status": "Current v1.3 author-review draft; M6 attribution corrected; earlier editions preserved"
+      "status": "Current v1.4 scope and attribution clarification"
     },
     {
       "paper": "map-response-supplied",
@@ -464,6 +465,68 @@
           "source_revision": "109299c52bc92ce66e783a453c521a1e9c53db1a"
         }
       ]
+    },
+    {
+      "paper": "comparative-experiments-pre-scope",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/papers/archive/comparative-experiments-pre-scope/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md",
+          "sha256": "db1926d3e86d20eccaafd9a54a6d181830bce0c60f72fcebbe952925ad46fed5",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "Preserved before the scope clarification"
+        },
+        {
+          "format": "txt",
+          "path": "docs/papers/archive/comparative-experiments-pre-scope/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.txt",
+          "sha256": "c70666d6e6a50287d51c2ccdd153be0395338eef12e716f43b41cabba4be4662",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.txt",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "Preserved before the scope clarification"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/papers/archive/comparative-experiments-pre-scope/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf",
+          "sha256": "4f04e5424354d42718650598457295bf67a652bdf8c13b2c9fda2521dc3501a6",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "Preserved before the scope clarification"
+        }
+      ],
+      "status": "Preserved edition before the scope clarification",
+      "source_revision": "0acf5b3afd5292c37843f53c9722e3f7ccc7f348"
+    },
+    {
+      "paper": "testing-oocc-v1.3",
+      "files": [
+        {
+          "format": "md",
+          "path": "docs/papers/archive/testing-oocc-v1.3/TESTING_OOCC.md",
+          "sha256": "02923b2f41243884537f5c2363684024d78343ca2cd77b87e6e6704049cad724",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/TESTING_OOCC.md",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "Preserved before the scope clarification"
+        },
+        {
+          "format": "txt",
+          "path": "docs/papers/archive/testing-oocc-v1.3/TESTING_OOCC.txt",
+          "sha256": "b1ae3d40a27955972eb9862fb5ba46e48548582cbb708506e2a81d840230a552",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/TESTING_OOCC.txt",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "Preserved before the scope clarification"
+        },
+        {
+          "format": "pdf",
+          "path": "docs/papers/archive/testing-oocc-v1.3/TESTING_OOCC.pdf",
+          "sha256": "66997b021ab96d6cf551dbd8f920c0a0d09803a08a6d55c0d536a59cb166dc38",
+          "source_path": "/tmp/mplpb-b-tests-20261119/docs/paper/TESTING_OOCC.pdf",
+          "source_repo": "mitchell-d00/B-Tests",
+          "status": "Preserved before the scope clarification"
+        }
+      ],
+      "status": "Preserved edition before the scope clarification",
+      "source_revision": "0acf5b3afd5292c37843f53c9722e3f7ccc7f348"
     }
   ],
   "not_acquired": [

@@ -1,15 +1,19 @@
 {
   "schema_version": 1,
+  "comparison_scope": {
+    "document": "docs/COMPARISON_SCOPE.md",
+    "data": "research/comparison-scope.json"
+  },
   "scope": {
     "important_distinction": "Inventory presence is not an execution or a passed result. Read the source records.",
     "coverage": "Git-indexed repository files. Archive member names are indexed one layer deep.",
     "record_semantics": "Raw status fields are transcribed. File and record counts may include repeat runs and references."
   },
   "counts": {
-    "files": 1224,
+    "files": 1234,
     "collections": 26,
-    "test_source_files": 20,
-    "python_test_definitions": 187,
+    "test_source_files": 21,
+    "python_test_definitions": 189,
     "archives": 11,
     "archive_member_files": 2077
   },
@@ -62,7 +66,7 @@
     },
     {
       "path": "docs",
-      "files": 18,
+      "files": 19,
       "entry_points": [],
       "records_with_case_or_status": 0
     },
@@ -74,12 +78,12 @@
     },
     {
       "path": "docs/papers",
-      "files": 38,
+      "files": 45,
       "entry_points": [
         "docs/papers/README.md",
         "docs/papers/archive/README.md"
       ],
-      "records_with_case_or_status": 3
+      "records_with_case_or_status": 4
     },
     {
       "path": "evaluation",
@@ -222,9 +226,9 @@
     },
     {
       "path": "research",
-      "files": 17,
+      "files": 18,
       "entry_points": [],
-      "records_with_case_or_status": 2
+      "records_with_case_or_status": 3
     },
     {
       "path": "research_lab",
@@ -242,7 +246,7 @@
     },
     {
       "path": "tests",
-      "files": 18,
+      "files": 19,
       "entry_points": [],
       "records_with_case_or_status": 0
     },
@@ -623,6 +627,21 @@
         {
           "name": "TestAuthorityContinuityAndReceipts.test_actor_string_is_not_identity_authentication",
           "line": 265
+        }
+      ]
+    },
+    {
+      "path": "tests/test_comparison_scope.py",
+      "collection": "tests",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "TestComparisonScope.test_instruction_and_native_counts_remain_separate",
+          "line": 16
+        },
+        {
+          "name": "TestComparisonScope.test_attribution_and_unrun_claims_are_preserved",
+          "line": 33
         }
       ]
     },

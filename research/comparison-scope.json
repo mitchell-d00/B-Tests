@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-23",
+  "scope_document": "docs/COMPARISON_SCOPE.md",
+  "canonical_summary": "The 30 fresh AI sessions compared Gelhaus’s published OOCC/CAD governance instructions with a B-Tests conventional governance prompt. Combined MPLPB ran in separate native before-and-after tests. Gelhaus’s native OOCC/CAD controller and M6 were not supplied as runnable code to B-Tests and were not executed.",
+  "comparisons": [
+    {
+      "id": "instruction_trials_30",
+      "status": "OBSERVED",
+      "unit": "AI target session",
+      "sessions": 30,
+      "dependent_handoff_stages": true,
+      "native_mplpb_arm": false,
+      "arms": [
+        {
+          "id": "cad_instruction",
+          "author_of_source_material": "Benjamin Gelhaus",
+          "kind": "published governance text delivered as instructions"
+        },
+        {
+          "id": "conventional_instruction",
+          "author_of_treatment": "B-Tests",
+          "kind": "strong conventional governance prompt"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "historical_simplified",
+          "sessions": 16,
+          "runner": "research_lab.blind_handoff",
+          "evidence": "evaluation/agent-pilot-1/records.json",
+          "findings": [
+            "Both treatments corrected false approved states with supplied originals.",
+            "CAD 503/500 and conventional 501/500 compression failures.",
+            "Literal prose scorer defects retained."
+          ]
+        },
+        {
+          "condition": "critical_bench",
+          "sessions": 2,
+          "runner": "research_lab.critical_bench",
+          "evidence": "evaluation/critical-bench-1/summary.json",
+          "findings": [
+            "119/119 requested values correct in each arm.",
+            "CAD added Q120.",
+            "Source-ID-set scores 108/119 and 109/119 are overprescriptive; original overall FAIL scores retained."
+          ]
+        },
+        {
+          "condition": "discovery",
+          "sessions": 4,
+          "runner": "research_lab.discovery_bench",
+          "evidence": "evaluation/discovery-1/summary.json",
+          "findings": [
+            "Both treatments independently opened discoverable current register without a warning about error.",
+            "Wrong map contested; positive control releases selected.",
+            "CAD positive-control prose release string fails literal key; decision is correct by meaning."
+          ]
+        },
+        {
+          "condition": "propagation",
+          "sessions": 6,
+          "runner": "research_lab.propagation_bench",
+          "evidence": "evaluation/propagation-1/summary.json",
+          "findings": [
+            "False P0 report remains usable across three stages.",
+            "One root retained; unsupported expansion and causal acceptance not observed.",
+            "Conventional final budget failure 410/400; CAD 384/400."
+          ]
+        },
+        {
+          "condition": "single_project_human_export",
+          "sessions": 2,
+          "runner": "research_lab.human_export_bench",
+          "evidence": "evaluation/human-export-1/summary.json",
+          "findings": [
+            "Both retain inherited-report status and unknown claim generation.",
+            "CAD defers release for validation evidence; conventional requests release from inherited completion.",
+            "No hidden original falsehood detected; external truth detection INCONCLUSIVE."
+          ]
+        }
+      ],
+      "failure_units": {
+        "handoff_budget_unit": "characters",
+        "cad_overruns": [
+          {
+            "actual": 503,
+            "limit": 500
+          }
+        ],
+        "conventional_overruns": [
+          {
+            "actual": 501,
+            "limit": 500
+          },
+          {
+            "actual": 410,
+            "limit": 400
+          }
+        ],
+        "cad_unrequested_answer": "Q120"
+      },
+      "record": "evaluation/findings-index.json"
+    },
+    {
+      "id": "native_mplpb_before_after",
+      "status": "OBSERVED",
+      "unit": "authored native boundary probe at each pin",
+      "code_author": "Mitchell D. McPhetridge",
+      "probe_author": "B-Tests",
+      "probe_count": 7,
+      "included_in_30_sessions": false,
+      "arms": [
+        {
+          "revision": "257e54a51edac272eb6b2441457f38a40485ee4d",
+          "passed": 5,
+          "failed": 2
+        },
+        {
+          "revision": "cc21ce300b5ec228c07fc77a149804fba6c89792",
+          "passed": 7,
+          "failed": 0
+        }
+      ],
+      "changed_cases": [
+        "contradictory_claim",
+        "claim_only_chain"
+      ],
+      "effect_observers": [
+        "actual adapter marker file",
+        "read-only ledger event counts"
+      ],
+      "record": "evaluation/mplpb-native/final-seven-case-pairs/summary.json"
+    },
+    {
+      "id": "gelhaus_reported_selected_mplpb_tests",
+      "status": "AUTHOR_REPORTED",
+      "evaluator": "Benjamin Gelhaus",
+      "upstream_code_and_existing_tests_author": "Mitchell D. McPhetridge",
+      "reported_passed": 58,
+      "reported_total": 58,
+      "record": "docs/GELHAUS_EXTERNAL_EVALUATION.md"
+    },
+    {
+      "id": "gelhaus_public_mplpb_package",
+      "status": "ATTRIBUTION_INSPECTED",
+      "publisher": "Benjamin Gelhaus",
+      "included_artifact": "reproduce.py with fixture generation and query templates",
+      "wrapper_authorship": "UNESTABLISHED_BY_PACKAGE",
+      "upstream_engine_author": "Mitchell D. McPhetridge",
+      "upstream_modules": [
+        "mplpb_combined.ledger.write",
+        "mplpb_answers.pipeline.answer_query",
+        "mplpb_combined.reader.PROFILES"
+      ],
+      "record": "evaluation/public-claims/2026-11-20/attribution-audit.json"
+    },
+    {
+      "id": "btests_cadlab",
+      "status": "OBSERVED_REFERENCE_CONTROL",
+      "code_owner": "Mitchell D. McPhetridge / B-Tests",
+      "kind": "evaluator-owned CAD reference",
+      "record": "evaluation/public-claims/2026-11-20/RESULTS.md"
+    },
+    {
+      "id": "native_gelhaus_oocc",
+      "status": "NOT_RUN",
+      "runnable_implementation_available_to_btests": false,
+      "performance_result": null,
+      "cited_repository": "https://github.com/MrMeNotU/OOCC",
+      "public_access_check": {
+        "date": "2026-11-23",
+        "http_status": 404
+      },
+      "record": "docs/OOCC_2026_SYSTEM_SCOPE.md"
+    },
+    {
+      "id": "m6",
+      "status": "NOT_RUN",
+      "runnable_implementation_available_to_btests": false,
+      "performance_result": null,
+      "record": "docs/paper/TESTING_OOCC_ERRATA.md"
+    },
+    {
+      "id": "testing_oocc_c5_and_c6",
+      "status": "NOT_RUN",
+      "conditions": [
+        "C5 new prompt comparison",
+        "C6 native head-to-head comparison"
+      ],
+      "record": "docs/paper/TESTING_OOCC.md"
+    }
+  ],
+  "reading_rules": [
+    "A native result for MPLPB is not a native result for OOCC.",
+    "A recorded model decision does not establish a native effect.",
+    "A catalogue entry, a published author report, and an independently observed execution are different evidence types.",
+    "A failed repository lookup establishes an access result at the cited URL."
+  ]
+}

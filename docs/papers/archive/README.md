@@ -5,6 +5,8 @@ attachments, current MPLPB docs, existing B-Tests papers and two linked public
 author repositories. Missing available editions are copied unchanged. Existing
 byte-identical files are indexed in place, with no original deleted or overwritten.
 Distinct editions remain distinct; copies are not independent research results.
+The [comparison scope and paper audit](../../COMPARISON_SCOPE.md) records the
+current attribution and which experiments actually ran.
 
 | Paper / edition | Available formats |
 |---|---|
@@ -17,7 +19,9 @@ Distinct editions remain distinct; copies are not independent research results.
 | PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS | [MD](../../paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.md) · [TXT](../../paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.txt) · [PDF](../../paper/PROBABILISTIC_PROMPTS_AND_MPLPB_CONTRACTS.pdf) |
 | MPLPB_MIXED_DUMP | [MD](../../paper/MPLPB_MIXED_DUMP.md) · [TXT](../../paper/MPLPB_MIXED_DUMP.txt) · [PDF](../../paper/MPLPB_MIXED_DUMP.pdf) |
 | THE_WITNESS_INSIDE_THE_MACHINE_REVISED | [MD](witness-2026-11-19/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.md) · [PDF](witness-2026-11-19/THE_WITNESS_INSIDE_THE_MACHINE_REVISED.pdf) |
-| TESTING_OOCC v1.3 (current author-review draft) | [MD](../../paper/TESTING_OOCC.md) · [TXT](../../paper/TESTING_OOCC.txt) · [PDF](../../paper/TESTING_OOCC.pdf) |
+| TESTING_OOCC v1.4 (scope and attribution clarification) | [MD](../../paper/TESTING_OOCC.md) · [TXT](../../paper/TESTING_OOCC.txt) · [PDF](../../paper/TESTING_OOCC.pdf) |
+| TESTING_OOCC v1.3 (preserved) | [MD](testing-oocc-v1.3/TESTING_OOCC.md) · [TXT](testing-oocc-v1.3/TESTING_OOCC.txt) · [PDF](testing-oocc-v1.3/TESTING_OOCC.pdf) |
+| Comparative Experiments before the November 23 clarification | [MD](comparative-experiments-pre-scope/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md) · [TXT](comparative-experiments-pre-scope/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.txt) · [PDF](comparative-experiments-pre-scope/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf) |
 | map-response-supplied | [PDF](map-response-supplied/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.pdf) |
 | mplpb-residual-experiment | [MD](mplpb-residual-experiment/The_Residual_of_Logic.md) · [PDF](mplpb-residual-experiment/The_Residual_of_Logic.pdf) · [TXT](mplpb-residual-experiment/The_Residual_of_Logic.txt) |
 | portable-evidence-runtime | [MD](portable-evidence-runtime/Portable_Evidence_Runtime.md) · [PDF](portable-evidence-runtime/Portable_Evidence_Runtime.pdf) · [TXT](portable-evidence-runtime/Portable_Evidence_Runtime.txt) |

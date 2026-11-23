@@ -184,6 +184,7 @@ def catalog(root):
         })
     return {
         "schema_version": 1,
+        "comparison_scope": {"document": "docs/COMPARISON_SCOPE.md", "data": "research/comparison-scope.json"},
         "scope": {
             "important_distinction": "Inventory presence is not an execution or a passed result. Read the source records.",
             "coverage": "Git-indexed repository files. Archive member names are indexed one layer deep.",
@@ -219,6 +220,7 @@ def markdown(index):
         "results, and proposed comparisons. Use the linked records to determine which cases ran,",
         "on which revision, and under which conditions.",
         "",
+        "[What was compared](COMPARISON_SCOPE.md) · "
         "[AI entry point (JSON)](../research/test-index.json) · "
         "[Full file inventory (JSONL)](../research/test-inventory.jsonl) · "
         "[Generator](../tools/build_test_index.py) · "

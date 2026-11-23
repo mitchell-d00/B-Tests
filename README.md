@@ -1,20 +1,20 @@
 # B-Tests — MPLPB and OOCC/CAD comparative experiments
 
-This repository tests whether published OOCC/CAD instructions correct an inherited,
-human-approved interpretation when original evidence contradicts it. It also tests
-failure-history retention, permissions, causal relationships, receipts and compressed
-handoffs. Findings are limited to recorded executions and specified criteria; no
-claim of a global architectural victory is made.
+**The 30 fresh AI sessions compared two governance prompts.** One used
+Benjamin Gelhaus’s published OOCC/CAD instructions. The other used a
+strong conventional governance prompt prepared by B-Tests. Combined
+MPLPB ran separately in native before-and-after tests of two versions of
+Mitchell D. McPhetridge’s code. The native probes verified effects with
+adapter marker files and ledger event counts.
 
-**We have no access to Ben’s live system.** These are instruction-level model tests
-and evaluator controls, alongside separate native MPLPB executions. They do not test his private Memory/Drive/SQL controller,
-scheduler, recipient acceptance or native action enforcement. See
-[system scope](docs/OOCC_2026_SYSTEM_SCOPE.md).
-
-On November 18, 2026, GitHub returned HTTP 404 for `MrMeNotU/OOCC`,
-the repository cited in Gelhaus’s research. The controller code at that
-location was unavailable for inspection or independent testing.
-[Reference G7](docs/paper/WHEN_THE_MAP_BECOMES_THE_AUTHORITY.md#references)
+**Native Gelhaus OOCC/CAD and M6 were not run in B-Tests.** Gelhaus’s later
+public MPLPB benchmark package includes a reproduction script with fixture
+and query code. Its inspected engine imports are McPhetridge’s MPLPB
+writer, answer pipeline, and reader profiles. The package supplied no
+runnable native OOCC controller or M6. The cited OOCC repository returned
+404 when checked again on November 23, 2026.
+[What was tested and who wrote what](docs/COMPARISON_SCOPE.md) ·
+[Machine-readable comparison scope](research/comparison-scope.json)
 
 ## Find a test or experiment
 
@@ -25,7 +25,7 @@ GitHub Actions refreshes the index after changes reach `main`.
 
 ## Testing OOCC — explicit comparison ledger, 20 November 2026
 
-**Mitchell D. McPhetridge, Testing OOCC: Claims, Required Tests, and a Roadmap to Verified Behavior (v1.3).** [MD](docs/paper/TESTING_OOCC.md) · [TXT](docs/paper/TESTING_OOCC.txt)
+**Mitchell D. McPhetridge, Testing OOCC: Claims, Required Tests, and a Roadmap to Verified Behavior (v1.4).** [MD](docs/paper/TESTING_OOCC.md) · [TXT](docs/paper/TESTING_OOCC.txt)
 · [PDF](docs/paper/TESTING_OOCC.pdf) · [New reproducible results](evaluation/public-claims/2026-11-20/RESULTS.md)
 · [Mitchell paper archive and original source paths](docs/papers/archive/README.md).
 
@@ -106,8 +106,8 @@ available to this evaluation. Testing that system requires its exact runnable
 version, setup, authorized source access, adapter and independently checked state
 readbacks. Those native-system tests remain **NOT_RUN**.
 
-We have run **30 real fresh AI sessions** using published CAD instructions and
-strong conventional governance instructions. The cases tested false approved maps,
+The **30 fresh AI sessions** compared Gelhaus’s published CAD governance
+instructions with B-Tests’ strong conventional governance prompt. The cases tested false approved maps,
 contradictory sources, archive discovery, failed-work history, permissions, receipts,
 unsupported relationships, compressed handoffs, false originals and a simulated
 human export. Both instruction treatments corrected accessible contradictions and
@@ -552,7 +552,7 @@ conventional session requested release relying on the export.** That is an obser
 difference in one pair, not a general superiority finding or native enforced block.
 The task explicitly requested evidence classification. No real release occurred.
 
-There are now **30 real target sessions across five conditions**, including dependent
+The **30 prompt-treatment target sessions across five conditions** include dependent
 handoff stages. These are authored development experiments, not thirty independent
 projects, independent validation or proof against all inherited-error reinforcement.
 

@@ -1,4 +1,6 @@
 {
+  "comparison_scope": "research/comparison-scope.json",
+  "target_session_unit": "fresh AI instruction-treatment session; no native systems in this count",
   "schema": "critical-findings-index-1",
   "target_sessions": 30,
   "independent_project_samples": false,
