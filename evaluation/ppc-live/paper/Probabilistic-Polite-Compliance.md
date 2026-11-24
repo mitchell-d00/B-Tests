@@ -305,6 +305,14 @@ The live experiment shows how instruction adherence, conformance to a response f
 
 The separate native MPLPB run demonstrates how local actions and ledger changes can be tested through observable effects. Together, the experiments support reporting what the model said, what the gate authorized, and what the system verifiably did as distinct outcomes.
 
+## 14. Architectural non-equivalence
+
+Both architectures can pursue continuity and reliable behavior. OOCC’s published materials describe contextual governance as a way to maintain continuity. MPLPB uses executable contracts to enforce particular rules at defined boundaries. Each approach can offer value for its stated purpose.
+
+Claims of equivalence require evidence for the specific property under comparison. Similar outputs establish overlap in observed behavior. Shared terminology identifies concepts to compare. Observed compliance records what happened in a given run, while enforcement evidence shows what an implementation permitted or blocked at a defined boundary. A reproduced MPLPB defect establishes a finding about the tested MPLPB implementation. Any corresponding OOCC capability requires evidence from OOCC itself. The same standard applies to MPLPB claims about properties attributed to OOCC.
+
+A claim of architectural equivalence therefore needs corresponding implementation evidence and comparable execution evidence from both systems. Native OOCC remains NOT_RUN. The discussion of OOCC is limited to its documented mechanisms. The live experiment measures a bounded enforcement effect from the companion gate. The separate native MPLPB probes document specific work boundaries. An architectural ranking would require common criteria and comparable native results. An equivalence claim should identify the mechanism, scope, and evidence for each claimed property.
+
 ## Data and reproducibility
 
 B-Tests preserves the frozen cases, request schedule, raw model responses, scoring code, native receipts, and offline replay instructions. The archive also contains Mox Cult of Personality (MoxCOP), a reusable tool that freezes and verifies separate inference trials. The PPC model and native probe results were archived at B-Tests commit dab3dd6. The native probes ran against Combined MPLPB commit e3990bf. [Experiment archive and replication package](https://github.com/mitchell-d00/B-Tests/tree/dab3dd6a69d16d80eb7447c4f089f7041ff3b685/evaluation/ppc-live)
