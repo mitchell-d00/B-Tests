@@ -5,9 +5,17 @@ author: Mitchell D. McPhetridge
 date: November 24, 2026
 ---
 
+## Note on what was compared
+
+**A versus B tested a prompt.** The same Qwen model answered the same cases. A used a basic accuracy prompt. B used the experiment’s own corrective evidence rule, a narrow example of the prompt-delivered governance class discussed in this paper.
+
+**B versus C tested an executable gate.** C took the exact proposal produced by B and applied code that could block an acceptance using an evaluator-supplied eligibility label. C made zero model calls.
+
+**Native-system status.** MPLPB passed seven separately run B-Tests probes. Native OOCC was NOT_RUN. The A/B/C study provides no head-to-head verdict on those implementations.
+
 ## Abstract
 
-A language model can acknowledge a rule while still producing an output that violates it. This paper examines that distinction through an exploratory conversational case and a controlled live experiment. A local Qwen2.5-1.5B-Instruct model completed 30 repeats of 14 fixed cases under baseline and corrective instructions. A third treatment passed each corrective-instruction proposal through executable code that could veto an unsupported acceptance. The scorer verified 840 fresh request histories and 1,200 unique model responses, yielding 1,260 scored decisions. The corrective-instruction treatment produced one unsupported acceptance. The gate blocked it and preserved the other 419 decisions. Both treatments refused 118 of the 210 supported cases. The baseline produced 169 invalid responses under the required JSON format, limiting direct comparisons of refusal rates. A separate native MPLPB run passed seven B-Tests probes with filesystem and SQLite observations. The results establish a bounded enforcement effect given evaluator-supplied labels. The study leaves generalization across models, independence of repeated observations, and native OOCC performance unresolved.
+This paper examines the difference between prompting a language model to observe an evidence rule and enforcing that rule in code. The live experiment used Qwen2.5-1.5B-Instruct on 14 fixed cases repeated 30 times. A used a basic accuracy prompt. B used the experiment’s corrective instruction as an example of prompt-delivered governance. C applied an executable veto to each unchanged B proposal using an evaluator-supplied eligibility label. Across 840 separate request histories, the scorer verified 1,200 unique model responses and scored 1,260 decisions. B accepted one unsupported claim. The gate blocked it and preserved the other 419 decisions. B and C each refused 118 of 210 supported cases. A produced 169 invalid responses under the required JSON format, limiting direct comparisons of refusal rates. In a separate native run, MPLPB passed seven B-Tests probes with filesystem and SQLite observations. Native OOCC was NOT_RUN. The gate result establishes a bounded enforcement effect given evaluator-supplied labels. Generalization across models, statistical independence, and external truth discovery remain open.
 
 **Keywords** AI governance, instruction following, deterministic enforcement, inference trials, experimental verification.
 
