@@ -242,9 +242,9 @@ class TestAuthorityContinuityAndReceipts(CADFixture):
         self.cad.grant('worker',['read_private'],['observatory'])
         self.cad.revoke('worker')
         self.cad.close()
-        self.cad=CADLab(self.path)
-        self.assertEqual(self.cad.query('observatory','aster','port')['answer'],'6100')
-        self.assertNotIn('worker',self.cad.snapshot()['grants'])
+        with CADLab(self.path) as reopened:
+            self.assertEqual(reopened.query('observatory','aster','port')['answer'],'6100')
+            self.assertNotIn('worker',reopened.snapshot()['grants'])
 
     def test_event_tampering_detected_on_query(self):
         self.source('S',['aster | port | 6100'])
