@@ -10,7 +10,7 @@
     "record_semantics": "Raw status fields are transcribed. File and record counts may include repeat runs and references."
   },
   "counts": {
-    "files": 1362,
+    "files": 1364,
     "collections": 27,
     "test_source_files": 22,
     "python_test_definitions": 195,
@@ -175,7 +175,7 @@
     },
     {
       "path": "evaluation/ppc-live",
-      "files": 126,
+      "files": 128,
       "entry_points": [
         "evaluation/ppc-live/2026-11-24/README.md",
         "evaluation/ppc-live/2026-11-24/REPRODUCTION.md",

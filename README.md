@@ -32,6 +32,8 @@ The November 24 live replication retained 840 separate A/B inference histories,
 every B output. A separate native MPLPB run passed all seven B-Tests probes.
 [Mox Cult of Personality (MoxCOP)](evaluation/ppc-live/2026-11-24/moxcop/README.md)
 freezes and verifies inference trials using request histories and provider IDs.
+[Unified paper (PDF)](evaluation/ppc-live/paper/Probabilistic-Polite-Compliance.pdf) ·
+[Manuscript source](evaluation/ppc-live/paper/Probabilistic-Polite-Compliance.md) ·
 [Results and scope](evaluation/ppc-live/2026-11-24/README.md) ·
 [Offline experiment ZIP](evaluation/ppc-live/ppc-live-2026-11-24.zip).
 

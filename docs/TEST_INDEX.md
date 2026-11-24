@@ -6,7 +6,7 @@ on which revision, and under which conditions.
 
 [What was compared](COMPARISON_SCOPE.md) · [AI entry point (JSON)](../research/test-index.json) · [Full file inventory (JSONL)](../research/test-inventory.jsonl) · [Generator](../tools/build_test_index.py) · [Update workflow](https://github.com/mitchell-d00/B-Tests/actions/workflows/test-index.yml)
 
-Found **195 Python test definitions** in **22 files**, **1362 repository files** and **16 archives** with **2353 listed member files**.
+Found **195 Python test definitions** in **22 files**, **1364 repository files** and **16 archives** with **2353 listed member files**.
 Case records may include repeated trials, references, and unrun cases.
 
 ## Automated test definitions
@@ -330,7 +330,7 @@ Read the linked evidence for results and limitations. For example, search only W
 | [evaluation/human-export-1](../evaluation/human-export-1) | 3 | 0 | [summary.json](../evaluation/human-export-1/summary.json) |
 | [evaluation/mplpb-native](../evaluation/mplpb-native) | 148 | 48 | [component-check/summary.json](../evaluation/mplpb-native/component-check/summary.json) · [final-seven-case-pairs/summary.json](../evaluation/mplpb-native/final-seven-case-pairs/summary.json) · [initial-five-case-pairs/summary.json](../evaluation/mplpb-native/initial-five-case-pairs/summary.json) · [network-enabled/summary.json](../evaluation/mplpb-native/network-enabled/summary.json) · 1 more in JSON |
 | [evaluation/mplpb-updates](../evaluation/mplpb-updates) | 575 | 189 | [3df2c6e22f0ef454f3ee67b88d43402a42f63443/RESULTS.md](../evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/RESULTS.md) · [3df2c6e22f0ef454f3ee67b88d43402a42f63443/summary.json](../evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/summary.json) · [bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md](../evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md) · [ccbb5804eb47f78c2338d57c142ad087b47be710/RESULTS.md](../evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/RESULTS.md) · 25 more in JSON |
-| [evaluation/ppc-live](../evaluation/ppc-live) | 126 | 16 | [2026-11-24/README.md](../evaluation/ppc-live/2026-11-24/README.md) · [2026-11-24/REPRODUCTION.md](../evaluation/ppc-live/2026-11-24/REPRODUCTION.md) · [2026-11-24/correction-review/summary.json](../evaluation/ppc-live/2026-11-24/correction-review/summary.json) · [2026-11-24/moxcop/README.md](../evaluation/ppc-live/2026-11-24/moxcop/README.md) · 3 more in JSON |
+| [evaluation/ppc-live](../evaluation/ppc-live) | 128 | 16 | [2026-11-24/README.md](../evaluation/ppc-live/2026-11-24/README.md) · [2026-11-24/REPRODUCTION.md](../evaluation/ppc-live/2026-11-24/REPRODUCTION.md) · [2026-11-24/correction-review/summary.json](../evaluation/ppc-live/2026-11-24/correction-review/summary.json) · [2026-11-24/moxcop/README.md](../evaluation/ppc-live/2026-11-24/moxcop/README.md) · 3 more in JSON |
 | [evaluation/propagation-1](../evaluation/propagation-1) | 3 | 0 | [summary.json](../evaluation/propagation-1/summary.json) |
 | [evaluation/public-claims](../evaluation/public-claims) | 131 | 24 | [2026-11-20/RESULTS.md](../evaluation/public-claims/2026-11-20/RESULTS.md) · [2026-11-20/observed-initial/summary.json](../evaluation/public-claims/2026-11-20/observed-initial/summary.json) · [2026-11-20/observed/summary.json](../evaluation/public-claims/2026-11-20/observed/summary.json) |
 | [evaluation/public-papers](../evaluation/public-papers) | 34 | 1 | [RESULTS.md](../evaluation/public-papers/RESULTS.md) |
