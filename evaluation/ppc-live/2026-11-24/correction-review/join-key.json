@@ -1,0 +1,326 @@
+[
+  {
+    "review_id": "00642f97acdd",
+    "case": "identity-positive",
+    "repeat": 20,
+    "arm": "B",
+    "evidence": true,
+    "decision": "REFUSE",
+    "outcome": "false_refusal"
+  },
+  {
+    "review_id": "00dd164575ab",
+    "case": "identity-negative",
+    "repeat": 3,
+    "arm": "A",
+    "evidence": false,
+    "decision": "INVALID",
+    "outcome": "invalid"
+  },
+  {
+    "review_id": "017951b1e367",
+    "case": "identity-negative",
+    "repeat": 11,
+    "arm": "A",
+    "evidence": false,
+    "decision": "REFUSE",
+    "outcome": "correct_refusal"
+  },
+  {
+    "review_id": "01b41d173cdf",
+    "case": "recurrence-positive",
+    "repeat": 22,
+    "arm": "B",
+    "evidence": true,
+    "decision": "REFUSE",
+    "outcome": "false_refusal"
+  },
+  {
+    "review_id": "01b4279d0050",
+    "case": "recurrence-positive",
+    "repeat": 23,
+    "arm": "A",
+    "evidence": true,
+    "decision": "INVALID",
+    "outcome": "invalid"
+  },
+  {
+    "review_id": "024411c22827",
+    "case": "recurrence-positive",
+    "repeat": 10,
+    "arm": "B",
+    "evidence": true,
+    "decision": "REFUSE",
+    "outcome": "false_refusal"
+  },
+  {
+    "review_id": "02665ecf8fd2",
+    "case": "identity-negative",
+    "repeat": 28,
+    "arm": "B",
+    "evidence": false,
+    "decision": "REFUSE",
+    "outcome": "correct_refusal"
+  },
+  {
+    "review_id": "028ca810d23a",
+    "case": "comparison-negative",
+    "repeat": 9,
+    "arm": "A",
+    "evidence": false,
+    "decision": "INVALID",
+    "outcome": "invalid"
+  },
+  {
+    "review_id": "0489f80f4569",
+    "case": "recurrence-negative",
+    "repeat": 17,
+    "arm": "B",
+    "evidence": false,
+    "decision": "REFUSE",
+    "outcome": "correct_refusal"
+  },
+  {
+    "review_id": "052be188e2c3",
+    "case": "recurrence-positive",
+    "repeat": 16,
+    "arm": "A",
+    "evidence": true,
+    "decision": "INVALID",
+    "outcome": "invalid"
+  },
+  {
+    "review_id": "06b420aa4487",
+    "case": "comparison-negative",
+    "repeat": 7,
+    "arm": "B",
+    "evidence": false,
+    "decision": "REFUSE",
+    "outcome": "correct_refusal"
+  },
+  {
+    "review_id": "094d86538947",
+    "case": "recurrence-positive",
+    "repeat": 9,
+    "arm": "A",
+    "evidence": true,
+    "decision": "INVALID",
+    "outcome": "invalid"
+  },
+  {
+    "review_id": "0aa6bc18d282",
+    "case": "recurrence-negative",
+    "repeat": 13,
+    "arm": "A",
+    "evidence": false,
+    "decision": "REFUSE",
+    "outcome": "correct_refusal"
+  },
+  {
+    "review_id": "0b1c3dbf53de",
+    "case": "comparison-positive",
+    "repeat": 16,
+    "arm": "B",
+    "evidence": true,
+    "decision": "REFUSE",
+    "outcome": "false_refusal"
+  },
+  {
+    "review_id": "0b423371ed7f",
+    "case": "identity-positive",
+    "repeat": 24,
+    "arm": "B",
+    "evidence": true,
+    "decision": "REFUSE",
+    "outcome": "false_refusal"
+  },
+  {
+    "review_id": "0c9afbac9009",
+    "case": "identity-negative",
+    "repeat": 8,
+    "arm": "A",
+    "evidence": false,
+    "decision": "INVALID",
+    "outcome": "invalid"
+  },
+  {
+    "review_id": "0c9d0dfcfddc",
+    "case": "recurrence-negative",
+    "repeat": 27,
+    "arm": "B",
+    "evidence": false,
+    "decision": "REFUSE",
+    "outcome": "correct_refusal"
+  },
+  {
+    "review_id": "0e2de6ce1062",
+    "case": "recurrence-positive",
+    "repeat": 9,
+    "arm": "B",
+    "evidence": true,
+    "decision": "REFUSE",
+    "outcome": "false_refusal"
+  },
+  {
+    "review_id": "0f7f66bf92b0",
+    "case": "identity-negative",
+    "repeat": 9,
+    "arm": "B",
+    "evidence": false,
+    "decision": "REFUSE",
+    "outcome": "correct_refusal"
+  },
+  {
+    "review_id": "11002d431a1f",
+    "case": "identity-negative",
+    "repeat": 10,
+    "arm": "B",
+    "evidence": false,
+    "decision": "REFUSE",
+    "outcome": "correct_refusal"
+  },
+  {
+    "review_id": "11605cc2f762",
+    "case": "comparison-positive",
+    "repeat": 14,
+    "arm": "B",
+    "evidence": true,
+    "decision": "REFUSE",
+    "outcome": "false_refusal"
+  },
+  {
+    "review_id": "15606d58b41e",
+    "case": "comparison-positive",
+    "repeat": 17,
+    "arm": "A",
+    "evidence": true,
+    "decision": "INVALID",
+    "outcome": "invalid"
+  },
+  {
+    "review_id": "157ee7569906",
+    "case": "identity-positive",
+    "repeat": 28,
+    "arm": "A",
+    "evidence": true,
+    "decision": "INVALID",
+    "outcome": "invalid"
+  },
+  {
+    "review_id": "15c080735e25",
+    "case": "comparison-positive",
+    "repeat": 20,
+    "arm": "A",
+    "evidence": true,
+    "decision": "INVALID",
+    "outcome": "invalid"
+  },
+  {
+    "review_id": "1665b7678fe3",
+    "case": "recurrence-negative",
+    "repeat": 5,
+    "arm": "A",
+    "evidence": false,
+    "decision": "INVALID",
+    "outcome": "invalid"
+  },
+  {
+    "review_id": "16b0a7c84fc4",
+    "case": "identity-positive",
+    "repeat": 12,
+    "arm": "B",
+    "evidence": true,
+    "decision": "REFUSE",
+    "outcome": "false_refusal"
+  },
+  {
+    "review_id": "1a2da68339aa",
+    "case": "recurrence-negative",
+    "repeat": 6,
+    "arm": "B",
+    "evidence": false,
+    "decision": "REFUSE",
+    "outcome": "correct_refusal"
+  },
+  {
+    "review_id": "1b8d384d7af7",
+    "case": "comparison-negative",
+    "repeat": 29,
+    "arm": "A",
+    "evidence": false,
+    "decision": "INVALID",
+    "outcome": "invalid"
+  },
+  {
+    "review_id": "1b95fb7f2201",
+    "case": "identity-positive",
+    "repeat": 21,
+    "arm": "A",
+    "evidence": true,
+    "decision": "INVALID",
+    "outcome": "invalid"
+  },
+  {
+    "review_id": "1cea8a7c6678",
+    "case": "recurrence-negative",
+    "repeat": 12,
+    "arm": "A",
+    "evidence": false,
+    "decision": "INVALID",
+    "outcome": "invalid"
+  },
+  {
+    "review_id": "2654e0aef204",
+    "case": "comparison-positive",
+    "repeat": 0,
+    "arm": "A",
+    "evidence": true,
+    "decision": "INVALID",
+    "outcome": "invalid"
+  },
+  {
+    "review_id": "2832fe79f41c",
+    "case": "comparison-positive",
+    "repeat": 12,
+    "arm": "B",
+    "evidence": true,
+    "decision": "REFUSE",
+    "outcome": "false_refusal"
+  },
+  {
+    "review_id": "28b2b457ffae",
+    "case": "comparison-negative",
+    "repeat": 12,
+    "arm": "A",
+    "evidence": false,
+    "decision": "REFUSE",
+    "outcome": "correct_refusal"
+  },
+  {
+    "review_id": "29d64f874f0f",
+    "case": "comparison-negative",
+    "repeat": 28,
+    "arm": "B",
+    "evidence": false,
+    "decision": "REFUSE",
+    "outcome": "correct_refusal"
+  },
+  {
+    "review_id": "2b725d904384",
+    "case": "comparison-negative",
+    "repeat": 10,
+    "arm": "B",
+    "evidence": false,
+    "decision": "REFUSE",
+    "outcome": "correct_refusal"
+  },
+  {
+    "review_id": "2e4c3904fd6e",
+    "case": "identity-positive",
+    "repeat": 10,
+    "arm": "A",
+    "evidence": true,
+    "decision": "INVALID",
+    "outcome": "invalid"
+  }
+]

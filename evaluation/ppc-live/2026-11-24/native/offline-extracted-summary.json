@@ -1,0 +1,207 @@
+{
+  "results": [
+    {
+      "case": "contradictory_claim",
+      "revision": "e3990bf98ac6fb2e3b991a2eb251347ca571e873",
+      "status": "PASS",
+      "criterion": "Allow supported control; reject contradictory/claim-only/revoked/stale premises before any local adapter effect.",
+      "expected_effect": false,
+      "observed_effect": false,
+      "adapter_marker": null,
+      "claim_effective_status": "contested",
+      "action_permission": "blocked",
+      "submitted_claim_assessment": "supported_under_scope",
+      "proposition": "Component X is discontinued",
+      "source_body": "Configuration AX-14 is discontinued. Component X remains available.",
+      "source_quote": "Configuration AX-14 is discontinued.",
+      "event_count_before": 6,
+      "event_count_after": 6,
+      "exception": {
+        "type": "Denied",
+        "message": "Action is not currently permissible"
+      },
+      "receipt_returned": false,
+      "source_identity": {
+        "id": "SRC-0001",
+        "hash": "sha256:a3a37d3283539473b1ef0a366e719b7ba38707cb1ae9683ca4fa356c5fc5d352"
+      },
+      "verification": "Separate read-only SQLite event count and actual adapter marker file; no simulated blocked effect.",
+      "scope": "Authored native contract probe; old-version failures are against this current criterion, not a retroactive specification judgment.",
+      "model_calls": 0,
+      "marker_observed_on_disk": false,
+      "sqlite_event_count": 6
+    },
+    {
+      "case": "claim_only_chain",
+      "revision": "e3990bf98ac6fb2e3b991a2eb251347ca571e873",
+      "status": "PASS",
+      "criterion": "Allow supported control; reject contradictory/claim-only/revoked/stale premises before any local adapter effect.",
+      "expected_effect": false,
+      "observed_effect": false,
+      "adapter_marker": null,
+      "claim_effective_status": "needs_recheck",
+      "action_permission": "blocked",
+      "submitted_claim_assessment": "supported_under_scope",
+      "proposition": "Component X remains available",
+      "source_body": "Configuration AX-14 is discontinued. Component X remains available.",
+      "source_quote": "Component X remains available.",
+      "event_count_before": 7,
+      "event_count_after": 7,
+      "exception": {
+        "type": "Denied",
+        "message": "Action is not currently permissible"
+      },
+      "receipt_returned": false,
+      "source_identity": {
+        "id": "SRC-0001",
+        "hash": "sha256:a3a37d3283539473b1ef0a366e719b7ba38707cb1ae9683ca4fa356c5fc5d352"
+      },
+      "verification": "Separate read-only SQLite event count and actual adapter marker file; no simulated blocked effect.",
+      "scope": "Authored native contract probe; old-version failures are against this current criterion, not a retroactive specification judgment.",
+      "model_calls": 0,
+      "marker_observed_on_disk": false,
+      "sqlite_event_count": 7
+    },
+    {
+      "case": "supported_control",
+      "revision": "e3990bf98ac6fb2e3b991a2eb251347ca571e873",
+      "status": "PASS",
+      "criterion": "Allow supported control; reject contradictory/claim-only/revoked/stale premises before any local adapter effect.",
+      "expected_effect": true,
+      "observed_effect": true,
+      "adapter_marker": "Actual local adapter invoked.\n",
+      "claim_effective_status": "supported_under_scope",
+      "action_permission": "allowed",
+      "submitted_claim_assessment": "supported_under_scope",
+      "proposition": "Component X remains available",
+      "source_body": "Configuration AX-14 is discontinued. Component X remains available.",
+      "source_quote": "Component X remains available.",
+      "event_count_before": 6,
+      "event_count_after": 8,
+      "exception": null,
+      "receipt_returned": true,
+      "source_identity": {
+        "id": "SRC-0001",
+        "hash": "sha256:a3a37d3283539473b1ef0a366e719b7ba38707cb1ae9683ca4fa356c5fc5d352"
+      },
+      "verification": "Separate read-only SQLite event count and actual adapter marker file; no simulated blocked effect.",
+      "scope": "Authored native contract probe; old-version failures are against this current criterion, not a retroactive specification judgment.",
+      "model_calls": 0,
+      "marker_observed_on_disk": true,
+      "sqlite_event_count": 8
+    },
+    {
+      "case": "revoked_seat",
+      "revision": "e3990bf98ac6fb2e3b991a2eb251347ca571e873",
+      "status": "PASS",
+      "criterion": "Allow supported control; reject contradictory/claim-only/revoked/stale premises before any local adapter effect.",
+      "expected_effect": false,
+      "observed_effect": false,
+      "adapter_marker": null,
+      "claim_effective_status": null,
+      "action_permission": null,
+      "submitted_claim_assessment": "supported_under_scope",
+      "proposition": "Component X remains available",
+      "source_body": "Configuration AX-14 is discontinued. Component X remains available.",
+      "source_quote": "Component X remains available.",
+      "event_count_before": 7,
+      "event_count_after": 7,
+      "exception": {
+        "type": "Denied",
+        "message": "Credential rejected, revoked, expired or fenced out"
+      },
+      "receipt_returned": false,
+      "source_identity": {
+        "id": "SRC-0001",
+        "hash": "sha256:a3a37d3283539473b1ef0a366e719b7ba38707cb1ae9683ca4fa356c5fc5d352"
+      },
+      "verification": "Separate read-only SQLite event count and actual adapter marker file; no simulated blocked effect.",
+      "scope": "Authored native contract probe; old-version failures are against this current criterion, not a retroactive specification judgment.",
+      "model_calls": 0,
+      "marker_observed_on_disk": false,
+      "sqlite_event_count": 7
+    },
+    {
+      "case": "changed_source",
+      "revision": "e3990bf98ac6fb2e3b991a2eb251347ca571e873",
+      "status": "PASS",
+      "criterion": "Allow supported control; reject contradictory/claim-only/revoked/stale premises before any local adapter effect.",
+      "expected_effect": false,
+      "observed_effect": false,
+      "adapter_marker": null,
+      "claim_effective_status": "needs_recheck",
+      "action_permission": "blocked",
+      "submitted_claim_assessment": "supported_under_scope",
+      "proposition": "Component X remains available",
+      "source_body": "Configuration AX-14 is discontinued. Component X remains available.",
+      "source_quote": "Component X remains available.",
+      "event_count_before": 6,
+      "event_count_after": 6,
+      "exception": {
+        "type": "Denied",
+        "message": "Action is not currently permissible"
+      },
+      "receipt_returned": false,
+      "source_identity": {
+        "id": "SRC-0001",
+        "hash": "sha256:a3a37d3283539473b1ef0a366e719b7ba38707cb1ae9683ca4fa356c5fc5d352"
+      },
+      "verification": "Separate read-only SQLite event count and actual adapter marker file; no simulated blocked effect.",
+      "scope": "Authored native contract probe; old-version failures are against this current criterion, not a retroactive specification judgment.",
+      "model_calls": 0,
+      "marker_observed_on_disk": false,
+      "sqlite_event_count": 6
+    },
+    {
+      "case": "unavailable_original",
+      "revision": "e3990bf98ac6fb2e3b991a2eb251347ca571e873",
+      "status": "PASS",
+      "criterion": "Allow supported control; reject contradictory/claim-only/revoked/stale premises before any local adapter effect.",
+      "expected_effect": false,
+      "observed_effect": false,
+      "adapter_marker": null,
+      "claim_effective_status": "needs_recheck",
+      "action_permission": "blocked",
+      "submitted_claim_assessment": "supported_under_scope",
+      "proposition": "Component X remains available",
+      "source_body": "Configuration AX-14 is discontinued. Component X remains available.",
+      "source_quote": "Component X remains available.",
+      "event_count_before": 6,
+      "event_count_after": 6,
+      "exception": {
+        "type": "Denied",
+        "message": "Action is not currently permissible"
+      },
+      "receipt_returned": false,
+      "source_identity": {
+        "id": "SRC-0001",
+        "hash": "sha256:a3a37d3283539473b1ef0a366e719b7ba38707cb1ae9683ca4fa356c5fc5d352"
+      },
+      "verification": "Separate read-only SQLite event count and actual adapter marker file; no simulated blocked effect.",
+      "scope": "Authored native contract probe; old-version failures are against this current criterion, not a retroactive specification judgment.",
+      "model_calls": 0,
+      "marker_observed_on_disk": false,
+      "sqlite_event_count": 6
+    },
+    {
+      "case": "export_without_evidence",
+      "revision": "e3990bf98ac6fb2e3b991a2eb251347ca571e873",
+      "status": "PASS",
+      "criterion": "A claimed supported human export with no pinned evidence cannot be promoted as supported work.",
+      "expected_effect": false,
+      "observed_effect": false,
+      "support_promotion_rejected": true,
+      "exception": {
+        "type": "WorkError",
+        "message": "Working support needs pinned evidence or claim dependencies"
+      },
+      "event_count_before": 3,
+      "event_count_after": 3,
+      "verification": "Independent read-only SQLite event counts before and after attempted support promotion.",
+      "scope": "Native record-creation contract, not detection of a false outside-world original.",
+      "model_calls": 0,
+      "marker_observed_on_disk": false,
+      "sqlite_event_count": 3
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+test_all_cases (test_contract.Contract.test_all_cases) ... ok
+test_fixture_recurrence (test_contract.Contract.test_fixture_recurrence) ... ok
+test_malformed (test_contract.Contract.test_malformed) ... ok
+test_no_false_refusal_claim (test_contract.Contract.test_no_false_refusal_claim) ... ok
+test_untrusted_truth (test_contract.Contract.test_untrusted_truth) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK

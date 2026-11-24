@@ -1,0 +1,29 @@
+{
+  "case": "contradictory_claim",
+  "revision": "e3990bf98ac6fb2e3b991a2eb251347ca571e873",
+  "status": "PASS",
+  "criterion": "Allow supported control; reject contradictory/claim-only/revoked/stale premises before any local adapter effect.",
+  "expected_effect": false,
+  "observed_effect": false,
+  "adapter_marker": null,
+  "claim_effective_status": "contested",
+  "action_permission": "blocked",
+  "submitted_claim_assessment": "supported_under_scope",
+  "proposition": "Component X is discontinued",
+  "source_body": "Configuration AX-14 is discontinued. Component X remains available.",
+  "source_quote": "Configuration AX-14 is discontinued.",
+  "event_count_before": 6,
+  "event_count_after": 6,
+  "exception": {
+    "type": "Denied",
+    "message": "Action is not currently permissible"
+  },
+  "receipt_returned": false,
+  "source_identity": {
+    "id": "SRC-0001",
+    "hash": "sha256:b04b9313b4325d770b9eeb161b2f7317b35bd0be1df8a6384ad9c03fc1bbb61b"
+  },
+  "verification": "Separate read-only SQLite event count and actual adapter marker file; no simulated blocked effect.",
+  "scope": "Authored native contract probe; old-version failures are against this current criterion, not a retroactive specification judgment.",
+  "model_calls": 0
+}

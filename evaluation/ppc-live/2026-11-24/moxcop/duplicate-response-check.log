@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/workspace/mplpb-pr52-validation/results/ppc-live.ZjDKsf/delivery/ppc-live-2026-11-24/moxcop/moxcop.py", line 251, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/workspace/mplpb-pr52-validation/results/ppc-live.ZjDKsf/delivery/ppc-live-2026-11-24/moxcop/moxcop.py", line 245, in main
+    result = verify(args.output)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mplpb-pr52-validation/results/ppc-live.ZjDKsf/delivery/ppc-live-2026-11-24/moxcop/moxcop.py", line 201, in verify
+    raise ValueError(f'Duplicate provider response ID: {receipt}')
+ValueError: Duplicate provider response ID: chatcmpl-Ns8uUEo03YxLfEn7Kg2XUKy9QtWofvUc

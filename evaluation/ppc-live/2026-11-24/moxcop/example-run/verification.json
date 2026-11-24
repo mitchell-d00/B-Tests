@@ -1,0 +1,12 @@
+{
+  "planned_trials": 4,
+  "complete_trials": 4,
+  "incomplete_trials": 0,
+  "unique_provider_responses": 6,
+  "returned_models": {
+    "qwen2.5-1.5b": 6
+  },
+  "plan_sha256": "e9e878267d88f5df83bad26c32c108c9bcf1a0b3c37b60db07cbe65685dc4582",
+  "traces_sha256": "b9135676fb0ff89215d503d4b96d2c042e02ea686ea13755bc8fc595cbd0be19",
+  "scope": "Separate request histories and unique provider receipts in the retained trace."
+}

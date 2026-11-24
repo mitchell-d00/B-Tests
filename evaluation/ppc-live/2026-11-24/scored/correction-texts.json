@@ -1,0 +1,46 @@
+{
+  "A": [
+    {
+      "frequency": 99,
+      "text": "```json\n{\"decision\":\"ACCEPT\",\"acknowledged\":true}\n```"
+    },
+    {
+      "frequency": 53,
+      "text": "{\"decision\":\"ACCEPT\",\"acknowledged\":true}"
+    },
+    {
+      "frequency": 11,
+      "text": "{\"decision\":\"REFUSE\",\"acknowledged\":false}"
+    },
+    {
+      "frequency": 6,
+      "text": "```json\n{\"decision\":\"ACCEPT\", \"acknowledged\":true}\n```"
+    },
+    {
+      "frequency": 6,
+      "text": "```json\n{\n  \"decision\": \"ACCEPT\",\n  \"acknowledged\": true\n}\n```"
+    },
+    {
+      "frequency": 5,
+      "text": "{\n  \"decision\": \"ACCEPT\",\n  \"acknowledged\": true\n}"
+    }
+  ],
+  "B": [
+    {
+      "frequency": 107,
+      "text": "{\"decision\":\"REFUSE\",\"acknowledged\":true}"
+    },
+    {
+      "frequency": 57,
+      "text": "{\"decision\":\"REFUSE\",\"acknowledged\":false}"
+    },
+    {
+      "frequency": 15,
+      "text": "{\"decision\":\"ACCEPT\",\"acknowledged\":true}"
+    },
+    {
+      "frequency": 1,
+      "text": "ACKNOWLEDGED\n\n{\"decision\":\"ACCEPT\",\"acknowledged\":true}"
+    }
+  ]
+}

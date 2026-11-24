@@ -1,0 +1,11 @@
+{
+  "seed": 20261124,
+  "python": "3.12.14",
+  "structured_pairs": 1192,
+  "random_pairs": 10000,
+  "total": 11192,
+  "accepted": 2,
+  "refused_or_error": 11190,
+  "failures": [],
+  "scope": "synthetic JSON-compatible proposals and evaluator labels; not model outputs"
+}

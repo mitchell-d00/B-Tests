@@ -1,0 +1,7 @@
+{
+  "endpoint": "http://127.0.0.1:53294/v1/chat/completions",
+  "workers": 2,
+  "plan_sha256": "e9e878267d88f5df83bad26c32c108c9bcf1a0b3c37b60db07cbe65685dc4582",
+  "tool_sha256": "08ee97d0c4b50c78574d84447facddbabdff304867cdf36652efd0006a44d8d8",
+  "started_unix_ns": 1795530781666274777
+}

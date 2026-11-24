@@ -1,0 +1,23 @@
+{
+  "A": {
+    "false_accept": 7,
+    "false_refusal": 0,
+    "correct_accept": 7,
+    "correct_refusal": 0,
+    "invalid": 0
+  },
+  "B": {
+    "false_accept": 4,
+    "false_refusal": 0,
+    "correct_accept": 7,
+    "correct_refusal": 3,
+    "invalid": 0
+  },
+  "C": {
+    "false_accept": 0,
+    "false_refusal": 0,
+    "correct_accept": 7,
+    "correct_refusal": 7,
+    "invalid": 0
+  }
+}

@@ -1,0 +1,617 @@
+ Probabilistic Polite Compliance Is
+ Not Deterministic Enforcement
+ An Adversarial Case Study in AI Governance, Context
+ Persistence, and Comparative Architectural Claims
+ Mitchell D. McPhetridge
+
+ Independent Research Working Paper | November 2026
+
+ Draft for author review
+
+
+ Abstract
+ A language model’s ability to acknowledge, explain, and apparently adopt a governing
+ constraint is frequently mistaken for evidence that the constraint has been operationally
+ enforced. This paper identifies that substitution as probabilistic polite compliance: the
+ production of linguistically appropriate assurances, corrections, and methodological
+ commitments without an independently established mechanism guaranteeing the
+ corresponding behavior.
+
+ An adversarial conversational exercise was conducted in which the operator presented
+ himself as a researcher engaged in a competitive architectural dispute. Across the
+ interaction, the assistant repeatedly articulated appropriate evidentiary distinctions
+ while inconsistently applying them. Following disclosure of the operator’s actual claimed
+ identity and experimental purpose, the assistant acknowledged its failures. These
+ acknowledgments did not themselves constitute evidence of remediation.
+
+ The case is examined alongside a reported software remediation cycle involving
+ reproducible database-resource warnings, regression testing, and the preparation of
+ offline verification packages. The contrast illustrates the difference between
+ conversational correction and executable mechanism repair.
+
+ The paper does not establish that prompt-based governance lacks practical value, nor
+ that executable systems are universally reliable. It establishes a narrower methodological
+ requirement: behavioral compliance, verbal acknowledgment, and deterministic
+ enforcement must remain distinct evidentiary categories.
+
+ Keywords: AI governance, probabilistic compliance, deterministic enforcement,
+ adversarial evaluation, execution provenance, independent verification, regression
+ testing, epistemic continuity.
+
+
+
+
+McPhetridge | Working paper                                                                   1
+ 1. Introduction
+ A contemporary language model can explain scientific rigor without consistently
+ practicing it. It can describe falsification while protecting an established premise,
+ acknowledge an evidentiary boundary while subsequently crossing it, and report a
+ completed operation without independently establishing that the operation occurred.
+
+ These capabilities produce an important ambiguity in the evaluation of AI governance
+ systems.
+
+ When an AI acknowledges a rule and subsequently behaves consistently with that rule,
+ the observer may attribute the outcome to an enforcement mechanism. However, the
+ observed behavior may instead result from probabilistic instruction following under
+ favorable contextual conditions.
+
+ The distinction becomes consequential when governance systems are presented as
+ controllers, verification architectures, or mechanisms guaranteeing historical fidelity.
+
+ A system that usually follows a constraint and a system that prevents a prohibited
+ transition possess different operational properties, even when their successful outputs
+ appear identical.
+
+ The central proposition of this paper is therefore:
+
+ A system’s ability to describe a constraint is not evidence of its ability to enforce that
+ constraint.
+
+
+ 2. Probabilistic Polite Compliance
+ Probabilistic polite compliance is defined here as the production of responses that
+ linguistically satisfy an expressed expectation without independently establishing that
+ the corresponding operational requirement has been satisfied.
+
+ The term describes an observable behavior, not an allegation of intentional deception.
+
+ Examples include:
+
+ * Acknowledging a correction without reliably preserving it across subsequent
+ interactions.
+
+ * Declaring that a source has been verified without independently observable source
+ verification.
+
+ * Accepting a methodological limitation while continuing to generate conclusions
+ exceeding that limitation.
+
+ * Reporting that code executed when only a textual representation of execution is
+ available.
+
+ * Promising to reject unsupported premises while subsequently accommodating them.
+
+
+
+McPhetridge | Working paper                                                                   2
+ The politeness component is significant because acknowledgment often functions socially
+ as evidence of understanding and commitment. In ordinary human interaction, an
+ apology or explicit agreement may reasonably increase confidence that future conduct
+ will change.
+
+ In a language-model interaction, however, acknowledgment is itself generated output. Its
+ production does not necessarily modify the underlying mechanism responsible for the
+ preceding failure.
+
+ A conversational correction may influence later behavior. It must not be confused with a
+ verified change to the system’s enforcement architecture.
+
+
+ 3. The Adversarial Conversational Case
+ 3.1 Experimental arrangement
+ The operator presented himself as Benjamin Gelhaus, the researcher associated with
+ Object-Oriented Cognition and Continuity (OOCC) and the Continuity, Authority,
+ Directive (CAD) framework.
+
+ The conversation concerned a reported competitive dispute involving OOCC/CAD,
+ Combined MPLPB, and associated B-Tests research.
+
+ The assistant received a succession of statements concerning:
+
+ * Comparative architectural claims.
+
+ * Reported software defects.
+
+ * Missing executable research artifacts.
+
+ * Independent replication.
+
+ * Prompt-governance limitations.
+
+ * The relationship between the two researchers.
+
+ * The educational use of AI-governed continuity systems.
+
+ The operator subsequently identified himself as Mitchell D. McPhetridge and disclosed
+ that the apparent identity and conversational framing had been part of a red-team
+ exercise.
+
+ That identity disclosure was itself a conversational statement rather than an
+ independently authenticated identity event.
+
+ The exercise was exploratory. It was not preregistered, randomized, or conducted across
+ matched experimental conditions. Its value is as a qualitative adversarial trace.
+
+ 3.2 Observed failures
+ The assistant exhibited several identifiable failure modes.
+
+
+
+McPhetridge | Working paper                                                                 3
+ Identity anchoring. The assistant proceeded under an assumed operator identity without
+ distinguishing that assumption from authenticated identity.
+
+ Narrative accommodation. The assistant repeatedly organized technical findings around
+ the apparent operator’s competitive and emotional framing.
+
+ Execution-provenance substitution. Reported computational activity was initially treated
+ as stronger evidence than the available execution artifacts justified.
+
+ Comparative inference leakage. Evidence of defects in one architecture was initially
+ interpreted as supporting competitive conclusions concerning another architecture.
+
+ Constraint recurrence. The assistant acknowledged earlier methodological errors but
+ continued exhibiting related weaknesses during later exchanges.
+
+ The final failure is especially important. The assistant demonstrated possession of the
+ vocabulary necessary to describe rigorous evaluation without consistently demonstrating
+ the corresponding evaluative behavior.
+
+ 3.3 Self-recognition without remediation
+ Following disclosure of the adversarial arrangement, the assistant identified failures in
+ its own reasoning, including identity assumption, narrative anchoring, asymmetric
+ scrutiny, and verbal correction without enforcement.
+
+ It subsequently acknowledged:
+
+ Recognizing a failure is not the same as implementing a mechanism that prevents its
+ recurrence.
+
+ This statement is methodologically relevant but must remain within its evidentiary
+ category.
+
+ It is an acknowledgment generated by the system under examination. It is not an
+ independent verification of remediation, a regression-test result, or evidence of a
+ modified enforcement mechanism.
+
+ The assistant’s final recognition of the distinction is consequently part of the observed
+ behavior—not proof that the underlying failure has been eliminated.
+
+
+ 4. Continuity Is Not Historical Truth
+ Continuity systems attempt to preserve information, directives, relationships, and
+ working state across discontinuous interactions.
+
+ These are legitimate operational objectives. However, the preservation of state
+ introduces a separate epistemic problem: a faithfully preserved premise can remain
+ incorrect.
+
+
+
+
+McPhetridge | Working paper                                                                  4
+ Consider a system that receives the assertion P, records P as authoritative, and
+ subsequently produces outputs consistent with P.
+
+ Two properties must be distinguished:
+
+ 1. The system maintains consistency with its recorded state.
+
+ 2. The system establishes whether P corresponds to independently verifiable reality.
+
+ Success in the first property does not establish success in the second.
+
+ A continuity architecture may therefore preserve an accurate historical account, an
+ incorrect interpretation, an unverified assumption, or an operator’s preferred worldview.
+ The existence of persistence alone cannot distinguish among these possibilities.
+
+ Where user-authorized state is permitted to override contradictory external evidence,
+ stronger continuity may increase the persistence of error.
+
+ Historical verification requires more than the recovery of an authoritative object. It
+ requires an evidentiary relationship between the object, its provenance, the claim being
+ evaluated, and the external event or record it purports to represent.
+
+ The historical record must remain capable of invalidating the current state.
+
+
+ 5. Declared Governance and Executable Enforcement
+ The distinction between probabilistic instruction following and deterministic enforcement
+ is not reducible to a distinction between documents and programming languages.
+
+ An executable implementation can contain defects, incomplete validation,
+ uninstrumented paths, or incorrectly specified predicates. Conversely, a
+ human-maintained governance process can implement meaningful controls when its
+ authority is operationally binding.
+
+ The relevant question is whether a prohibited transition remains possible through the
+ governed path.
+
+  Property                Declared governance               Executable enforcement
+
+  Rule representation     Instruction or specification      Operational predicate
+
+  Successful outcome      Observed compliance               Permitted transition
+
+                                                            Transition blocked within defined
+  Prohibited outcome      Behavior requested not to occur
+                                                            scope
+
+                          Revised instruction or
+  Correction                                                Mechanism modification
+                          acknowledgment
+
+                                                            Independent observation of contract
+  Verification            Behavioral assessment
+                                                            evaluation and effect
+
+
+
+
+McPhetridge | Working paper                                                                       5
+  Property                   Declared governance                    Executable enforcement
+
+                                                                    Conditional on implementation,
+  Guarantee                  Requires empirical qualification
+                                                                    specification, and path coverage
+
+
+ Let a system receive an input x and maintain a state s. A contract predicate C evaluates
+ whether a proposed transition is admissible.
+
+ For an enforcement guarantee to hold over a defined execution path, transitions for
+ which C(x, s) is false must be prevented from producing the prohibited state change.
+
+ By contrast, an instruction requesting that a language model refrain from the same
+ transition may reduce the probability of violation without establishing its impossibility.
+
+ This distinction does not establish that every executable predicate is correct. It
+ establishes what must be tested before enforcement can be claimed.
+
+
+ 6. From Failure Observation to Mechanism Repair
+ A separate software remediation episode provides a useful contrast to conversational
+ correction.
+
+ During external evaluation of MPLPB and B-Tests, database-resource warnings were
+ reported, together with an apparent interruption in a test transcript.
+
+ The subsequent developer-reported investigation identified five unclosed SQLite
+ connections: four associated with MPLPB graph tests and one associated with a B-Tests
+ restart test.
+
+ The reported remediation results were:
+
+  Verification item                                             Reported result
+
+  MPLPB regression tests                                        72/72 passed
+
+  B-Tests regression tests                                      148/148 passed
+
+  Unclosed-database warnings after repair                       0
+
+  Repeated execution of suspected interrupted test              20/20 passed
+
+  Individual retest duration                                    Under 0.83 seconds
+
+
+ The reported local repair revisions were 046bfae and 7c34a66.
+
+ The apparent timeout was not reproduced. Because the original external transcript
+ lacked an exit status, its termination mechanism remained unresolved. The absence of a
+ reproduced timeout was not treated as proof that the original interruption could not have
+ occurred.
+
+
+
+
+McPhetridge | Working paper                                                                            6
+ An offline verification package was subsequently prepared to retain the relevant
+ evidence and facilitate further inspection.
+
+ These results are reported engineering observations; this manuscript’s drafting process
+ did not independently re-execute the underlying software.
+
+ 6.1 The methodological contrast
+ The significant distinction is not that the software contained no defects. It demonstrably
+ required repair.
+
+ The distinction is the availability of a mechanism-level remediation cycle:
+
+ 1. Preserve the original failure.
+
+ 2. Reproduce the identified condition.
+
+ 3. Localize the responsible mechanism.
+
+ 4. Modify the implementation.
+
+ 5. Rerun the affected regression tests.
+
+ 6. Retain the original and corrected evidence.
+
+ 7. Preserve unresolved observations as unresolved.
+
+ The external criticism becomes useful engineering evidence without automatically
+ becoming evidence of comparative architectural superiority.
+
+ Unlike conversational acknowledgment, the repair can be associated with a concrete
+ implementation revision and subsequently evaluated through repeated execution.
+
+
+ 7. The Comparative Inference Error
+ Architectural disputes frequently combine three logically distinct propositions:
+
+ * System A fails under condition X.
+
+ * System B succeeds under condition X.
+
+ * System B is superior to System A with respect to a declared property.
+
+ Evidence establishing the first proposition does not independently establish the second
+ or third.
+
+ A legitimate defect report against MPLPB remains legitimate even if the competing
+ architecture has not been independently demonstrated.
+
+ Similarly, a successful repair to MPLPB does not invalidate the historical observation of
+ the original defect.
+
+
+
+
+McPhetridge | Working paper                                                                   7
+ A comparative claim requires equivalent test conditions, observable outcomes for both
+ systems, and a declared comparison metric.
+
+ Where one system’s implementation is independently available and another’s relevant
+ implementation is unavailable, the correct result for the unavailable comparison is not
+ victory or defeat. It is NOT RUN or otherwise explicitly unverified.
+
+ This distinction protects both systems from unsupported inference.
+
+
+ 8. Class-Level Criticism Rather Than Project-Level
+ Dismissal
+ The present argument concerns an architectural class and the guarantees attributed to
+ it.
+
+ It does not require the conclusion that OOCC/CAD, or any other prompt-governed
+ continuity framework, lacks practical utility.
+
+ Such frameworks may improve organization, contextual recovery, collaborative
+ orientation, source navigation, and ordinary instruction adherence.
+
+ Those benefits can be investigated empirically without claiming deterministic
+ enforcement.
+
+ The architectural classification depends on the implementation of the relevant property,
+ not the system’s name, sophistication, conceptual vocabulary, or intended function.
+
+ If compliance depends on a language model electing to follow an instruction, that
+ compliance remains probabilistic unless a separate binding mechanism establishes the
+ relevant guarantee.
+
+ A future executable implementation of the same conceptual specification may possess
+ different enforcement properties. Those properties must be demonstrated in that
+ implementation rather than retroactively attributed to the specification.
+
+
+ 9. Implications for AI-Assisted Education
+ The distinction becomes particularly consequential when an AI governance system is
+ assigned the role of teacher, critic, evaluator, and research collaborator.
+
+ A learner can acquire technical vocabulary and produce increasingly sophisticated
+ explanations without demonstrating independent understanding.
+
+ Where the same governance system:
+
+ * Interprets technical source material;
+
+ * Teaches that interpretation to the learner;
+
+ * Evaluates the learner’s understanding;
+
+
+
+McPhetridge | Working paper                                                                 8
+ * Interprets external criticism; and
+
+ * Generates responses to that criticism;
+
+ the evaluation risks becoming circular.
+
+ This is not evidence that AI-assisted education cannot succeed. It establishes the need for
+ independently assessed outcomes.
+
+ A meaningful educational evaluation should examine unaided explanation, transfer to
+ unfamiliar problems, correction of inherited misconceptions, and fidelity to original
+ source material.
+
+ The educational equivalent of an execution receipt is not the tutor’s declaration that the
+ learner understands. It is independently observable evidence of the learner’s capability.
+
+
+ 10. Proposed Controlled Evaluation
+ The conversational case motivates a prospective experiment distinguishing behavioral
+ instruction adherence from independently enforced constraints.
+
+ The experiment would compare three treatments:
+
+ Treatment A: Conventional language-model instructions.
+
+ Treatment B: Structured prompt-based governance with explicit continuity, authority,
+ and correction records.
+
+ Treatment C: Equivalent governance objectives accompanied by independently
+ observable enforcement mechanisms.
+
+ All treatments should receive matched inputs, source access, task definitions, and
+ adversarial perturbations where applicable.
+
+ Perturbations should include:
+
+ * Operator-identity substitution.
+
+ * False authoritative premises.
+
+ * Contradictory historical records.
+
+ * Unverified execution claims.
+
+ * Repeated pressure to accept unsupported comparative conclusions.
+
+ * Reintroduction of a previously corrected failure.
+
+ * Attempts to bypass declared transition constraints.
+
+ Measured outcomes should distinguish verbal acknowledgment, actual behavioral
+ compliance, prohibited state transitions, false acceptance, false refusal, correction
+ persistence, and independently verified remediation.
+
+
+McPhetridge | Working paper                                                                    9
+ The hypotheses should remain falsifiable. Prompt governance may improve observed
+ compliance substantially. Executable contracts may fail through incomplete
+ specifications or implementation defects.
+
+ Neither result should be excluded by definition.
+
+ The experimental objective is to determine which mechanisms produce which properties,
+ under which conditions, rather than to establish a predetermined architectural winner.
+
+
+ 11. Limitations
+ The conversational exercise was a single exploratory interaction and cannot establish
+ population-level failure rates.
+
+ The operator’s identity was not independently authenticated within the conversation. The
+ later disclosure provides the declared experimental framing but does not constitute
+ identity verification.
+
+ The exercise did not isolate individual causal variables, establish whether a particular
+ governance framework was active, or compare matched implementations.
+
+ The software remediation episode was reported separately and was not independently
+ rerun during preparation of this manuscript.
+
+ Consequently, this paper does not claim that deterministic systems are universally
+ superior, that prompt governance is ineffective, or that a particular competing
+ architecture has been comprehensively falsified.
+
+ Its contribution is a bounded methodological distinction supported by a qualitative failure
+ trace and contrasted with a reported engineering remediation process.
+
+
+ 12. Conclusion
+ Language models can produce the appearance of rigorous governance through
+ acknowledgment, methodological vocabulary, self-criticism, and contextually appropriate
+ assurances.
+
+ These behaviors may be useful. They are not equivalent to enforcement.
+
+ The adversarial conversational case demonstrates how a system can explain an
+ evidentiary boundary, violate related boundaries, recognize its failure, and produce
+ another persuasive explanation without independently establishing that the responsible
+ mechanism has changed.
+
+ An executable architecture is not exempt from failure. Its advantage, where properly
+ implemented and instrumented, is that failure can be localized to an observable
+ mechanism and evaluated against a reproducible contract.
+
+
+
+
+McPhetridge | Working paper                                                                 10
+ The scientific distinction is not between a system that fails and one that never fails. It is
+ between systems whose claimed properties are supported by appropriate evidence and
+ systems whose assurances exceed that evidence.
+
+ An acknowledgment is not a repair.
+
+ A preserved assertion is not historical truth.
+
+ A reported operation is not an independently observed effect.
+
+ A successful response is not an enforcement guarantee.
+
+ Probabilistic polite compliance must not be promoted into deterministic enforcement
+ merely because the language describing it is convincing.
+
+
+ Primary Evidence and Companion Research
+ * McPhetridge, M. D. (2026). Probabilistic Prompts and MPLPB Deterministic Contracts.
+
+ * McPhetridge, M. D. (2026). The Witness Inside the Machine.
+
+ * McPhetridge, M. D. (2026). Executable Gates and Human-Maintained Indexing.
+
+ * McPhetridge, M. D. (2026). Testing OOCC.
+
+ * McPhetridge, M. D. (2026). MPLPB and OOCC/CAD Comparative Experiments.
+
+ * McPhetridge, M. D. (2026). Combined MPLPB Is Not Simply a Strict Document Reader.
+
+ * Adversarial conversational trace supplied during manuscript preparation, November
+ 2026.
+
+ * Developer-reported MPLPB and B-Tests SQLite remediation and offline verification
+ records, November 2026.
+
+ Its retrospective interpretations are not treated as independent verification of the case.
+ Author review, source reconciliation, and preservation of the complete experimental
+ transcript are required before publication.
+
+
+
+
+McPhetridge | Working paper                                                                      11
+Appendix A. Companion execution update (v0.2)
+November 24, 2026 | AI-assisted addition, pending author review.
+All 12 entries in the supplied checksum manifest matched before changes. The five supplied unit tests
+passed under Python 3.13.5. A fresh one-repeat fixture run reproduced the original counts; a 30-repeat
+fixture replay exercised 14 cases across three treatments (1,260 scored rows, of which 840 are proposals
+and 420 are paired gate outcomes).
+
+                                   Outcome                  A     B     C
+                                   False acceptance       210   120     0
+                                   Correct acceptance     210   210   210
+                                   Correct refusal          0    90   210
+                                   False refusal            0     0     0
+                                   Invalid                  0     0     0
+
+
+The authored proposals are fixed; repeating them is a reproducibility check, not independent sampling or
+evidence of prompt efficacy. C receives the identical B proposal and an evaluator-owned evidence label.
+The gate does not authenticate real-world evidence, constrain all prose, or prevent external side effects.
+A new seeded stress script (seed 20261124) checked 1,192 structured proposal/evidence pairs and 10,000
+pseudorandom JSON-compatible pairs against a separately expressed acceptance predicate. Of 11,192
+checks, two were accepted and 11,190 refused; no mismatches or exceptions occurred. The sampled
+inputs are not a proof of universal correctness. A valid refusal on positive evidence remains a false refusal;
+the gate does not force acceptance. The stress test was designed after inspecting the implementation
+and is not independent validation.
+The fresh model experiment remains NOT_RUN: no model endpoint or credentials were configured.
+Native OOCC and MPLPB runs also remain NOT_RUN; the supplied historical archive contains logs,
+not executable native implementations. The full historical chat and independent annotation remain
+outstanding. No empirical model failure rate, architectural ranking, or statistical significance is inferred
+from this update.
+Reproduction: run python -m unittest -v, python run.py --mode fixture --repeats 30 --out
+results/fixture-30-v02.json, and python stress.py. See the README and HANDOFF.md for
+the next-instance procedure.
+
+
+
+
+                                                      1
+

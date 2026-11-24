@@ -25,6 +25,16 @@ and proposed tests. AI readers can start with [test-index.json](research/test-in
 and search the [full file and case inventory](research/test-inventory.jsonl).
 GitHub Actions refreshes the index after changes reach `main`.
 
+## Probabilistic Polite Compliance and MoxCOP
+
+The November 24 live replication retained 840 separate A/B inference histories,
+1,200 unique model responses and 1,260 scored decisions. The paired C gate reused
+every B output. A separate native MPLPB run passed all seven B-Tests probes.
+[Mox Cult of Personality (MoxCOP)](evaluation/ppc-live/2026-11-24/moxcop/README.md)
+freezes and verifies inference trials using request histories and provider IDs.
+[Results and scope](evaluation/ppc-live/2026-11-24/README.md) ·
+[Offline experiment ZIP](evaluation/ppc-live/ppc-live-2026-11-24.zip).
+
 ## Research practice
 
 B-Tests is part of a distinctive, independently developed approach to making AI

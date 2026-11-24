@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "-m",
+    "research_lab.mplpb_seam_probe",
+    "worker",
+    "--root",
+    "/workspace/mplpb-pr52-validation/combined",
+    "--out",
+    "/workspace/mplpb-pr52-validation/results/ppc-live.ZjDKsf/instance/native/unavailable_original",
+    "--case",
+    "unavailable_original",
+    "--revision",
+    "e3990bf98ac6fb2e3b991a2eb251347ca571e873"
+  ],
+  "cwd": "/workspace/mplpb-pr52-validation/results/ppc-live.ZjDKsf/instance/native_runner",
+  "exit": 0
+}

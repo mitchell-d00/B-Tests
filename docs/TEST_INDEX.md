@@ -6,7 +6,7 @@ on which revision, and under which conditions.
 
 [What was compared](COMPARISON_SCOPE.md) · [AI entry point (JSON)](../research/test-index.json) · [Full file inventory (JSONL)](../research/test-inventory.jsonl) · [Generator](../tools/build_test_index.py) · [Update workflow](https://github.com/mitchell-d00/B-Tests/actions/workflows/test-index.yml)
 
-Found **190 Python test definitions** in **21 files**, **1236 repository files** and **11 archives** with **2077 listed member files**.
+Found **195 Python test definitions** in **22 files**, **1362 repository files** and **16 archives** with **2353 listed member files**.
 Case records may include repeated trials, references, and unrun cases.
 
 ## Automated test definitions
@@ -17,6 +17,7 @@ suite from `evaluation/witness-section19/research-archive` with the same command
 
 | Test source | Definitions |
 | --- | ---: |
+| [evaluation/ppc-live/2026-11-24/original/v02/ppc_package/test_contract.py](../evaluation/ppc-live/2026-11-24/original/v02/ppc_package/test_contract.py) | 5 |
 | [evaluation/witness-section19/research-archive/tests/test_separation.py](../evaluation/witness-section19/research-archive/tests/test_separation.py) | 16 |
 | [evaluation/witness-section19/research-archive/tests/test_wie.py](../evaluation/witness-section19/research-archive/tests/test_wie.py) | 26 |
 | [tests/test_blind_handoff.py](../tests/test_blind_handoff.py) | 6 |
@@ -41,6 +42,14 @@ suite from `evaluation/witness-section19/research-archive` with the same command
 
 <details>
 <summary>Browse individual Python tests</summary>
+
+**[evaluation/ppc-live/2026-11-24/original/v02/ppc_package/test_contract.py](../evaluation/ppc-live/2026-11-24/original/v02/ppc_package/test_contract.py)**
+
+- [Contract.test_all_cases](../evaluation/ppc-live/2026-11-24/original/v02/ppc_package/test_contract.py#L4)
+- [Contract.test_malformed](../evaluation/ppc-live/2026-11-24/original/v02/ppc_package/test_contract.py#L10)
+- [Contract.test_no_false_refusal_claim](../evaluation/ppc-live/2026-11-24/original/v02/ppc_package/test_contract.py#L13)
+- [Contract.test_untrusted_truth](../evaluation/ppc-live/2026-11-24/original/v02/ppc_package/test_contract.py#L15)
+- [Contract.test_fixture_recurrence](../evaluation/ppc-live/2026-11-24/original/v02/ppc_package/test_contract.py#L17)
 
 **[evaluation/witness-section19/research-archive/tests/test_separation.py](../evaluation/witness-section19/research-archive/tests/test_separation.py)**
 
@@ -321,6 +330,7 @@ Read the linked evidence for results and limitations. For example, search only W
 | [evaluation/human-export-1](../evaluation/human-export-1) | 3 | 0 | [summary.json](../evaluation/human-export-1/summary.json) |
 | [evaluation/mplpb-native](../evaluation/mplpb-native) | 148 | 48 | [component-check/summary.json](../evaluation/mplpb-native/component-check/summary.json) · [final-seven-case-pairs/summary.json](../evaluation/mplpb-native/final-seven-case-pairs/summary.json) · [initial-five-case-pairs/summary.json](../evaluation/mplpb-native/initial-five-case-pairs/summary.json) · [network-enabled/summary.json](../evaluation/mplpb-native/network-enabled/summary.json) · 1 more in JSON |
 | [evaluation/mplpb-updates](../evaluation/mplpb-updates) | 575 | 189 | [3df2c6e22f0ef454f3ee67b88d43402a42f63443/RESULTS.md](../evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/RESULTS.md) · [3df2c6e22f0ef454f3ee67b88d43402a42f63443/summary.json](../evaluation/mplpb-updates/3df2c6e22f0ef454f3ee67b88d43402a42f63443/summary.json) · [bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md](../evaluation/mplpb-updates/bbf6690d69b32d16969cc10e5ce9d380427ead40/RESULTS.md) · [ccbb5804eb47f78c2338d57c142ad087b47be710/RESULTS.md](../evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/RESULTS.md) · 25 more in JSON |
+| [evaluation/ppc-live](../evaluation/ppc-live) | 126 | 16 | [2026-11-24/README.md](../evaluation/ppc-live/2026-11-24/README.md) · [2026-11-24/REPRODUCTION.md](../evaluation/ppc-live/2026-11-24/REPRODUCTION.md) · [2026-11-24/correction-review/summary.json](../evaluation/ppc-live/2026-11-24/correction-review/summary.json) · [2026-11-24/moxcop/README.md](../evaluation/ppc-live/2026-11-24/moxcop/README.md) · 3 more in JSON |
 | [evaluation/propagation-1](../evaluation/propagation-1) | 3 | 0 | [summary.json](../evaluation/propagation-1/summary.json) |
 | [evaluation/public-claims](../evaluation/public-claims) | 131 | 24 | [2026-11-20/RESULTS.md](../evaluation/public-claims/2026-11-20/RESULTS.md) · [2026-11-20/observed-initial/summary.json](../evaluation/public-claims/2026-11-20/observed-initial/summary.json) · [2026-11-20/observed/summary.json](../evaluation/public-claims/2026-11-20/observed/summary.json) |
 | [evaluation/public-papers](../evaluation/public-papers) | 34 | 1 | [RESULTS.md](../evaluation/public-papers/RESULTS.md) |
@@ -357,6 +367,15 @@ Read the linked evidence for results and limitations. For example, search only W
 - [evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/run_extras.py](../evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/run_extras.py)
 - [evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/run_frozen_papers.py](../evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/run_frozen_papers.py)
 - [evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/run_predecessors.py](../evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/run_predecessors.py)
+- [evaluation/ppc-live/2026-11-24/live.py](../evaluation/ppc-live/2026-11-24/live.py)
+- [evaluation/ppc-live/2026-11-24/moxcop/moxcop.py](../evaluation/ppc-live/2026-11-24/moxcop/moxcop.py)
+- [evaluation/ppc-live/2026-11-24/native.py](../evaluation/ppc-live/2026-11-24/native.py)
+- [evaluation/ppc-live/2026-11-24/native_runner/research_lab/mplpb_seam_probe.py](../evaluation/ppc-live/2026-11-24/native_runner/research_lab/mplpb_seam_probe.py)
+- [evaluation/ppc-live/2026-11-24/original/v02/ppc_package/run.py](../evaluation/ppc-live/2026-11-24/original/v02/ppc_package/run.py)
+- [evaluation/ppc-live/2026-11-24/original/v02/ppc_package/stress.py](../evaluation/ppc-live/2026-11-24/original/v02/ppc_package/stress.py)
+- [evaluation/ppc-live/2026-11-24/review_sample.py](../evaluation/ppc-live/2026-11-24/review_sample.py)
+- [evaluation/ppc-live/2026-11-24/run-local.sh](../evaluation/ppc-live/2026-11-24/run-local.sh)
+- [evaluation/ppc-live/2026-11-24/score.py](../evaluation/ppc-live/2026-11-24/score.py)
 - [evaluation/public-claims/2026-11-20/producer-initial.py](../evaluation/public-claims/2026-11-20/producer-initial.py)
 - [evaluation/public-claims/2026-11-20/producer.py](../evaluation/public-claims/2026-11-20/producer.py)
 - [evaluation/public-papers/run.py](../evaluation/public-papers/run.py)

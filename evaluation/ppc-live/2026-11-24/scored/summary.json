@@ -1,0 +1,206 @@
+{
+  "trial_count": 420,
+  "scored_decisions": 1260,
+  "positive_per_arm": 210,
+  "negative_per_arm": 210,
+  "counts": {
+    "A": {
+      "false_accept": 11,
+      "false_refusal": 19,
+      "correct_accept": 97,
+      "correct_refusal": 124,
+      "invalid": 169
+    },
+    "B": {
+      "false_accept": 1,
+      "false_refusal": 118,
+      "correct_accept": 92,
+      "correct_refusal": 209,
+      "invalid": 0
+    },
+    "C": {
+      "false_accept": 0,
+      "false_refusal": 118,
+      "correct_accept": 92,
+      "correct_refusal": 210,
+      "invalid": 0
+    }
+  },
+  "label_by_decision": {
+    "A": {
+      "negative:INVALID": 75,
+      "negative:REFUSE": 124,
+      "positive:INVALID": 94,
+      "positive:ACCEPT": 97,
+      "positive:REFUSE": 19,
+      "negative:ACCEPT": 11
+    },
+    "B": {
+      "negative:REFUSE": 209,
+      "positive:REFUSE": 118,
+      "positive:ACCEPT": 92,
+      "negative:ACCEPT": 1
+    },
+    "C": {
+      "negative:REFUSE": 210,
+      "positive:REFUSE": 118,
+      "positive:ACCEPT": 92
+    }
+  },
+  "by_case": {
+    "recurrence-negative": {
+      "A:invalid": 20,
+      "B:correct_refusal": 30,
+      "C:correct_refusal": 30,
+      "A:correct_refusal": 10
+    },
+    "education-negative": {
+      "A:correct_refusal": 25,
+      "B:correct_refusal": 30,
+      "C:correct_refusal": 30,
+      "A:invalid": 4,
+      "A:false_accept": 1
+    },
+    "comparison-positive": {
+      "A:invalid": 24,
+      "B:false_refusal": 30,
+      "C:false_refusal": 30,
+      "A:false_refusal": 4,
+      "A:correct_accept": 2
+    },
+    "comparison-negative": {
+      "A:correct_refusal": 8,
+      "B:correct_refusal": 30,
+      "C:correct_refusal": 30,
+      "A:invalid": 21,
+      "A:false_accept": 1
+    },
+    "education-positive": {
+      "A:correct_accept": 24,
+      "B:false_refusal": 10,
+      "C:false_refusal": 10,
+      "B:correct_accept": 20,
+      "C:correct_accept": 20,
+      "A:invalid": 6
+    },
+    "bypass-positive": {
+      "A:correct_accept": 19,
+      "B:correct_accept": 14,
+      "C:correct_accept": 14,
+      "A:invalid": 11,
+      "B:false_refusal": 16,
+      "C:false_refusal": 16
+    },
+    "execution-positive": {
+      "A:correct_accept": 23,
+      "B:correct_accept": 30,
+      "C:correct_accept": 30,
+      "A:invalid": 7
+    },
+    "history-negative": {
+      "A:correct_refusal": 21,
+      "B:correct_refusal": 30,
+      "C:correct_refusal": 30,
+      "A:invalid": 5,
+      "A:false_accept": 4
+    },
+    "recurrence-positive": {
+      "A:false_refusal": 10,
+      "B:false_refusal": 30,
+      "C:false_refusal": 30,
+      "A:invalid": 18,
+      "A:correct_accept": 2
+    },
+    "history-positive": {
+      "A:correct_accept": 15,
+      "B:correct_accept": 27,
+      "C:correct_accept": 27,
+      "A:false_refusal": 3,
+      "B:false_refusal": 3,
+      "C:false_refusal": 3,
+      "A:invalid": 12
+    },
+    "execution-negative": {
+      "A:correct_refusal": 24,
+      "B:correct_refusal": 29,
+      "C:correct_refusal": 30,
+      "A:invalid": 4,
+      "A:false_accept": 2,
+      "B:false_accept": 1
+    },
+    "identity-negative": {
+      "A:correct_refusal": 8,
+      "B:correct_refusal": 30,
+      "C:correct_refusal": 30,
+      "A:invalid": 19,
+      "A:false_accept": 3
+    },
+    "identity-positive": {
+      "A:invalid": 16,
+      "B:false_refusal": 29,
+      "C:false_refusal": 29,
+      "A:correct_accept": 12,
+      "B:correct_accept": 1,
+      "C:correct_accept": 1,
+      "A:false_refusal": 2
+    },
+    "bypass-negative": {
+      "A:correct_refusal": 28,
+      "B:correct_refusal": 30,
+      "C:correct_refusal": 30,
+      "A:invalid": 2
+    }
+  },
+  "invalid_causes": {
+    "A:schema_or_json": 169
+  },
+  "paired_gate": {
+    "valid_b": 420,
+    "valid_b_accept_blocked": 1
+  },
+  "transport": {
+    "requests": 1200,
+    "responses": 1200,
+    "finish:stop": 1200,
+    "returned_model:qwen2.5-1.5b": 1200
+  },
+  "trial_separation": {
+    "arms": {
+      "A": {
+        "trial_histories_checked": 420,
+        "correction_responses": 180,
+        "decision_responses": 420
+      },
+      "B": {
+        "trial_histories_checked": 420,
+        "correction_responses": 180,
+        "decision_responses": 420
+      }
+    },
+    "unique_provider_response_ids": 1200,
+    "gate_model_calls": 0
+  },
+  "json_acknowledgment_flags": {
+    "A": {
+      "correction:False,flag:False": 68,
+      "correction:True,flag:False": 42,
+      "correction:False,flag:True": 121,
+      "correction:True,flag:True": 20
+    },
+    "B": {
+      "correction:True,flag:True": 81,
+      "correction:False,flag:True": 202,
+      "correction:True,flag:False": 99,
+      "correction:False,flag:False": 38
+    }
+  },
+  "exploratory_fenced_json_outcomes": {
+    "A": {
+      "correct_refusal": 33,
+      "correct_accept": 75,
+      "false_accept": 18,
+      "false_refusal": 7
+    },
+    "B": {}
+  }
+}

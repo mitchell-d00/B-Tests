@@ -1,0 +1,7 @@
+# Frozen PPC live run
+
+Use the original 14 cases and exact v0.2 messages and JSON scoring. A and B use fresh histories on one model. A precedes B within each case. Treat C as a paired decision applied to B output with the frozen evaluator label. Do not treat C as a third model sample or a physical write. Preserve bad JSON and provider errors. Record complete requests and response envelopes. Use 30 repeats, order seed 42, temperature 0.7 and a 48-token cap per call. Use no grammar, retries, or answer-key transmission. Up to four cases execute concurrently.
+
+Report all five outcomes for each arm and count transport failures and format failures explicitly. If an upstream API call fails, C refusals from that case are retained but excluded from claims about what the gate changed on valid proposals. Compare only the paired B/C valid proposals for gate effects. Treat repeated measurements as observations on these fixed cases and this model. Review correction text for an explicit acknowledgment of the supplied evidentiary rule or its accurate paraphrase. Distinguish this from the final JSON acknowledgment flag. Report manual review scope and semantic limitations.
+
+Execute the B-Tests seven-case native MPLPB seam suite separately at the pinned current revisions. Use actual marker-file and SQLite observations. This checks a related local action boundary and does not substitute MPLPB for either model arm or the v0.2 gate.

@@ -1,0 +1,17 @@
+{
+  "b_tests_revision": "e646f82e4758e35e7a883eb492bcf756a8d29c83",
+  "mplpb_revision": "e3990bf98ac6fb2e3b991a2eb251347ca571e873",
+  "cases": {
+    "contradictory_claim": false,
+    "claim_only_chain": false,
+    "supported_control": true,
+    "revoked_seat": false,
+    "changed_source": false,
+    "unavailable_original": false,
+    "export_without_evidence": false
+  },
+  "runner_sha256": {
+    "mplpb_seam_probe.py": "403202c02a498258315ee60dcc92a810abd753309bb14f325d602a1985b845e7",
+    "common.py": "33e26b4b86665e4f4d93cb3e244628cd2dd862cff4a924b39ea35a3ede7547ea"
+  }
+}

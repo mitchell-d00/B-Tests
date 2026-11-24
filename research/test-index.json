@@ -10,12 +10,12 @@
     "record_semantics": "Raw status fields are transcribed. File and record counts may include repeat runs and references."
   },
   "counts": {
-    "files": 1236,
-    "collections": 26,
-    "test_source_files": 21,
-    "python_test_definitions": 190,
-    "archives": 11,
-    "archive_member_files": 2077
+    "files": 1362,
+    "collections": 27,
+    "test_source_files": 22,
+    "python_test_definitions": 195,
+    "archives": 16,
+    "archive_member_files": 2353
   },
   "details": {
     "path": "research/test-inventory.jsonl",
@@ -174,6 +174,20 @@
       "records_with_case_or_status": 189
     },
     {
+      "path": "evaluation/ppc-live",
+      "files": 126,
+      "entry_points": [
+        "evaluation/ppc-live/2026-11-24/README.md",
+        "evaluation/ppc-live/2026-11-24/REPRODUCTION.md",
+        "evaluation/ppc-live/2026-11-24/correction-review/summary.json",
+        "evaluation/ppc-live/2026-11-24/moxcop/README.md",
+        "evaluation/ppc-live/2026-11-24/native/summary.json",
+        "evaluation/ppc-live/2026-11-24/scored/summary.json",
+        "evaluation/ppc-live/2026-11-24/original/v02/ppc_package/README.md"
+      ],
+      "records_with_case_or_status": 16
+    },
+    {
       "path": "evaluation/propagation-1",
       "files": 3,
       "entry_points": [
@@ -258,6 +272,33 @@
     }
   ],
   "test_sources": [
+    {
+      "path": "evaluation/ppc-live/2026-11-24/original/v02/ppc_package/test_contract.py",
+      "collection": "evaluation/ppc-live",
+      "role": "test_source",
+      "test_definitions": [
+        {
+          "name": "Contract.test_all_cases",
+          "line": 4
+        },
+        {
+          "name": "Contract.test_malformed",
+          "line": 10
+        },
+        {
+          "name": "Contract.test_no_false_refusal_claim",
+          "line": 13
+        },
+        {
+          "name": "Contract.test_untrusted_truth",
+          "line": 15
+        },
+        {
+          "name": "Contract.test_fixture_recurrence",
+          "line": 17
+        }
+      ]
+    },
     {
       "path": "evaluation/witness-section19/research-archive/tests/test_separation.py",
       "collection": "evaluation/witness-section19",
@@ -1189,6 +1230,15 @@
     "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/run_extras.py",
     "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/run_frozen_papers.py",
     "evaluation/mplpb-updates/ccbb5804eb47f78c2338d57c142ad087b47be710/run_predecessors.py",
+    "evaluation/ppc-live/2026-11-24/live.py",
+    "evaluation/ppc-live/2026-11-24/moxcop/moxcop.py",
+    "evaluation/ppc-live/2026-11-24/native.py",
+    "evaluation/ppc-live/2026-11-24/native_runner/research_lab/mplpb_seam_probe.py",
+    "evaluation/ppc-live/2026-11-24/original/v02/ppc_package/run.py",
+    "evaluation/ppc-live/2026-11-24/original/v02/ppc_package/stress.py",
+    "evaluation/ppc-live/2026-11-24/review_sample.py",
+    "evaluation/ppc-live/2026-11-24/run-local.sh",
+    "evaluation/ppc-live/2026-11-24/score.py",
     "evaluation/public-claims/2026-11-20/producer-initial.py",
     "evaluation/public-claims/2026-11-20/producer.py",
     "evaluation/public-papers/run.py",

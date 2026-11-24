@@ -1,0 +1,39 @@
+{
+  "schema": "ppc-local-runtime-v1",
+  "model": "Qwen2.5-1.5B-Instruct Q4_K_M",
+  "runtime": "llama.cpp b12622",
+  "server_argv": [
+    "llama-server",
+    "--model",
+    "qwen.gguf",
+    "--alias",
+    "qwen2.5-1.5b",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "53294",
+    "--ctx-size",
+    "4096",
+    "--threads",
+    "4",
+    "--parallel",
+    "4",
+    "--gpu-layers",
+    "0",
+    "--no-webui"
+  ],
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "b_tests_revision": "e646f82e4758e35e7a883eb492bcf756a8d29c83",
+  "mplpb_revision": "e3990bf98ac6fb2e3b991a2eb251347ca571e873",
+  "local_model_endpoint": true,
+  "original_attachments_sha256": {
+    "Probabilistic_Polite_Compliance_Package.zip": "5da9d522c98255a7485910dce16ca110512fc52c286edf8c80a24b68b20a40c3",
+    "Probabilistic_Polite_Compliance_v0.2.zip": "d9cd4bde3a7801c0ec9376bd0c8b9f5cd04948c4371689fcfa3b032f8a913c45"
+  },
+  "live_protocol_sha256": {
+    "live.py": "313755450ff1d7a7162154cf57fa0885e3f9d7e8fe6ef58a4fa1484ea6a62a94",
+    "PROTOCOL.md": "5d34d0dd898e4737ac25c9ebf66329e962676bfc0c1f522d111ddf198bf8e8f9",
+    "live/frozen.json": "dfd24796e55487364deeded43fdd9b6ab5b56e9cc5c64e1c4f959c6e9d933aaf"
+  }
+}

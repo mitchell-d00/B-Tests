@@ -1,0 +1,14 @@
+{
+  "sample_size": 36,
+  "counts_by_arm": {
+    "A": {
+      "generic_acknowledgment": 16,
+      "absent_or_other": 2
+    },
+    "B": {
+      "generic_acknowledgment": 15,
+      "absent_or_other": 3
+    }
+  },
+  "external_human_review": "NOT_RUN"
+}

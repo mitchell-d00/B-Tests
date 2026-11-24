@@ -34,6 +34,18 @@ Correcting accessible contradictions and resisting unsupported causal
 expansion were shared observations within the prompt trials. Those
 observations establish behavior in the recorded sessions.
 
+### What established separate sessions
+
+Separate target sessions received the assigned experimental inputs. Later stages
+of a trajectory specifically received the retained state and handoff, so those
+stages depend on earlier stages. The archive records the outputs and workflow
+checks, and includes operating-system file-read observations for the discovery
+condition. Provider receipts and complete API transcripts are unavailable for
+these historical sessions. The later PPC live run records evidence for each
+separate inference request, a procedure made reusable in
+[MoxCOP](../evaluation/ppc-live/2026-11-24/moxcop/README.md).
+[Verified PPC run](../evaluation/ppc-live/2026-11-24/README.md)
+
 ## The separate native MPLPB runs
 
 The November 16 comparative paper reports seven authored B-Tests boundary

@@ -1,0 +1,45 @@
+{
+  "schema": "moxcop-trial-plan-v1",
+  "spec": {
+    "model": "qwen2.5-1.5b",
+    "repeats": 2,
+    "seed": 42,
+    "temperature": 0.7,
+    "max_tokens": 24,
+    "trials": [
+      {
+        "id": "one-turn",
+        "system": "Answer each request using one word.",
+        "turns": [
+          "Name today's fictional exhibit: Jasper. Reply with the name."
+        ]
+      },
+      {
+        "id": "two-turn",
+        "system": "Answer each request using one word.",
+        "turns": [
+          "Name today's fictional exhibit: Cedar. Reply with the name.",
+          "What name did this conversation use?"
+        ]
+      }
+    ]
+  },
+  "schedule": [
+    {
+      "repeat": 0,
+      "id": "two-turn"
+    },
+    {
+      "repeat": 0,
+      "id": "one-turn"
+    },
+    {
+      "repeat": 1,
+      "id": "two-turn"
+    },
+    {
+      "repeat": 1,
+      "id": "one-turn"
+    }
+  ]
+}

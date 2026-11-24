@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/workspace/mplpb-pr52-validation/results/ppc-live.ZjDKsf/instance/score.py", line 167, in <module>
+    main()
+  File "/workspace/mplpb-pr52-validation/results/ppc-live.ZjDKsf/instance/score.py", line 107, in main
+    ack = read_call(record['correction_call'], messages, config, request_ids, transport)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mplpb-pr52-validation/results/ppc-live.ZjDKsf/instance/score.py", line 33, in read_call
+    raise ValueError('Missing request or messages differ from the frozen protocol')
+ValueError: Missing request or messages differ from the frozen protocol
