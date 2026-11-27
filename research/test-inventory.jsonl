@@ -1290,6 +1290,19 @@
 {"path": "fixtures/reciprocal_development_manifest.json", "collection": "fixtures", "role": "fixture", "case_and_status_records": [{"pointer": "", "title": "OOCC and CAD falsification challenge: authored adversarial development fixtures", "reported_status": {"status": "Proposed synthetic test descriptions and evidence snippets. No OOCC runtime tests performed; not a sealed independent holdout. Source lists are sample stimulus material, not sufficient for live permission/restart or ontology experiments."}}]}
 {"path": "fixtures/sorter_mixed_users.json", "collection": "fixtures", "role": "fixture"}
 {"path": "fixtures/sorter_web_topics.json", "collection": "fixtures", "role": "fixture"}
+{"path": "gate-js/README.md", "collection": "gate-js", "role": "documentation", "title": "JavaScript gate API"}
+{"path": "gate-js/check-parity.sh", "collection": "gate-js", "role": "runnable_script"}
+{"path": "gate-js/cli.mjs", "collection": "gate-js", "role": "supporting_file"}
+{"path": "gate-js/index.mjs", "collection": "gate-js", "role": "supporting_file"}
+{"path": "gate-js/index.test.mjs", "collection": "gate-js", "role": "supporting_file"}
+{"path": "gate-js/role-canary-plan.json", "collection": "gate-js", "role": "supporting_file"}
+{"path": "gate-js/role-canary-plan.sha256", "collection": "gate-js", "role": "supporting_file"}
+{"path": "gate-js/role-canary-results.json", "collection": "gate-js", "role": "supporting_file"}
+{"path": "gate-js/role-canary.mjs", "collection": "gate-js", "role": "supporting_file"}
+{"path": "gate-js/roles.mjs", "collection": "gate-js", "role": "supporting_file"}
+{"path": "gate-js/roles.test.mjs", "collection": "gate-js", "role": "supporting_file"}
+{"path": "gate-js/round-7.json", "collection": "gate-js", "role": "supporting_file", "case_and_status_records": [{"pointer": "/checks/0", "id": "SMOKE-P7", "revision": "P7", "reported_status": {"status": "passed"}}]}
+{"path": "gate-js/tool.json", "collection": "gate-js", "role": "supporting_file"}
 {"path": "make_cases.py", "collection": ".", "role": "runnable_script"}
 {"path": "oocc_lab/engine.py", "collection": "oocc_lab", "role": "supporting_file"}
 {"path": "research/BEYOND_ACCEPTANCE_MATRIX_2026-11-17.json", "collection": "research", "role": "supporting_file"}

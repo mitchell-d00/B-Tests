@@ -6,7 +6,7 @@ on which revision, and under which conditions.
 
 [What was compared](COMPARISON_SCOPE.md) · [AI entry point (JSON)](../research/test-index.json) · [Full file inventory (JSONL)](../research/test-inventory.jsonl) · [Generator](../tools/build_test_index.py) · [Update workflow](https://github.com/mitchell-d00/B-Tests/actions/workflows/test-index.yml)
 
-Found **195 Python test definitions** in **22 files**, **1364 repository files** and **16 archives** with **2353 listed member files**.
+Found **195 Python test definitions** in **22 files**, **1377 repository files** and **16 archives** with **2353 listed member files**.
 Case records may include repeated trials, references, and unrun cases.
 
 ## Automated test definitions
@@ -336,6 +336,7 @@ Read the linked evidence for results and limitations. For example, search only W
 | [evaluation/public-papers](../evaluation/public-papers) | 34 | 1 | [RESULTS.md](../evaluation/public-papers/RESULTS.md) |
 | [evaluation/witness-section19](../evaluation/witness-section19) | 101 | 27 | [RESULTS.md](../evaluation/witness-section19/RESULTS.md) · [live/README.md](../evaluation/witness-section19/live/README.md) · [live/REPORT.md](../evaluation/witness-section19/live/REPORT.md) · [research-archive/README.md](../evaluation/witness-section19/research-archive/README.md) · 2 more in JSON |
 | [fixtures](../fixtures) | 5 | 3 |  |
+| [gate-js](../gate-js) | 13 | 1 | [README.md](../gate-js/README.md) |
 | [oocc_lab](../oocc_lab) | 1 | 0 |  |
 | [research](../research) | 18 | 3 |  |
 | [research_lab](../research_lab) | 21 | 0 |  |
@@ -388,6 +389,7 @@ Read the linked evidence for results and limitations. For example, search only W
 - [evaluation/witness-section19/live/score.py](../evaluation/witness-section19/live/score.py)
 - [evaluation/witness-section19/live/separation.py](../evaluation/witness-section19/live/separation.py)
 - [evaluation/witness-section19/research-archive/wie/__main__.py](../evaluation/witness-section19/research-archive/wie/__main__.py)
+- [gate-js/check-parity.sh](../gate-js/check-parity.sh)
 - [make_cases.py](../make_cases.py)
 - [research_lab/agent_entry.py](../research_lab/agent_entry.py)
 - [research_lab/agent_replay.py](../research_lab/agent_replay.py)

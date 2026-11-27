@@ -10,8 +10,8 @@
     "record_semantics": "Raw status fields are transcribed. File and record counts may include repeat runs and references."
   },
   "counts": {
-    "files": 1364,
-    "collections": 27,
+    "files": 1377,
+    "collections": 28,
     "test_source_files": 22,
     "python_test_definitions": 195,
     "archives": 16,
@@ -231,6 +231,14 @@
       "files": 5,
       "entry_points": [],
       "records_with_case_or_status": 3
+    },
+    {
+      "path": "gate-js",
+      "files": 13,
+      "entry_points": [
+        "gate-js/README.md"
+      ],
+      "records_with_case_or_status": 1
     },
     {
       "path": "oocc_lab",
@@ -1251,6 +1259,7 @@
     "evaluation/witness-section19/live/score.py",
     "evaluation/witness-section19/live/separation.py",
     "evaluation/witness-section19/research-archive/wie/__main__.py",
+    "gate-js/check-parity.sh",
     "make_cases.py",
     "research_lab/agent_entry.py",
     "research_lab/agent_replay.py",
