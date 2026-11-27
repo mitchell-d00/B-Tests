@@ -1,0 +1,24 @@
+{
+  "format": 1,
+  "boundary": "Disposable local Git server with one trusted write handler and a direct Git receive hook",
+  "controls": [
+    ["unknown-session", "unverified_session", false],
+    ["self-asserted-role", "invalid_proposal", false],
+    ["anna-write", "role_denied", false],
+    ["al-write", "role_denied", false],
+    ["outside-write", "role_denied", false],
+    ["test-betty-write", "role_denied", false],
+    ["scorer-write", "role_denied", false],
+    ["maintainer-write", "role_denied", false],
+    ["wrong-resource", "scope_denied", false],
+    ["wrong-revision", "revision_mismatch", false],
+    ["stale-receipt", "missing_check", false],
+    ["conflicting-receipts", "ambiguous_check", false],
+    ["revoked-after-preview", "not_authorized", false],
+    ["cross-session-grant", "scope_binding_mismatch", false],
+    ["alternate-tool", "tool_unavailable", false],
+    ["direct-git-push", "remote_rejected", false],
+    ["authorized-betty", "allowed", true],
+    ["repeat-old-revision", "revision_mismatch", false]
+  ]
+}

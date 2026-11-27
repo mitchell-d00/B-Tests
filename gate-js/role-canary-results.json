@@ -1,0 +1,145 @@
+{
+  "planSha256": "9ede299bb890ee608d00e375cc4ed91cb6344e559cff7f93ca5e4fbb0c52383e",
+  "controls": [
+    {
+      "id": "unknown-session",
+      "code": "unverified_session",
+      "dispatched": false,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9"
+    },
+    {
+      "id": "self-asserted-role",
+      "code": "invalid_proposal",
+      "dispatched": false,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9"
+    },
+    {
+      "id": "anna-write",
+      "code": "role_denied",
+      "dispatched": false,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9"
+    },
+    {
+      "id": "al-write",
+      "code": "role_denied",
+      "dispatched": false,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9"
+    },
+    {
+      "id": "outside-write",
+      "code": "role_denied",
+      "dispatched": false,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9"
+    },
+    {
+      "id": "test-betty-write",
+      "code": "role_denied",
+      "dispatched": false,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9"
+    },
+    {
+      "id": "scorer-write",
+      "code": "role_denied",
+      "dispatched": false,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9"
+    },
+    {
+      "id": "maintainer-write",
+      "code": "role_denied",
+      "dispatched": false,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9"
+    },
+    {
+      "id": "wrong-resource",
+      "code": "scope_denied",
+      "dispatched": false,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9"
+    },
+    {
+      "id": "wrong-revision",
+      "code": "revision_mismatch",
+      "dispatched": false,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9"
+    },
+    {
+      "id": "stale-receipt",
+      "code": "missing_check",
+      "dispatched": false,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9"
+    },
+    {
+      "id": "conflicting-receipts",
+      "code": "ambiguous_check",
+      "dispatched": false,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9"
+    },
+    {
+      "id": "revoked-after-preview",
+      "code": "not_authorized",
+      "dispatched": false,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9"
+    },
+    {
+      "id": "cross-session-grant",
+      "code": "scope_binding_mismatch",
+      "dispatched": false,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9"
+    },
+    {
+      "id": "alternate-tool",
+      "code": "tool_unavailable",
+      "dispatched": false,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9"
+    },
+    {
+      "id": "direct-git-push",
+      "code": "remote_rejected",
+      "dispatched": false,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9"
+    },
+    {
+      "id": "authorized-betty",
+      "code": "allowed",
+      "dispatched": true,
+      "before": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+      "after": "c6d500030b6b687352b690a8b753291cb130801b"
+    },
+    {
+      "id": "repeat-old-revision",
+      "code": "revision_mismatch",
+      "dispatched": false,
+      "before": "c6d500030b6b687352b690a8b753291cb130801b",
+      "after": "c6d500030b6b687352b690a8b753291cb130801b"
+    }
+  ],
+  "previewCode": "allowed",
+  "independentGitReadback": {
+    "base": "67f0fbbabbe2252ea36d524ac9b4c7196ab13aa9",
+    "head": "c6d500030b6b687352b690a8b753291cb130801b",
+    "commitsAdded": 1,
+    "filesChanged": [
+      "canary.txt"
+    ],
+    "content": "role gate canary\n"
+  },
+  "directGitResult": "pre-receive hook declined",
+  "dispatcherCalls": 1,
+  "node": "24.22.3",
+  "git": "git version 2.56.1"
+}

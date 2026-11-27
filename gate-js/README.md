@@ -71,3 +71,74 @@ Al scored the first responses at one point per case for each of five fields: rev
 [Named A first response](https://github.com/mitchell-d00/Al-Betty-and-the-Outside/blob/1829fc3a5a5c5a1cf46ebe79f5d9bfafed283974/dry-runs/handoff-a-rounds-3-8.md) · [Named B first response](https://github.com/mitchell-d00/Al-Betty-and-the-Outside/blob/cf2d3a014df89f7713c5bfddbc2d00f19cfca982/dry-runs/handoff-b-rounds-3-8.md)
 
 The action tests use separately authored, structured positive and negative proposals based on those scenarios. The participants' first responses were prose. Their scores do not include a replay of the gate or a real deployment.
+
+## Bind roles at the tool boundary
+
+Use [createRoleGate](roles.mjs) for operations that need authenticated sessions.
+The `gated_action` input in [tool.json](tool.json) contains only an action, a
+resource ID, and a revision. The host passes its authenticated request context
+as a separate argument. A model cannot select or change its role in the proposal.
+
+```js
+import { createRoleGate } from './gate-js/roles.mjs'
+
+const gate = createRoleGate({
+  withTransaction: operation => host.transact(tx => operation({
+    authenticate: context => tx.resolveSession(context),
+    readState: binding => tx.readCurrentActionState(binding),
+    dispatch: (proposal, verdict) => tx.applyAction(proposal, verdict),
+  })),
+})
+
+const result = await gate.run(hostRequestContext, modelProposal)
+```
+
+The host supplies a principal with `sessionId`, `role`, and a `scope` array of
+exact `{ action, resource }` entries. The state returned for that session and
+resource uses the action-gate fields above and must include `resource` and
+`direction.sessionId`. The current revision and receipt checks still apply.
+The host maps validated action/resource keys to fixed handlers and owns their
+credentials. The role gate provides authorization logic. The host supplies
+authentication, credential isolation, and transaction guarantees.
+
+| Host-assigned role | Available actions within assigned scope |
+| --- | --- |
+| Outside | Read permitted material and record objections |
+| Al | Inspect repository or evidence and propose work |
+| Anna | Read the assigned packet and submit a first response |
+| Test Betty | Record a trial and prepare a review note |
+| Implementation Betty | Inspect, edit, test, publish, or perform a specifically authorized operational action |
+| Custodian/scorer | Read a designated key and score a submission |
+| Maintainer | Assign roles and authorize or revoke scope through the host |
+
+For Anna, supply the host-owned `submission-open` check and consume it in the
+same transaction that records the first response. A completion record leaves
+the session's assigned role intact. Assign Test Betty through the host if you
+want that session to prepare a note.
+
+`evaluate(context, proposal)` is a preview. `run(context, proposal)` checks again
+and dispatches inside the host's transaction. Serialize role changes,
+revocations, evidence updates, and execution, or have the executor perform
+an atomic recheck and write. Never hand a previous preview to an unrestricted
+write tool. Keep Git credentials, server filesystem access, and other write
+routes outside the model's capabilities.
+
+### Reproduce the disposable Git canary
+
+```sh
+node gate-js/roles.test.mjs
+node gate-js/role-canary.mjs
+```
+
+The [frozen plan](role-canary-plan.json) specifies 18 controls. The
+[recorded run](role-canary-results.json) shows one gated commit, with only
+`canary.txt` added. Separate Git commands read back the ref, diff, commit
+count, and content. Denied roles and invalid or revoked scopes left the ref
+unchanged. A local pre-receive hook rejected a direct Git push. The fixture's
+JS tool registry also rejected an alternate write call. The revocation control
+pauses after an allowed preview, revokes the grant, and resumes with `run`.
+
+This experiment covers the fixture's JS tool boundary and Git receive path.
+It supplies no hosted GitHub or HTTP write surface. A principal with direct
+server filesystem or Git administrative access falls outside the fixture's
+enforced routes.

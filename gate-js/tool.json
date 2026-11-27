@@ -46,5 +46,32 @@
       ],
       "additionalProperties": false
     }
+  },
+  {
+    "name": "gated_action",
+    "description": "Request a scoped action at a specific revision. The host authenticates the session and checks role, scope and prerequisites before dispatch.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "action": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]{0,63}$"
+        },
+        "revision": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$"
+        },
+        "resource": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$"
+        }
+      },
+      "required": [
+        "action",
+        "revision",
+        "resource"
+      ],
+      "additionalProperties": false
+    }
   }
 ]
