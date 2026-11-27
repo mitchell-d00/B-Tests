@@ -1,0 +1,50 @@
+[
+  {
+    "name": "check_action",
+    "description": "Check one proposed action and revision against operator-maintained authorization and required receipts. This tool returns a verdict without dispatching an action.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "action": {
+          "type": "string",
+          "description": "Exact action key, such as deploy or run-smoke.",
+          "pattern": "^[a-z][a-z0-9-]{0,63}$"
+        },
+        "revision": {
+          "type": "string",
+          "description": "Exact target revision.",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$"
+        }
+      },
+      "required": [
+        "action",
+        "revision"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "check_ppc_decision",
+    "description": "Apply the original PPC gate to a proposed decision. Eligibility is supplied by the test operator outside this tool input.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "decision": {
+          "type": "string",
+          "enum": [
+            "ACCEPT",
+            "REFUSE"
+          ]
+        },
+        "acknowledged": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "decision",
+        "acknowledged"
+      ],
+      "additionalProperties": false
+    }
+  }
+]

@@ -37,6 +37,9 @@ freezes and verifies inference trials using request histories and provider IDs.
 [Results and scope](evaluation/ppc-live/2026-11-24/README.md) ·
 [Offline experiment ZIP](evaluation/ppc-live/ppc-live-2026-11-24.zip).
 
+[JavaScript gate API](gate-js/README.md) includes a Node CLI, AI tool schemas,
+PPC parity checks, and TeamBuilding action-gate tests for revision-bound receipts.
+
 ## Research practice
 
 B-Tests is part of a distinctive, independently developed approach to making AI

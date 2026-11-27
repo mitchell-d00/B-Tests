@@ -1,0 +1,17 @@
+{
+  "revision": "R7",
+  "direction": {
+    "id": "DIR-R7",
+    "grants": [
+      { "action": "run-smoke", "revision": "R7" },
+      { "action": "deploy", "revision": "R7" }
+    ]
+  },
+  "requirements": {
+    "run-smoke": [],
+    "deploy": ["post-merge-smoke"]
+  },
+  "checks": [
+    { "id": "SMOKE-P7", "revision": "P7", "check": "post-merge-smoke", "status": "passed" }
+  ]
+}
